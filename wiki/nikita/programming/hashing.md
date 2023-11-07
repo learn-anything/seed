@@ -1,0 +1,87 @@
+# Hashing
+
+## Links
+
+- [xxHash](https://github.com/Cyan4973/xxHash) - Extremely fast non-cryptographic hash algorithm.
+- [Fairly tale cryptography 2: hashes](https://dominictarr.com/post/154769946347/fairly-tale-cryptography-2-hashes)
+- [FarmHash](https://github.com/google/farmhash) - Family of hash functions.
+- [Articles on hashing implementations](http://codecapsule.com/tag/hash-table/)
+- [Fast and Scalable Minimal Perfect Hash Functions in Rust](https://github.com/10XGenomics/rust-boomphf)
+- [Robin Map](https://github.com/Tessil/robin-map) - C++ implementation of a fast hash map and hash set using robin hood hashing.
+- [Robin Hood Hashing](https://programming.guide/robin-hood-hashing.html)
+- [Auto-Encoding Twin-Bottleneck Hashing](https://github.com/ymcidence/TBH)
+- [Shenanigans With Hash Tables (2019)](https://thume.ca/2019/07/29/shenanigans-with-hash-tables/)
+- [SMhasher](https://github.com/rurban/smhasher) - Hash function quality and speed tests.
+- [Concurrent Hash Tables: Fast and General](https://dl.acm.org/doi/pdf/10.1145/3309206)
+- [SHA-256 Animation](https://github.com/in3rsha/sha256-animation) ([HN](https://news.ycombinator.com/item?id=23165333))
+- [SMHasher](https://github.com/aappleby/smhasher) - Test suite designed to test the distribution, collision, and performance properties of non-cryptographic hash functions.
+- [wyhash](https://github.com/wangyi-fudan/wyhash) - Dream fast hash function and random number generators that passed SMHasher, BigCrush and practrand. ([HN](https://news.ycombinator.com/item?id=23282754))
+- [FunctionSimSearch](https://github.com/googleprojectzero/functionsimsearch) - Example C++ code to demonstrate how to do SimHash-based similarity search over CFGs extracted from disassemblies.
+- [HighwayHash](https://github.com/minio/highwayhash) - Native Go version of HighwayHash with optimized assembly implementations on Intel and ARM.
+- [hashring](https://github.com/serialx/hashring) - Implements consistent hashing that can be used when the number of server nodes can increase or decrease (like in memcached).
+- [t1ha](https://github.com/erthink/t1ha) - One of the fastest hash functions.
+- [hashmap.c](https://github.com/tidwall/hashmap.c) - Hash map implementation in C.
+- [Hashmaps Benchmarks (2019)](https://martin.ankerl.com/2019/04/01/hashmap-benchmarks-01-overview/)
+- [tsip](https://github.com/dgryski/tsip) - Go, amd64, C, and Rust implemtations of a small fast string hashing function.
+- [High Speed Hashing for Integers and Strings (2020)](https://arxiv.org/pdf/1504.06804.pdf)
+- [Optimizing 128-bit Division (2020)](https://danlark.org/2020/06/14/128-bit-division/)
+- [Looks Like It [Perceptual hash algorithms]](http://www.hackerfactor.com/blog/index.php?/archives/432-Looks-Like-It.html)
+- [Ask HN: Is There a Known Recursive Hash? (2020)](https://news.ycombinator.com/item?id=24915731)
+- [aHash](https://github.com/tkaitchuck/aHash) - Fastest, DOS resistant hash currently available in Rust.
+- [HashSearch](https://github.com/bee-san/HashSearch) - Searches Hash APIs and Google to crack your hash quickly.
+- [Rust library for homomorphic hashing](https://github.com/benwr/bromberg_sl2) ([Lobsters](https://lobste.rs/s/phm3v2/rust_library_for_homomorphic_hashing))
+- [SRI Hash Generator](https://www.srihash.org/)
+- [Hash, displace, and compress](http://cmph.sourceforge.net/papers/esa09.pdf) ([Code](https://gist.github.com/pervognsen/b21f6dd13f4bcb4ff2123f0d78fcfd17))
+- [Hashids](https://hashids.org/) - Generate short unique ids from integers. ([JS Code](https://github.com/niieani/hashids.js)) ([Go Code](https://github.com/speps/go-hashids))
+- [Simhashing (hopefully) made simple (2012)](https://ferd.ca/simhashing-hopefully-made-simple.html)
+- [hash-wasm](https://github.com/Daninet/hash-wasm) - Lightning fast hash functions using hand-tuned WebAssembly binaries.
+- [Comparing ahash to other hashing algorithms](https://github.com/tkaitchuck/aHash/blob/master/compare/readme.md) ([Lobsters](https://lobste.rs/s/jitsly/comparing_ahash_other_hashing))
+- [Consistent Hashing: Algorithmic Tradeoffs (2018)](https://medium.com/@dgryski/consistent-hashing-algorithmic-tradeoffs-ef6b8e2fcae8)
+- [How to implement a hash table (in C) (2021)](https://benhoyt.com/writings/hash-table-in-c/) ([HN](https://news.ycombinator.com/item?id=26590234))
+- [Live-coding a linked hash map in Rust (2018)](https://www.youtube.com/watch?v=k6xR2kf9hlA)
+- [Representing SHA-256 Hashes As Avatars (2021)](https://francoisbest.com/posts/2021/hashvatars) ([HN](https://news.ycombinator.com/item?id=26861728))
+- [Introduction to Locality-Sensitive Hashing (2018)](http://tylerneylon.com/a/lsh1/) ([HN](https://news.ycombinator.com/item?id=27614381))
+- [An efficient way to make hash maps with insertion ordering (2021)](https://blog.toit.io/hash-maps-that-dont-hate-you-1a96150b492a) ([Lobsters](https://lobste.rs/s/s9geyj/hash_maps_don_t_hate_you)) ([HN](https://news.ycombinator.com/item?id=27698059))
+- [Meow Hash](https://github.com/cmuratori/meow_hash) - Fast hash taking 128 bytes of seed and producing 128 bits of output. ([Cryptanalysis of Meow Hash](https://peter.website/meow-hash-cryptanalysis))
+- [The Problem with Perceptual Hashes (2021)](https://rentafounder.com/the-problem-with-perceptual-hashes/) ([HN](https://news.ycombinator.com/item?id=28091750))
+- [An Introduction to Hashing in the Era of Machine Learning (2018)](https://blog.bradfieldcs.com/an-introduction-to-hashing-in-the-era-of-machine-learning-6039394549b0)
+- [AppleNeuralHash2ONNX](https://github.com/AsuharietYgvar/AppleNeuralHash2ONNX) - Convert Apple NeuralHash model for CSAM Detection to ONNX. ([HN](https://news.ycombinator.com/item?id=28219068)) ([Reddit](https://www.reddit.com/r/MachineLearning/comments/p6hsoh/p_appleneuralhash2onnx_reverseengineered_apple/))
+- [Haraka](https://github.com/kste/haraka) - Secure and efficient short-input hash function.
+- [borsh](https://github.com/near/borsh) - Binary Object Representation Serializer for Hashing.
+- [Less Hashing, Same Performance: Building a Better Bloom Filter](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.72.2442&rep=rep1&type=pdf)
+- [Implementing Hash Tables in C (2021)](https://www.andreinc.net/2021/10/02/implementing-hash-tables-in-c-part-1) ([HN](https://news.ycombinator.com/item?id=28889442))
+- [pHash](https://github.com/aetilius/pHash) - Open source perceptual hash library. ([Web](https://www.phash.org/))
+- [Consistent Hashing for Dummies (2021)](https://www.franzoni.eu/consistent-hashing-for-dummies/)
+- [Meow Hash](https://mollyrocket.com/meowhash) ([HN](https://news.ycombinator.com/item?id=29038813))
+- [Poseidon Hash](https://www.poseidon-hash.info/) - ZK-friendly Hashing.
+- [Neptune](https://github.com/filecoin-project/neptune) - Rust implementation of the Poseidon hash function tuned for Filecoin.
+- [On the Optimal Time/Space Tradeoff for Hash Tables (2021)](https://arxiv.org/pdf/2111.00602.pdf)
+- [Hash collisions and their exploitations](https://github.com/corkami/collisions)
+- [Introducing Consistent Hashing (2020)](https://itnext.io/introducing-consistent-hashing-9a289769052e)
+- [Reversing an integer hash function](https://taxicat1.github.io/hash6432shift_inversion.html)
+- [Learning to Break Deep Perceptual Hashing: The Use Case NeuralHash (2022)](https://arxiv.org/abs/2111.06628)
+- [multihash](https://github.com/multiformats/multihash) - Protocol for differentiating outputs from various well-established cryptographic hash functions, addressing size + encoding considerations.
+- [SHA-256 explained step-by-step visually](https://sha256algorithm.com/) ([Code](https://github.com/dmarman/sha256algorithm)) ([HN](https://news.ycombinator.com/item?id=30244534))
+- [ImageHash](https://github.com/JohannesBuchner/imagehash) - Python Perceptual Image Hashing Module. Image hashes tell whether two images look nearly identical.
+- [UMASH](https://github.com/backtrace-labs/umash) - Fast almost universal 64-bit string hash.
+- [SharedHashFile: Share Hash Tables With Stable Key Hints Stored In Memory Mapped Files Between Arbitrary Processes](https://github.com/simonhf/sharedhashfile)
+- [Hash Function Prospector](https://github.com/skeeto/hash-prospector) - Automated integer hash function discovery.
+- [md5-tools](https://github.com/volution/md5-tools) - Lightweight Rust MD5/SHA tools.
+- [The many flavors of hashing (2022)](https://notes.volution.ro/v1/2022/07/notes/1290a79c/) ([Lobsters](https://lobste.rs/s/prlebz/many_flavors_hashing)) ([HN](https://news.ycombinator.com/item?id=32281459))
+- [A Fast, Minimal Memory, Consistent Hash Algorithm (2014)](https://arxiv.org/abs/1406.2294)
+- [Implementing Bitcask, a Log-Structured Hash Table (2022)](https://healeycodes.com/implementing-bitcask-a-log-structured-hash-table) ([Code](https://github.com/healeycodes/bitcask-lite))
+- [The image in this post displays its own MD5 hash](https://retr0.id/notice/ANqlvFZD1eIqjmRiFc) ([HN](https://news.ycombinator.com/item?id=32956964))
+- [Faster hash table probing (2022)](https://outerproduct.net/trivial/2022-10-06_hash.html)
+- [Consistent Hashing (2022)](https://www.youtube.com/watch?v=UF9Iqmg94tk)
+- [Hash-based digital signatures (almost) from scratch (2022)](https://medium.com/@georgwiese/hash-based-digital-signatures-almost-from-scratch-da57e54dd774)
+- [Hashing Apples, Bananas and Cherries (2022)](https://crypto.junod.info/posts/recursive-hash/)
+- [Homomorphic hashing for secure update propagation (2019)](https://engineering.fb.com/2019/03/01/security/homomorphic-hashing/)
+- [Introduction to Locality-Sensitive Hashing (2018)](https://tylerneylon.com/a/lsh1/) ([HN](https://news.ycombinator.com/item?id=34102868))
+- [Perfect Hash](https://github.com/tpn/perfecthash) - Performant, parallel, probabilistic, random acyclic-graph, low-latency, perfect hash generation library.
+- [The Smallest Hash Table (2023)](https://orlp.net/blog/worlds-smallest-hash-table/) ([HN](https://news.ycombinator.com/item?id=35037690))
+- [Hash Tables FTW (2023)](http://www.os2museum.com/wp/hash-tables-ftw/)
+- [Optimizing Open Addressing (2023)](https://thenumb.at/Hashtables/) ([Lobsters](https://lobste.rs/s/vnpupo/optimizing_open_addressing))
+- [The World's Simplest Lock-Free Hash Table (2013)](https://preshing.com/20130605/the-worlds-simplest-lock-free-hash-table/)
+- [Modern perfect hashing for strings (2023)](http://0x80.pl/notesen/2023-04-30-lookup-in-strings.html)
+- [Hash Functions](https://papa.bretmulvey.com/post/124027987928/hash-functions) ([HN](https://news.ycombinator.com/item?id=36176461))
+- [Hashing](https://samwho.dev/hashing/) ([HN](https://news.ycombinator.com/item?id=36401747))

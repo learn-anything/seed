@@ -1,0 +1,675 @@
+---
+title: CSS
+---
+
+# [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+[Magic of CSS](https://adamschwartz.co/magic-of-css/), [CSS for JS Developers](https://courses.joshwcomeau.com/css-for-js) & [Debugging CSS](https://debuggingcss.com/) are nice resources. [Every Layout](https://every-layout.dev/) is neat overview of most common layouts. [Modern CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/), [Understanding Layout Algorithms](https://www.joshwcomeau.com/css/understanding-layout-algorithms/) & [Defensive CSS](https://ishadeed.com/article/defensive-css/) are good reads. [Ahmad Shadeed](https://ishadeed.com/)'s blog is incredible.
+
+Often use [these CSS loaders](https://uiball.com/loaders/). [Open Props](https://open-props.style/) are amazing. Trying out new features now from recent [State of CSS](https://www.youtube.com/watch?v=Xy9ZXRRgpLk).
+
+Recently been loving using [UnoCSS](https://uno.antfu.me/) together with [styled components pattern](https://github.com/solidjs/solid-styled-components). [Be the browser’s mentor, not its micromanager](https://www.youtube.com/watch?v=5uhIiI9Ld5M) is a must watch on building responsive websites.
+
+## Nice templates
+
+- [Stripe Homepage Website Made with Tailwind CSS](https://codepen.io/andreyazimov/pen/abWWeKp)
+
+## Code
+
+```css
+<!-- unset styles -->
+all: unset
+```
+
+## Notes
+
+- [Grid for layout, Flexbox for components](https://ishadeed.com/article/grid-layout-flexbox-components/)
+- ID's are unique.
+  - Each element can have only one ID.
+  - Each page can have only one element with that ID.
+- Classes are NOT unique.
+  - You can use the same class on multiple elements.
+  - You can use multiple classes on the same element.
+- [The DOM is just a tree of objects. CSS selects parts of that tree and applies attributes to those objects. It's all just code, it's just a shorthand for adding a bunch of attributes to a bunch of objects.](https://www.reddit.com/r/javascript/comments/9jpvon/do_you_even_need_a_css_framework/)
+- [Always design your CSS format from the inside out](https://www.quora.com/What-is-the-best-way-to-prevent-divs-from-overlapping-I-have-3-divs-The-First-div-changes-its-size-and-overlaps-the-second-one-which-is-a-set-of-images)
+  - format the elements within their container so that they look correct regardless of the size of the container.
+  - similarly format those containers within their own containers
+  - repeat until `<body>` is the containers
+  - never use absolute widths (px, in, cm, etc.) for anything
+- body tag takes up the whole width and height of the browser screen.
+- [Hex colors are super common... and inconvenient as heck. Try hsl instead.](https://twitter.com/sulco/status/1295336749552537600)
+- [If you make it a rule to always use attributes instead of classes to apply CSS to element states (not variants), you’ll force yourself to make your app more accessible (Similar to React Testing Library). If you’re using CSS-in-JS this also helps create more static styles.](https://twitter.com/buildsghost/status/1389225898193293313)
+- [I feel like negative margins are probably the most under-used layout feature. Layouts become so much more manageable when an element's size in the document flow is decoupled from its visible size on screen.](https://twitter.com/markdalgleish/status/1499139693652606977)
+- [`overflow: clip` is faster than `overflow: hidden`](https://twitter.com/Steve8708/status/1503864654329958400)
+- [If your site has a dark theme, make sure to set: `:root {color-scheme: dark}` So scroll bars are also dark.](https://twitter.com/diegohaz/status/1529543787311144961)
+- [Sometimes I’ll make a rule that highlights everything, and then progressively refine the selector until it hits the things I want it to.](https://twitter.com/tyroverby/status/1629103606531076104)
+
+## Links
+
+- [Code Guide](https://codeguide.co/) - Standards for developing consistent, flexible, and sustainable HTML and CSS.
+- [CSS Reference](https://cssreference.io/) - Free visual guide to the most popular CSS properties. ([Code](https://github.com/jgthms/css-reference))
+- [CSS Blocks](https://github.com/linkedin/css-blocks) - High performance, maintainable stylesheets.
+- [Opticss](https://github.com/linkedin/opticss) - CSS Optimizer.
+- [CSS Puns](https://saijogeorge.com/css-puns/)
+- [Magic of CSS](https://adamschwartz.co/magic-of-css/) ([Code](https://github.com/adamschwartz/magic-of-css))
+- [Min](https://github.com/owenversteeg/min) - World's smallest (995 bytes) CSS framework.
+- [Emotion](https://emotion.sh/) - Performant and flexible CSS-in-JS library.
+- [Why We Use Styled Components at Decisiv](https://medium.com/@_alanbsmith/why-we-use-styled-components-at-decisiv-a8ac6e1507ac)
+- [The case for CSS modules - Mark Dalgleish](https://www.youtube.com/watch?v=zR1lOuyQEt8)
+- [Michael Chan - Inline Styles: themes, media queries, contexts, & when it's best to use CSS (2015)](https://www.youtube.com/watch?v=ERB1TJBn32c)
+- [Understanding the CSS box model for inline elements](https://hacks.mozilla.org/2015/03/understanding-inline-box-model/)
+- [astroturf](https://github.com/4Catalyzer/astroturf) - An "artificial" css-in-js for those that want it all.
+- [Pesticide](https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh) - Kill your CSS layout bugs. ([Code](https://github.com/mrmrs/pesticide))
+- [Spectre](https://github.com/picturepan2/spectre) - Lightweight, Responsive and Modern CSS Framework.
+- [Tachyons](https://github.com/tachyons-css/tachyons) - Functional CSS for humans.
+- [CSS Animation 101](https://github.com/cssanimation/css-animation-101)
+- [Understanding static and relative positioning](https://webplatform.github.io/docs/tutorials/static_and_relative_positioning/)
+- [Tailwind utility-first CSS framework](https://tailwindcss.com/docs/what-is-tailwind/)
+- [CSStype](https://github.com/frenic/csstype) - Strict TypeScript and Flow types for style based on MDN data.
+- [normalize.css](https://github.com/necolas/normalize.css) - Modern alternative to CSS resets.
+- [app-reset.css](https://github.com/benfrain/app-reset) - Minimal set of reset CSS specifically for web applications.
+- [Julia Muzafarova CSS Pens](https://codepen.io/miocene/)
+- [CSS Modules](https://github.com/css-modules/css-modules) - Documentation about css-modules.
+- [nano-css](https://github.com/streamich/nano-css) - CSS-in-JS library that you can actually use in production. Motto of nano-css is simple: create the smallest possible CSS-in-JS library and provide all features of any other library through addons.
+- [Why I Write CSS in JavaScript (2019)](https://mxstbr.com/thoughts/css-in-js/)
+- [Styled System](https://github.com/jxnblk/styled-system) - Responsive, theme-based style props for building design systems with React.
+- [Rebass](https://github.com/rebassjs/rebass) - React primitive UI components built with styled-system..
+- [TypeStyle](https://github.com/typestyle/typestyle) - Making CSS type safe.
+- [The Three Tenets of Styled System (2019)](https://jxnblk.com/blog/the-three-tenets-of-styled-system/)
+- [DropCSS](https://github.com/leeoniya/dropcss) - Simple, thorough and fast unused-CSS cleaner.
+- [CSS Standardization - The State of the Web with Jen Simmons (2019)](https://www.youtube.com/watch?v=TQ7NqpFMbFs)
+- [Water.css](https://github.com/kognise/water.css) - Just-add-css collection of styles to make simple websites just a little nicer. ([HN](https://news.ycombinator.com/item?id=19593866))
+- [Loaders.css](https://github.com/ConnorAtherton/loaders.css) - Delightful and performance-focused pure css loading animations.
+- [Artem Sapegin: Custom CSS is the Path to Inconsistent UI (2018)](https://www.youtube.com/watch?v=t5VTLwAias8)
+- [Learn CSS Layout the pedantic way](http://book.mixu.net/css/) ([Code](https://github.com/mixu/cssbook))
+- [CSSFX](https://cssfx.netlify.app/) - Beautifully simple click-to-copy CSS effects. ([Code](https://github.com/jolaleye/cssfx))
+- [CSS Working Group Wiki](https://wiki.csswg.org/)
+- [CSS Working Group Editor Drafts](https://drafts.csswg.org/) ([Code](https://github.com/w3c/csswg-drafts))
+- [CSS Houdini](https://developer.mozilla.org/en-US/docs/Web/Houdini) - Low-level APIs that exposes parts of the CSS engine. ([HN](https://news.ycombinator.com/item?id=27131897))
+- [CSS Houdini Experiments](https://css-houdini.rocks/)
+- [CSS-Only Chat](https://github.com/kkuchta/css-only-chat) - Truly monstrous async web chat using no JS whatsoever on the frontend.
+- [Theme UI](https://github.com/system-ui/theme-ui) - Build consistent, themeable React UIs based on design system constraints and design tokens.
+- [Nice comment on problems & solutions to writing CSS](https://github.com/tachyons-css/tachyons/issues/12#issuecomment-309565525)
+- [tachyons tldr](https://tachyons-tldr.now.sh/#/classes)
+- [A real-life journey into the opinionated world of 'utility-first' CSS (2018)](https://www.youtube.com/watch?v=2-q4asoHUqU)
+- [CSS and Scalability (2016)](https://mrmrs.cc/writing/scalable-css/)
+- [cssdb](https://cssdb.org/) - Database of staged CSS features. ([Code](https://github.com/csstools/cssdb))
+- [Relearn CSS layout: Every Layout](https://absolutely.every-layout.dev/) - How to better harness the built-in algorithms that power browsers and CSS. ([HN](https://news.ycombinator.com/item?id=20196061)) ([Blog](https://every-layout.dev/blog/algorithmic-design/))
+- [Basscss](https://github.com/basscss/basscss) - Low-level CSS Toolkit.
+- [PurgeCSS](https://github.com/FullHuman/purgecss) - Remove unused css.
+- [CSS Remedy](https://github.com/mozdevs/cssremedy) - Start your project with a remedy for the technical debt of CSS.
+- [CSS Camera](https://github.com/WoodNeck/css-camera) - New way to see a web page with CSS3 3D transform.
+- [Devices.css](https://github.com/picturepan2/devices.css) - Modern devices in pure CSS.
+- [clean-css](https://github.com/jakubpawlowicz/clean-css) - Fast and efficient CSS optimizer for Node.js platform and any modern browser.
+- [25 Days of CSS Animations: Teaching Myself CSS through Motion Design (2019)](https://dev.to/acupoftee/25-days-of-css-animations-teaching-myself-css-through-motion-design-4l10)
+- [TACHYONS theme editor](https://components.ai/tachyons-theme/)
+- [Starter files, final projects and FAQ for Advanced CSS course](https://github.com/jonasschmedtmann/advanced-css-course)
+- [Pure CSS – Lace](https://diana-adrianne.com/purecss-lace/) ([HN](https://news.ycombinator.com/item?id=21440508))
+- [Pure CSS Drawing Essentials](https://diana-adrianne.com/how/) - Top 5 CSS properties I rely on to produce Pure CSS art.
+- [Artem Sapegin: Say Hello to Box, Flex and Stack: Layouts in the Component Era (2019)](https://www.youtube.com/watch?v=zvuKuFgp96o)
+- [CSS Utility Classes and "Separation of Concerns" (2017)](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/) ([HN](https://news.ycombinator.com/item?id=21553496))
+- [Роман Дворнов — CSS definition syntax (Russian)](https://www.youtube.com/watch?v=8kjE1n6mQ2s)
+- [The Power (and Fun) of Scope with CSS Custom Properties (2019)](https://css-tricks.com/the-power-and-fun-of-scope-with-css-custom-properties/)
+- [CSS Architecture for Modern JavaScript Applications (2019)](https://www.madebymike.com.au/writing/css-architecture-for-modern-web-applications/)
+- [Browser Default Styles](https://browserdefaultstyles.com/)
+- [The box model is not layout (2019)](https://kilianvalkhof.com/2019/design/the-box-model-is-not-layout/)
+- [MDN CSS Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
+- [Smooth CSS shadows generator](https://brumm.af/shadows)
+- [CSS Layout](https://csslayout.io/patterns) - Collection of popular layouts and patterns made with CSS. ([Code](https://github.com/phuoc-ng/csslayout))
+- [CSS Protips](https://github.com/AllThingsSmitty/css-protips) - Collection of tips to help take your CSS skills pro.
+- [Focus Overlay](https://github.com/mmahandev/FocusOverlay) - Library for creating animated overlays on focused elements.
+- [Six Questions to Understand the CSS Box Model (2017)](https://medium.com/launch-school/https-medium-com-dembasiby-understanding-the-css-box-model-b005a82593a6)
+- [High-level advice and guidelines for writing sane, manageable, scalable CSS](https://cssguidelin.es/)
+- [CSS Circles (2019)](https://cloudfour.com/thinks/css-circles/)
+- [CSShake](https://github.com/elrumordelaluz/csshake) - CSS classes to move your DOM.
+- [JSS](https://github.com/cssinjs/jss) - Authoring tool for CSS which uses JavaScript as a host language.
+- [List of 300+ CSS properties](https://www.web4college.com/css-play/index.php)
+- [Magical Rainbow Gradients with CSS Houdini and React Hooks (2020)](https://www.joshwcomeau.com/posts/rainbow-button/)
+- [Shapy](https://shapy.app/) - Gradient shape editor that helps you discover and explore the power of CSS gradients. ([Code](https://github.com/vicbergquist/shapy))
+- [CSS clip-path maker](https://bennettfeely.com/clippy/)
+- [CSS Scroll Shadows](https://css-scroll-shadows.now.sh/) - Adjust the controls and see the CSS scroll shadows change. ([Code](https://github.com/stefanjudis/css-scroll-shadows/))
+- [CSS Triangle Generator](http://apps.eky.hk/css-triangle-generator/)
+- [Tint & Shade Generator](https://maketintsandshades.com/) - Display tints and shades of a given hex color in 10% increments.
+- [Writing efficient CSS selectors (2011)](https://csswizardry.com/2011/09/writing-efficient-css-selectors/)
+- [A Modern CSS Reset (2019)](https://hankchizljaw.com/wrote/a-modern-css-reset/) ([Code](https://github.com/hankchizljaw/modern-css-reset))
+- [The CSS Cascade](https://wattenberger.com/blog/css-cascade) - How browsers resolve competing CSS styles.
+- [Intrinsic Sizing In CSS (2020)](https://ishadeed.com/article/intrinsic-sizing-in-css/)
+- [CSS in Real Life blog](https://css-irl.info/)
+- [Old CSS, new CSS (2020)](https://eev.ee/blog/2020/02/01/old-css-new-css/) ([HN](https://news.ycombinator.com/item?id=22215931))
+- [Learn CSS Positioning](https://ishadeed.com/article/learn-css-positioning/)
+- [CSS Triggers](https://csstriggers.com/)
+- [Bounce.js](http://bouncejs.com/) - Tool and JS library that lets you create beautiful CSS3 powered animations. ([Code](https://github.com/tictail/bounce.js))
+- [Selectors Explained](https://kittygiraudel.github.io/selectors-explained/) - Translate CSS selectors into plain English. ([Code](https://github.com/KittyGiraudel/selectors-explained))
+- [Simpsons in CSS](https://pattle.github.io/simpsons-in-css/) ([Code](https://github.com/pattle/simpsons-in-css)) ([HN](https://news.ycombinator.com/item?id=22429958))
+- [CSS-Element-Queries](http://marcj.github.io/css-element-queries/) - High-speed element dimension/media queries in valid css. ([Code](https://github.com/marcj/css-element-queries))
+- [Hint.css](https://kushagra.dev/lab/hint/) - Pure CSS tooltip library for your lovely websites. ([Code](https://github.com/chinchang/hint.css))
+- [Intrinsic Sizing In CSS (2020)](https://ishadeed.com/article/intrinsic-sizing-in-css/)
+- [CSS Zen Garden](http://www.csszengarden.com/) ([HN](https://news.ycombinator.com/item?id=22627018))
+- [CSS3 Patterns Gallery](https://leaverou.github.io/css3patterns/) ([Code](https://github.com/LeaVerou/css3patterns))
+- [All CSS named colors on a single page](https://sapegin.github.io/csscolors/) ([Code](https://github.com/sapegin/csscolors))
+- [CSS Findings From The New Facebook Design (2020)](https://ishadeed.com/article/new-facebook-css/)
+- [MoreToggles.css](https://jnkkkk.github.io/MoreToggles.css/) - Pure CSS library that provides you with a variety of nice-looking toggles. ([Code](https://github.com/JNKKKK/MoreToggles.css))
+- [Styling Ordered Lists with CSS Counters (2020)](https://joshwcomeau.com/css/styling-ordered-lists-with-css-counters/)
+- [postcss-trash-killer](https://github.com/Rammfall/postcss-trash-killer) - Postcss plugin which wil be remove all unused css.
+- [Solved with CSS! Logical Styling Based on the Number of Given Elements (2018)](https://css-tricks.com/solved-with-css-logical-styling-based-on-the-number-of-given-elements/)
+- [CSS Doodle](https://css-doodle.com/) - Web component for drawing patterns with CSS. ([Code](https://github.com/css-doodle/css-doodle))
+- [Sakura](https://github.com/oxalorg/sakura) - Minimal classless css framework / theme.
+- [Sakura Bookmarklet](https://oxal.org/projects/sakura/bookmark) - Enable Sakura.css on any website.
+- [Skeleton](http://getskeleton.com/) - Dead Simple, Responsive Boilerplate for Mobile-Friendly Development. ([Code](https://github.com/dhg/Skeleton))
+- [Do We Actually Need Specificity In CSS? (2015)](https://philipwalton.com/articles/do-we-actually-need-specificity-in-css/) ([HN](https://news.ycombinator.com/item?id=22897510))
+- [The Simplicity of Specificity (2015)](https://codepen.io/davidkpiano/post/the-simplicity-of-specificity)
+- [Concentric-CSS](https://github.com/brandon-rhodes/Concentric-CSS) - Standard order for CSS properties that starts at the outer edge of the box model and moves inward.
+- [Pattern.css](https://bansal.io/pattern-css) - CSS only library to fill your empty background with beautiful patterns. ([Code](https://github.com/bansal-io/pattern.css)) ([HN](https://news.ycombinator.com/item?id=22933697))
+- [Watched Box](https://github.com/Heydon/watched-box) - Easiest way to get working with ResizeObserver and creating container queries with JavaScript.
+- [Hamburgers](https://jonsuh.com/hamburgers/) - Tasty CSS-animated Hamburgers. ([Code](https://github.com/jonsuh/hamburgers))
+- [Hero Generator](https://hero-generator.netlify.app/) - Create a nice hero image for your site or app. ([Code](https://github.com/sdras/hero-generator))
+- [PrefaceCSS](https://cluzier.github.io/PrefaceCSS/dist/index.html) - CSS Boilerplate for minimalists. ([Code](https://github.com/cluzier/PrefaceCSS))
+- [You Need to Know CSS](https://lhammer.cn/You-need-to-know-css/#/) - CSS tricks web developers need to know. ([Code](https://github.com/l-hammer/You-need-to-know-css))
+- [Pure CSS Landscape - An Evening in Southwold](https://codepen.io/ivorjetski/pen/xxGYWQG) ([Video](https://www.youtube.com/watch?v=rUCVBNNyjC4))
+- [Modern CSS Solutions](https://moderncss.dev/) ([Code](https://github.com/5t3ph/moderncss-dot-dev))
+- [A Single Div](https://a.singlediv.com/) - CSS drawings with only one HTML element. ([Code](https://github.com/lynnandtonic/a-single-div))
+- [CSSWG meeting minutes](https://lists.w3.org/Archives/Public/www-style/)
+- [new.css](https://newcss.net/) - Classless CSS framework to write modern websites using only HTML. ([Code](https://github.com/xz/new.css)) ([HN](https://news.ycombinator.com/item?id=23220081)) ([Night Theme](https://newcss.net/theme/night/))
+- [CSS Refresher Notes](https://github.com/vasanthk/css-refresher-notes)
+- [Destyle.css](https://nicolas-cusan.github.io/destyle.css/) - Opinionated reset stylesheet that provides a clean slate for styling your html. ([Code](https://github.com/nicolas-cusan/destyle.css))
+- [Fast Browser Animations (2020)](https://mguida.com/blog/fast-browser-animations/)
+- [Digital nesting](https://github.com/devonzuegel/digital-nesting) - Devon's collection of custom CSS.
+- [React CSS Loaders](https://lucasbassetti.com.br/react-css-loaders/) - Collection of pure CSS React loading components. ([Code](https://github.com/LucasBassetti/react-css-loaders))
+- [css-select](https://github.com/fb55/css-select) - CSS selector compiler/engine.
+- [Introducing CSS Scroll Snap Points (2019)](https://css-tricks.com/introducing-css-scroll-snap-points/)
+- [Ask an expert: Why is CSS . . . the way it is?](https://increment.com/frontend/ask-an-expert-why-is-css-the-way-it-is/) ([HN](https://news.ycombinator.com/item?id=23915263))
+- [Glue](https://github.com/jorgebastida/glue) - Simple command line tool to generate CSS sprites.
+- [stylis.js](https://github.com/thysultan/stylis.js) - Light–weight CSS Preprocessor.
+- [An Overview of CSS: An Art, a Science, a Nightmare (2019)](https://www.taniarascia.com/overview-of-css-concepts/)
+- [Basic.css](https://vladocar.github.io/Basic.css/) - Classless CSS Starter File. ([HN](https://news.ycombinator.com/item?id=23402134)) ([Code](https://github.com/vladocar/Basic.css))
+- [Tufte CSS](https://edwardtufte.github.io/tufte-css/) - Simple, with well-set typography, extensive sidenotes, and tight integration of graphics and charts. ([Code](https://github.com/edwardtufte/tufte-css))
+- [PurifyCSS](https://github.com/purifycss/purifycss) - Remove unused CSS. Also works with single-page apps.
+- [Adding dark mode support (2020)](https://www.garrensmith.com/blogs/adding-dark-mode)
+- [SelectorGadget](https://selectorgadget.com/) - Point and click CSS selectors. ([Code](https://github.com/cantino/selectorgadget))
+- [The Mad Magazine Fold-In Effect in CSS (2020)](https://thomaspark.co/2020/06/the-mad-magazine-fold-in-effect-in-css/) ([HN](https://news.ycombinator.com/item?id=23457930))
+- [CUBE CSS](https://cube.fyi/) - CSS methodology that’s orientated towards simplicity, pragmatism and consistency. ([Article](https://piccalil.li/blog/cube-css/))
+- [Awesome CSS Variables](https://github.com/notoriousb1t/awesome-css-variables)
+- [Critical-ish CSS Extraction (2020)](https://giuseppegurgone.com/critical-css-extraction/)
+- [7 CSS properties I had no idea about (2020)](https://dev.to/tlakomy/7-css-properties-you-had-no-idea-about-4e75)
+- [concrete.css](https://github.com/louismerlin/concrete.css) - Simple and to the point CSS microframework. ([Web](https://concrete.style/))
+- [Sass](https://github.com/sass/sass) - Extension of CSS, adding nested rules, variables, mixins, selector inheritance, and more.
+- [Color Theme Switcher (2020)](https://mxb.dev/blog/color-theme-switcher/)
+- [CSS Tips for New Devs (2020)](https://amberwilson.co.uk/blog/css-tips-for-new-devs/)
+- [The Cognitive Complexity of CSS (2020)](https://ginseng.ai/blog/the-cognitive-complexity-of-css/)
+- [Drop-in Minimal CSS](https://dohliam.github.io/dropin-minimal-css/) - Overview of barebones drop-in minimal CSS boilerplate frameworks. ([Code](https://github.com/dohliam/dropin-minimal-css))
+- [CSS Road Guide](https://lyty.dev/css/index.html)
+- [paper.css](https://thesephist.github.io/paper.css/) - Lightweight, modern CSS to add some flair to your web-things. ([Code](https://github.com/thesephist/paper.css))
+- [Learn CSS From Scratch course](https://piccalil.li/course/learn-css-from-scratch/)
+- [CSS Design Awards](https://www.cssdesignawards.com/)
+- [Surprising Things That CSS Can Animate (2020)](https://codersblock.com/blog/the-surprising-things-that-css-can-animate/) ([HN](https://news.ycombinator.com/item?id=34451002))
+- [A Complete Guide to Dark Mode on the Web (2020)](https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/)
+- [Uncommon CSS Properties (2020)](https://ishadeed.com/article/uncommon-css/)
+- [1-Line Layouts](http://1linelayouts.glitch.me/) - 10 Modern CSS layout and sizing techniques that highlight just how robust and impactful a single-line of styling code can be. ([Article](https://web.dev/one-line-layouts/)) ([Lobsters](https://lobste.rs/s/qgbgab/ten_modern_layouts_one_line_css))
+- [The CSS Standardization Process](https://www.w3.org/Style/2011/CSS-process.en.html) ([HN](https://news.ycombinator.com/item?id=23736540))
+- [CSS News July 2020](https://www.smashingmagazine.com/2020/07/css-news-july-2020/)
+- [ZeroDivs](https://zerodivs.com/#/) - UI editor for single-element CSS illustrations. ([HN](https://news.ycombinator.com/item?id=23781559))
+- [Style Stage](https://stylestage.dev/) - Modern CSS showcase styled by community contributions. ([Code](https://github.com/5t3ph/stylestage)) ([Article](https://dev.to/5t3ph/announcing-style-stage-a-community-css-showcase-28cp))
+- [Learn CSS with CSS For Designers](https://cssfordesigners.com/) - Practical guide to CSS teaches you everything you need to know and nothing you don’t.
+- [Things I Wish I’d Known About CSS](https://cssfordesigners.com/articles/things-i-wish-id-known-about-css) ([HN](https://news.ycombinator.com/item?id=23868355))
+- [css-media-vars](https://propjockey.github.io/css-media-vars/) - Brand new way to write responsive CSS. Named breakpoints, DRY selectors, no scripts, no builds, vanilla CSS. ([HN](https://news.ycombinator.com/item?id=23865900)) ([Code](https://github.com/propjockey/css-media-vars))
+- [Renderization of Conic gradients (2020)](https://blogs.igalia.com/dpino/2020/06/11/renderization-of-conic-gradients/)
+- [PostCSS 100vh Fix](https://github.com/postcss/postcss-100vh-fix) - PostCSS plugin to fix height/min-height: 100vh on iOS.
+- [Infinite Scroll without Layout Shifts (2020)](https://addyosmani.com/blog/infinite-scroll-and-core-web-vitals/)
+- [Centering in CSS: A Complete Guide](https://css-tricks.com/centering-css-complete-guide/)
+- [awsm.css](https://github.com/igoradamenko/awsm.css) - Simple CSS library for semantic HTML markup.
+- [content-visibility](https://web.dev/content-visibility/) - New CSS property that boosts your rendering performance.
+- [Nailing the Perfect Contrast Between Light Text and a Background Image (2020)](https://css-tricks.com/nailing-the-perfect-contrast-between-light-text-and-a-background-image/)
+- [The Languages Which Almost Became CSS](https://eager.io/blog/the-languages-which-almost-were-css/)
+- [Incomplete List of Mistakes in the Design of CSS](https://wiki.csswg.org/ideas/mistakes)
+- [CSS Specificity calculator](https://polypane.app/css-specificity-calculator/)
+- [How I Structure My CSS (for Now) (2020)](https://matthiasott.com/notes/how-i-structure-my-css)
+- [Gradient Magic](https://www.gradientmagic.com/) - Fantastic and Unique CSS Gradients.
+- [CSS Weekly](https://css-weekly.com/)
+- [A Lightweight Masonry Solution (2020)](https://css-tricks.com/a-lightweight-masonry-solution/) ([CodePen](https://codepen.io/collection/DYRJxR))
+- [Enhancing User Experience With CSS Animations](https://stephaniewalter.design/blog/enhancing-user-experience-with-css-animations/)
+- [Make your first CSS art (2020)](https://nadialaasri.me/blog/make-your-first-css-art)
+- [The Thing With Leading in CSS (2020)](https://matthiasott.com/notes/the-thing-with-leading-in-css)
+- [Bahunya](https://github.com/Kimeiga/bahunya) - 10KB classless CSS framework with responsive typography, navbar, syntax highlighting, etc. ([Web](https://kimeiga.github.io/bahunya/))
+- [Flowing Text Around Images](https://calebhearth.com/flowing-text-around-images) ([Lobsters](https://lobste.rs/s/w6xe29/flowing_text_around_images))
+- [Debugging CSS](https://debuggingcss.com/) - Book with lots of tips and techniques on how to debug CSS the right way with easy and studied methods.
+- [Learn CSS Centering](https://ishadeed.com/article/learn-css-centering/)
+- [blocks.css](https://thesephist.github.io/blocks.css/) - Add some dimension to your page with blocks. ([Code](https://github.com/thesephist/blocks.css))
+- [Making a Rotating Icon Button in React (2020)](https://steveruiz.me/posts/rotating-icon-button)
+- [Finding The Root Cause of a CSS Bug (2020)](https://ishadeed.com/article/finding-the-root-cause/)
+- [CSS Demystified](https://cssdemystified.com/) - Start writing CSS with confidence.
+- [A Complete Guide to CSS Media Queries (2020)](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
+- [Custom bullets with CSS ::marker (2020)](https://web.dev/css-marker-pseudo-element/)
+- [Easing Functions Cheat Sheet](https://easings.net/) ([Code](https://github.com/ai/easings.net))
+- [Keyboard-Only Focus](https://www.kizu.ru/keyboard-only-focus/)
+- [:focus-visible Is Here (2020)](https://matthiasott.com/notes/focus-visible-is-here)
+- [In Defense of Utility-First CSS (2018)](https://frontstuff.io/in-defense-of-utility-first-css)
+- [PureCSS Character](https://diana-adrianne.com/purecss-character/) ([Code](https://github.com/cyanharlow/purecss-character))
+- [Balloon.css](https://kazzkiq.github.io/balloon.css/) - CSS tooltips for HTML elements. ([Code](https://github.com/kazzkiq/balloon.css))
+- [Blunt](https://github.com/f-prime/blunt/) - CSS framework strictly for layouts.
+- [How to Create a Realistic Motion Blur with CSS Transitions (2020)](https://css-tricks.com/how-to-create-a-realistic-motion-blur-with-css-transitions/)
+- [Link hover animation (circled)](https://codepen.io/aaroniker/pen/VwjeGLm)
+- [min(), max(), and clamp(): three logical CSS functions to use today (2020)](https://web.dev/min-max-clamp/)
+- [CSS Buttons](https://cssbuttons.vercel.app/) - Pure HTML & CSS Buttons For Web Development. ([Code](https://github.com/r1/cssbuttons))
+- [The State of CSS](https://stateofcss.com/) ([Code](https://github.com/StateOfJS/StateOfCSS-homepage))
+- [CSS Background Patterns](https://www.magicpattern.design/tools/css-backgrounds)
+- [Manipulating Colors With CSS Variables and HSL (2020)](https://codesalad.dev/blog/manipulating-colors-with-css-variables-and-hsl-16)
+- [CSS for JavaScript Developers](https://css-for-js.dev/) - Online course that teaches the fundamentals of CSS for React/Vue devs. ([How it was made](https://twitter.com/JoshWComeau/status/1369301593921888266))
+- [Custom CSS via Serverless Proxy (2020)](https://paco.sh/blog/custom-css-via-proxy)
+- [How to make CSS Animations (2020)](https://www.imaginarycloud.com/blog/how-to-make-css-animations/)
+- [Everything I Have Done to Make CSS Wizardry Fast](https://gumroad.com/l/yrUwX/earlybird)
+- [Simple Start to CSS variables (2020)](https://kentcdodds.com/blog/super-simple-start-to-css-variables)
+- [PostCSS CSS Variables](https://github.com/MadLittleMods/postcss-css-variables) - PostCSS plugin to transform CSS Custom Properties(CSS variables) syntax into a static representation.
+- [no.css](https://github.com/mdipierro/no.css) - Tiny CSS framework with almost no classes and some pure CSS effects.
+- [16 CSS Secrets to improve Web Designs (2020)](https://codecoda.com/en/blog/entry/16-css-secrets-to-improve-web-designs)
+- [Hell Yes! CSS!](https://wizardzines.com/zines/css/) - CSS Zines.
+- [Easing Gradients](https://larsenwork.com/easing-gradients/) - Create and preview your own easing gradients in CSS. ([Code](https://github.com/larsenwork/postcss-easing-gradients))
+- [CSSTree](https://github.com/csstree/csstree) - Tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations.
+- [CSS Scan Pro](https://cssscanpro.com/) - Re-imagined Devtools for web design.
+- [The Rules of Margin Collapse (2020)](https://www.joshwcomeau.com/css/rules-of-margin-collapse/)
+- [CSS Scroll Snap (2020)](https://ishadeed.com/article/css-scroll-snap/)
+- [Houdini.how](https://houdini.how/) ([HN](https://news.ycombinator.com/item?id=25361438)) ([Code](https://github.com/GoogleChromeLabs/houdini.how))
+- [Panzoom](https://github.com/timmywil/panzoom) - Library for panning and zooming elements using CSS transforms.
+- [Centering in CSS (2020)](https://web.dev/centering-in-css/) ([HN](https://news.ycombinator.com/item?id=25447511))
+- [modern-normalize](https://github.com/sindresorhus/modern-normalize) - Normalize browsers' default style.
+- [PostHTML Inline CSS](https://github.com/posthtml/posthtml-inline-css) - PostHTML plugin for inlining CSS to style attrs.
+- [Simple.css](https://simplecss.org/) - Classless CSS framework. ([Code](https://github.com/kevquirk/simple.css))
+- [css-what](https://github.com/fb55/css-what) - CSS selector parser.
+- [PostCSS Language Support](https://github.com/csstools/postcss-language) - Support for modern and experimental CSS within Visual Studio Code.
+- [Custom Properties as State (2021)](https://css-tricks.com/custom-properties-as-state/) ([HN](https://news.ycombinator.com/item?id=25682751))
+- [CSS-Tricks Conferences](https://conferences.css-tricks.com/) ([Code](https://github.com/CSS-Tricks/conferences))
+- [Natural Selection](https://github.com/frontaid/natural-selection) - Collection of best-practice CSS selectors.
+- [HStack and VStack in CSS](https://github.com/ItsJonQ/hstack-vstack-css) - CSS layout components that (basically) horizontally and vertically stack anything.
+- [State of CSS 2020](https://2020.stateofcss.com/en-US/)
+- [Awesome CSS Frameworks](https://github.com/troxler/awesome-css-frameworks)
+- [RFS](https://github.com/twbs/rfs) - Unit resizing engine which was initially developed to resize font sizes.
+- [Understanding Clip Path in CSS (2021)](https://ishadeed.com/article/clip-path/)
+- [Inactive CSS](https://github.com/captainbrosset/inactive-css) - List of rules for when CSS properties have no effect.
+- [Classcat](https://github.com/jorgebucaran/classcat) - Build a space-separated class attribute quickly.
+- [CSS: prefers-color-scheme (2021)](https://3fx.ch/blog/2021/01/27/css-prefers-color-scheme/)
+- [How to select elements that are not children of other elements in CSS (2021)](https://www.stefanjudis.com/snippets/how-to-select-elements-that-are-not-children-of-other-elements-in-css/)
+- [Things You Can Do With CSS Today (2021)](https://www.smashingmagazine.com/2021/02/things-you-can-do-with-css-today/)
+- [Meanderer](https://github.com/jh3y/meanderer) - Micro-library for scaling CSS motion path strings.
+- [SmolCSS](https://smolcss.dev/) - Minimal snippets for modern CSS layouts and components. ([Code](https://github.com/5t3ph/smolcss))
+- [Fluid typography with CSS clamp (2021)](https://piccalil.li/tutorial/fluid-typography-with-css-clamp)
+- [CSS Creatures](https://bennettfeely.com/csscreatures/) ([Code](https://github.com/bennettfeely/csscreatures))
+- [minireset.css](https://github.com/jgthms/minireset.css) - Tiny modern CSS reset. ([Web](https://jgthms.com/minireset.css/))
+- [Getting Deep into CSS Shadows](https://css-tricks.com/getting-deep-into-shadows/)
+- [The Beauty Of Tiny Enhancements In CSS (2021)](https://ishadeed.com/article/tiny-enhancements-in-css/)
+- [An interactive guide to CSS transitions (2021)](https://www.joshwcomeau.com/animation/css-transitions/) ([HN](https://news.ycombinator.com/item?id=26274516))
+- [Diving into the ::before and ::after Pseudo-Elements (2021)](https://codersblock.com/blog/diving-into-the-before-and-after-pseudo-elements/)
+- [AVO: BEM Dialect Using Data Attributes](https://chan.dev/posts/avo-a-bem-dialect-using-data-attributes/)
+- [The Importance of Learning CSS (2021)](https://www.joshwcomeau.com/css/the-importance-of-learning-css/) ([HN](https://news.ycombinator.com/item?id=26346141))
+- [CSS Auditing Tools (2021)](https://www.smashingmagazine.com/2021/03/css-auditing-tools/)
+- [Exploring @property and its Animating Powers (2021)](https://css-tricks.com/exploring-property-and-its-animating-powers/)
+- [Digging Into CSS Logical Properties (2021)](https://ishadeed.com/article/css-logical-properties/)
+- [CSS Generators (2021)](https://www.smashingmagazine.com/2021/03/css-generators/)
+- [Debugging layout shifts (2021)](https://web.dev/debugging-layout-shifts/)
+- [Charts.css](https://chartscss.org/) - CSS data visualization framework. ([HN](https://news.ycombinator.com/item?id=26494819)) ([Code](https://github.com/ChartsCSS/charts.css))
+- [Creating Directionally Lit 3D Buttons with CSS (2021)](https://dev.to/jh3y/creating-directionally-lit-3d-buttons-with-css-2jc2)
+- [Smooth Shadow](https://shadows.brumm.af/) - Make a smooth shadow.
+- [Not Your Typical Horizontal Rules (2021)](https://www.sarasoueidan.com/blog/horizontal-rules/)
+- [Handling Text Over Images in CSS (2021)](https://ishadeed.com/article/handling-text-over-image-css/)
+- [cool.css](https://coolcss.dev/) - Last CSS framework I'll (hopefully) ever have to build. ([Code](https://github.com/peruvianidol/coolcss))
+- [Animating Underlines with CSS (2021)](https://css-irl.info/animating-underlines/)
+- [Grid Component](https://github.com/naver/egjs-grid) - Component that can arrange items according to the type of grids.
+- [Tools for Auditing CSS (2021)](https://css-tricks.com/tools-for-auditing-css/)
+- [Container Queries are actually coming (2021)](https://piccalil.li/blog/container-queries-are-actually-coming)
+- [Building a Magical 3D button with HTML and CSS (2021)](https://www.joshwcomeau.com/animation/3d-button/) ([HN](https://news.ycombinator.com/item?id=26635300)) ([Tweet](https://twitter.com/JoshWComeau/status/1376917791190704134))
+- [Dark mode in 5 minutes, with inverted lightness variables (2021)](https://lea.verou.me/2021/03/inverted-lightness-variables/)
+- [How to Improve CSS Performance (2021)](https://calibreapp.com/blog/css-performance)
+- [100 underline/overlay animations | The ultimate CSS collection (2021)](https://dev.to/afif/100-underline-overlay-animation-the-ultimate-css-collection-4p40)
+- [My Website is More Responsive Than Yours (2021)](https://www.youtube.com/watch?v=Dk1gxZ_K3E0)
+- [Say Hello To CSS Container Queries (2021)](https://ishadeed.com/article/say-hello-to-css-container-queries/) ([Tweet](https://twitter.com/Stammy/status/1382335598283919369))
+- [Awesome Container Queries](https://github.com/sturobson/Awesome-Container-Queries)
+- [Overflow Issues In CSS (2021)](https://www.smashingmagazine.com/2021/04/css-overflow-issues/)
+- [Float an Element to the Bottom Corner (2021)](https://css-tricks.com/float-an-element-to-the-bottom-corner/)
+- [Transition.css](https://www.transition.style/) - Easy transitions with clip-path. ([Code](https://github.com/argyleink/transition.css))
+- [Shortstack](https://github.com/argyleink/shortstack) - Minimal Rollup + PostCSS modern syntax starter template.
+- [CSS Tips (2020)](https://markodenic.com/css-tips/) ([HN](https://news.ycombinator.com/item?id=26945263))
+- [CSS Container Query Proposal & Explainer](https://css.oddbird.net/rwd/query/explainer/)
+- [CQFill](https://github.com/jsxtools/cqfill) - Polyfill for CSS Container Queries.
+- [A Complete Guide to Custom Properties (2021)](https://css-tricks.com/a-complete-guide-to-custom-properties/)
+- [Tacit](https://github.com/yegor256/tacit) - CSS Framework for Dummies, Without Classes. ([Web](https://yegor256.github.io/tacit/))
+- [How to Create Actions for Selected Text With the Selection API (2021)](https://css-tricks.com/how-to-create-actions-for-selected-text-with-the-selection-api/)
+- [Book insights: The New CSS Layout (2021)](https://world.hey.com/ahuth/book-insights-the-new-css-layout-7c2b49b0)
+- [CSS Card with hover animation and mobile fallback (2021)](https://www.youtube.com/watch?v=5DEq5cWNYt8)
+- [CSS Hell](https://csshell.dev/) - Collection of common CSS mistakes, and how to fix them. ([Code](https://github.com/Stefanye/CSSHell))
+- [Component-level art direction with CSS Container Queries (2021)](https://www.sarasoueidan.com/blog/component-level-art-direction-with-container-queries-and-picture/)
+- [Wallace CLI](https://github.com/projectwallace/wallace-cli) - Pretty CSS analytics in your terminal.
+- [No, Utility Classes Aren't the Same As Inline Styles (2021)](https://frontstuff.io/no-utility-classes-arent-the-same-as-inline-styles)
+- [Learn CSS](https://web.dev/learn/css/) - Evergreen CSS course and reference to level up your web styling expertise. ([HN](https://news.ycombinator.com/item?id=27233019))
+- [How to Favicon in 2021](https://css-tricks.com/how-to-favicon-in-2021/)
+- [25 Years of CSS (2021)](https://meyerweb.com/eric/thoughts/2021/05/25/25-years-of-css/) ([HN](https://news.ycombinator.com/item?id=27366056))
+- [CSS Container Queries: Use-Cases And Migration Strategies (2021)](https://www.smashingmagazine.com/2021/05/css-container-queries-use-cases-migration-strategies/)
+- [Parsel](https://github.com/LeaVerou/parsel) - Tiny, permissive CSS selector parser. ([Web](https://projects.verou.me/))
+- [What the heck, z-index?](https://www.joshwcomeau.com/css/stacking-contexts/) - Exploring stacking contexts, one of the most misunderstood mechanisms in CSS.
+- [Critical](https://github.com/addyosmani/critical) - Extract & Inline Critical-path CSS in HTML pages.
+- [CSS Layout Generator](https://layout.bradwoods.io/)
+- [PostCSS Focus](https://github.com/postcss/postcss-focus) - PostCSS plugin to add :focus selector to every :hover for keyboard accessibility.
+- [CSSBootcamp.com](https://cssbootcamp.com/) - Structured, Guided, Curriculum for CSS.
+- [Animate.css](https://animate.style/) - Cross-browser library of CSS animations. ([Code](https://github.com/animate-css/animate.css))
+- [Real-world CSS vs. CSS-in-JS performance comparison (2021)](https://pustelto.com/blog/css-vs-css-in-js-perf/) ([HN](https://news.ycombinator.com/item?id=27438913))
+- [Glassmorphism CSS Generator](https://ui.glass/generator/)
+- [Glass UI](https://ui.glass/) - CSS UI library based on the glassmorphism design principles.
+- [Miriam Suzanne - Container Queries & The Future of CSS (2021)](https://www.youtube.com/watch?v=ilR9KlsHMGk)
+- [CSS Café - YouTube](https://www.youtube.com/playlist?list=PLIfpjYCKV3lVpwHYCExIUAl9tWB3UzcG6)
+- [Keeping it simple with CSS that scales – Andy Bell (2020)](https://www.youtube.com/watch?v=Sb4Ae466xbs)
+- [Trigonometry in CSS and JavaScript: Beyond Triangles (2021)](https://tympanus.net/codrops/2021/06/04/trigonometry-in-css-and-javascript-beyond-triangles/)
+- [What does 100% mean in CSS?](https://wattenberger.com/blog/css-percents) ([HN](https://news.ycombinator.com/item?id=27769291))
+- [83 Beautiful CSS buttons examples](https://getcssscan.com/css-buttons-examples)
+- [Confusing things about CSS still (2021)](https://twitter.com/jensimmons/status/1418909337674731527)
+- [CSS: Avoid horizontal scrolling (2021)](https://3fx.ch/blog/2021/07/25/css-avoid-horizontal-scrolling/)
+- [The Large, Small, and Dynamic Viewports (2021)](https://www.bram.us/2021/07/08/the-large-small-and-dynamic-viewports/)
+- [My First CSS (2021)](https://engineering.kablamo.com.au/posts/2021/my-first-css) - What I Wish I Knew About CSS When Starting Out As A Frontender. ([HN](https://news.ycombinator.com/item?id=27955576))
+- [CSS Nesting Module](https://drafts.csswg.org/css-nesting/)
+- [CSS areas people struggle with the most (2021)](https://twitter.com/EmmaBostian/status/1420771337715568645)
+- [Favorite “quick wins” with CSS](https://twitter.com/JoshWComeau/status/1421193520300400642)
+- [Aligning a Button Label Vertically (2021)](https://ishadeed.com/article/button-label-alignment/)
+- [CSS Foundations Online Workshop - Emma Bostian (2021)](https://frontendmasters.com/workshops/css-foundations/) ([Tweet](https://twitter.com/EmmaBostian/status/1422171564632649739))
+- [sanitize.css](https://github.com/csstools/sanitize.css) - CSS library that provides consistent, cross-browser default styling of HTML elements alongside useful defaults. ([Web](https://csstools.github.io/sanitize.css/))
+- [Never remove CSS outlines (2013)](https://www.a11yproject.com/posts/2013-01-25-never-remove-css-outlines/)
+- [PaperCSS](https://www.getpapercss.com/) - Less formal CSS framework. ([Code](https://github.com/papercss/papercss))
+- [The World of CSS Transforms](https://www.joshwcomeau.com/css/transforms/)
+- [An Interactive Guide to CSS Keyframe Animations](https://www.joshwcomeau.com/animation/keyframe-animations/)
+- [You want enabling CSS selectors, not disabling ones (2021)](https://css-tricks.com/you-want-enabling-css-selectors-not-disabling-ones/) ([HN](https://news.ycombinator.com/item?id=28373840))
+- [Building A Stepper Component (2021)](https://ishadeed.com/article/stepper-component-html-css/)
+- [Pollen](https://github.com/peppercornstudio/pollen) - Library of CSS variables inspired by TailwindCSS. ([Docs](https://www.pollen.style/)) ([HN](https://news.ycombinator.com/item?id=28418350))
+- [Less Absolute Positioning With Modern CSS (2021)](https://ishadeed.com/article/less-absolute-positioning-modern-css/)
+- [Grainy Gradients playground](https://grainy-gradients.vercel.app/) - CSS Noise gradient generator. ([Code](https://github.com/cjimmy/grainy-gradients))
+- [Designing Beautiful Shadows in CSS (2021)](https://www.joshwcomeau.com/css/designing-shadows/) ([HN](https://news.ycombinator.com/item?id=28533458))
+- [Grainy Gradients (2021)](https://css-tricks.com/grainy-gradients/)
+- [CSS Container Query Units (2021)](https://ishadeed.com/article/container-query-units/)
+- [How I Learnt To Stop Worrying And Love Animating The Box Model (2021)](https://whistlr.info/2021/box-model-animation/)
+- [Shadow Roots and Inheritance (2021)](https://kittygiraudel.com/2021/08/23/shadow-roots-and-inheritance/)
+- [Awesome CSS Learning](https://github.com/micromata/awesome-css-learning) - Awesome list limited to the best CSS learning resources.
+- [PostCSS Hover Media Feature](https://github.com/saulhardman/postcss-hover-media-feature) - Extracts and wraps rules containing :hover pseudo-classes in @media (hover: hover) {} media queries.
+- [Simplifying Form Styles With accent-color (2021)](https://www.smashingmagazine.com/2021/09/simplifying-form-styles-accent-color/)
+- [Dynamic CSS color themes with similar contrasts (2021)](https://elis.nu/blog/2021/09/dynamic-css-color-themes-with-similar-contrasts/)
+- [How To Build An Expandable Accessible Gallery (2021)](https://www.smashingmagazine.com/2021/10/build-expandable-accessible-gallery/)
+- [AVIF in CSS](https://github.com/nucliweb/avif-in-css) - PostCSS plugin to use AVIF in CSS background.
+- [A Guide To CSS Debugging (2021)](https://www.smashingmagazine.com/2021/10/guide-debugging-css/)
+- [CSS to XPath](https://github.com/peteboere/csstoxpath)
+- [Conditional Border Radius In CSS (2021)](https://ishadeed.com/article/conditional-border-radius/)
+- [Smart CSS Solutions For Common UI Challenges (2021)](https://www.smashingmagazine.com/2021/10/modern-css-solutions-for-common-problems/)
+- [100 bytes of CSS to look great everywhere to style text](https://twitter.com/swyx/status/1449472712720601088)
+- [New Simple and Lighter CSS Reset](https://github.com/elad2412/the-new-css-reset) - Removes all the default styles which we are getting on specific HTML elements except the ‘display’ property. ([Web](https://elad2412.github.io/the-new-css-reset/)) ([Article](https://css-tricks.com/an-interview-with-elad-shechter-on-the-new-css-reset/))
+- [Pylon](https://almonk.github.io/pylon/) - Declarative layout primitives for CSS & HTML. ([Code](https://github.com/almonk/pylon))
+- [What do I need to read to be a great at CSS? (2021)](https://www.baldurbjarnason.com/2021/what-do-i-need-to-read-to-be-a-css-dev/) ([HN](https://news.ycombinator.com/item?id=28968137))
+- [The strangely difficult problem of drawing a box around text](https://blog.battlefy.com/the-strangely-difficult-problem-of-drawing-a-box-around-text-e6a70bdf6bb9) ([HN](https://news.ycombinator.com/item?id=28990145))
+- [Evaluating Clever CSS Solutions (2021)](https://css-irl.info/evaluating-clever-css-solutions/)
+- [GUI Challenges - YouTube](https://www.youtube.com/playlist?list=PLNYkxOF6rcIAaV1wwI9540OC_3XoIzMjQ) ([Code](https://github.com/argyleink/gui-challenges))
+- [Squircle CSS Houdini](https://github.com/PavelLaptev/squircle-houdini-css) - Tiny CSS Houdini module that allows to add a squircle shape to HTML elements.
+- [CSS Destructured Course](https://cssdestructured.com/)
+- [Improving CSS Architecture with Cascade Layers, Container Queries, Scope, by Miriam Suzanne (2021)](https://www.youtube.com/watch?v=vK8vj1l_oRk)
+- [Complete Guide to CSS Flex and Grid Book](https://shrutibalasa.gumroad.com/l/css-flex-and-grid)
+- [CSS Tricks to Create that Dark Futuristic Web3 Look (2021)](https://dev.to/trishathecookie/css-tricks-to-create-that-dark-futuristic-web3-look-53bm)
+- [Bold on Hover... Without the Layout Shift (2020)](https://css-tricks.com/bold-on-hover-without-the-layout-shift/)
+- [Reasoning about Declarative Styles (2020)](https://vitordino.com/writing/declarative-styles)
+- [CSS Shadow Palette Generator](https://www.joshwcomeau.com/shadow-palette/) ([Article](https://www.joshwcomeau.com/css/introducing-shadow-palette-generator/)) ([HN](https://news.ycombinator.com/item?id=29245315))
+- [Layout patterns](https://web.dev/patterns/layout/) - Collection of layout patterns built using modern CSS APIs.
+- [The new responsive design (2021)](https://www.youtube.com/watch?v=dhrX_biPH8c)
+- [Discover CSS polygon shapes](https://css-doodle.com/shapes/) ([Code](https://github.com/css-doodle/shapes))
+- [Parallax Powered by CSS Custom Properties (2021)](https://css-tricks.com/parallax-powered-by-css-custom-properties/)
+- [1-Line CSS Layouts](https://1linelayouts.glitch.me/) ([HN](https://news.ycombinator.com/item?id=29295963))
+- [Full Page: 20 Advanced CSS & HTML techniques: clip-path, @property, aspect-ratio and blend-mode (2021)](https://www.youtube.com/watch?v=PpheLuPbP5Y) ([Article](https://dev.to/astrit/full-page-20-advanced-css-html-techniques-clip-path-property-aspect-ratio-and-blend-mode-2p31))
+- [CSSBattle](https://cssbattle.dev/) - CSS code-golfing game.
+- [CSS Animation: translate3d, backdrop-filter and custom tags (2021)](https://www.youtube.com/watch?v=RTLM2SyEL6o)
+- [My Custom CSS Reset (2021)](https://www.joshwcomeau.com/css/custom-css-reset/) ([HN](https://news.ycombinator.com/item?id=29330335))
+- [Container Query Polyfill](https://github.com/GoogleChromeLabs/container-query-polyfill)
+- [parcel-css](https://github.com/parcel-bundler/parcel-css) - CSS parser, transformer, and minifier written in Rust. ([Article](https://parceljs.org/blog/parcel-css/)) ([HN](https://news.ycombinator.com/item?id=29909533))
+- [Two flexbox & grid behaviors most people don't know about (2021)](https://www.youtube.com/watch?v=s3wHkfMz8oE)
+- [postcss-rs](https://github.com/postcss-rs/postcss-rs) - Fast and 100% API compatible postcss replacer, built in Rust.
+- [A Handy Little System for Animated Entrances in CSS (2021)](https://css-tricks.com/a-handy-little-system-for-animated-entrances-in-css/)
+- [Responsive Layouts, Fewer Media Queries (2021)](https://css-tricks.com/responsive-layouts-fewer-media-queries/)
+- [Popular third-party library everyone's heard of that you style by overriding their CSS/targeting their classes](https://twitter.com/adamwathan/status/1464802517074726917)
+- [Improving performance with Islands Architecture and PostCSS (2021)](https://blog.oliverturner.cloud/posts/mqs-in-js/) ([Tweet](https://twitter.com/oliverturner/status/1465332351509094407))
+- [Open Props](https://open-props.style/) - CSS custom properties to help accelerate adaptive and consistent design. ([Code](https://github.com/argyleink/open-props)) ([Tweet](https://twitter.com/argyleink/status/1466086683577700352)) ([Video](https://www.youtube.com/watch?v=uO9806zH2OI)) ([Video](https://www.youtube.com/watch?v=cq7c3tawEnI)) ([HN](https://news.ycombinator.com/item?id=32822257))
+- [The fundamentals of CSS layout | Workshop (2021)](https://www.youtube.com/watch?v=yMEjLBKyvEg)
+- [img2css](https://javier.xyz/img2css/) - Convert any image to pure CSS. ([Code](https://github.com/javierbyte/img2css))
+- [How to implement dragging, constraints, and rubber banding in CSS](https://twitter.com/jonastreub/status/1467960857342660610)
+- [Defensive CSS (2021)](https://ishadeed.com/article/defensive-css/) ([HN](https://news.ycombinator.com/item?id=29504784))
+- [NWSAPI](https://github.com/dperini/nwsapi) - Fast CSS Selectors API Engine.
+- [Pure CSS content animation](https://twitter.com/branmcconnell/status/1468972338758578182)
+- [Responsive iframes with the CSS aspect-ratio property (2021)](https://gomakethings.com/responsive-iframes-with-the-css-aspect-ratio-property/)
+- [CSS Tokenizer](https://github.com/csstools/tokenizer) - Tokenize CSS according to the CSS Syntax.
+- [EsifyCSS](https://github.com/gjbkz/esifycss) - Generates ES modules from CSS.
+- [zss](https://github.com/chwayne/zss) - CSS layout engine and document renderer, written in Zig.
+- [Standardizing Focus Styles With CSS Custom Properties (2021)](https://css-tricks.com/standardizing-focus-styles-with-css-custom-properties/)
+- [Right-to-left Styling in CSS](https://rtlstyling.com/posts/rtl-styling) ([Code](https://github.com/shadeed/rtl-styling))
+- [Fancy Border Radius Generator](https://9elements.github.io/fancy-border-radius/) - When you use eight values specifying border-radius in CSS, you can build organic looking shapes. ([Code](https://github.com/9elements/fancy-border-radius))
+- [Wide variety of animations done using only CSS](https://github.com/Afif13/CSS-Collection)
+- [Pico.css](https://picocss.com/) - Minimal CSS Framework for semantic HTML. ([Code](https://github.com/picocss/pico)) ([HN](https://news.ycombinator.com/item?id=29559961))
+- [DoodleCSS](https://chr15m.github.io/DoodleCSS/) - Simple hand drawn HTML/CSS theme. ([Code](https://github.com/chr15m/DoodleCSS)) ([HN](https://news.ycombinator.com/item?id=29551465))
+- [Consistent, Fluidly Scaling Type and Spacing (2021)](https://css-tricks.com/consistent-fluidly-scaling-type-and-spacing/)
+- [The State of CSS 2021](https://2021.stateofcss.com/en-US/)
+- [UI Snippets](https://ui-snippets.dev/) - Collection of UI Snippets. ([Code](https://github.com/emilkowalski/ui-snippets))
+- [Smoothly Reverting CSS Animations (2021)](https://pragmaticpineapple.com/smoothly-reverting-css-animations/)
+- [CSS 3D Clouds](https://www.clicktorelease.com/code/css3dclouds/) ([Code](https://github.com/spite/CSS3DClouds))
+- [Dynamic CSS with Custom Properties (aka CSS Variables)](https://frontendmasters.com/courses/css-variables/)
+- [Styles of text selection (2021)](https://mefody.dev/chunks/selection/)
+- [CSS Section Separator Generator](https://wweb.dev/resources/css-separator-generator/) ([Code](https://github.com/wwebdev/separator-generator))
+- [Stylist](https://github.com/futursolo/stylist-rs) - CSS-in-Rust styling solution for WebAssembly Applications.
+- [Almond.CSS](https://alvaromontoro.github.io/almond.css/) - Collection of CSS styles to make simple websites look nicer and better. ([Code](https://github.com/alvaromontoro/almond.css))
+- [Pure CSS device fingerprinting](https://csstracking.dev/)
+- [Ban Outer CSS Margins from Components](https://mxstbr.com/thoughts/margin/) ([HN](https://news.ycombinator.com/item?id=22676442)) ([HN](https://news.ycombinator.com/item?id=29791975))
+- [unocss-preset-scalpel](https://github.com/macheteHot/unocss-preset-scalpel) - Scalpel Preset for UnoCSS.
+- [CSS Gradients that avoid the “gray dead zone”](https://www.joshwcomeau.com/css/make-beautiful-gradients/) ([HN](https://news.ycombinator.com/item?id=29894608))
+- [A Deep CSS Dive Into Radial And Conic Gradients (2022)](https://www.smashingmagazine.com/2022/01/css-radial-conic-gradient/)
+- [CSS Speedrun](https://css-speedrun.netlify.app/) - Small game to test and improve your CSS knowledge. ([Code](https://github.com/Vincenius/css-speedrun))
+- [Getting Started With CSS Cascade Layers (2022)](https://www.smashingmagazine.com/2022/01/introduction-css-cascade-layers/)
+- [CSS Polka Dot Generator](https://screenspan.net/polka/)
+- [Fancy CSS Borders Using Masks (2022)](https://css-tricks.com/css-borders-using-masks/)
+- [postcss-design-tokens](https://github.com/jptaranto/postcss-design-tokens) - PostCSS plugin that provides a function to retrieve design tokens expressed in JS or JSON, within CSS.
+- [Juice](https://github.com/Automattic/juice) - Given HTML, juice will inline your CSS properties into the style attribute.
+- [Aspect Ratio is Great (2022)](https://css-irl.info/aspect-ratio-is-great/) ([HN](https://news.ycombinator.com/item?id=30280210))
+- [cva](https://github.com/joe-bell/cva) - Class Variance Authority.
+- [CSSUI](https://github.com/zetareticoli/cssui) - Collection of interactive UI components in pure CSS.
+- [Hello, CSS Cascade Layers (2022)](https://ishadeed.com/article/cascade-layers/)
+- [PostCSS Plugins](https://github.com/csstools/postcss-plugins)
+- [A Complete Guide to CSS Cascade Layers (2022)](https://css-tricks.com/css-cascade-layers/)
+- [Things the CSS Spec Folks Got Right (2022)](https://blog.jim-nielsen.com/2022/things-the-css-spec-folks-got-right/) ([HN](https://news.ycombinator.com/item?id=30460238))
+- [Load Awesome](https://github.com/danielcardoso/load-awesome) - Awesome collection of — Pure CSS — Loaders and Spinners.
+- [Classless CSS](https://github.com/dbohdan/classless-css) - List of classless CSS themes and frameworks.
+- [CSS as the back end – introducing Cascading Server Sheets](https://dev.to/thormeier/dont-try-this-at-home-css-as-the-backend-what-3oih) ([HN](https://news.ycombinator.com/item?id=30497834))
+- [New CSS Features In 2022](https://www.smashingmagazine.com/2022/03/new-css-features-2022/)
+- [CSS Analytics - Project Wallace](https://www.projectwallace.com/)
+- [CSS-Checker](https://github.com/ruilisi/css-checker) - Find and Reduce Similar and Duplicated CSS Scripts.
+- [Telecss](https://github.com/telecss/telecss) - CSS tokenizer, parser, transformer, written in Rust.
+- [Taming CSS Variables with Web Inspector | WebKit (2022)](https://webkit.org/blog/12303/css-variables-web-inspector/)
+- [How we migrated entirely to CSS Modules (2022)](https://about.sourcegraph.com/blog/migrating-to-css-modules-with-codemods-and-code-insights/)
+- [When or If (2022)](https://meyerweb.com/eric/thoughts/2022/03/14/if-or-when/) ([HN](https://news.ycombinator.com/item?id=30674324))
+- [CSS Cascade Layers Explained (2022)](https://positivethinking.tech/insights/css-cascade-layers-explained/)
+- [Master Styles](https://styles.master.co/) - Virtual CSS language with enhanced syntax. ([Code](https://github.com/master-co/styles))
+- [Josh Comeau – Secret Mechanisms of CSS (2022)](https://www.youtube.com/watch?v=Xt1Cw4qM3Ec)
+- [Understanding Layout Algorithms in CSS](https://www.joshwcomeau.com/css/understanding-layout-algorithms/)
+- [Load Config](https://github.com/postcss/postcss-load-config) - Autoload Config for PostCSS.
+- [CSS Contain and Content Visibility](https://github.com/push-based/css-contain-research)
+- [Microtip](https://microtip.vercel.app/) - Modern, minimal and accessible CSS tooptips. ([Code](https://github.com/ghosh/microtip))
+- [Avoiding layout shift by putting the CSS in charge (2021)](https://www.youtube.com/watch?v=7EKEav7Io5Y) ([Tweet](https://twitter.com/jaffathecake/status/1472857506087116801))
+- [Cascade](https://raphaelbastide.com/cascade/) - CSS to sound live coding system.
+- [PostCSS](https://postcss.org/) - Tool for transforming CSS with JavaScript. ([Code](https://github.com/postcss/postcss)) ([Web Code](https://github.com/postcss/postcss.org))
+- [Rust implementation of CSS Syntax Level 3](https://github.com/servo/rust-cssparser)
+- [Create a rad loading animation with CSS](https://twitter.com/jh3yy/status/1513599688662044684)
+- [CSS Parent Selector (2022)](https://ishadeed.com/article/css-has-parent-selector/) ([Tweet](https://twitter.com/shadeed9/status/1514168291694194693))
+- [Browser in the Dark: flashlights with CSS and canvas](https://voussoir.net/writing/browser_in_the_dark) ([HN](https://news.ycombinator.com/item?id=31029845))
+- [Declarative design (2022)](https://adactio.com/journal/18982)
+- [Loaders | UI Ball](https://uiball.com/loaders/) - Modern, tree-shakeable loaders & spinners for React. Made with CSS, HTML and a splash of SVG. ([Code](https://github.com/GriffinJohnston/uiball-loaders))
+- [The Future of CSS: CSS Toggles (2022)](https://www.bram.us/2022/04/20/the-future-of-css-css-toggles/)
+- [Stylify](https://stylify.dev/) - Library that generates utility-first CSS dynamically based on what you write. ([Code](https://github.com/stylify/packages))
+- [CSS GUI](https://github.com/components-ai/css.gui) - Visual development environment for CSS.
+- [18 GitHub Repositories to Become a CSS Master (2022)](https://madza.hashnode.dev/18-github-repositories-to-become-a-css-master)
+- [Building a combined CSS-aspect-ratio-grid (2022)](https://9elements.com/blog/combined-aspect-ratio-grid/)
+- [Turret CSS](https://turretcss.com/) - Responsive Front-end Framework for Accessible and Semantic Websites. ([Code](https://github.com/turretcss/turretcss))
+- [Is .css a bad idea? Is inlining the way forward? (2022)](https://www.youtube.com/watch?v=3sMflOp5kiQ)
+- [Ordering CSS Declarations (2022)](https://blog.jim-nielsen.com/2022/ordering-css-delcarations/) ([HN](https://news.ycombinator.com/item?id=31259627))
+- [Favorite Modern CSS features (2022)](https://twitter.com/argyleink/status/1523867688849666048)
+- [CSS Stats](https://cssstats.com/) - Visualize various stats about your CSS. ([Code](https://github.com/cssstats/cssstats))
+- [State of CSS 2022](https://web.dev/state-of-css-2022/) ([Tweet](https://twitter.com/ChromiumDev/status/1524376275665756161)) ([Video](https://www.youtube.com/watch?v=Xy9ZXRRgpLk)) ([Tweet](https://twitter.com/jaffathecake/status/1525048999287443456)) ([HN](https://news.ycombinator.com/item?id=33287471))
+- [The Surprising Truth About Pixels and Accessibility: should I use pixels or rems?](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/) ([Tweet](https://twitter.com/JoshWComeau/status/1526548095311302662))
+- [First Look At The CSS object-view-box Property (2022)](https://ishadeed.com/article/css-object-view-box/) ([Tweet](https://twitter.com/shadeed9/status/1527578257591357441?s=20&t=9O47LeqiezvlU4ZerRW67Q))
+- [Spacing in CSS (2020)](https://ishadeed.com/article/spacing-in-css/)
+- [What new property / value / CSS superpower are you most excited about? (2022)](https://twitter.com/jensimmons/status/1514712651284295685)
+- [CSS: Absolutely positioning things relatively (2022)](https://canvatechblog.com/css-absolutely-positioning-things-relatively-964898de886b) ([HN](https://news.ycombinator.com/item?id=31501344))
+- [Min-Max-Value Interpolation](https://min-max-calculator.9elements.com/) - Tool that calculates the CSS clamp formula to interpolate between two values in a given viewport range. ([Code](https://github.com/9elements/min-max-calculator))
+- [global.css](https://github.com/nd55/global.css) - Personal global (Post)CSS file used in all my projects.
+- [Lesser-Known And Underused CSS Features In 2022](https://www.smashingmagazine.com/2022/05/lesser-known-underused-css-features-2022/)
+- [Cool CSS Hover Effects That Use Background Clipping, Masks, and 3D (2022)](https://css-tricks.com/css-hover-effects-background-masks-3d/)
+- [grass](https://github.com/connorskees/grass) - Near-feature-complete Sass compiler written purely in Rust.
+- [Stretch](https://github.com/vislyhq/stretch) - High performance flexbox implementation written in rust.
+- [100 Modern CSS Buttons](https://github.com/eludadev/css-buttons)
+- [Pure CSS image zoom using CSS primitives](https://twitter.com/jh3yy/status/1532145806278533120)
+- [Paper Prototype CSS (2022)](https://shkspr.mobi/blog/2022/06/paper-prototype-css/)
+- [Moonshine CSS](https://github.com/Econify/moonshine-css) - High-proof atomic CSS framework.
+- [Star Wars Scene Transition Effects in CSS (2022)](https://codersblock.com/blog/star-wars-scene-transition-effects-in-css/)
+- [finder](https://github.com/antonmedv/finder) - CSS Selector Generator.
+- [CSS box-sizing (2022)](https://garden.bradwoods.io/notes/css-box-sizing)
+- [Complex vs Compound Selectors (2022)](https://www.miriamsuzanne.com/2022/06/15/complex-compound/) ([Tweet](https://twitter.com/TerribleMia/status/1537222094827663360))
+- [Mobile-First CSS: Is It Time for a Rethink? (2022)](https://alistapart.com/article/mobile-first-css-is-it-time-for-a-rethink/) ([HN](https://news.ycombinator.com/item?id=31802823))
+- [Elly Loel CSS Reset](https://gist.github.com/EllyLoel/4ff8a6472247e6dd2315fd4038926522) ([Tweet](https://twitter.com/ellyloel/status/1538752447560110080))
+- [PostCSS Media Minmax](https://github.com/postcss/postcss-media-minmax) - Writing simple and graceful Media Queries.
+- [Defensive CSS](https://defensivecss.dev/) - Practical CSS and design tips that helps in building future-proof user interfaces. ([Twitter](https://twitter.com/DefensiveCSS)) ([HN](https://news.ycombinator.com/item?id=31984951))
+- [Create Diagonal Layouts Like It's 2020](https://9elements.com/blog/pure-css-diagonal-layouts/)
+- [Whirl](https://whirl.netlify.app/) - CSS loading animations with minimal effort. ([Code](https://github.com/jh3y/whirl))
+- [Anthony Fu's 100 days](https://100.antfu.me/) - 100-day project of exploring design, compform, and new things. ([Code](https://github.com/antfu/100))
+- [CSS Value Processing (2020)](https://ru.ariarzer.dev/articles/2020/css-value-processing.html)
+- [Shader-like holographic effects with CSS (2022)](https://robbowen.digital/wrote-about/css-blend-mode-shaders/) ([HN](https://news.ycombinator.com/item?id=32016391)) ([Tweet](https://twitter.com/Robb0wen/status/1545037603946127364))
+- [Bramus Van Damme | The CSS Cascade, a deep dive (2022)](https://www.youtube.com/watch?v=zEPXyqj7pEA)
+- [swc/css](https://github.com/swc-project/css) - SWC CSS binding.
+- [The CSS behind Figma (2022)](https://ishadeed.com/article/figma-css/) ([HN](https://news.ycombinator.com/item?id=32207093))
+- [Want your layouts to look Great? Try Adding DEPTH (2022)](https://www.youtube.com/watch?v=evqUWEh46AA)
+- [CSS Scan](https://getcssscan.com/) - Fast and easy way to check and copy CSS. ([HN](https://news.ycombinator.com/item?id=32150308))
+- [Figma: Illuminating dark mode (2022)](https://www.figma.com/blog/illuminating-dark-mode/) ([Tweet](https://twitter.com/shirlmeow/status/1550157714596167680))
+- [Solving “The Dangler” Conundrum with Container Queries and :has() (2022)](https://daverupert.com/2022/07/solving-the-dangler-conundrum-with-has-and-container-queries/)
+- [css_parser](https://github.com/deno-front-end/css-parser) - CSS Lexer & Parser implementation for Deno.
+- [Fade-in animation that is not so boring in CSS](https://twitter.com/shuding_/status/1552438750470340610)
+- [Finer grained control over CSS transforms with individual transform properties (2022)](https://web.dev/css-individual-transform-properties/)
+- [Adam Argyle | Oh Snap! (2022)](https://www.youtube.com/watch?v=34zcWFLCDIc) ([Tweet](https://twitter.com/argyleink/status/1556669441005330438))
+- [Onu-UI](https://github.com/onu-ui/onu-ui) - Web glassmorphism components generate by UnoCSS.
+- [Michelle Barker | Creative CSS Layout (2022)](https://www.youtube.com/watch?v=tueTFd2TQUA) ([Slides](https://noti.st/mbarker84/yGiO0I/creative-css-layout-the-flexible-web))
+- [Puppertino](https://github.com/codedgar/Puppertino) - CSS framework based on Human Guidelines from Apple.
+- [Polygon Shapes](https://yuanchuan.dev/polygon-shapes)
+- [Parents counting children in CSS (2022)](https://www.matuzo.at/blog/2022/counting-children/)
+- [ress](https://github.com/filipelinhares/ress) - Modern CSS reset.
+- [Modern alternatives to BEM (2022)](https://daverupert.com/2022/08/modern-alternatives-to-bem/) ([Tweet](https://twitter.com/slightlylate/status/1566860991891025920))
+- [Lightning CSS](https://lightningcss.dev/) - Extremely fast CSS parser, transformer, bundler, and minifier written in Rust. ([Tweet](https://twitter.com/devongovett/status/1567898042787049473)) ([Twitter](https://twitter.com/lightningcss))
+- [The Power of CSS Blend Modes (2022)](https://cloudfour.com/thinks/the-power-of-css-blend-modes/)
+- [Subtle, yet Beautiful Scroll Animations (2022)](https://www.youtube.com/watch?v=T33NN_pPeNI)
+- [PostCSS LightningCSS](https://github.com/onigoetz/postcss-lightningcss) - PostCSS plugin uses Lightning CSS to compile and minify your CSS.
+- [58 bytes of CSS to look great nearly everywhere](https://gist.github.com/JoeyBurzynski/617fb6201335779f8424ad9528b72c41) ([HN](https://news.ycombinator.com/item?id=32972004))
+- [Raffia](https://github.com/g-plane/raffia) - CSS/Sass/SCSS/Less parser, all in one.
+- [Inverted Media Queries and Breakpoints (2022)](https://ryanmulligan.dev/blog/invert-media-queries/)
+- [Horizontal Scrolling in a Centered Max-Width Container (2022)](https://ryanmulligan.dev/blog/x-scrolling-centered-max-width-container/)
+- [Website Themes and Color Schemes (2022)](https://ryanmulligan.dev/blog/themes-and-schemes/)
+- [Randomness in CSS (2022)](https://medium.com/hypersphere-codes/randomness-in-css-b55a0845c8dd)
+- [100 Days Of More Or Less Modern CSS (2022)](https://www.matuzo.at/blog/2022/100-days-of-more-or-less-modern-css/?s)
+- [Vanilla Extract + CSS variables removes the boundary between your JS and CSS](https://twitter.com/mattcompiles/status/1574985479182688257)
+- [Critical CSS? Not So Fast! (2022)](https://csswizardry.com/2022/09/critical-css-not-so-fast/) ([Response](https://chriscoyier.net/2022/09/28/critical-css-not-so-fast/))
+- [Animating Layouts with the FLIP Technique (2020)](https://css-tricks.com/animating-layouts-with-the-flip-technique/)
+- [Delightful UI Animations With Shared Element Transitions API (2022)](https://www.smashingmagazine.com/2022/10/ui-animations-shared-element-transitions-api-part1/)
+- [Simplifying the Craigslist Gallery (2022)](https://tdarb.org/blog/craigslist-gallery.html) ([Lobsters](https://lobste.rs/s/9taha7/simplifying_craigslist_gallery))
+- [Pokemon Deckz](https://deck-24abcd.netlify.app/) - Collection of advanced CSS styles to create realistic-looking effects for the faces of Pokemon cards. ([Code](https://github.com/simeydotme/pokemon-cards-css)) ([HN](https://news.ycombinator.com/item?id=33363331))
+- [The wasted potential of attribute selectors in CSS (2022)](https://elisehe.in/2022/10/16/attribute-selectors) ([Lobsters](https://lobste.rs/s/kfg4uc/wasted_potential_css_attribute))
+- [Let's Make One of Those Fancy Scrolling Animations Used on Apple Product Pages (2020)](https://css-tricks.com/lets-make-one-of-those-fancy-scrolling-animations-used-on-apple-product-pages/) ([Reddit](https://www.reddit.com/r/webdev/comments/y6b0av/how_is_this_animated_scrolling_behavior_made_what/))
+- [CSS reset for 2022 and beyond](https://github.com/mayank99/reset.css) ([Tweet](https://twitter.com/hi__mayank/status/1583948221587390464))
+- [CSS checkbox examples](https://getcssscan.com/css-checkboxes-examples) ([HN](https://news.ycombinator.com/item?id=33418445))
+- [typed-scss-modules](https://github.com/skovy/typed-scss-modules) - Generate type definitions (.d.ts) for CSS Modules using SCSS.
+- [The New CSS Media Query Range Syntax (2022)](https://css-tricks.com/the-new-css-media-query-range-syntax/)
+- [Xess 2: CSS variable edition (2022)](https://xeiaso.net/blog/xess-css-variables)
+- [Making Tables Responsive With Minimal CSS (2019)](https://bt.ht/tables/)
+- [Is there too much CSS now? (2022)](https://css-tricks.com/is-there-too-much-css-now/) ([HN](https://news.ycombinator.com/item?id=33507817))
+- [SpinKit](https://tobiasahlin.com/spinkit/) - Simple CSS Spinners. ([Code](https://github.com/tobiasahlin/SpinKit))
+- [The evolution of scalable CSS (2022)](https://frontendmastery.com/posts/the-evolution-of-scalable-css/) ([HN](https://news.ycombinator.com/item?id=33572264))
+- [BlurHash to CSS](https://github.com/JamieMason/blurhash-to-css) - Converts a BlurHash to a CSS Object using TypeScript, Rust, and WebAssembly.
+- [Styling form states without JS](https://webkit.org/blog/13096/css-has-pseudo-class/#styling-form-states-without-js)
+- [Tree views in CSS](https://iamkate.com/code/tree-views/) ([HN](https://news.ycombinator.com/item?id=33667270))
+- [Terminal CSS](https://terminalcss.xyz/) - Modern and minimal CSS framework for terminal lovers. ([Code](https://github.com/Gioni06/terminal.css))
+- [CSS Analyzer](https://github.com/projectwallace/css-analyzer) - Goes through your CSS to find all kinds of relevant statistics.
+- [Color Formats in CSS (2022)](https://www.joshwcomeau.com/css/color-formats/) ([HN](https://news.ycombinator.com/item?id=34183663))
+- [The large, small, and dynamic viewport units (2022)](https://web.dev/viewport-units/)
+- [CSS Infinite and Circular Rotating Image Slider (2022)](https://css-tricks.com/css-only-infinite-and-circular-image-slider/)
+- [PostCSS-Lit](https://github.com/43081j/postcss-lit) - PostCSS syntax for extracting CSS from template literals inside JS/TS files.
+- [Super Useful CSS Resources (2022)](https://dev.to/lissy93/super-useful-css-resources-1ba3)
+- [Practical Guide to CSS Media Queries (2022)](https://stackdiary.com/css-media-queries/)
+- [Animated Background Stripes That Transition on Hover (2022)](https://css-tricks.com/animated-background-stripes-transition-hover/)
+- [CSS Declaration Sorter](https://github.com/Siilwyn/css-declaration-sorter) - Sort CSS declarations fast and automatically in a certain order.
+- [A Few Times Container Size Queries Would Have Helped Me Out (2022)](https://css-tricks.com/a-few-times-container-size-queries-would-have-helped-me-out/#aa-case-1-card-grid)
+- [Logical Border Radius (2022)](https://css-irl.info/logical-border-radius/)
+- [Help choose the syntax for CSS Nesting (2022)](https://webkit.org/blog/13607/help-choose-from-options-for-css-nesting-syntax/) ([HN](https://news.ycombinator.com/item?id=34006622))
+- [iPhone 14 Pro with dynamic island, on the web](https://github.com/junhoyeo/iphone)
+- [CSS Style Queries (2022)](https://ishadeed.com/article/css-container-style-queries/)
+- [Things CSS Could Still Use Heading Into 2023](https://chriscoyier.net/2022/12/21/things-css-could-still-use-heading-into-2023/) ([HN](https://news.ycombinator.com/item?id=34104682))
+- [CSS challenge: skewed highlight (2022)](https://pepelsbey.dev/articles/skewed-highlight/)
+- [checkcss](https://github.com/broofa/checkcss) - Detect DOM elements that reference undefined CSS classes.
+- [5 under-utilized CSS rules](https://twitter.com/danqing_liu/status/1610658899501383680)
+- [The Future of CSS: Cascade Layers (CSS @layer) (2021)](https://www.bram.us/2021/09/15/the-future-of-css-cascade-layers-css-at-layer/)
+- [CSS Architecture (2022)](https://www.bram.us/2022/12/02/css-architecture-2022-12-01-web-directions-summit/)
+- [Keeping Your CSS Small: scopes, containers, and other new stuff (2022)](https://www.youtube.com/watch?v=bz0sMsCiU1c)
+- [How to create a 3D space using CSS (2023)](https://garden.bradwoods.io/notes/css/3d) ([HN](https://news.ycombinator.com/item?id=34315380))
+- [PostCSS Values Parser](https://github.com/shellscape/postcss-values-parser) - CSS property value parser for PostCSS.
+- [Conditional CSS (2023)](https://ishadeed.com/article/conditional-css/) ([HN](https://news.ycombinator.com/item?id=34403742))
+- [The truth about CSS selector performance (2023)](https://blogs.windows.com/msedgedev/2023/01/17/the-truth-about-css-selector-performance/) ([HN](https://news.ycombinator.com/item?id=34428619))
+- [Great CSS posts/videos (2023)](https://twitter.com/BHolmesDev/status/1617248463103598593)
+- [Broider](https://maxbittker.github.io/broider/) - LoFi CSS border embroidery design maker. ([Code](https://github.com/MaxBittker/broider)) ([HN](https://news.ycombinator.com/item?id=34553190))
+- [dprint-plugin-css](https://github.com/disrupted/dprint-plugin-css) - Fast CSS code formatting using dprint.
+- [CSS Pattern: Fancy backgrounds with CSS gradients](https://css-pattern.com/) ([Code](https://github.com/Afif13/CSS-Pattern))
+- [skribble](https://github.com/ifiokjr/skribble) - Fully typed atomic CSS compiler for rust, node, deno and the browser.
+- [The Guide To Responsive Design In 2023 and Beyond](https://ishadeed.com/article/responsive-design/)
+- [My favorite 3 lines of CSS (2023)](https://andy-bell.co.uk/my-favourite-3-lines-of-css/) ([HN](https://news.ycombinator.com/item?id=34877431))
+- [How the CSS box-sizing property works (2023)](https://andy-bell.co.uk/how-the-css-box-sizing-property-works/)
+- [CSS color-mix() (2023)](https://developer.chrome.com/blog/css-color-mix/)
+- [A Fancy Hover Effect For Your Avatar (2023)](https://css-tricks.com/a-fancy-hover-effect-for-your-avatar/)
+- [Meshgrad](https://meshgrad.cretu.dev/) - Tiny utility for generating CSS Mesh Gradients. ([Code](https://github.com/cristicretu/meshgrad))
+- [My CSS Wishlist (2023)](https://ishadeed.com/article/css-wishlist-2023/)
+- [CSS grammar for Tree-sitter](https://github.com/tree-sitter/tree-sitter-css)
+- [CSS Leading Trim](https://github.com/jantimon/leading-trim-examples) - CSS property that allows you to remove the leading whitespace from a block of text.
+- [Moving Backgrounds (2023)](https://css-tricks.com/moving-backgrounds/)
+- [Different Ways to Get CSS Gradient Shadows (2023)](https://css-tricks.com/different-ways-to-get-css-gradient-shadows/)
+- [WebKit Supports Nested CSS (2023)](https://webkit.org/blog/13813/try-css-nesting-today-in-safari-technology-preview/) ([HN](https://news.ycombinator.com/item?id=34814070))
+- [Do we need CSS flex-wrap detection? (2023)](https://ishadeed.com/article/flex-wrap-detect/) ([Tweet](https://twitter.com/shadeed9/status/1627373081986535424))
+- [Container queries land in stable browsers (2023)](https://web.dev/cq-stable/)
+- [My CSS Wishlist · Jens Meiert (2023)](https://meiert.com/en/blog/my-css-wishlist/)
+- [My CSS wish list - Manuel Matuzović (2023)](https://www.matuzo.at/blog/2023/css-wish-list/)
+- [CSS Wish List 2023 – Eric](https://meyerweb.com/eric/thoughts/2023/02/08/css-wish-list-2023/)
+- [CSS Wishlist 2023](https://daverupert.com/2023/01/css-wishlist-2023/)
+- [The Stack: Every Layout](https://every-layout.dev/layouts/stack/)
+- [On Container Queries, Responsive Images, and JPEG-XL (2023)](https://cloudfour.com/thinks/on-container-queries-responsive-images-and-jpeg-xl/) ([HN](https://news.ycombinator.com/item?id=34979942))
+- [unpic/placeholder](https://github.com/ascorbic/unpic-placeholder) - Pure-CSS image placeholders.
+- [Scrollbar](https://scrollbar.app/) - Web app which helps developers to design and implement custom scrollbars. ([Code](https://github.com/henripar/scrollbar))
+- [Cassius](https://github.com/uwplse/Cassius) - Formalization of CSS, making it possible to build tools that reason about the appearance of web pages.
+- [Ten tips for better CSS transitions and animations (2023)](https://joshcollinsworth.com/blog/great-transitions)
+- [CSS System Colors (2021)](https://blog.jim-nielsen.com/2021/css-system-colors/) ([HN](https://news.ycombinator.com/item?id=35289166))
+- [Stylelint Plugin Defensive CSS](https://github.com/yuschick/stylelint-plugin-defensive-css)
+- [Trigonometric Functions in CSS (2023)](https://web.dev/css-trig-functions/) ([HN](https://news.ycombinator.com/item?id=35336402))
+- [CSS Masking (2023)](https://ishadeed.com/article/css-masking/)
+- [You don't need JavaScript to support theming (2022)](https://www.standel.io/blog/you-dont-need-javascript-to-support-theming)
+- [XISS](https://github.com/localvoid/xiss) - Experimental compiler for modular CSS written in Rust.
+- [What's a Basic Use Case for Cascade Layers in CSS? (2023)](https://chriscoyier.net/2023/04/10/whats-a-basic-use-case-for-cascade-layers-in-css/)
+- [Spinning Diagrams with CSS (2023)](https://x.st/spinning-diagrams-with-css/) ([HN](https://news.ycombinator.com/item?id=35646199))
+- [CSS Textmate grammar for syntax highlighting](https://github.com/microsoft/vscode-css)
+- [css-color-converter](https://github.com/andyjansson/css-color-converter) - Converts CSS colors from one representation to another.
+- [CSS Tip: Learn CSS the easy one](https://css-tip.com/)
+- [CSS Blend Modes (2023)](https://garden.bradwoods.io/notes/css/blend-modes)
+- [How to make a CSS-only hamburger menu (2023)](https://threkk.medium.com/how-to-make-a-css-only-hamburger-menu-f7ad41e13399) ([Lobsters](https://lobste.rs/s/kzdsfz/how_make_css_only_hamburger_menu))
+- [Conditional CSS with:has and:nth-last-child (2023)](https://ishadeed.com/article/conditional-css-has-nth-last-child/)
+- [What's new in CSS and UI: I/O 2023 Edition](https://developer.chrome.com/blog/whats-new-css-ui-2023/)
+- [Mastering CSS Blend Modes (2023)](https://www.kodingkitty.com/blog/blend-modes/) ([HN](https://news.ycombinator.com/item?id=36104195))
+- [Everything You Want To Know About Media Queries and Responsive Design (2023)](https://engineering.kablamo.com.au/posts/2023/media-queries-and-responsive-design/) ([HN](https://engineering.kablamo.com.au/posts/2023/media-queries-and-responsive-design/))
+- [CCS (Customized Constraint System)](https://github.com/thor314/ccs-hack) - Generic constraints representation system can simultaneously capture R1CS, Plonkish, and AIR.
+- [CSS Pro](https://csspro.com/) - Re-imagined Devtools for web design. ([HN](https://news.ycombinator.com/item?id=36148807))
+- [CSS Nesting (2023)](https://robinrendle.com/notes/css-nesting/)
+- [Modern CSS in Real Life (2023)](https://chriscoyier.net/2023/06/06/modern-css-in-real-life/)
+- [UnoCSS Transformer Alias](https://github.com/zyyv/unocss-transformer-alias) - Transform alias for UnoCSS shortcuts.
+- [PureCSS Showcase by Asyraf Hussin](https://purecss.co/)
+- [Rebuilding a comment component with modern CSS (2023)](https://ishadeed.com/article/comment-component/)
+- [Modern CSS for Dynamic Component-Based Architecture (2023)](https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/) ([HN](https://news.ycombinator.com/item?id=36375582))
+- [The Staggering Frontiers of CSS (2023)](https://buttondown.email/robinrendle/archive/the-many-frontiers-of-css/) ([HN](https://news.ycombinator.com/item?id=36375179))
+- [Smooth shadow generator](https://smoothshadows.com/) ([HN](https://news.ycombinator.com/item?id=36401676))
+- [Introduction to Defensive CSS (2022)](https://defensivecss.dev/articles/intro-defensive-css/) ([HN](https://news.ycombinator.com/item?id=36407218))
+- [The New CSS (2023)](https://matthiasott.com/notes/the-new-css)
+- [Frosted Glass](https://frosted-glass.shud.in/)
+- [Fit-to-Width Text (2023)](https://kizu.dev/fit-to-width-text/)
+- [Cyclic Dependency Space Toggles (2023)](https://kizu.dev/cyclic-toggles/)
+- [CSS Database Queries (2023)](https://css-tricks.com/css-database-queries/)
+- [Future CSS: State Container Queries (2023)](https://ishadeed.com/article/css-state-queries/) ([HN](https://news.ycombinator.com/item?id=36510745))
+- [CSS: The Good Parts (2023)](https://www.builder.io/blog/css-the-good-parts) ([Tweet](https://twitter.com/HamatoYogi/status/1674806802695991300))
+- [Solved: Tricky Floating Image Alignment (2023)](https://cloudfour.com/thinks/solved-tricky-floating-image-alignment/)

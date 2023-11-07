@@ -1,0 +1,575 @@
+# Music production
+
+[Abletone Learning Synth](https://learningsynths.ableton.com/) is nice intro. [Never Before Heard Sounds](https://heardsounds.com/) is working on some [neat tech](https://twitter.com/yotammann/status/1532446436314402817).
+
+Sometimes use [Sonic Pi](https://sonic-pi.net/) & [Ableton](https://www.ableton.com/en/) to make music.
+
+[Omni](https://github.com/vitreo12/omni) & [SuperCollider](https://supercollider.github.io/) are interesting.
+
+As [Nils Frahm](https://www.nilsfrahm.com/) is my favorite artist and I love his [synthesizer setup](https://equipboard.com/pros/nils-frahm). I want to get into it playing [synths](synthesizers.md)/[pianos](piano.md) more. [Hania Rani](https://haniarani.com/) & [Ólafur Arnalds](https://olafurarnalds.com/) have great songs I want to learn to play too.
+
+[Riffusion](https://github.com/riffusion/riffusion) & [Strudel](https://strudel.tidalcycles.org/) & [WebAssembly Music](https://github.com/petersalomonsen/javascriptmusic) are interesting.
+
+## Tools
+
+- [Ableton Live](https://www.ableton.com/en/) - Digital audio workstation. ([GitHub](https://github.com/Ableton))
+- [GLICOL](https://github.com/chaosprint/glicol) - Graph-oriented live coding language written in Rust. Make music with code. ([Web](https://glicol.org/)) ([HN](https://news.ycombinator.com/item?id=30746299)) ([HN](https://news.ycombinator.com/item?id=30942074)) ([Talk](https://www.youtube.com/watch?v=YgY2stL5lt0))
+- [Klangmeister](http://ctford.github.io/klangmeister/about)
+- [Helio Workstation](https://github.com/helio-fm/helio-workstation) - One music sequencer for all major platforms, both desktop and mobile. ([Web](https://helio.fm/)) ([HN](https://news.ycombinator.com/item?id=28382873))
+- [Sonic Pi](https://sonic-pi.net/) - Code-based music creation and performance tool. ([Code](https://github.com/sonic-pi-net/sonic-pi)) ([Sonic Pi Tool](https://github.com/lpil/sonic-pi-tool)) ([Sonic Pi Challenge](https://github.com/github/sonic-pi-challenge)) ([Sonic Pi Tool (Python)](https://github.com/emlyn/sonic-pi-tool)) ([HN](https://news.ycombinator.com/item?id=28274069)) ([HN](https://news.ycombinator.com/item?id=33516405))
+- [FlowKey](https://www.flowkey.com) - Learn Piano with songs you love.
+- [Orca](https://github.com/hundredrabbits/Orca) - Live Programming Environment. Each letter of the alphabet is an operation. ([C rewrite](https://github.com/hundredrabbits/Orca-c)) ([Web](https://hundredrabbits.github.io/Orca/)) ([HN](https://news.ycombinator.com/item?id=23118139)) ([Interview with creator](https://overcast.fm/+Jrqagk3h0)) ([Forum discussion](https://llllllll.co/t/orca-livecoding-tool/17689)) ([Intro](https://www.youtube.com/watch?v=RaI_TuISSJE)) ([Videos](https://www.youtube.com/playlist?list=PLb1uDATFJPcEEG3w715GzbD4AE232Pdcu)) ([HN](https://news.ycombinator.com/item?id=29122218))
+- [Glitch](https://github.com/naivesound/glitch) - Minimal algorithmic music composer and synthesizer. ([Code](https://github.com/vincentriemer/io-808))
+- [IO-808](https://io808.com/) - Attempt at a fully recreated web-based TR-808 drum machine. ([Code](https://github.com/vincentriemer/io-808))
+- [Thrum](https://github.com/ryanramage/thrum) - Experiment in making a livecoding music sequencer using functional reducers.
+- [BeepBox](https://beepbox.co/) - Online tool for sketching and sharing instrumental melodies. ([Code](https://github.com/johnnesky/beepbox))
+- [BlokDust](https://blokdust.com/) - Web-based music making app. ([Code](https://github.com/BlokDust/BlokDust))
+- [Eternal](https://eternal.robcheung.com/) - Create music using nodes. ([Code](https://github.com/kousun12/eternal))
+- [norns](https://github.com/monome/norns) - Many sound instruments. It connects to grids, MIDI and other objects
+- [Tone Piano](https://github.com/tambien/Piano) - Web Audio instrument which uses high-quality multi-sampled piano sounds provided by Salamander Grand Piano.
+- [Tone.js](https://github.com/Tonejs/Tone.js) - Web Audio framework for making interactive music in the browser.
+- [tonal](https://github.com/tonaljs/tonal) - Functional music theory library for JavaScript.
+- [Renoise](https://www.renoise.com/) - Digital Audio Workstation with a unique top-down approach.
+- [Overtone](https://overtone.github.io/) - Open source audio environment designed to explore new musical ideas from synthesis and sampling to instrument building, live-coding and collaborative jamming. ([HN](https://news.ycombinator.com/item?id=30752148)) ([Basic Setup](https://savo.rocks/posts/overtone-basic-setup/)) ([Starting your Computer Music Journey with Clojure and Overtone in Emacs](https://savo.rocks/posts/starting-your-computer-music-journey-with-clojure-and-overtone-in-emacs/))
+- [Tidal Cycles](https://tidalcycles.org/) - Live coding music with Algorithmic patterns. ([Code](https://github.com/tidalcycles/Tidal)) ([Samples](https://github.com/tidalcycles/Clean-Samples))
+- [Music Grid](https://music-grid.surge.sh/) - Simple music grid web app in which you can tap on cells to create music. ([HN](https://news.ycombinator.com/item?id=23512297)) ([Code](https://github.com/irshadshalu/music-grid))
+- [mosh](https://github.com/jamesb93/mosh) - Small command-line application written in Nim for 'moshing' data into audio.
+- [OCellator](http://kevinmahoney.co.uk/ocellator/) - Lispy synth language with structural editor. ([Lobsters](https://lobste.rs/s/td8ddx/ocellator_lispy_synth_language_with))
+- [BespokeSynth](https://github.com/awwbees/BespokeSynth) - Software modular synth.
+- [Vivid](https://vivid-synth.com/) - High quality audio with Haskell and SuperCollider. ([Code](https://github.com/vivid-synth/vivid))
+- [Teensy Audio Library](https://github.com/PaulStoffregen/Audio) - 16 bit, 44.1 kHz streaming audio library for Teensy 3.
+- [Faust](https://github.com/grame-cncm/faust) - Functional programming language for signal processing and sound synthesis. ([Web](https://faust.grame.fr/)) ([Docs](https://faust.grame.fr/doc/manual/index.html#quick-start))
+- [FaustLive](https://github.com/grame-cncm/faustlive) - Swiss knife for Faust development.
+- [AudioKit Pro](https://audiokitpro.com/) - Leading free & open-source audio framework for iOS, macOS, and Apple Watch.
+- [noise.sh](https://noise.sh/) - Digital signal processing spreadsheet for sound design.
+- [Noisefunge](https://github.com/revnull/noisefunge.rs) - Music livecoding environment based on the befunge programming language. ([HN](https://news.ycombinator.com/item?id=24549602))
+- [Roland 808303.studio](https://808303.studio/)
+- [Wafxr](https://andyhall.github.io/wafxr/) - Sound effect generator. ([Code](https://github.com/andyhall/wafxr))
+- [wasgen](https://github.com/andyhall/wasgen) - Web Audio sound generator.
+- [Audiobench](https://github.com/joshua-maros/audiobench) - Open source modular synthesizer.
+- [Edyson](https://github.com/perfall/Edyson) - Tool for exploring audio quickly.
+- [AudioMass](https://audiomass.co/) - Audio Editor.
+- [Geonkick](https://github.com/iurie-sw/geonkick) - Free software percussion synthesizer for GNU/Linux.
+- [kord](https://github.com/synestematic/kord) - Music theory development framework in python.
+- [DaisySP](https://github.com/electro-smith/DaisySP) - Open source DSP library written in C++ and specifically tailored to embedded audio applications.
+- [Daisy Seed](https://www.electro-smith.com/daisy/daisy) - Embedded platform for music. It features everything you need for creating high fidelity audio hardware devices. Just plug in a USB cable and start making sound.
+- [Daisy Synthesizers Shop](https://www.electro-smith.com/daisy)
+- [Ofelia](https://github.com/cuinjune/Ofelia) - Cross-platform real-time visual programming environment for creating audiovisual artwork or multimedia applications.
+- [dasp](https://github.com/RustAudio/dasp) - Digital Audio Signal Processing in Rust.
+- [Orac](https://github.com/TheTechnobear/Orac) - Virtual modular synth.
+- [aiotone](https://github.com/ambv/aiotone) - Audio synthesis and MIDI processing tools in AsyncIO.
+- [Linnstrument](https://www.rogerlinndesign.com/linnstrument) - Expressive MIDI controller for musical performance. ([Firmware of LinnStrument](https://github.com/rogerlinndesign/linnstrument-firmware))
+- [MusE](https://github.com/muse-sequencer/muse) - Digital audio workstation with support for both Audio and MIDI. ([Web](https://muse-sequencer.github.io/))
+- [Handel](https://handel-pl.github.io/) - Procedural programming language for writing songs in browser. ([HN](https://news.ycombinator.com/item?id=25641420)) ([Code](https://github.com/ddj231/Handel))
+- [Crypt](https://github.com/DavW/crypt) - Software synthesiser plugin designed for creating spacious cold hyper-unisoned synth sounds.
+- [Fourhands](https://fourhands.jminjie.com/) - P2P MIDI jam room for pianists. ([Code](https://github.com/jminjie/fourhands)) ([HN](https://news.ycombinator.com/item?id=25685903))
+- [FoxDot](https://github.com/Qirky/FoxDot) - Python driven environment for Live Coding. ([Web](https://foxdot.org/))
+- [RaveForce](https://github.com/chaosprint/RaveForce) - Environment that allows you to define your musical task in SuperCollider, and train an agent to do the task in Python with APIs similar to the OpenAI Gym.
+- [libsamplerate](https://github.com/libsndfile/libsamplerate) - Library for performing sample rate conversion of audio data. ([Web](http://libsndfile.github.io/libsamplerate/))
+- [Music Pattern Generator](https://github.com/hisschemoller/music-pattern-generator) - JavaScript MIDI Music Pattern Generator.
+- [Zrythm](https://www.zrythm.org/en/) - Highly automated and intuitive digital audio workstation. ([Code](https://github.com/zrythm/zrythm)) ([HN](https://news.ycombinator.com/item?id=29450212))
+- [Wavepot](https://wavepot.com/) - Code Music In-Browser.
+- [LiveCore](https://github.com/ul/livecore) - Hardcore livecoding system for realtime audio synth.
+- [tuna](https://github.com/Theodeus/tuna) - Audio effects library for the Web Audio API.
+- [LMMS](https://github.com/LMMS/lmms) - Cross-platform music production software. ([Web](https://lmms.io/))
+- [Ardour](https://ardour.org/) - Digital audio workstation. ([Manual](https://manual.ardour.org/toc/)) ([Manual Code](https://github.com/Ardour/manual)) ([Code](https://github.com/Ardour/ardour))
+- [orenolisp](https://github.com/illiichi/orenolisp) - Structural clojure editor for producing sound using Overtone.
+- [WadJS](https://github.com/rserota/wad) - Web Audio DAW. Use the Web Audio API for dynamic sound synthesis. It's like jQuery for your ears.
+- [JamRTC](https://github.com/lminiero/jamrtc) - WebRTC for Live Musicians. ([HN](https://news.ycombinator.com/item?id=26505059))
+- [The Infinite Drum Machine](https://experiments.withgoogle.com/ai/drum-machine/view/) ([HN](https://news.ycombinator.com/item?id=26533792))
+- [Alda](https://alda.io/) - Text-based programming language for music composition. ([Why I'm rewriting Alda in Go and Kotlin](https://blog.djy.io/why-im-rewriting-alda-in-go-and-kotlin/)) ([Code](https://github.com/alda-lang/alda)) ([Tutorial](https://alda.io/tutorial/)) ([HN](https://news.ycombinator.com/item?id=28198641)) ([VSCode Extension](https://github.com/abhi18av/Alda-VsCode))
+- [IBNIZ](http://viznut.fi/ibniz/) - Virtual machine designed for extremely compact low-level audiovisual programs. ([Code](https://github.com/viznut/IBNIZ))
+- [HMSL](https://github.com/philburk/hmsl) - Hierarchical Music Specification Language.
+- [Pure Data](https://github.com/pure-data/pure-data) - Free real-time computer music system.
+- [Vult](https://github.com/modlfo/vult) - Transcompiler well suited to write high-performance DSP code. ([Web](http://modlfo.github.io/vult/))
+- [OP-1](https://teenage.engineering/products/op-1) - Synthesizer, sampler and sequencer. ([Anniversary](https://teenage.engineering/products/op-1/anniversary)) ([HN](https://news.ycombinator.com/item?id=26808757)) ([Article](https://taoofmac.com/space/blog/2021/04/17/1610))
+- [Sorceress](https://github.com/ooesili/sorceress) - Rust environment for sound synthesis and algorithmic composition.
+- [Mido](https://github.com/mido/mido) - MIDI Objects for Python.
+- [basedrop](https://github.com/glowcoil/basedrop) - Set of memory-management tools for real-time audio. ([Web](https://glowcoil.com/posts/basedrop/))
+- [FunDSP](https://github.com/SamiPerttu/fundsp) - Audio DSP library featuring an inline graph notation for audio processing.
+- [PunKt](https://github.com/pjagielski/punkt) - Live coding music library/environment for Kotlin.
+- [OpenMusic](https://github.com/openmusic-project/openmusic) - Visual programming language based on Lisp.
+- [Scribbletune](https://scribbletune.com/) - Create music with JavaScript. ([Code](https://github.com/scribbletune/scribbletune))
+- [auditok](https://github.com/amsehili/auditok) - Audio/acoustic activity detection and audio segmentation tool.
+- [Flip Sampler](https://apps.apple.com/us/app/flip-make-music-everywhere/id1486629619#?platform=iphone)
+- [Fragment](https://www.fsynth.com/) - Real-time audiovisual live coding environment.
+- [SOUL](https://soul.dev/) - Language and infrastructure for writing and deploying audio code. ([Code](https://github.com/soul-lang/SOUL))
+- [libpd](https://github.com/libpd/libpd) - Pure Data embeddable audio synthesis library.
+- [libpd-rs](https://github.com/alisomay/libpd-rs) - Safe rust abstractions over libpd-sys.
+- [Music Suite](https://github.com/music-suite/music-suite) - Language for describing music, based on Haskell.
+- [Oscen](https://github.com/reedrosenbluth/oscen) - Rust Sound Synthesis Library.
+- [Dorico for iPad](https://new.steinberg.net/dorico/ipad/) - Music Notation App.
+- [Augmented Audio Libraries in Rust](https://github.com/yamadapc/augmented-audio)
+- [Signal](https://signal.vercel.app/) - Online MIDI Editor. ([Code](https://github.com/ryohey/signal))
+- [Meyda](https://github.com/meyda/meyda) - Audio feature extraction for JavaScript. ([Web](https://meyda.js.org/))
+- [Meyda Rust](https://github.com/meyda/meyda-rs) - Audio feature extraction library for Rust.
+- [aeon](https://github.com/tommaisey/aeon) - Live-coding system for musical pattern manipulation.
+- [Open Stage Control](https://openstagecontrol.ammd.net/) - Libre and modular OSC / MIDI controller. ([Code](https://github.com/jean-emmanuel/open-stage-control))
+- [ChucK](https://chuck.cs.princeton.edu/) - Strongly-Timed Music Programming Language. ([HN](https://news.ycombinator.com/item?id=28573193))
+- [Mosquito](https://github.com/ales-tsurko/mosquito) - Audio library for live coding, composition, sound design, DSP prototyping and any kind of audio applications.
+- [Composing Studio](https://composing.studio/) - Collaborative music composition for everyone. ([Code](https://github.com/ekzhang/composing.studio))
+- [Aubio](https://github.com/aubio/aubio) - Tool designed for the extraction of annotations from audio signals. ([Web](https://aubio.org/)) ([HN](https://news.ycombinator.com/item?id=28582856))
+- [Maximilian](https://github.com/micknoise/Maximilian) - C++ Audio and Music DSP Library.
+- [Melrōse](https://github.com/emicklei/melrose) - Interactive programming of melodies, producing MIDI. ([Intro](http://ernestmicklei.com/melrose/introduction_melrose/)) ([HN](https://news.ycombinator.com/item?id=30740274))
+- [Jfxr](https://jfxr.frozenfractal.com/) - Browser-based tool to create sound effects for games. ([Code](https://github.com/ttencate/jfxr))
+- [Mutagen](https://github.com/quodlibet/mutagen) - Python module for handling audio metadata.
+- [Sonic Visualiser](https://sonicvisualiser.org/) - Visualization, analysis, and annotation of music audio recordings. ([Code](https://github.com/sonic-visualiser/sonic-visualiser))
+- [Sound GLSL](https://github.com/soundshader/soundshader.github.io)
+- [SongKit](https://songkit.app/) - AI-powered songbook app for your iPhone and iPad, letting you organize, view, and edit your songs sheets on any of your devices.
+- [wavesurfer.js](https://wavesurfer-js.org/) - Customizable audio waveform visualization, built on top of Web Audio API and HTML5 Canvas. ([Code](https://github.com/katspaugh/wavesurfer.js)) ([Use with React](https://dev.to/jamland/audio-player-with-wavesurfer-js-react-1g3b))
+- [Sorrygle](https://github.com/JJoriping/Sorrygle) - Text-based MIDI writing language and its compiler.
+- [Twang](https://github.com/AldaronLau/twang) - Library for pure Rust advanced audio synthesis.
+- [Leipzig](https://github.com/ctford/leipzig) - Music composition library for Clojure and ClojureScript.
+- [DawDreamer](https://github.com/DBraun/DawDreamer) - Audio-processing Python framework supporting core DAW features.
+- [soundbytes](https://github.com/petar-dambovaliev/soundbytes) - DSL for composing and playing music.
+- [MIDISequencer](https://github.com/AudioKit/MIDISequencer) - MIDI Sequencer that sends MIDI events to other apps.
+- [Meadowlark](https://github.com/MeadowlarkDAW/Meadowlark) - Fully-featured DAW written in Rust. ([HN](https://news.ycombinator.com/item?id=29082142))
+- [Harmonicon](https://harmonicon.studio/) - Experimental DAW for music as code. ([Code](https://github.com/JamesRyanATX/Harmonicon))
+- [GridSound](https://gridsound.com/) - Open source online digital audio workstation following the new WebAudio API. ([Code](https://github.com/gridsound/daw))
+- [MidiTok](https://github.com/Natooz/MidiTok) - A convenient MIDI tokenizer for Deep Learning networks, with multiple encoding strategies.
+- [ngrid](https://www.ngrid.io/) - Revolutionary way to compose music.
+- [Phrasa](https://github.com/progressive-instruments/phrasa) - Language for Making Music.
+- [meSing.js](https://github.com/usdivad/mesing) - JavaScript singing synthesis library.
+- [NoiseCraft](https://github.com/maximecb/noisecraft) - Browser-based visual programming language and platform for sound synthesis. ([Web](https://noisecraft.app/)) ([Article](https://pointersgonewild.com/2021/12/05/noisecraft-a-browser-based-visual-programming-language-for-sound-music/)) ([HN](https://news.ycombinator.com/item?id=31225494))
+- [Spaghettis](https://github.com/Spaghettis/Spaghettis) - Environment for audio analysis, synthesis, and processing, with a rich set of multimedia capabilities. ([Docs](http://msp.ucsd.edu/Pd_documentation/index.htm))
+- [Hero Studio](https://github.com/chris-zen/hero-studio) - Music studio similar to Ableton Live or Bitwig Studio.
+- [Muse](https://muse.hackclub.dev/) - Simple language for Jamming embedded in a JavaScript environment. ([Code](https://github.com/hackclub/muse))
+- [Music Theory Go Lib](https://github.com/brettbuddin/musictheory)
+- [WEBMIDI.js](https://github.com/djipco/webmidi) - Makes it easy to interact with MIDI instruments directly from a web browser or from Node.js.
+- [mu](https://github.com/dbuenzli/mu) - Declarative music for OCaml.
+- [MusicManipulations.jl](https://github.com/JuliaMusic/MusicManipulations.jl) - Manipulate music data, humanize, quantize and analyze music performances with Julia.
+- [Loopers](https://github.com/mwylde/loopers) - Graphical live looper, written in Rust, designed for ease of use and rock-solid stability.
+- [spafe](https://github.com/SuperKogito/spafe) - Simplified Python Audio-Features Extraction.
+- [WagsI](https://github.com/mikesol/wagsi) - 100% browser-based interactive live audio coding environment.
+- [web-audio-api](https://github.com/audiojs/web-audio-api) - Node.js implementation of Web audio API.
+- [Melo](https://github.com/mistodon/melo) - Music notation language and compiler to MIDI.
+- [strudel](https://github.com/tidalcycles/strudel) - Port of tidalcycles to JavaScript.
+- [rhythmical](https://github.com/felixroos/rhythmical) - Language to parse and manipulate musical rhythms with JS.
+- [jazzband](https://felixroos.github.io/jazzband/) - Virtual Jazz Band that can play chord symbols via Web Audio API. ([Code](https://github.com/felixroos/jazzband))
+- [Strudel REPL](https://strudel.tidalcycles.org/) - Live coding environment that brings the ideas of Tidal Cycles to the browser. ([Intro](https://loophole-letters.vercel.app/strudel))
+- [Csound-expression](https://github.com/spell-music/csound-expression) - Haskell Framework for Electronic Music.
+- [Gwion](https://github.com/Gwion/Gwion) - Strongly-timed musical programming language. ([Docs](https://gwion.github.io/Gwion/))
+- [mep](https://github.com/alisomay/mep) - Scriptable MIDI event processor.
+- [music-fns](https://github.com/madewithlove/music-fns) - JavaScript music utility library that contains small music notation related functions.
+- [CoSo by Splice](https://tools.splice.com/coso) - Music creation app that listens to your Stack of sounds and shows you loops that belong together.
+- [isobar](https://github.com/ideoforms/isobar) - Python library for creating and manipulating musical patterns, designed for use in algorithmic composition, generative music and sonification.
+
+## Inspiration
+
+- [Nils Frahm at Funkhaus Berlin](https://www.youtube.com/watch?v=kv2nmefHc9Y) - Amazing artist.
+- [Knowledge Arena: In conversation with: Khruangbin](https://www.youtube.com/watch?v=JasR8lqTS6Y)
+- [Techno's Jon Hopkins Drops Science - Supersonic](https://www.youtube.com/watch?v=gzquxwYnDvk)
+- [Nils Frahm at Sydney Opera House - In Conversation with Peter Hollo](https://www.youtube.com/watch?v=dQ97DoQarbk)
+- [Ishome Interview w/English Subs](https://www.youtube.com/watch?v=LX7RPfNhC64)
+- [Big Thief Interview - Adrianne Lenker (2019)](https://www.youtube.com/watch?v=7JimMROaBxQ)
+
+## Links
+
+- [Get started making music](https://learningmusic.ableton.com/) ([HN](https://news.ycombinator.com/item?id=29055433)) ([HN](https://news.ycombinator.com/item?id=35935796))
+- [The Bare Maximum | Steve Lacy | TED](https://www.youtube.com/watch?v=SUnmrQfdYpg)
+- [NSynth Super](https://nsynthsuper.withgoogle.com/)
+- [Music concepts explained](https://www.youtube.com/playlist?list=PL-NzMNM2cyt-RYr-8YmF0yFVDwhdklaiT)
+- [Flat](https://flat.io) - Write music scores online.
+- [Interactive Music Theory Lessons](https://www.lightnote.co/) - ([HN](https://news.ycombinator.com/item?id=12792063))
+- [Synesthesia & creating your own score | Devonté Hynes | TED](https://www.youtube.com/watch?v=Dc60ldmTrIg)
+- [Stimming Interview: How I Play](https://www.youtube.com/watch?v=fuKYq_n4Ops)
+- [Functional music theory library for JavaScript](https://github.com/danigb/tonal)
+- [LFO](https://lfo1.sharetribe.com/) - Rent gear from musicians around the world, and make money from the instruments you have sitting around your studio.
+- [Abletone Learning Synth](https://learningsynths.ableton.com/) ([HN](https://news.ycombinator.com/item?id=20272346)) ([HN](https://news.ycombinator.com/item?id=31279526))
+- [Syntorial](https://www.syntorial.com/) - Video game-like training software, that will teach you how to program synth patches by ear.
+- [Ear Training Practice](https://tonedear.com/)
+- [Ask HN: Recommendations for AI generated music software? (2019)](https://news.ycombinator.com/item?id=20514446)
+- [AudioKit](https://github.com/AudioKit/AudioKit) - Swift audio synthesis, processing, & analysis platform for iOS, macOS and tvOS. ([Examples](https://github.com/AudioKit/Cookbook))
+- [Music Theory for Musicians and Normal People](https://tobyrush.com/theorypages/index.html) ([HN](https://news.ycombinator.com/item?id=21297462))
+- [How I recorded an album on my own, in my room](https://medium.com/@rodrigo.m.mesquita/what-i-learned-recording-an-alternative-album-on-my-own-in-my-room-c440b8201c9) ([HN](https://news.ycombinator.com/item?id=22591972))
+- [Monome](https://monome.org/) - Sound machines for the exploration time and space. ([Code](https://github.com/monome/docs))
+- [Low Level Norns](https://github.com/PaulBatchelor/norns-lowlevel) - Small snippets of C code that do relatively low-level things on the norns.
+- [SuperCollider](https://github.com/supercollider/supercollider) - Platform for audio synthesis and algorithmic composition, used by musicians, artists, and researchers working with sound. ([Web](https://supercollider.github.io/)) ([HN](https://news.ycombinator.com/item?id=23282035)) ([Awesome](https://github.com/madskjeldgaard/awesome-supercollider)) ([Neovim plugin](https://github.com/davidgranstrom/scnvim))
+- [Using locks in real-time audio processing, safely (2020)](https://timur.audio/using-locks-in-real-time-audio-processing-safely)
+- [JACK2](https://github.com/jackaudio/jack2) - C++ version of the JACK low-latency audio server for multi-processor machines.
+- [Web Audio API: Musically-aware scheduling and Dynamic looping (2016)](https://jakearchibald.com/2016/sounds-fun/) ([HN](https://news.ycombinator.com/item?id=23046420))
+- [Python MIDI library](https://github.com/vishnubob/python-midi)
+- [Learn sound theory with an acclaimed synth company (2020)](https://sfree.life/sound-theory-toyota-vangelis-bastl-instruments-free/) ([HN](https://news.ycombinator.com/item?id=23079145))
+- [audiofabric](https://tbaldw.in/audiofabric/) - 3D music visualization. ([Code](https://github.com/rolyatmax/audiofabric))
+- [Spleeter](https://github.com/deezer/spleeter) - Deezer source separation library including pretrained models.
+- [Music prod setup on mac](https://twitter.com/johnlindquist/status/1264265305892646915)
+- [Collab](https://npe.fb.com/collab/) - Make music together, while we're apart.
+- [How To Make A - Legowelt - Track](https://www.youtube.com/watch?v=TGCxBVu1-sE)
+- [AudioMass](https://audiomass.co/) - Free, open source, web-based Audio and Waveform editor. ([HN](https://news.ycombinator.com/item?id=23337091))
+- [Ask HN: I'd like to learn vocals, any suggestion on how I can do this? (2020)](https://news.ycombinator.com/item?id=23359096)
+- [Making Music with Haskell From Scratch (2020)](https://www.youtube.com/watch?v=FYTZkE5BZ-0) ([Code](https://github.com/tsoding/haskell-music))
+- [mimium](https://github.com/mimium-org/mimium) - Programming language as an infrastructure for sound and music. ([Web](https://mimium.org/en/))
+- [Piano tuning (2019)](https://sidsite.com/posts/piano-tuning/)
+- [Splice](https://splice.com/) - Royalty-Free Sounds & Rent-to-Own Plugins.
+- [Carving out a niche as a small artist on Spotfiy (2020)](https://www.stevebenjamins.com/blog/music-in-the-age-of-algorithms-47syg) ([HN](https://news.ycombinator.com/item?id=23652545))
+- [Kiwi](https://github.com/Musicoll/Kiwi) - Real-time collaborative audio patching software.
+- [Creating Music in Sonic Pi (2020)](https://www.lilychan.dev/track1.html)
+- [JazzKeys](https://jazzkeys.plan8.co/) - Type to improvise Jazz music. ([HN](https://news.ycombinator.com/item?id=23737195))
+- [Computational Music Synthesis](https://cs.gmu.edu/~sean/book/synthesis/) ([HN](https://news.ycombinator.com/item?id=23783652))
+- [Studiotime](https://www.studiotime.io/) - Rent a music studio, recording studio.
+- [Sonuum](https://sonuum.com/) - Audio collaborative editor for everyone.
+- [HN: Spotify CEO: musicians can no longer release music only “once every 3-4 years” (2020)](https://news.ycombinator.com/item?id=24010152)
+- [Making AI Musicians (2017)](https://www.youtube.com/watch?v=lfttRvrYHn0)
+- [Audio From Scratch With Go (2020)](https://dylanmeeus.github.io/posts/audio-from-scratch-pt1/)
+- [Ask HN: How to Become a Music Buff? (2020)](https://news.ycombinator.com/item?id=24209025)
+- [SuperCollider Book (2011)](https://mitpress.mit.edu/books/supercollider-book) - Essential reference to SuperCollider, a powerful, flexible, open-source, cross-platform audio programming language.
+- [Pippi](https://github.com/luvsound/pippi) - Computer Music With Python. ([HN](https://news.ycombinator.com/item?id=24289981))
+- [Playtronica](https://playtronica.com/) - Interactive toolkit and playground. Turn any object alive using our prototyping instruments.
+- [Adio](https://www.adio.app/) - Collaborative songwriting platform for bands and musicians.
+- [Discover MIDI Guide](https://imitone.com/discover-midi/)
+- [pureMix](https://www.puremix.net/) - Learn mixing. ([Courses](https://www.puremix.net/tutorials/all-courses.html))
+- [SoundCard](https://github.com/bastibe/SoundCard) - Library for playing and recording audio without resorting to a CPython extension.
+- [MIDI Sucks](https://pbat.ch/wiki/MIDI_sucks/)
+- [Essentia](https://github.com/MTG/essentia) - C++ library for audio and music analysis, description and synthesis, including Python bindings. ([Web](https://essentia.upf.edu/))
+- [Nicholas Spice · How to play the piano](https://www.lrb.co.uk/the-paper/v14/n06/nicholas-spice/how-to-play-the-piano) ([HN](https://news.ycombinator.com/item?id=24702650))
+- [Open Source Tools and Data for Music Source Separation](https://source-separation.github.io/tutorial/landing.html) ([HN](https://news.ycombinator.com/item?id=24748793)) ([Code](https://github.com/source-separation/tutorial))
+- [cchound.com](https://cchound.com/) - Curated library of free music for content creators. ([HN](https://news.ycombinator.com/item?id=24745874))
+- [Kevin Parker (Tame Impala) Talks with Dan Snaith (Caribou) on the Talkhouse Podcast (2020)](https://open.spotify.com/episode/0i2XrBaF22zjQ13YMpg9Pl?si=icEC3xmIQCyV6Y3c82O7OQ) ([Web](https://www.talkhouse.com/kevin-parker-tame-impala-talks-with-dan-snaith-caribou-on-the-talkhouse-podcast/))
+- [Kevin Parker breaks down Tame Impala's 'The Slow Rush' album (2020)](https://www.youtube.com/watch?v=wkT6slu6cOc)
+- [Étude in C minor (2020)](https://zserge.com/posts/etude-in-c/)
+- [Steinberg](https://www.steinberg.net/en/home.html) - Audio software and hardware solutions.
+- [The Book of Knowledge of Impractical Musical Devices (2020)](https://blog.bela.io/2020/03/06/book-impractical-musical-devices-yann-seznec/)
+- [Augmented Instruments Laboratory](http://instrumentslab.org/)
+- [muda](https://github.com/bmcfee/muda) - Library for augmenting annotated audio data.
+- [librosa](https://github.com/librosa/librosa) - Python package for music and audio analysis.
+- [mir_eval](https://github.com/craffel/mir_eval) - Evaluation functions for music/audio information retrieval/signal processing algorithms.
+- [jams](https://github.com/marl/jams) - JSON Annotated Music Specification for Reproducible MIR Research.
+- [Piano transcription](https://github.com/bytedance/piano_transcription) - Transcribing piano recordings into MIDI files.
+- [SquinkyVCV](https://github.com/squinkylabs/SquinkyVCV) - Collection of modules for the VCV Rack virtual modular synthesizer.
+- [VCV Rack](https://vcvrack.com/) - Free and open-source cross-platform software modular synthesizer. ([GitHub](https://github.com/VCVRack))
+- [Rack](https://github.com/VCVRack/Rack) - Engine for the VCV open-source virtual modular synthesizer.
+- [Pianists for Alternatively Sized Keyboards](http://paskpiano.org/about/) ([HN](https://news.ycombinator.com/item?id=25173522))
+- [AudioGridder](https://github.com/apohl79/audiogridder) - DSP servers using general purpose networks and computers. ([Web](https://audiogridder.com/))
+- [Tabula Rasa Record Company](https://www.tabularasarecords.com/) ([Tweet](https://twitter.com/TabulaRasaRcrds/status/1334194281041387520))
+- [MuseTree](https://stevenwaterman.uk/musetree/) - Custom front-end for OpenAi's MuseNet, the AI music generator. ([Code](https://github.com/stevenwaterman/musetree))
+- [Voicebook](https://www.neurolex.ai/voicebook/) - Learn how to build voice applications in Python.
+- [Burial's Untrue: The making of a masterpiece (2017)](https://www.youtube.com/watch?v=Et5B-zfAIIo)
+- [MuseGAN](https://github.com/salu133445/musegan) - AI for Music Generation.
+- [MusPy](https://github.com/salu133445/muspy) - Toolkit for symbolic music generation.
+- [Free Piano Method](https://www.freepianomethod.com/)
+- [Ambient Music Generator](https://github.com/pachyderm/ambient-music-generation)
+- [The Design of the Roland Juno Syntheziser's Oscillators](https://blog.thea.codes/the-design-of-the-juno-dco/) ([HN](https://news.ycombinator.com/item?id=25598656))
+- [Awesome Music DSP](https://github.com/olilarkin/awesome-musicdsp) - Curated list of my favorite music DSP and audio programming resources. ([HN](https://news.ycombinator.com/item?id=26916254))
+- [Compound Word Transformer: Learning to Compose Full-Song Music over Dynamic Directed Hypergraphs (2021)](https://arxiv.org/abs/2101.02402) ([Code](https://github.com/YatingMusic/compound-word-transformer))
+- [ReaRender](https://github.com/YatingMusic/ReaRender) - Python toolkit for automatic audio/MIDI rendering using REAPER.
+- [Pop Music Transformer: Beat-based Modeling and Generation of Expressive Pop Piano Compositions (2020)](https://arxiv.org/abs/2002.00212) ([Code](https://github.com/YatingMusic/remi))
+- [Sound Semiconductor](http://www.soundsemiconductor.com/index.html) - IC's for Music Creation.
+- [pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) - Python Audio Analysis Library: Feature Extraction, Classification, Segmentation and Applications.
+- [Tonara](https://tonara.com/) - Music Education Happens Here.
+- [musescore-downloader](https://github.com/Xmader/musescore-downloader) - Download sheet music from musescore.com for free.
+- [Groove2Groove: One-Shot Music Style Transfer with Supervision from Synthetic Data](https://github.com/cifkao/groove2groove)
+- [Pitch Detector](https://ctrager.github.io/pitch.html) - Are you playing your violin (viola, guitar, etc.) in tune?
+- [The history of trackers (2020)](https://www.musictech.net/guides/essential-guide/history-of-trackers/) ([Lobsters](https://lobste.rs/s/0esop3/history_trackers))
+- [Why does an A note sound different across instruments?](https://omarshehata.me/notebook/exploring_sound) ([HN](https://news.ycombinator.com/item?id=26308241))
+- [Ask HN: Do you create music? let's hear it (2021)](https://news.ycombinator.com/item?id=26391254)
+- [Writing an Audio Plugin in Rust (2017)](https://www.seventeencups.net/posts/writing-an-audio-plugin-in-rust/)
+- [Piano Practice Software Progress (2021)](https://jacquesmattheij.com/piano-practice-software-progress/) ([HN](https://news.ycombinator.com/item?id=26609482))
+- [Resources & tools to learn music production (2021)](https://twitter.com/carolynz/status/1378838910932037636)
+- [How We Record Audio At The Tiny Desk (2017)](https://www.youtube.com/watch?v=e07bI5rz6FY)
+- [VCV Prototype](https://github.com/VCVRack/VCV-Prototype) - Scripting language host for VCV Rack.
+- [Beat Lock](https://beatlock.io/) - Discover who is using your beat in music streaming services.
+- [A top audio engineer explains NPR’s signature sound (2015)](https://current.org/2015/06/a-top-audio-engineer-explains-nprs-signature-sound/) ([HN](https://news.ycombinator.com/item?id=26832636))
+- [Digital Audio 101: Playing Audio from a Microcontroller (2021)](https://blog.tarkalabs.com/digital-audio-101-playing-audio-from-a-microcontroller-5df1463616c) ([HN](https://news.ycombinator.com/item?id=26820648))
+- [Short Introduction To MIDI](https://mido.readthedocs.io/en/latest/about_midi.html)
+- [DataLooper](https://www.datalooperpedal.com/) - Ultimate Ableton Foot Controller.
+- [Live-coding ambient music in SuperCollider (2020)](https://www.youtube.com/watch?v=bW1otBbTh-E)
+- [Awesome Live Coding Music](https://github.com/pjagielski/awesome-live-coding-music)
+- [Web Audio Resources](https://github.com/alemangui/web-audio-resources)
+- [How I Practice Piano (2021)](https://frogurncitadel.wordpress.com/2021/03/27/how-i-practice-piano/) ([HN](https://news.ycombinator.com/item?id=27085922))
+- [LEARN ORCΛ](https://metasyn.github.io/learn-orca/)
+- [Awesome Audio DSP](https://github.com/BillyDM/Awesome-Audio-DSP)
+- [Rust-LV2](https://github.com/RustAudio/rust-lv2) - Safe, fast, and ergonomic framework to create LV2 plugins for audio processing, written in Rust.
+- [Elk OS](https://elk.audio/audio-os/) - Audio Operating System. ([HN](https://news.ycombinator.com/item?id=27269589))
+- [Ask HN: How to get started with audio programming? (2021)](https://news.ycombinator.com/item?id=27273706)
+- [Freesound](https://freesound.org/) - Collaborative database of Creative Commons Licensed sounds.
+- [Open-Source Audio Plugins & Apps](https://github.com/webprofusion/OpenAudio)
+- [Mix with the Masters](https://www.mixwiththemasters.com/) - Learn music production from the world's top music mixers and producers. ([YouTube](https://www.youtube.com/user/MixWithTheMASTERS/videos))
+- [A Recipe For Learning Audio Programming](https://pbat.ch/wiki/audio_programming_recipe/)
+- [Pianobook](https://www.pianobook.co.uk/) - Peer-to-peer community of composers, producers and sound smiths sharing their sounds for all to use for free.
+- [Functional, Declarative Audio Applications (2021)](https://www.nickwritesablog.com/functional-declarative-audio-applications/)
+- [Midicircuit](https://midicircuit.com/) - Learn music with your Midi Instrument.
+- [EMOPIA: A Multi-Modal Pop Piano Dataset For Emotion Recognition and Emotion-based Music Generation (2021)](https://arxiv.org/abs/2108.01374) ([Code](https://github.com/annahung31/EMOPIA))
+- [Music Composition with Deep Learning: A Review (2021)](https://arxiv.org/abs/2108.12290) ([HN](https://news.ycombinator.com/item?id=28353358))
+- [Music Source Separation](https://github.com/bytedance/music_source_separation) - PyTorch implementation of music source separation.
+- [Computer Models of Musical Creativity - David Cope (2005)](https://mitpress.mit.edu/books/computer-models-musical-creativity) ([LISP source code](https://github.com/HeinrichApfelmus/david-cope-cmmc))
+- [Muzic](https://github.com/microsoft/muzic) - Research project on AI music that empowers music understanding and generation with deep learning and artificial intelligence.
+- [Awesome-MusicInfomatics](https://github.com/yamathcy/Awesome-MusicInfomatics)
+- [wavform](https://wav.fm/) - Building Useful Things For People Who Make Music. ([Twitter](https://twitter.com/wav___form))
+- [Web Audio Synthesis & Visualization Online Workshop (2021)](https://frontendmasters.com/workshops/web-audio/)
+- [Web Audio Weekly](https://www.webaudioweekly.com/) - Email newsletter all about the future of audio technology on the web platform. ([Twitter](https://twitter.com/webaudioweekly))
+- [Why do we tune in 5ths?](https://www.violinist.com/discussion/archive/17290/) ([HN](https://news.ycombinator.com/item?id=28724210))
+- [Violinist.com](https://www.violinist.com/)
+- [Synthizer](https://github.com/synthizer/synthizer) - Library for game/VR audio applications. 3D audio for headphones.
+- [Computer Music Instruments - Foundations, Design and Development Book (2017)](https://www.springer.com/gp/book/9783319635033) ([Examples](https://github.com/vlazzarini/instruments))
+- [Sound and Music Analysis (SoMA) Group](https://somagroup.co.uk/) ([Twitter](https://twitter.com/dmtlab_bcu))
+- [Music Demixing Workshop 2021](https://mdx-workshop.github.io/) ([Code](https://github.com/mdx-workshop/mdx-workshop.github.io))
+- [Music Composer](https://github.com/sberbank-ai/music-composer)
+- [Musicians on Musicians: Lorde & David Byrne (2021)](https://www.rollingstone.com/music/music-features/lorde-david-byrne-musicians-on-musicians-1239284/) ([Tweet](https://twitter.com/RollingStone/status/1448982257360850944))
+- [Deep Learning for Music](https://github.com/ybayle/awesome-deep-learning-music) - List of articles related to deep learning applied to music.
+- [torchaudacity](https://github.com/hugofloresgarcia/torchaudacity) - PyTorch wrappers for using your model in audacity.
+- [OpenSoundControl.org](http://opensoundcontrol.org/) - Data transport specification (an encoding) for realtime message communication among applications and hardware. ([Node Library](https://github.com/MylesBorins/node-osc))
+- [Sublive](https://sub.live/) - Online Live Rooms with Super Fast Sound live.
+- [Fundamentals of Piano Practice](https://fundamentals-of-piano-practice.readthedocs.io/) ([Code](https://github.com/gmoe/piano_fundamentals)) ([HN](https://news.ycombinator.com/item?id=29052747))
+- [How will MIDI 2.0 change music? (2020)](https://qz.com/1788828/how-will-midi-2-0-change-music/) ([HN](https://news.ycombinator.com/item?id=29051616))
+- [SMS Tools](https://github.com/MTG/sms-tools) - Sound analysis/synthesis tools for music applications. ([Web](https://www.upf.edu/web/mtg/sms-tools))
+- [Audiomate](https://github.com/ynop/audiomate) - Python library for handling audio datasets.
+- [Interactive music co-creation with PyTorch and TensorFlow.js](https://github.com/chrisdonahue/music-cocreation-tutorial)
+- [Scales, Chords, and Cadences: Practical Music Theory for MIR Researchers](https://github.com/jcdevaney/ISMIR-musicTheoryTutorial)
+- [Samplescope](https://samplescope.app/) - App to search audio samples over internet. ([Code](https://github.com/jamland/samplescope))
+- [Music Classification: Beyond Supervised Learning, Towards Real-world Applications](https://github.com/music-classification/tutorial)
+- [Livecoding the Elektron Octatrack with ORCΛ (2021)](https://www.youtube.com/watch?v=moASjsWeLMQ)
+- [PianoBooster](https://www.pianobooster.org/) - MIDI file player that displays the musical notes AND teaches you how to play the piano. ([Code](https://github.com/pianobooster/PianoBooster))
+- [The Carefully Crafted Narrative of Taylor Swift | Video Essay (2020)](https://www.youtube.com/watch?v=w2XtejIt4p8)
+- [LabSound](https://github.com/LabSound/LabSound) - C++ graph-based audio engine.
+- [Audio Editor Online](https://editor.audio/)
+- [Jamulus](https://jamulus.io/) - Play music online. With friends. For free. ([Code](https://github.com/jamulussoftware/jamulus)) ([HN](https://news.ycombinator.com/item?id=29338455))
+- [Let's make a music teacher (2021)](https://swiftindepth.com/articles/lets-make-a-music-teacher-1/index.html) ([Code](https://github.com/tjeerdintveen/music))
+- [Generate Musical Accompaniment with R (2021)](https://flujoo.github.io/en/generate-accompaniment-progression/) ([HN](https://news.ycombinator.com/item?id=29368549))
+- [Music Thing Modular Eurorack Synth Modules](https://musicthing.co.uk/)
+- [How songwriters felt watching the new Beatles documentary (2021)](https://www.washingtonpost.com/arts-entertainment/2021/12/06/beatles-get-back-documentary-songwriters/) ([HN](https://news.ycombinator.com/item?id=29480027))
+- [A Binary Musical Instrument](https://ianthehenry.com/posts/binary-instrument/) ([HN](https://news.ycombinator.com/item?id=29483166))
+- [Web Audio Synthesis & Visualization Workshop](https://github.com/mattdesl/workshop-web-audio)
+- [The Haskell School of Music (2012)](https://www.cs.yale.edu/homes/hudak/Papers/HSoM.pdf)
+- [WaveNet: A Generative Model for Raw Audio (2016)](https://arxiv.org/abs/1609.03499) ([PyTorch Code](https://github.com/vincentherrmann/pytorch-wavenet))
+- [What is that WEIRD rhythm in Stromae's Santé? | Q+A](https://www.youtube.com/watch?v=CAzl6xLe4as)
+- [Inside Music](https://github.com/googlecreativelab/inside-music) - Lets you step inside of a song, seeing its individual pieces to give you a closer look at how music is made.
+- [Is Adele's latest single microtonal? | Q+A](https://www.youtube.com/watch?v=njyCxQxR41M)
+- [The Making of ‘What Could Have Been’ from Arcane | Sting ft. Ray Chen](https://www.youtube.com/watch?v=_DegKNj62-w)
+- [Why are these chords SO beautiful? | Q+A (2021)](https://www.youtube.com/watch?v=NU9jx8vRW_E)
+- [MIDI-DDSP: Detailed Control of Musical Performance via Hierarchical Modeling (2021)](https://arxiv.org/abs/2112.09312) ([Code](https://github.com/magenta/midi-ddsp))
+- [Interactive Piano Reference to All Major & Minor Scales](https://muted.io/major-minor-scales/)
+- [Awesome Audiovisual](https://github.com/stingalleman/awesome-audiovisual)
+- [Fun Notation](https://www.notation.fun/) - Modern visual music notation, colorful and dynamic. ([Code](https://github.com/notation-fun/notation))
+- [My Approach to Automatic Musical Composition (2022)](https://flujoo.github.io/en/my-approach-to-automatic-musical-composition/) ([HN](https://news.ycombinator.com/item?id=30321645))
+- [Generate Accompaniment Progression (2021)](https://flujoo.github.io/en/generate-accompaniment-progression/)
+- [Three Types of Music Analysis (2021)](https://flujoo.github.io/en/three-types-of-music-analysis/)
+- [ch0p1n](https://github.com/flujoo/ch0p1n) - Python package for automatic musical composition.
+- [music21](https://github.com/cuthbertLab/music21) - Toolkit for Computational Musicology.
+- [Music theory for nerds (2016)](https://eev.ee/blog/2016/09/15/music-theory-for-nerds/) ([HN](https://news.ycombinator.com/item?id=30358903))
+- [Variable-Length Music Score Infilling via XLNet and Musically Specialized Positional Encoding (2021)](https://arxiv.org/abs/2108.05064) ([Code](https://github.com/reichang182/variable-length-piano-infilling))
+- [Земфира: ритмическая геометрия. Лекция Анны Виленской (2021)](https://www.youtube.com/watch?v=0Hfn-glWWZ0)
+- [Chord Master](https://fanzhangg.github.io/chord-master/) - Web application for musicians to find new chord and create the chord progression. ([Code](https://github.com/fanzhangg/chord-master))
+- [Chrome Music Lab](https://musiclab.chromeexperiments.com/) - Collection of experiments for exploring how music works, all built with the Web Audio API. ([Code](https://github.com/googlecreativelab/chrome-music-lab))
+- [Learning the Beauty in Songs: Neural Singing Voice Beautifier (2022)](https://arxiv.org/abs/2202.13277) ([Code](https://github.com/MoonInTheRiver/NeuralSVB))
+- [Music Theory JS](https://github.com/Pomax/music-theory-js) - Do music things, using music theory.
+- [Neothesia](https://github.com/PolyMeilex/Neothesia) - Flashy Synthesia Like Software.
+- [Contrastive Learning of Musical Representations (2021)](https://arxiv.org/abs/2103.09410) ([Code](https://github.com/Spijkervet/CLMR))
+- [FIGARO: Generating Symbolic Music with Fine-Grained Artistic Control (2022)](https://arxiv.org/abs/2201.10936) ([Code](https://github.com/dvruette/figaro))
+- [elm-music-theory](https://github.com/duncanmalashock/elm-music-theory) - Toolkit for musical ideas.
+- [How 'Dune' Composer Hans Zimmer Created the Oscar-Nominated Score (2022)](https://www.youtube.com/watch?v=93A1ryc-WW0)
+- [Visualizations with Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API) ([Tweet](https://twitter.com/addyosmani/status/1510689878769512450))
+- [Live Piano](https://livepiano.ctnicholas.dev/) - Multiplayer live piano built with Liveblocks in React/Next.js. ([Code](https://github.com/CTNicholas/liveblocks-live-piano-next-js))
+- [Nils Frahm demonstrates the Palm Mute Pedal](https://www.youtube.com/watch?v=h0s3Y-dBYgA)
+- [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) ([Code](https://github.com/mdn/webaudio-examples))
+- [Elementary Audio](https://www.elementary.audio/) - Modern platform for writing high performance audio software. ([HN](https://news.ycombinator.com/item?id=30990874)) ([Docs](https://www.elementary.audio/docs)) ([Examples](https://elemaudio.github.io/web-examples/)) ([Examples Code](https://github.com/elemaudio/web-examples/))
+- [Bintracker](https://github.com/bintracker/bintracker) - Hackable Chiptune Audio Workstation for the 21st Century.
+- [Erased Notes](https://erasednotes.com/) - Creative MIDI Devices for Ableton Live.
+- [MuseScore](https://musescore.org/en) - Free music composition and notation software. ([Code](https://github.com/musescore/MuseScore))
+- [Online music/voice separator based on neural nets](https://mvsep.com/)
+- [Rhythmical Alternations (2022)](https://loophole-letters.vercel.app/rhythmical-alternations)
+- [What chords do you need? (2022)](https://www.jefftk.com/p/what-chords-do-you-need) ([HN](https://news.ycombinator.com/item?id=31109456))
+- [ChucK](https://chuck.stanford.edu/) - Strongly-Timed Music Programming Language. ([Code](https://github.com/ccrma/chuck))
+- [Music Enhancement via Image Translation and Vocoding](https://github.com/nkandpa2/music_enhancement)
+- [Clairnote](https://clairnote.org/) - Alternative music notation system. ([HN](https://news.ycombinator.com/item?id=31259997))
+- [Let's Make Overtone Sing Like Sonic-Pi (2022)](https://savo.rocks/posts/lets-make-overtone-sing-like-sonic-pi/)
+- [Muskit](https://github.com/SJTMusicTeam/Muskits) - Open-source music processing toolkit.
+- [Learning Music Audio Representations Via Weak Language Supervision (2022)](https://ieeexplore.ieee.org/document/9746996) ([Code](https://github.com/ilaria-manco/mulap))
+- [Audeye](https://github.com/maxmarsc/audeye) - CLI tool to visualize the content of an audio file.
+- [VexFlow](https://www.vexflow.com/) - JavaScript library for rendering music notation and guitar tablature. ([Code](https://github.com/0xfe/vexflow))
+- [LedFx](https://www.ledfx.app/) - LED Music Visualizer. ([Code](https://github.com/LedFx/ledfx_rewrite))
+- [Notation without bars (2022)](https://andrewyoon.art/blog/neoscore-release) ([Lobsters](https://lobste.rs/s/nxfjpc/notation_without_bars))
+- [Ask HN: Is there any Linux distro dedicated to music performance? (2022)](https://news.ycombinator.com/item?id=31549303)
+- [Resources on Music Generation with Deep Learning](https://github.com/umbrellabeach/music-generation-with-DL)
+- [Chord Melody Dataset](https://github.com/shiehn/chord-melody-dataset) - Dataset to dedicated to the relationship between chords & melodies.
+- [GEMS](https://github.com/nbw/gems) - Music sequencer on a distributed cluster. Written with Phoenix LiveView.
+- [Basic Pitch](https://github.com/spotify/basic-pitch) - Lightweight yet powerful audio-to-MIDI converter with pitch bend detection. ([Web](https://basicpitch.spotify.com/))
+- [Never Before Heard Sounds](https://heardsounds.com/) - Expressive AI Music Tools. ([Tweet](https://twitter.com/yotammann/status/1532446436314402817))
+- [CLAP](https://github.com/free-audio/clap) - Stands for CLever Audio Plugin. It is an audio plugin ABI which defines a standard for Digital Audio Workstations and audio plugins (synthesizers, audio effects, ...) to work together.
+- [Music Transformer](https://github.com/gwinndr/MusicTransformer-Pytorch) - Written for MaestroV2 using the PyTorch framework for music generation.
+- [Ken Wheeler - Modern JavaScript, Beats, Rick Rolling (2022)](https://www.youtube.com/watch?v=6Ab6ka_MKJ4)
+- [JUCE](https://github.com/juce-framework/JUCE) - Open-source cross-platform C++ application framework for creating high quality desktop and mobile applications, including VST, VST3, AU, AUv3, RTAS and AAX audio plug-ins. ([Web](https://juce.com/))
+- [Adventures in Electronic Music (2011)](https://www.charlespetzold.com/etc/AdventuresInElectronicMusic/) ([HN](https://news.ycombinator.com/item?id=31708848))
+- [Awesome Multimodality](https://github.com/Yutong-Zhou-cv/Awesome-Multimodality) - Survey on multimodal learning research.
+- [AI Audio Startups](https://github.com/csteinmetz1/ai-audio-startups) - Community list of startups working with AI in audio and music technology.
+- [OpenTuner](https://opentuner.org/) - Extensible framework for program autotuning. ([Code](https://github.com/jansel/opentuner))
+- [Music Modeling and Music Generation with Deep Learning](https://github.com/AI-Guru/music-generation-research)
+- [End-to-end Music Remastering System Using Self-supervised and Adversarial Training (2022)](https://arxiv.org/abs/2202.08520) ([Code](https://github.com/jhtonyKoo/e2e_music_remastering_system))
+- [slab](https://github.com/DrMarc/slab) - Easy manipulation of sounds and psychoacoustic experiments in Python.
+- [Symbolic Music Generation with Diffusion Models](https://github.com/magenta/symbolic-music-diffusion)
+- [Mozart](https://github.com/aashrafh/Mozart) - Optical music recognition (OMR) system. Converts sheet music to a machine-readable version.
+- [Ask HN: AI-Generated Music? (2022)](https://news.ycombinator.com/item?id=31968456)
+- [Trane-Music](https://github.com/trane-project/trane-music) - Courses in music designed to be used with Trane.
+- [Piano Trainer](https://github.com/ZaneH/piano-trainer) - Learn to play the piano at your own pace through various modes of practice.
+- [SheetAble](https://sheetable.net/) - Self-hosted music sheet organizer. ([Code](https://github.com/SheetAble/SheetAble))
+- [Partitura](https://github.com/CPJKU/partitura) - Python package for handling modern staff notation of music.
+- [Sheet Vision](https://github.com/cal-pratt/SheetVision) - Python program which reads sheet music and turns it into midi files.
+- [SP-Tools](https://github.com/rconstanzo/SP-tools) - Machine Learning tools for drums and percussion. ([Article](https://rodrigoconstanzo.com/2022/07/sp-tools-machine-learning-tools-for-drums-and-percussion-alpha/))
+- [JJazzLab-X](https://github.com/jjazzboss/JJazzLab-X) - Complete MIDI-based framework for automatic backing tracks generation. ([HN](https://news.ycombinator.com/item?id=32150169))
+- [Signals And Sorcery](https://signalsandsorcery.org/sas/composer) - Browser-based DAW. ([HN](https://news.ycombinator.com/item?id=32165328))
+- [monome](https://monome.org/) - Sound machines for the exploration of time and space. ([GitHub](https://github.com/monome)) ([libmonome](https://github.com/monome/libmonome))
+- [Black MIDI](https://en.wikipedia.org/wiki/Black_MIDI) ([HN](https://news.ycombinator.com/item?id=32262057))
+- [Strudel REPL](https://strudel.tidalcycles.org/) - Live coding environment that brings the ideas of Tidal Cycles to the browser. ([Article](https://loophole-letters.vercel.app/strudel))
+- [Music Theory for the 21st-Century Classroom](https://musictheory.pugetsound.edu/mt21c/frontmatter.html) ([HN](https://news.ycombinator.com/item?id=32281123))
+- [M4L.RhythmVAE](https://github.com/naotokui/RhythmVAE_M4L) - Max for Live(M4L) Rhythm generator using Variational Autoencoder(VAE).
+- [Basic Pitch](https://github.com/spotify/basic-pitch-ts) - Lightweight yet powerful audio-to-MIDI converter with pitch bend detection. ([Web](https://basicpitch.spotify.com/))
+- [Arpeggi](https://arpeggi.io/home) - Music creation for the next generation. ([Twitter](https://twitter.com/arpeggi_labs))
+- [Tonic](https://github.com/AudioKit/Tonic) - Swift library for music theory.
+- [StemRoller](https://www.stemroller.com/) - Isolate vocals, drums, bass, and other instrumental stems from any song. ([Code](https://github.com/stemrollerapp/stemroller)) ([HN](https://news.ycombinator.com/item?id=32359325))
+- [DDX7: Differentiable FM Synthesis of Musical Instrument Sounds (2022)](https://arxiv.org/abs/2208.06169) ([Code](https://github.com/fcaspe/ddx7))
+- [Sonic Pi: Past, Present & Future | Sam Aaron (2021)](https://www.youtube.com/watch?v=zisoGS6Mc-w)
+- [Why 12 notes in Western music?](https://github.com/aguaviva/articles/blob/main/why_12_notes.ipynb) ([HN](https://news.ycombinator.com/item?id=32639000))
+- [Algorithmic music with Orca and SuperCollider](https://github.com/smrq/move-fast-and-breakbeats)
+- [Web Audio Hub](https://github.com/AmberJBlue/web-audio-hub) - Collection of resources and projects for the Web Audio API and audio on the web in general.
+- [Singing Synthesis from MIDI file](https://github.com/mathigatti/midi2voice)
+- [MIDI to Image conversion](https://github.com/mathigatti/midi2img) - Convert MIDI files into piano roll images and back with this Python script.
+- [Rauversion](https://rauversion.com/) - Open source music sharing platform. Built on Elixir with Phoenix framework. ([Code](https://github.com/rauversion/rauversion-phx))
+- [Various simple Web Audio API examples](https://github.com/joshreiss/Working-with-the-Web-Audio-API)
+- [Musico Streams](https://www.musi-co.com/listen/streams) - AI Generated Music. ([HN](https://news.ycombinator.com/item?id=33027376))
+- [PO-80](https://teenage.engineering/products/po-80) - Record factory is a compact and portable record cutter.
+- [NIH-plug](https://github.com/robbert-vdh/nih-plug) - API-agnostic audio plugin framework written in Rust, as well as a small collection of plugins.
+- [va-filter](https://github.com/Fredemus/va-filter) - Virtual analogue filters. implemented as a VST3 and Clap plugin in Rust.
+- [AMY](https://github.com/bwhitman/amy) - Additive Music synthesizer librarY.
+- [pizMidi plugins](https://github.com/sleiner/pizmidi) - Collection of helpful tools when working with MIDI.
+- [Model 450i - Klavins Piano](https://klavins-pianos.com/products/model-450i/) ([In Use](https://www.youtube.com/watch?v=c8veLuNmQbI))
+- [MIDI Visualizer](https://github.com/kosua20/MIDIVisualizer) - Small MIDI visualizer tool, using OpenGL.
+- [How Brian Eno Created Ambient 1: Music for Airports](https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/) ([HN](https://news.ycombinator.com/item?id=33172448))
+- [splitter.fm](https://splitter.fm/) - Listen to your favorite songs stem-by-stem. ([Reddit](https://www.reddit.com/r/InternetIsBeautiful/comments/y1glbz/splitterfm_listen_to_the_individual/))
+- [Creating AI Music Videos with Stable Diffusion (2022)](https://aiart.dev/posts/sd-music-videos/sd_music_videos.html) ([Tweet](https://twitter.com/_nateraw/status/1580629123403481089))
+- [AudioLab](https://github.com/solipd/AudioLab) - Library of high level Pure Data abstractions with a focus on electroacoustic composition, live electronics and sound design.
+- [Ableton Note](https://www.ableton.com/en/note/) - iOS app for forming new musical ideas. ([Video](https://www.youtube.com/watch?v=smJZcWwJsOw)) ([HN](https://news.ycombinator.com/item?id=33244819))
+- [The sound illusion that makes Dunkirk so intense (2017)](https://www.youtube.com/watch?v=LVWTQcZbLgY)
+- [Bitwig](https://www.bitwig.com/) - Digital audio workstation (DAW) and music production software. ([Twitter](https://twitter.com/Bitwig))
+- [Multi-instrument Music Synthesis with Spectrogram Diffusion (2022)](https://arxiv.org/abs/2206.05408) ([Code](https://github.com/magenta/music-spectrogram-diffusion))
+- [Beat Transformer: Demixed Beat and Downbeat Tracking with Dilated Self-Attention (2022)](https://arxiv.org/abs/2209.07140) ([Code](https://github.com/zhaojw1998/Beat-Transformer))
+- [Musika](https://github.com/marcoppasini/musika) - Fast Infinite Waveform Music Generation.
+- [PlugData](https://github.com/timothyschoen/PlugData) - Plugin wrapper around Pure Data to allow patching in a wide selection of DAWs. ([HN](https://news.ycombinator.com/item?id=33302905))
+- [Deej-AI](https://github.com/teticio/Deej-AI) - Create automatic playlists by using Deep Learning to listen to the music.
+- [Mubert-Text-to-Music](https://github.com/MubertAI/Mubert-Text-to-Music) - Colab notebooks demonstrating prompt-based music generation via Mubert API.
+- [Who's building DALL-E for music? (2022)](https://twitter.com/rrhoover/status/1584171219578146817)
+- [Jerrica](https://github.com/trevorjay/Jerrica) - 100% scheduled, Web Audio native, MOD player for JavaScript. ([HN](https://news.ycombinator.com/item?id=33359211))
+- [Pypianoroll](https://github.com/salu133445/pypianoroll) - Toolkit for working with piano rolls.
+- [Muted.io](https://muted.io/) - Collection of interactive music theory tools and visual refs to learn music.
+- [GenM](https://github.com/hlandman/GEN-M) - Electronic Music Generation.
+- [MIDI-Emotion](https://github.com/serkansulun/midi-emotion) - Generates multi-instrument symbolic music (MIDI), based on user-provided emotions from valence-arousal plane.
+- [Audio-Plugin-Development-Resources](https://github.com/jareddrayton/Audio-Plugin-Development-Resources)
+- [Hyperstep](https://a-sumo.github.io/hyperstep/) - Volumetric audio visualizer. ([HN](https://news.ycombinator.com/item?id=33425159))
+- [My First Piano (2022)](https://www.jeromeleroy.com/complog-content/2022/10/31/my-first-piano-a-story-of-hurt-healing-and-joy) ([HN](https://news.ycombinator.com/item?id=33426879))
+- [MidiEditor](https://github.com/markusschwenk/midieditor) - Provides an interface to edit, record, and play Midi data.
+- [Automatic music mixing with deep learning and out-of-domain data (2022)](https://arxiv.org/abs/2208.11428) ([Code](https://github.com/sony/FxNorm-automix))
+- [Samples used in SuperDirt and the TidalCycles tutorials](https://github.com/tidalcycles/Dirt-Samples)
+- [David Addison - YouTube](https://www.youtube.com/c/DavidAddison1/videos)
+- [Modernizing my 1980s sound system (2022)](https://blog.yossarian.net/2022/11/07/Modernizing-my-1980s-sound-system) ([HN](https://news.ycombinator.com/item?id=33506765))
+- [What's your lyric/writing "process"? (2022)](https://www.reddit.com/r/WeAreTheMusicMakers/comments/yorylw/whats_your_lyricwriting_process/)
+- [Tame Impala's Kevin Parker Breaks Down His Favorite Drum Sounds](https://www.youtube.com/watch?v=BWv4TgvSPjM)
+- [A tale of two clocks (2013)](https://web.dev/audio-scheduling/)
+- [Advanced techniques: Creating and sequencing audio - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques)
+- [What is the best way to make friends in music? (2022)](https://www.reddit.com/r/WeAreTheMusicMakers/comments/yrti6q/what_is_the_best_way_to_make_friends_in_music/)
+- [Turning music into a chore is how I became a musician (2022)](https://the.scapegoat.dev/turning-music-into-a-chore-is-what-made-me-an-artist/) ([HN](https://news.ycombinator.com/item?id=33545349))
+- [MIDI-to-Keypress](https://github.com/xobs/midi-to-keypress) - Takes MIDI input and turns it into keypresses.
+- [musthe](https://github.com/gciruelos/musthe) - Music theory implemented in Python. Notes, scales and chords.
+- [Resources for microtonal music](https://sevish.com/music-resources/) ([HN](https://news.ycombinator.com/item?id=33639132))
+- [Sean Corbett's Studio Kit](https://kit.co/SScience/studio-kit)
+- [RNBO Webpage Example](https://github.com/MrChico/rnbostuff) - Shows you how to add dynamic audio to a webpage, using the JavaScript source code export feature of RNBO.
+- [Reactronica](https://github.com/unkleho/reactronica) - React audio components for making music in the browser. ([Web](https://reactronica.com/))
+- [Jukebox Web UI](https://github.com/vzakharov/jukebox-webui) - Google Colab-backed Web UI for creating music with OpenAI Jukebox.
+- [dysentery](https://github.com/Deep-Symmetry/dysentery) - Exploring ways to participate in a Pioneer Pro DJ Link network.
+- [uifx](https://github.com/wle8300/uifx) - Audio library designed for UI sound effects.
+- [Music Mouse](https://teropa.info/musicmouse/) - Intelligent Instrument Emulation.
+- [Haxophone](https://github.com/jcard0na/haxo-hw) - Electronic musical instrument that resembles a saxophone. ([HN](https://news.ycombinator.com/item?id=33682813))
+- [Dittytoy](https://dittytoy.net/) - Create your generative music online using a simple JavaScript API.
+- [PulseQueue](https://valent-in.github.io/pulseq/) - Minimalistic web-app for creating electronic music. ([Code](https://github.com/Valent-in/pulseq))
+- [Magenta Note-SEQ](https://github.com/magenta/note-seq) - Serializable note sequence representation and utilities.
+- [Endlesss](https://discover.endlesss.fm/) - New way to create, publish and collect music together, powered by Web3.
+- [alda-clj](https://github.com/daveyarwood/alda-clj) - Clojure library for live-coding music with Alda.
+- [MNX](https://github.com/w3c/mnx) - Music Notation CG next-generation music markup proposal.
+- [AI Music Generator](https://soundraw.io/) ([HN](https://news.ycombinator.com/item?id=33727550))
+- [Fumen](https://github.com/hbjpn/fumen) - Music sheet rendering engine specialized for Chord and Rhythm chart.
+- [Sketching the Expression: Flexible Rendering of Expressive Piano Performance with Self-Supervised Learning (2022)](https://arxiv.org/abs/2208.14867) ([Code](https://github.com/rsy1026/sketching_piano_expression))
+- [ChatGPT composed music in Sonic Pi](https://twitter.com/rycpt/status/1600253905404715011)
+- [MusCaps: Generating Captions for Music Audio (2021)](https://arxiv.org/abs/2104.11984) ([Code](https://github.com/ilaria-manco/muscaps))
+- [Sheet Sage](https://github.com/chrisdonahue/sheetsage) - Transcribe music into lead sheets.
+- [Textless Speech-to-Music Retrieval Using Emotion Similarity (2022)](https://github.com/SeungHeonDoh/speech-to-music)
+- [FreePats-Tools](https://github.com/freepats/freepats-tools) - Tools to manage, create and convert sound fonts.
+- [FreePats](https://freepats.zenvoid.org/) - Free and open collection of digital instruments for music production. ([GitHub](https://github.com/freepats))
+- [Musicaiz](https://github.com/carlosholivan/musicaiz) - Python framework for symbolic music generation, evaluation and analysis.
+- [otopoiesis](https://github.com/tomoyanonymous/otopoiesis) - Constructive audio programming environment with timeline-based view.
+- [Riffusion](https://github.com/hmartiro/riffusion-inference) - Stable diffusion for real-time music generation. ([Code](https://github.com/hmartiro/riffusion-app))
+- [Equipboard](https://equipboard.com/) - Encyclopedia of Music Gear.
+- [A Brief History of Computer Music - Anders Norås (2020)](https://www.youtube.com/watch?v=mKdXhjUopCA)
+- [In praise of MIDI (2022)](https://www.theregister.com/2022/12/19/in_praise_of_midi_techs/) ([HN](https://news.ycombinator.com/item?id=34063028))
+- [Musisep](https://github.com/rgcda/Musisep) - Source Separation on Musical Instrument Sounds.
+- [kord](https://github.com/twitchax/kord) - Music theory binary and library for Rust.
+- [Tarai Function Music (2013)](http://aikelab.net/tarai/)
+- [ComMU: Dataset for Combinatorial Music Generation (2022)](https://arxiv.org/abs/2211.09385) ([Code](https://github.com/POZAlabs/ComMU-code))
+- [Products | KORG](https://www.korg.com/us/products/) ([GitHub](https://github.com/korginc))
+- [SHLD Free MIDI Chord Packs](https://github.com/ldrolez/free-midi-chords) - Collection of free MIDI chords and progressions ready to be used in your DAW, Akai MPC, or Roland MC-707/101.
+- [Multimodal Machine Learning for Music (MML4Music)](https://github.com/ilaria-manco/multimodal-ml-music) - List of academic resources on Multimodal ML for Music.
+- [Pop2Piano: Pop Audio-Based Piano Cover Generation (2022)](https://sweetcocoa.github.io/pop2piano_samples/) ([Code](https://github.com/sweetcocoa/pop2piano)) ([HN](https://news.ycombinator.com/item?id=34205996))
+- [PyLive](https://github.com/ideoforms/pylive) - Query and control Ableton Live from Python.
+- [SignalFlow](https://github.com/ideoforms/signalflow) - Sound synthesis framework designed for clear and concise expression of complex musical ideas.
+- [Python client for SuperCollider](https://github.com/ideoforms/python-supercollider)
+- [AbletonOSC](https://github.com/ideoforms/AbletonOSC) - MIDI remote script to control Ableton Live 11 via Open Sound Control (OSC).
+- [Friture](https://github.com/tlecomte/friture) - Real-time audio visualizations (spectrum, spectrogram, etc.).
+- [Midly](https://github.com/negamartin/midly) - Feature-complete MIDI parser and writer focused on speed.
+- [Bach to the Future (or, Humanising Music With Neural Nets) (2019)](https://futurice.com/blog/bach-to-the-future-or-humanising-music-with-neural-nets)
+- [БРОКЕН ДЭНС - YouTube](https://www.youtube.com/@broken_dance/videos)
+- [Musescore.com](https://musescore.com/) - World's largest free sheet music catalog and community.
+- [Chord Practice](https://chords.adammenz.com/)
+- [staffrender](https://github.com/rogerpasky/staffrender) - Plain vanilla TypeScript library to render music score in browsers.
+- [Is MusicGPT a viable possibility? (2023)](https://www.reddit.com/r/MachineLearning/comments/10bddey/d_is_musicgpt_a_viable_possibility/)
+- [Interactive Music Theory Cheat Sheet](https://muted.io/cheat-sheet/) ([HN](https://news.ycombinator.com/item?id=34387982))
+- [Music Mixing Style Transfer](https://github.com/jhtonyKoo/music_mixing_style_transfer)
+- [Common Lisp and Music Composition](https://ldbeth.sdf.org/articles/cm.html)
+- [Msanii: High Fidelity Music Synthesis on a Shoestring Budget (2023)](https://arxiv.org/abs/2301.06468) ([Code](https://github.com/Kinyugo/msanii))
+- [Oilcan](https://github.com/zjb-s/oilcan) - Monophonic digital-style percussion voice.
+- [sempra](https://github.com/zjb-s/sempra) - Dynamic melody sequencer.
+- [MusicLM: Generating Music From Text (2023)](https://arxiv.org/abs/2301.11325) ([HN](https://news.ycombinator.com/item?id=34541836)) ([Code](https://github.com/lucidrains/musiclm-pytorch)) ([Examples](https://google-research.github.io/seanet/musiclm/examples/)) ([HN](https://news.ycombinator.com/item?id=34541693)) ([HN](https://news.ycombinator.com/item?id=34588764))
+- [ensemble](https://github.com/JBetz/ensemble) - High level audio engine for building DAWs.
+- [Audio Generation Evaluation](https://github.com/haoheliu/audioldm_eval) - Toolbox aims to unify audio generation model evaluation for easier future comparison.
+- [SuperCollider Tree Sitter](https://github.com/madskjeldgaard/tree-sitter-supercollider) - SuperCollider grammar for the tree-sitter code parser.
+- [The founder of Teenage Engineering opens up to his creative space](https://scandinavianmind.com/feature/human-touch-interview-jesper-kouthoofd-teenage-engineering) ([HN](https://news.ycombinator.com/item?id=34664513))
+- [TR-101 - Drum Machine](https://tr101.vercel.app/) - Made with Vue and the WebAudio API. ([Code](https://github.com/amilajack/drum-machine))
+- [Polymath](https://github.com/samim23/polymath) - Convert any music library into a music production sample-library with ML.
+- [pyFluidSynth](https://github.com/nwhitehead/pyfluidsynth) - Python bindings for FluidSynth. Software synthesizer for generating music.
+- [easyvst](https://github.com/Boscop/easyvst) - Helper crate for creating VST audio plugins easily.
+- [Peel](https://peel.fm/) - Drum machine in your browser. ([HN](https://news.ycombinator.com/item?id=34795155))
+- [Cyber Music Studio](https://severak.github.io/cyber-music-studio/) - Standalone in-browser app for recording and mixing music. ([Code](https://github.com/severak/cyber-music-studio))
+- [SWS Extension](https://github.com/reaper-oss/sws) - Collection of features that seamlessly integrate into REAPER.
+- [audioFlux](https://github.com/libAudioFlux/audioFlux) - Library for audio and music analysis, feature extraction.
+- [WebAssembly Music](https://github.com/petersalomonsen/javascriptmusic) - Live coding music and synthesis in Javascript / AssemblyScript (WebAssembly).
+- [Omni](https://github.com/lukephills/omni) - Play and learn about music scales from around the world.
+- [DAWG](https://dawg.dev/) - DAW built using Electron and the Web Audio API. ([Code](https://github.com/dawg/dawg))
+- [Polarity music tools](https://github.com/polarity/polarity-music-tools) - Bitwig presets by polarity for you to use. Every week new stuff for bitwig & popular vsts.
+- [Ask HN: Is there anyone here making music? (2023)](https://news.ycombinator.com/item?id=35092674)
+- [Coltrane](https://github.com/pedrozath/coltrane) - Music theory library with a command-line interface. ([HN](https://news.ycombinator.com/item?id=35092929))
+- [Csound](https://csound.com/) - Sound and music computing system. ([Rust bindings](https://github.com/neithanmo/csound-rs))
+- [Orbita](https://orbita.playtronica.com/) - MIDI Turntable Sequencer. ([HN](https://news.ycombinator.com/item?id=35165106))
+- [Open MusicLM](https://github.com/zhvng/open-musiclm) - Implementation of MusicLM, a text to music model published by Google Research, with a few modifications.
+- [Okio](https://okio.ai/) - Open-source generative AI music tool suite that reimagines music.
+- [Dattorro reverb VST plugin](https://github.com/chaosprint/dattorro-vst-rs)
+- [Boing](https://github.com/PaulBatchelor/Boing) - Audio DSP library for musical applications, written in Rust.
+- [NoiSQL](https://github.com/ClickHouse/NoiSQL) - Generating Music With SQL Queries. ([HN](https://news.ycombinator.com/item?id=35482636))
+- [List of demo websites for automatic music generation research](https://github.com/affige/genmusic_demo_list)
+- [What are your current favorite VSTs, and why?](https://www.reddit.com/r/WeAreTheMusicMakers/comments/12gk5k7/what_are_your_current_favorite_vsts_and_why/)
+- [Neural Amp Modeler Plug-in](https://github.com/sdatkinson/NeuralAmpModelerPlugin)
+- [Rust WASM Audio Worklet Example](https://github.com/PaulBatchelor/rust-wasm-audioworklet)
+- [Awesome Music](https://github.com/noteflakes/awesome-music)
+- [NeuralNote](https://github.com/DamRsn/NeuralNote) - Audio Plugin for Audio to MIDI transcription using deep learning.
+- [Learning (visual) programming in the context of music (2023)](https://www.ableton.com/en/blog/learn-to-build-your-own-max-for-live-devices-with-our-new-free-pack/) ([Lobsters](https://lobste.rs/s/gfsrlk/learning_visual_programming_context))
+- [median/max-sys](https://github.com/Cycling74/median) - Rust bindings for Max/MSP/Jitter.
+- [Rust JACK](https://github.com/RustAudio/rust-jack) - Rust bindings for the JACK Audio Connection Kit.
+- [Philip Meyer - YouTube](https://www.youtube.com/@p__meyer/videos) ([Tutorials Code](https://github.com/pdmeyer/max-tutorials))
+- [What DAW do you use and why? (2023)](https://www.reddit.com/r/WeAreTheMusicMakers/comments/133osc1/what_daw_do_you_use_and_why/)
+- [BeatNet](https://github.com/mjhydri/BeatNet) - State-of-the-art (Real-Time) and Offline joint music beat, downbeat, tempo, and meter tracking system using CRNN and particle filtering.
+- [Jambox](https://github.com/arslanastral/jambox) - Collaborative real-time P2P virtual music instrument.
+- [Building a Multiplayer Piano](https://github.com/jenseng/abuse-the-platform)
+- [AlgaLib](https://github.com/vitreo12/AlgaLib) - SuperCollider implementation of Alga, an interpolating live coding environment.
+- [Omni](https://github.com/vitreo12/omni) - DSL for low-level audio programming.
+- [IMSLP](https://imslp.org/) - Free Sheet Music PDF Download. ([HN](https://news.ycombinator.com/item?id=35979977))
+- [Ableton Push 3](https://www.ableton.com/en/push/) ([HN](https://news.ycombinator.com/item?id=36041432))
+- [GETMusic: Generating Any Music Tracks with a Unified Representation and Diffusion Framework](https://ai-muzic.github.io/getmusic/) ([HN](https://news.ycombinator.com/item?id=36038945))
+- [musicpy](https://github.com/Rainbow-Dreamer/musicpy) - Music programming language in Python designed to write music in very handy syntax through music theory and algorithms.
+- [Web Audio Katas](https://github.com/survivejs/audio-katas)
+- [MusicGen: Simple and Controllable Music Generation](https://ai.honu.io/papers/musicgen/) ([HN](https://news.ycombinator.com/item?id=36271926))
+- [Interactive Music Inpainting for the Web](https://github.com/SonyCSLParis/music-inpainting-ts) - Collection of web interfaces for AI-assisted interactive music creation.
+- [Anticipatory Music Transformer (2023)](https://arxiv.org/abs/2306.08620) ([Code](https://github.com/jthickstun/anticipation))

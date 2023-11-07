@@ -1,0 +1,280 @@
+# DevOps
+
+I think [Railway](https://railway.app/) is amazing example of doing Devops right. [Porter](https://github.com/getporter/porter), [Backstage](https://backstage.io/) & [Gaia](https://github.com/gaia-pipeline/gaia) are nice too.
+
+[Google SRE Book](https://sre.google/sre-book/table-of-contents/) is great. [Airplane](https://www.airplane.dev/) is nice for exposing common commands for all in team to use.
+
+[Devbox](https://github.com/jetpack-io/devbox) is nice for bootstrapping environments.
+
+It's interesting seeing how much internal infrastructure [Google](https://github.com/jhuangtw/xg2xg) and [FB](https://github.com/greko6/xfb2xfb) uses.
+
+## Notes
+
+- [You can make your default branch `staging`, and assign it a custom domain. Using Vercel.](https://twitter.com/rauchg/status/1383072230536404996)
+
+## Links
+
+- [Ask HN: What is the fastest way to ramp up on DevOps, k8 and GCP? (2021)](https://news.ycombinator.com/item?id=29251343)
+- [DevOps, SRE, and Platform Engineering (2021)](https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/)
+- [We're Reddit's Infrastructure team, ask us anything! (2018)](https://www.reddit.com/r/sysadmin/comments/9x577m/were_reddits_infrastructure_team_ask_us_anything/)
+- [Vercel](https://github.com/vercel/vercel) - Develop. Preview. Ship. ([Web](https://vercel.com/dashboard))
+- [Now Examples](https://github.com/vercel/now-examples) - Examples of Now deployments you can use.
+- [I forgot how to manage a server (2019)](https://ma.ttias.be/i-forgot-how-to-manage-a-server/) ([HN](https://news.ycombinator.com/item?id=19796127))
+- [Applikatoni](https://github.com/applikatoni/applikatoni) - Self-hosted deployment server for your team.
+- [Lobsters: What’s your container-less deployment process? (2019)](https://lobste.rs/s/xov7nz/what_s_your_container_less_deployment)
+- [A developer goes to a DevOps conference (2019)](https://www.darkcoding.net/software/a-developer-goes-to-a-devops-conference/) ([HN](https://news.ycombinator.com/item?id=21100970))
+- [Deploy your side-projects at scale for basically nothing - Google Cloud Run (2020)](https://alexolivier.me/posts/deploy-container-stateless-cheap-google-cloud-run-serverless) ([HN](https://news.ycombinator.com/item?id=22027459))
+- [DevOps Questions & Exercises](https://github.com/bregman-arie/devops-exercises)
+- [Ops Lessons We All Learn The Hard Way (2020)](https://www.netmeister.org/blog/ops-lessons.html)
+- [Juju](https://github.com/juju/juju) - Simple, secure devops tooling built to manage today's complex applications wherever you run your software. ([Web](https://juju.is/))
+- [Book Recommendations for the Infrastructure Engineer](https://github.com/stack72/ops-books)
+- [Ask HN: How do you make sure your servers are up as a single founder? (2020)](https://news.ycombinator.com/item?id=21461617)
+- [CTO.ai](https://cto.ai/) - Allows you and your software development team to implement DevOps automations in minutes rather than days.
+- [Deploys at Slack (2020)](https://slack.engineering/deploys-at-slack-cd0d28c61701)
+- [We Need DevOps for ML Data (2020)](https://tecton.ai/blog/devops-ml-data/) ([HN](https://news.ycombinator.com/item?id=23011297))
+- [Awesome Pipeline](https://github.com/pditommaso/awesome-pipeline) - Curated list of awesome pipeline toolkits inspired by Awesome Sysadmin.
+- [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin) - Curated list of awesome open source sysadmin resources.
+- [Using SRE to meet reliability challenges | Google Cloud (2020)](https://cloud.google.com/blog/products/management-tools/meeting-reliability-challenges-with-sre-principles)
+- [Gruntwork](https://gruntwork.io/) - DevOps as a Service.
+- [pyinfra](https://github.com/Fizzadar/pyinfra) - Automates infrastructure super fast at massive scale. It can be used for ad-hoc command execution, service deployment, configuration management and more. ([HN](https://news.ycombinator.com/item?id=23487178)) ([Web](https://pyinfra.com/)) ([HN](https://news.ycombinator.com/item?id=33286972))
+- [Testinfra](https://github.com/philpep/testinfra) - Write unit tests in Python to test actual state of your servers configured by management tools like Salt, Ansible, Puppet, Chef and so on.
+- [PagerDuty Incident Response Documentation](https://response.pagerduty.com/) ([Code](https://github.com/PagerDuty/incident-response-docs))
+- [Building an online community around learning from incidents (2019)](https://www.learningfromincidents.io/blog/learning-from-incidents-in-software) ([HN](https://news.ycombinator.com/item?id=23584094))
+- [The Rise of Platform Engineering (2020)](https://softwareengineeringdaily.com/2020/02/13/setting-the-stage-for-platform-engineering/) ([HN](https://news.ycombinator.com/item?id=23591569))
+- [How we monitor our services at SourceHut (2020)](https://sourcehut.org/blog/2020-07-03-how-we-monitor-our-services/)
+- [Reference checklist for going to production](https://github.com/mtdvio/going-to-production)
+- [Revolv](https://getrevolv.com/) - Create a complete cloud architecture on your Amazon Web Services, Google Cloud Platform or Microsoft Azure account. ([HN](https://news.ycombinator.com/item?id=23997444))
+- [Clutch](https://github.com/lyft/clutch) - Extensible platform for infrastructure management. ([Announcement](https://eng.lyft.com/announcing-clutch-the-open-source-platform-for-infrastructure-tooling-143d00de9713))
+- [What is DevOps? (2020)](https://cloud.google.com/devops)
+- [Sysdig](https://sysdig.com/) - Security, Compliance & Performance for your Devops Workflows.
+- [A List of Skills and PracticesWe Use to Train Our DevOps Internally (2020)](https://blog.maddevs.io/devops-engineers-in-mad-devs-449ded5221b6)
+- [Bridgecrew](https://bridgecrew.io/) - Codified cloud security for DevOps. ([GitHub](https://github.com/bridgecrewio))
+- [You Reap What You Code (2020)](https://ferd.ca/you-reap-what-you-code.html)
+- [How we use HashiCorp Nomad (2020)](https://blog.cloudflare.com/how-we-use-hashicorp-nomad/) ([HN](https://news.ycombinator.com/item?id=23439788))
+- [Ask HN: Has anyone moved from Kubernetes to Nomad? (2020)](https://news.ycombinator.com/item?id=24865707)
+- [Qovery](https://github.com/Qovery/engine) - Deploy your apps on any Cloud providers in just a few seconds. ([Web](https://www.qovery.com/))
+- [packagecloud](https://packagecloud.io/) - Private NPM registry and Maven, RPM, DEB, PyPi and RubyGem Repository.
+- [Gravitational](https://gravitational.com/) - Remote Access and Secure Deployments.
+- [DeployHQ](https://www.deployhq.com/) - Automatically build and deploy code from your repositories.
+- [Cooking Infrastructure by Chef](http://chef.leopard.in.ua/) ([Code](https://github.com/le0pard/chef_book))
+- [Unleash](https://www.getunleash.io/) - Open source feature toggle service. ([Code](https://github.com/Unleash/unleash)) ([GitHub](https://github.com/Unleash))
+- [The golden age of configuration languages (2020)](https://cosminilie.ro/posts/evolution-of-configuration-languages/) ([HN](https://news.ycombinator.com/item?id=25160461))
+- [School of SRE](https://linkedin.github.io/school-of-sre/) ([Code](https://github.com/linkedin/school-of-sre))
+- [Christine Dodrill: ex-SRE, Lightspeed (2020)](https://reliability.substack.com/p/software-at-scale-002-christine-dodrill)
+- [driftctl](https://driftctl.com/) - Detect, track and alert on infrastructure drift. ([Code](https://github.com/cloudskiff/driftctl))
+- [Shipyard](https://github.com/shipyard-run/shipyard) - Modern cloud native development environments. ([Web](https://shipyard.run/))
+- [FAUN](https://faun.dev/) - DevOps community.
+- [DevOps Maturity Framework](https://github.com/adidas/adidas-devops-maturity-framework)
+- [Bitnami](https://bitnami.com/) - Packaged Applications for Any Platform - Cloud, Container, Virtual Machine. ([GitHub](https://github.com/bitnami))
+- [Bitnami Library for Kubernetes](https://github.com/bitnami/charts)
+- [Kira](https://github.com/wemake-services/kira) - Project management framework with deep philosophy underneath.
+- [Site Reliability Engineer Interview Preparation Guide](https://github.com/mxssl/sre-interview-prep-guide)
+- [fastlane](https://fastlane.tools/) - App automation done right. ([Code](https://github.com/fastlane/fastlane))
+- [List of Devops Resources](https://jrott.com/posts/devops-links/)
+- [werf](https://github.com/werf/werf) - Git as a single source of truth. Build. Deploy to Kubernetes. Stay in sync. ([Web](https://werf.io/))
+- [Zero-downtime deploys with DigitalOcean, GitHub, and Docker (2021)](https://blog.logrocket.com/zero-downtime-deploys-with-digitalocean-github-and-docker/)
+- [Running Nomad for home server (2021)](https://mrkaran.dev/posts/home-server-nomad/) ([Lobsters](https://lobste.rs/s/bybybm/running_nomad_for_home_server)) ([HN](https://news.ycombinator.com/item?id=26142005))
+- [They SRE](https://github.com/upgundecha/howtheysre) - Curated Collection on Site Reliability Engineering.
+- [DevOps Resources](https://github.com/bregman-arie/devops-resources)
+- [We are far from a better Heroku for production apps in a hyper cloud (2021)](https://about.gitlab.com/blog/2021/03/22/we-are-building-a-better-heroku/) ([HN](https://news.ycombinator.com/item?id=26554504))
+- [coolify](https://coolify.io/) - Open-source, self-hostable Heroku and Netlify alternative. ([Code](https://github.com/coollabsio/coolify)) ([HN](https://news.ycombinator.com/item?id=26624341))
+- [CloudARK](https://cloudark.io/) - Platform-As-Code. ([GitHub](https://github.com/cloud-ark))
+- [Meltano](https://meltano.com/) - ELT for the DataOps era. ([Code](https://github.com/meltano/meltano))
+- [DigitalOcean Agent](https://github.com/digitalocean/do-agent) - Collects system metrics from DigitalOcean Droplets.
+- [Pulumi](https://www.pulumi.com/) - Modern Infrastructure as Code. Any cloud, any language. ([Code](https://github.com/pulumi/pulumi)) ([HN](https://news.ycombinator.com/item?id=22866714)) ([HN 2](https://news.ycombinator.com/item?id=26880935)) ([Awesome](https://github.com/pulumiverse/awesome-pulumi))
+- [Piku](https://github.com/piku/piku) - Tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers. ([GitHub](https://github.com/piku))
+- [Awesome Incident Response](https://github.com/meirwah/awesome-incident-response)
+- [Fleet](https://fleetdm.com/) - Open source device management. ([Code](https://github.com/fleetdm/fleet))
+- [Reliably CLI](https://github.com/reliablyhq/cli) - Reliability as Code: SRE automation at the tip of your fingers. ([Web](https://reliably.com/))
+- [To PaaS or not (2021)](https://www.shayon.dev/post/2021/119/to-paas-or-not/)
+- [SRE at Google: Our complete list of CRE life lessons (2021)](https://cloud.google.com/blog/products/devops-sre/sre-at-google-our-complete-list-of-cre-life-lessons)
+- [Bad Machinery: Managing Interrupts Under Load](https://log.andvari.net/pages/bad-machinery.html)
+- [Securing DevOps: Security in the Cloud (2018)](https://www.manning.com/books/securing-devops)
+- [Craft](https://github.com/getsentry/craft) - Universal Release Tool (And More).
+- [DevOps Cheat Sheets](https://lzone.de/) ([Code](https://github.com/lwindolf/lzone-cheat-sheets))
+- [MegaEase](https://www.megaease.com/) - High Performance Software Architecture. ([GitHub](https://github.com/megaease))
+- [Erda](https://github.com/erda-project/erda) - Enterprise-grade application building, deploying, monitoring platform.
+- [DevOps Engineering Course for Beginners (2021)](https://www.freecodecamp.org/news/devops-engineering-course-for-beginners/)
+- [How to improve your website’s uptime (2021)](https://www.reddit.com/r/RedditEng/comments/obqtfm/solving_the_three_stooges_problem/)
+- [Peanut](https://github.com/Clivern/Peanut) - Deploy Databases and Services Easily for Development and Testing Pipelines. ([Web](https://clivern.github.io/Peanut/))
+- [DevOps Engineer Crash Course (2021)](https://matduggan.com/devops-engineer-crash-course/)
+- [Artillery.io](https://artillery.io/) - Modern load testing & smoke testing for SRE and DevOps. ([Code](https://github.com/artilleryio/artillery))
+- [Top-10 talks of SREcon18 Europe (2018)](https://nick.groenen.me/posts/srecon18emea-top10/)
+- [The DevOps: A Concise Understanding to the DevOps Philosophy and Science. (Technical Report) (2021)](https://www.osti.gov/biblio/1785164)
+- [Cachito](https://github.com/release-engineering/cachito) - Caching service for source code and external dependencies.
+- [envsafe](https://github.com/KATT/envsafe) - Makes sure you don't accidentally deploy apps with missing or invalid environment variables.
+- [Uptime Kuma](https://github.com/louislam/uptime-kuma) - Fancy self-hosted monitoring tool. ([HN](https://news.ycombinator.com/item?id=28809501))
+- [Ask HN: Solo-preneurs, how do you DevOps to save time? (2021)](https://news.ycombinator.com/item?id=28838132)
+- [How to Use Hydra as your Deployment Source of Truth (2021)](https://determinate.systems/posts/hydra-deployment-source-of-truth) ([Lobsters](https://lobste.rs/s/ntm3gd/how_use_hydra_as_your_deployment_source))
+- [What to Ask in an SRE Technical Interview (2021)](https://mt165.co.uk/blog/sre-interview-questions/)
+- [DevOps Newsletters of Note](https://devopsnewsletters.com/)
+- [batou](https://github.com/flyingcircusio/batou) - Helps you to automate your application deployments using Python DSL. ([Docs](https://batou.readthedocs.io/en/stable/))
+- [Smallstep](https://smallstep.com/) - Automated Certificate Management for DevOps. ([GitHub](https://github.com/smallstep))
+- [Learn-by-Doing Platforms for Dev, DevOps, and SRE Folks (2021)](https://iximiuz.com/en/posts/learn-by-doing-platforms/)
+- [StackStorm](https://stackstorm.com/) - Platform for integration and automation across services and tools, taking actions in response to events. ([Code](https://github.com/StackStorm/st2))
+- [Grafana OnCall](https://grafana.com/blog/2021/11/09/announcing-grafana-oncall/) - Easy-to-use on-call management tool. ([HN](https://news.ycombinator.com/item?id=29164386))
+- [Ironic](https://github.com/openstack/ironic) - Service for managing and provisioning Bare Metal servers.
+- [Scaled Agile DevOps Maturity Framework](https://scaledagiledevops.com/) - Enterprise transformation without the risk of culture change.
+- [Plunder](https://github.com/plunder-app/plunder) - Single-binary server that is all designed in order to make the provisioning of servers, platforms and applications easier.
+- [Equinix Metal Images](https://github.com/packethost/packet-images)
+- [Cloud Droid](https://github.com/cloud-sniper/cloud-droid) - Cloud Incident and Response Simulations.
+- [The Reports of Devops's death are greatly exaggerated (2021)](https://adnaan.badr.in/blog/2021/01/25/the-reports-of-devopss-death-are-greatly-exaggerated/)
+- [hcltm](https://github.com/xntrik/hcltm) - Threat Modeling with HCL.
+- [Hyperping](https://hyperping.io/) - Uptime monitoring with public status pages.
+- [hashi-up](https://github.com/jsiebens/hashi-up) - Bootstrap HashiCorp Consul, Nomad, or Vault over SSH < 1 minute.
+- [faas-nomad](https://github.com/jsiebens/faas-nomad) - OpenFaas provider for Nomad.
+- [A Multi Cluster and Multi Orchestrator home lab (2021)](https://johansiebens.dev/posts/2021/05/a-multi-cluster-and-multi-orchestrator-home-lab/)
+- [DevOps in academic research (2021)](https://mattsegal.dev/devops-academic-research.html)
+- [Hetzner Pulumi Intro (2021)](https://shibumi.dev/posts/hetzner-pulumi-intro/)
+- [The Operator Pattern in Nomad (2021)](https://andydote.co.uk/2021/11/22/nomad-operator-pattern/)
+- [Dev Lake](https://github.com/merico-dev/lake) - Brings all your DevOps data into one practical, personalized, extensible view. Ingest, analyze, and visualize data.
+- [Fastly Resource Provider](https://github.com/pulumi/pulumi-fastly)
+- [OOPS (Learning from the incident you didn't have) writeup template (2021)](https://surfingcomplexity.blog/2021/11/21/oops-writeups/)
+- [Awesome DevOps](https://github.com/wmariuss/awesome-devops)
+- [Ultimate DevSecOps library](https://github.com/sottlmarek/DevSecOps)
+- [Common Infrastructure Errors I've Made (2021)](https://matduggan.com/mistakes/) ([Lobsters](https://lobste.rs/s/5r5fsa/don_t_make_my_mistakes_common)) ([HN](https://news.ycombinator.com/item?id=29434740))
+- [Lightweight Experiment & Resource Monitoring](https://github.com/mle-infrastructure/mle-monitor)
+- [Howie: The Post-Incident Guide](https://www.jeli.io/howie-the-post-incident-guide/)
+- [Jeli](https://www.jeli.io/) - Dedicated Incident Analysis Platform.
+- [Zero](https://getzero.dev/) - Opinionated infrastructure to take you from idea to production on day one. ([Code](https://github.com/commitdev/zero))
+- [ClusterDev](https://cluster.dev/) - Cloud Management and Automation Framework. ([Code](https://github.com/shalb/cluster.dev))
+- [Deployment from Scratch](https://deploymentfromscratch.com/) - Complete guide to web application deployment. ([HN](https://news.ycombinator.com/item?id=29540808)) ([One year of sales](https://nts.strzibny.name/one-year-of-sales/))
+- [Awesome Event IDs](https://github.com/stuhli/awesome-event-ids) - Collection of Event ID resources useful for Digital Forensics and Incident Response.
+- [Cloudkeeper](https://github.com/someengineering/cloudkeeper) - “housekeeping for clouds” - find leaky resources, manage quota limits, detect drift and clean up.
+- [Atomist](https://atomist.com/) - Keep Your Containerized Applications Safe. ([GitHub](https://github.com/atomist))
+- [UpCheck](https://github.com/NorfairKing/upcheck) - Declarative checker for website uptime to run continuously for monitoring.
+- [GRR](https://github.com/google/grr) - Incident response framework focused on remote live forensics.
+- [OWASP DevSecOps Guideline](https://github.com/OWASP/DevSecOpsGuideline) - Can help us to embedding security as a part of the development pipeline.
+- [DevOps by Example](https://github.com/antonputra/tutorials)
+- [Brev.dev](https://brev.dev/) - Your local-only cloud computer. ([CLI](https://github.com/brevdev/brev-cli))
+- [Goss](https://github.com/aelsabbahy/goss) - Quick and Easy server testing/validation.
+- [FeatureHub](https://www.featurehub.io/) - Cloud native feature flags, A/B testing and remote configuration service. ([Code](https://github.com/featurehub-io/featurehub))
+- [waifud](https://github.com/Xe/waifud) - Few tools to help me manage and run virtual machines across a homelab cluster. ([Progress Report](https://christine.website/blog/waifud-progress-2022-02-06))
+- [Delayed Job vs. Sidekiq (2022)](https://blog.appsignal.com/2022/02/15/delayed-job-vs-sidekiq-which-is-better.html) ([HN](https://news.ycombinator.com/item?id=30345806))
+- [Cincinnati](https://github.com/openshift/cincinnati) - Update protocol designed to facilitate automatic updates.
+- [Ministry of Justice Modernization Platform](https://github.com/ministryofjustice/modernisation-platform) - Defined and managed in Terraform.
+- [fw](https://github.com/brocode/fw) - Workspace productivity booster.
+- [Motive](https://github.com/wess/motive) - Programmable Task runner built with Rust and uses a special version of Lua. ([Reddit](https://www.reddit.com/r/rust/comments/t5vozl/motive_programmable_task_runner_built_with_rust/))
+- [DevStream](https://github.com/merico-dev/stream) - Open-source DevOps toolchain manager (DTM).
+- [Opta](https://github.com/run-x/opta) - Infrastructure-As-Code framework where you work with high-level constructs instead of getting lost in low level cloud configuration.
+- [Yaru](https://github.com/hiragram/yaru) - Command line tool that manages simple tasks.
+- [Site Reliability Engineering University](https://github.com/andrealmar/sre-university)
+- [EaseProbe](https://github.com/megaease/easeprobe) - Simple, standalone, and lightWeight tool that can do health/status checking, written in Go.
+- [Porter](https://porter.sh/) - Enables you to package your application artifact, client tools, configuration and deployment logic together as a versioned bundle that you can distribute, and install with a single command. ([Code](https://github.com/getporter/porter))
+- [Fiberplane](https://fiberplane.dev/) - Collaborative notebooks for debugging your incidents. ([GitHub](https://github.com/fiberplane)) ([Twitter](https://twitter.com/fiberplane))
+- [Fundamentals & Deployment (2022)](https://underjord.io/fundamentals-and-deployment.html) ([HN](https://news.ycombinator.com/item?id=30756854))
+- [Entropy](https://github.com/odpf/entropy) - Framework to safely and predictably create, change, and improve modern cloud applications and infrastructure using familiar languages, tools, and engineering practices.
+- [Firefly](https://www.gofirefly.io/) - Bring your cloud up-to-code. ([GitHub](https://github.com/gofireflyio))
+- [bldr](https://github.com/siderolabs/bldr) - Tool to build and package software distributions. Build process runs in buildkit (or docker buildx), build result can be exported as container image.
+- [Boost Note](https://boostnote.io/) - Document driven project management tool that maximizes remote DevOps team velocity. ([Code](https://github.com/BoostIO/BoostNote-App))
+- [arx](https://github.com/solidsnack/arx) - Bundles code and a job to run for local or remote execution.
+- [Open Build Service](https://openbuildservice.org/) - Generic system to build and distribute binary packages from sources in an automatic, consistent and reproducible way. ([CLI](https://github.com/openSUSE/osc))
+- [JReleaser](https://github.com/jreleaser/jreleaser) - Release projects quickly and easily. ([Web](https://jreleaser.org/))
+- [90 Days of DevOps](https://github.com/MichaelCade/90DaysOfDevOps)
+- [Glances](https://github.com/nicolargo/glances) - Cross-platform monitoring tool which aims to present a large amount of monitoring information through a curses or Web based interface.
+- [OpenStack Glance](https://github.com/openstack/glance) - OpenStack project that provides services and associated libraries to store, browse, share, distribute and manage bootable disk images.
+- [Regula](https://github.com/fugue/regula) - Tool that evaluates infrastructure as code files for potential AWS, Azure, Google Cloud, and Kubernetes security and compliance violations prior to deployment. ([Docs](https://regula.dev/))
+- [Awesome Site Reliability Engineering Tools](https://github.com/SquadcastHub/awesome-sre-tools)
+- [SRE Cheat Sheet](https://github.com/shibumi/SRE-cheat-sheet)
+- [Massdriver](https://www.massdriver.cloud/) - Effortless DevOps.
+- [Checkup](https://github.com/checkupjs/checkup) - Gather static analysis insights for your projects.
+- [Gatus](https://github.com/TwiN/gatus) - Automated service health dashboard. ([Web](https://gatus.io/))
+- [Lightweight Cluster/Cloud VM Job Management](https://github.com/mle-infrastructure/mle-scheduler)
+- [Echoes HQ](https://www.echoeshq.com/) - Developer-friendly activity reports.
+- [Gasper](https://github.com/sdslabs/gasper) - Intelligent Platform as a Service (PaaS) used for deploying and managing applications and databases in any cloud topology.
+- [Post-Incident Review on the Atlassian April 2022 Outage](https://www.atlassian.com/engineering/post-incident-review-april-2022-outage) ([Lobsters](https://lobste.rs/s/0zqnvu/post_incident_review_on_atlassian_april)) ([HN](https://news.ycombinator.com/item?id=31210469))
+- [Founding Uber SRE](https://lethain.com/founding-uber-sre/) ([HN](https://news.ycombinator.com/item?id=31199551))
+- [DevSecOps Playbook](https://github.com/6mile/DevSecOps-Playbook)
+- [How we deploy to production over 100 times a day (2022)](https://monzo.com/blog/2022/05/16/how-we-deploy-to-production-over-100-times-a-day)
+- [Release](https://github.com/ossjs/release) - Minimalistic, opinionated, and predictable release automation tool.
+- [StatusBase](https://github.com/zernonia/statusbase) - Uptime monitoring tool & beautiful status pages.
+- [Dagu](https://github.com/yohamta/dagu) - Self-contained, standalone No-code workflow executor that runs DAGs defined in a simple, declarative YAML format that is similar to GitHub Actions or Argo Workflows with built-in Web UI.
+- [atmos](https://github.com/cloudposse/atmos) - Universal Tool for DevOps and Cloud Automation (works with terraform, helm, helmfile, etc). ([Guide](https://atmos.tools/))
+- [Delivery CLI](https://github.com/chef-boneyard/delivery-cli) - Command line tool for the workflow capabilities in Chef Automate.
+- [Spin Cycle](https://github.com/square/spincycle) - Automate and expose complex infrastructure tasks to teams and services.
+- [A review of Accelerate: The Science of Lean Software and DevOps (2022)](https://keunwoo.com/notes/accelerate-devops/)
+- [sake](https://github.com/alajmo/sake) - Command runner for local and remote hosts.
+- [Nomad Helper](https://github.com/seatgeek/nomad-helper) - Useful tools for working with Hashicorp Nomad at scale.
+- [Interval](https://interval.com/) - Batteries-included approach to building rich internal tools directly in your app’s backend codebase. ([Twitter](https://twitter.com/useinterval)) ([Explained](https://twitter.com/alexarena/status/1537116909199446016))
+- [Wander](https://github.com/robinovitch61/wander) - Terminal application for Nomad by HashiCorp.
+- [Monitoring tiny web services (2022)](https://jvns.ca/blog/2022/07/09/monitoring-small-web-services/) ([Lobsters](https://lobste.rs/s/vdbrqy/monitoring_tiny_web_services)) ([HN](https://news.ycombinator.com/item?id=32037356))
+- [Updatecli](https://github.com/updatecli/updatecli) - GitDevOps Automation Engine.
+- [Flow Distributed Workflow System](https://github.com/ehazlett/flow) - Provides a GRPC API that is used by clients to submit and manage workflows. ([Docs](https://flow.ehazlett.dev/docs/start/intro))
+- [Tactical RMM](https://github.com/amidaware/tacticalrmm) - Remote monitoring & management tool, built with Django, Vue and Go.
+- [Using BSD make](https://qorg11.net/tech_posts/bsd_make.html) ([Lobsters](https://lobste.rs/s/7svvkz/using_bsd_make))
+- [What are the best books or resources on SRE automation that are also practical? (2022)](https://news.ycombinator.com/item?id=32353824)
+- [Superblocks](https://www.superblocks.com/) - IDE for Internal Apps, APIs and Cron Jobs. ([HN](https://news.ycombinator.com/item?id=32344671))
+- [Multy](https://github.com/multycloud/multy) - Easily deploy multi cloud infrastructure. Write cloud-agnostic config deployed across multiple clouds. ([Web](https://multy.dev/))
+- [Who's NOT using Kubernetes these days and want to share their exciting bit/tooling? (2022)](https://www.reddit.com/r/devops/comments/wjxy0q/whos_not_using_kubernetes_these_days_and_want_to/)
+- [Developers, please nurture your coding experience](https://aymericbeaumet.com/developers-please-nurture-your-coding-experience)
+- [Excav](https://github.com/sn3d/excav) - Tool for patching repositories in bulk.
+- [multi-semantic-release](https://github.com/dhoulb/multi-semantic-release) - Proof of concept that wraps semantic-release to work with monorepos.
+- [Coder](https://coder.com/) - Remote development on your infrastructure. ([Awesome](https://github.com/coder/awesome-coder))
+- [DevOps RoadMap](https://twitter.com/javinpaul/status/1567018709507796993)
+- [Gru](https://github.com/dnaeon/gru) - Fast and concurrent orchestration framework powered by Go and Lua, which allows you to manage your UNIX/Linux systems with ease.
+- [Cello](https://github.com/cello-proj/cello) - Service for running infrastructure as code software tools including CDK, Terraform and CloudFormation via GitOps.
+- [Good CI/CD and SRE Blogs (2022)](https://news.ycombinator.com/item?id=32864909)
+- [Shipping to Production](https://blog.pragmaticengineer.com/shipping-to-production/)
+- [Traditional packaging is not suitable for modern applications? (2022)](https://theevilskeleton.gitlab.io/2022/08/29/traditional-packaging-is-not-suitable-for-modern-applications.html) ([HN](https://news.ycombinator.com/item?id=32922901))
+- [Platformatic](https://github.com/platformatic/platformatic) - Set a Open Source tools that you can use to build your own Internal Developer Platform.
+- [Internal Developer Platform](https://internaldeveloperplatform.org/) - Helps Ops teams structure their setup and enable developer self-service. ([Code](https://github.com/InternalDeveloperPlatform/public-site))
+- [k6](https://github.com/grafana/k6) - Modern load testing tool, using Go and JavaScript by Grafana. ([Web](https://k6.io/)) ([k6 learn](https://github.com/grafana/k6-learn))
+- [Bucketeer](https://bucketeer.io/) - Feature Flag Management and A/B Testing platform. ([Code](https://github.com/bucketeer-io/bucketeer))
+- [How to Build Software Like an SRE (2022)](https://www.willett.io/posts/precepts/) ([HN](https://news.ycombinator.com/item?id=33230402)) ([Lobsters](https://lobste.rs/s/gpzy80/how_build_software_like_sre))
+- [DevOps has devolved (2022)](https://blog.massdriver.cloud/devops-is-bullshit) ([HN](https://news.ycombinator.com/item?id=33274988))
+- [Gaia](https://github.com/gaia-pipeline/gaia) - Build powerful pipelines in any programming language.
+- [Damon](https://github.com/hashicorp/damon) - Terminal Dashboard for HashiCorp Nomad.
+- [Waterwheel](https://github.com/sphenlee/waterwheel) - Job scheduler similar to Airflow but with a very different design.
+- [Retool Workflows: Cron, but Better (2022)](https://retool.com/blog/introducing-retool-workflows/) ([HN](https://news.ycombinator.com/item?id=33610962))
+- [Hadmean](https://github.com/hadmean/hadmean) - Generate powerful, fully functional, ready-to-be-deployed admin apps in seconds. ([Web](https://hadmean.com/))
+- [Sidekiq Server](https://github.com/pganalyze/sidekiq_server.rs) - Sidekiq server implemented in Rust.
+- [Eventline](https://eventline.net/) - Job scheduling and execution platform. ([Code](https://github.com/exograd/eventline))
+- [Infisical](https://infisical.com/) - Open-source, E2EE tool to sync environment variables across your team and infrastructure. ([Code](https://github.com/Infisical/infisical)) ([HN](https://news.ycombinator.com/item?id=34955699))
+- [Apex](https://apexlang.io/) - Interface definition language (IDL) for modeling software. Generate source code, documentation, integration, everything automatically. ([GitHub](https://github.com/apexlang))
+- [Flipt](https://www.flipt.io/) - Open source, self-hosted feature flag solution. ([Code](https://github.com/flipt-io/flipt))
+- [beanstalkd](https://github.com/beanstalkd/beanstalkd) - Fast general purpose work queue.
+- [aiac](https://github.com/gofireflyio/aiac) - Artificial Intelligence Infrastructure-as-Code Generator.
+- [Ask HN: How do you deploy your side-projects? (2022)](https://news.ycombinator.com/item?id=33968378)
+- [Things I want from Devs as SRE/DevOps (2022)](https://oschvr.com/posts/what-id-like-as-sre/) ([HN](https://news.ycombinator.com/item?id=34006463))
+- [Getting Started with Server Health Checks](https://betterstack.com/community/guides/monitoring/health-checks/)
+- [Ask HN: What is the cheapest, easiest way to host a cronjob in 2022?](https://news.ycombinator.com/item?id=34056812)
+- [Miradors](https://github.com/benjaminch/miradors) - Simple tool allowing you to monitor is your websites are up and send you an email if not.
+- [tandem](https://github.com/rosszurowski/tandem) - Parallel task runner for servers and long-running commands.
+- [Single-file scripts that download their dependencies](https://dbohdan.com/scripts-with-dependencies) ([HN](https://news.ycombinator.com/item?id=34388826))
+- [EnvShare](https://envshare.dev/) - Share Environment Variables Securely. ([Code](https://github.com/chronark/envshare))
+- [Edge Flags](https://github.com/upstash/edge-flags) - Feature flags for edge functions.
+- [Learn DevOps Links](https://github.com/codeaprendiz/learn-devops)
+- [octocov](https://github.com/k1LoW/octocov) - Toolkit for collecting code metrics (code coverage, code to test ratio and test execution time).
+- [Envless](https://envless.dev/) - Secure and sync your secrets. ([Code](https://github.com/envless/envless)) ([Docs](https://envless.dev/docs))
+- [Cron-Job.org](https://cron-job.org/en/) - Scheduled execution of your websites and scripts. ([Code](https://github.com/pschlan/cron-job.org))
+- [precloud](https://github.com/tinystacks/precloud) - Dynamic tests for infrastructure-as-code.
+- [SRE Checklist](https://github.com/bregman-arie/sre-checklist)
+- [vendir](https://github.com/carvel-dev/vendir) - Easy way to vendor portions of git repos, github releases, helm charts, docker image contents, etc. declaratively. ([Web](https://carvel.dev/vendir/))
+- [Little Loadshedder](https://github.com/Skepfyr/little-loadshedder) - Rust hyper/tower service that implements load shedding with queuing & concurrency limiting based on latency.
+- [OneUptime](https://oneuptime.com/) - Open-source complete SRE and DevOps platform. ([Code](https://github.com/OneUptime/oneuptime))
+- [Ask HN: Best practices for self-healing apps? (2023)](https://news.ycombinator.com/item?id=34706624)
+- [Enrolla](https://www.enrolla.io/) - Open source feature flags for B2Bs. ([Code](https://github.com/enrolla/enrolla)) ([HN](https://news.ycombinator.com/item?id=34692177))
+- [Keep](https://github.com/keephq/keep) - Manage your alerts by code, write better more actionable and accurate alerts.
+- [Don't deploy manually (2023)](https://www.youtube.com/watch?v=R2ImVl1skY8)
+- [xc](https://github.com/joerdav/xc) - Simple, Convenient, Markdown defined task runner. ([HN](https://news.ycombinator.com/item?id=34911216))
+- [Traceo](https://github.com/traceo-dev/traceo) - Simple platform to monitor application performance with error handling.
+- [Chaos](https://github.com/Clivern/Chaos) - Tool can cause a chaos to running servers.
+- [Framework-defined infrastructure (2023)](https://vercel.com/blog/framework-defined-infrastructure)
+- [Featurevisor](https://github.com/fahad19/featurevisor) - Feature flags and experimentation management solution for developers.
+- [Tramline](https://www.tramline.app/) - Release apps without drowning in process. ([Lobsters](https://lobste.rs/s/rgmlxm/tramline_release_coordination_platform))
+- [Universal Binary Installer](https://github.com/houseabsolute/ubi)
+- [CHOMP](https://github.com/guybedford/chomp) - 'JS Make' - parallel task runner for the frontend ecosystem with a JS extension system.
+- [The funniest performance regression you've seen (2023)](https://lobste.rs/s/p7fo6i/funniest_performance_regression_you_ve)
+- [Dagger, a ❤️ story (2023)](https://www.flipt.io/blog/dagger-a-love-story)
+- [A love letter to make](https://kmaasrud.com/blog/make) ([Lobsters](https://lobste.rs/s/mavub8/love_letter_make)) ([HN](https://news.ycombinator.com/item?id=35624805))
+- [hof](https://github.com/hofstadter-io/hof) - Framework that joins data models, schemas, code generation, and a task engine. Language and technology agnostic.
+- [CloudKnit](https://github.com/cloudknit-io/cloudknit) - Open Source Solution for Managing Cloud Environments.
+- [MRSK: hot deployment tool to watch—or a total game changer? (2023)](https://evilmartians.com/chronicles/mrsk-hot-deployment-tool-or-total-game-changer)
+- [Opslib](https://github.com/mgax/opslib) - Pythonic toolkit to manage infrastructure.
+- [DevPod](https://github.com/loft-sh/devpod) - Client-only tool to create developer environments based on a devcontainer.json on any backend.
+- [DevOps Notes](https://devops.pradumnasaraf.dev/#/) ([Code](https://github.com/Pradumnasaraf/DevOps))
+- [Preevy](https://github.com/livecycle/preevy) - Quickly deploy preview environments to the cloud.
+- [Hop CLI](https://github.com/hopinc/cli) - Interact with Hop in your terminal.
+- [Framed](https://github.com/mactat/framed) - CLI tool for projects management.
+- [Nocalhost](https://github.com/nocalhost/nocalhost) - Cloud Native Dev Environment.
+- [Levant](https://github.com/hashicorp/levant) - Open source templating and deployment tool for HashiCorp Nomad jobs.

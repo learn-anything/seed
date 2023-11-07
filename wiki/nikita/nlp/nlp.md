@@ -1,0 +1,1391 @@
+# Natural language processing
+
+Find [generative ML](../machine-learning/generative-machine-learning.md) like [Stable Diffusion](https://github.com/Stability-AI/stablediffusion)/[Midjourney](https://www.midjourney.com/home/) fascinating.
+
+Love using [ChatGPT](../machine-learning/chatgpt.md) and its open variants like [Alpaca](https://github.com/tatsu-lab/stanford_alpaca). Alpaca specifically has lots of momentum building on top of it, like [this UI](https://github.com/nsarrazin/serge).
+
+[Prompt Engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) is great read.
+
+[spaCy](https://spacy.io/) (with their [NLP course](https://github.com/explosion/spacy-course)) & [Fairseq](https://github.com/facebookresearch/fairseq) are interesting libraries. [Natural Language Processing with Transformers Book](https://transformersbook.com/) is nice book. [Hugging Face NLP Course](https://huggingface.co/course/chapter1/1) is probably the best NLP intro out there.
+
+[DALL·E 2](https://openai.com/dall-e-2/) is fascinating too. Trying to understand [DALL-E in PyTorch](https://github.com/lucidrains/DALLE-pytorch) implementation. Although [Midjourney](https://www.midjourney.com/home/) is strictly superior technology now.
+
+[Getting started with NLP for absolute beginners](https://www.kaggle.com/code/jhoward/getting-started-with-nlp-for-absolute-beginners/) is a nice intro.
+
+[LangChain](https://github.com/hwchase17/langchain/) & [Petals](https://petals.ml/) are interesting. [Lightning GPT](https://github.com/Lightning-AI/lightning-gpt) is nice minimal GPT implementation. Want to try use [LLaMA](https://github.com/facebookresearch/llama) model.
+
+[Tokenizers](https://github.com/huggingface/tokenizers) & [tiktoken](https://github.com/openai/tiktoken) are interesting tokenizers.
+
+[rust-bert](https://github.com/guillaume-be/rust-bert) is useful for making NLP pipelines.
+
+Want to explore [fine tuning FLAN-T5 model](https://www.philschmid.de/fine-tune-flan-t5-deepspeed) together with examples from [OpenAI Cookbook](https://github.com/openai/openai-cookbook).
+
+[LLM-Chain](https://github.com/sobelio/llm-chain) is amazing tool. [Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html) is great read.
+
+[This](https://news.ycombinator.com/item?id=35977891) is a great thread to understand transformer neural nets.
+
+## Notes
+
+- [Figuring out correctly when/what to escalate to a human would change customer service more than anything else.](https://twitter.com/_abhisheksankar/status/1441793453864620044)
+- [GPT-3 was created by mining a human-written internet that will never again exist thanks to the creation of GPT-3](https://twitter.com/alexhern/status/1455439743165124608)
+- [Creating a delightful AI assistant is not anymore a problem of getting smarter models. It is a now product problem. Better models will help but the main blocker is 100% a product problem at this point.](https://twitter.com/spolu/status/1589977540177072135)
+
+## Links
+
+- [SpaCy](https://github.com/explosion/spaCy) - Industrial-strength Natural Language Processing (NLP) with Python and Cython. ([HN: SpaCy 3.0 (2021)](https://news.ycombinator.com/item?id=25988702))
+- [Adding voice control to your projects](https://medium.com/hackers-at-cambridge/adding-voice-control-to-your-projects-7096fdee7c45)
+- [Increasing data science productivity; founders of spaCy & Prodigy](https://www.youtube.com/watch?v=jB1-NukGZm0)
+- [Course materials for "Natural Language" course](https://github.com/jacobeisenstein/gt-nlp-class)
+- [NLP progress](https://github.com/sebastianruder/NLP-progress) - Track the progress in Natural Language Processing (NLP) and give an overview of the state-of-the-art across the most common NLP tasks and their corresponding datasets. ([Web](https://nlpprogress.com/))
+- [Natural](https://github.com/NaturalNode/natural) - General natural language facilities for Node.
+- [YSDA Natural Language Processing course (2018)](https://github.com/yandexdataschool/nlp_course)
+- [PyText](https://github.com/facebookresearch/pytext) - Natural language modeling framework based on PyTorch.
+- [FlashText](https://github.com/vi3k6i5/flashtext) - Extract Keywords from sentence or Replace keywords in sentences.
+- [BERT PyTorch implementation](https://github.com/codertimo/BERT-pytorch)
+- [LASER Language-Agnostic SEntence Representations](https://github.com/facebookresearch/LASER) - Library to calculate and use multilingual sentence embeddings.
+- [StanfordNLP](https://github.com/stanfordnlp/stanfordnlp) - Python NLP Library for Many Human Languages.
+- [nlp-tutorial](https://github.com/graykode/nlp-tutorial) - Tutorial for who is studying NLP(Natural Language Processing) using TensorFlow and PyTorch.
+- [Better Language Models and Their Implications (2019)](https://blog.openai.com/better-language-models/)
+- [gpt-2](https://github.com/openai/gpt-2) - Code for the paper ["Language Models are Unsupervised Multitask Learners"](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf).
+- [Lingvo](https://github.com/tensorflow/lingvo) - Framework for building neural networks in Tensorflow, particularly sequence models.
+- [Fairseq](https://github.com/pytorch/fairseq) - Facebook AI Research Sequence-to-Sequence Toolkit written in Python.
+- [Stanford CS224N: NLP with Deep Learning (2019)](https://www.youtube.com/watch?v=8rXD5-xhemo) - [Course page](https://web.stanford.edu/class/cs224n/). ([HN](https://news.ycombinator.com/item?id=19569883))
+- [Advanced NLP with spaCy: Free Course](https://github.com/ines/spacy-course) ([Web](https://course.spacy.io/en/)) ([HN](https://news.ycombinator.com/item?id=29511488))
+- [Code for Stanford Natural Language Understanding course, CS224u (2019)](https://github.com/cgpotts/cs224u)
+- [Awesome Reinforcement Learning for Natural Language Processing](https://github.com/adityathakker/awesome-rl-nlp)
+- [ParlAI](https://github.com/facebookresearch/ParlAI) - Framework for training and evaluating AI models on a variety of openly available dialogue datasets.
+- [Training language GANs from Scratch (2019)](https://arxiv.org/abs/1905.09922)
+- [Olivia](https://github.com/olivia-ai/olivia) - Your new best friend built with an artificial neural network.
+- [Learn-Natural-Language-Processing-Curriculum](https://github.com/llSourcell/Learn-Natural-Language-Processing-Curriculum)
+- [This repository recorded my NLP journey](https://github.com/makcedward/nlp)
+- [Project Alias](https://github.com/bjoernkarmann/project_alias) - Open-source parasite to train custom wake-up names for smart home devices while disturbing their built-in microphone.
+- [Cornell Tech NLP Code](http://rush-nlp.com/code/)
+- [Cornell Tech NLP Publications](http://rush-nlp.com/papers/)
+- [Thinc](https://github.com/explosion/thinc/) - SpaCy's Machine Learning library for NLP in Python. ([Docs](https://thinc.ai/docs))
+- [Knowledge is embedded in language neural networks but can they reason? (2019)](https://www.youtube.com/watch?v=KybSRPC3e64)
+- [NLP Best Practices](https://github.com/microsoft/nlp)
+- [Transfer NLP library](https://github.com/feedly/transfer-nlp) - Framework built on top of PyTorch to promote reproducible experimentation and Transfer Learning in NLP.
+- [FARM](https://github.com/deepset-ai/FARM) - Fast & easy transfer learning for NLP. Harvesting language models for the industry.
+- [Transformers](https://github.com/huggingface/transformers) - State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch. ([Web](https://huggingface.co/))
+- [NLP Roadmap 2019](https://github.com/graykode/nlp-roadmap)
+- [Flair](https://github.com/zalandoresearch/flair) - Very simple framework for state-of-the-art NLP. Developed by Zalando Research.
+- [Unsupervised Data Augmentation](https://github.com/google-research/uda) - Semi-supervised learning method which achieves state-of-the-art results on a wide variety of language and vision tasks.
+- [Rasa](https://github.com/RasaHQ/rasa) - Open source machine learning framework to automate text-and voice-based conversations.
+- [T5](https://github.com/google-research/text-to-text-transfer-transformer) - Text-To-Text Transfer Transformer.
+- [100 Must-Read NLP Papers](https://github.com/mhagiwara/100-nlp-papers) ([HN](https://news.ycombinator.com/item?id=24377223))
+- [Awesome NLP](https://github.com/keon/awesome-nlp)
+- [NLP Library](https://github.com/mihail911/nlp-library) - Curated collection of papers for the NLP practitioner.
+- [spacy-transformers](https://github.com/explosion/spacy-transformers) - spaCy pipelines for pre-trained BERT, XLNet and GPT-2.
+- [AllenNLP](https://github.com/allenai/allennlp) - Open-source NLP research library, built on PyTorch. ([Announcing AllenNLP 1.0](https://medium.com/ai2-blog/allennlp-1-0-df0327445509))
+- [GloVe](https://github.com/stanfordnlp/GloVe) - Global Vectors for Word Representation.
+- [Botpress](https://github.com/botpress/botpress) - Open-source Virtual Assistant platform.
+- [Mycroft](https://github.com/MycroftAI/mycroft-core) - Hackable open source voice assistant. ([HN](https://news.ycombinator.com/item?id=22702195))
+- [VizSeq](https://github.com/facebookresearch/vizseq) - Visual Analysis Toolkit for Text Generation Tasks.
+- [Awesome Natural Language Generation](https://github.com/tokenmill/awesome-nlg)
+- [How I used NLP (Spacy) to screen Data Science Resume (2019)](https://towardsdatascience.com/do-the-keywords-in-your-resume-aptly-represent-what-type-of-data-scientist-you-are-59134105ba0d)
+- [Introduction to Natural Language Processing book](https://mitpress.mit.edu/books/introduction-natural-language-processing) - Survey of computational methods for understanding, generating, and manipulating human language, which offers a synthesis of classical representations and algorithms with contemporary machine learning techniques.
+- [Natural Language Processing with PyTorch: Build Intelligent Language Applications Using Deep Learning](https://nlproc.info/) ([Code](https://github.com/joosthub/PyTorchNLPBook))
+- [Tokenizers](https://github.com/huggingface/tokenizers) - Fast State-of-the-Art Tokenizers optimized for Research and Production. ([Article](https://medium.com/dair-ai/hugging-face-introduces-tokenizers-d792482db360))
+- [Example Notebook using BERT for NLP with Keras (2020)](https://twitter.com/random_forests/status/1216125213760532480)
+- [NLP 2019/2020 Highlights](https://github.com/omarsar/nlp_highlights)
+- [Overview of Modern Deep Learning Techniques Applied to Natural Language Processing](https://github.com/omarsar/nlp_overview)
+- [Language Identification from Very Short Strings (2019)](https://machinelearning.apple.com/2019/07/24/language-identification-from-very-short-strings.html)
+- [SentenceRepresentation](https://github.com/fh295/SentenceRepresentation) - Code acompanies the paper 'Learning Sentence Representations from Unlabelled Data' Felix Hill, KyungHyun Cho and Anna Korhonen 2016.
+- [Deep Learning for Language Processing course](https://fh295.github.io/teaching.html)
+- [Megatron LM](https://github.com/NVIDIA/Megatron-LM) - Ongoing research training transformer language models at scale, including: BERT & GPT-2. ([Megatron with FastMoE](https://www.bodunhu.com/blog/posts/megatron-with-fastmoe/)) ([Fork](https://github.com/microsoft/Megatron-DeepSpeed))
+- [XLNet](https://github.com/zihangdai/xlnet) - New unsupervised language representation learning method based on a novel generalized permutation language modeling objective.
+- [ALBERT](https://github.com/google-research/ALBERT) - Lite BERT for Self-supervised Learning of Language Representations.
+- [BERT](https://github.com/google-research/bert) - TensorFlow code and pre-trained models for BERT.
+- [Multilingual Denoising Pre-training for Neural Machine Translation (2020)](https://arxiv.org/pdf/2001.08210.pdf)
+- [List of NLP tutorials built on PyTorch](https://github.com/lyeoni/nlp-tutorial)
+- [sticker](https://github.com/stickeritis/sticker) - Sequence labeler that uses either recurrent neural networks, transformers, or dilated convolution networks.
+- [sticker-transformers](https://github.com/stickeritis/sticker-transformers) - Pretrained transformer models for sticker.
+- [pke](https://github.com/boudinfl/pke) - Python Keyphrase Extraction module.
+- [How to train a new language model from scratch using Transformers and Tokenizers (2020)](https://huggingface.co/blog/how-to-train)
+- [Interactive Attention Visualization](https://github.com/SIDN-IAP/attnvis) - Small example of an interactive visualization for attention values as being used by transformer language models like GPT2 and BERT.
+- [The Annotated GPT-2 (2020)](https://amaarora.github.io/2020/02/18/annotatedGPT2.html)
+- [GluonNLP](https://github.com/dmlc/gluon-nlp) - Toolkit that enables easy text preprocessing, datasets loading and neural models building to help you speed up your NLP research.
+- [Finetune](https://github.com/IndicoDataSolutions/finetune) - Scikit-learn style model finetuning for NLP.
+- [Stanza: A Python Natural Language Processing Toolkit for Many Human Languages (2020)](https://arxiv.org/abs/2003.07082) ([HN](https://news.ycombinator.com/item?id=22663322))
+- [NLP Newsletter](https://github.com/dair-ai/nlp_newsletter)
+- [NLP Paper Summaries](https://github.com/dair-ai/nlp_paper_summaries)
+- [Advanced NLP with spaCy](https://course.spacy.io/)
+- [Myle Ott's research](https://myleott.com/)
+- [Natural Language Toolkit (NLTK)](https://github.com/nltk/nltk) - Suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing. ([Web](http://www.nltk.org/)) ([Book](https://www.nltk.org/book/))
+- [NLP 100 Exercise](https://nlp100.github.io/en/) - Bootcamp designed for learning skills for programming, data analysis, and research activities. ([Code](https://github.com/nlp100/nlp100.github.io))
+- [The Transformer Family (2020)](https://lilianweng.github.io/lil-log/2020/04/07/the-transformer-family.html)
+- [Minimalist Implementation of a BERT Sentence Classifier](https://github.com/ricardorei/lightning-text-classification)
+- [fastText](https://fasttext.cc/) - Library for efficient text classification and representation learning. ([Code](https://github.com/facebookresearch/fastText/)) ([Article](https://rolisz.com/the-best-text-classification-library-for-a-quick-baseline/)) ([HN](https://news.ycombinator.com/item?id=27583185)) ([Fork](https://github.com/explosion/floret))
+- [Awesome NLP Paper Discussions](https://github.com/huggingface/awesome-papers) - Papers & presentations from Hugging Face's weekly science day.
+- [SynST: Syntactically Supervised Transformers](https://github.com/dojoteef/synst)
+- [The Cost of Training NLP Models: A Concise Overview (2020)](https://arxiv.org/abs/2004.08900)
+- [Tutorial - Transformers](http://dev.fast.ai/tutorial.transformers) ([Tweet](https://twitter.com/GuggerSylvain/status/1254837525274865664))
+- [TTS](https://github.com/mozilla/TTS) - Deep learning for Text to Speech.
+- [MAD-X: An Adapter-based Framework for Multi-task Cross-lingual Transfer (2020)](https://public.ukp.informatik.tu-darmstadt.de/MAD-X/paper.pdf)
+- [gpt-2-simple](https://github.com/minimaxir/gpt-2-simple) - Python package to easily retrain OpenAI's GPT-2 text-generating model on new texts.
+- [BERTScore](https://github.com/Tiiiger/bert_score) - BERT score for text generation.
+- [ML and NLP Paper Discussions](https://github.com/dair-ai/ml-nlp-paper-discussions)
+- [NLP Index](https://index.quantumstat.com/) - Collection of NLP resources.
+- [NLP Datasets](https://datasets.quantumstat.com/)
+- [Word Embeddings (2017)](https://www.youtube.com/watch?v=5PL0TmQhItY)
+- [NLP from Scratch: Annotated Attention (2020)](https://teddykoker.com/2020/02/nlp-from-scratch-annotated-attention/)
+- [This Word Does Not Exist](https://www.thisworddoesnotexist.com/) - Allows people to train a variant of GPT-2 that makes up words, definitions and examples from scratch. ([Code](https://github.com/turtlesoupy/this-word-does-not-exist)) ([HN](https://news.ycombinator.com/item?id=23169962))
+- [Ultimate guide to choosing an online course covering practical NLP (2020)](https://www.reddit.com/r/MachineLearning/comments/ghrjfs/d_ultimate_guide_to_choosing_an_online_course/)
+- [HuggingFace `nlp` library - Quick overview (2020)](https://colab.research.google.com/github/huggingface/nlp/blob/master/notebooks/Overview.ipynb) ([Twitter](https://twitter.com/Thom_Wolf/status/1261264437220081667))
+- [aitextgen](https://github.com/minimaxir/aitextgen) - Robust Python tool for text-based AI training and generation using GPT-2. ([HN](https://news.ycombinator.com/item?id=23223358))
+- [Self Supervised Representation Learning in NLP (2020)](https://amitness.com/2020/05/self-supervised-learning-nlp/) ([HN](https://news.ycombinator.com/item?id=23292885))
+- [Synthetic and Natural Noise Both Break Neural Machine Translation (2017)](https://arxiv.org/abs/1711.02173)
+- [Inferbeddings](https://github.com/uclnlp/inferbeddings) - Injecting Background Knowledge in Neural Models via Adversarial Set Regularisation.
+- [UCL Natural Language Processing group](http://nlp.cs.ucl.ac.uk/)
+- [Interactive Lecture Notes, Slides and Exercises for Statistical NLP](https://github.com/uclnlp/stat-nlp-book)
+- [Beyond Accuracy: Behavioral Testing of NLP models with CheckList](https://github.com/marcotcr/checklist)
+- [CMU LTI Low Resource NLP Bootcamp 2020](https://github.com/neubig/lowresource-nlp-bootcamp-2020)
+- [GPT-3: Language Models Are Few-Shot Learners (2020)](https://arxiv.org/abs/2005.14165) ([HN](https://news.ycombinator.com/item?id=23345379)) ([Code](https://github.com/openai/gpt-3))
+- [nlp](https://github.com/huggingface/nlp) - Lightweight and extensible library to easily share and access datasets and evaluation metrics for NLP.
+- [Brainsources for NLP enthusiasts](https://www.notion.so/634eba1a37d34e2baec1bb574a8a5482)
+- [Movement Pruning: Adaptive Sparsity by Fine-Tuning](https://github.com/huggingface/transformers/tree/master/examples/movement-pruning) ([Paper](https://arxiv.org/abs/2005.07683))
+- [NLP Resources](https://github.com/lyeoni/nlp-resources)
+- [TaBERT: Learning Contextual Representations for Natural Language Utterances and Structured Tables](https://github.com/facebookresearch/TaBERT) ([Article](https://ai.facebook.com/blog/tabert-a-new-model-for-understanding-queries-over-tabular-data/)) ([HN](https://news.ycombinator.com/item?id=23725829))
+- [vtext](https://github.com/rth/vtext) - NLP in Rust with Python bindings.
+- [Language Technology Lab @ University of Cambridge](http://ltl.mml.cam.ac.uk/)
+- [The Natural Language Processing Dictionary](http://www.cse.unsw.edu.au/~billw/nlpdict.html)
+- [Introduction to NLP using Fastai (2020)](https://harish3110.github.io/through-tinted-lenses/natural%20language%20processing/sentiment%20analysis/2020/06/27/Introduction-to-NLP-using-Fastai.html)
+- [Gwern on GPT-3](https://www.gwern.net/newsletter/2020/05#gpt-3) ([HN](https://news.ycombinator.com/item?id=23623845))
+- [Semantic Machines](https://www.semanticmachines.com/) - Solving conversational artificial intelligence. Part of Microsoft.
+- [The Reformer – Pushing the limits of language modeling](https://colab.research.google.com/drive/15oP52_7W5dRcAnbgX3tYADsu4R3cjMIf?usp=sharing) ([HN](https://news.ycombinator.com/item?id=23718475))
+- [GPT-3 Creative Fiction (2020)](https://www.gwern.net/GPT-3) ([HN](https://news.ycombinator.com/item?id=23722635))
+- [Classifying 200k articles in 7 hours using NLP (2020)](https://salt.agency/blog/nlp-and-stuff/) ([HN](https://news.ycombinator.com/item?id=23760109))
+- [HN: Using GPT-3 to generate user interfaces (2020)](https://news.ycombinator.com/item?id=23821411)
+- [Thread of GPT-3 use cases (2020)](https://twitter.com/xuenay/status/1283312640199196673)
+- [GPT-3 Code Experiments](https://github.com/minimaxir/gpt-3-experiments) ([Examples](https://github.com/minimaxir/gpt-3-experiments/tree/master/examples))
+- [How GPT3 Works - Visualizations and Animations (2020)](https://jalammar.github.io/how-gpt3-works-visualizations-animations/) ([Lobsters](https://lobste.rs/s/j54rgh/how_gpt3_works_visualizations)) ([HN](https://news.ycombinator.com/item?id=23967887))
+- [What is GPT-3? written in layman's terms (2020)](https://tinkeredthinking.com/index.php?id=841) ([HN](https://news.ycombinator.com/item?id=23923799))
+- [GPT3 Examples](https://gpt3examples.com/) ([HN](https://news.ycombinator.com/item?id=23993251))
+- [DQI: Measuring Data Quality in NLP (2020)](https://arxiv.org/abs/2005.00816)
+- [Humanloop](https://humanloop.com/) - Train and deploy NLP. ([HN](https://news.ycombinator.com/item?id=23987353))
+- [Do NLP Beyond English (2020)](https://ruder.io/nlp-beyond-english/) ([HN](https://news.ycombinator.com/item?id=24026511))
+- [Giving GPT-3 a Turing Test (2020)](https://lacker.io/ai/2020/07/06/giving-gpt-3-a-turing-test.html) ([HN](https://news.ycombinator.com/item?id=23887637))
+- [Neural Network Methods for Natural Language Processing (2017)](http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?cPath=22&products_id=1056)
+- [Tempering Expectations for GPT-3 and OpenAI’s API (2020)](https://minimaxir.com/2020/07/gpt3-expectations/)
+- [Philosophers on GPT-3 (2020)](http://dailynous.com/2020/07/30/philosophers-gpt-3/) ([HN](https://news.ycombinator.com/item?id=24003384))
+- [GPT-3 Explorer](https://belay-labs.github.io/gpt-explorer/introducing-gpt-explorer) - Power tool for experimenting with GPT-3. ([Code](https://github.com/belay-labs/gpt-explorer))
+- [Recent Advances in Natural Language Processing (2020)](https://deponysum.com/2020/01/16/recent-advances-in-natural-language-processing-some-woolly-speculations/) ([HN](https://news.ycombinator.com/item?id=24179795))
+- [Project Insight](https://github.com/abhimishra91/insight) - NLP as a Service. ([Forum post](https://discuss.streamlit.io/t/project-insight-streamlit-fastapi-huggingface-and-all-the-goodness/4978))
+- [Bob Coecke: Quantum Natural Language Processing (QNLP) (2020)](https://www.youtube.com/watch?v=mL-hWbwVphk) ([Article](https://medium.com/cambridge-quantum-computing/quantum-natural-language-processing-748d6f27b31d))
+- [Language-Agnostic BERT Sentence Embedding (2020)](https://ai.googleblog.com/2020/08/language-agnostic-bert-sentence.html)
+- [Language Interpretability Tool (LIT)](https://github.com/pair-code/lit/) - Interactively analyze NLP models for model understanding in an extensible and framework agnostic interface.
+- [Booste Pre Trained Models](https://www.booste.io/pretrained-models) - Free-to-use GPT-2 API. ([HN](https://news.ycombinator.com/item?id=24561214))
+- [Context-theoretic Semantics for Natural Language: an Algebraic Framework (2007)](https://arxiv.org/abs/2009.10542)
+- [THUNLP (Natural Language Processing Lab at Tsinghua University) research](https://github.com/thunlp)
+- [AI training method exceeds GPT-3 performance with fewer parameters (2020)](https://www.infoq.com/news/2020/10/training-exceeds-gpt3/) ([HN](https://news.ycombinator.com/item?id=24704952))
+- [BERT Attention Analysis](https://github.com/clarkkev/attention-analysis)
+- [Neural Modules and Models for Conversational AI (2020)](https://medium.com/pytorch/nvidia-nemo-neural-modules-and-models-for-conversational-ai-d660480d9696)
+- [BERTopic](https://github.com/MaartenGr/BERTopic) - Topic modeling technique that leverages BERT embeddings and c-TF-IDF to create dense clusters allowing for easily interpretable topics whilst keeping important words in the topic descriptions.
+- [NLP Pandect](https://github.com/ivan-bilan/The-NLP-Pandect) - Comprehensive reference for all topics related to Natural Language Processing.
+- [Practical Natural Language Processing book](http://www.practicalnlp.ai/) ([Code](https://github.com/practical-nlp/practical-nlp))
+- [NLP Reseach Project: Best Practices for Finetuning Large Transformer Language models (2020)](https://bkkaggle.github.io/blog/nlp-research-part-1/)
+- [Deep Learning for NLP notes (2020)](https://strikingloo.github.io/wiki-articles/machine-learning/deep_learning_NLP)
+- [Modern Practical Natural Language Processing course](https://github.com/jmugan/modern_practical_nlp)
+- [LXMERT: Learning Cross-Modality Encoder Representations from Transformers in PyTorch](https://github.com/airsplay/lxmert)
+- [Awesome software for Text ML](https://github.com/oskar-j/awesome-text-ml)
+- [Pretrained Transformers for Text Ranking: BERT and Beyond (2020)](https://arxiv.org/abs/2010.06467)
+- [SpaCy v3.0 Nightly (2020)](https://explosion.ai/blog/spacy-v3-nightly) ([HN](https://news.ycombinator.com/item?id=24789981)) ([Tweet](https://twitter.com/spacy_io/status/1316769056108818432))
+- [Explore trained spaCy v3.0 pipelines](https://share.streamlit.io/ines/spacy-streamlit-demo/master/app.py)
+- [spacy-streamlit](https://github.com/explosion/spacy-streamlit) - sGpaCy building blocks for Streamlit apps. ([Tweet](https://twitter.com/_inesmontani/status/1316781893791158273))
+- [Informers](https://github.com/ankane/informers) - State-of-the-art natural language processing for Ruby.
+- [How to Structure and Manage Natural Language Processing (NLP) Projects (2020)](https://neptune.ai/blog/how-to-structure-and-manage-nlp-projects-templates)
+- [Sentence-BERT for spaCy](https://github.com/MartinoMensio/spacy-sentence-bert) - Wraps sentence-transformers (also known as sentence-BERT) directly in spaCy.
+- [Lingua Franca](https://github.com/MycroftAI/lingua-franca) - Mycroft's multilingual text parsing and formatting library.
+- [Simple Transformers](https://github.com/ThilinaRajapakse/simpletransformers) - Based on the Transformers library by HuggingFace. Lets you quickly train and evaluate Transformer models.
+- [Deep Bidirectional Transformers for Language Understanding (2020)](https://www.youtube.com/watch?v=j9toSIRf4RI) - Explains a legendary paper, BERT. ([HN](https://news.ycombinator.com/item?id=24826599))
+- [EasyTransfer](https://github.com/alibaba/EasyTransfer) - Designed to make the development of transfer learning in NLP applications easier.
+- [LambdaBERT](https://github.com/gsarti/lambda-bert) - Transformers-style implementation of BERT using LambdaNetworks instead of self-attention.
+- [DialoGPT](https://github.com/microsoft/DialoGPT) - State-of-the-Art Large-scale Pretrained Response Generation Model.
+- [Neural reading comprehension and beyond - Danqi Chen's Thesis (2020)](https://github.com/danqi/thesis/blob/master/thesis.pdf) ([Code](https://github.com/danqi/thesis))
+- [LAMA: LAnguage Model Analysis](https://github.com/facebookresearch/LAMA) - Probe for analyzing the factual and commonsense knowledge contained in pretrained language models.
+- [awesome-2vec](https://github.com/MaxwellRebo/awesome-2vec) - Curated list of 2vec-type embedding models.
+- [Rethinking Attention with Performers (2020)](https://ai.googleblog.com/2020/10/rethinking-attention-with-performers.html) ([HN](https://news.ycombinator.com/item?id=24878116))
+- [BERT Research - Key Concepts & Sources (2019)](https://mccormickml.com/2019/11/11/bert-research-ep-1-key-concepts-and-sources/)
+- [The Pile](https://github.com/EleutherAI/The-Pile) - Large, diverse, open source language modelling data set that consists of many smaller datasets combined together.
+- [Bort](https://github.com/alexa/bort) - Companion code for the paper "Optimal Subarchitecture Extraction for BERT."
+- [Vector AI](https://getvectorai.com/) - Encode And Deploy Vectors At The Edge. ([Code](https://github.com/vector-ai/vectorhub))
+- [KeyBERT](https://github.com/MaartenGr/KeyBERT/) - Minimal keyword extraction with BERT. ([Web](https://maartengr.github.io/KeyBERT/))
+- [Multimodal Transformer for Unaligned Multimodal Language Sequences](https://github.com/yaohungt/Multimodal-Transformer) - In PyTorch.
+- [The Illustrated GPT-2 (Visualizing Transformer Language Models) (2020)](http://jalammar.github.io/illustrated-gpt2/)
+- [A Primer in BERTology: What we know about how BERT works (2020)](https://arxiv.org/abs/2002.12327) ([HN](https://news.ycombinator.com/item?id=25043280))
+- [GPT Neo](https://github.com/EleutherAI/gpt-neo/) - Open-source GPT model, with pretrained 1.3B & 2.7B weight models. ([HN](https://news.ycombinator.com/item?id=26534000))
+- [TextSynth](https://textsynth.com/) - Bellard's free GPT-NeoX-20B, GPT-J playground and paid API. ([Playground](https://textsynth.com/playground.html)) ([HN](https://news.ycombinator.com/item?id=31175291))
+- [How to Go from NLP in 1 Language to NLP in N Languages in One Shot (2020)](https://x.ai/how-to-go-from-nlp-in-1-language-to-nlp-in-n-languages-in-one-shot/)
+- [Contextualized Topic Models](https://github.com/MilaNLProc/contextualized-topic-models) - Family of topic models that use pre-trained representations of language (e.g., BERT) to support topic modeling.
+- [Language Style Transfer](https://github.com/shentianxiao/language-style-transfer) - Code for [Style Transfer from Non-Parallel Text by Cross-Alignment](https://arxiv.org/abs/1705.09655) paper.
+- [NLU](https://github.com/JohnSnowLabs/nlu) - Power of Spark NLP, the Simplicity of Python. 1 line for hundreds of NLP models and algorithms.
+- [PyTorch Implementation of Google BERT](https://github.com/dhlee347/pytorchic-bert)
+- [High Performance Natural Language Processing (2020)](http://gabrielilharco.com/publications/EMNLP_2020_Tutorial__High_Performance_NLP.pdf)
+- [duoBERT](https://github.com/castorini/duobert) - Multi-stage passage ranking: monoBERT + duoBERT.
+- [Awesome GPT-3](https://github.com/elyase/awesome-gpt3)
+- [SMAC3](https://github.com/automl/SMAC3) - Sequential Model-based Algorithm Configuration.
+- [Semantic Experiences by Google](https://research.google.com/semanticexperiences/) - Experiments in understanding language.
+- [Long-Range Arena](https://github.com/google-research/long-range-arena) - Systematic evaluation of efficient transformer models.
+- [PaddleHub](https://github.com/PaddlePaddle/PaddleHub) - Awesome pre-trained models toolkit based on PaddlePaddle.
+- [DeepSPIN (Deep Structured Prediction in Natural Language Processing)](https://deep-spin.github.io/) ([GitHub](https://github.com/deep-spin))
+- [Multi-Task Learning in NLP](https://github.com/jg8610/multi-task-learning)
+- [FastSeq](https://github.com/microsoft/fastseq) - Provides efficient implementation of popular sequence models (e.g. Bart, ProphetNet) for text generation, summarization, translation tasks etc.
+- [Sentence Embeddings with BERT & XLNet](https://github.com/UKPLab/sentence-transformers)
+- [FastFormers](https://github.com/microsoft/fastformers) - Provides a set of recipes and methods to achieve highly efficient inference of Transformer models for Natural Language Understanding (NLU).
+- [Adversarial NLI](https://github.com/facebookresearch/anli) - Adversarial Natural Language Inference Benchmark.
+- [textract](https://github.com/deanmalmgren/textract) - Extract text from any document. No muss. No fuss. ([Docs](https://textract.readthedocs.io/en/stable/))
+- [NLP e Named Entity Recognition (2020)](https://techblog.smc.it/en/2020-12-11/nlp-ner)
+- [Big Bird: Transformers for Longer Sequences](https://github.com/google-research/bigbird)
+- [NLP PyTorch Tutorial](https://github.com/will-thompson-k/deeplearning-nlp-models)
+- [EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks](https://github.com/jasonwei20/eda_nlp)
+- [CrossWeigh: Training Named Entity Tagger from Imperfect Annotations (2019)](https://arxiv.org/abs/1909.01441) ([Code](https://github.com/ZihanWangKi/CrossWeigh))
+- [Does GPT-2 Know Your Phone Number? (2020)](https://bair.berkeley.edu/blog/2020/12/20/lmmem/)
+- [Towards Fully Automated Manga Translation (2020)](https://arxiv.org/abs/2012.14271)
+- [Text Classification Models](https://github.com/brightmart/text_classification) - All kinds of text classification models and more with deep learning.
+- [Awesome Text Summarization](https://github.com/mathsyouth/awesome-text-summarization)
+- [Shortformer: Better Language Modeling using Shorter Inputs (2020)](https://ofir.io/shortformer.pdf) ([HN](https://news.ycombinator.com/item?id=25588675))
+- [huggingface_hub](https://github.com/huggingface/huggingface_hub) - Client library to download and publish models and other files on the huggingface.co hub.
+- [Embeddings from the Ground Up (2020)](https://www.singlelunch.com/2020/02/16/embeddings-from-the-ground-up/)
+- [Ecco](https://github.com/jalammar/ecco) - Tools to visuals and explore NLP language models. ([Web](https://www.eccox.io/)) ([HN](https://news.ycombinator.com/item?id=25683808))
+- [Interfaces for Explaining Transformer Language Models (2020)](https://jalammar.github.io/explaining-transformers/)
+- [DALL·E: Creating Images from Text (2021)](https://openai.com/blog/dall-e/) ([HN](https://news.ycombinator.com/item?id=25649557)) ([Reddit](https://www.reddit.com/r/MachineLearning/comments/kr63ot/r_new_paper_from_openai_dalle_creating_images/))
+- [CLIP: Connecting Text and Images (2021)](https://openai.com/blog/clip/) ([HN](https://news.ycombinator.com/item?id=25649740)) ([Paper](https://cdn.openai.com/papers/Learning_Transferable_Visual_Models_From_Natural_Language_Supervision.pdf)) ([Code](https://openai.com/blog/clip/))
+- [OpenNRE](https://github.com/thunlp/OpenNRE) - Open-Source Package for Neural Relation Extraction (NRE).
+- [Princeton NLP Group](https://princeton-nlp.github.io/) ([GitHub](https://github.com/princeton-nlp))
+- [Must-read papers on neural relation extraction (NRE)](https://github.com/thunlp/NREPapers)
+- [FewRel Dataset, Toolkits and Baseline Models](https://github.com/thunlp/FewRel)
+- [Tree Transformer: Integrating Tree Structures into Self-Attention (2019)](https://arxiv.org/abs/1909.06639) ([Code](https://github.com/yaushian/Tree-Transformer))
+- [SentEval: evaluation toolkit for sentence embeddings](https://github.com/facebookresearch/SentEval)
+- [gpt-scrolls](https://github.com/maraoz/gpt-scrolls) - Collaborative collection of open-source safe GPT-3 prompts that work well.
+- [SLING - A natural language frame semantics parser](https://github.com/ringgaard/sling) - Built to learn to read and understand Wikipedia articles in many languages for the purpose of knowledge base completion.
+- [Awesome Neural Adaptation in NLP](https://github.com/bplank/awesome-neural-adaptation-in-NLP)
+- [Natural language generation: The commercial state of the art in 2020](https://www.cambridge.org/core/journals/natural-language-engineering/article/natural-language-generation-the-commercial-state-of-the-art-in-2020/BA2417D73AF29F8073FF5B611CDEB97F) ([HN](https://news.ycombinator.com/item?id=25711669))
+- [Non-Autoregressive Generation Progress](https://github.com/kahne/NonAutoregGenProgress)
+- [Trankit: A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing](https://github.com/nlp-uoregon/trankit)
+- [VecMap](https://github.com/artetxem/vecmap) - Framework to learn cross-lingual word embedding mappings.
+- [Kiri](https://github.com/kiri-ai/kiri) - Natural Language Engine. ([Web](https://kiri.ai/))
+- [GPT3 List](https://github.com/sw-yx/gpt3-list) - List of things that people are claiming is enabled by GPT3.
+- [DeBERTa](https://github.com/microsoft/DeBERTa) - Decoding-enhanced BERT with Disentangled Attention.
+- [Sockeye](https://github.com/awslabs/sockeye) - Open-source sequence-to-sequence framework for Neural Machine Translation based on Apache MXNet. ([Docs](https://awslabs.github.io/sockeye/))
+- [Robustness Gym](https://github.com/robustness-gym/robustness-gym) - Python evaluation toolkit for natural language processing.
+- [State-of-the-Art Conversational AI with Transfer Learning](https://github.com/huggingface/transfer-learning-conv-ai)
+- [GPT-Neo](https://www.eleuther.ai/gpt-neo) - GPT-3-sized model, open source and free. ([HN](https://news.ycombinator.com/item?id=25819803)) ([Code](https://github.com/EleutherAI/gpt-neo))
+- [Deep Daze](https://github.com/lucidrains/deep-daze) - Simple command line tool for text to image generation using OpenAI's CLIP and Siren (Implicit neural representation network).
+- [Notebooks using the Hugging Face libraries](https://github.com/huggingface/notebooks)
+- [NLP Cloud](https://nlpcloud.io/) - Serve spaCy pre-trained models, and your own custom models, through a RESTful API.
+- [CharacterBERT: Reconciling ELMo and BERT for Word-Level Open-Vocabulary Representations From Characters (2020)](https://arxiv.org/abs/2010.10392) ([Code](https://github.com/helboukkouri/character-bert))
+- [jiant](https://github.com/nyu-mll/jiant) - Multitask and transfer learning toolkit for NLP. ([Web](https://jiant.info/))
+- [Must-read Papers on Textual Adversarial Attack and Defense](https://github.com/thunlp/TAADpapers)
+- [Reranker](https://github.com/luyug/Reranker) - Build Text Rerankers with Deep Language Models.
+- [rust-bert](https://github.com/guillaume-be/rust-bert) - Rust native ready-to-use NLP pipelines and transformer-based models (BERT, DistilBERT, GPT2,...).
+- [rust-tokenizers](https://github.com/guillaume-be/rust-tokenizers) - Offers high-performance tokenizers for modern language models.
+- [Replicating GPT-2 at Home (2021)](https://bkkaggle.github.io/blog/algpt2/2020/07/17/ALGPT2-part-2.html) ([HN](https://news.ycombinator.com/item?id=25883791))
+- [Shifterator](https://github.com/ryanjgallagher/shifterator) - Interpretable data visualizations for understanding how texts differ at the word level.
+- [CMU Neural Networks for NLP Course (2021)](http://phontron.com/class/nn4nlp2021/schedule.html) ([Videos](https://www.youtube.com/playlist?list=PL8PYTP1V4I8AkaHEJ7lOOrlex-pcxS-XV))
+- [minnn](https://github.com/neubig/minnn-assignment) - Exercise in developing a minimalist neural network toolkit for NLP.
+- [Controllable Sentence Simplification (2019)](https://arxiv.org/abs/1910.02677) ([Code](https://github.com/facebookresearch/access))
+- [Awesome Relation Extraction](https://github.com/roomylee/awesome-relation-extraction)
+- [retext](https://github.com/retextjs/retext) - Natural language processor powered by plugins part of the unified collective. ([Awesome](https://github.com/retextjs/awesome-retext))
+- [CLIP Playground](https://www.clipplayground.co/) - Try OpenAI's CLIP model in your browser.
+- [GPT-3 Demo](https://gpt3demo.com/) - GPT-3 Examples, Demos, Showcase, and NLP Use-cases.
+- [Big Sleep](https://github.com/lucidrains/big-sleep) - Simple command line tool for text to image generation, using OpenAI's CLIP and a BigGAN.
+- [Beyond the Imitation Game Benchmark (BIG-bench)](https://github.com/google/BIG-bench) - Collaborative benchmark intended to probe large language models, and extrapolate their future capabilities.
+- [AutoNLP](https://huggingface.co/autonlp) - Automatic way to train, evaluate and deploy state-of-the-art NLP models for different tasks.
+- [DeText](https://github.com/linkedin/detext) - Deep Neural Text Understanding Framework for Ranking and Classification Tasks.
+- [Paragraph Vectors in PyTorch](https://github.com/inejc/paragraph-vectors)
+- [NeuSpell: A Neural Spelling Correction Toolkit](https://github.com/neuspell/neuspell)
+- [Natural Language YouTube Search](https://github.com/haltakov/natural-language-youtube-search) - Search inside YouTube videos using natural language.
+- [Accelerate](https://github.com/huggingface/accelerate) - Simple way to train and use NLP models with multi-GPU, TPU, mixed-precision.
+- [Classical Language Toolkit (CLTK)](https://github.com/cltk/cltk) - Python library offering natural language processing (NLP) for pre-modern languages. ([Web](http://cltk.org/))
+- [Guide: Finetune GPT2-XL](https://github.com/Xirider/finetune-gpt2xl)
+- [GENRE (Generarive ENtity REtrieval)](https://github.com/facebookresearch/GENRE) - Uses a sequence-to-sequence approach to entity retrieval (e.g., linking), based on fine-tuned BART architecture.
+- [Teachable NLP](https://ainize.ai/teachable-nlp) - GPT-2 Training as a Service.
+- [DensePhrases](https://github.com/princeton-nlp/DensePhrases) - Provides answers to your natural language questions from the entire Wikipedia in real-time.
+- [How to use GPT-3 recursively to solve general problems (2021)](https://twitter.com/sharifshameem/status/1379756878062710789)
+- [Podium](https://github.com/TakeLab/podium) - Framework agnostic Python NLP library for data loading and preprocessing.
+- [Prompts](https://prompts.ai/) - Advanced GPT-3 playground. ([Code](https://github.com/sevazhidkov/prompts-ai))
+- [TextFlint](https://github.com/textflint/textflint) - Unified Multilingual Robustness Evaluation Toolkit for Natural Language Processing.
+- [Awesome Text Summarization](https://github.com/icoxfog417/awesome-text-summarization)
+- [SimCSE: Simple Contrastive Learning of Sentence Embeddings (2021)](https://arxiv.org/abs/2104.08821) ([Code](https://github.com/princeton-nlp/SimCSE))
+- [Berkeley Neural Parser](https://github.com/nikitakit/self-attentive-parser) - High-accuracy NLP parser with models for 11 languages. ([Web](https://parser.kitaev.io/))
+- [nlpaug](https://github.com/makcedward/nlpaug) - Data augmentation for NLP.
+- [Top2Vec](https://github.com/ddangelov/Top2Vec) - Learns jointly embedded topic, document and word vectors.
+- [Focused Attention Improves Document-Grounded Generation (2021)](https://arxiv.org/abs/2104.12714) ([Code](https://github.com/shrimai/Focused-Attention-Improves-Document-Grounded-Generation))
+- [NLPretext](https://github.com/artefactory/NLPretext) - All the goto functions you need to handle NLP use-cases.
+- [spaCy + UDPipe](https://github.com/TakeLab/spacy-udpipe)
+- [adapter-transformers](https://github.com/Adapter-Hub/adapter-transformers) - Friendly fork of HuggingFace's Transformers, adding Adapters to PyTorch language models.
+- [TextAttack](https://github.com/QData/TextAttack) - Generating adversarial examples for NLP models.
+- [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) - Implementation of model parallel GPT-3-like models on GPUs, based on the DeepSpeed library.
+- [Transfer Learning in Natural Language Processing (2019)](https://naacl2019.org/program/tutorials/) ([Code](https://github.com/huggingface/naacl_transfer_learning_tutorial))
+- [Cohere](https://cohere.ai/) - Help computers understand language. ([Tweet](https://twitter.com/AidanNGomez/status/1389574000796479489))
+- [Transformers Interpret](https://github.com/cdpierse/transformers-interpret) - Model explainability tool designed to work exclusively with the transformers package.
+- [Whatlang](https://github.com/greyblake/whatlang-rs) - Natural language detection library for Rust. ([Web](https://whatlang.org/))
+- [Category Theory + NLP Papers](https://github.com/jbrkr/Category_Theory_Natural_Language_Processing_NLP)
+- [UniLM](https://github.com/microsoft/unilm) - Pre-trained models for natural language understanding (NLU) and generation (NLG) tasks. ([HN](https://news.ycombinator.com/item?id=34980449))
+- [AutoNLP](https://github.com/huggingface/autonlp) - Faster and easier training and deployments of SOTA NLP models.
+- [TAble PArSing (TAPAS)](https://github.com/google-research/tapas) - End-to-end neural table-text understanding models.
+- [Replacing Bert Self-Attention with Fourier Transform: 92% Accuracy, 7X Faster (2021)](https://syncedreview.com/2021/05/14/deepmind-podracer-tpu-based-rl-frameworks-deliver-exceptional-performance-at-low-cost-19/)
+- [FNet: Mixing Tokens with Fourier Transforms (2021)](https://arxiv.org/abs/2105.03824) ([Tweet](https://twitter.com/ilyaeck/status/1393132270806966272))
+- [True Few-Shot Learning with Language Models (2021)](https://arxiv.org/abs/2105.11447) ([Tweet](https://twitter.com/EthanJPerez/status/1397015129506541570)) ([Code](https://github.com/ethanjperez/true_few_shot))
+- [End-to-end NLP workflows from prototype to production](https://github.com/explosion/projects) ([Web](https://spacy.io/usage/projects))
+- [Haystack](https://github.com/deepset-ai/haystack) - End-to-end Python framework for building natural language search interfaces to data. ([HN](https://news.ycombinator.com/item?id=29501045))
+- [PLMpapers](https://github.com/thunlp/PLMpapers) - Must-read Papers on pre-trained language models.
+- [English-to-Spanish translation with a sequence-to-sequence Transformer in Keras](https://keras.io/examples/nlp/neural_machine_translation_with_transformer/)
+- [Evaluation Harness for Large Language Models](https://github.com/EleutherAI/lm-evaluation-harness) - Framework for few-shot evaluation of autoregressive language models.
+- [MLP GPT - Jax](https://github.com/lucidrains/mlp-gpt-jax) - GPT, made only of MLPs, in Jax.
+- [Few-Shot Question Answering by Pretraining Span Selection (2021)](https://arxiv.org/abs/2101.00438) ([Code](https://github.com/oriram/splinter))
+- [Neural Extractive Search (2021)](https://arxiv.org/abs/2106.04612) ([Demo](https://spike.neural-sim.apps.allenai.org/datasets))
+- [Hugging Face NLP Course](https://huggingface.co/course/chapter1/1) ([Code](https://github.com/huggingface/course))
+- [SentencePiece](https://github.com/google/sentencepiece) - Unsupervised text tokenizer for Neural Network-based text generation.
+- [LoRA: Low-Rank Adaptation of Large Language Models (2021)](https://arxiv.org/abs/2106.09685) ([Code](https://github.com/microsoft/LoRA)) ([Code](https://github.com/cloneofsimo/lora)) ([HN](https://news.ycombinator.com/item?id=35288015))
+- [PromptPapers](https://github.com/thunlp/PromptPapers) - Must-read papers on prompt-based tuning for pre-trained language models.
+- [Obsei](https://github.com/obsei/obsei) - Automation tool for text analysis need.
+- [Evaluating Large Language Models Trained on Code (2021)](https://arxiv.org/abs/2107.03374) ([Code](https://github.com/openai/human-eval))
+- [Survey of Surveys for Natural Language Processing (SOS4NLP)](https://github.com/thunlp/SOS4NLP)
+- [CLIP guided diffusion](https://colab.research.google.com/drive/1ED6_MYVXTApBHzQObUPaaMolgf9hZOOF)
+- [Data driven literary analysis](https://codewords.recurse.com/issues/seven/data-driven-literary-analysis)
+- [DALL·E Mini](https://github.com/borisdayma/dalle-mini) - Generate images from a text prompt.
+- [Jury](https://github.com/obss/jury) - Evaluation for Natural Language Generation.
+- [Rubrix](https://github.com/recognai/rubrix) - Free and open-source tool to explore, label, and monitor data for NLP projects.
+- [Knowledge Neurons in Pretrained Transformers (2021)](https://arxiv.org/abs/2104.08696) ([Code](https://github.com/EleutherAI/knowledge-neurons)) ([Code](https://github.com/Hunter-DDM/knowledge-neurons))
+- [OpenCLIP](https://github.com/mlfoundations/open_clip) - Open source implementation of OpenAI's CLIP (Contrastive Language-Image Pre-training).
+- [Improving Named Entity Recognition by External Context Retrieving and Cooperative Learning (2021)](https://arxiv.org/abs/2105.03654) ([Code](https://github.com/Alibaba-NLP/CLNER))
+- [Can a Fruit Fly Learn Word Embeddings? (2021)](https://arxiv.org/abs/2101.06887)
+- [Spark NLP](https://github.com/JohnSnowLabs/spark-nlp) - Natural Language Processing library built on top of Apache Spark ML. ([Web](https://nlp.johnsnowlabs.com/))
+- [Spark NLP Workshop](https://github.com/JohnSnowLabs/spark-nlp-workshop) - Showcasing notebooks and codes of how to use Spark NLP in Python and Scala.
+- [ConceptNet Numberbatch](https://github.com/commonsense/conceptnet-numberbatch) - Set of semantic vectors (also known as word embeddings) than can be used directly as a representation of word meanings.
+- [OpenAI Codex](https://openai.com/blog/openai-codex/) - AI system that translates natural language to code. ([HN](https://news.ycombinator.com/item?id=28131745))
+- [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM (2021)](https://arxiv.org/abs/2104.04473)
+- [NL-Augmenter](https://github.com/GEM-benchmark/NL-Augmenter) - Collaborative Repository of Natural Language Transformations.
+- [wevi](https://ronxin.github.io/wevi/) - Word embedding visual inspector. ([Code](https://github.com/ronxin/wevi))
+- [clip-retrieval](https://github.com/rom1504/clip-retrieval) - Easily computing clip embeddings and building a clip retrieval system with them.
+- [NVIDIA NeMo](https://github.com/NVIDIA/NeMo) - Toolkit for conversational AI.
+- [Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation](https://github.com/ofirpress/attention_with_linear_biases)
+- [BEIR](https://github.com/UKPLab/beir) - Heterogeneous benchmark containing diverse IR tasks. It also provides a common and easy framework for evaluation of your NLP-based retrieval models within the benchmark.
+- [UER-py](https://github.com/dbiir/UER-py) - Open Source Pre-training Model Framework in PyTorch & Pre-trained Model Zoo.
+- [ExplainaBoard](https://github.com/neulab/ExplainaBoard) - Explainable Leaderboard for NLP.
+- [Fast-BERT](https://github.com/utterworks/fast-bert) - Super easy library for BERT based NLP models.
+- [Genie Tookit](https://github.com/stanford-oval/genie-toolkit) - Generator of Natural Language Parsers for Compositional Virtual Assistants. ([Paper](https://arxiv.org/abs/1904.09020))
+- [Quantum Stat](https://quantumstat.com/) - Your NLP Model Training Platform.
+- [Mistral](https://github.com/stanford-crfm/mistral) - Framework for transparent and accessible large-scale language model training, built with Hugging Face. ([Docs](https://nlp.stanford.edu/mistral/))
+- [NERDA](https://github.com/ebanalyse/NERDA) - Framework for fine-tuning pretrained transformers for Named-Entity Recognition (NER) tasks.
+- [Data Augmentation Techniques for NLP](https://github.com/styfeng/DataAug4NLP)
+- [Feed forward VQGAN-CLIP model](https://github.com/mehdidc/feed_forward_vqgan_clip)
+- [Yet Another Keyword Extractor (Yake)](https://github.com/LIAAD/yake) - Unsupervised Approach for Automatic Keyword Extraction using Text Features.
+- [Challenges in Detoxifying Language Models (2021)](https://arxiv.org/abs/2109.07445) ([Tweet](https://twitter.com/IasonGabriel/status/1438497173897768960))
+- [TextBrewer](https://github.com/airaria/TextBrewer) - PyTorch-based model distillation toolkit for natural language processing.
+- [GPT-3 Models are Poor Few-Shot Learners in the Biomedical Domain (2021)](https://arxiv.org/abs/2109.02555)
+- [PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models (2021)](https://arxiv.org/abs/2109.05093) ([Code](https://github.com/ElementAI/picard))
+- [VQGAN-CLIP Overview](https://github.com/nerdyrodent/VQGAN-CLIP) - Repo for running VQGAN+CLIP locally.
+- [TLDR: Extreme Summarization of Scientific Documents (2020)](https://arxiv.org/abs/2004.15011) ([Code](https://github.com/allenai/scitldr))
+- [Can Language Models be Biomedical Knowledge Bases? (2021)](https://arxiv.org/abs/2109.07154)
+- [ColBERT: Contextualized Late Interaction over BERT (2020)](https://github.com/stanford-futuredata/ColBERT)
+- [Investigating Pretrained Language Models for Graph-to-Text Generation (2020)](https://arxiv.org/abs/2007.08426) ([Code](https://github.com/UKPLab/plms-graph2text))
+- [Ubiquitous Knowledge Processing Lab](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/index.en.jsp) ([GitHub](https://github.com/UKPLab))
+- [DedupliPy](https://github.com/fritshermans/deduplipy) - Python package for deduplication/entity resolution using active learning.
+- [Flexible Generation of Natural Language Deductions (2021)](https://arxiv.org/abs/2104.08825) ([Code](https://github.com/alephic/ParaPattern))
+- [Machine Translation Reading List](https://github.com/THUNLP-MT/MT-Reading-List)
+- [Compressive Transformers for Long-Range Sequence Modelling (2020)](https://openreview.net/forum?id=SylKikSYDH) ([Code](https://github.com/lucidrains/compressive-transformer-pytorch))
+- [pyxclib](https://github.com/kunaldahiya/pyxclib) - Tools for multi-label classification problems.
+- [ELECTRA](https://github.com/google-research/electra) - Pre-training Text Encoders as Discriminators Rather Than Generators.
+- [OpenPrompt](https://github.com/thunlp/OpenPrompt) - Open-Source Toolkit for Prompt-Learning.
+- [Unsupervised Neural Machine Translation with Generative Language Models Only (2021)](https://arxiv.org/abs/2110.05448) ([Tweet](https://twitter.com/jessemhan/status/1447793397675220997))
+- [Grounding Spatio-Temporal Language with Transformers (2021)](https://arxiv.org/abs/2106.08858) ([Code](https://github.com/flowersteam/spatio-temporal-language-transformers/))
+- [Fast Sentence Embeddings (fse)](https://github.com/oborchers/Fast_Sentence_Embeddings) - Compute Sentence Embeddings Fast.
+- [Symbolic Knowledge Distillation: from General Language Models to Commonsense Models (2021)](https://arxiv.org/abs/2110.07178)
+- [Surge AI](https://www.surgehq.ai/) - Build powerful NLP datasets using our global labeling force and platform. ([Python SDK](https://github.com/surge-ai/surge-python))
+- [Mirror-BERT: Converting Pretrained Language Models to universal text encoders without labels](https://arxiv.org/abs/2104.08027) ([Code](https://github.com/cambridgeltl/mirror-bert))
+- [ogen](https://github.com/ogen-go/ogen) - OpenAPI v3 code generator for go.
+- [PromptSource](https://github.com/bigscience-workshop/promptsource) - Toolkit for collecting and applying prompts to NLP datasets. ([Web](https://huggingface.co/bigscience/T0pp)) ([HN](https://news.ycombinator.com/item?id=28905640))
+- [Creating User Interface Mock-ups from High-Level Text Descriptions with Deep-Learning Models (2021)](https://arxiv.org/abs/2110.07775)
+- [Filtlong](https://github.com/rrwick/Filtlong) - Tool for filtering long reads by quality. It can take a set of long reads and produce a smaller, better subset.
+- [Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System (2021)](https://arxiv.org/abs/2109.14739) ([Code](https://github.com/awslabs/pptod))
+- [xFormers](https://github.com/facebookresearch/xformers) - Hackable and optimized Transformers building blocks, supporting a composable construction.
+- [Language Models As or For Knowledge Bases (2021)](https://arxiv.org/pdf/2110.04888.pdf)
+- [Wikipedia2Vec](https://wikipedia2vec.github.io/wikipedia2vec/) - Tool for learning vector representations of words and entities from Wikipedia. ([Code](https://github.com/wikipedia2vec/wikipedia2vec))
+- [Reflections on Foundation Models (2021)](https://crfm.stanford.edu/2021/10/18/reflections.html) ([Tweet](https://twitter.com/erikbryn/status/1451720985132945415))
+- [textacy](https://github.com/chartbeat-labs/textacy) - NLP, before and after spaCy.
+- [Natural Language Processing Specialization Course](https://www.coursera.org/specializations/natural-language-processing) ([Tweet](https://twitter.com/LysandreJik/status/1453436693391060997))
+- [Hugging Face on Amazon SageMaker Workshop](https://github.com/philschmid/huggingface-sagemaker-workshop-series)
+- [CS224N: Natural Language Processing with Deep Learning | Winter 2021 - YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ)
+- [GPT-3 creates geofoam, but out of text (2021)](https://twitter.com/jjvincent/status/1455194365169700864)
+- [Towards Efficient NLP: A Standard Evaluation and A Strong Baseline (2021)](https://arxiv.org/abs/2110.07038) ([Code](https://github.com/fastnlp/ElasticBERT))
+- [Hierarchical Transformers Are More Efficient Language Models (2021)](https://arxiv.org/abs/2110.13711) ([HN](https://news.ycombinator.com/item?id=29112983)) ([Code](https://github.com/lucidrains/hourglass-transformer-pytorch))
+- [Phrase-BERT: Improved Phrase Embeddings from BERT with an Application to Corpus Exploration (2021)](https://arxiv.org/abs/2109.06304) ([Code](https://github.com/sf-wa-326/phrase-bert-topic-model))
+- [GPT-3 is no longer the only game in town (2021)](https://lastweekin.ai/p/gpt-3-is-no-longer-the-only-game) ([HN](https://news.ycombinator.com/item?id=29139884))
+- [PatrickStar](https://github.com/Tencent/PatrickStar) - Parallel Training of Large Language Models via a Chunk-based Memory Management.
+- [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention) (2021)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
+- [Text2Art](https://github.com/mfrashad/text2art) - AI Powered Text-to-Art Generator.
+- [Emergent Communication of Generalizations (2021)](https://arxiv.org/abs/2106.02668) ([Code](https://github.com/jayelm/emergent-generalization))
+- [Awesome Pretrained Models for Information Retrieval](https://github.com/Albert-Ma/awesome-pretrained-models-for-information-retrieval)
+- [SummerTime](https://github.com/Yale-LILY/SummerTime) - Text Summarization Toolkit for Non-experts.
+- [NLP From Scratch Without Large-Scale Pretraining: A Simple and Efficient Framework (2021)](https://arxiv.org/abs/2111.04130) ([Code](https://github.com/yaoxingcheng/TLM))
+- [Differentially Private Fine-tuning of Language Models (2021)](https://arxiv.org/abs/2110.06500) ([Tweet](https://twitter.com/thegautamkamath/status/1450113340617940998))
+- [TaCL: Improving BERT Pre-training with Token-aware Contrastive Learning (2021)](https://arxiv.org/abs/2111.04198) ([Code](https://github.com/yxuansu/TaCL))
+- [Aphantasia](https://github.com/eps696/aphantasia) - CLIP + FFT/DWT/RGB = text to image/video.
+- [OpenAI’s API Now Available with No Waitlist (2021)](https://openai.com/blog/api-no-waitlist/) ([HN](https://news.ycombinator.com/item?id=29265640))
+- [Recent trends of Entity Linking, Disambiguation, and Representation](https://github.com/izuna385/Entity-Linking-Recent-Trends)
+- [Intro to Large Language Models with Cohere](https://docs.cohere.ai/intro-to-llms/)
+- [spacy-experimental](https://github.com/explosion/spacy-experimental) - Cutting-edge experimental spaCy components and features.
+- [AdaptNLP](https://github.com/Novetta/adaptnlp) - High level framework and library for running, training, and deploying state-of-the-art Natural Language Processing (NLP) models for end to end tasks. ([Docs](https://novetta.github.io/adaptnlp/))
+- [Reading list for Awesome Sentiment Analysis papers](https://github.com/declare-lab/awesome-sentiment-analysis)
+- [Aspect-Based-Sentiment-Analysis: Transformer & Explainable ML (TensorFlow)](https://github.com/ScalaConsultants/Aspect-Based-Sentiment-Analysis)
+- [Deploy optimized transformer based models in production](https://github.com/ELS-RD/transformer-deploy)
+- [PyConverse](https://github.com/AnjanaRita/converse) - Conversational text Analysis using various NLP techniques.
+- [KILT](https://github.com/facebookresearch/KILT) - Library for Knowledge Intensive Language Tasks.
+- [RoFormer: Enhanced Transformer with Rotary Position Embedding (2021)](https://arxiv.org/abs/2104.09864) ([Code](https://github.com/lucidrains/rotary-embedding-torch))
+- [N-grammer: Augmenting Transformers with latent n-grams (2021)](https://openreview.net/forum?id=GxjCYmQAody) ([Code](https://github.com/lucidrains/n-grammer-pytorch))
+- [textsearch](https://github.com/kootenpv/textsearch) - Find strings/words in text; convenience and C speed.
+- [Mastering spaCy Book (2021)](https://www.packtpub.com/product/mastering-spacy/9781800563353) ([Code](https://github.com/PacktPublishing/Mastering-spaCy))
+- [sense2vec](https://github.com/explosion/sense2vec) - Contextually-keyed word vectors.
+- [Pureformer: Do We Even Need Attention? (2021)](https://arxiv.org/abs/2111.15588)
+- [Knover](https://github.com/PaddlePaddle/Knover) - Toolkit for knowledge grounded dialogue generation based on PaddlePaddle.
+- [Language Modelling at Scale: Gopher, Ethical considerations, and Retrieval | DeepMind (2021)](https://deepmind.com/blog/article/language-modelling-at-scale) ([HN](https://news.ycombinator.com/item?id=29486607))
+- [CMU Advanced NLP 2021 - YouTube](https://www.youtube.com/playlist?list=PL8PYTP1V4I8AYSXn_GKVgwXVluCT9chJ6)
+- [CMU Advanced NLP 2022 - YouTube](https://www.youtube.com/playlist?list=PL8PYTP1V4I8D0UkqW2fEhgLrnlDW9QK7z) ([Tweet](https://twitter.com/Jeande_d/status/1590784789350522880))
+- [whatlies](https://github.com/RasaHQ/whatlies) - Toolkit to help understand "what lies" in word embeddings. Also benchmarking.
+- [CLIP-Guided-Diffusion](https://github.com/nerdyrodent/CLIP-Guided-Diffusion)
+- [Factual Probing Is [MASK]: Learning vs. Learning to Recall (2021)](https://arxiv.org/abs/2104.05240) ([Code](https://github.com/princeton-nlp/OptiPrompt))
+- [Improving Compositional Generalization with Latent Structure and Data Augmentation (2021)](https://arxiv.org/abs/2112.07610)
+- [PORORO](https://github.com/kakaobrain/pororo) - Platform Of neuRal mOdels for natuRal language prOcessing.
+- [PRIMER: Pyramid-based Masked Sentence Pre-training for Multi-document Summarization (2021)](https://arxiv.org/abs/2110.08499) ([Code](https://github.com/allenai/PRIMER))
+- [To Understand Language Is to Understand Generalization (2021)](https://evjang.com/2021/12/17/lang-generalization.html) ([HN](https://news.ycombinator.com/item?id=29600510))
+- [GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding (2020)](https://arxiv.org/abs/2006.16668) ([Code](https://github.com/lucidrains/mixture-of-experts))
+- [Multimodal Transformers | Transformers with Tabular Data](https://github.com/georgian-io/Multimodal-Toolkit) ([Article](https://medium.com/georgian-impact-blog/how-to-incorporate-tabular-data-with-huggingface-transformers-b70ac45fcfb4))
+- [Learn to Resolve Conversational Dependency: A Consistency Training Framework for Conversational Question Answering (2021)](https://arxiv.org/abs/2106.11575) ([Code](https://github.com/dmis-lab/excord))
+- [Improving Language Models by Retrieving from Trillions of Tokens (2021)](https://deepmind.com/research/publications/2021/improving-language-models-by-retrieving-from-trillions-of-tokens)
+- [Open Information Extraction (OIE) Resources](https://github.com/gkiril/oie-resources)
+- [Deeper Text Understanding for IR with Contextual Neural Language Modeling (2019)](https://arxiv.org/abs/1905.09217v1) ([Code](https://github.com/AdeDZY/SIGIR19-BERT-IR))
+- [x-clip](https://github.com/lucidrains/x-clip) - Concise but complete implementation of CLIP with various experimental improvements from recent papers.
+- [Calamity](https://github.com/thesephist/calamity) - Self-hosted GPT playground.
+- [VoxPopuli: A Large-Scale Multilingual Speech Corpus for Representation Learning, Semi-Supervised Learning and Interpretation (2021)](https://aclanthology.org/2021.acl-long.80/) ([Code](https://github.com/facebookresearch/voxpopuli))
+- [Transactions of the Association for Computational Linguistics (2021)](https://aclanthology.org/events/tacl-2021/) ([Code](https://github.com/HelloRusk/entity-related-papers))
+- [DocEE](https://github.com/Spico197/DocEE) - Toolkit for document-level event extraction, containing some SOTA model implementations.
+- [Autoregressive Entity Retrieval (2020)](https://arxiv.org/abs/2010.00904)
+- [Generate, Delete and Rewrite: A Three-Stage Framework for Improving Persona Consistency of Dialogue Generation (2020)](https://arxiv.org/abs/2004.07672)
+- [A Span-Based Model for Joint Overlapped and Discontinuous Named Entity Recognition (2021)](https://arxiv.org/abs/2106.14373)
+- [Deduplicating Training Data Makes Language Models Better (2021)](https://arxiv.org/abs/2107.06499) ([Code](https://github.com/google-research/deduplicate-text-datasets))
+- [Transformers without Tears: Improving the Normalization of Self-Attention (2019)](https://arxiv.org/abs/1910.05895) ([Code](https://github.com/tnq177/transformers_without_tears))
+- [CTCDecoder](https://github.com/githubharald/CTCDecoder) - Connectionist Temporal Classification (CTC) decoding algorithms: best path, beam search, lexicon search, prefix search, and token passing. Implemented in Python.
+- [Custom Named Entity Recognition with Spacy3](https://github.com/amrrs/custom-ner-with-spacy3)
+- [BARTScore: Evaluating Generated Text as Text Generation (2021)](https://arxiv.org/abs/2106.11520) ([Code](https://github.com/neulab/BARTScore))
+- [minDALL-E on Conceptual Captions](https://github.com/kakaobrain/minDALL-E) - PyTorch implementation of a 1.3B text-to-image generation model trained on 14 million image-text pairs.
+- [Improving Factual Completeness and Consistency of Image-to-Text Radiology Report Generation (2021)](https://arxiv.org/abs/2010.10042) ([Code](https://github.com/ysmiura/ifcc))
+- [Multitask Prompted Training Enables Zero-Shot Task Generalization (2021)](https://arxiv.org/abs/2110.08207) ([Code](https://github.com/bigscience-workshop/t-zero))
+- [spaCy models](https://github.com/explosion/spacy-models) - Models for the spaCy Natural Language Processing (NLP) library.
+- [Awesome Huggingface](https://github.com/huggingface/awesome-huggingface)
+- [SyntaxDot](https://github.com/tensordot/syntaxdot) - Neural syntax annotator, supporting sequence labeling, lemmatization, and dependency parsing.
+- [STriP Net](https://github.com/stephenleo/stripnet) - Semantic Similarity of Scientific Papers (S3P) Network.
+- [Small-Text](https://github.com/webis-de/small-text) - Active Learning for Text Classification in Python.
+- [Plug and Play Language Models: A Simple Approach to Controlled Text Generation (2020)](https://arxiv.org/abs/1912.02164) ([Code](https://github.com/uber-research/PPLM))
+- [RuDOLPH](https://github.com/sberbank-ai/ru-dolph) - One Hyper-Modal Transformer can be creative as DALL-E and smart as CLIP.
+- [PLM papers](https://github.com/wxl1999/PLMPapers) - Paper list of pre-trained language models (PLMs).
+- [Ongoing research training transformer language models at scale, including: BERT & GPT-2](https://github.com/bigscience-workshop/Megatron-DeepSpeed)
+- [Improving language models by retrieving from trillions of tokens (2022)](https://arxiv.org/abs/2112.04426) ([Code](https://github.com/lucidrains/RETRO-pytorch))
+- [EntitySeg Toolbox](https://github.com/dvlab-research/Entity) - Towards precise and open-world image segmentation.
+- [Aligning Language Models to Follow Instructions (2022)](https://openai.com/blog/instruction-following/) ([Tweet](https://twitter.com/janleike/status/1486731620656640010)) ([Code](https://github.com/openai/following-instructions-human-feedback))
+- [Simple Questions Generate Named Entity Recognition Datasets (2021)](https://arxiv.org/abs/2112.08808) ([Code](https://github.com/dmis-lab/GeNER))
+- [KRED: Knowledge-Aware Document Representation for News Recommendations (2019)](https://arxiv.org/abs/1910.11494) ([Code](https://github.com/danyang-liu/KRED))
+- [Stanford Open Information Extraction](https://nlp.stanford.edu/software/openie.html)
+- [Python3 wrapper for Stanford OpenIE](https://github.com/philipperemy/stanford-openie-python)
+- [I-BERT: Integer-only BERT Quantization (2021)](https://arxiv.org/abs/2101.01321) ([Code](https://github.com/kssteven418/I-BERT))
+- [spaCy-wrap](https://github.com/KennethEnevoldsen/spacy-wrap) - Wrapping fine-tuned transformers in spaCy pipelines.
+- [DeepMatcher](https://github.com/anhaidgroup/deepmatcher) - Python package for performing Entity and Text Matching using Deep Learning.
+- [Machine Reading Comprehension: The Role of Contextualized Language Models and Beyond (2020)](https://arxiv.org/abs/2005.06249) ([Code](https://github.com/cooelf/AwesomeMRC))
+- [medspacy](https://github.com/medspacy/medspacy) - Library for clinical NLP with spaCy.
+- [Natural Language Processing with Transformers Book](https://www.oreilly.com/library/view/natural-language-processing/9781098103231/) ([Code](https://github.com/nlp-with-transformers/notebooks))
+- [blurr](https://github.com/ohmeow/blurr) - Library that integrates huggingface transformers with the world of fastai, giving fastai devs everything they need to train, evaluate, and deploy transformer specific models.
+- [HanLP](https://github.com/hankcs/HanLP) - Multilingual NLP library for researchers and companies, built on PyTorch and TensorFlow 2.x.
+- [Awesome Text-to-Image](https://github.com/Yutong-Zhou-cv/Awesome-Text-to-Image)
+- [NLP News Newsletter](https://newsletter.ruder.io/)
+- [Named Entity Recognition as Dependency Parsing (2020)](https://aclanthology.org/2020.acl-main.577/) ([Code](https://github.com/juntaoy/biaffine-ner))
+- [Multilingual-CLIP](https://github.com/FreddeFrallan/Multilingual-CLIP) - OpenAI CLIP text encoders for any language.
+- [FasterTransformer](https://github.com/NVIDIA/FasterTransformer) - Transformer related optimization, including BERT, GPT.
+- [Papers about Causal Inference and Language](https://github.com/causaltext/causal-text-papers)
+- [EET (Easy and Efficient Transformer)](https://github.com/NetEase-FuXi/EET) - Efficient PyTorch inference plugin focus on Transformer-based models with large model sizes and long sequences.
+- [Measuring Massive Multitask Language Understanding (2021)](https://arxiv.org/abs/2009.03300) ([Code](https://github.com/hendrycks/test))
+- [A Theoretical Analysis of the Repetition Problem in Text Generation (2021)](https://arxiv.org/abs/2012.14660) ([Code](https://github.com/fuzihaofzh/repetition-problem-nlg))
+- [TransformerSum](https://github.com/HHousen/TransformerSum) - Models to perform neural summarization (extractive and abstractive) using machine learning transformers and a tool to convert abstractive summarization datasets to the extractive task.
+- [Natural Language Processing with Transformers Book](https://transformersbook.com/)
+- [Transformer Memory as a Differentiable Search Index (2022)](https://arxiv.org/abs/2202.06991) ([HN](https://news.ycombinator.com/item?id=30356264)) ([Tweet](https://twitter.com/arankomatsuzaki/status/1493767303661383682))
+- [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators (2020)](https://arxiv.org/abs/2003.10555) ([Code](https://github.com/lucidrains/electra-pytorch))
+- [spaCy + Stanza](https://github.com/explosion/spacy-stanza) - Use the latest Stanza (StanfordNLP) research models directly in spaCy.
+- [Awesome Document Understanding](https://github.com/tstanislawek/awesome-document-understanding)
+- [Sequential Transformer](https://github.com/facebookresearch/adaptive-span) - Code for training Transformers on sequential tasks such as language modeling.
+- [bert-as-service](https://github.com/hanxiao/bert-as-service) - Mapping a variable-length sentence to a fixed-length vector using BERT model.
+- [A Contrastive Framework for Neural Text Generation (2022)](https://arxiv.org/abs/2202.06417) ([Code](https://github.com/yxuansu/SimCTG))
+- [Parallax](https://github.com/uber-research/parallax) - Tool for interactive embeddings visualization.
+- [Serve PyTorch model as an API using AWS + serverless framework](https://github.com/anandsm7/BERT_as_serverless_service)
+- [Neural reality of argument structure constructions (2022)](https://arxiv.org/abs/2202.12246)
+- [DeepNet: Scaling Transformers to 1,000 Layers (2022)](https://arxiv.org/abs/2203.00555) ([HN](https://news.ycombinator.com/item?id=30533914))
+- [Large Models of Source Code](https://github.com/VHellendoorn/Code-LMs) - Guide to using pre-trained large language models of source code.
+- [HyperMixer: An MLP-based Green AI Alternative to Transformers (2022)](https://arxiv.org/abs/2203.03691)
+- [NLP Course Material & QA](https://github.com/thunlp/NLP-THU)
+- [Survey of Surveys (NLP & ML)](https://github.com/NiuTrans/ABigSurvey) - Collection of 700+ survey papers on Natural Language Processing (NLP) and Machine Learning (ML).
+- [Awesome CLIP](https://github.com/yzhuoning/Awesome-CLIP) - Awesome list for research on CLIP (Contrastive Language-Image Pre-Training).
+- [MAGMA](https://github.com/Aleph-Alpha/magma) - GPT-style multimodal model that can understand any combination of images and language.
+- [Timexy](https://github.com/paulrinckens/timexy) - spaCy custom component that extracts and normalizes temporal expressions.
+- [New Capabilities for GPT-3: Edit and Insert (2022)](https://openai.com/blog/gpt-3-edit-insert/) ([HN](https://news.ycombinator.com/item?id=30689902))
+- [Which hardware to train a 176B parameters model? (2022)](https://bigscience.huggingface.co/blog/which-hardware-to-train-a-176b-parameters-model) ([Tweet](https://twitter.com/BigscienceW/status/1503775017653391369))
+- [Fundamentals of NLP](https://github.com/dair-ai/nlp_fundamentals) - Series of hands-on notebooks for learning the fundamentals of NLP.
+- [BertViz](https://github.com/jessevig/bertviz) - Visualize Attention in Transformer Models (BERT, GPT2, BART, etc.).
+- [Attention Is All You Need (2017)](https://arxiv.org/abs/1706.03762) ([Code](https://github.com/bkoch4142/attention-is-all-you-need-paper)) ([PyTorch Code](https://github.com/hyunwoongko/transformer))
+- [Word2Vec Explained. Explaining the Intuition of Word2Vec (2021)](https://towardsdatascience.com/word2vec-explained-49c52b4ccb71) ([HN](https://news.ycombinator.com/item?id=30820299))
+- [imgbeddings](https://github.com/minimaxir/imgbeddings) - Python package to generate image embeddings with CLIP without PyTorch/TensorFlow.
+- [Linking Emergent and Natural Languages via Corpus Transfer (2022)](https://github.com/ysymyth/ec-nl)
+- [Transformer Inference Arithmetic (2022)](https://carolchen.me/blog/transformer-inference-arithmetic/)
+- [Training Compute-Optimal Large Language Models (2022)](https://arxiv.org/abs/2203.15556) ([Tweet](https://twitter.com/karpathy/status/1509227367302148098))
+- [KeyphraseVectorizers](https://github.com/TimSchopf/KeyphraseVectorizers) - Set of vectorizers that extract keyphrases with part-of-speech patterns from a collection of text documents and convert them into a document-keyphrase matrix.
+- [Gramformer](https://github.com/PrithivirajDamodaran/Gramformer) - Framework for detecting, highlighting and correcting grammatical errors on natural language text.
+- [Classy Classification](https://github.com/Pandora-Intelligence/classy-classification) - Easy and intuitive approach to few-shot classification using sentence-transformers or spaCy models, or zero-shot classificaiton with Huggingface.
+- [Sphere](https://github.com/facebookresearch/Sphere) - Web-scale retrieval for knowledge-intensive NLP.
+- [muTransformers](https://github.com/microsoft/mutransformers) - Common Huggingface transformers in maximal update parametrization (µP).
+- [Event Extraction papers](https://github.com/BaptisteBlouin/EventExtractionPapers) - List of NLP resources focused on event extraction task.
+- [Summarization Papers](https://github.com/xcfcode/Summarization-Papers)
+- [GLID-3](https://github.com/Jack000/glid-3) - Combination of OpenAI GLIDE, Latent Diffusion and CLIP.
+- [Optimum Transformers](https://github.com/AlekseyKorshuk/optimum-transformers) - Accelerated NLP pipelines for fast inference on CPU and GPU. Built with Transformers, Optimum and ONNX Runtime.
+- [Pathways Language Model (PaLM): Scaling to 540B parameters (2022)](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html) ([HN](https://news.ycombinator.com/item?id=30908941)) ([Code](https://github.com/lucidrains/PaLM-pytorch)) ([Code](https://github.com/hpcaitech/PaLM-colossalai))
+- [A Divide-and-Conquer Approach to the Summarization of Long Documents (2020)](https://arxiv.org/abs/2004.06190) ([Code](https://github.com/AlexGidiotis/DANCER-summ))
+- [Resources for learning about Text Mining and Natural Language Processing](https://github.com/stepthom/text_mining_resources)
+- [LinkBERT: Pretraining Language Models with Document Links (2022)](https://arxiv.org/abs/2203.15827) ([Code](https://github.com/michiyasunaga/LinkBERT))
+- [Dall-E 2 (2022)](https://openai.com/dall-e-2/) ([HN](https://news.ycombinator.com/item?id=30932095)) ([Tweet](https://twitter.com/sama/status/1511724264629678084)) ([Tweet](https://twitter.com/OpenAI/status/1511714511673126914)) ([Code](https://github.com/rish-16/dalle2-pytorch)) ([Code](https://github.com/lucidrains/DALLE2-pytorch)) ([Code](https://github.com/openai/dalle-2-preview)) ([Tweet](https://twitter.com/BecomingCritter/status/1511808277490896903)) ([Tweet](https://twitter.com/nickcammarata/status/1511861061988892675)) ([HN](https://news.ycombinator.com/item?id=30961385)) ([Video Summary](https://www.youtube.com/watch?v=X3_LD3R_Ygs)) ([HN](https://news.ycombinator.com/item?id=31228710)) ([Tweet](https://twitter.com/irinarish/status/1520768296290861059))
+- [Variations of the Similarity Function of TextRank for Automated Summarization (2016)](https://arxiv.org/abs/1602.03606) ([Code](https://github.com/summanlp/textrank))
+- [Logic-Guided Data Augmentation and Regularization for Consistent Question Answering (2020)](https://arxiv.org/abs/2004.10157) ([Code](https://github.com/AkariAsai/logic_guided_qa))
+- [Awesome Knowledge Distillation](https://github.com/dkozlov/awesome-knowledge-distillation)
+- [You Only One Sequence (2021)](https://github.com/hustvl/YOLOS)
+- [Towards Understanding and Mitigating Social Biases in Language Models (2021)](https://arxiv.org/abs/2106.13219) ([Code](https://github.com/pliang279/LM_bias))
+- [DialogLM: Pre-trained Model for Long Dialogue Understanding and Summarization (2021)](https://arxiv.org/abs/2109.02492) ([Code](https://github.com/microsoft/DialogLM))
+- [Humanloop Programmatic](https://programmatic.humanloop.com/) - Create large high-quality datasets for NLP in minutes. No hand labelling required. ([HN](https://news.ycombinator.com/item?id=30955699))
+- [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language (2022)](https://socraticmodels.github.io/)
+- [Second order effects of the rise of large language models (2022)](https://twitter.com/russelljkaplan/status/1513128005828165634)
+- [Simple Annotated implementation of GPT-NeoX in PyTorch](https://github.com/labmlai/neox)
+- [BLEURT: Learning Robust Metrics for Text Generation (2020)](https://arxiv.org/abs/2004.04696) ([Code](https://github.com/google-research/bleurt))
+- [Bootleg](https://hazyresearch.stanford.edu/bootleg/) - Self-supervised named entity disambiguation (NED) system that links mentions in text to entities in a knowledge base. ([Code](https://github.com/HazyResearch/bootleg))
+- [DALL-E in Mesh-TensorFlow](https://github.com/EleutherAI/DALLE-mtf)
+- [A few things to try with DALL·E (2022)](https://www.bramadams.dev/projects/dalle-tricks) ([HN](https://news.ycombinator.com/item?id=31009129))
+- [Google's 540B PaLM Language Model & OpenAI's DALL-E 2 Text-to-Image Revolution (2022)](https://www.youtube.com/watch?v=RJwPN4qNi_Y)
+- [Turn the Combination Lock: Learnable Textual Backdoor Attacks via Word Substitution (2021)](https://arxiv.org/abs/2106.06361) ([Code](https://github.com/thunlp/BkdAtk-LWS))
+- [Simple and Effective Multi-Paragraph Reading Comprehension (2017)](https://arxiv.org/abs/1710.10723) ([Code](https://github.com/allenai/document-qa))
+- [Researchers Glimpse How AI Gets So Good at Language Processing (2022)](https://www.quantamagazine.org/researchers-glimpse-how-ai-gets-so-good-at-language-processing-20220414/)
+- [Cornell Conversational Analysis Toolkit (ConvoKit)](https://github.com/CornellNLP/Cornell-Conversational-Analysis-Toolkit) - Toolkit for extracting conversational features and analyzing social phenomena in conversations.
+- [UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models (2022)](https://arxiv.org/abs/2201.05966) ([Code](https://github.com/HKUNLP/UnifiedSKG))
+- [exBERT](https://github.com/bhoov/exbert) - Visual Analysis Tool to Explore Learned Representations in Transformers Models.
+- [How DALL-E 2 Works (2022)](https://www.assemblyai.com/blog/how-dall-e-2-actually-works/) ([HN](https://news.ycombinator.com/item?id=31084312))
+- [Getting started with NLP for absolute beginners (2022)](https://www.kaggle.com/code/jhoward/getting-started-with-nlp-for-absolute-beginners/)
+- [EasyNLP](https://github.com/alibaba/EasyNLP) - Comprehensive and Easy-to-use NLP Toolkit.
+- [Reframing Human-AI Collaboration for Generating Free-Text Explanations (2021)](https://arxiv.org/abs/2112.08674) ([Tweet](https://twitter.com/mark_riedl/status/1516815203517751303))
+- [Detoxify](https://github.com/unitaryai/detoxify) - Comment Classification with PyTorch Lightning and Transformers.
+- [DLATK](https://github.com/dlatk/dlatk) - End to end human text analysis package, specifically suited for social media and social scientific applications.
+- [Language modeling via stochastic processes (2022)](https://arxiv.org/abs/2203.11370) ([Code](https://github.com/rosewang2008/language_modeling_via_stochastic_processes))
+- [An Enhanced Span-based Decomposition Method for Few-Shot Sequence Labeling (2022)](https://arxiv.org/abs/2109.13023) ([Code](https://github.com/Wangpeiyi9979/ESD))
+- [SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization (2021)](https://arxiv.org/abs/1911.03437) ([Code](https://github.com/archinetai/smart-pytorch))
+- [DataLab](https://github.com/ExpressAI/DataLab) - Unified platform that allows for NLP researchers to perform a number of data-related tasks in an efficient and easy-to-use manner.
+- [Limitations of DALL-E](https://twitter.com/benjamin_hilton/status/1520032772072607747) ([HN](https://news.ycombinator.com/item?id=31218915))
+- [AutoPrompt](https://github.com/ucinlp/autoprompt) - Automatic Prompt Construction for Masked Language Models.
+- [DALL·E Flow](https://github.com/jina-ai/dalle-flow) - Human-in-the-Loop workflow for creating HD images from text.
+- [Recon NER](https://github.com/kabirkhan/recon) - Debug and correct annotated Named Entity Recognition (NER) data for inconsitencies and get insights on improving the quality of your data.
+- [CausalNLP](https://github.com/amaiya/causalnlp) - Practical toolkit for causal inference with text as treatment, outcome, or "controlled-for" variable.
+- [OPT: Open Pre-trained Transformer Language Models (2022)](https://arxiv.org/abs/2205.01068) - Meta's 175B parameter language model. ([Reddit](https://www.reddit.com/r/MachineLearning/comments/uh5e2f/r_meta_is_releasing_a_175b_parameter_language/)) ([Tweet](https://twitter.com/WriteArthur/status/1521987954994192384))
+- [Bert Extractive Summarizer](https://github.com/dmmiller612/bert-extractive-summarizer) - Easy to use extractive text summarization with BERT.
+- [Dialogue Response Ranking Training with Large-Scale Human Feedback Data (2020)](https://arxiv.org/abs/2009.06978) ([Code](https://github.com/golsun/DialogRPT))
+- [LM-Debugger](https://github.com/mega002/lm-debugger) - Interactive tool for inspection and intervention in transformer-based language models.
+- [100 Pages of raw notes released with the language model OPT-175](https://twitter.com/schrep/status/1521850083792154624) ([HN](https://news.ycombinator.com/item?id=31260665))
+- [Unsupervised Cross-Task Generalization via Retrieval Augmentation (2022)](https://arxiv.org/abs/2204.07937) ([Code](https://github.com/INK-USC/ReCross))
+- [On Continual Model Refinement in Out-of-Distribution Data Streams (2022)](https://github.com/facebookresearch/SemanticDebugger)
+- [GLID-3-XL](https://github.com/Jack000/glid-3-xl) - 1.4B latent diffusion model from CompVis back-ported to the guided diffusion codebase.
+- [Neutralizing Subjectivity Bias with HuggingFace Transformers (2022)](https://blog.fastforwardlabs.com/2022/05/05/neutralizing-subjectivity-bias-with-huggingface-transformers.html)
+- [Entropy-based Attention Regularization Frees Unintended Bias Mitigation from Lists (2022)](https://arxiv.org/abs/2203.09192) ([Code](https://github.com/g8a9/ear)) ([Tweet](https://twitter.com/peppeatta/status/1522230686832336897))
+- [gse](https://github.com/go-ego/gse) - Go efficient multilingual NLP and text segmentation; support english, chinese, japanese and other.
+- [BERTopic: The Future of Topic Modeling (2022)](https://www.pinecone.io/learn/bertopic/) ([HN](https://news.ycombinator.com/item?id=31341250))
+- [Unifying Language Learning Paradigms (2022)](https://arxiv.org/abs/2205.05131) ([Code](https://github.com/google-research/google-research/tree/master/ul2))
+- [GLM: General Language Model Pretraining with Autoregressive Blank Infilling (2021)](https://arxiv.org/abs/2103.10360) ([Code](https://github.com/THUDM/GLM))
+- [GPT-3 limitations (2022)](https://twitter.com/npew/status/1525900849888866307)
+- [Natural Language Processing Demystified](https://www.nlpdemystified.org/)
+- [Concise Concepts](https://github.com/Pandora-Intelligence/concise-concepts) - Contains an easy and intuitive approach to few-shot NER using most similar expansion over spaCy embeddings. Now with entity scoring.
+- [Dynamic language understanding: adaptation to new knowledge in parametric and semi-parametric models (2022)](https://www.deepmind.com/publications/dynamic-language-understanding-adaptation-to-new-knowledge-in-parametric-and-semi-parametric-models) ([Tweet](https://twitter.com/DeepMind/status/1529846251558256642))
+- [nlprule](https://github.com/bminixhofer/nlprule) - Fast, low-resource Natural Language Processing and Text Correction library written in Rust.
+- [Quark: Controllable Text Generation with Reinforced Unlearning (2022)](https://arxiv.org/abs/2205.13636) ([Tweet](https://twitter.com/rajammanabrolu/status/1531308092629012485))
+- [DALL-E 2 has a secret language](https://twitter.com/giannis_daras/status/1531693093040230402) ([HN](https://news.ycombinator.com/item?id=31573282)) ([Tweet](https://twitter.com/benjamin_hilton/status/1531780892972175361)) ([HN](https://news.ycombinator.com/item?id=31587316))
+- [AdaTest](https://github.com/microsoft/adatest) - Find and fix bugs in natural language machine learning models using adaptive testing.
+- [Diffusion-LM Improves Controllable Text Generation (2022)](https://arxiv.org/abs/2205.14217) ([Code](https://github.com/XiangLi1999/Diffusion-LM)) ([Tweet](https://twitter.com/percyliang/status/1533977616666923008))
+- [RnG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering (2021)](https://arxiv.org/abs/2109.08678) ([Code](https://github.com/salesforce/rng-kbqa))
+- [Neural Prompt Search](https://github.com/Davidzhangyuanhan/NOAH) - Searching prompt modules for parameter-efficient transfer learning.
+- [makemore](https://github.com/karpathy/makemore) - Most accessible way of tinkering with a GPT - one hackable script.
+- [DALL-E Playground](https://github.com/saharmor/dalle-playground) - Playground for DALL-E enthusiasts to tinker with the open-source version of OpenAI's DALL-E, based on DALL-E Mini.
+- [Craiyon](https://www.craiyon.com/) - AI model drawing images from any prompt. Formerly DALL-E mini.
+- [Contrastive Learning for Natural Language Processing](https://github.com/ryanzhumich/Contrastive-Learning-NLP-Papers)
+- [MSCTD: A Multimodal Sentiment Chat Translation Dataset](https://aclanthology.org/2022.acl-long.186/) ([Code](https://github.com/XL2248/MSCTD))
+- [Auto-Lambda: Disentangling Dynamic Task Relationships (2022)](https://arxiv.org/abs/2202.03091) ([Code](https://github.com/lorenmt/auto-lambda))
+- [Concepts in Neural Networks for NLP](https://github.com/neulab/nn4nlp-concepts)
+- [DinkyTrain](https://github.com/princeton-nlp/DinkyTrain) - Princeton NLP's pre-training library based on fairseq with DeepSpeed kernel integration.
+- [Pretrained Language Models](https://github.com/huawei-noah/Pretrained-Language-Model)
+- [BERT-of-Theseus: Compressing BERT by Progressive Module Replacing (2020)](https://arxiv.org/abs/2002.02925) ([Code](https://github.com/JetRunner/BERT-of-Theseus))
+- [YaLM 100B](https://github.com/yandex/YaLM-100B) - GPT-like neural network for generating and processing text by Yandex. ([HN](https://news.ycombinator.com/item?id=31846593)) ([Article](https://medium.com/yandex/yandex-publishes-yalm-100b-its-the-largest-gpt-like-neural-network-in-open-source-d1df53d0e9a6))
+- [Pathways Autoregressive Text-to-Image model (Parti)](https://github.com/google-research/parti) - Autoregressive text-to-image generation model that achieves high-fidelity photorealistic image generation and supports content-rich synthesis involving complex compositions and world knowledge. ([Web](https://parti.research.google/)) ([HN](https://news.ycombinator.com/item?id=31839193))
+- [How Imagen Actually Works (2022)](https://www.assemblyai.com/blog/how-imagen-actually-works/)
+- [First impressions of DALL-E, generating images from text (2022)](https://simonwillison.net/2022/Jun/23/dall-e/) ([Lobsters](https://lobste.rs/s/kvnlpf/first_impressions_dall_e_generating))
+- [Meta is inviting researchers to pick apart the flaws in its version of GPT-3 (2022)](https://www.technologyreview.com/2022/05/03/1051691/meta-ai-large-language-model-gpt3-ethics-huggingface-transparency/) ([HN](https://news.ycombinator.com/item?id=31897101))
+- ['Making Moves' In DALL·E mini (2022)](https://www.thejaymo.net/2022/06/19/250-making-moves-in-dalle-mini/)
+- [min(DALL·E)](https://github.com/kuprel/min-dalle) - Minimal implementation of DALL·E Mini. It has been stripped to the bare essentials necessary for doing inference, and converted to PyTorch.
+- [Awesome Document Similarity Measures](https://github.com/malteos/awesome-document-similarity)
+- [RETRO Is Blazingly Fast (2022)](http://mitchgordon.me/ml/2022/07/01/retro-is-blazing.html)
+- [LightOn](https://lighton.ai/) - Unlock Extreme-Scale Machine Intelligence. Most repos are focused on the use of photonic hardware. ([GitHub](https://github.com/lightonai))
+- [Minerva: Solving Quantitative Reasoning Problems with Language Models (2022)](https://ai.googleblog.com/2022/06/minerva-solving-quantitative-reasoning.html) ([Paper](https://arxiv.org/abs/2206.14858))
+- [winkNLP](https://github.com/winkjs/wink-nlp) - Developer friendly Natural Language Processing. ([Docs](https://winkjs.org/wink-nlp/))
+- [Facebook Low Resource (FLoRes) MT Benchmark](https://github.com/facebookresearch/flores)
+- [Using GPT-3 to explain how code works (2022)](https://simonwillison.net/2022/Jul/9/gpt-3-explain-code/) ([Lobsters](https://lobste.rs/s/znogyz/using_gpt_3_explain_how_code_works)) ([HN](https://news.ycombinator.com/item?id=32036224))
+- [Awesome Topic Models](https://github.com/jonaschn/awesome-topic-models)
+- [Introducing The World’s Largest Open Multilingual Language Model: BLOOM](https://bigscience.huggingface.co/blog/bloom)
+- [The DALL·E 2 Prompt Book](https://dallery.gallery/the-dalle-2-prompt-book/) ([HN](https://news.ycombinator.com/item?id=32088718)) ([Tweet](https://twitter.com/GuyP/status/1547234780001042432))
+- [RWKV](https://github.com/BlinkDL/RWKV-LM) - RNN with Transformer-level performance, which can also be directly trained like a GPT transformer (parallelizable).
+- [Kern AI](https://www.kern.ai/) - Open-source IDE for data-centric NLP. Combining programmatic labeling, extensive data management and neural search capabilities. ([Code](https://github.com/code-kern-ai/refinery)) ([HN](https://news.ycombinator.com/item?id=32136121))
+- [spaCy fishing](https://github.com/Lucaterre/spacyfishing) - spaCy wrapper of Entity-Fishing (component) for named entity disambiguation and linking on Wikidata.
+- [DALL·E Now Available in Beta (2022)](https://openai.com/blog/dall-e-now-available-in-beta/) ([HN](https://news.ycombinator.com/item?id=32168190))
+- [Inside language models (from GPT-3 to PaLM)](https://lifearchitect.ai/models/)
+- [Timeline of AI and language models](https://lifearchitect.ai/timeline/)
+- [Cascades](https://github.com/google-research/cascades) - Python library which enables complex compositions of language models such as scratchpads, chain of thought, tool use, selection-inference, and more.
+- [Awesome Neural Symbolic](https://github.com/Ying1123/awesome-neural-symbolic)
+- [Towards Knowledge-Based Recommender Dialog System (2019)](https://arxiv.org/abs/1908.05391) ([Code](https://github.com/THUDM/KBRD))
+- [Asent](https://github.com/KennethEnevoldsen/asent) - Rule-based sentiment analysis library for Python made using SpaCy.
+- [extractacy](https://github.com/jenojp/extractacy) - Pattern extraction and named entity linking for spaCy.
+- [A Hazard Analysis Framework for Code Synthesis Large Language Models (2022)](https://arxiv.org/abs/2207.14157)
+- [Rethinking the Role of Demonstrations: What Makes In-Context Learning Work? (2022)](https://arxiv.org/abs/2202.12837) ([Code](https://github.com/Alrope123/rethinking-demonstrations))
+- [A Frustratingly Easy Approach for Entity and Relation Extraction (2021)](https://arxiv.org/abs/2010.12812) ([Code](https://github.com/princeton-nlp/PURE))
+- [Chinchilla's Wild Implications (2022)](https://www.lesswrong.com/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications) ([HN](https://news.ycombinator.com/item?id=32321522))
+- [DALL·E 2 prompt book (2022)](http://dallery.gallery/wp-content/uploads/2022/07/The-DALL%C2%B7E-2-prompt-book-v1.02.pdf) ([HN](https://news.ycombinator.com/item?id=32322329))
+- [GLM-130B](https://github.com/THUDM/GLM-130B) - Open Bilingual Pre-Trained Model.
+- [An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion (2022)](https://textual-inversion.github.io/) ([Code](https://github.com/rinongal/textual_inversion))
+- [DALL-E + GPT-3 = ♥ (2022)](https://medium.com/@glan1k/dall-e-gpt-3-d1aaaff38639) ([HN](https://news.ycombinator.com/item?id=32377069))
+- [Run your own DALL-E-like image generator (2022)](https://reticulated.net/dailyai/running-your-own-ai-image-generator-with-latent-diffusion/) ([HN](https://news.ycombinator.com/item?id=32384646))
+- [Stable Diffusion launch announcement (2022)](https://stability.ai/blog/stable-diffusion-announcement) ([HN](https://news.ycombinator.com/item?id=32414811))
+- [Stable Diffusion](https://github.com/CompVis/stable-diffusion)
+- [MidJourney Styles and Keywords Reference](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference)
+- [Spent $15 in DALL·E 2 credits creating this AI image (2022)](https://pub.towardsai.net/i-spent-15-in-dall-e-2-credits-creating-this-ai-image-and-heres-what-i-learned-52f352912025) ([HN](https://news.ycombinator.com/item?id=32428583))
+- [Phraser](https://phraser.tech/) - Better way to generate prompts.
+- [Seminar on Large Language Models (2022)](https://github.com/craffel/llm-seminar)
+- [DocQuery](https://github.com/impira/docquery) - Document Query Engine Powered by NLP. ([Article](https://www.impira.com/blog/hey-machine-whats-my-invoice-total)) ([Tweet](https://twitter.com/ankrgyl/status/1565437042032402433))
+- [Petals](https://github.com/bigscience-workshop/petals) - Decentralized platform for running 100B+ language models. ([Web](https://petals.ml/)) ([HN](https://news.ycombinator.com/item?id=34215665)) ([HN](https://news.ycombinator.com/item?id=35239972))
+- [LiLT: A Simple yet Effective Language-Independent Layout Transformer for Structured Document Understanding (2022)](https://arxiv.org/abs/2202.13669) ([Code](https://github.com/jpWang/LiLT))
+- [ekphrasis](https://github.com/cbaziotis/ekphrasis) - Text processing tool, geared towards text from social networks.
+- [ALToolbox](https://github.com/AIRI-Institute/al_toolbox) - Framework for practical active learning in NLP.
+- [Tools and scripts for experimenting with Transformers: Bert, T5](https://github.com/yurakuratov/t5-experiments)
+- [Action Transformer (ACT-1) model in action](https://twitter.com/AdeptAILabs/status/1570144499187453952)
+- [Label Sleuth](https://github.com/label-sleuth/label-sleuth) - Open source no-code system for text annotation and building text classifiers.
+- [Vectoring Words (Word Embeddings) (2022)](https://www.youtube.com/watch?v=gQddtTdmG_8)
+- [CodeGeeX: A Multilingual Code Generative Model (2022)](https://keg.cs.tsinghua.edu.cn/codegeex/)
+- [The first neural machine translation system for the Erzya language (2022)](https://arxiv.org/abs/2209.09368) ([Code](https://github.com/slone-nlp/myv-nmt))
+- [Awesome Efficient PLM Papers](https://github.com/TobiasLee/Awesome-Efficient-PLM)
+- [Polyglot: Large Language Models of Well-balanced Competence in Multi-languages](https://github.com/EleutherAI/polyglot)
+- [Interactive Composition Explorer](https://github.com/oughtinc/ice) - Python library and trace visualizer for language model programs.
+- [TrAVis: Transformer Attention Visualizer](https://ayaka14732.github.io/TrAVis/) ([Code](https://github.com/ayaka14732/TrAVis))
+- [Knowledge Unlearning for Mitigating Privacy Risks in Language Models (2022)](https://arxiv.org/abs/2210.01504) ([Code](https://github.com/joeljang/knowledge-unlearning))
+- [SpeechCLIP: Integrating Speech with Pre-Trained Vision and Language Model (2022)](https://arxiv.org/abs/2210.00705) ([Code](https://github.com/atosystem/SpeechCLIP))
+- [End-to-end Neural Coreference Resolution in spaCy (2022)](https://explosion.ai/blog/coref)
+- [Ask Me Anything: A simple strategy for prompting language models](https://github.com/HazyResearch/ama_prompting)
+- [Neuro-Symbolic Language Modeling with Automaton-augmented Retrieval (2022)](https://arxiv.org/abs/2201.12431) ([Code](https://github.com/neulab/knn-transformers))
+- [A Kernel-Based View of Language Model Fine-Tuning (2022)](https://arxiv.org/abs/2210.05643) ([Code](https://github.com/princeton-nlp/LM-Kernel-FT))
+- [Large Language Models are few(1)-shot Table Reasoners (2022)](https://arxiv.org/abs/2210.06710) ([Tweet](https://twitter.com/WenhuChen/status/1580732300924694528))
+- [The Importance of Being Parameters: An Intra-Distillation Method for Serious Gains (2022)](https://arxiv.org/abs/2205.11416v1) ([Code](https://github.com/fe1ixxu/Intra-Distillation))
+- [Binding Language Models in Symbolic Languages (2022)](https://arxiv.org/abs/2210.02875) ([Code](https://github.com/HKUNLP/Binder))
+- [ML and text manipulation tools (2022)](https://twitter.com/yoheinakajima/status/1581070083115581440)
+- [Table-To-Text generation and pre-training with TabT5 (2022)](https://arxiv.org/abs/2210.09162)
+- [concepCy](https://github.com/JulesBelveze/concepcy) - SpaCy wrapper for ConceptNet.
+- [AliceMind](https://github.com/alibaba/AliceMind) - ALIbaba's Collection of Encoder-decoders from MinD (Machine IntelligeNce of Damo) Lab.
+- [CrossRE: A Cross-Domain Dataset for Relation Extraction (2022)](https://arxiv.org/abs/2210.09345) ([Code](https://github.com/mainlp/CrossRE))
+- [Scaling Instruction-Finetuned Language Models (2022)](https://arxiv.org/abs/2210.11416) ([Tweet](https://twitter.com/quocleix/status/1583523186376785921)) ([Tweet](https://twitter.com/SamuelAlbanie/status/1584257440891416576))
+- [Large Language Models Can Self-Improve (2022)](https://arxiv.org/abs/2210.11610) ([Tweet](https://twitter.com/I_are/status/1589004453637926912))
+- [Everyprompt](https://www.everyprompt.com/) - Playground for GPT-3. ([Tweet](https://twitter.com/evanjconrad/status/1583538660489588737))
+- [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing (2021)](https://arxiv.org/abs/2107.13586) ([Tweet](https://twitter.com/DynamicWebPaige/status/1586745834787348480))
+- [Composable Text Controls in Latent Space with ODEs (2022)](https://arxiv.org/abs/2208.00638) ([Code](https://github.com/guangyliu/LatentOps))
+- [flashgeotext](https://github.com/iwpnd/flashgeotext) - Extract city and country mentions from Text like GeoText without regex, but FlashText, a Aho-Corasick implementation.
+- [lm-scorer](https://github.com/simonepri/lm-scorer) - Language Model based sentences scoring library.
+- [CodeT: Code Generation with Generated Tests](https://github.com/microsoft/CodeT)
+- [Bloom](https://huggingface.co/bigscience/bloom) - BigScience Large Open-science Open-access Multilingual Language Model. ([Tweet](https://twitter.com/jackclarkSF/status/1588973690838188033))
+- [Prompts](https://github.com/semiosis/prompts) - Free and open-source (FOSS) curation of prompts for OpenAI’s GPT-3, EleutherAI’s GPT-j, and other LMs.
+- [FSNER](https://github.com/sayef/fsner) - Few-shot Named Entity Recognition.
+- [Ilya Sutskever (OpenAI): What's Next for Large Language Models (LLMs) (2022)](https://www.youtube.com/watch?v=UHSkjro-VbE)
+- [Galactica](https://galactica.org/) - General-purpose scientific language model. It is trained on a large corpus of scientific text and data. ([Code](https://github.com/paperswithcode/galai)) ([Tweet](https://twitter.com/Michael_J_Black/status/1593133722316189696))
+- [Three-level Hierarchical Transformer Networks for Long-sequence and Multiple Clinical Documents Classification (2021)](https://arxiv.org/abs/2104.08444) ([Code](https://github.com/nbroad1881/strideformer))
+- [WECHSEL: Effective initialization of subword embeddings for cross-lingual transfer of monolingual language models (2022)](https://arxiv.org/abs/2112.06598) ([Code](https://github.com/CPJKU/wechsel))
+- [Convenient Text-to-Text Training for Transformers](https://github.com/tlkh/t2t-tuner)
+- [Homophone Reveals the Truth: A Reality Check for Speech2Vec (2022)](https://arxiv.org/abs/2209.10791) ([Code](https://github.com/my-yy/s2v_rc))
+- [RetroMAE: Pre-Training Retrieval-oriented Language Models Via Masked Auto-Encoder (2022)](https://arxiv.org/abs/2205.12035) ([Code](https://github.com/staoxiao/RetroMAE))
+- [Generate conversation starters given two personalities using AI](https://github.com/langa-me/chat-example)
+- [MetaICL: Learning to Learn In Context (2021)](https://arxiv.org/abs/2110.15943) ([Code](https://github.com/facebookresearch/MetaICL))
+- [PAL: Program-aided Language Models (2022)](https://arxiv.org/abs/2211.10435) ([Code](https://github.com/reasoning-machines/pal))
+- [ReAct: Synergizing Reasoning and Acting in Language Models (2022)](https://arxiv.org/abs/2210.03629) ([Code](https://github.com/ysymyth/ReAct))
+- [CogIE](https://github.com/jinzhuoran/CogIE) - Information Extraction Toolkit for Bridging Text and CogNet.
+- [T-NER](https://github.com/asahi417/tner) - All-Round Python Library for Transformer-based Named Entity Recognition.
+- [mGPT: Multilingual Generative Pretrained Transformer](https://github.com/ai-forever/mgpt)
+- [LangChain](https://github.com/hwchase17/langchain/) - Building applications with LLMs through composability. ([HN](https://github.com/hwchase17/langchain))
+- [HN Summary](https://github.com/jiggy-ai/hn_summary) - Summarizes top stories from Hacker News using a large language model and posts them to a Telegram channel. ([HN](https://news.ycombinator.com/item?id=33748363))
+- [OpenAI Model index for researchers](https://beta.openai.com/docs/model-index-for-researchers)
+- [ChatGPT](https://chat.openai.com/)
+- [Adventures in generating music via ChatGPT text prompts (2022)](https://www.holovaty.com/writing/chatgpt-music-generation/)
+- [All the best examples of ChatGPT, from OpenAI](https://twitter.com/bentossell/status/1598269692082151424)
+- [ChatGPT nice examples](https://twitter.com/sytelus/status/1598523136177508356)
+- [WhatsApp-GPT](https://github.com/danielgross/whatsapp-gpt)
+- [What ChatGPT features/improvements do you want?](https://twitter.com/sama/status/1599457816494092289)
+- [Summarize-Webpage](https://github.com/akashp1712/summarize-webpage) - Small NLP SAAS project that summarize a webpage.
+- [Nonparametric Masked Language Modeling (2022)](https://arxiv.org/abs/2212.01349) - 500x fewer parameters than GPT-3 while outperforming it on zero-shot tasks. ([Reddit](https://www.reddit.com/r/MachineLearning/comments/zr2en7/r_nonparametric_masked_language_modeling_metaai/)) ([Code](https://github.com/facebookresearch/NPM))
+- [Holistic Evaluation of Language Models](https://github.com/stanford-crfm/helm) - Framework to increase the transparency of language models. ([Paper](https://arxiv.org/abs/2211.09110))
+- [Dramatron](https://github.com/deepmind/dramatron) - Uses large language models to generate long, coherent text and could be useful for authors for co-writing theatre scripts and screenplays. ([HN](https://news.ycombinator.com/item?id=33922744))
+- [ExtremeBERT](https://github.com/extreme-bert/extreme-bert) - Toolkit that accelerates the pretraining of customized language models on customized datasets.
+- [Talking About Large Language Models (2022)](https://arxiv.org/abs/2212.03551) ([HN](https://news.ycombinator.com/item?id=33933772)) ([Tweet](https://twitter.com/vboykis/status/1601930057076903936))
+- [The GPT-3 Architecture, on a Napkin (2022)](https://dugas.ch/artificial_curiosity/GPT_architecture.html) ([HN](https://news.ycombinator.com/item?id=33942597))
+- [Discovering Latent Knowledge in Language Models Without Supervision (2022)](https://arxiv.org/abs/2212.03827) ([HN](https://news.ycombinator.com/item?id=33950542))
+- [Lightning GPT](https://github.com/Lightning-AI/lightning-gpt)
+- [Bricks](https://github.com/code-kern-ai/bricks) - Open-source natural language enrichments at your fingertips.
+- [GPT-2 Output Detector](https://huggingface.co/openai-detector/)
+- [Language Model Operationalization](https://github.com/microsoft/LMOps)
+- [NLQuery](https://github.com/ayoungprogrammer/nlquery) - Natural language query engine on WikiData.
+- [Categorical Tools for Natural Language Processing (2022)](https://arxiv.org/abs/2212.06636)
+- [Historical analogies for large language models (2022)](https://dynomight.substack.com/p/llms) ([Tweet](https://twitter.com/s8mb/status/1602989578750754817))
+- [CMU Advanced NLP Assignment: End-to-end NLP System Building](https://github.com/neubig/nlp-from-scratch-assignment-2022)
+- [New and Improved Embedding Model for OpenAI (2022)](https://openai.com/blog/new-and-improved-embedding-model/) ([HN](https://news.ycombinator.com/item?id=34003394))
+- [GPT-NeoX](https://huggingface.co/docs/transformers/model_doc/gpt_neox) ([HN](https://news.ycombinator.com/item?id=33983086))
+- [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - Examples and guides for using the OpenAI API.
+- [OpenAI Question Answering using Embeddings](https://github.com/openai/openai-cookbook/blob/main/examples/Question_answering_using_embeddings.ipynb)
+- [GreaseLM: Graph REASoning Enhanced Language Models for Question Answering (2022)](https://arxiv.org/abs/2201.08860) ([Code](https://github.com/snap-stanford/GreaseLM))
+- [Rank-One Model Editing (ROME)](https://github.com/kmeng01/rome) - Locating and editing factual associations in GPT.
+- [Open Assistant](https://github.com/LAION-AI/Open-Assistant) - Give everyone access to a great chat based large language model. ([Web](https://open-assistant.io/)) ([HN](https://news.ycombinator.com/item?id=34654809))
+- [Characterizing Emergent Phenomena in Large Language Models (2022)](https://ai.googleblog.com/2022/11/characterizing-emergent-phenomena-in.html)
+- [SBERT studies Meaning Representations: Decomposing Sentence Embeddings into Explainable Semantic Features (2022)](https://arxiv.org/abs/2206.07023) ([Code](https://github.com/flipz357/S3BERT))
+- [Blob](https://github.com/minskylab/blob) - Powerful tool that uses language large models (LLMs) to assist in the creation and maintenance of software projects.
+- [Chain of Thought Prompting Elicits Reasoning in Large Language Models (2022)](https://arxiv.org/abs/2201.11903) ([Code](https://github.com/OpenBioLink/ThoughtSource))
+- [Compress-fastText](https://github.com/avidale/compress-fasttext) - Python 3 package allows to compress fastText word embedding models.
+- [Large Language Models are Zero-Shot Reasoners (2022)](https://arxiv.org/abs/2205.11916)
+- [MultiInstruct: Improving Multi-Modal Zero-Shot Learning via Instruction Tuning (2022)](https://arxiv.org/abs/2212.10773)
+- [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models (2022)](https://arxiv.org/abs/2211.10438) ([Code](https://github.com/mit-han-lab/smoothquant))
+- [Improving Language Model Behavior by Training on a Curated Dataset (2021)](https://openai.com/blog/improving-language-model-behavior/)
+- [Reasoning in Large Language Models](https://github.com/jeffhj/LM-reasoning)
+- [SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization (2022)](https://arxiv.org/abs/2212.10465) ([Code](https://github.com/skywalker023/sodaverse))
+- [Happy Transformer](https://github.com/EricFillion/happy-transformer) - Package built on top of Hugging Face's transformers library that makes it easy to utilize state-of-the-art NLP models.
+- [TextBox](https://github.com/RUCAIBox/TextBox) - Text generation library with pre-trained language models.
+- [Advances in Neural Information Processing Systems 30 (NIPS 2017)](https://papers.nips.cc/paper/2017)
+- [Poincaré Embeddings for Learning Hierarchical Representations (2017)](https://arxiv.org/abs/1705.08039) ([Code](https://github.com/facebookresearch/poincare-embeddings))
+- [llm-strategy](https://github.com/BlackHC/llm-strategy) - Implementing the Strategy Pattern using LLMs.
+- [Zshot](https://github.com/IBM/zshot) - Zero and Few shot named entity & relationships recognition.
+- [Cramming: Training a Language Model on a Single GPU in One Day (2022)](https://arxiv.org/abs/2212.14034) ([Code](https://github.com/JonasGeiping/cramming))
+- [Trend starts from "Chain of Thought Prompting Elicits Reasoning in Large Language Models"](https://github.com/Timothyxxx/Chain-of-ThoughtsPapers)
+- [Training language models to follow instructions with human feedback (2022)](https://arxiv.org/abs/2203.02155) ([Web](https://openai.com/blog/instruction-following/)) ([Code](https://github.com/xrsrke/instructGOOSE))
+- [Lila: A Unified Benchmark for Mathematical Reasoning (2022)](https://arxiv.org/abs/2210.17517)
+- [LibMultiLabel](https://github.com/ASUS-AICS/LibMultiLabel) - Library for Multi-class and Multi-label Text Classification.
+- [Paper Notes on Pretrain Language Models with Factual Knowledge](https://github.com/dqxiu/PLMs-with-Knowledge)
+- [Atlas: Few-shot Learning with Retrieval Augmented Language Models (2022)](https://arxiv.org/abs/2208.03299) ([Code](https://github.com/facebookresearch/atlas))
+- [Some Remarks on Large Language Models (2023)](https://gist.github.com/yoavg/59d174608e92e845c8994ac2e234c8a9) ([HN](https://news.ycombinator.com/item?id=34233033))
+- [Massive Language Models Can Be Accurately Pruned in One-Shot (2023)](https://arxiv.org/abs/2301.00774) ([Reddit](https://www.reddit.com/r/MachineLearning/comments/1027geh/r_massive_language_models_can_be_accurately/))
+- [LM Identifier](https://github.com/jaketae/lm-identifier) - Toolkit for identifying pretrained language models from potentially AI-generated text.
+- [BRIO: Bringing Order to Abstractive Summarization (2022)](https://arxiv.org/abs/2203.16804) ([Code](https://github.com/yixinL7/BRIO))
+- [DOC: Improving Long Story Coherence With Detailed Outline Control (2022)](https://arxiv.org/abs/2212.10077) ([Code](https://github.com/yangkevin2/doc-story-generation))
+- [InPars: Data Augmentation for Information Retrieval using Large Language Models (2022)](https://arxiv.org/abs/2202.05144) ([Code](https://github.com/zetaalphavector/inPars))
+- [Unified Structure Generation for Universal Information Extraction (2022)](https://aclanthology.org/2022.acl-long.395/) ([Code](https://github.com/universal-ie/UIE))
+- [Awesome Resource for NLP](https://github.com/luyaojie/awesome-nlp-resource)
+- [PromptArray: A Prompting Language for Neural Text Generators](https://github.com/jeffbinder/promptarray)
+- [Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback (2022)](https://arxiv.org/abs/2204.05862) ([Code](https://github.com/anthropics/hh-rlhf))
+- [Multi Task NLP](https://github.com/hellohaptik/multi-task-NLP) - Utility toolkit enabling NLP developers to easily train and infer a single model for multiple tasks.
+- [FairSeq with Apollo optimizer](https://github.com/XuezheMax/fairseq-apollo)
+- [TFKit](https://github.com/voidful/TFkit) - Handling multiple NLP task in one pipeline.
+- [ReAct: Synergizing Reasoning and Acting in Language Models (2022)](https://arxiv.org/abs/2210.03629)
+- [Repository of Language Instructions for NLP Tasks](https://github.com/allenai/natural-instructions)
+- [tasksource](https://github.com/sileod/tasksource) - Datasets curation and datasets metadata for NLP extreme multitask learning.
+- [ChatLangChain](https://github.com/hwchase17/chat-langchain) - Implementation of a chatbot specifically focused on question answering over the LangChain documentation.
+- [summaries](https://github.com/dennlinger/summaries) - Toolkit for summarization analysis and aspect-based summarizers.
+- [SymbolicAI](https://github.com/Xpitfire/symbolicai) - Neuro-Symbolic Perspective on Large Language Models (LLMs).
+- [PEFT](https://github.com/huggingface/peft) - Parameter-Efficient Fine-Tuning.
+- [Large Transformer Model Inference Optimization (2023)](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/) ([HN](https://news.ycombinator.com/item?id=34458414))
+- [Embed-VTT](https://github.com/gmchad/embed-vtt) - Generate & query embeddings from VTT files using openai & pinecone on Andrej Karpathy's's latest GPT tutorial.
+- [CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation (2021)](https://arxiv.org/abs/2109.00859) ([Code](https://github.com/salesforce/CodeT5))
+- [Awesome LLM Engineering](https://github.com/rynst/awesome-llm-engineering)
+- [Minimal GPT-NeoX-20B in PyTorch](https://github.com/zphang/minimal-gpt-neox-20b)
+- [Language Models of Code are Few-Shot Commonsense Learners (2022)](https://arxiv.org/abs/2210.07128) ([Code](https://github.com/reasoning-machines/CoCoGen))
+- [Talking About Large Language Models (2022)](https://www.arxiv-vanity.com/papers/2212.03551/)
+- [Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP (2022)](https://arxiv.org/abs/2212.14024) ([Code](https://github.com/stanfordnlp/dsp))
+- [DeCLUTR: Deep Contrastive Learning for Unsupervised Textual Representations (2022)](https://aclanthology.org/2021.acl-long.72/) ([Code](https://github.com/JohnGiorgi/DeCLUTR))
+- [LangChainHub](https://github.com/hwchase17/langchain-hub) ([Article](https://blog.langchain.dev/langchainhub/))
+- [NLP-Cube](https://github.com/adobe/NLP-Cube) - Natural Language Processing Pipeline - Sentence Splitting, Tokenization, Lemmatization, Part-of-speech Tagging and Dependency Parsing.
+- [Dust](https://dust.tt/) - Design and Deploy Large Language Models Apps. ([Code](https://github.com/dust-tt/dust)) ([Twitter](https://twitter.com/dust4ai))
+- [Awesome papers on Language-Model-as-a-Service (LMaaS)](https://github.com/txsun1997/LMaaS-Papers)
+- [Sentences](https://github.com/neurosnap/sentences) - Command line sentence tokenizer.
+- [Diff Models – A New Way to Edit Code (2023)](https://carper.ai/diff-models-a-new-way-to-edit-code/) ([HN](https://news.ycombinator.com/item?id=34556688))
+- [MegaBlocks](https://github.com/stanford-futuredata/megablocks) - Light-weight library for mixture-of-experts (MoE) training.
+- [Read Pilot](https://readpilot.vercel.app/) - Analyzes online articles and generate Q&A cards for you. Powered by OpenAI & Next.js. ([Code](https://github.com/forrestchang/readpilot))
+- [Promptify](https://github.com/promptslab/Promptify) - Prompt Engineering, Solve NLP Problems with LLM's & Easily generate different NLP Task prompts.
+- [polymath](https://github.com/dglazkov/polymath) - Utility that uses AI to intelligently answer free-form questions based on a particular library of content.
+- [Incorporating External Knowledge through Pre-training for Natural Language to Code Generation (2020)](https://arxiv.org/abs/2004.09015) ([Code](https://github.com/neulab/external-knowledge-codegen))
+- [Longformer: The Long-Document Transformer (2020)](https://arxiv.org/abs/2004.05150) ([Code](https://github.com/allenai/longformer))
+- [ProbSem](https://github.com/benlipkin/probsem) - Probabilistic semantic parsing with program synthesis LLMs.
+- [Generate rather than Retrieve: Large Language Models are Strong Context Generators (2023)](https://arxiv.org/abs/2209.10063) ([Code](https://github.com/wyu97/GenRead))
+- [Text Generation Inference](https://github.com/huggingface/text-generation-inference) - Large Language Model Text Generation Inference.
+- [New AI classifier for indicating AI-written text (2023)](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text/) ([HN](https://news.ycombinator.com/item?id=34599106))
+- [DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature (2023)](https://arxiv.org/abs/2301.11305) ([HN](https://news.ycombinator.com/item?id=34600232))
+- [Towards Continual Knowledge Learning of Language Models (2022)](https://arxiv.org/abs/2110.03215) ([Code](https://github.com/joeljang/continual-knowledge-learning))
+- [AI Text Classifier - OpenAI API](https://platform.openai.com/ai-text-classifier)
+- [Fine-tuning GPTJ and other GPT models](https://github.com/mallorbc/Finetune_GPTNEO_GPTJ6B)
+- [Adversarial Prompts](https://github.com/hwchase17/adversarial-prompts)
+- [Ignore Previous Prompt: Attack Techniques For Language Models (2022)](https://arxiv.org/abs/2211.09527) ([Code](https://github.com/agencyenterprise/PromptInject))
+- [Multimodal Chain-of-Thought Reasoning in Language Models (2023)](https://github.com/amazon-science/mm-cot) ([Paper](https://arxiv.org/abs/2302.00923))
+- [Prodigy OpenAI recipes](https://github.com/explosion/prodigy-openai-recipes) - Bootstrap annotation with zero- & few-shot learning via OpenAI GPT-3.
+- [Summarization Programs: Interpretable Abstractive Summarization with Neural Modular Trees (2023)](https://arxiv.org/abs/2209.10492) ([Code](https://github.com/swarnaHub/SummarizationPrograms))
+- [Online Language Modelling Training Pipeline](https://github.com/huggingface/olm-training)
+- [Storing OpenAI embeddings in Postgres with pgvector (2023)](https://supabase.com/blog/openai-embeddings-postgres-vector) ([HN](https://news.ycombinator.com/item?id=34684593))
+- [Theory of Mind May Have Spontaneously Emerged in Large Language Models (2023)](https://arxiv.org/abs/2302.02083) ([HN](https://news.ycombinator.com/item?id=34730365))
+- [Steamship Python Client Library For LangChain](https://github.com/steamship-core/steamship-langchain)
+- [Toolformer: Language Models Can Teach Themselves to Use Tools (2023)](https://arxiv.org/abs/2302.04761) ([HN](https://news.ycombinator.com/item?id=34757265)) ([Code](https://github.com/lucidrains/toolformer-pytorch)) ([HN](https://news.ycombinator.com/item?id=34734696))
+- [Hard Prompts Made Easy: Gradient-Based Discrete Optimization for Prompt Tuning and Discovery (2023)](https://arxiv.org/abs/2302.03668) ([Code](https://github.com/YuxinWenRick/hard-prompts-made-easy))
+- [Understanding Large Language Models – A Transformative Reading List (2023)](https://sebastianraschka.com/blog/2023/llm-reading-list.html) ([HN](https://news.ycombinator.com/item?id=34754355))
+- [Discovering Latent Knowledge Without Supervision](https://github.com/collin-burns/discovering_latent_knowledge)
+- [Offsite-Tuning: Transfer Learning without Full Model (2023)](https://arxiv.org/abs/2302.04870) ([Code](https://github.com/mit-han-lab/offsite-tuning))
+- [Awesome Neural Reprogramming Acoustic Prompting](https://github.com/huckiyang/awesome-neural-reprogramming-prompting)
+- [Chroma](https://github.com/chroma-core/chroma) - Open-source embedding database. Makes it easy to build LLM apps by making knowledge, facts, and skills pluggable for LLMs.
+- [Prompt Engine](https://github.com/microsoft/prompt-engine) - Microsoft's prompt engineering library. ([HN](https://news.ycombinator.com/item?id=34811070))
+- [PCAE: A framework of plug-in conditional auto-encoder for controllable text generation (2022)](https://www.sciencedirect.com/science/article/abs/pii/S0950705122008942) ([Code](https://github.com/ImKeTT/pcae))
+- [EasyLM](https://github.com/young-geng/EasyLM) - Easy to use model parallel large language models in JAX/Flax with pjit support on cloud TPU pods.
+- [Promptable](https://github.com/cfortuner/promptable) - Library that enables you to build powerful AI applications with LLMs and Embeddings providers such as OpenAI, Hugging Face, Cohere and Anthropic.
+- [Lightning + Colossal-AI](https://github.com/Lightning-AI/lightning-colossalai) - Efficient Large-Scale Distributed Training with Colossal-AI and Lightning AI.
+- [MarioGPT: Open-Ended Text2Level Generation through Large Language Models (2023)](https://arxiv.org/abs/2302.05981) ([Code](https://github.com/shyamsn97/mario-gpt))
+- [LangChain.js](https://github.com/hwchase17/langchainjs) - Building applications with LLMs through composability.
+- [Top resources on prompt engineering (2023)](https://twitter.com/omarsar0/status/1626632841634119682)
+- [What are Transformers & Named Entity Recognition (2023)](https://www.youtube.com/watch?v=YwJ5b-HlqQU)
+- [Text is All You Need (2023)](https://studio.ribbonfarm.com/p/text-is-all-you-need) ([HN](https://news.ycombinator.com/item?id=34847912))
+- [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM)
+- [On Prompt Engineering (2023)](https://benjamincongdon.me/blog/2023/02/18/On-Prompt-Engineering/)
+- [MultiPL-E: A Scalable and Extensible Approach to Benchmarking Neural Code Generation (2022)](https://arxiv.org/abs/2208.08227) ([Code](https://github.com/nuprl/MultiPL-E))
+- [How to make LLMs say true things (2023)](https://evanjconrad.com/posts/world-models)
+- [A Fast Post-Training Pruning Framework for Transformers (2022)](https://arxiv.org/abs/2204.09656) ([Code](https://github.com/WoosukKwon/retraining-free-pruning))
+- [Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
+- [FlexGen](https://github.com/FMInference/FlexGen) - Running large language models on a single GPU. ([HN](https://news.ycombinator.com/item?id=34869960)) ([HN](https://news.ycombinator.com/item?id=35311332))
+- [Butterfish](https://github.com/bakks/butterfish) - CLI tools for LLMs.
+- [Elk](https://github.com/EleutherAI/elk) - Eliciting latent knowledge inside the activations of a language model.
+- [Neurosymbolic Reading Group](http://www.neurosymbolic.org/reading-group.html)
+- [One Embedder, Any Task: Instruction-Finetuned Text Embeddings (2022)](https://arxiv.org/abs/2212.09741) ([Code](https://github.com/HKUNLP/instructor-embedding))
+- [Fine-tune FLAN-T5 for chat & dialogue summarization (2022)](https://www.philschmid.de/fine-tune-flan-t5)
+- [Cohere Playground](https://dashboard.cohere.ai/playground/summarize) - Summarize texts up to 50K characters.
+- [SGPT: GPT Sentence Embeddings for Semantic Search (2022)](https://arxiv.org/abs/2202.08904) ([Code](https://github.com/Muennighoff/sgpt))
+- [PromptKG](https://github.com/zjunlp/PromptKG) - Gallery of Prompt Learning & KG-related research works, toolkits, and paper-list.
+- [Text generation web UI](https://github.com/oobabooga/text-generation-webui) - Gradio web UI for running Large Language Models like GPT-J 6B, OPT, GALACTICA, GPT-Neo, and Pygmalion.
+- [Knowledge is a Region in Weight Space for Fine-tuned Language Models (2023)](https://arxiv.org/abs/2302.04863)
+- [LangChain Sidecar](https://github.com/add-context/sidecar) - UI starterkit for building LangChain apps that can be embedded on any website, similar to how Intercom can be embedded.
+- [embedland](https://github.com/danielgross/embedland) - Collection of text embedding experiments.
+- [Understanding large language models](https://github.com/abacaj/transformers)
+- [MindsJS](https://github.com/dosco/minds) - Build your workflows and app backends with large language models (LLMs) like OpenAI, Cohere and AlephAlpha.
+- [LLaMA Inference code](https://github.com/facebookresearch/llama)
+- [Language Is Not All You Need: Aligning Perception with Language Models (2023)](https://arxiv.org/abs/2302.14045) ([Tweet](https://twitter.com/omarsar0/status/1630392643602599937))
+- [LLMs are compilers (2023)](https://vivekhaldar.com/articles/llms-are-compilers/) ([Lobsters](https://lobste.rs/s/ug0alo/llms_are_compilers))
+- [Beating OpenAI CLIP with 100x less data and compute (2023)](https://www.unum.cloud/blog/2023-02-20-efficient-multimodality) ([HN](https://news.ycombinator.com/item?id=34970045))
+- [SpikeGPT: Generative Pre-trained Language Model with Spiking Neural Networks](https://github.com/ridgerchu/SpikeGPT)
+- [TCJA-SNN: Temporal-Channel Joint Attention for Spiking Neural Networks](https://github.com/ridgerchu/TCJA)
+- [LLM Security](https://github.com/greshake/llm-security) - New ways of breaking app-integrated LLMs.
+- [LangChain Chat](https://github.com/sullivan-sean/chat-langchainjs)
+- [Awesome Generative Information Retrieval](https://github.com/gabriben/awesome-generative-information-retrieval)
+- [Facebook LLAMA is being openly distributed via torrents (2023)](https://news.ycombinator.com/item?id=35007978)
+- [Batch Prompting: Efficient Inference with Large Language Model APIs (2023)](https://arxiv.org/abs/2301.08721) ([Code](https://github.com/HKUNLP/batch-prompting))
+- [Local attention](https://github.com/lucidrains/local-attention) - Implementation of local windowed attention for language modeling.
+- [Tiktokenizer](https://tiktokenizer.vercel.app/) - Online playground for OpenAPI tokenizers. ([Code](https://github.com/dqbd/tiktokenizer))
+- [LLaMA: INT8 edition](https://github.com/tloen/llama-int8) - Hastily quantized inference code for LLaMA models.
+- [The Waluigi Effect: an explanation of bizarre semiotic effects in LLMs (2023)](https://www.lesswrong.com/posts/D7PumeYTDPfBTp3i7/the-waluigi-effect-mega-post) ([HN](https://news.ycombinator.com/item?id=35042431))
+- [Vellum](https://www.vellum.ai/) - Dev platform for LLM apps. ([HN](https://news.ycombinator.com/item?id=35042836))
+- [Large Language Model Training Playbook](https://github.com/huggingface/large_language_model_training_playbook)
+- [Inference-only implementation of LLaMA in plain NumPy](https://github.com/recmo/cria)
+- [GPT-3 will ignore tools when it disagrees with them (2023)](https://vgel.me/posts/tools-not-needed/)
+- [Palm-E: An Embodied Multimodal Language Model (2023)](https://palm-e.github.io/) ([HN](https://news.ycombinator.com/item?id=35050475))
+- [UForm](https://github.com/unum-cloud/uform) - Multi-Modal Inference Library For Semantic Search Applications and Mid-Fusion Vision-Language Transformers.
+- [Basaran](https://github.com/hyperonym/basaran) - Open-source alternative to the OpenAI text completion API. It provides a compatible streaming API for your Hugging Face Transformers-based text generation models.
+- [4 bits quantization of LLaMa using GPTQ](https://github.com/qwopqwop200/GPTQ-for-LLaMa)
+- [ClickPrompt](https://github.com/prompt-engineering/click-prompt) - Streamline your prompt design.
+- [Fork of Facebook’s LLaMa model to run on CPU](https://github.com/markasoftware/llama-cpu) ([HN](https://news.ycombinator.com/item?id=35065796))
+- [Running LLaMA 7B on a 64GB M2 MacBook Pro with llama.cpp (2023)](https://til.simonwillison.net/llms/llama-7b-m2)
+- [Llama.cpp](https://github.com/ggerganov/llama.cpp) - Port of Facebook's LLaMA model in C/C++, with Apple Silicon support. ([HN](https://news.ycombinator.com/item?id=35100086))
+- [Large language models are having their Stable Diffusion moment right now (2023)](https://simonwillison.net/2023/Mar/11/llama/) ([HN](https://news.ycombinator.com/item?id=35111646))
+- [Vaporetto](https://github.com/daac-tools/vaporetto) - Fast and lightweight pointwise prediction-based tokenizer.
+- [Using LLaMA with M1 Mac (2023)](https://dev.l1x.be/posts/2023/12/08/using-llama-with-m1-mac/) ([HN](https://news.ycombinator.com/item?id=35122689))
+- [Dalai](https://cocktailpeanut.github.io/dalai/#/) - Automatically install, run, and play with LLaMA on your computer. ([HN](https://news.ycombinator.com/item?id=35127020)) ([Code](https://github.com/cocktailpeanut/dalai))
+- [What is Temperature in NLP? (2021)](https://lukesalamone.github.io/posts/what-is-temperature/) ([HN](https://news.ycombinator.com/item?id=35131112))
+- [FLAN Instruction Tuning](https://github.com/google-research/FLAN)
+- [Minimal LLaMA](https://github.com/zphang/minimal-llama)
+- [ALLaMo](https://github.com/chrisociepa/allamo) - Simple, hackable and fast implementation for training/finetuning medium-sized LLaMA-based models.
+- [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) - Instruction-following LLaMA model. ([HN](https://news.ycombinator.com/item?id=35139168)) ([Web](https://crfm.stanford.edu/alpaca/)) ([HN](https://news.ycombinator.com/item?id=35139450)) ([HN](https://news.ycombinator.com/item?id=35136624)) ([Web](https://crfm.stanford.edu/2023/03/13/alpaca.html))
+- [Modern language models refute Chomsky’s approach to language (2023)](https://lingbuzz.net/lingbuzz/007180)
+- [High-throughput Generative Inference of Large Language Models with a Single GPU (2023)](https://arxiv.org/abs/2303.06865) ([HN](https://news.ycombinator.com/item?id=35146081))
+- [LLaMA-rs](https://github.com/rustformers/llama-rs) - Run LLaMA inference on CPU, with Rust. ([HN](https://news.ycombinator.com/item?id=35171527))
+- [llama-dl](https://github.com/shawwn/llama-dl) - High-speed download of LLaMA, Facebook's 65B parameter GPT model. ([HN](https://news.ycombinator.com/item?id=35026902))
+- [RLLaMA](https://github.com/Noeda/rllama) - Rust+OpenCL+AVX2 implementation of LLaMA inference code.
+- [Self-Instruct: Aligning Language Model with Self Generated Instructions (2022)](https://arxiv.org/abs/2212.10560) ([Code](https://github.com/yizhongw/self-instruct))
+- [LLaMA - Run LLM in A Single 4GB GPU](https://github.com/juncongmoo/pyllama)
+- [GPT-4 (2023)](https://openai.com/research/gpt-4) ([HN](https://news.ycombinator.com/item?id=35154527)) ([Demo](https://www.youtube.com/watch?v=outcGtbnMuQ)) ([Tweet](https://twitter.com/OpenAI/status/1635687373060317185)) ([Tweet](https://twitter.com/DrJimFan/status/1635691047773966336))
+- [Evals](https://github.com/openai/evals) - Framework for evaluating OpenAI models and an open-source registry of benchmarks. ([HN](https://news.ycombinator.com/item?id=35154614))
+- [Anthropic | Introducing Claude (2023)](https://www.anthropic.com/index/introducing-claude) ([HN](https://news.ycombinator.com/item?id=35153815))
+- [Prompt in Context-Learning](https://github.com/EgoAlpha/prompt-in-context-learning) - Awesome resources for in-context learning and prompt engineering.
+- [GPT-4 System Card (2023)](https://cdn.openai.com/papers/gpt-4-system-card.pdf)
+- [LangFlow](https://github.com/logspace-ai/langflow) - User Interface For LangChain.
+- [Alpaca-LoRA: Low-Rank LLaMA Instruct-Tuning](https://github.com/tloen/alpaca-lora)
+- [Paper list of "The Life Cycle of Knowledge in Big Language Models: A Survey"](https://github.com/c-box/KnowledgeLifecycle)
+- [AI Q&A for huggingface/diffusers](https://quick-question.fly.dev/huggingface/diffusers)
+- [bloomz.cpp](https://github.com/NouamaneTazi/bloomz.cpp) - Inference of HuggingFace's BLOOM-like models in pure C/C++.
+- [MiniLLM: Large Language Models on Consumer GPUs](https://github.com/kuleshov/minillm)
+- [Guardrails](https://github.com/ShreyaR/guardrails) - Python package for specifying structure and type, validating and correcting the outputs of large language models.
+- [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp) - Run an Instruction-Tuned Chat-Style LLM on a MacBook. ([HN](https://news.ycombinator.com/item?id=35184985))
+- [TextSynth Server](https://bellard.org/ts_server/) - REST API to large language models. ([HN](https://news.ycombinator.com/item?id=35180429))
+- [Wolverine](https://github.com/biobootloader/wolverine) - Give your python scripts regenerative healing abilities.
+- [Recursive LLM prompts](https://github.com/andyk/recursive_llm) - Implement recursion using English as the programming language and GPT as the runtime.
+- [Alpaca-LoRA as a Chatbot Service](https://github.com/deep-diver/Alpaca-LoRA-Serve)
+- [Simple UI for LLaMA Model Finetuning](https://github.com/lxe/simple-llama-finetuner)
+- [Serge](https://github.com/nsarrazin/serge) - Web interface for chatting with Alpaca through llama.cpp. Fully dockerized, with an easy to use API.
+- [llama-cli](https://github.com/go-skynet/llama-cli) - Self-hosted, Simple LLaMA/alpaca API & CLI written in go.
+- [Kor](https://github.com/eyurtsev/kor) - Extract structured data from text using LLMs. Specify the schema of what should be extracted and provide some examples.
+- [Cheating is all you need (2023)](https://about.sourcegraph.com/blog/cheating-is-all-you-need) ([HN](https://news.ycombinator.com/item?id=35273406))
+- [Prompt Engineering (2023)](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)
+- [Prompt Engineering Guide](https://www.promptingguide.ai/)
+- [Anthropic Python SDK](https://github.com/anthropics/anthropic-sdk-python) - Access to Anthropic's safety-first language model APIs.
+- [Alpaca-LoRA with Docker](https://github.com/chris-alexiuk/alpaca-lora) ([HN](https://news.ycombinator.com/item?id=35287740))
+- [Autodoc](https://github.com/context-labs/autodoc) - Toolkit for auto-generating codebase documentation using LLMs. ([HN](https://news.ycombinator.com/item?id=35297766))
+- [Dolly](https://github.com/databrickslabs/dolly) - Fine-tunes the GPT-J 6B model on the Alpaca dataset using a Databricks notebook.
+- [Reflexion: an autonomous agent with dynamic memory and self-reflection (2023)](https://arxiv.org/abs/2303.11366) ([Code](https://github.com/noahshinn024/reflexion-human-eval))
+- [CodeAlpaca – Instruction following code generation model](https://github.com/sahil280114/codealpaca) ([HN](https://news.ycombinator.com/item?id=35302858))
+- [LLaMA retrieval plugin](https://github.com/lastmile-ai/llama-retrieval-plugin) - Using OpenAI's retrieval plugin.
+- [Retrieval in LangChain (2023)](https://blog.langchain.dev/retrieval/) ([HN](https://news.ycombinator.com/item?id=35301943))
+- [Open Sourcing Cody – Sourcegraph's AI-enabled editor assistant (2023)](https://about.sourcegraph.com/blog/open-sourcing-cody) ([HN](https://news.ycombinator.com/item?id=35339010))
+- [Cerebras-GPT: A Family of Open, Compute-Efficient, Large Language Models (2023)](https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/) ([HN](https://news.ycombinator.com/item?id=35343763))
+- [Lit-LLaMA](https://github.com/Lightning-AI/lit-llama) - Open-source implementation of LLaMA. ([HN](https://news.ycombinator.com/item?id=35344787))
+- [GPT4All](https://github.com/nomic-ai/gpt4all) - Demo, data and code to train an assistant-style large language model with ~800k GPT-3.5-Turbo Generations based on LLaMa. ([HN](https://news.ycombinator.com/item?id=35349608)) ([Tweet](https://twitter.com/andriy_mulyar/status/1640836003194630144))
+- [LLMs and GPT: Some of my favorite learning materials](https://gist.github.com/rain-1/eebd5e5eb2784feecf450324e3341c8d) ([HN](https://news.ycombinator.com/item?id=35343791))
+- [Malleable software in the age of LLMs (2023)](https://www.geoffreylitt.com/2023/03/25/llm-end-user-programming.html)
+- [Llama.cpp 30B runs with only 6GB of RAM now (2023)](https://github.com/ggerganov/llama.cpp/pull/613) ([HN](https://news.ycombinator.com/item?id=35393284))
+- [Baseplate](https://www.baseplate.ai/) - Back end-as-a-service for LLM apps. ([HN](https://news.ycombinator.com/item?id=35375727))
+- [Vocode](https://docs.vocode.dev/welcome) - Library for voice conversation with LLMs. ([HN](https://news.ycombinator.com/item?id=35358873)) ([Code](https://github.com/vocodedev/vocode-python))
+- [Finetuning LLMs on a Single GPU Using Gradient Accumulation (2023)](https://lightning.ai/pages/blog/gradient-accumulation/)
+- [Marvin](https://github.com/PrefectHQ/marvin) - Build AI functions that use an LLM as a runtime. ([HN](https://news.ycombinator.com/item?id=35366838))
+- [llm-cli](https://github.com/simonw/llm-cli) - Access large language models from the command-line.
+- [xturing](https://github.com/stochasticai/xturing) - Build and control your own LLMs.
+- [Five years of GPT progress (2023)](https://finbarr.ca/five-years-of-gpt-progress/)
+- [Actually, Othello-GPT Has A Linear Emergent World Representation (2023)](https://www.alignmentforum.org/posts/nmxzr2zsjNtjaHh7x/actually-othello-gpt-has-a-linear-emergent-world)
+- [PromptPerfect](https://promptperfect.jina.ai/) - Elevate your prompts to perfection. ([HN](https://news.ycombinator.com/item?id=35660751))
+- [gpt4all.cpp](https://github.com/zanussbaum/gpt4all.cpp)
+- [Wove](https://github.com/zckly/wove) - Tool for building long-running workflows with LLMs.
+- [Eight Things to Know about Large Language Models (2023)](https://cims.nyu.edu/~sbowman/eightthings.pdf) ([HN](https://news.ycombinator.com/item?id=35434679))
+- [MiniChain](https://github.com/srush/MiniChain) - Tiny library for coding with large language models.
+- [Dynamic Web Interface](https://github.com/zckly/dynamic-interface-web) - Dynamically generate UI with Large Language Models.
+- [JARVIS](https://github.com/microsoft/JARVIS) - System to connect LLMs with ML community.
+- [OpenFlamingo](https://github.com/mlfoundations/open_flamingo) - Open-source framework for training large multimodal models.
+- [LangChain Tutorials](https://github.com/gkamradt/langchain-tutorials) - Overview and tutorial of the LangChain Library.
+- [babyagi](https://github.com/yoheinakajima/babyagi) - Python script is an example of an AI-powered task management system.
+- [Implicit Representations of Meaning in Neural Language Models (2023)](https://underline.io/lecture/25456-implicit-representations-of-meaning-in-neural-language-models)
+- [LLM playground you can run on your laptop](https://github.com/nat/openplayground) ([HN](https://news.ycombinator.com/item?id=35434790))
+- [Introducing Agents in Haystack: Make LLMs resolve complex tasks (2023)](https://haystack.deepset.ai/blog/introducing-haystack-agents) ([HN](https://news.ycombinator.com/item?id=35430188))
+- [Fast Inference Solutions for BLOOM](https://github.com/huggingface/transformers-bloom-inference)
+- [LLM Augmenter](https://github.com/pengbaolin/LLM-Augmenter)
+- [gpt4all-ts](https://github.com/nomic-ai/gpt4all-ts) - TypeScript library that provides an interface to interact with GPT4All.
+- [PyLLaMACpp](https://github.com/nomic-ai/pyllamacpp) - Official supported Python bindings for llama.cpp + gpt4all.
+- [Baize](https://github.com/project-baize/baize) - Open-source chatbot trained with ChatGPT self-chatting data.
+- [e2b](https://github.com/e2b-dev/e2b) - IDE powered by AI agents. Developers describe what they want to build by writing documentation.
+- [RPTQ: Reorder-based Post-training Quantization for Large Language Models (2023)](https://arxiv.org/abs/2304.01089) ([Code](https://github.com/hahnyuan/RPTQ4LLM))
+- [Module: AI-Assisted Code Generation](https://github.com/danfinlay/llm-architect)
+- [Alpaca Libre](https://github.com/mobarski/alpaca-libre) - Reimplementation of the task generation part from the Alpaca paper.
+- [TextAugment](https://github.com/dsfsi/textaugment) - Text Augmentation Library.
+- [NLP Test: Deliver Safe & Effective Models](https://github.com/JohnSnowLabs/nlptest)
+- [nanoT5](https://github.com/PiotrNawrot/nanoT5) - Fast & Simple repository for pre-training and fine-tuning T5-style models.
+- [llama_infer](https://github.com/zsc/llama_infer) - Inference script for Meta's LLaMA models using Hugging Face wrapper.
+- [OpenAI Tokenizer](https://platform.openai.com/tokenizer) ([HN](https://news.ycombinator.com/item?id=35453400))
+- [GradientJ](https://gradientj.com/) - Build NLP Applications Faster with LLMs. ([HN](https://news.ycombinator.com/item?id=35445097))
+- [Simply explained: how does GPT work? (2023)](https://confusedbit.dev/posts/how_does_gpt_work/) ([HN](https://news.ycombinator.com/item?id=35466201))
+- [LLM Agents](https://github.com/mpaepper/llm_agents) - Build agents which are controlled by LLMs.
+- [LLMParser](https://github.com/kyang6/llmparser) - Classify and extract structured data with LLMs.
+- [ChatArena](https://github.com/chatarena/chatarena) - Multi-Agent Language Game Environments for LLMs.
+- [State-of-the-art open-source chatbot, Vicuna-13B, just released model weights](https://twitter.com/lmsysorg/status/1642968294998306816) ([HN](https://news.ycombinator.com/item?id=35430432))
+- [Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling (2023)](https://arxiv.org/abs/2304.01373) ([HN](https://news.ycombinator.com/item?id=35449559))
+- [Diffusion language models (2023)](https://sander.ai/2023/01/09/diffusion-language.html)
+- [Tabby](https://github.com/TabbyML/tabby) - Self-Hosted GitHub Copilot. ([HN](https://news.ycombinator.com/item?id=35470915))
+- [LMQL](https://github.com/eth-sri/lmql) - Query language for programming (large) language models.
+- [Instruction Tuning with GPT-4 (2023)](https://arxiv.org/abs/2304.03277) ([Code](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM))
+- [UltraChat: Large-scale, Informative, and Diverse Multi-round Dialogue Data](https://github.com/thunlp/UltraChat)
+- [GPTCache](https://github.com/zilliztech/GPTCache) - Library for Creating Semantic Cache for LLM Queries.
+- [clip-interrogator](https://github.com/pharmapsychotic/clip-interrogator) - Image to prompt with BLIP and CLIP.
+- [StackLlama: A hands-on guide to train LlaMa with RLHF](https://huggingface.co/blog/stackllama)
+- [XPretrain](https://github.com/microsoft/XPretrain) - Multi-modality pre-training.
+- [Alpaca-Turbo](https://github.com/ViperX7/Alpaca-Turbo) - Web UI to run alpaca model locally.
+- [EVAL](https://github.com/corca-ai/EVAL) - Elastic Versatile Agent with Langchain. Will execute all your requests. Just like an eval method.
+- [GPT4All.zig](https://github.com/renerocksai/gpt4all.zig) - Run a GPT4All model locally.
+- [LLaMA-Adapter: Efficient Fine-tuning of LLaMA](https://github.com/ZrrSkywalker/LLaMA-Adapter)
+- [llama-node](https://github.com/hlhr202/llama-node) - Large Language Model LLaMA on node.js.
+- [LangChain as an AIPlugin](https://github.com/langchain-ai/langchain-aiplugin)
+- [Motörhead](https://github.com/getmetal/motorhead) - Memory and information retrieval server for LLMs.
+- [Flan-Eval: Reproducible Held-Out Evaluation for Instruction Tuning](https://github.com/declare-lab/flan-eval)
+- [LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models (2023)](https://arxiv.org/abs/2304.01933) ([Code](https://github.com/AGI-Edgerunners/LLM-Adapters))
+- [AgentGPT](https://github.com/reworkd/AgentGPT) - Assemble, configure, and deploy autonomous AI Agents in your browser. ([Web](https://agentgpt.reworkd.ai/))
+- [LLaMa-Pruning: Structural Pruning for LLaMa](https://github.com/horseee/LLaMa-Pruning)
+- [Simple Hierarchical Transformer](https://github.com/lucidrains/simple-hierarchical-transformer)
+- [The LLama Effect: Leak Sparked a Series of Open Source Alternatives to ChatGPT (2023)](https://thesequence.substack.com/p/the-llama-effect-how-an-accidental) ([HN](https://news.ycombinator.com/item?id=35504428))
+- [Baby GPT](https://twitter.com/karpathy/status/1645115622517542913) ([HN](https://news.ycombinator.com/item?id=35506069))
+- [Large Language Models Are Human-Level Prompt Engineers (2023)](https://openreview.net/forum?id=92gvk82DE-) ([HN](https://news.ycombinator.com/item?id=35506472))
+- [LLaMA_MPS](https://github.com/jankais3r/LLaMA_MPS) - Run LLaMA (and Stanford-Alpaca) inference on Apple Silicon GPUs.
+- [Ask HN: Open source LLM for commercial use? (2023)](https://news.ycombinator.com/item?id=35512338)
+- [DyLoRA: Parameter Efficient Tuning of Pre-trained Models using Dynamic Search-Free Low-Rank Adaptation (2022)](https://arxiv.org/abs/2210.07558)
+- [Why is GPT-3 15.77x more expensive for certain languages? (2023)](https://denyslinkov.medium.com/why-is-gpt-3-15-77x-more-expensive-for-certain-languages-2b19a4adc4bc)
+- [Data processing pipeline for the Koala chatbot language model](https://github.com/young-geng/koala_data_pipeline)
+- [TurboPilot](https://github.com/ravenscroftj/turbopilot) - Self-hosted copilot clone which uses the library behind llama.cpp to run the 6 Billion Parameter Salesforce Codegen model in 4GiB of RAM.
+- [Prompt Lang](https://github.com/generative-magic/promptlang) - Mini programming language for prompting LLMs.
+- [Python Bindings for llama.cpp](https://github.com/abetlen/llama-cpp-python)
+- [Maximizing the Potential of LLMs: A Guide to Prompt Engineering (2023)](https://www.ruxu.dev/articles/ai/maximizing-the-potential-of-llms/) ([HN](https://news.ycombinator.com/item?id=35522080))
+- [LLM-Chain](https://github.com/sobelio/llm-chain) - Rust crate for building chains in large language models allowing you to summarise text and complete complex tasks.
+- [PhaseLLM](https://github.com/wgryc/phasellm) - Large language model evaluation and workflow framework from Phase AI. ([HN](https://news.ycombinator.com/item?id=35527907))
+- [The Coming of Local LLMs (2023)](https://nickarner.com/notes/the-coming-of-local-llms-march-23-2023/) ([HN](https://news.ycombinator.com/item?id=35526401))
+- [CAMEL: Communicative Agents for “Mind” Exploration of Large Scale Language Model Society](https://github.com/lightaime/camel)
+- [BabyAGI: an Autonomous and Self-Improving agent, or BASI](https://github.com/oliveirabruno01/babyagi-asi)
+- [I built my own AutoGPT that makes videos (2023)](https://www.youtube.com/watch?v=_rGXIXyNqpk)
+- [How does LangChain actually work? (2023)](https://twitter.com/radekosmulski/status/1645713315971354626)
+- [Awesome Decentralized LLM](https://github.com/imaurer/awesome-decentralized-llm)
+- [OpenAGI: When LLM Meets Domain Experts (2023)](https://arxiv.org/abs/2304.04370) ([Code](https://github.com/agiresearch/OpenAGI))
+- [Teaching Large Language Models to Self-Debug (2023)](https://arxiv.org/abs/2304.05128)
+- [Flowise - LangchainJS UI](https://github.com/FlowiseAI/Flowise) - Drag & drop UI to build your customized LLM flow using LangchainJS.
+- [LlamaChat](https://github.com/alexrozanski/LlamaChat) - Chat with your favorite LLaMA models, right on your Mac.
+- [BabyAGI JS](https://github.com/ericciarla/babyagijs)
+- [LLaMA.go](https://github.com/gotzmann/llama.go) - Like llama.cpp in pure Go.
+- [Free Dolly: Introducing the World's First Open and Commercially Viable Instruction-Tuned LLM (2023)](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm) ([Reddit](https://www.reddit.com/r/MachineLearning/comments/12jqbzp/n_dolly_20_an_open_source_instructionfollowing/))
+- [How does a Large Language Model like ChatGPT actually work?](https://twitter.com/DanHollick/status/1646509271843225600)
+- [Building LLM applications for production (2023)](https://huyenchip.com/2023/04/11/llm-engineering.html) ([HN](https://news.ycombinator.com/item?id=35565212))
+- [Poking around OpenAI (2023)](https://lethain.com/openai-exploration/) ([Lobsters](https://lobste.rs/s/z0nljn/llms_are_showing_significant_promise_at))
+- [Web LLM](https://github.com/mlc-ai/web-llm) - WebGPU Powered Inference of Large Language Models. ([HN](https://news.ycombinator.com/item?id=35583349))
+- [Databerry](https://github.com/gmpetrov/databerry) - Connect your data to large language models.
+- [StableLM](https://github.com/Stability-AI/StableLM) - Stability AI Language Models. ([Article](https://stability.ai/blog/stability-ai-launches-the-first-of-its-stablelm-suite-of-language-models)) ([HN](https://news.ycombinator.com/item?id=35629127))
+- [Web LLM runs the vicuna-7b Large Language Model entirely in your browser, and it’s very impressive (2023)](https://simonwillison.net/2023/Apr/16/web-llm/) ([Lobsters](https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language))
+- [How does GPT-3 spend its 175B parameters? (2023)](https://aizi.substack.com/p/how-does-gpt-3-spend-its-175b-parameters)
+- [Peak LLM? (2023)](https://ihavemanythoughts.substack.com/p/peak-llm) ([HN](https://news.ycombinator.com/item?id=35591337))
+- [Autonomous Agents and Agent Simulations (2023)](https://blog.langchain.dev/agents-round/) ([HN](https://news.ycombinator.com/item?id=35635225))
+- [How to train your own large language models (2023)](https://blog.replit.com/llm-training) ([HN](https://news.ycombinator.com/item?id=35635209))
+- [Question Extractor](https://github.com/nestordemeure/question_extractor) - Generate question/answer training pairs out of raw text.
+- [An example of LLM prompting for programming (2023)](https://martinfowler.com/articles/2023-chatgpt-xu-hao.html) ([HN](https://news.ycombinator.com/item?id=35612494))
+- [Awesome Adapter Resources](https://github.com/calpt/awesome-adapter-resources) - Collection of Tools and Papers related to Adapters (aka Parameter-Efficient Transfer Learning/ Fine-Tuning).
+- [Keeping Track of Affordable Language Models, 🦙 Cult and More](https://github.com/shm007g/LLaMA-Cult-and-More)
+- [Reasoning with Language Model Prompting Papers](https://github.com/zjunlp/Prompt4ReasoningPapers)
+- [InsightFlow](https://github.com/plchld/InsightFlow) - LLM-based tool for parsing information and chatting with it.
+- [Megabots](https://github.com/momegas/megabots) - State-of-the-art, production ready LLM apps made mega-easy.
+- [openpm-langchain](https://github.com/team-openpm/openpm-langchain) - Openpm is a package manager for OpenAPI files.
+- [supercharger](https://github.com/catid/supercharger) - Leverage locally-hosted Large Language Models to write software + unit tests for you.
+- [LLaVA: Large Language and Vision Assistant](https://github.com/haotian-liu/LLaVA) - Large Language-and-Vision Assistant built towards multimodal GPT-4 level capabilities. ([Web](https://llava-vl.github.io/))
+- [GPT4All Chat](https://gpt4all.io/index.html) - Locally-running AI chat application powered by the GPT4All-J.
+- [AI Playground by Vercel Labs](https://play.vercel.ai/)
+- [Understanding Large Language Models (2023)](https://magazine.sebastianraschka.com/p/understanding-large-language-models)
+- [RedPajama](https://www.together.xyz/blog/redpajama) - Create leading open-source models, starts by reproducing LLaMA training dataset of over 1.2 trillion tokens.
+- [How to run your own LLM (GPT) (2023)](https://blog.rfox.eu/en/Programming/How_to_run_your_own_LLM_GPT.html)
+- [H2O LLM Studio](https://github.com/h2oai/h2o-llmstudio) - Framework and no-code GUI for fine-tuning LLMs.
+- [Finetuning Large Language Models (2023)](https://magazine.sebastianraschka.com/p/finetuning-large-language-models) ([HN](https://news.ycombinator.com/item?id=35666201))
+- [LLaMA-8bit-LoRA](https://github.com/serp-ai/LLaMA-8bit-LoRA) - Training a LoRA for the LLaMA model on HuggingFace with 8-bit quantization.
+- [Alpaca Electron](https://github.com/ItsPi3141/alpaca-electron) - Simpler way to run Alpaca.
+- [Large Language Models: Scaling Laws and Emergent Properties (2023)](https://cthiriet.com/articles/scaling-laws)
+- [Prompt engineering vs. blind prompting (2023)](https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting) ([HN](https://news.ycombinator.com/item?id=35668387))
+- [CameLLM](https://github.com/CameLLM/CameLLM) - Run your favorite LLMs locally on macOS from Swift.
+- [Pretraining Language Models with Human Preferences (2023)](https://arxiv.org/abs/2302.08582) ([Code](https://github.com/tomekkorbak/pretraining-with-human-feedback))
+- [LocalAI](https://github.com/go-skynet/LocalAI) - OpenAI compatible API to run LLM models locally on consumer grade hardware. ([Reddit](https://www.reddit.com/r/selfhosted/comments/12w4p2f/localai_openai_compatible_api_to_run_llm_models/))
+- [Reverse engineering of Google's Bard API](https://github.com/acheong08/Bard)
+- [How many decisions and pre-processing steps you need to train large language models (LLMs) such as LLaMA (2023)](https://twitter.com/tarantulae/status/1650170087708454913?s=52&t=Jy0j2KsCc64ttWDdWkAdvw)
+- [gpt-llama.cpp](https://github.com/keldenl/gpt-llama.cpp) - Llama.cpp drop-in replacement for OpenAI's GPT endpoints, allowing GPT-powered apps to run off local llama.cpp models instead of OpenAI.
+- [Micro Agent](https://github.com/pHaeusler/micro-agent) - Tiny implementation of an autonomous agent powered by LLMs (OpenAI GPT-4).
+- [spacy-huggingface-pipelines](https://github.com/explosion/spacy-huggingface-pipelines) - Use pretrained transformer models for text and token classification.
+- [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) - Collection of papers and resources related to Large Language Models.
+- [Sapiens](https://github.com/ssoudan/sapiens) - Fun with chatGPT API, llm-chain and huelib.
+- [Anthropic TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript)
+- [Recurrent Memory Transformer (2022)](https://arxiv.org/abs/2207.06881) ([Code](https://github.com/lucidrains/recurrent-memory-transformer-pytorch))
+- [Dataless Knowledge Fusion by Merging Weights of Language Models (2023)](https://openreview.net/forum?id=FCnohuR6AnM) ([Code](https://github.com/bloomberg/dataless-model-merging))
+- [PotatoGPT](https://github.com/newhouseb/potatogpt) - Pure Typescript, dependency free, ridiculously slow implementation of GPT2 for educational purposes.
+- [Aria](https://github.com/lifan0127/ai-research-assistant) - AI Research Assistant Powered by Large Language Models.
+- [igoGPT](https://github.com/igolaizola/igogpt) - Tool inspired by AutoGPT implemented in Go.
+- [The Dual LLM pattern for building AI assistants that can resist prompt injection (2023)](https://simonwillison.net/2023/Apr/25/dual-llm-pattern/) ([Lobsters](https://lobste.rs/s/ltyzx5/dual_llm_pattern_for_building_ai))
+- [HuggingChat](https://huggingface.co/chat/) ([HN](https://news.ycombinator.com/item?id=35701846)) ([Code](https://github.com/huggingface/chat-ui)) ([HN](https://news.ycombinator.com/item?id=35907564))
+- [PromptWatch](https://www.promptwatch.io/) - LangChain tracing on steroids.
+- [QuiLLMan](https://github.com/modal-labs/quillman) - Voice Chat with LLMs. ([HN](https://news.ycombinator.com/item?id=35701534))
+- [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - Toolkit for easily adding programmable guardrails to LLM-based conversational systems.
+- [LLMComposer](https://github.com/deluan/llmcomposer) - Go framework for language model-powered applications with composability and chaining. Inspired by LangChain.
+- [MicroGPT](https://github.com/muellerberndt/micro-gpt) - Minimal general-purpose autonomous agent based on GPT-3.5 / GPT-4.
+- [AudioGPT: Understanding and Generating Speech, Music, Sound, and Talking Head (2023)](https://arxiv.org/abs/2304.12995) ([HN](https://news.ycombinator.com/item?id=35709975))
+- [A guide to prompting AI, for what it is worth (2023)](https://www.oneusefulthing.org/p/a-guide-to-prompting-ai-for-what) ([HN](https://news.ycombinator.com/item?id=35712375))
+- [deepdoctection](https://github.com/deepdoctection/deepdoctection) - Document extraction and analysis using deep learning models. ([HN](https://news.ycombinator.com/item?id=35719937))
+- [LangForge](https://github.com/mme/langforge) - Toolkit for Creating and Deploying LangChain Apps.
+- [Self-INSTRUCT](https://github.com/Stevenic/self-instruct) - Similar to Auto-GPT but with better reasoning and planning.
+- [Semantic Tokenizer for Enhanced Natural Language Processing (2023)](https://arxiv.org/abs/2304.12404) ([HN](https://news.ycombinator.com/item?id=35729586))
+- [Current architectural best practices for LLM applications (2023)](https://mattboegner.com/knowledge-retrieval-architecture-for-llms/) ([HN](https://news.ycombinator.com/item?id=35734685))
+- [You probably don't know how to do Prompt Engineering (2023)](https://gist.github.com/Hellisotherpeople/45c619ee22aac6865ca4bb328eb58faf) ([HN](https://news.ycombinator.com/item?id=35746249))
+- [Lamini](https://github.com/lamini-ai/lamini) - LLM engine for rapidly customizing models.
+- [Stability AI releases StableVicuna, a RLHF LLM Chatbot (2023)](https://stability.ai/blog/stablevicuna-open-source-rlhf-chatbot) ([HN](https://news.ycombinator.com/item?id=35745682))
+- [A brief history of LLaMA models (2023)](https://agi-sphere.com/llama-models/) ([HN](https://news.ycombinator.com/item?id=35736872))
+- [AudioGPT: Understanding and Generating Speech, Music, Sound, and Talking Head](https://github.com/AIGC-Audio/AudioGPT)
+- [Introducing Lamini, the LLM Engine for Rapid Customization (2023)](https://lamini.ai/blog/introducing-lamini)
+- [The Practical Guides for Large Language Models](https://github.com/Mooler0410/LLMsPracticalGuide) - Curated list of practical guide resources of LLMs (LLMs Tree, Examples, Papers). ([Paper](https://arxiv.org/abs/2304.13712v2))
+- [Instruction Tuning Papers](https://github.com/SinclairCoder/Instruction-Tuning-Papers)
+- [WangChanGLM](https://github.com/PyThaiNLP/WangChanGLM) - Multilingual Instruction-Following Model.
+- [Otter](https://github.com/Luodian/Otter) - Instruction-tuned model built upon OpenFlamingo that has been customized for a context.
+- [Jsonformer: A Bulletproof Way to Generate Structured JSON from Language Models](https://github.com/1rgs/jsonformer) ([HN](https://news.ycombinator.com/item?id=35790092))
+- [OpenLLaMA](https://github.com/openlm-research/open_llama) - Open Reproduction of LLaMA. ([HN](https://news.ycombinator.com/item?id=35798888))
+- [Avoiding hallucinations in LLM-powered applications (2023)](https://vectara.com/avoiding-hallucinations-in-llm-powered-applications/) ([HN](https://news.ycombinator.com/item?id=35794010))
+- [Replit's new Code LLM: Open Source, 77% smaller than Codex, trained in 1 week (2023)](https://www.latent.space/p/reza-shabani#details) ([HN](https://news.ycombinator.com/item?id=35803435))
+- [LangChain Supabase template](https://github.com/langchain-ai/langchain-template-supabase)
+- [LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions](https://github.com/mbzuai-nlp/LaMini-LM)
+- [llm.ts](https://github.com/r2d4/llm.ts) - Call any LLM with a single API. Zero dependencies.
+- [Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes (2023)](https://arxiv.org/abs/2305.02301) ([HN](https://news.ycombinator.com/item?id=35810663))
+- [Augmenting LLMs Beyond Basic Text Completion and Transformation (2023)](https://blog.deepgram.com/augmenting-llms-beyond-basic-text-completion-and-transformation/) ([HN](https://news.ycombinator.com/item?id=35819613))
+- [Fixing Hallucination with Knowledge Bases](https://www.pinecone.io/learn/langchain-retrieval-augmentation/) ([HN](https://news.ycombinator.com/item?id=35821695))
+- [Re-implementing LangChain in 100 lines of code (2023)](https://blog.scottlogic.com/2023/05/04/langchain-mini.html) ([HN](https://news.ycombinator.com/item?id=35820931))
+- [gpt-json](https://github.com/piercefreeman/gpt-json) - Structured and typehinted GPT responses in Python. ([HN](https://news.ycombinator.com/item?id=35821748))
+- [BMTools](https://github.com/OpenBMB/BMTools) - Tool Learning for Big Models, Open-Source Solutions of ChatGPT-Plugins.
+- [AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ) - Easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
+- [StarCoder](https://github.com/bigcode-project/starcoder) - Language model (LM) trained on source code and natural language text.
+- [ReLLM: Exact Structure for Large Language Model Completions (2023)](https://matt-rickard.com/rellm) ([HN](https://news.ycombinator.com/item?id=35829399))
+- [Releasing 3B and 7B RedPajama (2023)](https://www.together.xyz/blog/redpajama-models-v1) ([HN](https://news.ycombinator.com/item?id=35836411))
+- [Unlimiformer: Long-Range Transformers with Unlimited Length Input (2023)](https://arxiv.org/abs/2305.01625) ([HN](https://news.ycombinator.com/item?id=35832802)) ([Code](https://github.com/abertsch72/unlimiformer))
+- [MosaicML MPT-7B: A Commercially-Usable LLaMa-Quality Model (2023)](https://www.mosaicml.com/blog/mpt-7b) ([HN](https://news.ycombinator.com/item?id=35829800)) ([Reddit](https://www.reddit.com/r/MachineLearning/comments/138sdwu/n_introducing_mpt7b_a_new_standard_for_opensource/))
+- [WizardVicunaLM](https://github.com/melodysdreamj/WizardVicunaLM) - LLM that combines the principles of wizardLM and vicunaLM.
+- [Dolphin](https://github.com/kaleido-lab/dolphin) - General video interaction platform based on LLMs.
+- [Uses Auto-GPT with Llama.cpp](https://github.com/rhohndorf/Auto-Llama-cpp)
+- [Open LLMs](https://github.com/eugeneyan/open-llms)
+- [Awesome Instruction Dataset](https://github.com/yaodongC/awesome-instruction-dataset)
+- [VardaGPT](https://github.com/ixaxaar/VardaGPT) - Associative memory-enhanced GPT-2 model.
+- [LLM Foundry](https://github.com/mosaicml/llm-foundry) - LLM training code for MosaicML foundation models.
+- [ThinkGPT](https://github.com/jina-ai/thinkgpt) - Agent techniques to augment your LLM and push it beyong its limits.
+- [Indexify](https://github.com/diptanu/indexify) - Document Indexing Service with SOTA embedding models and Pluggable Vector Stores.
+- [ReplitLM](https://github.com/replit/ReplitLM) - Inference code and configs for the ReplitLM model family.
+- [ReLLM](https://github.com/r2d4/rellm) - Regular Expressions for Language Model Completions.
+- [Pre-Training to Learn in Context (2023)](https://github.com/t1101675/PICL)
+- [PandaLM: Reproducible and Automated Language Model Assessment](https://github.com/WeOpenML/PandaLM)
+- [RasaGPT](https://github.com/paulpierre/RasaGPT) - Headless LLM chatbot platform built on top of Rasa and Langchain. ([HN](https://news.ycombinator.com/item?id=35859344))
+- [privateGPT](https://github.com/imartinez/privateGPT) - Ask questions to your documents without an internet connection, using the power of LLMs. ([HN](https://news.ycombinator.com/item?id=36024503))
+- [Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models (2023)](https://arxiv.org/abs/2305.04091) ([Code](https://github.com/AGI-Edgerunners/Plan-and-Solve-Prompting))
+- [AutoGPT.js](https://github.com/zabirauf/AutoGPT.js) - Auto-GPT on the browser.
+- [Lit-Parrot](https://github.com/Lightning-AI/lit-parrot) - Implementation of the StableLM/Pythia/INCITE language models based on nanoGPT. Supports flash attention, LLaMA-Adapter fine-tuning, pre-training.
+- [HugNLP](https://github.com/HugAILab/HugNLP) - Unified and comprehensive NLP library based on HuggingFace Transformer.
+- [Automated interpretability](https://github.com/openai/automated-interpretability)
+- [OpenLM](https://github.com/r2d4/openlm) - OpenAI-compatible Python client that can call any LLM.
+- [Dromedary](https://github.com/IBM/Dromedary) - Towards helpful, ethical and reliable LLMs.
+- [PaLM](https://github.com/conceptofmind/PaLM) - Open-source implementation of Google's PaLM models.
+- [Pretraining Without Attention (2022)](https://arxiv.org/abs/2212.10544) ([Code](https://github.com/jxiw/BiGS))
+- [Hugging Face Releases Agents](https://huggingface.co/docs/transformers/transformers_agents) ([HN](https://news.ycombinator.com/item?id=35889743))
+- [WizardLM: An Instruction-following LLM Using Evol-Instruct](https://github.com/nlpxucan/WizardLM)
+- [The Leverage of LLMs for Individuals (2023)](https://mazzzystar.github.io/2023/05/10/LLM-for-individual/) ([HN](https://news.ycombinator.com/item?id=35885797))
+- [PaLM 2 Technical Report (2023)](https://ai.google/static/documents/palm2techreport.pdf) ([HN](https://news.ycombinator.com/item?id=35891444))
+- [Tips and tricks for working with Large Language Models like OpenAI's GPT-4](https://github.com/brexhq/prompt-engineering) ([HN](https://news.ycombinator.com/item?id=35942583))
+- [Open-Llama](https://github.com/s-JoL/Open-Llama) - Complete training code of the open-source high-performance Llama model, including the full process from pre-training to RLHF.
+- [LangChain Go](https://github.com/tmc/langchaingo)
+- [Anthropic - Introducing 100K Token Context Windows, Around 75,000 Words (2023)](https://www.anthropic.com/index/100k-context-windows) ([HN](https://news.ycombinator.com/item?id=35904773))
+- [SmartGPT](https://github.com/Cormanz/smartgpt) - Program that provides LLMs with the ability to complete complex tasks using plugins.
+- [LangChainTS Starter](https://github.com/domeccleston/langchain-ts-starter)
+- [How to run Llama 13B with a 6GB graphics card (2023)](https://gist.github.com/rain-1/8cc12b4b334052a21af8029aa9c4fafc) ([HN](https://news.ycombinator.com/item?id=35937505))
+- [Context-Free Grammar Parsing with LLMs (2023)](https://matt-rickard.com/context-free-grammar-parsing-with-llms)
+- [Smol Developer](https://github.com/smol-ai/developer) - Human-centric & Coherent Whole Program Synthesis aka your own personal junior developer. ([HN](https://news.ycombinator.com/item?id=35945467))
+- [Google Bard API](https://github.com/dsdanielpark/Bard-API)
+- [StarCoder: may the source be with you! (2023)](https://arxiv.org/abs/2305.06161) ([HN](https://news.ycombinator.com/item?id=35954481))
+- [React LLM](https://github.com/r2d4/react-llm) - Easy-to-use headless React Hooks to run LLMs in the browser with WebGPU.
+- [Guidance](https://github.com/microsoft/guidance) - Guidance language for controlling large language models. ([HN](https://news.ycombinator.com/item?id=35963936))
+- [Dify](https://github.com/langgenius/dify) - One API for plugins and datasets, one interface for prompt engineering and visual operation, all for creating powerful AI applications.
+- [Speak, Memory: An Archaeology of Books Known to ChatGPT/GPT-4 (2023)](https://arxiv.org/abs/2305.00118) ([Code](https://github.com/bamman-group/gpt4-books))
+- [BriefGPT](https://github.com/e-johnstonn/BriefGPT) - Locally hosted tool that connects documents to LLMs for summarization and querying, with a simple GUI.
+- [StructGPT: A General Framework for Large Language Model to Reason over Structured Data (2023)](https://arxiv.org/abs/2305.09645) ([Code](https://github.com/JBoRu/StructGPT))
+- [Numbers every LLM Developer should know](https://github.com/ray-project/llm-numbers) ([HN](https://news.ycombinator.com/item?id=35978864))
+- [Rebuff](https://github.com/woop/rebuff) - Prompt Injection Detector.
+- [API Bot tutorial](https://github.com/poe-platform/api-bot-tutorial)
+- [openai-ext](https://github.com/justinmahar/openai-ext) - Extension to OpenAI's API to support streaming chat completions.
+- [Langdock](https://www.langdock.com/) - Open Source LLM Plugin Platform..
+- [Awesome LangChain](https://github.com/kyrolabs/awesome-langchain)
+- [SuperAgent](https://github.com/homanp/superagent) - Deploy LLM Agents to production.
+- [TokenHawk](https://github.com/kayvr/token-hawk) - WebGPU LLM inference tuned by hand.
+- [LMDB](https://github.com/gbasin/LMDB) - Database powered by language models.
+- [ChatALL](https://github.com/sunner/ChatALL) - Chat with ALL AI Bots Concurrently, Discover the Best.
+- [Zeno Build](https://github.com/zeno-ml/zeno-build) - Build, evaluate, analyze, and understand LLM-based apps.
+- [TinyStories: How Small Can Language Models Be and Still Speak Coherent English? (2023)](https://arxiv.org/abs/2305.07759)
+- [LangChain: The Missing Manual (2023)](https://www.pinecone.io/learn/langchain/) ([HN](https://news.ycombinator.com/item?id=36001465))
+- [LLM VM](https://github.com/anarchy-ai/LLM-VM) - LLM infrastructure for developers.
+- [LLM-Pruner](https://github.com/horseee/LLM-Pruner) - On the Structural Pruning of Large Language Models.
+- [Poe API Node](https://github.com/AHGGG/poe-node-api)
+- [Danswer](https://github.com/danswer-ai/danswer) - OpenSource Enterprise Question-Answering.
+- [Instruct2Act: Mapping Multi-modality Instructions to Robotic Actions with Large Language Model](https://github.com/OpenGVLab/Instruct2Act)
+- [Langchain Chat Bot](https://github.com/Haste171/langchain-chatbot) - AI Chatbot for analyzing/extracting information from data in conversational format. Mainly PDF files.
+- [Lanarky](https://github.com/ajndkr/lanarky) - Ship production-ready LLM projects with FastAPI.
+- [Emdash](https://github.com/dmotz/emdash) - Uses AI to organize text snippets so you can actually remember & learn from what you read.
+- [PyLLMs](https://github.com/kagisearch/pyllms) - Minimal Python library to connect to LLMs (OpenAI, Anthropic, AI21, Cohere, Aleph Alpha, HuggingfaceHub, Google PaLM2, with a built-in model performance benchmark.
+- [string2string](https://github.com/stanfordnlp/string2string) - String-to-String Algorithms for Natural Language Processing.
+- [gmessage](https://github.com/drbh/gmessage) - Web UI for gpt4all.
+- [Tree of Thoughts: Deliberate Problem Solving with Large Language Models (2023)](https://arxiv.org/abs/2305.10601) ([Code](https://github.com/ysymyth/tree-of-thought-llm)) ([Code](https://github.com/kyegomez/tree-of-thoughts))
+- [llm, ttok and strip-tags—CLI tools for working with ChatGPT and other LLMs (2023)](https://simonwillison.net/2023/May/18/cli-tools-for-llms/)
+- [GPTeam](https://github.com/101dotxyz/GPTeam) - Open-source multi-agent simulation.
+- [python-llm](https://github.com/danielgross/python-llm) - LLM API for Humans.
+- [Plug and Plai](https://github.com/edreisMD/plugnplai) - Integrating AI plugins to LLMs.
+- [ChatGPT, GenerativeAI and LLMs Timeline](https://github.com/hollobit/GenAI_LLM_timeline)
+- [Agent Smith](https://github.com/Lef-F/agent-smith) - Customizable CLI agents to answer all your quick questions.
+- [Open LLM Server](https://github.com/dcSpark-AI/open-LLM-server) - Run local LLMs via HTTP API in a single command.
+- [Pinecone Chatbot Demo](https://github.com/pinecone-io/chatbot-demo)
+- [Awesome Rust LLM](https://github.com/jondot/awesome-rust-llm)
+- [BLOOMChat Training Repo](https://github.com/sambanova/bloomchat)
+- [Zep](https://github.com/getzep/zep) - Long-term memory store for LLM / Chatbot applications.
+- [Mercury](https://github.com/Jordan-Gilliam/ai-template) - Train your own custom GPT. Chat with any file, or website.
+- [Nomic](https://github.com/nomic-ai/nomic) - Interact with Massive Embedding and Text Datasets in Your Web Browser.
+- [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+- [Chatbot Arena Leaderboard](https://chat.lmsys.org/?leaderboard)
+- [Webpilot](https://github.com/webpilot-ai/Webpilot) - Copilot for web. Allows you to have free-form conversations with web pages or engage in automatic arguments with other users.
+- [Attention](https://github.com/mattneary/attention) - Visualizing attention for LLM users.
+- [WorkGPT](https://github.com/team-openpm/workgpt)
+- [Python Poe API](https://github.com/ading2210/poe-api) - Reverse engineered API wrapper for Quora's Poe, which allows you free access to OpenAI's ChatGPT and GPT-4, as well as Antropic's Claude.
+- [yay](https://github.com/ferama/yay) - Interact with OpenAI API from command line.
+- [RWKV: Reinventing RNNs for the Transformer Era (2023)](https://arxiv.org/abs/2305.13048) ([HN](https://news.ycombinator.com/item?id=36038868))
+- [Glot500: Scaling Multilingual Corpora and Language Models to 500 Languages (2023)](https://arxiv.org/abs/2305.12182) ([Code](https://github.com/cisnlp/Glot500))
+- [OpenAI Manager](https://github.com/MrZilinXiao/openai-manager) - Speed up your OpenAI requests by balancing prompts to multiple API keys.
+- [GirlfriendGPT](https://github.com/EniasCailliau/GirlfriendGPT) - Python project to build your own AI girlfriend using ChatGPT 4.0.
+- [TheoremQA: A Theorem-driven Question Answering dataset (2023)](https://arxiv.org/abs/2305.12524) ([Code](https://github.com/wenhuchen/TheoremQA))
+- [GPT Code UI](https://github.com/ricklamers/gpt-code-ui) - Open source implementation of OpenAI's ChatGPT Code interpreter.
+- [airoboros](https://github.com/jondurbin/airoboros) - Customizable implementation of the self-instruct paper.
+- [Glass](https://github.com/foundation-ui/glass) - Domain-specific language for interacting with language models.
+- [Fondant](https://github.com/ml6team/fondant) - Sweet data-centric foundation model fine-tuning.
+- [OpenLLaMa on AWS Lambda](https://github.com/baileytec-labs/llama-on-lambda)
+- [GPT Tokenizer](https://github.com/niieani/gpt-tokenizer) - JavaScript BPE Encoder Decoder for GPT-2 / GPT-3 / GPT-4.
+- [AlpacaFarm](https://github.com/tatsu-lab/alpaca_farm) - Simulation Framework for RLHF and alternatives.
+- [RAVE-Latent Diffusion](https://github.com/moiseshorta/RAVE-Latent-Diffusion) - Generate new latent codes for RAVE with Denoising Diffusion models.
+- [DiffusionNER: Boundary Diffusion for Named Entity Recognition (2023)](https://arxiv.org/abs/2305.13298) ([Code](https://github.com/tricktreat/DiffusionNER))
+- [LasUIE: Unifying Information Extraction with Latent Adaptive Structure-aware Generative Language Model (2023)](https://arxiv.org/abs/2304.06248) ([Code](https://github.com/ChocoWu/LasUIE))
+- [RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text (2023)](https://arxiv.org/abs/2305.13304)
+- [minicons](https://github.com/kanishkamisra/minicons) - Utility for analyzing Transformer based representations of language.
+- [InfiniteGPT](https://github.com/emmethalm/infiniteGPT) - Python script that lets you input an unlimited size text into the OpenAI API. No more tedious copy & pasting. Long live multithreading.
+- [Why the Original Transformer Figure Is Wrong, and Some Other Interesting Historical Tidbits About LLMs (2023)](https://magazine.sebastianraschka.com/p/why-the-original-transformer-figure) ([HN](https://news.ycombinator.com/item?id=36057183))
+- [ChainForge](https://github.com/ianarawjo/ChainForge) - Open-source visual programming environment for battle-testing prompts to LLMs.
+- [HelpHub](https://helphub.commandbar.com/) - GPT chatbot for any site. ([HN](https://news.ycombinator.com/item?id=36057074))
+- [How to Finetune GPT Like Large Language Models on a Custom Dataset (2023)](https://lightning.ai/pages/blog/how-to-finetune-gpt-like-large-language-models-on-a-custom-dataset/) ([HN](https://news.ycombinator.com/item?id=36068850))
+- [Gorilla: Large Language Model Connected with Massive APIs (2023)](https://gorilla.cs.berkeley.edu/) ([HN](https://news.ycombinator.com/item?id=36073241))
+- [LoopGPT](https://github.com/farizrahman4u/loopgpt) - Modular Auto-GPT Framework.
+- [Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training](https://github.com/Liuhong99/Sophia)
+- [How to Finetune GPT-Like Large Language Models on a Custom Dataset (2023)](https://lightning.ai/pages/blog/how-to-finetune-gpt-like-large-language-models-on-a-custom-dataset/) ([HN](https://news.ycombinator.com/item?id=36068850))
+- [A PhD Student's Perspective on Research in NLP in the Era of Very Large Language Models (2023)](https://arxiv.org/abs/2305.12544) ([HN](https://news.ycombinator.com/item?id=36080886))
+- [Voyager | An Open-Ended Embodied Agent with Large Language Models (2023)](https://voyager.minedojo.org/) ([HN](https://news.ycombinator.com/item?id=36085936))
+- [The False Promise of Imitating Proprietary LLMs (2023)](https://arxiv.org/abs/2305.15717) ([HN](https://news.ycombinator.com/item?id=36078739))
+- [Voyager: An Open-Ended Embodied Agent with Large Language Models (2023)](https://arxiv.org/abs/2305.16291) ([Code](https://github.com/MineDojo/Voyager))
+- [MPT-Play](https://github.com/Birch-san/mpt-play) - Command-line script for inferencing from models such as MPT-7B-Chat.
+- [State of GPT (2023)](https://www.youtube.com/watch?v=bZQun8Y4L2A)
+- [Gorilla: Large Language Model Connected with Massive APIs (2023)](https://shishirpatil.github.io/gorilla/) ([Code](https://github.com/ShishirPatil/gorilla)) ([HN](https://news.ycombinator.com/item?id=36333290))
+- [iX](https://github.com/kreneskyp/ix) - Autonomous GPT-4 Agent Platform.
+- [Hard stuff when building products with LLMs (2023)](https://www.honeycomb.io/blog/hard-stuff-nobody-talks-about-llm) ([HN](https://news.ycombinator.com/item?id=36096811))
+- [Making your LLM run Python code with `llm-chain-tools` in Rust (2023)](https://blog.whn.se/posts/Giving-your-LLM-tools-with-llm-chain-tools)
+- [PrivateGPT](https://github.com/SamurAIGPT/privateGPT) - App to interact privately with your documents using the power of GPT, 100% privately, no data leaks.
+- [Salute](https://github.com/LevanKvirkvelia/salute) - Build AI agents in a declarative way. Designed to be easy to use for both humans and AIs.
+- [UnlimitedGPT](https://github.com/Sxvxgee/UnlimitedGPT) - Python wrapper for OpenAI's ChatGPT API.
+- [Macaw-LLM](https://github.com/lyuchenyang/Macaw-LLM) - Multi-Modal Language Modeling with Image, Video, Audio, and Text Integration.
+- [Multi-Modal LangChain agents in Production](https://github.com/steamship-packages/langchain-agent-production-starter)
+- [PandaGPT](https://github.com/yxuansu/PandaGPT) - One Model To Instruction-Follow Them All.
+- [Redco](https://github.com/tanyuqian/redco) - Distributed LLM training with a single line of code.
+- [Ask HN: What's the best self hosted/local alternative to GPT-4? (2023)](https://news.ycombinator.com/item?id=36138224)
+- [localGPT](https://github.com/PromtEngineer/localGPT) - Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.
+- [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) - Build and run useful autonomous agents.
+- [Chain-of-Thought Hub: Measuring LLMs' Reasoning Performance](https://github.com/FranxYao/chain-of-thought-hub) ([HN](https://news.ycombinator.com/item?id=36131450))
+- [Scaling Data-Constrained Language Models (2023)](https://arxiv.org/abs/2305.16264)
+- [Awesome Multimodal LLM](https://github.com/HenryHZY/Awesome-Multimodal-LLM)
+- [PRM800K: A Process Supervision Dataset](https://github.com/openai/prm800k)
+- [Large Language Models as Tool Makers (2023)](https://arxiv.org/abs/2305.17126) ([Code](https://github.com/ctlllll/LLM-ToolMaker))
+- [Landmark Attention: Random-Access Infinite Context Length for Transformers (2023)](https://arxiv.org/abs/2305.16300) ([Code](https://github.com/epfml/landmark-attention))
+- [Resources to Help Global Equality for PhDs in NLP / AI](https://github.com/zhijing-jin/nlp-phd-global-equality)
+- [Aviary](https://github.com/ray-project/aviary) - Evaluate multiple LLMs easily.
+- [Falcon 40B LLM (which beats Llama) now Apache 2.0](https://twitter.com/Thom_Wolf/status/1663986216771936263) ([HN](https://news.ycombinator.com/item?id=36145185))
+- [Ambrosia](https://github.com/reactorsh/ambrosia) - Clean up your LLM datasets.
+- [Langchain, Pinecone, and GPT with Next.js - Full Stack Starter](https://github.com/dabit3/semantic-search-nextjs-pinecone-langchain-chatgpt)
+- [Can AI Code?](https://github.com/the-crypt-keeper/can-ai-code) - Self-evaluating interview for AI coding models.
+- [Leaked Prompts](https://github.com/jujumilk3/leaked-system-prompts)
+- [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration (2023)](https://arxiv.org/abs/2306.00978) ([Code](https://github.com/mit-han-lab/llm-awq))
+- [h2oGPT](https://github.com/h2oai/h2ogpt) - Open-source GPT with document and image Q&A, 100% private chat, no data leaks.
+- [AIAvatarKit](https://github.com/uezo/aiavatarkit) - Building AI-based conversational avatars lightning fast.
+- [Chainlit](https://github.com/Chainlit/chainlit) - Build Python LLM apps in minutes.
+- [CodeTF](https://github.com/salesforce/CodeTF) - One-stop Transformer Library for State-of-the-art Code LLM.
+- [A Minimal LLM API Starterkit with FastAPI and LangChain (2023)](https://blog.timleers.com/a-stupidly-minimal-llm-api-starterkit-deploy-llm-endpoints-in-a-minute-with-langchain-and-fastapi)
+- [Pare](https://www.usepare.com/) - API for LLMs.
+- [BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks (2023)](https://arxiv.org/abs/2305.17100) ([Code](https://github.com/taokz/BiomedGPT))
+- [InternLM](https://github.com/InternLM/InternLM-techreport) - Multilingual foundational language model with 104B parameters.
+- [LLaMa 7b with CUDA acceleration implemented in rust. Minimal GPU memory needed](https://github.com/coreylowman/llama-dfdx)
+- [llmchain](https://github.com/shafishlabs/llmchain.rs) - Rust + Large Language Models - Make AI Services Freely and Easily. Inspired by LangChain.
+- [tiktoken-rs](https://github.com/zurawiki/tiktoken-rs) - Ready-made tokenizer library for working with GPT and tiktoken.
+- [gptee](https://github.com/zurawiki/gptee) - LLMs done the UNIX-y way.
+- [femtoGPT](https://github.com/keyvank/femtoGPT) - Pure Rust implementation of a minimal Generative Pretrained Transformer.
+- [Bytes Are All You Need: Transformers Operating Directly On File Bytes (2023)](https://arxiv.org/abs/2306.00238) ([HN](https://news.ycombinator.com/item?id=36176756))
+- [LLamaFlow](https://github.com/dzhng/llamaflow) - Typescript-first prompt engineering toolkit for working with chat based LLMs.
+- [Awesome Graph LLM](https://github.com/XiaoxinHe/Awesome-Graph-LLM)
+- [What are embeddings](https://github.com/veekaybee/what_are_embeddings) - Deep dive into embeddings starting from fundamentals.
+- [GPT best practices](https://platform.openai.com/docs/guides/gpt-best-practices) ([HN](https://news.ycombinator.com/item?id=36197291))
+- [The Falcon has landed in the Hugging Face ecosystem (2023)](https://huggingface.co/blog/falcon)
+- [Reverse engineered API for Quora Poe](https://github.com/muharamdani/poe)
+- [Gopilot](https://github.com/rojas-diego/gopilot) - 290M parameters language model trained exclusively on Go code using a small research budget (~100$).
+- [Proxy GPT](https://github.com/asim/proxy-gpt) - GPT backend powered by OpenAI.
+- [Understanding GPT Tokenizers (2023)](https://simonwillison.net/2023/Jun/8/gpt-tokenizers/) ([HN](https://news.ycombinator.com/item?id=36248633))
+- [Agnaistic](https://github.com/agnaistic/agnai) - AI Agnostic (Multi-user and Multi-bot) Chat with Personalised Characters. Designed with scale in mind.
+- [FileGPT](https://github.com/davila7/file-gpt) - Start a chat with any document with Ada Embedding and Davinci Completion.
+- [Efficient Long Sequence Modeling via State Space Augmented Transformer (2022)](https://arxiv.org/abs/2212.08136) ([Code](https://github.com/microsoft/EfficientLongSequenceModeling))
+- [Daneel](https://github.com/ascorbic/daneel) - Template for an OpenAI chat bot app, built with React, Tailwind and TypeScript.
+- [RedPajama 7B now available, instruct model outperforms all open 7B models on HELM benchmarks (2023)](https://www.together.xyz/blog/redpajama-7b)
+- [ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models (2023)](https://arxiv.org/abs/2305.18323) ([Code](https://github.com/billxbf/ReWOO))
+- [Element-aware Summarization with Large Language Models: Expert-aligned Evaluation and Chain-of-Thought Method (2023)](https://arxiv.org/abs/2305.13412) ([Code](https://github.com/Alsace08/SumCoT))
+- [ExLlama](https://github.com/turboderp/exllama) - More memory-efficient rewrite of the HF transformers implementation of Llama for use with quantized weights.
+- [Sequential Monte Carlo Steering of Large Language Models using Probabilistic Programs (2023)](https://arxiv.org/abs/2306.03081) ([Code](https://github.com/probcomp/LLaMPPL))
+- [Inference-Time Intervention: Eliciting Truthful Answers from a Language Model (2023)](https://arxiv.org/abs/2306.03341) ([Code](https://github.com/likenneth/honest_llama))
+- [How Far Can Camels Go? Exploring the State of Instruction Tuning on Open Resources (2023)](https://arxiv.org/abs/2306.04751) ([Code](https://github.com/allenai/open-instruct))
+- [GPT Engineer](https://github.com/AntonOsika/gpt-engineer) - Specify what you want it to build, the AI asks for clarification, and then builds it. ([HN](https://news.ycombinator.com/item?id=36422730))
+- [GPT4Free TypeScript Version](https://github.com/xiangsx/gpt4free-ts)
+- [Poe OpenAI Proxy](https://github.com/juzeon/poe-openai-proxy)
+- [ExpertLLaMA](https://github.com/OFA-Sys/ExpertLLaMA) - Open source ChatBot built with ExpertPrompting which achieves 96% of ChatGPT's capability.
+- [OpenLLM](https://github.com/bentoml/OpenLLM) - Open platform for operating large language models (LLMs) in production. Fine-tune, serve, deploy, and monitor any LLMs with ease. ([HN](https://news.ycombinator.com/item?id=36388219))
+- [ChatGLM-finetune-LoRA](https://github.com/lich99/ChatGLM-finetune-LoRA)
+- [Llama.cpp: Full CUDA GPU Acceleration](https://github.com/ggerganov/llama.cpp/pull/1827) ([HN](https://news.ycombinator.com/item?id=36304143))
+- [Orca: Progressive Learning from Complex Explanation Traces of GPT-4 (2023)](https://arxiv.org/abs/2306.02707) ([HN](https://news.ycombinator.com/item?id=36299246))
+- [garak](https://github.com/leondz/garak) - Security probing tool for LLMs.
+- [JS tokenizer for LLaMA based LLMs](https://github.com/belladoreai/llama-tokenizer-js) ([HN](https://news.ycombinator.com/item?id=36316489))
+- [LLaMA-TRL](https://github.com/jasonvanf/llama-trl) - Fine-tuning LLaMA with PPO and LoRA.
+- [Native JSON Output from GPT-4 (2023)](https://yonom.substack.com/p/native-json-output-from-gpt-4) ([HN](https://news.ycombinator.com/item?id=36330972))
+- [SqueezeLLM: Dense-and-Sparse Quantization (2023)](https://arxiv.org/abs/2306.07629) ([Code](https://github.com/SqueezeAILab/SqueezeLLM))
+- [TruLens](https://github.com/truera/trulens) - Evaluation and Tracking for LLM Experiments.
+- [WizardLM](https://github.com/h2oai/h2o-wizardlm) - Open-Source Implementation of WizardLM to turn documents into Q:A pairs for LLM fine-tuning.
+- [PromptForge](https://github.com/Inferentiaxyz/PromptForge) - AI assistant for prompt engineers.
+- [ChainFury](https://github.com/NimbleBoxAI/ChainFury) - Build complex chat apps using LLMs in 4 clicks.
+- [RecurrentGPT](https://github.com/aiwaves-cn/RecurrentGPT) - Official Code for Paper: RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text.
+- [SillyTavern](https://github.com/SillyTavern/SillyTavern) - LLM Frontend for Power Users.
+- [Explore large language models on any computer with 512MB of RAM](https://github.com/jncraton/languagemodels)
+- [smol logger](https://github.com/smol-ai/logger) - Minimal viable logger for Prompt/LLM Engineering.
+- [The Secret Sauce behind 100K context window in LLMs: all tricks in one place (2023)](https://blog.gopenai.com/how-to-speed-up-llms-and-use-100k-context-window-all-tricks-in-one-place-ffd40577b4c)
+- [OpenLLaMA 13B Released](https://huggingface.co/openlm-research/open_llama_13b) ([HN](https://news.ycombinator.com/item?id=36381136))
+- [BigTrans](https://github.com/ZNLP/BigTrans) - Augmenting Large Language Models with Multilingual Translation Capability over 100 Languages.
+- [simpleaichat](https://github.com/minimaxir/simpleaichat) - Python package for easily interfacing with chat apps, with robust features and minimal code complexity.
+- [Floneum](https://github.com/floneum/floneum) - Graph editor for local AI workflows.
+- [Full Parameter Fine-tuning for Large Language Models with Limited Resources (2023)](https://arxiv.org/abs/2306.09782) ([Code](https://github.com/OpenLMLab/LOMO))
+- [vLLM](https://github.com/vllm-project/vllm) - Easy, fast, and cheap LLM serving for everyone.
+- [Emerging architectures for LLM applications (2023)](https://a16z.com/2023/06/20/emerging-architectures-for-llm-applications/) ([HN](https://news.ycombinator.com/item?id=36409489))
+- [vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention](https://vllm.ai/) ([HN](https://news.ycombinator.com/item?id=36409082))
+- [Textbooks Are All You Need (2023)](https://arxiv.org/abs/2306.11644) ([HN](https://news.ycombinator.com/item?id=36413768))
+- [Navigating Sharp Edges in OpenAI's Function Call Feature (2023)](https://codeconfessions.substack.com/p/navigating-sharp-edges-in-openais)
+- [Pruning by Weights and Activations](https://github.com/locuslab/wanda)
+- [Rift](https://github.com/morph-labs/rift) - AI-native language server for your personal AI software engineer.
+- [Large Language Model Course](https://github.com/mlabonne/llm-course)
+- [reliableGPT](https://github.com/BerriAI/reliableGPT) - Stop OpenAI Errors in Production.
+- [Promptrix](https://github.com/Stevenic/promptrix) - Prompt layout engine for Large Language Models.
+- [embedchain](https://github.com/embedchain/embedchain) - Framework to easily create LLM powered bots over any dataset.
+- [LLM-based code completion engine](https://github.com/ggml-org/p1)
+- [LLM Fine Tuning Guide for Enterprises in 2023](https://research.aimultiple.com/llm-fine-tuning/)
+- [IntelliNode](https://github.com/Barqawiz/IntelliNode) - Unified access to various AI models, such as ChatGPT, Diffusion, Cohere, and others, using a few JS lines.
+- [LMFlow](https://github.com/OptimalScale/LMFlow) - Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Model for All.
+- [LLaMA Server](https://github.com/nuance1979/llama-server) - Combines the power of LLaMA C++ with the beauty of Chatbot UI.
+- [MotionGPT: Human Motion as a Foreign Language, a unfied motion-language generation model using LLMs](https://github.com/OpenMotionLab/MotionGPT)
+- [Pezzo](https://github.com/pezzolabs/pezzo) - Open-source AI development toolkit designed to streamline prompt design, version management, publishing, collaboration, troubleshooting, observability and more.
+- [LangChain Decorators](https://github.com/ju-bezdek/langchain-decorators) - Syntactic sugar for LangChain.
+- [LangChain Guide to Get Started (2023)](https://shurutech.com/getting-started-langchain-with-examples/) ([HN](https://news.ycombinator.com/item?id=36439927))
+- [MPT-30B: Raising the bar for open-source foundation models (2023)](https://www.mosaicml.com/blog/mpt-30b)
+- [From Word Models to World Models: Translating from Natural Language to the Probabilistic Language of Thought (2023)](https://arxiv.org/abs/2306.12672)
+- [The Magic of Embeddings (2023)](https://stack.convex.dev/the-magic-of-embeddings)
+- [What are embeddings?](https://vickiboykis.com/what_are_embeddings/) ([HN](https://news.ycombinator.com/item?id=36469910))
+- [ChatHN](https://github.com/steven-tey/chathn) - Chat with Hacker News using natural language. Built with OpenAI Functions and Vercel AI SDK.
+- [LLM Powered Autonomous Agents (2023)](https://lilianweng.github.io/posts/2023-06-23-agent/) ([HN](https://news.ycombinator.com/item?id=36488871))
+- [Attempting Large Code Refactor using LLMs](https://contra.com/p/NU73mvBO-attempting-large-code-refactor-using-ll-ms) ([Lobsters](https://lobste.rs/s/5vvoe8/attempting_large_code_refactor_using))
+- [XGen-7B, a new 7B foundational model trained on up to 8K length for 1.5T tokens (2023)](https://blog.salesforceairesearch.com/xgen/) ([HN](https://news.ycombinator.com/item?id=36514936))
+- [Gorilla CLI](https://github.com/gorilla-llm/gorilla-cli) - LLMs for CLI including K8s/AWS/GCP/Azure/sed and 1500 APIs. ([HN](https://news.ycombinator.com/item?id=36524078))
+- [How long can open-source LLMs truly promise on context length? (2023)](https://lmsys.org/blog/2023-06-29-longchat/) ([HN](https://news.ycombinator.com/item?id=36528362))
+- [Training LLMs with AMD MI250 GPUs and MosaicML (2023)](https://www.mosaicml.com/blog/amd-mi250)
+- [GPT-Migrate](https://github.com/0xpayne/gpt-migrate) - Easily migrate your code from one framework or language to another. ([HN](https://news.ycombinator.com/item?id=36558032))
+- [Awesome LLM Compression](https://github.com/HuangOwen/Awesome-LLM-Compression)
+- [XGen](https://github.com/salesforce/xgen) - Salesforce open-source LLMs with 8k sequence length.
+- [Training LLMs with AMD MI250 GPUs and MosaicML (2023)](https://www.mosaicml.com/blog/amd-mi250)
+- [C++ GPT-2 inference engine](https://github.com/a1k0n/a1gpt) ([HN](https://news.ycombinator.com/item?id=36556293))
+- [HeimdaLLM](https://github.com/amoffat/HeimdaLLM) - Use LLMs to construct trusted output from untrusted input.
+- [Swarms](https://github.com/kyegomez/swarms) - Automating all digital activities with AI Agents.
+- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) - Full-stack application that turns any documents into an intelligent chatbot with a sleek UI and easier way to manage your workspaces.
+- [LongChat](https://github.com/DachengLi1/LongChat) - Supports training and evaluating long-context LLM based chatbots.
+- [Falcon LLM](https://github.com/Sentdex/Falcon-LLM) - Helper scripts and examples for exploring the Falcon LLM models.
+- [InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback (2023)](https://arxiv.org/abs/2306.14898) ([Code](https://github.com/princeton-nlp/intercode))
+- [OpenLLMs: Less is More for Open-source Models](https://github.com/imoneoi/openchat)
+- [Generating Images with Multimodal Language Models](https://github.com/kohjingyu/gill)
+- [InternLM](https://github.com/InternLM/InternLM) - 7 billion parameter base model, a chat model tailored for practical scenarios and the training system. ([HN](https://news.ycombinator.com/item?id=36612306))
+- [LongNet: Scaling Transformers to 1B Tokens (2023)](https://arxiv.org/abs/2307.02486)

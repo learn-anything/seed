@@ -1,0 +1,83 @@
+# Augmented Reality
+
+[Spatial canvases](https://twitter.com/softspaceninja/status/1536695800935370752) are exciting. Just need proper hardware.
+
+## Links
+
+- [Lightform](https://lightform.com/) - Design Tools for Projection.
+- [Multiplayer AR — Why it’s quite hard](https://medium.com/6d-ai/multiplayer-ar-why-its-quite-hard-43efdb378418)
+- [Matt Miesnieks (6D.ai): The Operating System for Reality is The Future of Everything (2019)](https://www.youtube.com/watch?v=ge5m-UhF6RU)
+- [Stealing Ur Feelings](https://github.com/noahlevenson/stealing-ur-feelings) - AI that knows you better than you know yourself.
+- [Size.link](https://size.link/) - Visualize dimensions in Augmented Reality.
+- [AR Cut & Paste](https://github.com/cyrildiagne/ar-cutpaste) ([HN](https://news.ycombinator.com/item?id=23063486))
+- [Augmented Reality explained (2020)](https://vas3k.com/blog/augmented_reality/)
+- [Poplar](https://poplar.studio/) - 3D and AR campaigns on demand.
+- [SkyAR](https://github.com/jiupinjia/SkyAR) - Vision-based method for video sky replacement and harmonization, which can automatically generate realistic and dramatic sky backgrounds in videos with controllable styles.
+- [ClipDrop](https://clipdrop.co/) - AR Copy Paste.
+- [BRIO](https://www.experience.briovr.com/) - Create Beautiful & Engaging 3D, AR, VR Online.
+- [SimpleWebXR](https://github.com/Rufus31415/Simple-WebXR-Unity) - Augmented Reality with JavaScript.
+- [AR.js](https://github.com/AR-js-org/AR.js) - Tracking, Location Based AR, Marker tracking. All on the Web.
+- [iOS AR app to distort real world surfaces based off music](https://twitter.com/mattbierner/status/1333918742116397056)
+- [WebAssembly Powered Augmented Reality Sudoku Solver (2020)](https://blog.scottlogic.com/2020/01/03/webassembly-sudoku-solver.html) ([Code](https://github.com/ColinEberhardt/wasm-sudoku-solver))
+- [Aardvark](https://github.com/aardvarkxr/aardvark) - Framework for building augmented reality "gadgets" that run on top of virtual reality experiences.
+- [FB Reality Labs: The Next Era of Human-Computer Interaction (2021)](https://tech.fb.com/inside-facebook-reality-labs-the-next-era-of-human-computer-interaction/)
+- [Awesome WebAR](https://github.com/tobiasbueschel/awesome-WebAR)
+- [Streem](https://www.streem.com/) - Easy AR-powered remote video support & communication platform.
+- [Snap Partner Summit](https://snappartnersummit.com/)
+- [Occipital](https://occipital.com/) - Makes Structure Sensor, Structure SDK, Structure Core, Bridge Engine, and 360 Panorama.
+- [Canvas](https://canvas.io/) - Blazing-Fast Mobile 3D Capture.
+- [Structure Sensor](https://structure.io/) - 3D scanning, augmented reality, and more for mobile devices.
+- [Matterport](https://matterport.com/) - Capture, share, and collaborate the built world in immersive 3D. ([Twitter](https://twitter.com/Matterport))
+- [Mixed Reality with Passthrough (2021)](https://developer.oculus.com/blog/mixed-reality-with-passthrough/) ([HN](https://news.ycombinator.com/item?id=27939264))
+- [Mark Zuckerberg says Facebook will turn into a ‘metaverse’ (2021)](https://www.theverge.com/22588022/mark-zuckerberg-facebook-ceo-metaverse-interview) ([HN](https://news.ycombinator.com/item?id=27930791))
+- [The Metaverse Has Always Been a Dystopian Idea (2021)](https://www.vice.com/en/article/v7eqbb/the-metaverse-has-always-been-a-dystopia) ([HN](https://news.ycombinator.com/item?id=28017330))
+- [XR Engine](https://github.com/XRFoundation/XREngine) - Metaverse infrastructure for everyone. Everything you need to build and deploy scalable realtime 3D social apps and more.
+- [ARHeadsetKit](https://github.com/philipturner/ARHeadsetKit) - Using $5 Google Cardboard to replicate Hololens.
+- [AR MultiPendulum](https://github.com/philipturner/ar-multipendulum) - First affordable AR headset experience.
+- [Adding Color to 3D Scene Reconstruction for Augmented Reality Headset Experiences Using an iPhone](https://github.com/philipturner/scene-color-reconstruction)
+- [Grapic](https://www.grapic.co/) - Real whiteboards online using AR. ([HN](https://news.ycombinator.com/item?id=29225588))
+- [‘AR Is Where the Real Metaverse Is Going to Happen’ (2021)](https://www.wired.com/story/john-hanke-niantic-augmented-reality-real-metaverse/)
+- [Showing cities being passed by on train in AR](https://twitter.com/V_Kurbatov/status/1465311637771071490)
+- [MindAR](https://github.com/hiukim/mind-ar-js) - Web Augmented Reality. Natural feature tracking. Image targets. Tensorflow.js.
+- [USDZ App](https://usdz.app/) - Web app to turn photos into 3D AR models. ([HN](https://news.ycombinator.com/item?id=29764785))
+- [A-Frame component using 3D-Tiles](https://github.com/nytimes/aframe-loader-3dtiles-component)
+- [Compass Mode. Hold the phone up for AR, down for compass](https://twitter.com/AndrewHartAR/status/1499061786565386243)
+- [Portal-ble: make augmented reality apps that are hands-on interactive](https://portalble.cs.brown.edu/)
+- [AR Art Attractors](https://github.com/ynagatomo/ARArtAttractors) - Minimal iOS app that displays 3D graphic art in AR.
+- [General-purpose, long-context autoregressive modeling with Perceiver AR (2022)](https://arxiv.org/abs/2202.07765) ([Code](https://github.com/google-research/perceiver-ar))
+- [SoftspaceAR Spatial Canvas Prototype](https://twitter.com/softspaceninja/status/1536695800935370752)
+- [Magic Leap 2](https://www.magicleap.com/en-us/magic-leap-2-video) - Most immersive AR platform for enterprise. ([HN](https://news.ycombinator.com/item?id=33041677))
+- [AlvaAR](https://github.com/alanross/AlvaAR) - Real time visual SLAM algorithm running as WebAssembly, in the browser.
+- [LaMAR: Benchmarking Localization and Mapping for AR (2022)](https://lamar.ethz.ch/) ([Code](https://github.com/microsoft/lamar-benchmark))
+- [Haptics with Input: Using Linear Resonant Actuators for Sensing (2022)](https://ai.googleblog.com/2020/11/haptics-with-input-using-linear.html)
+- [WebXR](https://immersiveweb.dev/) - Immersive Web Developer. ([Code](https://github.com/immersive-web/immersiveweb.dev)) ([HN](https://news.ycombinator.com/item?id=36097258))
+- [Real-Time Neural Light Field on Mobile Devices (2022)](https://arxiv.org/abs/2212.08057) ([Code](https://github.com/snap-research/MobileR2L))
+- [ChatARKit: Using ChatGPT to Create AR Experiences with Natural Language](https://github.com/trzy/ChatARKit)
+- [Meta Quest Pro – Bad AR Passthrough (2023)](https://kguttag.com/2023/01/03/meta-quest-pro-part-1-unbelievably-bad-ar-passthrough/) ([HN](https://news.ycombinator.com/item?id=34239684))
+- [AR Basic App](https://github.com/ynagatomo/ARBasicApp) - Minimal iOS AR app that can be used as a template when creating an AR app for the first time.
+- [Rust WebXR](https://github.com/servo/webxr)
+- [HCI & Theories of Spatial Computing](https://github.com/ddiakopoulos/spatial-computing-fundamentals)
+- [ARDiffMuseum](https://github.com/ynagatomo/ARDiffMuseum) - iOS app that generate images using Stable Diffusion and displays them in AR.
+- [RKUtilities](https://github.com/Reality-Dev/RealityKit-Utilities) - Code that makes writing code with RealityKit easier.
+- [Replaying memories in AR](https://twitter.com/mrgreen/status/1629045335312957440)
+- [Could we make the web more immersive using a simple optical illusion? (2023)](https://shopify.github.io/spatial-commerce-projects/WonkaVision/) ([HN](https://news.ycombinator.com/item?id=35016988))
+- [Spatial Commerce Projects](https://shopify.github.io/spatial-commerce-projects/)
+- [Manitas](https://github.com/nacmartin/manitas) - Move your fingers in the air to interact with a computer.
+- [Monaco-powered WebR "REPL"](https://github.com/hrbrmstr/webr-monaco-repl)
+- [Awesome WebXR Development](https://github.com/Pico-Developer/awesome-webxr-development)
+- [Virtual Occlusions Through Implicit Depth (2023)](https://nianticlabs.github.io/implicit-depth/) ([Code](https://github.com/nianticlabs/implicit-depth))
+- [Mirador](https://github.com/HyperARCo/Mirador) - Makes it easy to build impressive “Point of Interest” AR experiences, from anywhere in the world.
+- [AR drivers](https://github.com/badicsalex/ar-drivers-rs) - Rust driver for various AR glasses.
+- [Handy.js](https://github.com/stewdio/handy.js) - Makes defining and recognizing custom hand poses in WebXR a snap.
+- [Apple Vision Pro: Apple’s first spatial computer (2023)](https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro/) ([HN](https://news.ycombinator.com/item?id=36201593))
+- [Apple Vision Pro Inside](https://needle-apple-vision-pro.glitch.me/)
+- [visionOS](https://developer.apple.com/visionos/) ([HN](https://news.ycombinator.com/item?id=36208735))
+- [Notes on Vision Pro](https://notes.andymatuschak.org/Vision%20Pro) ([HN](https://news.ycombinator.com/item?id=36219585))
+- [Apple Vision Pro: The MVP for AR (2023)](https://soraven.com/apple-vision-pro-the-mvp-for-ar-42273a11dbe) ([HN](https://news.ycombinator.com/item?id=36293250))
+- [A Developer's View of Vision Pro (2023)](https://www.david-smith.org/blog/2023/06/12/new-post/) ([HN](https://news.ycombinator.com/item?id=36297477))
+- [RealityCheck](https://github.com/monstar-lab-oss/reality-check) - Mac app designed to help AR development teams streamline their workflows and improve the quality of their projects.
+- [Apple Vision Pro – Hardware Issues (2023)](https://kguttag.com/2023/06/16/apple-vision-pro-part-2-hardware-issues/) ([HN](https://news.ycombinator.com/item?id=36377954))
+- [Developer tools to create spatial experiences for Apple Vision Pro (2023)](https://www.apple.com/newsroom/2023/06/developer-tools-to-create-spatial-experiences-for-apple-vision-pro-now-available/) ([HN](https://news.ycombinator.com/item?id=36423648))
+- [VisionOS developer docs and Vision Pro SDK](https://developer.apple.com/documentation/visionOS) ([HN](https://news.ycombinator.com/item?id=36431826))
+- [Immersive Spatial Rendering with Metal in visionOS](https://github.com/metal-by-example/metal-spatial-rendering)
+- [The Science Behind Apple's New $3500 Product with Oculus Founder (2023)](https://www.youtube.com/watch?v=Xa9F0u72acQ)

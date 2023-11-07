@@ -1,0 +1,181 @@
+---
+title: Three.js
+---
+
+# [Three.js](https://threejs.org/)
+
+[Triplex](https://github.com/try-triplex/triplex) is great editor.
+
+[Ektogamat ThreeJS Boilerplate](https://github.com/ektogamat/threejs-andy-bolierplate) seems nice.
+
+## Example sites
+
+- [R3F Playground - Refraction](https://r3f.maximeheckel.com/refraction)
+- [My Room in 3D](https://my-room-in-3d.vercel.app/) ([Code](https://github.com/brunosimon/my-room-in-3d)) ([HN](https://news.ycombinator.com/item?id=28496650))
+- [Solar Storm](https://solarstorm.netlify.app/) - Audio reactive scene built with React Three Fiber. ([Code](https://github.com/winkerVSbecks/solarstorm))
+- [Hello Worlds](https://github.com/kenjinp/hello-worlds) - Virtual JS worlds at planetary scales.
+
+## Links
+
+- [Three.js Fundamentals](https://threejsfundamentals.org/threejs/lessons/threejs-fundamentals.html) ([HN](https://news.ycombinator.com/item?id=19944990)) ([Code](https://github.com/httpstersk/three-js-fundamentals-r3f))
+- [WebGL & GLSL Demos](http://three-demos.glitch.me/) - Some demos for the workshop, built with ThreeJS.
+- [Animation and 3D in react-three-fiber (with Paul Henschel) (2019)](https://www.youtube.com/watch?v=1rP3nNY2hTo)
+- [MagicShader](https://github.com/luruke/magicshader) - Tiny helper for three.js to debug and write shaders.
+- [camera-controls](https://github.com/yomotsu/camera-controls) - Camera control for three.js, similar to THREE.OrbitControls yet supports smooth transitions and more features.
+- [3D Underwater Maps (2020)](https://vulkd.com/articles/3d-underwater-maps/)
+- [react-xr](https://github.com/react-spring/react-xr) - VR/AR with react-three-fiber.
+- [drei](https://github.com/pmndrs/drei) - Useful helpers for react-three-fiber.
+- [Bringing webgl to react - Paul Henschel (2020)](https://www.youtube.com/watch?v=YyqBdN71nFs)
+- [map33.js](https://github.com/blaze33/map33.js) - Library to build 3D maps with Three.js. ([HN](https://news.ycombinator.com/item?id=23762403))
+- [Case study: Moving a Three.js-based WebXR app off-main-thread (2020)](https://surma.dev/things/omt-for-three-xr/)
+- [Intro To React 3D](https://www.leveluptutorials.com/tutorials/react-3d)
+- [r3f floating diamonds](https://codesandbox.io/embed/r3f-floating-diamonds-prb9t)
+- [react-three-flex](https://github.com/pmndrs/react-three-flex) - Flexbox for react-three-fiber.
+- [react-three-fiber Game Demo](https://github.com/coldi/r3f-game-demo) - Example implementation of a top-down 2d game made with React and react-three-fiber.
+- [ocean](https://github.com/jbouny/ocean) - Realistic water shader for Three.js.
+- [react-postprocessing](https://github.com/pmndrs/react-postprocessing) - Postprocessing for react-three-fiber.
+- [Three.js Journey](https://threejs-journey.xyz/) - Ultimate Three.js course.
+- [VueJS 3 + ViteJS + ThreeJS](https://github.com/troisjs/trois)
+- [Good looking planets in ThreeJS](https://github.com/Astrak/three-planets)
+- [Three.js Developer Tools](https://chrome.google.com/webstore/detail/threejs-developer-tools/ebpnegggocnnhleeicgljbedjkganaek) ([Code](https://github.com/threejs/three-devtools))
+- [React Three Fiber + Next ES6 starter](https://github.com/RenaudROHLINGER/r3f-next-starter)
+- [Understand 3D in Javascript (ThreeJS) in 5 minutes (2020)](https://www.jesuisundev.com/en/understand-threejs/)
+- [Procedural GL JS](https://github.com/felixpalmer/procedural-gl-js) - Open-source 3D mapping library built with Three.js. ([HN](https://news.ycombinator.com/item?id=25160959)) ([Lobsters](https://lobste.rs/s/tvk0q4/procedural_gl_js_open_source_3d_mapping))
+- [React Three Editable](https://github.com/AndrewPrifer/react-three-editable) - Edit your react-three-fiber scene with a visual editor without giving up control over your code.
+- [Taichi THREE](https://github.com/taichi-dev/taichi_three) - Node-based soft renderer based on the Taichi Programming Language to render 3D scenes into nice-looking 2D images in real-time.
+- [Scroll, Refraction and Shader Effects in Three.js and React](https://github.com/drcmda/the-substance)
+- [Mannequin.js](https://boytchev.github.io/mannequin.js/) - Articulated Mannequin Figure Library. ([HN](https://news.ycombinator.com/item?id=25302602))
+- [react-three-fiber](https://github.com/pmndrs/react-three-fiber) - React Renderer for Three.js. ([HN](https://news.ycombinator.com/item?id=28189977))
+- [Component Material](https://github.com/pmndrs/component-material) - Compose modular materials in React.
+- [Three.js Sandbox](https://github.com/gkjohnson/threejs-sandbox) - Set of experiments and extensions to Three.js.
+- [Next & React three fiber starter](https://github.com/pmndrs/react-three-next)
+- [ThreeJS starter](https://github.com/kekkorider/threejs-starter) - General template for ThreeJS applications. It uses Parcel to create the bundle and Tweakpane for live updates.
+- [three-projected-material](https://github.com/marcofugaro/three-projected-material) - Three.js Material which lets you do Texture Projection on a 3d Model.
+- [react-three/a11y](https://github.com/pmndrs/react-three-a11y) - Accessibility tools for React Three Fiber.
+- [Three.bas](https://github.com/zadvorsky/three.bas) - Three.js Buffer Animation System.
+- [Post Processing](https://github.com/vanruesc/postprocessing) - Post processing library that provides the means to implement image filter effects for three.js.
+- [three-elements](https://github.com/hmans/three-elements) - Web Components-powered custom HTML elements for building Three.js-powered games and interactive experiences. ([Intro](https://hmans.co/posts/2021-01-18-three-elements/))
+- [three-bmfont-text](https://github.com/Jam3/three-bmfont-text) - Bitmap font rendering for ThreeJS, batching glyphs into a single BufferGeometry.
+- [3D Force-Directed Graph](https://github.com/vasturiano/3d-force-graph) - 3D force-directed graph component using ThreeJS/WebGL.
+- [three-mesh-ui](https://github.com/felixmariotto/three-mesh-ui) - Make VR user interfaces for Three.js.
+- [ThreeJS Globe Visualization](https://github.com/vasturiano/three-globe)
+- [Three.js Globe Tutorial (2020)](https://www.timcchang.com/posts/threejs-globe)
+- [Github Globe](https://github.com/janarosmonaliev/github-globe) - Globe from Github's homepage implemented in ThreeJS with beautiful shading.
+- [Raymarching shaders](https://github.com/gsimone/r3f-raymarching) - Collection of raymarching experiments using react-three-fiber & family.
+- [Three Material Editor](https://github.com/RenaudRohlinger/three-material-editor) - GLSL editor for Threejs scene.
+- [Recreating Real-World Terrain with React, Three.js and WebGL Shaders (2021)](https://techblog.geekyants.com/recreating-real-world-terrain-with-react-threejs-and-webgl-shaders-1) ([HN](https://news.ycombinator.com/item?id=26239236))
+- [threeify](https://github.com/threeify/threeify) - Typescript 3D library loosely based on three.js. ([Web](https://threeify.org/))
+- [three-gltf-extensions](https://github.com/takahirox/three-gltf-extensions) - Three.js glTF loader and exporter have plugin system to provide extensibility mechanism to users.
+- [three-mesh-bvh](https://github.com/gkjohnson/three-mesh-bvh) - BVH implementation to speed up raycasting against and enable intersection tests for three.js meshes.
+- [three-pathfinding](https://github.com/donmccurdy/three-pathfinding) - Navigation mesh toolkit for ThreeJS, based on PatrolJS.
+- [Terrain Builder](https://github.com/FarazzShaikh/Terrain-Builder) - Procedural terrain using Three.js and perlin noise, Now Accelerated by your GPU.
+- [threepp](https://github.com/markaren/threepp) - C++17 port of three.js.
+- [Sketchbook](https://github.com/swift502/Sketchbook) - 3D playground built on three.js and cannon.js.
+- [Magical Marbles in Three.js](https://github.com/mattrossman/magic-marble-tutorial) - Adding volumetric effects to a built-in Three.js shader.
+- [Theatre.js](https://www.theatrejs.com/) - JavaScript Motion Design Library. ([Code](https://github.com/AriaMinaei/theatre)) ([Tweet](https://twitter.com/AndrewPrifer/status/1570071903469031425))
+- [Three.js - Template - Complex](https://github.com/brunosimon/threejs-template-complex)
+- [Three.js Modern App](https://github.com/marcofugaro/threejs-modern-app) - Boilerplate and utils for a full screen Three.js app.
+- [A technical breakdown of react-three-fiber (2021)](https://codyb.co/articles/a-technical-breakdown-of-react-three-fiber) ([Tweet](https://twitter.com/0xca0a/status/1451599485977731078))
+- [THREE-CSGMesh](https://github.com/manthrax/THREE-CSGMesh) - Conversion of a CSG library for use with modern THREE.js.
+- [three-csg-ts](https://github.com/Jiro-Digital/three-csg-ts) - CSG library for use with THREE.js
+- [THREE.js-PathTracing-Renderer](https://github.com/erichlof/THREE.js-PathTracing-Renderer) - Real-time PathTracing with global illumination and progressive rendering.
+- [Ombra](https://github.com/gsimone/ombra) - Collection of shader-related utilities for react-three-fiber.
+- [iTowns](https://github.com/iTowns/itowns) - Three.js-based framework written in JavaScript/WebGL for visualizing 3D geospatial data. ([Web](http://www.itowns-project.org/))
+- [3DTilesViewer](https://github.com/ebeaufay/3DTilesViewer) - 3DTiles viewer for three.js.
+- [three-loader-3dtiles](https://github.com/nytimes/three-loader-3dtiles) - Three.js loader module for handling OGC 3D Tiles, created by Cesium.
+- [react-ogl](https://github.com/pmndrs/react-ogl) - Declaratively create scenes with re-usable OGL components that have their own state and effects and can tap into React's infinite ecosystem.
+- [three-vrm](https://github.com/pixiv/three-vrm) - Use VRM on Three.js.
+- [Understanding the Three.js Transmission example (2021)](https://medium.com/geekculture/understanding-the-three-js-transmission-example-13e952a8ab55)
+- [Cobe](https://github.com/shuding/cobe) - 5kB WebGL globe lib.
+- [Build fancy landing pages with React(-three-fiber) and ThreeJS](https://0xca0a.gumroad.com/l/B4N4N4S) ([Tweet](https://twitter.com/0xca0a/status/1445409346305892353))
+- [Three.js Journey implemented with React-Three-Fiber](https://github.com/slorber/react-three-fiber-journey)
+- [Computer Graphics Études with WebGL and Three.js](https://boytchev.github.io/etudes/) ([Code](https://github.com/boytchev/etudes))
+- [Three Story Controls](https://github.com/nytimes/three-story-controls) - Three.js camera toolkit for creating interactive 3d stories.
+- [React ThreeJS Fiber Journey](https://journey.pmnd.rs/) ([Code](https://github.com/pmndrs/threejs-journey))
+- [use-p2](https://github.com/pmndrs/use-p2) - React hooks for p2-es. Use this in combination with react-three-fiber.
+- [Building a Vaporwave scene with Three.js (2022)](https://blog.maximeheckel.com/posts/vaporwave-3d-scene-with-threejs/)
+- [Point Text Helper](https://github.com/jniac/three-point-text-helper) - "Point Text" Helper for ThreeJS.
+- [three.interaction](https://github.com/jasonChen1982/three.interaction.js) - Three.js interaction toolkit, help you built an interaction event-system for three.js, binding interaction event like browser-dom.
+- [lamina](https://github.com/pmndrs/lamina) - Extensible, layer based shader material for ThreeJS.
+- [Sketch ThreeJS](https://github.com/ykob/sketch-threejs) - Interactive sketches made with three.js.
+- [three-rt-helper](https://github.com/felixmariotto/three-rt-helper) - WebGLRenderTarget helper for three.js: see the output in real time in a window.
+- [three-raymarcher](https://github.com/danielesteban/three-raymarcher) - Raymarching abstraction for creating simple SDF animations with ThreeJS.
+- [Interactive Hover Effects with Three.js](https://github.com/akella/webgl-mouseover-effects)
+- [web-ifc-viewer](https://github.com/IFCjs/web-ifc-viewer) - Graphics engine and toolkit for client applications.
+- [Panolens.js](https://github.com/pchen66/panolens.js) - JavaScript panorama viewer based on Three.js.
+- [React Three Scissor](https://github.com/pmndrs/react-three-scissor) - Multiple scenes, one canvas! WebGL Scissoring implementation for React Three Fiber.
+- [Custom Shader Material](https://github.com/FarazzShaikh/THREE-CustomShaderMaterial) - Extend Three.js standard materials with your own shaders.
+- [Three.js Immersive Controls](https://github.com/DePasqualeOrg/three-immersive-controls) - Immersive (VR) controls for Three.js.
+- [R3F-Perf](https://github.com/utsuboco/r3f-perf) - Easily monitor your ThreeJS performances.
+- [ThreeJS GPU path tracer](https://github.com/gkjohnson/three-gpu-pathtracer) - Path tracing renderer and utilities for three.js built on top of three-mesh-bvh.
+- [MeshLine](https://github.com/spite/THREE.MeshLine) - Mesh replacement for THREE.Line.
+- [Alien.js](https://github.com/pschroen/alien.js) - MVC design pattern for building single-page applications with ES modules and three.js.
+- [ThreeJS-water](https://github.com/martinRenou/threejs-water) - Evan Wallace's webgl-water demo using ThreeJS.
+- [Three.V8](https://github.com/fynv/Three.V8) - Embeddable 3D Rendering Engine with JS.
+- [Infinite World Generation](https://github.com/JDihlmann/infty) - Demo of the wave form collapse (WFC) algorithm with react three fiber and web assembly (WASM).
+- [Personal vite starter for react-three-fiber projects](https://github.com/mattrossman/r3f-vite)
+- [ThreeJS Helpers](https://github.com/gsimone/things)
+- [ThreeJS Line object with variable width](https://github.com/vasturiano/three-fatline)
+- [Discover three.js](https://discoverthreejs.com/) ([Code](https://github.com/looeee/discoverthreejs-site))
+- [threejs-csg](https://github.com/looeee/threejs-csg) - Constructive Solid Geometry for three.js, ES6 + BufferGeometry.
+- [Ektogamat ThreeJS Boilerplate](https://github.com/ektogamat/threejs-andy-bolierplate)
+- [Reality Mixer JS](https://github.com/fabio914/reality-mixer-js) - Mixed Reality Capture module for WebXR and Three.js.
+- [three-filmic](https://github.com/donmccurdy/three-filmic) - Film emulsion-like rendering transforms for three.js.
+- [LunchboxJS](https://github.com/breakfast-studio/lunchboxjs) - Custom Vue 3 renderer for ThreeJS. ([Docs](https://docs.lunchboxjs.com/))
+- [r3f-spline](https://github.com/splinetool/r3f-spline) - Hook to load Spline scenes into react-three-fiber.
+- [vfx](https://github.com/hmans/vfx) - Visual effects library for react-three-fiber.
+- [Modern ThreeJS with Vite (2022)](https://www.youtube.com/watch?v=TiWRM3J5FlI)
+- [react-three/rapier](https://github.com/pmndrs/react-three-rapier) - Rapier physics in React.
+- [SSPT in ThreeJS](https://github.com/Domenicobrz/SSPT-in-threejs) - Uses only screen-space information through ray marching to recreate the lighting of a scene, and denoises it with the SVGF algorithm.
+- [Three-bvh-csg](https://github.com/gkjohnson/three-bvh-csg) - Flexible, memory compact, fast and dynamic CSG implementation on top of three-mesh-bvh.
+- [Three.js Screen Space Reflections](https://github.com/0beqz/screen-space-reflections)
+- [Curl Flow](https://github.com/ichitaro/curl-flow)
+- [react-three-csg](https://github.com/pmndrs/react-three-csg) - Constructive solid geometry for React.
+- [The Study of Shaders with React Three Fiber (2022)](https://blog.maximeheckel.com/posts/the-study-of-shaders-with-react-three-fiber/)
+- [Shader Composer](https://github.com/hmans/shader-composer) - Write Three.js shaders, but with JavaScript.
+- [Physical Ray marching in ThreeJS](https://github.com/nemutas/physical-raymarchig)
+- [Ghost Veil](https://nemutas.github.io/ghost-veil/) - Effect of 'ThreJS plane' overlaid on 'DOM image'. ([Code](https://github.com/nemutas/ghost-veil))
+- [Vanilla ThreeJS Template](https://github.com/nemutas/vanilla-three-template)
+- [Three.js Experiment - Vanishing Suzanne](https://github.com/Aqro/threejs-vanishing-suzanne)
+- [Three Lightmap Baker](https://github.com/lucas-jones/three-lightmap-baker) - Basic example of lightmapping in ThreeJS.
+- [Three landscape](https://github.com/nwpointer/three-landscape) - React-three-fiber compatible abstractions that make it easier to render high quality landscapes scenes.
+- [Enable3d](https://github.com/enable3d/enable3d) - Standalone 3D Framework / Physics for three.js (using ammo.js) / 3D extension for Phaser 3. ([Web](https://enable3d.io/))
+- [Modern ThreeJS](https://github.com/alvarosabu/modern-three) - Modern ThreeJS boilerplate powered by Vite & Typescript.
+- [Needle Engine](https://github.com/needle-tools/needle-engine-support) - Web-based runtime for 3D apps. It runs on your machine for development, and can be deployed anywhere. It is flexible, extensible, and collaboration and XR come naturally.
+- [ThreeJS Geometry Welder](https://github.com/0xAxiome/three-geometry-welder) - Customizable way of merging your buffer geometry.
+- [Awesome ThreeJS](https://github.com/0xAxiome/awesome-threejs)
+- [Shadow Mapping In Three.js (2022)](https://mofu-dev.com/en/blog/threejs-shadow-map/)
+- [Stable Fluids with three.js (2022)](https://mofu-dev.com/en/blog/stable-fluids)
+- [Geo-Three](https://github.com/tentone/geo-three) - Based geographic world map visualization library for ThreeJS.
+- [The magical world of Particles with React Three Fiber and Shaders (2022)](https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/) ([Tweet](https://twitter.com/MaximeHeckel/status/1590015287633453057))
+- [Linear Vaporwave Three.js scene](https://github.com/MaximeHeckel/linear-vaporwave-react-three-fiber)
+- [Creating mirrors in react-three-fiber & ThreeJS](https://github.com/emmelleppi/codrops-r3f-mirrors)
+- [Sketchy Pencil Effect with Three.js Post-Processing (2022)](https://tympanus.net/codrops/2022/11/29/sketchy-pencil-effect-with-three-js-post-processing/)
+- [Three Orbit Controls Gizmo](https://github.com/Fennec-hub/ThreeOrbitControlsGizmo) - Blender like orientation gizmo for Three.js OrbitControls.
+- [Three Wboit](https://github.com/stevinz/three-wboit) - Weighted, Blended Order Independent Transparency.
+- [Offscreen Canvas Polyfill](https://github.com/ai/offscreen-canvas) - Polyfill for OffscreenCanvas to move Three.js/WebGL/2D canvas to Web Worker.
+- [React Three Editor](https://github.com/pmndrs/react-three-editor) - Scene editor that writes changes back into your code.
+- [four](https://github.com/CodyJasonBennett/four) - Minimal three.js alternative in 4KB.
+- [MeshLine](https://github.com/pmndrs/meshline) - Mesh replacement for THREE.Line.
+- [A-Frame](https://github.com/lojjic/aframe-troika-text) - A-Frame component for rendering 3D text using troika-three-text.
+- [Three Stdlib](https://github.com/pmndrs/three-stdlib) - Stand-alone library of threejs examples designed to run without transpilation in node & browser.
+- [React Particles WebGL](https://github.com/tim-soft/react-particles-webgl) - 2D/3D particle library built on React, Three and WebGL.
+- [Screen-space raymarched godrays for three.js using the pmndrs postprocessing library](https://github.com/Ameobea/three-good-godrays)
+- [Magnify 3D](https://github.com/amitdiamant/magnify-3d) - Real time JS optic magnifying glass library.
+- [ThreeGN](https://threegn.app/) - Procedural 3D graphics editor for the web. ([Code](https://github.com/roman01la/threegn))
+- [Environment Map Light Editor](https://github.com/pmndrs/env) - Create, edit, and preview HDR environment maps in the browser.
+- [r3f-scroll-rig](https://github.com/14islands/r3f-scroll-rig) - React-three-fiber scroll-rig for syncing 3D meshes and DOM elements.
+- [How to create Ghibli-style trees with Three.js (2023)](https://www.youtube.com/watch?v=IGK6eceWyU4)
+- [Talking avatar](https://github.com/bornfree/talking_avatar) - ThreeJS-powered virtual human being that uses a set of neat Azure APIs to do some talking.
+- [Project Flowerbed](https://github.com/meta-quest/ProjectFlowerbed) - WebXR gardening experience written on top of ThreeJS.
+- [Three.js Realism Effects](https://github.com/0beqz/realism-effects) - SSGI, Motion Blur, TRAA - effects to enhance your three.js scene's realism.
+- [IFC Loader for Three.js](https://github.com/IFCjs/web-ifc-three)
+- [react-three-offscreen](https://github.com/pmndrs/react-three-offscreen) - Offscreen worker canvas for react-three-fiber.
+- [ThreeJS Sketches | Isaac Mason](https://sketches.isaacmason.com/) ([Code](https://github.com/isaac-mason/sketches))
+- [Browser-based robot simulator with three.js & rapier.js (2023)](https://grgv.xyz/blog/simulator/)
+- [Three.quarks](https://github.com/Alchemist0823/three.quarks) - Fast, powerful and general purpose particle engine for three.js.
+- [TresJS](https://github.com/Tresjs/tres) - Declarative ThreeJS using Vue Components.
+- [Triplex](https://github.com/try-triplex/triplex) - React Three Fiber editor.
+- [Boilerplate for react-three-fiber, with Drei, Leva, GSAP preinstalled](https://github.com/AxiomeCG/react-three-fiber-boilerplate)
+- [threlte-xr](https://github.com/michealparks/threlte-xr) - VR / AR / spatial computing with threlte.
+- [Apple Vision Pro is made using ThreeJS](https://twitter.com/pixelbeat/status/1675690654075060226)

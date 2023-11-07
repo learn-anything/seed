@@ -1,0 +1,355 @@
+# Game development
+
+[3D Math Primer for Graphics and Game Development](https://gamemath.com/) is great. [Nano](https://github.com/lonng/nano) is great for building networked game servers.
+
+[Tangle](https://github.com/kettle11/tangle) is interesting.
+
+[This video](https://www.youtube.com/watch?v=72y2EC5fkcE) is a must watch for the kind of incremental development style you can have.
+
+## Studios
+
+- [Bungie](https://www.bungie.net/) - Developer of Destiny, Halo and more.
+- [Annapurna Pictures](https://annapurna.pictures/)
+- [FromSoftware](https://www.fromsoftware.jp/ww/) - Japanese video game development company.
+- [The Glory Society](http://theglorysociety.com/) - Worker cooperative that makes video games.
+- [Goldborough Studio](https://www.goldboroughstudio.com/)
+- [CD PROJEKT RED](https://en.cdprojektred.com/)
+- [GSC Game World](https://www.gsc-game.com/) - Makers of Stalker.
+- [HiWarp](https://www.hiwarp.com/) - Indie Game Studio.
+- [5 Lives Studios](http://5livesstudios.com/)
+- [Frictional Games](https://frictionalgames.blogspot.com/) - Creators of Penumbra, Amnesia and SOMA.
+- [Embark Studios](https://www.embark-studios.com/) - Stockholm-based games studio.
+- [Ghost Story Games](https://www.ghoststorygames.com/)
+- [Cloudhead Games](https://cloudheadgames.com/) - VR Game Studio. ([Discord](https://discord.com/invite/zd2b42c))
+- [Nolla Games](https://nollagames.com/)
+- [Beamdog](https://www.beamdog.com/)
+- [Unknown Worlds](https://unknownworlds.com/)
+- [Hive Games](https://hivegames.io/)
+- [Lazy Bear Games](http://lazybeargames.com/)
+- [Rarebyte](https://www.rarebyte.com/)
+- [Supergiant Games](https://www.supergiantgames.com/)
+- [Gameroasters](https://www.gameroasters.com/) - Bring cross-platform competitive gaming experiences to the masses.
+- [Darewise](https://www.darewise.com/) ([GitHub](https://github.com/Darewise))
+- [Ludomotion](https://www.ludomotion.com/) - Amsterdam based, indie game studio.
+- [Team Cherry](https://teamcherry.com.au/)
+- [Snowman](https://www.builtbysnowman.com/) - Small studio handcrafting big ideas.
+- [Relic Entertainment](https://www.relic.com/)
+- [Ninja Theory](https://www.ninjatheory.com/)
+- [Paradox Interactive](https://www.paradoxplaza.com/)
+- [Big Time Studios](https://bigtime.gg/)
+- [Rocksteady](https://rocksteadyltd.com/)
+- [General Arcade](https://www.generalarcade.com/)
+- [No More Robots](https://nomorerobots.io/)
+- [Resolution Games](https://www.resolutiongames.com/)
+- [Stonemaier Games](https://stonemaiergames.com/)
+- [Second Dinner](https://seconddinner.com/)
+- [Remedy](https://www.remedygames.com/) - Created games such as Control, Alan Wake, and Max Payne.
+- [Failbetter Games](https://www.failbettergames.com/)
+- [Stray Bombay](https://www.straybombay.com/) ([Discord](https://discord.com/invite/straybombay))
+- [Avalanche Studios](https://avalanchestudios.com/)
+- [Tomorrow Corporation](http://tomorrowcorporation.com/)
+- [Mundfish](https://mundfish.com/)
+
+## Devs
+
+- [Bela Messex](https://www.belamessex.com/)
+
+## Notes
+
+- Programming is about solving problems. Programming a game isn't really any different. I start by thinking what problem is this game going to solve, as well as what other games might already do that. For example if I was making a physics puzzle game I would also consider "Why aren't they just playing Portal instead of this?" And go from there.
+- ["Mod" culture in gaming is an incredibly powerful, creative force that is responsible for nearly all popular games today. It allows non-technical users to tinker, create, and distribute to an engaged, pre-installed user base.](https://twitter.com/cpaik/status/1270824271204532226)
+- [To anyone who struggles with large-scale nature scenes. Test out the idea you have on a small square first, get all the elements to work together, and then build your scene from there. ](https://twitter.com/BlenderBrit/status/1386689708131033095)
+- [Adding randomness to a game can be a way to give it that property of "easy to learn, hard to master", and in turn make it easier for a community to grow around the game. When you add randomness, it becomes possible for novices to sometimes beat more experienced players through sheer luck. Contrast that with e.g. chess, where it doesn't take much skill difference before the most skilled player is almost certain to win. So randomness makes it easier for newcomers to get the occasional win, to keep them motivated while learning. But at the same time, randomness can make it harder to master, because the cause-effect-relationship between good decisions and good outcomes becomes blurred.](https://news.ycombinator.com/item?id=31593995)
+
+## Links
+
+- [Raylib](http://www.raylib.com) - Simple and easy-to-use library to learn video games programming.
+- [Diablo: A Classic Game Postmortem (2016)](https://www.youtube.com/watch?v=VscdPA6sUkc)
+- [Game Engine Architecture Book](https://www.gameenginebook.com/)
+- [Curated List of Game Network Programming Resources](https://github.com/MFatihMAR/Game-Networking-Resources)
+- [Kit](https://github.com/kitlang/kit) - Programming language designed for creating concise, high performance cross-platform applications.
+- [Raylib](https://github.com/raysan5/raylib) - Simple and easy-to-use library to enjoy videogames programming. ([go-raylib](https://github.com/chunqian/go-raylib)) ([HN](https://news.ycombinator.com/item?id=36583743))
+- [Tutorials, tools, and more as related to reverse engineering video games](https://github.com/dsasmblr/game-hacking)
+- [Lobster](http://strlen.com/lobster/) - General purpose stand-alone programming language that comes with a built-in library suitable for making games and other graphical things. ([Lobster Design Philosophy, History, and Future](https://htmlpreview.github.io/?https://raw.githubusercontent.com/aardappel/lobster/master/lobster/docs/philosophy.html)) ([The Dream Programming Language? Lobster](https://www.youtube.com/watch?v=uuPeBKdnBOI))
+- [Open Source Game Clones](https://osgameclones.com/)
+- [Flecs](https://github.com/SanderMertens/flecs) - Multithreaded Entity Component System written for C89 & C99.
+- [Marvel's Spider-Man: A Technical Postmortem (2019)](https://www.youtube.com/watch?v=KDhKyIZd3O8)
+- [Phaser](https://github.com/photonstorm/phaser) - Fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.
+- [Making a 3D Game in Castle (2019)](https://medium.com/castle-archives/making-a-3d-game-in-castle-da628cb7e5e5)
+- [GPU Optimization for Games](https://gist.github.com/silvesthu/505cf0cbf284bb4b971f6834b8fec93d)
+- [How Do Bullets Work in Video Games?](https://www.gamasutra.com/blogs/TristanJung/20191206/355250/How_Do_Bullets_Work_in_Video_Games.php) ([HN](https://news.ycombinator.com/item?id=21859747))
+- [How to make roguelike games in Rust](http://bfnightly.bracketproductions.com/rustbook/) ([HN](https://news.ycombinator.com/item?id=22020229)) ([Code](https://github.com/thebracket/rustrogueliketutorial))
+- [What Cats Can Teach You About Empathic Game Design (2019)](https://www.youtube.com/watch?v=seyH_fX0vr0)
+- [Open Match](https://github.com/googleforgames/open-match) - Open source game matchmaking framework that simplifies building a scalable and extensible Matchmaker.
+- [My First 10 Years of Game Development (2020)](https://www.youtube.com/watch?v=egukLtEhyP0)
+- [rx](https://github.com/cloudhead/rx) - Modern and minimalist pixel editor.
+- [Gamedev Tutorial: Dot Product, Rulers, And Bouncing Balls (2020)](https://www.allenchou.net/2020/01/dot-product-projection-reflection/) ([HN](https://news.ycombinator.com/item?id=22102016))
+- [Awesome Godot](https://github.com/Calinou/awesome-godot)
+- [Curated list of awesome C++ (mainly) things for Game Development](https://github.com/Cmdu76/AwesomeCppGameDev)
+- [Game AI Pro](http://www.gameaipro.com/) ([HN](https://news.ycombinator.com/item?id=22216472))
+- [How I made a 3D game in only 2KB of JavaScript (2020)](http://frankforce.com/?p=7427) ([HN](https://news.ycombinator.com/item?id=22524287))
+- [Open Asset Import Library (assimp)](https://github.com/assimp/assimp) - Library to import and export various 3d-model-formats including scene-post-processing to generate missing render data.
+- [Agones](https://github.com/googleforgames/agones) - Dedicated Game Server Hosting and Scaling for Multiplayer Games on Kubernetes.
+- [Colyseus](https://github.com/colyseus/colyseus) - Authoritative Multiplayer Game Server for Node.js, with clients available for the Web, Unity3d, Defold, Haxe, and Cocos2d-X.
+- [How Prince of Persia Defeated Apple II's Memory Limitations (2020)](https://www.youtube.com/watch?v=sw0VfmXKq54)
+- [Castle](https://castle.games/) - Space to play and create games.
+- [Game Programming Patterns](http://gameprogrammingpatterns.com/) - Collection of patterns I found in games that make code cleaner, easier to understand, and faster. ([HN](https://news.ycombinator.com/item?id=23203699))
+- [Tracy Profiler](https://github.com/wolfpld/tracy) - Real time, nanosecond resolution, remote telemetry frame profiler for games and other applications.
+- [Network Next](https://www.networknext.com/) - Lets game developers boost network performance for their players.
+- [Aseprite](https://www.aseprite.org/) - Animated sprite editor & pixel art tool. ([Code](https://github.com/aseprite/aseprite))
+- [GameDev in Rust](https://arewegameyet.com/) ([Code](https://github.com/rust-gamedev/arewegameyet))
+- [Rust Game Development Working Group](https://rust-gamedev.github.io/) ([Code](https://github.com/rust-gamedev/wg)) ([Site code](https://github.com/rust-gamedev/rust-gamedev.github.io))
+- [Enemy AI: chasing a player without Navigation2D or A\* pathfinding (2020)](https://abitawake.com/news/articles/enemy-ai-chasing-a-player-without-navigation2d-or-a-star-pathfinding) ([HN](https://news.ycombinator.com/item?id=22848106))
+- [The Ideal Game Network Protocol (2020)](https://paytonturnage.com/writing/ideal-game-network-protocol/)
+- [Why Satisfactory Is So Addictive](https://www.youtube.com/watch?v=PV_wlU4drnM)
+- [How to build an outrun-style racing game in JS](https://github.com/jakesgordon/javascript-racer)
+- [Game Developer Roadmap](https://github.com/utilForever/game-developer-roadmap)
+- [What Is Interesting About Factorio](http://fuseki.net/home/WhatIsInterestingAboutFactorio.html) ([HN](https://news.ycombinator.com/item?id=22931595))
+- [Math for Game Developers video series](http://www.youtube.com/playlist?list=PLW3Zl3wyJwWOpdhYedlD-yCB7WQoHf-My) ([Code](https://github.com/BSVino/MathForGameDevelopers))
+- [Modern C++ gamedev: thoughts and misconceptions](https://vittorioromeo.info/index/blog/gamedev_modern_cpp_thoughts.html) ([HN](https://news.ycombinator.com/item?id=23202120)) ([Reddit](https://www.reddit.com/r/cpp/comments/gkrquo/modern_c_gamedev_thoughts_misconceptions/))
+- [lovetoys](https://github.com/lovetoys/lovetoys) - Entity Component System framework for game development with lua.
+- [Cheat Engine](https://github.com/cheat-engine/cheat-engine) - Development environment focused on modding games and applications for personal use.
+- [Source code to Delores: A Thimbleweed Park mini-adventure](https://github.com/grumpygamer/DeloresDev)
+- [EnTT](https://github.com/skypjack/entt) - Header-only, tiny and easy to use library for game programming and much more written in modern C++, mainly known for its innovative entity-component-system (ECS) model.
+- [Yet Another Doom Clone (In 13kb of JavaScript) (2019)](https://nicholas.carlini.com/writing/2019/javascript-doom-clone-13k.html)
+- [Magic Tools](https://github.com/ellisonleao/magictools) - Game Development resources to make magic happen.
+- [Client-Server Game Architecture](https://www.gabrielgambetta.com/client-server-game-architecture.html) ([HN](https://news.ycombinator.com/item?id=29003727))
+- [Nakama](https://heroiclabs.com/) - Distributed server for social and real time games and apps. ([Code](https://github.com/heroiclabs/nakama))
+- [Nakama JavaScript client](https://github.com/heroiclabs/nakama-js) - JavaScript client for Nakama server written in TypeScript.
+- [Peeking under the hood of Command & Conquer (2020)](http://www.hydrogen18.com/blog/peeking-under-the-hood-of-command-conquer.html)
+- [Dwarf Fortress Creator Explains its Complexity & Origins (2020)](https://www.youtube.com/watch?v=VAhHkJQ3KgY) ([HN](https://news.ycombinator.com/item?id=23646395))
+- [Yarn Editor](https://github.com/YarnSpinnerTool/YarnEditor) - Tool for writing interactive dialogue in games.
+- [Nano](https://github.com/lonng/nano) - Easy to use, fast, lightweight game server networking library for Go.
+- [A frontend stack for video games (2020)](https://increment.com/frontend/a-frontend-stack-for-video-games/)
+- [GameLisp](https://github.com/fleabitdev/glsp) - Scripting language for Rust game development. ([Web](https://gamelisp.rs/))
+- [Game Development With Fennel And Löve (2020)](https://beta7.io/posts/game-development-with-fennel-and-love.html)
+- [Pont - A multiplayer board game in Rust and WebAssembly (2020)](https://www.mattkeeter.com/projects/pont/) ([Code](https://github.com/mkeeter/pont))
+- [Playbyte](https://www.playbyte.io/) - Create fun games.
+- [Networked games: Playing in the past or future (2020)](https://www.evanjones.ca/network-game-simulation.html) ([HN](https://news.ycombinator.com/item?id=23839390))
+- [Rust Sokoban](https://sokoban.iolivia.me/) - Extended tutorial on making a Sokoban copy in Rust.
+- [How do I design a game from scratch? A primer on core loops (2020)](https://teamavocado.co/core-loop/) ([HN](https://news.ycombinator.com/item?id=23869155))
+- [Elo suck - better multiplayer rating systems for smaller games](https://medium.com/acolytefight/elo-sucks-better-multiplayer-rating-systems-for-smaller-games-8ca588ee652f) ([Lobsters](https://lobste.rs/s/tzdghs/elo_sucks_better_multiplayer_rating))
+- [A-Life: An Insight into Ambitious AI (2017)](https://blackshellmedia.com/2017/08/12/a-life-an-insight-into-ambitious-ai/)
+- [Ct.js](https://ctjs.rocks/) Visual Game Editor for Pixi.js. ([HN](https://news.ycombinator.com/item?id=24176655))
+- [High Hat Devlogs](https://www.youtube.com/playlist?list=PL0DiuJldNGZyVFZ9KWu7GymvYMbC-N0C3)
+- [Handmade Hero](https://hero.handmade.network/) - Ongoing project by Casey Muratori to create a complete, professional-quality game accompanied by videos that explain every single line of its source code.
+- [Bellwoods (2018)](https://mattdesl.svbtle.com/bellwoods)
+- [Kha](https://github.com/Kode/Kha) - Ultra-portable, high performance, open source multimedia framework.
+- [Game Programming Patterns: Event Queue](https://gameprogrammingpatterns.com/event-queue.html) ([HN](https://news.ycombinator.com/item?id=24233229))
+- [Storymapr](https://www.storymapr.com/) - Visually design game dialogues and quests.
+- [VALORANT's 128-Tick Servers (2020)](https://technology.riotgames.com/news/valorants-128-tick-servers) ([Lobsters](https://lobste.rs/s/ecpsqo/valorant_s_128_tick_servers))
+- [Overwatch Gameplay Architecture and Netcode (2019)](https://www.youtube.com/watch?v=W3aieHjyNvw)
+- [The Making of Dune II](https://readonlymemory.vg/the-making-of-dune-ii/)
+- [Ask HN: Advice for Multiplayer Back End (2020)](https://news.ycombinator.com/item?id=24512488)
+- [LEd](https://deepnight.net/tools/led-2d-level-editor/) - Modern, lightweight and efficient 2D level editor. ([HN](https://news.ycombinator.com/item?id=24599269)) ([Code](https://github.com/deepnight/led))
+- [Laminar](https://github.com/amethyst/laminar) - Simple semi-reliable UDP protocol for multiplayer games.
+- [Fibers, Oh My (2020)](https://graphitemaster.github.io/fibers/) ([HN](https://news.ycombinator.com/item?id=24679740)) ([Lobsters](https://lobste.rs/s/2cranq/fibers_oh_my))
+- [Sid Meier's Memoir](https://sidmeiersmemoir.com/) ([HN](https://news.ycombinator.com/item?id=24729402))
+- [Zenva Academy](https://academy.zenva.com/) - Empower people so that they can create their own videogames, mobile apps and websites. ([YouTube](https://www.youtube.com/c/Zenva/videos))
+- [Video Game Source Project](https://gamehistory.org/video-game-source-project/) - Video Game History Foundation. Ability to study video game source material is rare. We’re changing that.
+- [Activision Research Publications](https://research.activision.com/publications)
+- [es_core](https://github.com/TTimo/es_core) - Experimental framework for low latency, high fps multiplayer games.
+- [Game Developers Conference (GDC)](https://gdconf.com/)
+- [Making a small game with Gloss [Haskell] (2020)](https://herebeseaswines.net/essays/2020-11-01-making-a-small-game-with-gloss)
+- [Serious Engine – Multiplayer Explained](https://staniks.github.io/articles/serious-engine-networking-analysis.html)
+- [Leveraging Go for Game Development and Operations (2020)](https://technology.riotgames.com/news/leveraging-golang-game-development-and-operations)
+- [Jupylet](https://github.com/nir/jupylet) - Python library that lets you create 2D and 3D games, graphics, music and sound synthesizers, interactively in a Jupyter notebook.
+- [Designing The Witcher 3's Most Famous Quest (2020)](https://www.youtube.com/watch?v=5gvVp9cP8xc)
+- [Quake’s 3-D Engine: The Big Picture](https://www.bluesnews.com/abrash/chap70.shtml)
+- [Game UI Database](https://www.gameuidatabase.com/) - Reference tool for interface designers.
+- [Ask HN: I'm quitting my job, will create a game – any advice? (2020)](https://news.ycombinator.com/item?id=25376714)
+- [The Lighting of Need for Speed Heat in Frostbite (2020)](https://www.youtube.com/watch?v=K-CIiBpOI0o)
+- [Ink](https://www.inklestudios.com/ink/) - Narrative scripting language. ([Code](https://github.com/inkle/ink)) ([HN](https://news.ycombinator.com/item?id=34080026))
+- [Inky](https://github.com/inkle/inky) - Editor for ink: inkle's narrative scripting language.
+- [TIC-80](https://github.com/nesbox/TIC-80) - Fantasy computer for making, playing and sharing tiny games. ([Web](https://tic80.com/))
+- [Making a Game in 48 hours with Rust and WebAssembly (2020)](https://ianjk.com/rust-gamejam/)
+- [Build tools for a multiplayer browser game (2021)](https://jeffanddom.com/devlog/2021-01-07-how-jeff-and-dom-make-the-game/)
+- [CS 6457: Video Game Design Course](https://omscs.gatech.edu/cs-6457-video-game-design)
+- [Doom 3 Network Architecture (2006)](https://fabiensanglard.net/doom3_documentation/The-DOOM-III-Network-Architecture.pdf)
+- [John Carmack on Quake, Internet Play and Latency](https://fabiensanglard.net/quakeSource/johnc-log.aug.htm)
+- [OpenGameArt.org](https://opengameart.org/) - Open content assets for games.
+- [Thoughts on making small games (2021)](https://a327ex.github.io/blog/small-games)
+- [Gamedev from scratch 1: Scaffolding (2021)](https://eev.ee/blog/2021/01/26/gamedev-from-scratch-1-scaffolding/) ([HN](https://news.ycombinator.com/item?id=35908617))
+- [Awesome Game Dev](https://github.com/Calinou/awesome-gamedev)
+- [GameNetworkingSockets Build Status](https://github.com/ValveSoftware/GameNetworkingSockets) - Basic transport layer for games. Reliable & unreliable messages over UDP. Robust message fragmentation & reassembly. P2P networking / NAT traversal. Encryption.
+- [How EVE Online is built (2021)](https://www.youtube.com/watch?v=ORkE8yeSsV4)
+- [Implementing the Elo Rating System (2020)](https://mattmazzola.medium.com/implementing-the-elo-rating-system-a085f178e065) ([HN](https://news.ycombinator.com/item?id=26115665))
+- [NetplayJS](https://github.com/rameshvarun/netplayjs) - Make P2P multiplayer games in JavaScript, no server hosting required. Powered by PeerJS and rollback netcode.
+- [Making Games on Your Own as an Engineer (2021)](https://blog.eyas.sh/2021/02/unity-for-engineers-pt11-development-process/) ([HN](https://news.ycombinator.com/item?id=26246049))
+- [Indie Game Development: Indie Archetypes](https://www.derekyu.com/makegames/archetypes.html)
+- [Egregoria](https://github.com/Uriopass/Egregoria) - Contemplative society simulation.
+- [Building a serverless multi-player game that scales (2021)](https://aws.amazon.com/blogs/compute/building-a-serverless-multiplayer-game-that-scales/)
+- [Supporting hundreds of players on a single fast paced game server (2021)](https://www.reddit.com/r/gamedev/comments/ltvmh9/supporting_hundreds_of_players_on_a_single_fast/)
+- [Video Game Programming From Scratch with Casey Muratori (2021)](https://corecursive.com/062-game-programming/)
+- [Naughty Dog at SIGGRAPH 2020](https://www.naughtydog.com/blog/naughty_dog_at_siggraph_2020)
+- [Notes on two Jonathan Blow's lectures on game design](https://dbohdan.com/wiki/jonathan-blow)
+- [I Tried Making a 3D RPG Game in JavaScript (2020)](https://www.youtube.com/watch?v=SBfZAVzbhCg)
+- [3D Math Primer for Graphics and Game Development](https://gamemath.com/) ([Tweet](https://twitter.com/ZPostFacto/status/1370032915329949707)) ([Intro](https://gamemath.com/book/intro.html)) ([HN](https://news.ycombinator.com/item?id=31419494))
+- [Learning Machine Learning for Game Development (2021)](https://ai.googleblog.com/2021/03/leveraging-machine-learning-for-game.html) ([HN](https://news.ycombinator.com/item?id=26523223))
+- [Game Pillars and Values (2021)](https://www.charliecleveland.com/game-pillars/)
+- [Demoscene: The Strangest (and Coolest) Computer Subculture](https://www.youtube.com/watch?v=VENFVhQqGls)
+- [Teach Yourself Demoscene in 14 Days](https://github.com/psenough/teach_yourself_demoscene_in_14_days)
+- [Sims 2 Dev Thread](https://twitter.com/JustJakeSimpson/status/1375520115920236544)
+- [Kaboom.js](https://github.com/replit/kaboom) - JavaScript game library. ([Docs](https://kaboomjs.com/)) ([Intro](https://blog.replit.com/kaboom)) ([HN](https://news.ycombinator.com/item?id=26728774))
+- [CloudMorph](https://github.com/giongto35/cloud-morph) - Decentralized, self-hosted cloud gaming/cloud application platform.
+- [Game accessibility guidelines](http://gameaccessibilityguidelines.com/) - Straightforward reference for inclusive game design. ([HN](https://news.ycombinator.com/item?id=26913554))
+- [Making an online multiplayer game in Rust with Nakama (2021)](https://heroiclabs.com/blog/tutorials/rust-fishgame/)
+- [Open Saves](https://github.com/googleforgames/open-saves) - Open-source, purpose-built single interface for multiple storage backends on Google Cloud.
+- [Writing web-based interactive fiction with ink](https://www.inklestudios.com/ink/web-tutorial/) ([HN](https://news.ycombinator.com/item?id=26984912))
+- [GB Studio](https://www.gbstudio.dev/) - Game maker for the Game Boy. ([Code](https://github.com/chrismaltby/gb-studio))
+- [Building games that can be understood at a glance (2018)](http://stfj.net/DesigningForSubwayLegibility/)
+- [MServer](https://github.com/changnet/MServer) - Mini Distributed Game Server.
+- [Lightweight Websocket library a simple game server in Go? (2021)](https://www.reddit.com/r/golang/comments/nmues9/lightweight_websocket_library_a_simple_game_server/)
+- [Pixel Thief](https://thief.bradwoods.io/) - Learn how to build a game using XState & React.
+- [#PitchYaGame - Twitter](https://twitter.com/hashtag/PitchYaGame)
+- [Ask HN: Game development for non-game developers (2021)](https://news.ycombinator.com/item?id=27408023)
+- [Entity Component System architectures (and why you should care)](https://dev.to/endershadow8/entity-component-system-architectures-and-why-you-should-care-59ja) ([Lobsters](https://lobste.rs/s/w2vbib/entity_component_system_architectures))
+- [Half-Life 1 engine based games](https://github.com/ValveSoftware/halflife)
+- [LDtk](https://deepnight.itch.io/ldtk) - Modern and open-source 2D level editor. ([HN](https://news.ycombinator.com/item?id=27570556))
+- [Serpent.AI](https://github.com/SerpentAI/SerpentAI) - Game Agent Framework. Helping you create AIs / Bots that learn to play any game you own. ([Web](http://serpent.ai/))
+- [Developing Games on Linux: An Interview with Little Red Dog Game](https://blog.system76.com/post/654884924769370112/developing-games-on-linux-an-interview-with) ([HN](https://news.ycombinator.com/item?id=27619977))
+- [Quilkin](https://github.com/googleforgames/quilkin) - Non-transparent UDP proxy specifically designed for use with large scale multiplayer dedicated game server deployments, to ensure security, access control, telemetry data, metrics and more.
+- [What you shouldn't unit test in games (2017)](https://refactoring.ninja/posts/2017-04-08-what-you-shouldnt-unit-test-in-games/)
+- [DuckEngine](https://github.com/ksplatdev/DuckEngine) - 2D Game Library for the web.
+- [How to make a simple entity-component-system in C++ (2020)](https://www.david-colson.com/2020/02/09/making-a-simple-ecs.html)
+- [Improbable](https://www.improbable.io/) - Tools to make multiplayer games and help developers meet any challenge. ([GitHub](https://github.com/improbable))
+- [GameCI](https://game.ci/) - Fastest and easiest way to automatically test and build your game projects. ([GitHub](https://github.com/game-ci))
+- [Designing Virtual Worlds Book by Richard Bartle (2003)](https://nwn.blogs.com/nwn/2021/08/richard-bartle-designing-virtual-worlds-free-book.html) ([HN](https://news.ycombinator.com/item?id=28226176))
+- [Why video game doors are so hard to get right (2021)](https://www.youtube.com/watch?v=AYEWsLdLmcc) ([HN](https://news.ycombinator.com/item?id=28415196))
+- [WorldQL](https://www.worldql.com/) - Universal backend for real-time multiplayer games. ([GitHub](https://github.com/WorldQL))
+- [What are Voxels and why are they so cool? (2021)](https://www.youtube.com/watch?v=WWU8t0CpNQA)
+- [NVIDIA DLSS (Deep Learning Super Sampling](https://developer.nvidia.com/dlss/research) - Deep learning neural network that boosts frame rates and generates beautiful, sharp images for your games.
+- [naia](https://github.com/naia-rs/naia) - Cross-platform (including Wasm!) networking engine that intends to make multiplayer game development in Rust dead simple and lightning fast.
+- [Getting to the bottom of web map performance](https://bdon.org/blog/web-map-performance/)
+- [About Halo game's backend (2021)](https://cleverheap.com/posts/about-halo-backend/)
+- [Spring-It-On: The Game Developer's Spring-Roll-Call (2021)](https://theorangeduck.com/page/spring-roll-call#)
+- [apecs](https://github.com/jonascarpay/apecs) - Fast, type driven, extensible ECS for game development.
+- [TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) - Modern cross-platform level editor for Quake-engine based games. ([Web](https://trenchbroom.github.io/))
+- [Finishing my first game while working full-time (2021)](https://jasont.co/finishing-games/) ([HN](https://news.ycombinator.com/item?id=29106824))
+- [I Tried Creating a Game Using Real-world Geographic Data (2021)](https://www.youtube.com/watch?v=sLqXFF8mlEU&t=2s)
+- [Ask HN: How were video games from the 90s so efficient? (2021)](https://news.ycombinator.com/item?id=29127098)
+- [SLADE3](https://github.com/sirjuddington/SLADE) - Modern editor for Doom-engine based games and source ports.
+- [Where to start to become a game designer? (2021)](https://www.reddit.com/r/gamedev/comments/qvpobx/where_to_start_to_become_a_game_designer/)
+- [Q1K3 – Making Of (2021)](https://phoboslab.org/log/2021/09/q1k3-making-of)
+- [Voidcall – Making Of (2019)](https://phoboslab.org/log/2019/09/voidcall-making-of)
+- [Procedural storytelling is exploding the possibilities of video game narratives (2021)](https://www.theverge.com/2021/11/30/22807568/procedural-storytelling-video-games-dwarf-fortress-wildermyth-blaseball)
+- [Gamedev/Code/Physics Resources](https://www.david-colson.com/resources.html)
+- [GameDev Reddit Wiki](https://www.reddit.com/r/gamedev/wiki/index)
+- [The Making of Games Reddit](https://www.reddit.com/r/TheMakingOfGames/)
+- [Technical Game Design tutorials](https://www.reddit.com/r/gamedev/comments/rt2tyl/why_is_there_a_huge_lack_of_technical_game_design/)
+- [How Dwarf Fortress is built (2021)](https://stackoverflow.blog/2021/12/31/700000-lines-of-code-20-years-and-one-developer-how-dwarf-fortress-is-built/) ([HN](https://news.ycombinator.com/item?id=29757875))
+- [Basic Computer Games implemented in different languages](https://github.com/coding-horror/basic-computer-games) ([Article](https://blog.codinghorror.com/updating-the-single-most-influential-book-of-the-basic-era/))
+- [SoLoud](https://github.com/jarikomppa/soloud) - Easy to use, free, portable c/c++ audio engine for games. ([Docs](http://sol.gfxile.net/soloud/))
+- [Yet Another Roguelike Tutorial - Written in Python 3 and TCOD](http://rogueliketutorials.com/tutorials/tcod/v2/)
+- [LatencyFleX: A new approach to game latency reduction](https://ishitatsuyuki.github.io/post/latencyflex/) ([HN](https://news.ycombinator.com/item?id=29874169))
+- [Calling the Shot: the Next Five Years at Riot Games (2022)](https://www.riotgames.com/en/news/calling-the-shot-the-next-five-years-at-riot-games)
+- [Playhouse](https://github.com/FoundingHQ/playhouse) - Platform for real-time multiplayer trivia games.
+- [Networking of a turn-based game (2022)](https://longwelwind.net/blog/networking-turn-based-game/) ([Lobsters](https://lobste.rs/s/ceel32/networking_turn_based_game)) ([HN](https://news.ycombinator.com/item?id=30352710))
+- [Ravens](https://github.com/ravens-engine/core) - JavaScript library for building multiplayer turn-based games.
+- [Open Gamedev School](https://spicylobster.itch.io/fishfight/devlog/345530/open-gamedev-school) ([Lobsters](https://lobste.rs/s/jvmhp2/open_gamedev_school))
+- [Multiplayer Online Standard](https://github.com/tinspin/fuse)
+- [Video Game Project Management Anti-patterns (2022)](https://arxiv.org/abs/2202.06183) ([HN](https://news.ycombinator.com/item?id=30344251))
+- [Hathora](https://github.com/hathora/hathora) - Framework for building multiplayer games and other real time applications. ([Docs](https://docs.hathora.dev/#/)) ([HN](https://news.ycombinator.com/item?id=30442072)) ([Web](https://hathora.dev/)) ([Article](https://blog.hathora.dev/introducing-hathora/)) ([HN](https://news.ycombinator.com/item?id=31084779)) ([Modern Cloud for Multiplayer Games](https://blog.hathora.dev/modern-cloud-for-multiplayer-games/)) ([HN](https://news.ycombinator.com/item?id=31934181))
+- [Pikuma: Isometric Projection in Game Development](https://pikuma.com/blog/isometric-projection-in-games) ([HN](https://news.ycombinator.com/item?id=30522955))
+- [Building games through natural language using OpenAI’s code-DaVinci model (2022)](https://andrewmayneblog.wordpress.com/2022/03/17/building-games-and-apps-entirely-through-natural-language-using-openais-davinci-code-model/) ([HN](https://news.ycombinator.com/item?id=30717773))
+- [Wolfenstein 3D secrets revealed by John Romero in lengthy post-mortem chat (2022)](https://arstechnica.com/gaming/2022/03/achtung-john-romero-exposes-wolfenstein-3ds-history-in-gdc-post-mortem/) ([HN](https://news.ycombinator.com/item?id=30788475))
+- [IndieGameDev](https://indiegamedev.net/) - Solo, Hobby, and Indie Developers.
+- [LDtk](https://ldtk.io/) - 2D level editor. ([LDtk Rust Library](https://github.com/estivate/ldtk_rust))
+- [Eldiron](https://github.com/markusmoenig/Eldiron) - Cross platform classic RPG game creator written in Rust. ([Web](https://eldiron.com/))
+- [Learn 3D Computer Graphics Programming from scratch](https://pikuma.com/courses/learn-3d-computer-graphics-programming)
+- [Creating a Game Physics Engine with C++](https://pikuma.com/courses/game-physics-engine-programming)
+- [Elden Ring Succeeds by Ignoring 20 Years of Open-World Design (2022)](https://www.gamedeveloper.com/blogs/how-elden-ring-succeeds-by-ignoring-20-years-of-open-world-design) ([HN](https://news.ycombinator.com/item?id=30878278))
+- [Ask HN: Why is visual programming so popular for game programming? (2022)](https://news.ycombinator.com/item?id=30937201)
+- [Pitaya](https://github.com/topfreegames/pitaya) - Scalable game server framework with clustering support and client libraries for iOS, Android, Unity and others through the C SDK.
+- [Parrot](https://github.com/maniwani/parrot) - Library of modular components for building cross-platform multiplayer games.
+- [Tools we use to make our game satisfactory (2022)](https://www.youtube.com/watch?v=o6ao9-UIZIQ) ([HN](https://news.ycombinator.com/item?id=31037430))
+- [Fabricated](https://github.com/markusmoenig/Fabricated) - Procedural game asset generator for macOS and iOS.
+- [The Devs Were Pretty Smart To Come Up With This (2022)](https://www.youtube.com/watch?v=XNkijakpf9Y)
+- [CubbyFlow](https://github.com/CubbyFlow/CubbyFlow) - Voxel-based fluid simulation engine for computer games.
+- [Shaku](https://github.com/RonenNess/Shaku) - Pure JavaScript framework for web games development that emphasize simplicity, flexibility and freedom.
+- [Riot Games Tech Blog: Artificial Latency for Remote Competitors (2022)](https://lolesports.com/article/riot-games-tech-blog-artificial-latency-for-remote-competitors/blt44154a33b5d5a616) ([HN](https://news.ycombinator.com/item?id=31412440))
+- [Tiled](https://www.mapeditor.org/) - Flexible level editor. ([Code](https://github.com/mapeditor/tiled))
+- [Guide to implementing 2D platformers (2012)](http://higherorderfun.com/blog/2012/05/20/the-guide-to-implementing-2d-platformers/) ([HN](https://news.ycombinator.com/item?id=31450218))
+- [Why did they throw the level designers under the bus?](https://www.youtube.com/watch?v=QGom--EtVfA)
+- [Behind the Pretty Frames: Elden Ring (2022)](http://www.mamoniem.com/behind-the-pretty-frames-elden-ring/)
+- [How Do Video Games Stay in Sync? (2022)](https://medium.com/geekculture/how-do-video-games-stay-in-sync-an-intro-to-the-fascinating-networking-of-real-time-games-e923e66e8a0f) ([HN](https://news.ycombinator.com/item?id=31512257))
+- [SideFX](https://www.sidefx.com/) - Houdini - 3D modeling, animation, VFX, look development, lighting and rendering. ([GitHub](https://github.com/sideeffects))
+- [Writing is a single-player game (2022)](https://www.otherlife.co/singleplayer/) ([HN](https://news.ycombinator.com/item?id=31733513))
+- [Game Design Mimetics (Or, What Happened To Game Design?) (2022)](https://blog.kylekukshtel.com/game-design-mimetics) ([HN](https://news.ycombinator.com/item?id=31725506))
+- [Citybound – A city building game using actor-based distributed simulation](https://aeplay.org/citybound) ([HN](https://news.ycombinator.com/item?id=31794872))
+- [LinuxGSM](https://linuxgsm.com/) - Command-line tool for quick, simple deployment and management of Linux dedicated game servers. ([Code](https://github.com/GameServerManagers/LinuxGSM))
+- [Tiger](https://github.com/agersant/tiger) - Graphical tool for generating spritesheets and metadata about the animation and hitboxes they contain.
+- [What is the most fun game mechanic that you have ever played that you think you can also implement?](https://www.reddit.com/r/gamedev/comments/vrnt26/what_is_the_most_fun_game_mechanic_that_you_have/)
+- [Tantan - YouTube](https://www.youtube.com/c/Tantandev/videos) ([GitHub](https://github.com/TanTanDev))
+- [Reverse Engineering Dark Souls 3 Networking (2022)](https://timleonard.uk/2022/05/29/reverse-engineering-dark-souls-3-networking) ([Lobsters](https://lobste.rs/s/i8iitz/reverse_engineering_dark_souls_3)) ([HN](https://news.ycombinator.com/item?id=31982898))
+- [An Overview of Kandria's Development with Lisp (2022)](https://reader.tymoon.eu/article/413) ([HN](https://news.ycombinator.com/item?id=32043026))
+- [Triangle Grids in Games (2022)](https://kvachev.com/blog/posts/triangular-grid/) ([HN](https://news.ycombinator.com/item?id=32045779))
+- [Fog for Top-Down Games (2022)](https://kvachev.com/blog/posts/fog-for-topdown-games/)
+- [Programming a Rogue-Like with Rust](https://bfnightly.bracketproductions.com/rustbook/chapter_0.html) ([HN](https://news.ycombinator.com/item?id=32067019))
+- [The Last of Us Part I Rebuilt for PS5 (2022)](https://www.youtube.com/watch?v=uRKIWQUucj0)
+- [Ask HN: What makes users want to share a game? (2022)](https://news.ycombinator.com/item?id=32191526)
+- [NarraScope 2022: 5 Lessons From 50 Years of Text Games](https://www.youtube.com/watch?v=aFUFhf-Y4eg)
+- [Ask HN: Any solo game developers here? (2022)](https://news.ycombinator.com/item?id=32343096)
+- [Cramming 'Papers, Please' Onto Phones (2022)](https://dukope.com/devlogs/papers-please/mobile/) ([Lobsters](https://lobste.rs/s/uj9szd/cramming_papers_please_onto_phones))
+- [I Tried Making an FPS Game (2022)](https://www.youtube.com/watch?v=3DMZETkPieI)
+- [Learn Awesome Gamedev](https://github.com/notpresident35/learn-awesome-gamedev)
+- [Tough times on the road to Starcraft (2012)](https://www.codeofhonor.com/blog/tough-times-on-the-road-to-starcraft)
+- [Adventure game graphics with DALL-E 2 (2022)](https://hpjansson.org/blag/2022/08/16/adventure-game-graphics-with-dall-e-2/) ([Lobsters](https://lobste.rs/s/wp9t0b/adventure_game_graphics_with_dall_e_2))
+- [Where do you buy music & sound effects for your games?](https://www.reddit.com/r/gamedev/comments/x34d6i/where_do_you_guys_buy_music_sound_effects/)
+- [noclip](https://noclip.website/) - Digital museum of video game levels. ([Code](https://github.com/magcius/noclip.website))
+- [gogs](https://github.com/metagogs/gogs) - Go Game Server Framework.
+- [The Journey to Nanite - Brian Karis, Epic Games (2022)](https://www.youtube.com/watch?v=NRnj_lnpORU)
+- [I learned to love testing game code](https://chadnauseam.com/coding/gamedev/automated-testing-in-bevy/) ([HN](https://news.ycombinator.com/item?id=32802402))
+- [What it takes to make a game by yourself (2022)](https://dillonshook.com/what-it-takes-to-make-a-game-by-yourself/) ([HN](https://news.ycombinator.com/item?id=32851196))
+- [A Last Gasp of 2D: The Cave CV1000 (2022)](https://nicole.express/2022/games-made-in-a-cave.html)
+- [Best game building stuff for young kids (2022)](https://twitter.com/ThePrimeagen/status/1584204991316623360)
+- [Multiplayer Matchmaker](https://github.com/penberg/multiplayer-matchmaker) - Implements a multiplayer matchmaking server for games with ChiselStrike.
+- [What are some underrated tools every game developer should know? (2022)](https://www.reddit.com/r/gamedev/comments/yely22/what_are_some_underrated_tools_every_game/)
+- [Books to read for game dev](https://twitter.com/FreyaHolmer/status/1586737169619623938)
+- [Hack Club Sprig](https://github.com/hackclub/sprig) - Learn to code by making games in a JavaScript web-based game editor.
+- [Code Poetry: Easing Tutorial & Optimizations](https://github.com/Michaelangel007/easing)
+- [Lance](https://github.com/lance-gg/lance) - Multiplayer game server based on Node.JS.
+- [Isometric Pixel Art (2022)](https://www.slynyrd.com/blog/2022/11/28/pixelblog-41-isometric-pixel-art) ([HN](https://news.ycombinator.com/item?id=33814573))
+- [Game Engine Black Book: Doom](https://fabiensanglard.net/b/gebbdoom.pdf) ([HN](https://news.ycombinator.com/item?id=33829832))
+- [The Making of Dune II: The birth of the real-time strategy game](https://readonlymemory.vg/the-making-of-dune-ii/) ([HN](https://news.ycombinator.com/item?id=33869118))
+- [How and why video game studios unionize (2022)](https://www.polygon.com/23485977/video-game-unions-guide-explainer)
+- [Why Veteran Developers say "Make Small Games & Finish Them!" (2022)](https://www.youtube.com/watch?v=-K46mV38qD8)
+- [I still use Flash (2022)](https://foon.uk/how-flash-2022/) ([HN](https://news.ycombinator.com/item?id=34079543))
+- [multiplayer MUD server for a game in Go](https://github.com/jasonbot/mud)
+- [Remaking old computer graphics with AI image generation (2023)](https://jalammar.github.io/ai-image-generation-tools/) ([HN](https://news.ycombinator.com/item?id=34212564))
+- [The System Behind Hades' Astounding Dialogue](https://www.youtube.com/watch?v=bwdYL0KFA_U)
+- [Ask HN: How to move from traditional tech into game dev? (2023)](https://news.ycombinator.com/item?id=34295863)
+- [RPG JS](https://rpgjs.dev/) - Create your RPG and MMORPG. ([Code](https://github.com/RSamaium/RPG-JS))
+- [How to Make a Roguelike (2018)](https://www.gamedeveloper.com/design/how-to-make-a-roguelike)
+- [How to beat lag when developing a multiplayer RTS game (2022)](https://www.construct.net/en/blogs/ashleys-blog-2/rts-devlog-beat-lag-1607)
+- [Ask HN: ChatGPT et al. and NPCs (2023)](https://news.ycombinator.com/item?id=34478503)
+- [How to smooth and spread A\* paths for an RTS (2023)](https://www.construct.net/en/blogs/ashleys-blog-2/rts-devlog-extreme-pathfinding-1608) ([HN](https://news.ycombinator.com/item?id=34594547))
+- [Math breakdown: Anime homing missiles (2023)](https://blog.littlepolygon.com/posts/missile/) ([HN](https://news.ycombinator.com/item?id=34630730))
+- [Tactile](https://github.com/albin-johansson/tactile) - Tilemap editor that aims to be simple, fast and lightweight.
+- [Build a real-time game with Supabase and Vue (2023)](https://www.pixelhop.io/writing/build-a-real-time-game-with-supabase-and-vue/)
+- [Rust Nation Micro Game Jam](https://angelonfira.notion.site/angelonfira/Rust-Nation-Micro-Game-Jam-5f1e931ca1324007abf4acdcc316fe18)
+- [Tomorrow Corporation Tech Demo (2023)](https://www.youtube.com/watch?v=72y2EC5fkcE)
+- [GoWorld](https://github.com/xiaonanln/goworld) - Scalable Distributed Game Server Engine with Hot Swapping in Go.
+- [Write a First Person Game in 2KB with Rust (2023)](https://grantshandy.github.io/posts/raycasting/) ([HN](https://news.ycombinator.com/item?id=34948151))
+- [Project Goobii](https://projectgoobii.com/) - Former game devs building a platform showcasing game projects. ([HN](https://news.ycombinator.com/item?id=34962820))
+- [Game Asset Storage, Loading, Compression and Caching (2023)](https://ph3at.github.io/posts/Asset-Compression/)
+- [Creating Isometric RPG Game Backgrounds (2023)](https://talesofsyn.com/posts/creating-isometric-rpg-game-backgrounds) ([HN](https://news.ycombinator.com/item?id=34989407))
+- [Ask HN: Any solo game developers here? (2023)](https://news.ycombinator.com/item?id=35134805)
+- [Rust – Are We Game Yet?](https://arewegameyet.rs/) ([HN](https://news.ycombinator.com/item?id=35183038))
+- [Juice](https://garden.bradwoods.io/notes/design/juice) ([HN](https://news.ycombinator.com/item?id=35273139))
+- [What currently available game impresses game developers the most and why? (2023)](https://www.reddit.com/r/gamedev/comments/124k70h/what_currently_available_game_impresses_game/)
+- [Rust Gamedev](https://github.com/ChevyRay/rust-gamedev)
+- [Libraries and frameworks for Game Development in Rust](https://github.com/dasifefe/rust-game-development-frameworks)
+- [theseus](https://github.com/modrinth/theseus) - Game launcher which can be used as a CLI, GUI, and a library for creating and playing Modrinth projects.
+- [How to make good small games (2023)](http://farawaytimes.blogspot.com/2023/02/how-to-make-good-small-games.html) ([HN](https://news.ycombinator.com/item?id=35625543))
+- [Simple Pathtracing (2012)](https://iquilezles.org/articles/simplepathtracing/) ([HN](https://news.ycombinator.com/item?id=35660556))
+- [Where do you start with your blank canvas? (2023)](https://www.reddit.com/r/gamedev/comments/12xh3ny/where_do_you_start_with_your_blank_canvas/)
+- [Game development in Go: Ebitengine shaders (2023)](https://quasilyte.dev/blog/post/ebitengine-shaders/)
+- [Notes on rarely-seen game mechanics (2023)](https://blog.plover.com/notes/game-mechanics.html) ([HN](https://news.ycombinator.com/item?id=35941369))
+- [Game Server in Go](https://github.com/anthdm/gameserver)
+- [I'm Building a Company | Christoph Nakazawa](https://cpojer.net/posts/building-a-company)
+- [13 Sheep (2023)](https://www.neeldhara.com/blog/13sheep/)
+- [How Frightened Ghosts Decide Where to Go (2023)](https://www.youtube.com/watch?v=eFP0_rkjwlY)
+- [Leaked source – CS:GO](https://lwss.github.io/Kisak-Strike/) ([HN](https://news.ycombinator.com/item?id=36177057))
+- [Why it is time to start thinking of games as databases (2023)](https://ajmmertens.medium.com/why-it-is-time-to-start-thinking-of-games-as-databases-e7971da33ac3)
+- [Lisp Game Jam - "Wireworld" - Hoot's low level WASM tooling in action (2023)](https://spritely.institute/news/hoot-wireworld-live-in-browser.html)

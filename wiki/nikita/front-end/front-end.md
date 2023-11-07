@@ -1,0 +1,157 @@
+# Front End
+
+[Open UI](https://open-ui.org/) & [React Aria](https://react-spectrum.adobe.com/react-aria/) are nice. [Histoire](https://github.com/histoire-dev/histoire) is nice to test out components.
+
+[Playroom](https://github.com/seek-oss/playroom) seems nice.
+
+## Notes
+
+- [Every time I write code that has user interactions + async logic and don't use state machines, I get tons of bugs.](https://twitter.com/ryanflorence/status/1397283439787741186)
+
+## Links
+
+- [Front End Resources](https://enboard.co/frontend/)
+- [Front-end Job Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+- [Front End case studies](https://github.com/andrew--r/frontend-case-studies)
+- [Front End Developer Handbook 2018](https://frontendmasters.com/books/front-end-handbook/2018/)
+- [Code my UI](https://codemyui.com) - Web Design Inspiration with Code Snippets.
+- [Front End Guidelines Questionnaire](https://github.com/bradfrost/frontend-guidelines-questionnaire)
+- [Great front end guidelines](https://github.com/rvolosatovs/turtlitto/blob/master/DEVELOPMENT.md#frontend-guidelines)
+- [Thoughts About Front-End Development (2018)](https://reading.supply/@jim/thoughts-about-front-end-development-2WwhaP)
+- [Rearchitecting Airbnb’s Frontend (217)](https://medium.com/airbnb-engineering/rearchitecting-airbnbs-frontend-5e213efc24d2)
+- [FrontendArmory](https://frontarm.com/) - Some great React/JS courses.
+- [The Elements of UI Engineering (2018)](https://overreacted.io/the-elements-of-ui-engineering/)
+- [UI as an afterthought (2019)](https://michel.codes/blogs/ui-as-an-afterthought)
+- [Front-end Developer Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/)
+- [The Great Divide (2019)](https://css-tricks.com/the-great-divide/) - Two front-end developers are sitting at a bar. They have nothing to talk about.
+- [Micro Frontends (2019)](https://martinfowler.com/articles/micro-frontends.html)
+- [The Modern Front-End Design System Stack (2019)](https://jxnblk.com/blog/the-modern-front-end-design-system/)
+- [Navigating the Hype-Driven Frontend Development World Without Going Insane - Kitze (2019)](https://www.youtube.com/watch?v=u2WtILkz0fI)
+- [FAB Specification](https://fab.dev/) - Compile target for frontend applications. ([Code](https://github.com/fab-spec/fab))
+- [What should i learn as a front-end web dev in 2020?](https://www.reddit.com/r/webdev/comments/ed5aoj/what_should_i_learn_as_a_frontend_web_dev_in_2020/)
+- [dotcom-rendering](https://github.com/guardian/dotcom-rendering) - Frontend rendering framework for theguardian.com. It uses React, with Emotion for styling.
+- [Front-End Conferences](https://github.com/frontendfront/front-end-conferences) - List of upcoming front-end related conferences.
+- [Microfrontends made easy](https://github.com/single-spa/single-spa)
+- [Frontend Lobsters, what are your pet peeves about the languages / frameworks you use? (2020)](https://lobste.rs/s/7jwneg/frontend_lobsters_what_are_your_pet)
+- [Open UI](https://open-ui.org) - Maintain an open standard for UI and promote its adherence and adoption. ([Code](https://github.com/WICG/open-ui)) ([HN](https://news.ycombinator.com/item?id=22731898))
+- [Guide to becoming a modern front end developer](https://roadmap.sh/frontend) ([HN](https://news.ycombinator.com/item?id=22765861))
+- [Frontdesk](https://github.com/miripiruni/frontdesk) - Community driven list of useful things for Front End Developers.
+- [Front-end Bookmarks](https://www.frontendbookmarks.com/) - Collection of articles and talks about HTML, CSS, and JS, grouped by elements, attributes, properties, selectors, methods, and expressions. ([Code](https://github.com/matuzo/front-end-bookmarks))
+- [Frontend Guidelines](https://github.com/bendc/frontend-guidelines) - Some HTML, CSS and JS best practices.
+- [React vs Vue: Compare and Contrast (2020)](https://dev.to/ben/react-vs-vue-compare-and-contrast-13jp)
+- [Why frontend build tools are getting an overhaul (2020)](https://www.youtube.com/watch?v=5F_k9q9HbAc)
+- [Responsively](https://responsively.app/) - Web developer's browser.
+- [What are the most difficult UI patterns you've coded? (2020)](https://twitter.com/TatianaTMac/status/1295833772600958976)
+- [Asayer](https://asayer.io/) - Frontend Application Monitoring.
+- [Omatsuri](https://omatsuri.app/) - Open source frontend focused browser tools for everyday use. ([Code](https://github.com/rtivital/omatsuri))
+- [Front End Developer Resources](https://github.com/developer-resources/frontend-development)
+- [Frontend Unicorn](https://www.frontendunicorn.com/) - Learn Front End Development.
+- [Awesome Front End Security](https://github.com/rustcohlnikov/awesome-frontend-security)
+- [Front-end Challenges](https://github.com/felipefialho/frontend-challenges) - Testing your knowledge using real job challenges.
+- [I don't want to do front-end anymore (2021)](https://www.askonomm.com/blog/i-dont-want-to-do-frontend-anymore) ([HN](https://news.ycombinator.com/item?id=26071906)) ([Lobsters](https://lobste.rs/s/vxasiq/i_don_t_want_do_front_end_anymore))
+- [Frontend Greatness](https://anchor.fm/frontend-greatness) - Podcast that helps frontend developers go from good to great.
+- [How Wix improved website performance by evolving their infrastructure (2021)](https://web.dev/wix/)
+- [Cобеседование Junior Frontend разработчика (2021)](https://www.youtube.com/watch?v=25lCunO6yDQ)
+- [Front-End Developer Learning Roadmap](https://frontendmasters.com/guides/learning-roadmap/)
+- [A Complete Guide To Accessible Front-End Components (2021)](https://www.smashingmagazine.com/2021/03/complete-guide-accessible-front-end-components/)
+- [I can only think that modern front end development has failed (2021)](https://twitter.com/antirez/status/1378272801522597888) ([HN](https://news.ycombinator.com/item?id=26689239))
+- [Paperclip](https://github.com/crcn/paperclip) - Build UIs at the speed of thought. ([Web](https://paperclip.dev/))
+- [roxy](https://github.com/chronos-tachyon/roxy) - Frontend Proxy.
+- [LogRocket](https://logrocket.com/) - Modern Frontend Monitoring and Product Analytics.
+- [Essential list of resources for Front-End beginners](https://github.com/thedaviddias/Resources-Front-End-Beginner)
+- [Никита Мостовой: перфоманс фронтенд приложений (2020)](https://www.youtube.com/watch?v=TtTtbioaPOk)
+- [Front End Happy Hour Podcast](http://frontendhappyhour.com/)
+- [Front-End Testing is For Everyone (2021)](https://css-tricks.com/front-end-testing-is-for-everyone/)
+- [For Web](https://forweb.dev/en) - Awesomeness for front-end developers and web designers.
+- [feature-sliced](https://feature-sliced.design/) - Structural methodology for frontend projects. ([Code](https://github.com/feature-sliced/documentation)) ([Awesome](https://github.com/feature-sliced/awesome))
+- [rounded conf](https://www.rounded.dev/conf) - Conference for well rounded frontend developers.
+- [How To Build Resilient JavaScript UIs (2021)](https://www.smashingmagazine.com/2021/08/build-resilient-javascript-ui/) ([HN](https://news.ycombinator.com/item?id=28060029))
+- [Кажется, мы стали забывать основы фронтенда (2021)](https://habr.com/ru/post/569494/)
+- [Чистая архитектура во фронтенде (2021)](https://bespoyasov.ru/blog/clean-architecture-on-frontend/)
+- [Interactive Learning Tools For Front-End Developers (2021)](https://www.smashingmagazine.com/2021/09/interactive-learning-tools-front-end-developers/)
+- [Frontend Learning Kit](https://github.com/sadanandpai/frontend-learning-kit) - Highly recommended collections for frontend developers.
+- [Practical frontend architecture (2021)](https://jaredgorski.org/writing/14-practical-frontend-architecture/) ([HN](https://news.ycombinator.com/item?id=28590879))
+- [What has your frontend stack journey been so far? (2021)](https://twitter.com/geddski/status/1440762195223089164)
+- [Tips, Tricks, Best Practices for front-end development](https://getfrontend.tips/) ([Code](https://github.com/1milligram/frontend-tips))
+- [How height.app website was rebuilt from ground up (2021)](https://twitter.com/michaelvillar/status/1445079229415239698)
+- [Словари по фронтенду](https://github.com/web-standards-ru/dictionary)
+- [Grab Front End Guide](https://github.com/grab/front-end-guide)
+- [Frontend Horse](https://frontend.horse/) - Learn techniques from the best creative frontend developers. ([Twitter](https://twitter.com/FrontendHorse))
+- [Building Resilient Frontend Architecture • Monica Lent (2019)](https://www.youtube.com/watch?v=TqfbAXCCVwE)
+- [Perry](https://github.com/perry-js/perry) - Agnostic front-end bug reporting. Collect logs, errors, clicks, and session data easily. ([Web](https://perry-js.netlify.app/))
+- [Micro frontend resources](https://github.com/billyjov/microfrontend-resources)
+- [Ask HN: Is back end dev generally easier than front end? (2021)](https://news.ycombinator.com/item?id=29328111)
+- [UI Foundations](https://www.uifoundations.com/) - Learn to Build Beautiful UIs.
+- [Pglet](https://github.com/pglet/pglet) - Build web apps like a front-end pro in the language you already know. No knowledge of HTML, CSS or JavaScript is required.
+- [Build user-adaptive interfaces | Workshop (2021)](https://www.youtube.com/watch?v=865olcAfwFg)
+- [Dan Abramov SLAYS Frontend Interview w/ Ex-Twitch Engineer (2021)](https://www.youtube.com/watch?v=uqII0AOW1NM)
+- [Frontend Developer Resources 2022](https://dev.to/nickytonline/frontend-developer-resources-2022-4cp2)
+- [Client-side software design](https://github.com/crinklesio/reference-architecture)
+- [reg-suit](https://reg-viz.github.io/reg-suit/) - Visual Regression Testing tool. ([Code](https://github.com/reg-viz/reg-suit)) ([CLI Code](https://github.com/reg-viz/reg-cli)) ([Report UI Code](https://github.com/reg-viz/reg-cli-report-ui))
+- [Goose&Duck – Фронтендер на заводе Tesla | Олег Исонен (2022)](https://www.youtube.com/watch?v=h2pQtRSzMSc)
+- [The 60 Hottest Front-end Tools of 2021](https://css-tricks.com/hottest-front-end-tools-in-2021/)
+- [Component Encyclopedia | Storybook](https://storybook.js.org/showcase) - Reference thousands of components from leading UI engineering teams. ([Article](https://storybook.js.org/blog/component-encyclopedia/))
+- [Smart Interface Design Patterns – 100 Smart Interface Design Patterns & Live Examples. 6h Video + UX Training. (2022)](https://smart-interface-design-patterns.com/)
+- [Interaction Testing with Storybook (2022)](https://storybook.js.org/blog/interaction-testing-with-storybook/) ([Reddit](https://www.reddit.com/r/reactjs/comments/t0fe4a/storybook_interaction_testing_in_beta/))
+- [Claymorphism: Will It Stick Around? UI Trends (2022)](https://www.smashingmagazine.com/2022/03/claymorphism-css-ui-design-trend/) ([HN](https://news.ycombinator.com/item?id=30852884))
+- [30 popular communities and influencers about Front-End Development (2022)](https://blog.bloghound.social/30-popular-communities-and-influencers-about-front-end-development-april-2022/)
+- [Frontend Component Architecture](https://gos.si/blog/frontend-component-architecture/)
+- [Style-free components for all the frameworks](https://github.com/milkui/components)
+- [Architecture for a maintainable UI](https://github.com/feature-driven-architecture/spec)
+- [A "lawful" framework for styling/formatting UIs? (2022)](https://www.reddit.com/r/ProgrammingLanguages/comments/ugb7e8/a_lawful_framework_for_stylingformatting_uis/)
+- [UIs are streaming DAGs (2022)](https://www.hytradboi.com/2022/uis-are-streaming-dags) ([HN](https://news.ycombinator.com/item?id=31217448)) ([Tweet](https://twitter.com/dustingetz/status/1520397540386091009)) ([Lobsters](https://lobste.rs/s/lawqqm/uis_are_streaming_dags))
+- [TanStack Virtual](https://github.com/tanstack/virtual) - Headless UI for Virtualizing Large Element Lists in JS/TS, React, Solid, Vue and Svelte. ([Web](https://tanstack.com/virtual))
+- [Papanasi](https://github.com/CKGrafico/papanasi) - UI library to use cross Frameworks. ([Docs](https://papanasi.js.org/?path=/story/documentation-introduction--page))
+- [TanStack](https://tanstack.com/) - High Quality Open-Source Software for Web Developers. ([Code](https://github.com/TanStack/tanstack.com))
+- [Front-End Performance Checklist](https://github.com/thedaviddias/Front-End-Performance-Checklist)
+- [How to implement Hexagonal architecture in front end](https://github.com/juanm4/hexagonal-architecture-frontend)
+- [Reimagining front-end web development with htmx and hyperscript (2022)](https://nomadiq.hashnode.dev/reimagining-front-end-web-development-with-htmx-and-hyperscript) ([HN](https://news.ycombinator.com/item?id=31949621))
+- [TanStack Table](https://github.com/TanStack/table) - Headless UI for building powerful tables & datagrids for React, Solid, Vue, Svelte and TS/JS. ([Web](https://tanstack.com/table/v8))
+- [Ask HN: What's is your go to toolset for simple front end development? (2022)](https://news.ycombinator.com/item?id=32011439)
+- [UI Learn](https://uilearn.com/) - Learn interface design with articles, books and video course. ([Course](https://uilearn.com/free-course/))
+- [Avoiding \<img\> layout shifts: aspect-ratio vs width & height attributes (2022)](https://jakearchibald.com/2022/img-aspect-ratio/)
+- [whyframe](https://whyframe.dev/) - Develop components in isolation. ([Code](https://github.com/bluwy/whyframe))
+- [Client-side Rendering](https://github.com/theninthsky/client-side-rendering) - Case study of CSR, it aims to explore the potential of client-side rendered apps compared to server-side rendering.
+- [How to handle spacing at scale (2022)](https://medium.com/creating-totallymoney/how-to-handle-spacing-at-scale-307e8e838da)
+- [Building mico-frontends with edge workers (2022)](https://www.youtube.com/watch?v=VR9vyOtMtnI)
+- [Building a UI Language w/ Dylan Piercey (2022)](https://www.youtube.com/watch?v=W9wfkP21c80)
+- [Front-end Testing Principles (2022)](https://itnext.io/front-end-testing-principles-c4a3b51aa7e5)
+- [Backend for Front-end (2022)](https://blog.frankel.ch/backend-for-frontend/) ([HN](https://news.ycombinator.com/item?id=32919425))
+- [Lost Pixel](https://github.com/lost-pixel/lost-pixel) - Holistic visual testing for your Frontend. First class integration with Storybook, Ladle & other frontend libraries.
+- [Frontend Mastery](https://frontendmastery.com/) - Deep dives and guides on modern frontend development.
+- [Fastest Frontend Tooling in 2022](https://cpojer.net/posts/fastest-frontend-tooling-in-2022)
+- [UI Libraries: Picking The Best (2022)](https://www.youtube.com/watch?v=CQuTF-bkOgc)
+- [Headless UI Float](https://github.com/ycs77/headlessui-float) - Easily use Headless UI with Floating UI to position floating elements.
+- [Фронтенд — это не больно](https://bespoyasov.ru/front-not-pain/) - Пособие для разработчиков и сочувствующих. ([Code](https://github.com/bespoyasov/front-not-pain))
+- [Composition Comparison](https://github.com/TyOverby/composition-comparison) - Collection of UI-framework compsition challenges.
+- [Modern FrontEnds Live](https://www.modernfrontends.live/) ([Twitter](https://twitter.com/ModernFrontends))
+- [Awesome Node-Based UIs](https://github.com/wbkd/awesome-node-based-uis)
+- [CodyHouse](https://codyhouse.co/) - Lightweight front-end framework for building accessible, bespoke interfaces. ([Code](https://github.com/CodyHouse/codyhouse-framework))
+- [OSS Is Out to End the Framework Wars: Jamstack Conf 2022 Opening Keynote](https://www.youtube.com/watch?v=bPTZmUR7z90)
+- [Zoid](https://github.com/krakenjs/zoid) - Cross-domain component toolkit.
+- [Breaking up with JavaScript front ends (2022)](http://triskweline.de/unpoly-rugb/#/) ([HN](https://news.ycombinator.com/item?id=33934580))
+- [Framework.dev](https://framework.dev/) - Knowledge base for different front end frameworks. ([Code](https://github.com/thisdot/framework.dev))
+- [Full Stack Components (2022)](https://www.epicweb.dev/full-stack-components)
+- [Maverick](https://github.com/maverick-js/maverick) - Build functional, reactive, type-safe, lightweight, and fast UI libraries.
+- [Ask HN: What is your favorite front end state management solution? (2022)](https://news.ycombinator.com/item?id=34130767)
+- [Фронтенд - YouTube](https://www.youtube.com/@user-kd6bu2qj1v/videos) ([Events](https://github.com/Semigradsky/events))
+- [Frontend Infrastructure Notes](https://www.iamtk.co/frontend-infrastructure) ([Code](https://github.com/imteekay/frontend-infrastructure))
+- [Ask HN: Why did Frontend development explode in complexity? (2023)](https://news.ycombinator.com/item?id=34218003)
+- [How to store your app's entire state in the URL (2023)](https://www.scottantipa.com/store-app-state-in-urls) ([HN](https://news.ycombinator.com/item?id=34312546))
+- [Build UI](https://buildui.com/) - High-quality videos on front end development.
+- [Component Stats](https://github.com/Jimdo/components-stats) - Collect stats about UI components usage across the GitHub org.
+- [UIVerse](https://uiverse.io/) - Create, share, and use beautiful custom elements made with HTML and CSS.
+- [Fwoosh](https://github.com/fwoosh-dev/fwoosh) - Front-end notebook inspired by Storybook. ([Docs](https://fwoo.sh/docs/Welcome))
+- [Cross Framework Components](https://github.com/naver/cfcs) - Write once, create framework components that supports React, Vue, Svelte, and more.
+- [AI Component Generator with ChatGPT](https://ai2ui.co/) ([Code](https://github.com/yuvalsuede/ai-component-generator))
+- [Cool frontend arts of local-first: storage, sync, conflicts (2023)](https://evilmartians.com/chronicles/cool-front-end-arts-of-local-first-storage-sync-and-conflicts)
+- [Ark](https://github.com/chakra-ui/ark) - Headless component library.
+- [Guild Component Library](https://github.com/the-guild-org/docs)
+- [Front-End Development Resources](https://frontresources.dev/introduction.html) ([Code](https://github.com/emr3rden/Front-End-Development-Resources))
+- [Rich Harris: Frameworks, the web, and the edge (2023)](https://www.youtube.com/watch?v=uXCipjbcQfM) ([Reaction](https://www.youtube.com/watch?v=JGuUY7dZhWs))
+- [Luna UI Library](https://github.com/liriliri/luna)
+- [Oku Primitives](https://github.com/oku-ui/primitives) - UI component library.
+- [ExtendedUI](https://extendedui.com/)
+- [Fancy Input Box](https://craft.mxkaske.dev/post/fancy-box)
+- [How to Build a Button — Tamagui Guides](https://tamagui.dev/docs/guides/how-to-build-a-button)
+- [Nano Stores Logger](https://github.com/nanostores/logger) - Pretty logger of lifecycles, actions and changes for Nano Stores state manager.

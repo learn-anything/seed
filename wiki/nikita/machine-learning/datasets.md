@@ -1,0 +1,263 @@
+# Datasets
+
+[Hugging Face Datasets](https://huggingface.co/datasets) & [TensorFlow Datasets](https://github.com/tensorflow/datasets) have nice collections.
+
+[AutoViz](https://github.com/AutoViML/AutoViz) is nice for visualizing datasets. [Label Studio](https://github.com/heartexlabs/label-studio) is nice for data annotating.
+
+## Links
+
+- [Google Dataset Search](https://datasetsearch.research.google.com/) ([HN](https://news.ycombinator.com/item?id=22130874)) ([HN](https://news.ycombinator.com/item?id=27068551))
+- [Tencent ML-Images](https://github.com/Tencent/tencent-ml-images) - Largest multi-label image database; ResNet-101 model; 80.73% top-1 acc on ImageNet.
+- [Mathematics Dataset](https://github.com/deepmind/mathematics_dataset) - Dataset code generates mathematical question and answer pairs, from a range of question types at roughly school-level difficulty.
+- [Moving autonomous vehicles forward, together. Dataset by Lyft](https://level5.lyft.com/dataset/)
+- [CodeSearchNet](https://github.com/github/CodeSearchNet) - Datasets, tools, and benchmarks for representation learning of code.
+- [Introducing the CodeSearchNet challenge (2019)](https://github.blog/2019-09-26-introducing-the-codesearchnet-challenge/) ([HN](https://news.ycombinator.com/item?id=21082757))
+- [Facets](https://github.com/PAIR-code/facets) - Visualizations for machine learning datasets.
+- [skdata](https://github.com/jaberg/skdata) - Data sets for machine learning in Python.
+- [TensorFlow Datasets](https://github.com/tensorflow/datasets) - Collection of datasets ready to use with TensorFlow. ([HN](https://news.ycombinator.com/item?id=34079690))
+- [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
+- [Awesome Public Datasets Core](https://github.com/awesomedata/apd-core) - Next iteration of APD project.
+- [LORIS](https://github.com/aces/Loris) - Web-accessible database solution for longitudinal multi-site studies.
+- [ProteinNet](https://github.com/aqlaboratory/proteinnet) - Standardized data set for machine learning of protein structure.
+- [Registry of Open Data on AWS](https://registry.opendata.aws/) ([Code](https://github.com/awslabs/open-data-registry))
+- [List of datasets for machine-learning research](https://en.m.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research)
+- [Syndetic](https://www.getsyndetic.com/) - Replaces static data dictionaries with a live data profiling system. Annotate, measure, and monitor your datasets. Share the results. ([HN](https://news.ycombinator.com/item?id=22406560))
+- [FaceForensics++](https://github.com/ondyari/FaceForensics) - Learning to Detect Manipulated Facial Images.
+- [Scale AI](https://scale.com/) - High quality training and validation data for AI applications.
+- [Audio Datasets for Machine Learning](https://lionbridge.ai/datasets/12-best-audio-datasets-for-machine-learning/) ([HN](https://news.ycombinator.com/item?id=22664465))
+- [Collection of large datasets for conversational response selection](https://github.com/PolyAI-LDN/conversational-datasets)
+- [NSFW data source URLs](https://github.com/EBazarov/nsfw_data_source_urls) - Collection of NSFW images URLs for the purposes of training an NSFW Image Classifier.
+- [Lambdagram](https://github.com/zcaceres/lambdagram) - Tiny Cloud Service to Build Image Datasets with Instagram.
+- [HN Stories and comments since 2006](https://console.cloud.google.com/marketplace/details/y-combinator/hacker-news?pli=1)
+- [My Giant Data Quality Checklist (2020)](https://www.reddit.com/r/datascience/comments/fzweaf/my_giant_data_quality_checklist/)
+- [LabelImg](https://github.com/tzutalin/labelImg) - Graphical image annotation tool.
+- [Common Voice](https://voice.mozilla.org/en) - Mozilla's initiative to help teach machines how real people speak.
+- [Replica Dataset](https://github.com/facebookresearch/Replica-Dataset) - Dataset of high quality reconstructions of a variety of indoor spaces.
+- [Using Decision Trees for charting ill-behaved datasets (2020)](https://vvvvalvalval.github.io/posts/2020-05-15_Using-Decision-Trees-for-charting-ill-behaved-datasets.html)
+- [Human parsing datasets](https://github.com/HumanParsingSDK/datasets)
+- [Data Programming: Creating Large Training Sets, Quickly (2016)](https://papers.nips.cc/paper/6523-data-programming-creating-large-training-sets-quickly.pdf)
+- [Announcing Artifacts (2020)](https://medium.com/@shawnup/announcing-artifacts-a7f680b6afd6)
+- [DataHub](https://datahub.io/) - Provide various solutions to Publish and Deploy your Data with power and simplicity.
+- [Core Data](https://datahub.io/docs/core-data) - Important, commonly-used data as high quality, easy-to-use & open data packages. ([Code](https://github.com/datasets))
+- [Awesome collections on DataHub](https://github.com/datasets/awesome-data)
+- [Label Studio](https://labelstud.io/) - Multi-type data labeling and annotation tool with standardized output format. ([Code](https://github.com/heartexlabs/label-studio)) ([Time Series Data Labeling](https://labelstud.io/blog/release-080-time-series-labeling.html))
+- [Heartex](https://www.heartex.ai/) - Data Management Platform for Machine Learning.
+- [Clothing Dataset: Call for Action (2020)](https://medium.com/data-science-insider/clothing-dataset-call-for-action-3cad023246c1)
+- [Unsplash Dataset](https://github.com/unsplash/datasets) - 2,000,000+ Unsplash images made available for research and machine learning. ([Web](https://unsplash.com/data))
+- [100k+ Rows Topic Labeled News Dataset (2020)](https://newscatcherapi.com/blog/topic-labeled-news-dataset)
+- [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) - MNIST-like fashion product database.
+- [FiveThirtyEight Datasets](https://data.fivethirtyeight.com/)
+- [Books in .txt format for AI training purposes](https://twitter.com/theshawwn/status/1320282149329784833) ([HN](https://news.ycombinator.com/item?id=24884789))
+- [Sweetviz](https://github.com/fbdesignpro/sweetviz) - Visualize and compare datasets, target values and associations, with one line of code.
+- [SuperAnnotate](https://superannotate.com/) - Fastest annotation platform for training AI.
+- [Activeloop Hub](https://github.com/activeloopai/Hub) - Fastest way to access and manage datasets for PyTorch and TensorFlow. ([Web](https://www.activeloop.ai/)) ([Docs](https://docs.activeloop.ai/)) ([Reddit](https://www.reddit.com/r/MachineLearning/comments/u5rnss/n_p_access_100_image_video_audio_datasets_in/)) ([HN](https://news.ycombinator.com/item?id=33610834))
+- [Objectron Dataset](https://github.com/google-research-datasets/Objectron) - Dataset of short object centeric video clips with pose annotations.
+- [Google Research Datasets](https://github.com/google-research-datasets)
+- [matorage](https://github.com/graykode/matorage) - Efficient way to store/load and manage dataset, model and optimizer for deep learning.
+- [HN Posts datasets](https://github.com/massanishi/hackernews-post-datasets) ([HN](https://news.ycombinator.com/item?id=25125458))
+- [Hypersim Toolkit](https://github.com/apple/ml-hypersim) - Set of tools for generating photorealistic synthetic datasets from V-Ray scenes.
+- [mirdata](https://github.com/mir-dataset-loaders/mirdata) - Interoperable Dataset Loaders for Music Information Retrieval (MIR).
+- [MetFaces Dataset](https://github.com/NVlabs/metfaces-dataset) - Image dataset of human faces extracted from works of art.
+- [Lionbridge AI](https://lionbridge.ai/) - Provides human-labeled data for hundreds of use cases.
+- [Traditional Chinese Landscape Painting Dataset](https://github.com/alicex2020/Chinese-Landscape-Painting-Dataset)
+- [Awesome Satellite Imagery Datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
+- [Wikimedia Downloads](https://dumps.wikimedia.org/) - Download the Entire Wikimedia Database. ([HN](https://news.ycombinator.com/item?id=26370397))
+- [Wikipedia: Database download](https://en.wikipedia.org/wiki/Wikipedia:Database_download)
+- [How to shuffle a big dataset (2018)](https://blog.janestreet.com/how-to-shuffle-a-big-dataset/) ([Reddit](https://www.reddit.com/r/gwern/comments/k9iqd3/how_to_shuffle_a_big_dataset/))
+- [ESC-50: Dataset for Environmental Sound Classification](https://github.com/karolpiczak/ESC-50)
+- [Booking.com WSDM challenge](https://www.bookingchallenge.com/) - Training dataset consists of over a million of anonymized hotel reservations, based on real data.
+- [Computer Vision Datasets](https://public.roboflow.com/)
+- [Voicebook Datasets](https://github.com/jim-schwoebel/voice_datasets) - Comprehensive list of open-source datasets for voice and sound computing (50+ datasets).
+- [The Pile](https://pile.eleuther.ai/) - 825 GiB diverse, open source language modelling data set that consists of 22 smaller, high-quality datasets combined together.
+- [doccano](https://github.com/doccano/doccano) - Open source text annotation tool for machine learning practitioner. ([Web](https://doccano.herokuapp.com/))
+- [Weather and Climate Datasets for AI Research](http://mldata.pangeo.io/) ([Code](https://github.com/pangeo-data/mldata))
+- [NLP Datasets](https://github.com/niderhoff/nlp-datasets)
+- [Total Text Dataset](https://github.com/cs-chan/Total-Text-Dataset) - Consists of 1555 images with more than 3 different text orientations: Horizontal, Multi-Oriented, and Curved, one of a kind.
+- [Datasets collected for network science, deep learning and general machine learning research](https://github.com/benedekrozemberczki/datasets)
+- [MER and SER Data sets](https://github.com/juansgomez87/datasets_emotion) - Data sets for Music Emotion Recognition and Speech Emotion Recognition.
+- [Common Voice Datasets](https://commonvoice.mozilla.org/en/datasets) - Multi-language dataset of voices that anyone can use to train speech-enabled applications. ([Code](https://github.com/common-voice/cv-dataset))
+- [Label a Dataset with a Few Lines of Code (2021)](https://eric-landau.medium.com/label-a-dataset-with-a-few-lines-of-code-45c140ff119d) ([HN](https://news.ycombinator.com/item?id=25826775))
+- [Meta-Dataset: A Dataset of Datasets for Learning to Learn from Few Examples (2020)](https://arxiv.org/abs/1903.03096) ([Code](https://github.com/google-research/meta-dataset))
+- [Datasets should behave like git repositories (2021)](https://dagshub.com/blog/datasets-should-behave-like-git-repositories/)
+- [The Stanford Question Answering Dataset](https://rajpurkar.github.io/SQuAD-explorer/) ([Visual Explorer](https://github.com/rajpurkar/SQuAD-explorer))
+- [Data.gov](https://www.data.gov/) - Home of the U.S. Government’s open data.
+- [Visualizing Data Timeliness at Airbnb (2021)](https://medium.com/airbnb-engineering/visualizing-data-timeliness-at-airbnb-ee638fdf4710)
+- [The Next Evolution of Data Catalogs: Data Discovery Platforms (2021)](https://medium.com/selectstar/the-evolution-of-data-catalogs-the-data-discovery-platform-1627772ca760)
+- [DeepLabel](https://github.com/jveitchmichaelis/deeplabel) - Cross-platform image annotation tool for machine learning.
+- [WIT : Wikipedia-based Image Text Dataset](https://github.com/google-research-datasets/wit)
+- [Harry Potter Dataset](https://medium.com/google-developer-experts/a-riddikulus-dataset-fb68f9044e33)
+- [DocRED: A Large-Scale Document-Level Relation Extraction Dataset (2019)](https://arxiv.org/abs/1906.06127v3) ([Code](https://github.com/thunlp/DocRED))
+- [Synthetic Data: Even Better than the Real Thing? (2021)](https://cacm.acm.org/news/251046-synthetic-data-even-better-than-the-real-thing/fulltext)
+- [Google C4 dataset](https://github.com/allenai/allennlp/discussions/5056) - Colossal, cleaned version of Common Crawl's web crawl corpus.
+- [Finding a standard dataset format for machine learning (2020)](https://openml.github.io/blog/openml/data/2020/03/23/Finding-a-standard-dataset-format-for-machine-learning.html) ([HN](https://news.ycombinator.com/item?id=26462685))
+- [Hashing techniques to compare large datasets? (2021)](https://www.reddit.com/r/MachineLearning/comments/mjqc2v/d_hashing_techniques_to_compare_large_datasets/)
+- [Machine Learning Datasets | Papers With Code](https://paperswithcode.com/datasets) ([Twitter](https://twitter.com/paperswithdata))
+- [Ocean Market](https://market.oceanprotocol.com/) - Marketplace to find, publish and trade data sets. ([Code](https://github.com/oceanprotocol/market))
+- [Ocean Protocol](https://oceanprotocol.com/) - Tools for the Web3 Data Economy. ([Contracts](https://github.com/oceanprotocol/contracts)) ([GitHub](https://github.com/oceanprotocol))
+- [Generating Datasets with Pretrained Language Models (2021)](https://arxiv.org/abs/2104.07540)
+- [nbodykit](https://github.com/bccp/nbodykit) - Analysis kit for large-scale structure datasets, the massively parallel way.
+- [Dataset Inference: Ownership Resolution in Machine Learning (2021)](https://arxiv.org/abs/2104.10706) ([Tweet](https://twitter.com/NicolasPapernot/status/1387842242744832004))
+- [Diffgram](https://diffgram.com/) - Data Labeling Software for Machine Learning. ([Code](https://github.com/diffgram/diffgram))
+- [Data Profiler](https://github.com/capitalone/DataProfiler) - Python library designed to make data analysis, monitoring and sensitive data detection easy.
+- [Tonic](https://www.tonic.ai/) - Fake Data Company. ([GitHub](https://github.com/TonicAI))
+- [Datasets for Google Cloud](https://cloud.google.com/solutions/datasets) ([Article](https://cloud.google.com/blog/topics/developers-practitioners/datasets-google-cloud-introducing-our-new-reference-architecture))
+- [SQLite Data Starter Packs](http://2016.padjo.org/tutorials/sqlite-data-starterpacks/)
+- [GitHub Collection: Open data](https://github.com/collections/open-data) - Examples of using GitHub to store, publish, and collaborate on open, machine-readable datasets.
+- [Scientific Data Repositories](https://www.nature.com/sdata/policies/repositories) ([HN](https://news.ycombinator.com/item?id=27365755))
+- [CatMeows: A Publicly-Available Dataset of Cat Vocalizations (2020)](https://zenodo.org/record/4008297#.YND2lC8RqJ8) ([HN](https://news.ycombinator.com/item?id=27556544))
+- [ir_datasets](https://github.com/allenai/ir_datasets) - Python package that provides a common interface to many IR ad-hoc ranking benchmarks, training datasets, etc.
+- [SEDE (Stack Exchange Data Explorer)](https://github.com/hirupert/sede) - Text-to-SQL in the Wild: A Naturally-Occurring Dataset Based on Stack Exchange Data. ([Article](https://blog.hirupert.com/text-to-sql-in-the-wild-a-naturally-occurring-dataset-based-on-stack-exchange-data/))
+- [List of Medical (Imaging) Datasets](https://github.com/adalca/medical-datasets)
+- [musescore.com dataset](https://github.com/Xmader/musescore-dataset) - Dataset of all music sheets and users on musescore.com.
+- [generatedata.com](https://generatedata.com/) - Random data generator. ([Code](https://github.com/benkeen/generatedata))
+- [MTData](https://github.com/thammegowda/mtdata) - Tool automates collection and preparation of machine translation datasets.
+- [The MIT Supercloud Dataset (2021)](https://arxiv.org/abs/2108.02037)
+- [Datasheets for Datasets (2018)](https://arxiv.org/abs/1803.09010) ([Markdown Datasheet for Datasets](https://github.com/JRMeyer/markdown-datasheet-for-datasets))
+- [Lightly](https://www.lightly.ai/) - Label only the data which improves your ML model. ([HN](https://news.ycombinator.com/item?id=28116371))
+- [Small Open Datasets](https://github.com/onramper/small-open-datasets) - Collection of automatically-updated, ready-to-use and open-licensed datasets.
+- [DataQA](https://github.com/dataqa/dataqa) - Labelling platform for text using distant supervision.
+- [COCO - Common Objects in Context](https://cocodataset.org/#home) - Large-scale object detection, segmentation, and captioning dataset. ([API](https://github.com/cocodataset/cocoapi))
+- [img2dataset](https://github.com/rom1504/img2dataset) - Easily turn large sets of image urls to an image dataset. Can download, resize and package 100M urls in 20h on one machine.
+- [How to fit any dataset with a single parameter (2019)](https://arxiv.org/abs/1904.12320) ([HN](https://news.ycombinator.com/item?id=28698163))
+- [Single-dataset Experts for Multi-dataset Question Answering (2021)](https://arxiv.org/abs/2109.13880) ([Code](https://github.com/princeton-nlp/MADE))
+- [LabelFlow](https://labelflow.ai/website) - Open standard platform for image labeling. ([Code](https://github.com/labelflow/labelflow))
+- [Face Synthetics dataset](https://github.com/microsoft/FaceSynthetics)
+- [Toloka](https://toloka.ai/) - Fast and efficient way to collect and label large data sources for machine learning and other business purposes. ([Code](https://github.com/Toloka/toloka-kit)) ([GitHub](https://github.com/Toloka))
+- [PlainTextWikipedia](https://github.com/daveshap/PlainTextWikipedia) - Convert Wikipedia database dumps into plaintext files.
+- [Discovering Anomalous Data with Self-Supervised Learning (2021)](https://ai.googleblog.com/2021/09/discovering-anomalous-data-with-self.html)
+- [Resources to get you the best quality of ML datasets (2021)](https://twitter.com/JanaSunrise/status/1453028804566286339)
+- [Hugging Face Datasets](https://huggingface.co/datasets)
+- [SDMetrics](https://github.com/sdv-dev/SDMetrics) - Metrics to evaluate quality and efficacy of synthetic datasets.
+- [doubtlab](https://github.com/koaning/doubtlab) - General tricks that may help you find bad, or noisy, labels in your dataset.
+- [Gretel Synthetics](https://github.com/gretelai/gretel-synthetics) - Synthetic data generators for structured and unstructured text, featuring differentially private learning.
+- [Great datasets to teach with (2021)](https://twitter.com/seankross/status/1465352844421312514)
+- [A Cartel of Influential Datasets Are Dominating Machine Learning Research](https://www.unite.ai/a-cartel-of-influential-datasets-are-dominating-machine-learning-research-new-study-suggests/) ([HN](https://news.ycombinator.com/item?id=29458157))
+- [The Toxicity Dataset](https://github.com/surge-ai/toxicity)
+- [Data Linter](https://github.com/brain-research/data-linter) - Identifies potential issues (lints) in your ML training data.
+- [Cloud Annotations](https://github.com/cloud-annotations/cloud-annotations) - Fast, easy and collaborative open source image annotation tool for teams and individuals. ([Web](https://cloud.annotations.ai/))
+- [pyjanitor](https://github.com/pyjanitor-devs/pyjanitor) - Clean APIs for data cleaning. Python implementation of R package Janitor.
+- [face2comics datasets](https://github.com/Sxela/face2comics)
+- [arXiv public datasets](https://github.com/mattbierbaum/arxiv-public-datasets)
+- [AIST++ Dance Motion Dataset](https://google.github.io/aistplusplus_dataset/) ([API Code](https://github.com/google/aistplusplus_api))
+- [TheAudioDB.com](https://www.theaudiodb.com/) - Community Database of audio artwork and metadata with a JSON API.
+- [Awesome Video Datasets](https://github.com/xiaobai1217/Awesome-Video-Datasets)
+- [Conceptual 12M](https://github.com/google-research-datasets/conceptual-12m) - Dataset containing (image-URL, caption) pairs collected for vision-and-language pre-training.
+- [Colliding Circles Toy Datasets](https://fabianfuchsml.github.io/physicsdata/)
+- [Sieve](https://sievedata.com/) - Transform raw video into high quality datasets in minutes. ([HN](https://news.ycombinator.com/item?id=29893783)) ([HN](https://news.ycombinator.com/item?id=30181676))
+- [IKEA 3D Assembly Dataset](https://github.com/IKEA/IKEA3DAssemblyDataset)
+- [Imbalanced Dataset Sampler](https://github.com/ufoym/imbalanced-dataset-sampler) - PyTorch imbalanced dataset sampler for oversampling low frequent classes and undersampling high frequent ones.
+- [ADE20K Dataset](https://groups.csail.mit.edu/vision/datasets/ADE20K/) - Composed of more than 27K images from the SUN and Places databases. ([Code](https://github.com/CSAILVision/ADE20K))
+- [Datasets of Automatic Keyphrase Extraction](https://github.com/LIAAD/KeywordExtractor-Datasets)
+- [Awesome Forests](https://github.com/blutjens/awesome-forests) - Curated list of ground-truth forest datasets for the machine learning and forestry community.
+- [PushShift Data Dumps](http://files.pushshift.io/)
+- [DeepEcho](https://github.com/sdv-dev/DeepEcho) - Synthetic Data Generation for mixed-type, multivariate time series.
+- [deduplify](https://github.com/Living-with-machines/deduplify) - Python tool to search for and remove duplicated files in messy datasets.
+- [CSVtoTable](https://github.com/vividvilla/csvtotable) - Simple command-line utility to convert CSV files to searchable and sortable HTML table.
+- [Kubric](https://github.com/google-research/kubric) - Data generation pipeline for creating semi-realistic synthetic multi-object videos with rich annotations such as instance segmentation masks, depth maps, and optical flow.
+- [ASPset-510](https://github.com/anibali/aspset-510) - Large-scale video dataset for the training and evaluation of 3D human pose estimation models.
+- [Self-Distilled Internet Photos (SDIP) Dataset](https://github.com/self-distilled-stylegan/self-distilled-internet-photos)
+- [Fake News Corpus](https://github.com/several27/FakeNewsCorpus)
+- [Sniffer](https://github.com/2320sharon/Sniffer) - Lightweight Python application for sorting images in your dataset.
+- [Dataset Distillation by Matching Training Trajectories (2022)](https://georgecazenavette.github.io/mtt-distillation/) ([Code](https://github.com/GeorgeCazenavette/mtt-distillation))
+- [BeeRef](https://github.com/rbreu/beeref) - Simple Reference Image Viewer.
+- [BookSum: A Collection of Datasets for Long-form Narrative Summarization (2021)](https://arxiv.org/abs/2105.08209) ([Code](https://github.com/salesforce/booksum))
+- [HierText Dataset](https://github.com/google-research-datasets/hiertext) - Dataset featuring hierarchical annotations of text in natural scenes and documents.
+- [Google Research Datasets](https://github.com/google-research-datasets)
+- [MetaShift: A Dataset of Datasets for Evaluating Distribution Shifts and Training Conflicts (2022)](https://github.com/Weixin-Liang/MetaShift)
+- [CVSS: A Massively Multilingual Speech-to-Speech Translation Corpus](https://github.com/google-research-datasets/cvss)
+- [Squirrel Datasets Core](https://github.com/merantix-momentum/squirrel-datasets-core)
+- [GTA-3D Dataset](https://github.com/oscarmcnulty/gta-3d-dataset) - Dataset of 2D imagery, 3D point cloud data, and 3D vehicle bounding box labels all generated using the Grand Theft Auto 5 game engine.
+- [Relative Human (RH)](https://github.com/Arthur151/Relative_Human) - Multi-person in-the-wild RGB images with rich human annotations.
+- [CSV Base](https://csvbase.com/) - Turn CSV files into read+write APIs. ([Code](https://github.com/calpaterson/csvbase))
+- [A Dataset and Explorer for 3D Signed Distance Functions (2022)](https://tovacinni.github.io/sdf-explorer/) ([Code](https://github.com/tovacinni/sdf-explorer))
+- [Vega Datasets](https://github.com/vega/vega-datasets) - Collection of datasets used in Vega and Vega-Lite examples.
+- [Azimuth](https://github.com/ServiceNow/azimuth) - Open-source dataset and error analysis tool for text classification.
+- [audio2dataset](https://github.com/rom1504/audio2dataset) - Easily turn large sets of audio urls to an audio dataset.
+- [Datasets for Entity Recognition](https://github.com/juand-r/entity-recognition-datasets) - Collection of corpora for named entity recognition (NER) and entity recognition tasks. These annotated datasets cover a variety of languages, domains and entity types.
+- [AudioLoader](https://github.com/KinWaiCheuk/AudioLoader) - PyTorch Dataset for Speech and Music audio.
+- [Awesome Training Data](https://github.com/diffgram/awesome-training-data)
+- [MIDI Dataset](https://github.com/craffel/midi-dataset) - Code for creating a dataset of MIDI ground truth.
+- [Labelbox](https://labelbox.com/) - Fastest way to annotate data to build and ship computer vision applications. ([Code](https://github.com/Labelbox/labelbox))
+- [Bamboo](https://github.com/Davidzhangyuanhan/Bamboo) - Mega-scale and information-dense dataset for classification and detection pre-training.
+- [The How2 Dataset](https://srvk.github.io/how2-dataset/) - Multimodal collection of instructional videos with English subtitles. ([Code](https://github.com/srvk/how2-dataset))
+- [Unity Dataset Insights](https://github.com/Unity-Technologies/datasetinsights) - Python package for downloading, parsing and analyzing synthetic datasets generated using the Unity Perception package.
+- [ToxiGen: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection (2022)](https://arxiv.org/abs/2203.09509) ([Code](https://github.com/microsoft/TOXIGEN))
+- [Perceptual Image Processing ALgorithms (PIPAL)](https://www.jasongt.com/projectpages/pipal.html) ([Code](https://github.com/HaomingCai/PIPAL-dataset))
+- [Hover](https://github.com/phurwicz/hover) - Label data at scale. Fun and precision included.
+- [How do you share big datasets with your team and others? (2022)](https://www.reddit.com/r/MachineLearning/comments/vr6iy5/d_how_do_you_share_big_datasets_with_your_team/)
+- [Simulacra Aesthetic Captions](https://github.com/JD-P/simulacra-aesthetic-captions) - Dataset of over 238000 synthetic images generated with AI models such as CompVis latent GLIDE and Stable Diffusion from over forty thousand user submitted prompts.
+- [Audio Dataset Project](https://github.com/LAION-AI/audio-dataset) - Audio Dataset for training CLAP and other models.
+- [Bulk](https://github.com/koaning/bulk) - Quick developer tool to apply some bulk labels.
+- [stopes](https://github.com/facebookresearch/stopes) - Library for preparing data for machine translation research (monolingual preprocessing, bitext mining, etc.) built by the FAIR NLLB team.
+- [MisInfoText](https://github.com/sfu-discourse-lab/MisInfoText) - Datasets for fake news and misinformation detection.
+- [Awesome Dataset Distillation](https://github.com/Guang000/Awesome-Dataset-Distillation)
+- [Cleaning data with sqlite-utils and Datasette](https://datasette.io/tutorials/clean-data)
+- [Starter code for working with the YouTube-8M dataset](https://github.com/google/youtube-8m)
+- [BigLAM (Libraries, Archives and Museums)](https://github.com/bigscience-workshop/lam) - Open source, community resource of LAM datasets.
+- [Data Measurements Tool](https://github.com/huggingface/data-measurements-tool) - Developing tools to automatically analyze datasets.
+- [Cleanlab Vizzy](https://playground.cleanlab.ai/) - Learn how to automatically find label errors and out-of-distribution data. ([Lobsters](https://lobste.rs/s/eoz5gj/cleanlab_vizzy_learn_how_automatically))
+- [Ask HN: Will AI-generated images flooding the web pollute future training data? (2022)](https://news.ycombinator.com/item?id=32577822)
+- [Exploring 12M of the 2.3B images used to train Stable Diffusion (2022)](https://waxy.org/2022/08/exploring-12-million-of-the-images-used-to-train-stable-diffusions-image-generator/) ([HN](https://news.ycombinator.com/item?id=32655497))
+- [COYO-700M: Large-scale Image-Text Pair Dataset](https://github.com/kakaobrain/coyo-dataset)
+- [WebVid Dataset](https://github.com/m-bain/webvid) - Large-scale text-video dataset. 10 million captioned short videos.
+- [Generate Synthetic Data in 3 Lines of Code (2022)](https://gretel.ai/blog/generate-synthetic-data-in-3-lines-of-code) ([HN](https://news.ycombinator.com/item?id=32752505))
+- [ShowData](https://github.com/silverbulletmdc/showdata) - Large scale image dataset visiualization tool.
+- [Synthetic Faces High Quality (SFHQ) dataset](https://github.com/SelfishGene/SFHQ-dataset)
+- [Hugging Face Datasets Converter](https://github.com/nateraw/huggingface-datasets-converter) - Scripts to convert datasets from various sources to Hugging Face Datasets.
+- [Multimodal datasets: misogyny, pornography, and malignant stereotypes (2022)](https://arxiv.org/abs/2110.01963) ([Tweet](https://twitter.com/Abebab/status/1569366164442173448))
+- [Click Points](https://github.com/fabrylab/clickpoints) - Image viewer and on the other hand as an data display and annotation tool.
+- [FastDup](https://github.com/visualdatabase/fastdup) - Tool for gaining insights from a large image collection.
+- [Downstream Datasets Make Surprisingly Good Pretraining Corpora (2022)](https://arxiv.org/abs/2209.14389) ([Tweet](https://twitter.com/zacharylipton/status/1575875021498720256))
+- [Mintaka: A Complex, Natural, and Multilingual Dataset for End-to-End Question Answering](https://github.com/amazon-research/mintaka)
+- [HuggingFace Datasets server](https://github.com/huggingface/datasets-server) - Integrate into your apps over 10,000 datasets via simple HTTP requests, with pre-processed responses and scalability built-in. ([HN](https://news.ycombinator.com/item?id=33097117))
+- [Online Language Modelling Dataset Pipeline](https://github.com/huggingface/olm-datasets)
+- [What should I do if a dataset is too large to store in my local computer? (2022)](https://www.reddit.com/r/learnmachinelearning/comments/y5ijth/what_should_i_do_if_a_dataset_is_too_large_to/)
+- [Recommendations thread: Your favorite sources of raw data (of any type) | Lobsters (2022)](https://lobste.rs/s/5guoty/recommendations_thread_your_favorite)
+- [Open Source Data Annotation & Labeling Tools](https://github.com/zenml-io/awesome-open-data-annotation)
+- [Waste datasets review](https://github.com/AgaMiko/waste-datasets-review) - List of image datasets with any kind of litter, garbage, waste and trash.
+- [TACO](https://github.com/pedropro/TACO) - Trash Annotations in Context Dataset Toolkit.
+- [Kangas](https://github.com/comet-ml/kangas) - Explore multimedia datasets at scale.
+- [FIB Benchmark](https://github.com/r-three/fib)
+- [cc2dataset](https://github.com/rom1504/cc2dataset) - Easily convert common crawl to a dataset of caption and document. Image/text Audio/text Video/text.
+- [VideoCC](https://github.com/google-research-datasets/videoCC-data) - Dataset containing (video-URL, caption) pairs for training video-text machine learning models.
+- [MIR dataset papers presented at ISMIR 2022](https://github.com/otnemrasordep/ismir2022-datasets)
+- [Laion-5B: A New Era of Open Large-Scale Multi-Modal Datasets (2022)](https://laion.ai/blog/laion-5b/) ([HN](https://news.ycombinator.com/item?id=33953891))
+- [GWA](https://github.com/GAMMA-UMD/GWA) - Geometric-Wave Acoustic dataset.
+- [Generalized RDF datasets for Rust](https://github.com/timothee-haudebourg/grdf)
+- [Video2Dataset](https://github.com/iejMac/video2dataset) - Easily create large video dataset from video URLs.
+- [AutoViz](https://github.com/AutoViML/AutoViz) - Automatically Visualize any dataset, any size with a single line of code.
+- [KiloGram Tangrams dataset](https://github.com/lil-lab/kilogram)
+- [MNIST-1D dataset](https://github.com/greydanus/mnist1d) - 1D analogue of the MNIST dataset for measuring spatial biases and answering "science of deep learning" questions.
+- [any2dataset](https://github.com/rom1504/any2dataset) - Easily turn large sets of file URLs to an file dataset.
+- [Database of 200k cell images yields new mathematical framework (2023)](https://alleninstitute.org/what-we-do/cell-science/news-press/articles/interior-design-our-cells) ([HN](https://news.ycombinator.com/item?id=34266683))
+- [Fashion IQ dataset](https://github.com/XiaoxiaoGuo/fashion-iq)
+- [City2BA](https://github.com/tkonolige/city2ba) - Tools for generating synthetic bundle adjustment datasets.
+- [Toolbox for HuMMan Dataset](https://github.com/caizhongang/humman_toolbox)
+- [Datasets for deep learning with satellite & aerial imagery](https://github.com/satellite-image-deep-learning/datasets)
+- [Retriever](https://github.com/weecology/retriever) - Quickly download, clean up, and install public datasets into a database management system.
+- [A Critical Field Guide for Working with Machine Learning Datasets (2023)](https://knowingmachines.org/critical-field-guide)
+- [Oxen](https://github.com/Oxen-AI/oxen-release) - Version your machine learning datasets like you version your code. ([HN](https://news.ycombinator.com/item?id=34831547))
+- [This Not That](https://github.com/TutteInstitute/thisnotthat) - Visual labeling system implemented in Jupyter widgets.
+- [OpenWebText](https://github.com/jcpeterson/openwebtext) - Open clone of OpenAI's unreleased WebText dataset scraper.
+- [Multiface Dataset](https://github.com/facebookresearch/multiface) - Multi-view dataset of multiple identities performing a sequence of facial expressions.
+- [Wikipedia 2 Corpus](https://github.com/GermanT5/wikipedia2corpus) - Wikipedia text corpus for self-supervised NLP model training.
+- [Exsclaim](https://github.com/MaterialEyes/exsclaim) - Toolkit for the automatic construction of self-labeled materials imaging datasets from scientific literature.
+- [Awesome Human Label Variation](https://github.com/mainlp/awesome-human-label-variation)
+- [Internet Explorer](https://github.com/internet-explorer-ssl/internet-explorer) - Explores the web in a self-supervised manner to progressively find relevant examples that improve performance on a desired target dataset.
+- [Occupancy Dataset for nuScenes](https://github.com/FANG-MING/occupancy-for-nuscenes)
+- [GINC (Generative In-Context learning Dataset)](https://github.com/p-lambda/incontext-learning) - Small-scale synthetic dataset for studying in-context learning.
+- [Open Instruction Generalist (OIG) Dataset](https://github.com/LAION-AI/Open-Instruction-Generalist)
+- [Cleaned Alpaca Dataset](https://github.com/gururise/AlpacaDataCleaned)
+- [DeepFashion-MultiModal](https://github.com/yumingj/DeepFashion-MultiModal) - Large-scale high-quality human dataset with rich multi-modal annotations.
+- [GPTeacher](https://github.com/teknium1/GPTeacher) - Collection of modular datasets generated by GPT-4, General-Instruct - Roleplay-Instruct - Code-Instruct - and Toolformer.
+- [Know Your Data](https://github.com/PAIR-code/knowyourdata) - Understand datasets with the goal of improving data quality.
+- [What’s in the RedPajama-Data-1T LLM training set (2023)](https://simonwillison.net/2023/Apr/17/redpajama-data/)
+- [RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) - Open Source Recipe to Reproduce LLaMA training dataset.
+- [Instruction Tuning Datasets](https://github.com/raunak-agarwal/instruction-datasets) - All available datasets for Instruction Tuning of Large Language Models.
+- [DataComp](https://github.com/mlfoundations/datacomp) - Competition about designing datasets for pre-training CLIP models.
+- [tokenmonster](https://github.com/alasdairforsythe/tokenmonster) - Determine the tokens that best represent any given dataset.
+- [Datalab: A Linter for ML Datasets](https://cleanlab.ai/blog/datalab/)
+- [Renumics](https://github.com/Renumics/spotlight) - Curation tool for unstructured data that connects your stack to the data-centric AI ecosystem.
+- [SlimPajama-627B](https://twitter.com/hardmaru/status/1667716247755292672) - Largest extensively deduplicated, multi1corpora, open-source dataset for training large language models.
+- [Kart](https://github.com/koordinates/kart) - Distributed version-control for geospatial and tabular data.
+- [Autolabel](https://github.com/refuel-ai/autolabel) - Label, clean and enrich text datasets with Large Language Models. ([HN](https://news.ycombinator.com/item?id=36409201))

@@ -1,0 +1,104 @@
+{
+  "main": {
+    "id": "3c12bc681a8d6370",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce6229a7f1aef25a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "private/private.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7352d3dfb14382e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "dae673241f2cd5e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "133c5eaaddeba5fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "efec9beace8b82d6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 170,
+    "collapsed": true
+  },
+  "right": {
+    "id": "f7d6720eae3f75f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "e241cd809fc5361d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ce597add227e7ad",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "private/private.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ce6229a7f1aef25a",
+  "lastOpenFiles": [
+    "tools/dropbox.md",
+    "private/private.md",
+    "macOS/apps/karabiner/karabiner.md",
+    "physics/physics.md",
+    "drugs/drugs.md",
+    "knowledge/knowledge-graphs.md",
+    "education/learning.md",
+    "private/private-journal.md",
+    "databases/blockchain/ethereum.md",
+    "privacy/adblocking.md"
+  ]
+}

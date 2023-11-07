@@ -1,0 +1,64 @@
+# Self hosting
+
+[Cozy Cloud](https://github.com/cozy/cozy-stack) is interesting.
+
+## Links
+
+- [Lobsters: What are you self hosting? (2021)](https://lobste.rs/s/p4edt5/what_are_you_self_hosting_2021) ([2019 version](https://lobste.rs/s/xreuus/what_are_you_self_hosting)) ([2020 version](https://lobste.rs/s/c54fev/what_are_you_self_hosting_2020))
+- [Ask HN: What do you self-host? (2019)](https://news.ycombinator.com/item?id=21235957)
+- [List of "only yours" cloud services for everyday needs](https://github.com/Atarity/deploy-your-own-saas)
+- [Reddit: List what you have self hosted? (2020)](https://www.reddit.com/r/selfhosted/comments/ekttx5/list_what_you_have_self_hosted/)
+- [Install 70+ self-hosted apps and services via HomelabOS with one command](https://www.reddit.com/r/selfhosted/comments/fxg1lj/you_can_now_install_70_selfhosted_apps_and/)
+- [The Homebrewserver Club](https://homebrewserver.club/) ([HN](https://news.ycombinator.com/item?id=23058562))
+- [linx-server](https://demo.linx-server.net/) - Self-hosted file/media sharing website.
+- [Traefik v2 - Advanced Config with Examples (2020)](https://www.reddit.com/r/selfhosted/comments/gz1ilc/traefik_v2_advanced_config_with_examples/)
+- [Self-Hosted Homelab Website](https://hydn.dev/homelab/) ([HN](https://news.ycombinator.com/item?id=23479505))
+- [Awesome Self Hosted](https://selfhosted.libhunt.com/)
+- [Awesome-Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - List of Free Software network services and web applications which can be hosted on your own servers.
+- [Use managed services. Please. (2020)](http://www.mooreds.com/wordpress/archives/3358) ([Lobsters](https://lobste.rs/s/zgyrc7/use_managed_services_please))
+- [Screw it, I’ll host it myself (2021)](https://www.markozivanovic.com/screw-it-ill-host-it-myself/) ([HN](https://news.ycombinator.com/item?id=26725185))
+- [Forem Self-Host](https://github.com/forem/selfhost) - Selfhost your Forem Community on your own infrastructure.
+- [Why self hosting is important (2021)](https://dataswamp.org/~solene/2021-07-23-why-selfhosting-is-important.html) ([HN](https://news.ycombinator.com/item?id=27939039))
+- [numblr](https://github.com/heyLu/numblr) - Alternative Tumblr (and Twitter, Instagram, AO3, YouTube, RSS, ...) frontend.
+- [Homer](https://github.com/bastienwirtz/homer) - Very simple static homepage for your server.
+- [KubeSail](https://kubesail.com/) - Self hosting company.
+- [Flame](https://github.com/pawelmalak/flame) - Self-hosted start page for your server.
+- [POSSE: Publish (On Your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE) ([HN](https://news.ycombinator.com/item?id=29115696)) ([Lobsters](https://lobste.rs/s/0liktg/posse_publish_on_your_own_site_syndicate))
+- [CasaOS](https://github.com/IceWhaleTech/CasaOS) - Simple, easy-to-use, elegant open-source Family Cloud system. ([HN](https://news.ycombinator.com/item?id=29328473))
+- [My Setup for Self-Hosting Dozens of Web Applications + Services on a Single Server (2021)](https://cprimozic.net/blog/my-selfhosted-websites-architecture/) ([HN](https://news.ycombinator.com/item?id=29746223)) ([Lobsters](https://lobste.rs/s/olgedg/my_setup_for_self_hosting_dozens_web))
+- [What are the top 3 most useful things that you have hosted over the years? (2022)](https://www.reddit.com/r/selfhosted/comments/sbkl5z/what_are_the_top_3_most_useful_things_that_you/)
+- [Khue's Homelab](https://github.com/khuedoan/homelab) - My self-hosting infrastructure, fully automated from empty disk to operating services. ([Docs](https://homelab.khuedoan.com/)) ([HN](https://news.ycombinator.com/item?id=30030991))
+- [Dashy](https://dashy.to/) - Ultimate Homepage for your Homelab. ([Code](https://github.com/Lissy93/dashy)) ([HN](https://news.ycombinator.com/item?id=31284522)) ([HN](https://news.ycombinator.com/item?id=31636036))
+- [Start Self Hosting (2022)](https://rohanrd.xyz/posts/why-you-should-start-self-hosting/) ([HN](https://news.ycombinator.com/item?id=30781536))
+- [Self hosted tech starter pack for development of new project or startup](https://github.com/tldr-devops/startpack) ([HN](https://news.ycombinator.com/item?id=30871211))
+- [What are your Most Used Self Hosted Applications? (2022)](https://noted.lol/what-are-your-most-used-self-hosted-applications/) ([HN](https://news.ycombinator.com/item?id=31260061))
+- [Tipi](https://github.com/meienberger/runtipi) - Personal home server for everyone. ([Reddit](https://www.reddit.com/r/selfhosted/comments/uq5844/tipi_a_home_server_orchestrator_using_docker/)) ([HN](https://news.ycombinator.com/item?id=32775339))
+- [pinvault](https://github.com/raffomania/pinvault) - Personal, multi-media, distributed and social web archiving tool. Think Pinterest, mastodon, the internet archive and BitTorrent mashed up in a single app.
+- [Homarr](https://github.com/ajnart/homarr) - Simple and lightweight homepage for your server, that helps you easily access all of your services in one place.
+- [dash.](https://github.com/MauriceNino/dashdot) - Simple, modern server dashboard, primarily used by smaller private servers.
+- [MicroBin](https://github.com/szabodanika/microbin) - Tiny, self-contained, configurable paste bin and URL shortener written in Rust.
+- [Fireshare](https://github.com/ShaneIsrael/fireshare) - Share your game clips, videos, or other media via unique links.
+- [More Oxide at Home: My Pi is a Wireless Crucible (2022)](https://artemis.sh/2022/06/14/oxide-crucible.html)
+- [Cloud From Scratch](https://github.com/technomada/cloud-from-scratch) - Build yourself a private self-hosted full-stack personal cloud system.
+- [Deploying Retool on-premise](https://github.com/tryretool/retool-onpremise)
+- [Easy Gate](https://github.com/r7wx/easy-gate) - Gate to your self hosted infrastructure.
+- [Self-hosted software I'm thankful for (2022)](https://garrit.xyz/posts/2022-09-26-self-hosted-software-im-thankful-for) ([Lobsters](https://lobste.rs/s/6tbcnu/self_hosted_software_i_m_thankful_for))
+- [Ask HN: How can a total beginner start with self-hosting? (2022)](https://news.ycombinator.com/item?id=33095823)
+- [Am I crazy to move my home lab to a data center? (2022)](https://www.reddit.com/r/selfhosted/comments/y5jnrm/am_i_crazy_to_move_my_home_lab_to_a_data_center/)
+- [Ask HN: Where do you host images for your blog or landing pages? (2022)](https://news.ycombinator.com/item?id=33232705)
+- [Self Hosting Guide](https://github.com/mikeroyal/Self-Hosting-Guide)
+- [Why I use Jellyfin for my home media library (2022)](https://www.jeffgeerling.com/blog/2022/why-i-use-jellyfin-my-home-media-library) ([HN](https://news.ycombinator.com/item?id=33362416))
+- [Indieweb and self-hosting my own space (2022)](https://axbom.com/indieweb/)
+- [HamsterBase](https://hamsterbase.com/) - Self-hosted, local-first web archive application. ([Code](https://github.com/hamsterbase/hamsterbase))
+- [From Plex to Jellyfin Media Server (2021)](https://www.ctrl.blog/entry/jellyfin-vs-plex.html) ([HN](https://news.ycombinator.com/item?id=33579209))
+- [Ask HN: What services/apps are you self-hosting? (2022)](https://news.ycombinator.com/item?id=33657947)
+- [Serve self hosted media efficiently (2022)](https://www.reddit.com/r/selfhosted/comments/z0hq5w/im_using_cloudflare_tunnels_and_love_them_now_i/)
+- [Fractal Networks](https://fractalnetworks.co/) - Bringing self-hosting to the mainstream. ([GitHub](https://github.com/fractalnetworksco)) ([Self-hosted Gateway](https://github.com/fractalnetworksco/selfhosted-gateway))
+- [Ask HN: Host a website from a living room in 2022?](https://news.ycombinator.com/item?id=34065234)
+- [Most used selfhosted services in 2022?](https://www.reddit.com/r/selfhosted/comments/zwcns3/most_used_selfhosted_services_in_2022/)
+- [Ask HN: What's on your home server? (2023)](https://news.ycombinator.com/item?id=34271167)
+- [What do you regret trying to self host and why? (2023)](https://www.reddit.com/r/selfhosted/comments/10da4yi/what_do_you_regret_trying_to_selfhost_and_why/)
+- [Ask HN: Self-hosting in 2023: Nextcloud on Linode, or...? (2023)](https://news.ycombinator.com/item?id=34503176)
+- [Building an ARM64 home server the hard way (2023)](https://jforberg.se/blog/posts/2023-02-19-rockpro64/rockpro64.html) ([HN](https://news.ycombinator.com/item?id=34856866))
+- [Self hosting in 2023](https://grifel.dev/decentralization/) ([HN](https://news.ycombinator.com/item?id=34860655))
+- [Self-Host All the Things? (2023)](https://tedium.co/2023/03/04/self-hosted-saas-app-alternatives/) ([HN](https://news.ycombinator.com/item?id=35031109))

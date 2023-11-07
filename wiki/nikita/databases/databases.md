@@ -1,0 +1,843 @@
+# Databases
+
+Currently prefer using [Grafbase](../networking/graphql/grafbase.md) or [PlanetScale](planetscale.md) as my data store for web apps. And [SQLite](sqlite.md) for when I need local DB. [Turso](https://chiselstrike.com/) is nice for deploying SQLite.
+
+In perfect world [EdgeDB](edgedb.md) gets replication for lower latency. It builds on top of [Postgres](postgresql.md) & has [amazing query language](https://www.edgedb.com/docs/edgeql/index) & [declarative schema modeling](https://www.edgedb.com/docs/datamodel/index). Maybe EdgeDB can combine [Neon](https://neon.tech/)'s work on making multi-cloud, autoscaling Postgres.
+
+[Database Internals](https://www.databass.dev/) & [Designing Data-Intensive Applications](https://dataintensive.net/) are great books on databases.
+
+[Metabase](https://github.com/metabase/metabase) is a great SQL queries visualizer. [Database access optimization doc](https://docs.djangoproject.com/en/4.0/topics/db/optimization/) is a good read.
+
+[Ditto](https://www.ditto.live/), [Replicache](https://replicache.dev/) & [Tuple Database](https://github.com/ccorcos/tuple-database) are fascinating tools for for [syncing local state for fast network bound operations](https://twitter.com/maccaw/status/1528848433968209923) using [CRDTs](../distributed-systems/crdt.md) and other tools. [PlanetScale](planetscale.md) seems awesome too.
+
+Also trying out [Cozo Graph DB](https://github.com/cozodb/cozo), has [many sleek features](https://news.ycombinator.com/item?id=33518320).
+
+[trustfall](https://github.com/obi1kenobi/trustfall) is a great query engine for all kinds of data sources. [Atlas](https://github.com/ariga/atlas) is nice DB tool.
+
+[toyDB](https://github.com/erikgrinaker/toydb) & [minikeyvalue](https://github.com/geohot/minikeyvalue) has nice code to study.
+
+[Slashbase](https://slashbase.com/) is nice GUI app to talk with databases.
+
+[LSM in a Week](https://github.com/skyzh/mini-lsm), [TinyKV Course](https://github.com/talent-plan/tinykv) & [How Query Engines Work](https://howqueryengineswork.com/) are great resources.
+
+## Interesting
+
+- [PlanetScale](planetscale.md) - Database for Developers. ([HN](https://news.ycombinator.com/item?id=27197873)) ([Release Article](https://www.planetscale.com/blog/announcing-planetscale-the-database-for-developers))
+- [Materialize](https://github.com/MaterializeInc/materialize) - Streaming SQL Database powered by Timely Dataflow. ([Web](https://materialize.io/))
+- [Tuple Database](https://github.com/ccorcos/tuple-database) - Local-first, "end-user database" database. Embedded FoundationDB. Reactive indexable graph database. ([Tweet](https://twitter.com/ccorcos/status/1532185301438738433))
+- [GreptimeDB](https://github.com/GreptimeTeam/greptimedb) - Open-source, cloud-native, distributed time-series database. ([Web](https://greptime.com/)) ([Article](https://www.greptime.com/blogs/2022-11-15-this-time-for-real)) ([Design](https://greptime.com/blogs/2022-12-08-GreptimeDB-internal-design)) ([GreptimeDB Storage Engine Design](https://www.greptime.com/blogs/2022-12-21-storage-engine-design))
+- [LMDB Store](https://github.com/DoctorEvidence/lmdb-store) - Simple, efficient, ultra-fast, scalable data store wrapper for LMDB.
+- [Mentat](https://github.com/mozilla/mentat) - Persistent, relational store inspired by Datomic and DataScript.
+- [RocksDB](https://github.com/facebook/rocksdb) - Persistent Key-Value Store for Flash and RAM Storage. ([Rocksplicator - RocksDB Replication](https://github.com/pinterest/rocksplicator))
+- [TerarkDB](https://github.com/bytedance/terarkdb) - RocksDB compatible KV storage engine with better performance. ([HN](https://news.ycombinator.com/item?id=25514419))
+- [LevelDB](https://github.com/google/leveldb) - Fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
+- [GoLevelDB](https://github.com/syndtr/goleveldb) - LevelDB key/value database in Go.
+- [NodeLevelDB](https://github.com/Level/level) - Fast & simple storage. A Node.js-style LevelDB wrapper for Node.js, Electron and browsers. ([Awesome](https://github.com/Level/awesome))
+- [TiDB](https://github.com/pingcap/tidb) - Distributed HTAP database compatible with the MySQL protocol. ([Awesome](https://github.com/c4pt0r/awesome-tidb))
+- [TiKV](https://github.com/tikv/tikv) - Distributed transactional key-value database, originally created to complement TiDB. ([pd - Placement driver for TiKV](https://github.com/pingcap/pd)) ([TiKV Rust Client](https://github.com/tikv/client-rust))
+- [Noria](https://github.com/mit-pdos/noria) - Dynamically changing, partially-stateful data-flow for web application backends. ([Paper](https://pdos.csail.mit.edu/papers/noria:osdi18.pdf)) ([Notes](https://www.micahlerner.com/2021/03/28/noria-dynamic.html))
+- [RethinkDB](https://www.rethinkdb.com/) - Pushes JSON to your apps in realtime.
+- [RedixDB](https://github.com/alash3al/redix) - Persistent real-time key-value store, with the same redis protocol with powerful features.
+- [AresDB](https://github.com/uber/aresdb) - GPU-powered real-time analytics storage and query engine.
+- [Sophia](https://github.com/pmwkaa/sophia) - Modern transactional key-value/row storage library.
+- [Bolt](https://github.com/etcd-io/bbolt) - Embedded key/value database for Go.
+- [InfluxDB](https://github.com/influxdata/influxdb) - Scalable datastore for metrics, events, and real-time analytics. ([Web](https://www.influxdata.com/))
+- [EdgeDB](https://github.com/edgedb/edgedb) - Open-source object-relational database built on top of PostgreSQL. ([EdgeDB 1.0 Beta](https://www.edgedb.com/blog/edgedb-1-0-beta-1-sirius/)) ([Web](https://www.edgedb.com/)) ([GitHub](https://github.com/edgedb)) ([Talk](https://www.youtube.com/watch?v=CmXB5xqEENs))
+- [Cassandra](https://github.com/apache/cassandra) - Highly-scalable partitioned row store. Rows are organized into tables with a required primary key.
+- [Scylla](https://www.scylladb.com/) - Drop-in Apache Cassandra alternative big data database that powers your applications with ultra-low latency and extremely high throughput, while reducing TCO to a fraction of most NoSQL databases. [Code](https://github.com/scylladb/scylla) ([Scylla University](https://university.scylladb.com/))
+- [JanusGraph](https://github.com/JanusGraph/janusgraph) - Open-source, distributed graph database. ([Web](https://janusgraph.org/)) ([HN](https://news.ycombinator.com/item?id=27762109))
+- [DuckDB](https://github.com/cwida/duckdb) - Embeddable SQL OLAP Database Management System. ([HN](https://news.ycombinator.com/item?id=24531085)) ([Playing With DuckDB](https://www.turtle-techies.com/playing-with-duck-db/)) ([5 minute intro](https://shekhargulati.com/2019/12/15/the-5-minute-introduction-to-duckdb-the-sqlite-for-analytics/)) ([Web](https://duckdb.org/))
+- [DuckDB-Wasm](https://duckdb.org/2021/10/29/duckdb-wasm.html) - Efficient Analytical SQL in the Browser. ([HN](https://news.ycombinator.com/item?id=29039235)) ([Code](https://github.com/duckdb/duckdb-wasm))
+- [sled](https://github.com/spacejam/sled) - Modern embedded database. ([sledtool - CLI tool to work with Sled key-value databases](https://github.com/vi/sledtool))
+- [Genji](https://github.com/genjidb/genji) - Document-oriented, embedded SQL database, works with Bolt, Badger and memory. ([Web](https://genji.dev/))
+- [Atlas](https://github.com/Netflix/atlas) - In-memory dimensional time series database.
+- [Pebble](https://github.com/cockroachdb/pebble) - RocksDB/LevelDB inspired key-value database in Go. ([Intro article](https://www.cockroachlabs.com/blog/pebble-rocksdb-kv-store/)) ([HN](https://news.ycombinator.com/item?id=24484320)) ([Pebble vs RocksDB: Implementation Differences](https://github.com/cockroachdb/pebble/blob/master/docs/rocksdb.md))
+- [LogDevice](https://github.com/facebookincubator/LogDevice) - Distributed storage for sequential data.
+- [SQLite](https://github.com/sqlite/sqlite) - C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
+- [better-sqlite3](https://github.com/JoshuaWise/better-sqlite3) - Fastest and simplest library for SQLite3 in NodeJS.
+- [gStore](https://github.com/pkumod/gStore) - Graph database engine for managing large graph-structured data.
+- [MongoDB](https://github.com/mongodb/mongo) - General purpose, document-based, distributed database built for modern application developers.
+- [Ardb](https://github.com/yinqiwen/ardb) - High Performance Persistent NoSql, Full Redis-Protocol Compatibility.
+- [Datahike](https://github.com/replikativ/datahike) - Durable datalog implementation adaptable for distribution. ([Web](https://datahike.io/)) ([CSV Loader](https://github.com/replikativ/datahike-csv-loader))
+- [Yugabyte DB](https://github.com/yugabyte/yugabyte-db) - High-performance distributed SQL database for global, internet-scale apps.
+- [JuliaDB](https://github.com/JuliaComputing/JuliaDB.jl) - Parallel analytical database in pure Julia. ([Docs](https://juliadata.github.io/JuliaDB.jl/latest/)) ([HN](https://news.ycombinator.com/item?id=24119118))
+- [Delta Lake](https://github.com/delta-io/delta) - Storage layer that brings scalable, ACID transactions to Apache Spark and other big-data engines.
+- [M3](https://github.com/m3db/m3) - Distributed TSDB, Aggregator and Query Engine, Prometheus Sidecar, Graphite Compatible, Metrics Platform. Prometheus compatible. ([Web](https://m3db.io/))
+- [WatermelonDB](https://github.com/Nozbe/WatermelonDB) - Reactive & asynchronous database for powerful React and React Native apps.
+- [Neo4j](https://github.com/neo4j/neo4j) - High performance graph store with all the features expected of a mature and robust database, like a friendly query language and ACID transactions.
+- [Dgraph](https://github.com/dgraph-io/dgraph) - Horizontally scalable and distributed graph database, providing ACID transactions, consistent replication and linearizable reads.
+- [MeiliDB](https://github.com/meilisearch/MeiliDB) - Full-text search database based on the fast LMDB key-value store.
+- [CrateDB](https://github.com/crate/crate) - Distributed SQL database that makes it simple to store and analyze massive amounts of machine data in real-time.
+- [Riak](https://github.com/basho/riak) - Distributed, decentralized data storage system.
+- [CockroachDB](https://github.com/cockroachdb/cockroach) - Open source, cloud-native SQL database. ([CockroachDB: The Resilient Geo-Distributed SQL Database](http://muratbuffalo.blogspot.com/2022/03/cockroachdb-resilient-geo-distributed.html)) ([HN](https://news.ycombinator.com/item?id=30565223))
+- [ActorDB](https://github.com/biokoda/actordb) - Distributed SQL database.
+- [ksqlDB](https://ksqldb.io/) - Event streaming database purpose-built for stream processing applications. ([HN](https://news.ycombinator.com/item?id=21589670)) ([Code](https://github.com/confluentinc/ksql))
+- [OmniSciDB](https://github.com/omnisci/omniscidb) - Open source SQL-based, relational, columnar database engine that leverages the full performance and parallelism of modern hardware.
+- [Sonnerie](https://github.com/njaard/sonnerie) - Simple timeseries database.
+- [Dolt](https://github.com/dolthub/dolt) - Git for Data. SQL database that you can fork, clone, branch, merge. ([HN](https://news.ycombinator.com/item?id=26370572)) ([Web](https://www.dolthub.com/)) ([HN](https://news.ycombinator.com/item?id=31847416))
+- [Crux](https://github.com/juxt/crux) - Open source document database with bitemporal graph queries. ([Website](https://opencrux.com/)) ([Article](https://jorin.me/crux-as-general-purpose-database/)) ([HN](https://news.ycombinator.com/item?id=23493163))
+- [LokiJS](https://github.com/techfort/LokiJS) - Document oriented database written in JavaScript.
+- [terrier](https://github.com/cmu-db/terrier) - Carnegie Mellon's new database system project that is replacing [Peloton](https://github.com/cmu-db/peloton).
+- [Nebula Graph](https://github.com/vesoft-inc/nebula) - Open-source graph database capable of hosting super large scale graphs with dozens of billions of vertices (nodes) and trillions of edges, with milliseconds of latency. ([HN](https://news.ycombinator.com/item?id=22051271)) ([Active Fork](https://github.com/vesoft-inc/nebula-graph))
+- [SeaTable](https://seatable.io/) - Online lightweight database with a spreadsheet interface. ([Code](https://github.com/seatable/seatable))
+- [Ceph](https://github.com/ceph/ceph) - Distributed object, block, and file storage platform.
+- [Vitess](https://github.com/vitessio/vitess) - Database clustering system for horizontal scaling of MySQL through generalized sharding. ([Web](https://vitess.io/))
+- [MinIO](https://github.com/minio/minio) - High Performance, Kubernetes Native Object Storage. ([Web](https://min.io/)) ([GitHub](https://github.com/minio)) ([MinIO: A Bare Metal Drop-In for AWS S3](https://tech.marksblogg.com/minio-aws-s3-hdfs.html)) ([MinIO Console](https://github.com/minio/console)) ([MinIO Operator](https://github.com/minio/operator))
+- [Memory-Efficient Search Trees for Database Management Systems (2020)](http://reports-archive.adm.cs.cmu.edu/anon/2020/CMU-CS-20-101.pdf) ([HN](https://news.ycombinator.com/item?id=22543125))
+- [ShareDB](https://github.com/share/sharedb) - Realtime database backend based on Operational Transformation (OT).
+- [Irmin](https://irmin.org/) - Distributed database built on the same principles as Git. ([Code](https://github.com/mirage/irmin)) ([HN](https://news.ycombinator.com/item?id=22591949))
+- [Noms](https://github.com/attic-labs/noms) - Decentralized database philosophically descendant from the Git version control system.
+- [SwayDB](https://github.com/simerplaha/SwayDB) - Fast embeddable persistent and in-memory key-value storage engine that provides storage as simple data structures - Map, Set & Queue.
+- [TrailDB](https://github.com/traildb/traildb) - Efficient tool for storing and querying series of events.
+- [QuestDB](https://github.com/questdb/questdb) - Relational database with ultimate time-series performance. ([HN](https://news.ycombinator.com/item?id=23616878))
+- [Prometheus](https://github.com/prometheus/prometheus) - Systems and service monitoring system.
+- [Akumuli](https://github.com/akumuli/Akumuli) - Time-series database.
+- [SSDB](https://github.com/ideawu/ssdb) - Redis compatible NoSQL database stored on disk.
+- [minikeyvalue](https://github.com/geohot/minikeyvalue) - Distributed key value store in under 1000 lines. ([HN](https://news.ycombinator.com/item?id=25642062))
+- [Bedrock](https://github.com/Expensify/Bedrock) - Simple, modular, WAN-replicated, Blockchain-based data foundation for global-scale applications. ([Web](https://bedrockdb.com/))
+- [TerminusDB](https://terminusdb.com/) - Full featured in-memory graph database management system with a rich query language. ([Code](https://github.com/terminusdb/terminus-server)) ([HN](https://news.ycombinator.com/item?id=22867767)) ([GitHub](https://github.com/terminusdb))
+- [WhiteDB](https://github.com/priitj/whitedb) - Lightweight database library operating fully in main memory. Disk is used only for dumping/restoring database and logging.
+- [FaunaDB](fauna.md) - Database built for serverless, featuring native GraphQL.
+- [ImmuDB](https://github.com/codenotary/immudb) - Lightweight, high-speed immutable database for systems and applications. Written in Go. ([HN](https://news.ycombinator.com/item?id=27275691)) ([HN](https://news.ycombinator.com/item?id=29702974))
+- [NutsDB](https://github.com/xujiajun/nutsdb) - Simple, fast, embeddable, persistent key/value store written in pure Go.
+- [remoteStorage](https://remotestorage.io/) - Open protocol for per-user storage on the Web.
+- [TimescaleDB](https://www.timescale.com/) - Open-source database built for analyzing time-series data with the power and convenience of SQL. ([timescaledb-tune](https://github.com/timescale/timescaledb-tune)) ([HN](https://news.ycombinator.com/item?id=24132602)) ([2.0 release](https://blog.timescale.com/blog/timescaledb-2-0-a-multi-node-petabyte-scale-completely-free-relational-database-for-time-series/)) ([HN](https://news.ycombinator.com/item?id=30430000))
+- [Timescale Cloud](https://blog.timescale.com/blog/announcing-the-new-timescale-cloud-and-a-new-vision-for-the-future-of-database-services-in-the-cloud/) ([HN](https://news.ycombinator.com/item?id=28761453)) ([HN](https://news.ycombinator.com/item?id=28761566))
+- [ClickHouse](https://github.com/ClickHouse/ClickHouse) - Open-source column-oriented database management system that allows generating analytical data reports in real time. ([How ClickHouse Saved our Data](https://mux.com/blog/from-russia-with-love-how-clickhouse-saved-our-data/)) ([HN](https://news.ycombinator.com/item?id=27310247)) ([Faster ClickHouse Imports](https://tech.marksblogg.com/faster-clickhouse-imports-csv-parquet-mysql.html)) ([HN: ClickHouse, Inc.](https://news.ycombinator.com/item?id=28595419)) ([Article](https://blog.timescale.com/blog/what-is-clickhouse-how-does-it-compare-to-postgresql-and-timescaledb-and-how-does-it-perform-for-time-series-data/)) ([HN](https://news.ycombinator.com/item?id=28945903))
+- [ArongoDB](https://www.arangodb.com/) - Natively store data for graph, document and search needs. Utilize feature-rich access with one query language. ([Go Driver](https://github.com/arangodb/go-driver)) ([Arangolite - Go Driver](https://github.com/solher/arangolite)) ([Python Driver](https://github.com/ArangoDB-Community/python-arango)) ([Feed](https://github.com/arangodb/feed))
+- [LiteStore](https://github.com/h3rald/litestore) - Lightweight, self-contained, RESTful, multi-format NoSQL document store server written in Nim and powered by a SQLite backend for storage.
+- [RecallGraph](https://github.com/RecallGraph/RecallGraph) - Versioning data store for time-variant graph data. ([HN](https://news.ycombinator.com/item?id=23455516))
+- [Apache Pinot](https://pinot.apache.org/) - Realtime distributed OLAP datastore. ([Code](https://github.com/apache/incubator-pinot))
+- [Apache Ignite](https://github.com/apache/ignite) - Horizontally scalable, fault-tolerant distributed in-memory computing platform for building real-time applications that can process terabytes of data with in-memory speed.
+- [TileDB](https://github.com/TileDB-Inc/TileDB) - Storage Engine for Data Science.
+- [Pravega](https://github.com/pravega/pravega) - Open source distributed storage service implementing Streams. It offers Stream as the main primitive for the foundation of reliable storage systems.
+- [libmdbx](https://github.com/erthink/libmdbx) - Extremely fast, compact, powerful, embedded, transactional key-value store database.
+- [libfpta](https://github.com/erthink/libfpta) - Ultra fast, compact, Embedded Database for tabular and semistructured data.
+- [Realm](https://github.com/realm/realm-core) - Mobile database that runs directly inside phones, tablets or wearables.
+- [HSE](https://github.com/hse-project/hse) - Embeddable key-value store designed for SSDs based on NAND flash or persistent memory. ([Docs](https://hse-project.github.io/))
+- [GhostDB](https://github.com/jakekgrog/GhostDB) - Distributed, in-memory, general purpose key-value data store that delivers microsecond performance at any scale. ([HN](https://news.ycombinator.com/item?id=23774174))
+- [Datalevin](https://github.com/juji-io/datalevin) - Port of Datascript in-memory Datalog database to Lightning Memory-Mapped Database (LMDB).
+- [DagDB](https://github.com/mikeal/dagdb) - Syncable database built on IPLD.
+- [MonetDB](https://github.com/MonetDB/MonetDB) - Column-store pioneer. ([Web](https://www.monetdb.org/))
+- [RxDB](https://github.com/pubkey/rxdb) - NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps and NodeJs. ([HN](https://news.ycombinator.com/item?id=24340802))
+- [Graviton Database](https://github.com/deroproject/graviton) - Simple, fast, versioned, authenticated, embeddable key-value store database in pure Go. ([HN](https://news.ycombinator.com/item?id=24390596))
+- [SeaweedFS](https://github.com/chrislusf/seaweedfs) - Distributed object store and file system to store and serve billions of files fast.
+- [IndexedDB](https://github.com/jakearchibald/idb) - IndexedDB, but with promises.
+- [JsStore](https://github.com/ujjwalguptaofficial/JsStore) - Complete IndexedDB wrapper with SQL like syntax. ([Web](https://jsstore.net/))
+- [Quadrable](https://github.com/hoytech/quadrable) - Authenticated multi-version database: sparse binary merkle tree with compact partial-tree proofs.
+- [Manticore Search](https://github.com/manticoresoftware/manticoresearch) - Database designed specifically for search, including full-text search. ([HN](https://news.ycombinator.com/item?id=32261618)) ([HN](https://news.ycombinator.com/item?id=34741018))
+- [Amazon QLDB](https://aws.amazon.com/qldb/) - Fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log. ([Awesome](https://github.com/mlewis7127/awesome-qldb))
+- [Oxigraph](https://github.com/oxigraph/oxigraph) - Graph database implementing the SPARQL standard.
+- [JavaScript Database (JSDB)](https://github.com/small-tech/jsdb) - Transparent, in-memory, streaming write-on-update JavaScript database for Small Web applications that persists to a JavaScript transaction log. ([Intro](https://ar.al/2020/10/20/introducing-jsdb/)) ([Lobsters](https://lobste.rs/s/76eboi/introducing_jsdb))
+- [Cete](https://github.com/mosuka/cete) - Distributed key value store server written in Go built on top of BadgerDB.
+- [NoisePage](https://noise.page/) - Self-Driving Database Management System. ([Code](https://github.com/cmu-db/noisepage/)) ([HN](https://news.ycombinator.com/item?id=24983872))
+- [Sir.DB](https://github.com/c9fe/sirdb) - Git-diff-able JSON database on yer filesystem. ([HN](https://news.ycombinator.com/item?id=25004554))
+- [Bigbucket](https://github.com/adrianchifor/Bigbucket) - Serverless NoSQL database with a focus on scalability, availability and simplicity. It has a Bigtable-style data model with storage backed by a Cloud Storage Bucket.
+- [AnnaBellaDB](https://github.com/hsnlab/annabellaDB) - Proof-of-concept (PoC) network latency and access-pattern aware key-value store.
+- [OpenCog AtomSpace](https://github.com/opencog/atomspace) - In-RAM knowledge representation (KR) database, an associated query engine and graph-re-writing system, and a rule-driven inferencing engine that can apply and manipulate sequences of rules to perform reasoning. ([Web](https://wiki.opencog.org/w/AtomSpace))
+- [Sybil](https://github.com/logv/sybil) - Append only analytics datastore with no up front table schema requirements. Just log JSON records to a table and run queries.
+- [Comdb2](https://github.com/bloomberg/comdb2) - Clustered RDBMS built on Optimistic Concurrency Control techniques.
+- [Arctic](https://github.com/man-group/arctic) - High performance datastore for time series and tick data.
+- [Warp 10](https://github.com/senx/warp10-platform) - Open Source Geo Time Series Platform designed to handle data coming from sensors, monitoring systems and the Internet of Things. ([Web](https://warp10.io/))
+- [Eva](https://github.com/Workiva/eva) - Distributed database-system implementing an entity-attribute-value data-model that is time-aware, accumulative, and atomically consistent.
+- [Firestore](https://cloud.google.com/firestore) - Develop rich applications using a fully managed, scalable, and serverless document database. ([Intro](https://ncona.com/2020/12/introduction-to-google-firestore/)) ([Running Google Firestore locally](https://ncona.com/2020/12/running-google-firestore-locally/))
+- [Graphik](https://github.com/graphikDB/graphik) - Identity-aware, permissioned, persistant document/graph database & pubsub server written in Go.
+- [AIStore](https://github.com/NVIDIA/aistore) - Lightweight object storage system with the capability to linearly scale-out with each added storage node and a special focus on petascale deep learning. ([Web](https://nvidia.github.io/aistore/))
+- [DatenLord](https://github.com/datenlord/datenlord) - Computing Defined Storage, an application-orientated, cloud-native distributed storage system.
+- [AgateDB](https://github.com/tikv/agatedb) - Embeddable, persistent and fast key-value (KV) database written in pure Rust.
+- [TensorBase](https://github.com/tensorbase/tensorbase) - Modern big data warehouse with performance in its core mind. ([Web](https://tensorbase.io/))
+- [Redwood](https://github.com/brynbellomy/redwood) - Highly-configurable, distributed, realtime database that manages a state tree shared among many peers.
+- [Drivine](https://drivine.org/) - Best and fastest graph database client (Neo4j & AgensGraph) for Node.js & TypeScript. ([Code](https://github.com/liberation-data/drivine)) ([Starter Template](https://github.com/liberation-data/drivine-inspiration))
+- [InfiniCache](https://github.com/mason-leap-lab/infinicache) - In-memory cache that is built atop ephemeral serverless functions. ([HN](https://news.ycombinator.com/item?id=25788893)) ([Docs](https://mason-leap-lab.github.io/infinicache/))
+- [Blazegraph](https://github.com/blazegraph/database) - Ultra high-performance graph database supporting Blueprints and RDF/SPARQL APIs.
+- [Escanor](https://github.com/mambisi/escanor) - High performance key value database with useful json document indexing and manipulations.
+- [Condensation](https://condensation.io/) - General-purpose distributed data system with conflict-free synchronization, and inherent end-to-end security. ([GitHub](https://github.com/CondensationDB))
+- [ZenoDB](https://github.com/getlantern/zenodb) - Go-based embeddable time series database optimized for performing aggregated analytical SQL queries on dimensional data.
+- [IndraDB](https://github.com/indradb/indradb) - Graph database written in rust.
+- [SteveCare](https://github.com/steve-care-software/products) - Peer-to-peer database system that enables people to build complex databases between peers, without any intermediary platform.
+- [CORTX](https://github.com/Seagate/cortx) - Open Source Mass-Capacity Optimized Object Store.
+- [PouchDB](https://pouchdb.com/) - JavaScript Database that Syncs. ([Code](https://github.com/pouchdb/pouchdb))
+- [CryptDB](https://css.csail.mit.edu/cryptdb/) - Database system that can process SQL queries over encrypted data. ([Code](https://github.com/CryptDB/cryptdb))
+- [LBADD](https://github.com/tomarrell/lbadd) - Experimental distributed SQL database, written in Go.
+- [Baserow](https://baserow.io/) - Self-hosted Airtable alternative. ([HN](https://news.ycombinator.com/item?id=26448985)) ([Code](https://github.com/bram2w/baserow))
+- [KuiBaDB](https://github.com/hidva/KuiBaDB) - Another Postgres rewritten with Rust and multi-threading.
+- [LeanStore](https://github.com/leanstore/leanstore) - High-performance OLTP storage engine optimized for many-core CPUs and NVMe SSDs. ([Web](https://dbis1.github.io/leanstore.html))
+- [KVS](https://kvs.n2o.dev/) - Abstract Chain Database. ([Code](https://github.com/synrc/kvs))
+- [Yorkie](https://yorkie.dev/) - Document store for building collaborative editing applications. ([Code](https://github.com/yorkie-team/yorkie))
+- [InfluxDB IOx](https://github.com/influxdata/influxdb_iox) - Future core of InfluxDB, an open source time series database.
+- [EliasDB](https://github.com/krotik/eliasdb) - Graph-based database.
+- [Resql](https://github.com/tezc/resql) - SQL database server that uses SQLite as its SQL engine and it provides replication and automatic failover capabilities.
+- [Tarantool](https://www.tarantool.io/en/) - In-memory computing platform. ([Go client](https://github.com/FZambia/tarantool)) ([Lua Code](https://github.com/tarantool/tarantool))
+- [EventQL](https://eventql.io/) - Database for large-scale event analytics. ([Code](https://github.com/eventql/eventql))
+- [OceanBase](https://github.com/oceanbase/oceanbase) - Distributed, banking suitable, open-source related database featuring high scalability and high compatibility. ([HN](https://news.ycombinator.com/item?id=27350108))
+- [Kvrocks](https://github.com/bitleak/kvrocks) - Distributed key value NoSQL database based on RocksDB and compatible with Redis protocol.
+- [UnQLite](https://github.com/symisc/unqlite) - Embedded NoSQL, Transactional Database Engine. ([Web](https://unqlite.org/))
+- [LinDB](https://github.com/lindb/lindb) - Scalable, high performance, high availability distributed time series database. ([Web](https://lindb.io/))
+- [TimeBase](https://github.com/epam/TimeBase) - High performance time series database. ([Web](https://timebase.info/))
+- [Greenplum Database](https://github.com/greenplum-db/gpdb) - Advanced, fully featured, open source data warehouse, based on PostgreSQL. ([Web](https://greenplum.org/))
+- [JinDB](https://github.com/shoyo/jindb) - Small relational database engine written in Rust with the standard library and no external dependencies.
+- [Memgraph](https://memgraph.com/) - In-Memory Cypher Graph Database.
+- [LemonGraph](https://github.com/NationalSecurityAgency/lemongraph) - Log-based transactional graph (nodes/edges/properties) database engine that is backed by a single file.
+- [Go SQL DB](https://github.com/auxten/go-sqldb) - Relational database that supports SQL queries for research purposes in Go.
+- [Skizze](https://github.com/skizzehq/skizze) - Probabilistic data structure service and storage.
+- [Skytable](https://github.com/skytable/skytable) - Extremely fast, secure and reliable real-time NoSQL database with automated snapshots and TLS. ([Web](https://skytable.io/))
+- [IceFireDB](https://github.com/gitsrc/IceFireDB) - Distributed disk storage database based on Raft and Redis protocol. ([HN](https://news.ycombinator.com/item?id=28257243))
+- [RefineDB](https://github.com/losfair/RefineDB) - Strongly-typed document database that runs on any transactional key-value store.
+- [Engula](https://engula.com/) - Cloud-native storage engine for next-generation data infrastructures. ([Code](https://github.com/engula/engula))
+- [BerylDB](https://github.com/beryldb/beryldb) - A data structure data manager that can be used to store data as key-value entries. ([Docs](https://docs.beryl.dev/))
+- [Hyrise](https://github.com/hyrise/hyrise) - Research in-memory database. ([Web](https://hpi.de/plattner/projects/hyrise.html))
+- [Apache Doris](http://doris.incubator.apache.org/master/en/) - Fast MPP database for all modern analytics on big data. ([Code](https://github.com/apache/incubator-doris))
+- [Vertica](https://www.vertica.com/) - Big Data Analytics On-Premises, in the Cloud, or on Hadoop. ([Getting Started with Vertica](https://www.babbling.fish/vertica-survival-guide/))
+- [Embeddinghub](https://github.com/featureform/embeddinghub) - Vector database built for Machine Learning embeddings. ([HN](https://news.ycombinator.com/item?id=28552034))
+- [GQLite](https://github.com/dyedgreen/gqlite) - Embedded graph database implemented with Rust.
+- [Xata](https://www.xata.io/) - Database service for serverless apps. ([HN](https://news.ycombinator.com/item?id=28590816)) ([GitHub](https://github.com/xataio)) ([Supabase to Xata](https://github.com/atilafassina/supabase-to-xata))
+- [SpiceDB](https://github.com/authzed/spicedb) - Zanzibar-inspired database that stores, computes, and validates application permissions. ([Article](https://authzed.com/blog/spicedb-is-open-source/)) ([HN](https://news.ycombinator.com/item?id=28709886)) ([CLI](https://github.com/authzed/zed))
+- [Authzed](https://authzed.com/) - Managed permissions database for everyone. ([GitHub](https://github.com/authzed)) ([Authzed API](https://github.com/authzed/api))
+- [Datomic](https://www.datomic.com/) - Transactional database with a flexible data model, elastic scaling, and rich queries. ([GitHub](https://github.com/Datomic)) ([Replicating with Datomic](https://whilo.github.io/articles/17/replicating-datomic))
+- [EdgelessDB](https://github.com/edgelesssys/edgelessdb) - Open-source MySQL-compatible database for confidential computing. Runs entirely inside a secure enclave and comes with advanced features for collaboration, recovery, and access control. ([Intro](https://techcommunity.microsoft.com/t5/azure-confidential-computing/introducing-edgelessdb-a-database-designed-for-confidential/ba-p/2813631))
+- [Infinitree](https://github.com/symmetree-labs/infinitree) - Scalable and encrypted embedded database with 3-tier caching.
+- [Zerostash](https://github.com/symmetree-labs/zerostash) - Deduplicated, encrypted data store that provides native versioning capabilities, and was designed to secure all metadata related to the files.
+- [BonsaiDb](https://github.com/khonsulabs/bonsaidb) - Rust-written, ACID-compliant, document-database inspired by CouchDB. ([Web](https://dev.bonsaidb.io/)) ([Retro One Year In](https://bonsaidb.io/blog/one-year-anniversary/)) ([HN](https://news.ycombinator.com/item?id=30800272)) ([Lobsters](https://lobste.rs/s/a03xpx/year_bonsaidb_retrospective_looking))
+- [Amazon Timestream](https://aws.amazon.com/timestream/) - Fast, scalable, serverless time series database. ([Tools and Samples](https://github.com/awslabs/amazon-timestream-tools))
+- [Hive](https://github.com/hivedb/hive) - Lightweight and blazing fast key-value database written in pure Dart. ([Docs](https://docs.hivedb.dev/#/))
+- [Couchbase Lite for iOS and MacOS](https://github.com/couchbase/couchbase-lite-ios) - Lightweight, embedded, syncable NoSQL database engine for iOS and MacOS apps.
+- [Kepler](https://github.com/spruceid/kepler) - Decentralized storage based on permissioned data overlays called orbits.
+- [Ambry](https://github.com/linkedin/ambry) - Distributed object store that supports storage of trillion of small immutable objects (50K -100K) as well as billions of large objects.
+- [ChaosDB](https://chaosdb.wiz.io/) - Unauthorized Privileged Access to Microsoft Azure Cosmos DB. ([Explained](https://www.wiz.io/blog/chaosdb-explained-azures-cosmos-db-vulnerability-walkthrough)) ([HN](https://news.ycombinator.com/item?id=29283057))
+- [MirDB](https://github.com/yetone/mirdb) - Persistent Key-Value Store with Memcached protocol.
+- [StupiDB](https://github.com/cpcloud/stupidb) - Built to understand how a relational database might be implemented.
+- [MatrixOne](https://github.com/matrixorigin/matrixone) - Planet scale, cloud-edge native big data engine crafted for heterogeneous workloads. ([Docs](http://docs.matrixorigin.io/#recommended-articles))
+- [doxa](https://github.com/ribelo/doxa) - Simple in-memory database, trying to copy the best solutions from datascript, xtdb, fulcro, autonormal and especially shadow-grove.
+- [Scalaris](https://github.com/scalaris-team/scalaris) - Scalable, transactional, distributed and fault-tolerant key-value-store with strong data consistency for online databases and Web 2.0 services.
+- [Basenine](https://github.com/up9inc/basenine) - Schema-free, document-oriented streaming database that optimized for monitoring network traffic in real-time.
+- [MeerkatDB](https://github.com/meerkatdb/meerkat) - Distributed append-only (no UPDATE/DELETE support) eventual consistent columnar storage for events and timeseries.
+- [OpenMLDB](https://github.com/4paradigm/OpenMLDB) - Open-source machine learning database that provides a full-stack FeatureOps solution for enterprises.
+- [Google F1](https://dbdb.io/db/google-f1) - Distributed transactional database. Built on Google's Spanner so that it can reach strong consistency. ([Paper](https://research.google/pubs/pub41344/))
+- [Skate](https://github.com/charmbracelet/skate) - Personal key-value store. Use it to save and retrieve anything you’d like—even binary data.
+- [Hazelcast](https://github.com/hazelcast/hazelcast) - Distributed computation and storage platform for consistently low-latency querying, aggregation and stateful computation against event streams and traditional data sources. ([Web](https://hazelcast.com/))
+- [SimpleDB](https://github.com/awelm/simpledb) - Simple database built from scratch that has some of the basic RDBMS features like a SQL query parser, transactions, and a query optimizer. ([HN](https://news.ycombinator.com/item?id=30156048))
+- [Garage](https://github.com/deuxfleurs-org/garage) - Lightweight S3-compatible distributed object store. ([Web](https://garagehq.deuxfleurs.fr/)) ([Article](https://garagehq.deuxfleurs.fr/blog/2022-introducing-garage/)) ([HN](https://news.ycombinator.com/item?id=30256753))
+- [StorageTapper](https://github.com/uber/storagetapper) - Scalable real time MySQL change data streaming, logical backup and logical replication service.
+- [PoloDB](https://github.com/vincentdchan/PoloDB) - Embedded JSON-based database.
+- [TinyDB](https://github.com/msiemens/tinydb) - Lightweight document oriented database optimized for your happiness.
+- [CloverDB](https://github.com/ostafen/clover) - Lightweight NoSQL database designed for being simple and easily maintainable, thanks to its small code base. Inspired by tinyDB.
+- [Vearch](https://github.com/vearch/vearch) - Scalable distributed system for efficient similarity search of deep learning vectors.
+- [RemixDB](https://github.com/wuxb45/remixdb) - Read- and write-optimized concurrent KV store. Fast point and range queries. Extremely low write-amplification.
+- [RisingLight](https://github.com/risinglightdb/risinglight) - OLAP database system for educational purpose.
+- [SurrealDB](https://github.com/surrealdb/surrealdb) - Scalable, distributed, collaborative, document-graph database, for the real time web. ([Web](https://surrealdb.com/)) ([HN](https://news.ycombinator.com/item?id=32550543))
+- [classic-level](https://github.com/Level/classic-level) - Abstract-level database backed by LevelDB.
+- [Apache Druid](https://druid.apache.org/) - Database for modern analytics applications. ([Code](https://github.com/apache/druid))
+- [EJDB](https://github.com/Softmotions/ejdb) - Embeddable JSON database engine.
+- [SQLive](https://github.com/SkipLabs/sqlive) - General-purpose SQL database that lets you subscribe to changes to your queries.
+- [LotusDB](https://github.com/flower-corp/lotusdb) - Fast k/v database compatible with LSM tree and B+ tree.
+- [CnosDB](https://github.com/cnosdb/cnosdb) - Open Source Distributed Time Series Database with high performance, high compression ratio and high usability.
+- [Nubostore](https://nubo.app/nubostore) - Data store like Firestore and Algolia all in one.
+- [Surge](https://github.com/surgedb/surge) - Fastest next-gen NoSQL db.
+- [StarfishQL](https://github.com/SeaQL/starfish-ql) - Graph database and query engine to enable graph analysis and visualization on the web. ([Web](https://www.sea-ql.org/StarfishQL/))
+- [SingleStore](https://www.singlestore.com/) - Unified database for data-intensive applications. ([Twitter](https://twitter.com/SingleStoreDB)) ([Flexible Parallelism in SingleStoreDB](https://www.singlestore.com/blog/flexible-parallelism-in-singlestoredb/)) ([Kysely SingleStore](https://github.com/igalklebanov/kysely-singlestore))
+- [Apache Impala](https://github.com/apache/impala) - Lightning-fast, distributed SQL queries for petabytes of data stored in Apache Hadoop clusters.
+- [RisingWave](https://github.com/singularity-data/risingwave) - Cloud-native streaming database that uses SQL as the interface language.
+- [RunKV](https://github.com/MrCroxx/RunKV) - Experimental cloud-native distributed KV engine for OLTP workload.
+- [ATE](https://github.com/tokera-com/ate) - Distributed immutable data store with strong encryption and authentication.
+- [YDB](https://github.com/ydb-platform/ydb) - Open-source Distributed SQL Database that combines high availability and scalability with strict consistency and ACID transactions. ([Web](https://ydb.tech/)) ([HN](https://news.ycombinator.com/item?id=31081272)) ([Python SDK](https://github.com/ydb-platform/ydb-python-sdk)) ([Go SDK](https://github.com/ydb-platform/ydb-go-sdk))
+- [ForestDB](https://github.com/couchbase/forestdb) - Fast Key-Value Storage Engine Based on Hierarchical B+-Tree Trie.
+- [Realm](https://realm.io/) - Mobile database: an alternative to SQLite & key-value stores. ([Code](https://github.com/realm/realm-js))
+- [Instant](https://www.instantdb.dev/) - Graph Database on the Client.
+- [Apache CouchDB](https://github.com/apache/couchdb) - Seamless multi-master syncing database with an intuitive HTTP/JSON API, designed for reliability. ([Web](https://couchdb.apache.org/)) ([Web Code](https://github.com/apache/couchdb-www))
+- [PranaDB](https://github.com/cashapp/pranadb) - Distributed streaming database, designed from the outset to be horizontally scalable.
+- [eyros](https://github.com/peermaps/eyros) - Multi-dimensional interval database.
+- [AntidoteDB](https://github.com/AntidoteDB/antidote) - Planet scale, highly available, transactional database built on CRDT technology. ([Web](https://www.antidotedb.eu/))
+- [DarkBird](https://github.com/Rustixir/darkbird) - Document oriented, high concurrency in-memory Storage, also persist data to disk to avoid loss any data.
+- [Apache Calcite](https://calcite.apache.org/) - Dynamic data management framework. ([Code](https://github.com/apache/calcite))
+- [PolarDB-X](https://github.com/ApsaraDB/galaxysql) - Cloud native distributed SQL Database designed for high concurrency, massive storage and complex querying scenarios.
+- [SplinterDB](https://github.com/vmware/splinterdb) - Key-value store designed for high performance on fast storage devices.
+- [jammdb](https://github.com/pjtatlow/jammdb) - Embedded, single-file database that allows you to store key / value pairs as bytes.
+- [tectonicdb](https://github.com/0b01/tectonicdb) - Fast, highly compressed standalone database and streaming protocol for order book ticks.
+- [TigerGraph](https://www.tigergraph.com/) - Fast and scalable graph database for the enterprise.
+- [CeresDB](https://github.com/CeresDB/ceresdb) - High-performance, distributed, schema-less, cloud native time-series database that can handle both time-series and analytics workloads. ([Python Client](https://github.com/CeresDB/ceresdb-client-py))
+- [StoneDB](https://github.com/stoneatom/stonedb) - Open-source, MySQL HTAP and MySQL-native database for oltp, real-time analytics. ([Web](https://stonedb.io/))
+- [ClientDB](https://clientdb.dev/) - OS in-memory database for real-time web apps. ([Code](https://github.com/acapela/clientdb))
+- [Kerf](https://github.com/kevinlawler/kerf1) - Columnar tick database and time-series language for Linux/OSX/BSD/iOS/Android.
+- [AnnaDB](https://github.com/roman-right/AnnaDB) - Next-generation developer-first NoSQL database.
+- [StarRocks](https://github.com/StarRocks/starrocks) - Next-gen sub-second MPP database for full analytics scenarios, including multi-dimensional analytics, real-time analytics and ad-hoc query. ([Web](https://starrocks.com/index))
+- [TuGraph](https://github.com/TuGraph-db/tugraph-db) - Efficient graph database that supports high data volume, low latency lookup and fast graph analytics.
+- [Seafowl](https://github.com/splitgraph/seafowl) - Analytical database for modern data-driven Web applications.
+- [WooriDB](https://github.com/naomijub/wooridb) - General purpose time serial database. It is schemaless, key-value storage and uses its own query syntax that is similar to SparQL.
+- [Apache Pegasus](https://github.com/apache/incubator-pegasus) - Horizontally scalable, strongly consistent and high-performance key-value store. ([HN](https://news.ycombinator.com/item?id=33117650))
+- [Tidis](https://github.com/tidb-incubator/tidis) - Distributed transactional large-scale NoSQL database powered by TiKV.
+- [RonDB](https://github.com/logicalclocks/rondb) - Stable distribution of NDB Cluster, a key-value store with SQL capabilities.
+- [dobby](https://github.com/ly0va/dobby) - Homemade table-oriented (but not really relational) database engine with a modular design.
+- [NucliaDB](https://github.com/nuclia/nucliadb) - Cloud-native database for unstructured data, indexing vectors, text, paragraphs and relations.
+- [PhotonDB](https://github.com/photondb/photondb) - Storage engine for modern hardware, built from scratch in Rust.
+- [RadonDB](https://github.com/radondb/radon) - Open source, Cloud-native MySQL database for unlimited scalability and performance.
+- [Segment](https://github.com/segment-dev/segment) - Simple and fast in-memory key-value database written in Rust.
+- [Reindexer](https://github.com/Restream/reindexer) - Embeddable, in-memory, document-oriented database with a high-level Query builder interface.
+- [AssemblageDB](https://github.com/fkettelhoit/assemblagedb) - Distributed Document/Graph DB for Connected Pages & Documents.
+- [Apache ORC](https://orc.apache.org/) - High-Performance Columnar Storage for Hadoop. ([Code](https://github.com/apache/orc))
+- [SolomonDB](https://github.com/nomadiz/solomon-db) - Embedded Gremlin-compatible graph database written in Rust.
+- [Kuzu](https://github.com/kuzudb/kuzu) - In-process property graph database management system (GDBMS) built for query speed and scalability.
+- [zgraph](https://github.com/vescale/zgraph) - Embeddable graph database for large-scale vertices and edges.
+- [Flink Table Store](https://github.com/apache/flink-table-store) - Data lake storage for streaming updates/deletes changelog ingestion and high-performance queries in real time.
+- [Snowflake](https://www.snowflake.com/en/) ([Learn SnowflakeDB](https://github.com/lynnlangit/learn-snowflakedb))
+- [Apache Kvrocks](https://kvrocks.apache.org/) - Distributed key value NoSQL database that uses RocksDB as storage engine and is compatible with Redis protocol. ([Web Code](https://github.com/apache/incubator-kvrocks-website))
+- [Billy](https://github.com/holiman/billy) - Super simple data store in Go.
+- [AllyDB](https://github.com/Allyedge/allydb) - In-memory database similar to Redis, built using Elixir.
+- [RixxDB](https://github.com/surrealdb/rixxdb) - Versioned, embedded, strongly-consistent, key-value database.
+- [OctoBase](https://github.com/toeverything/OctoBase) - Offline-available, scalable, self-contained collaborative database, which was originally designed for AFFiNE.
+- [Fireproof](https://github.com/jchris/fireproof) - Real time database for today's interactive applications.
+- [ArcticDB](https://github.com/man-group/ArcticDB) - High performance, serverless DataFrame database built for the Python Data Science ecosystem.
+- [SKDB](https://github.com/SkipLabs/skdb) - SQL database that tells you when your query results changed.
+- [HeisenbergDB](https://github.com/quantanotes/heisenberg) - Distributed vector database.
+- [JunoDB](https://github.com/paypal/junodb) - Secure, consistent and highly available key-value store. ([HN](https://news.ycombinator.com/item?id=35998359))
+- [FlyDB](https://github.com/qishenonly/flydb) - High-performance kv storage engine based on bitcask paper supports redis protocol and the corresponding data structure.
+- [Weaviate](https://weaviate.io/) - Vector database.
+- [ReductStore](https://github.com/reductstore/reductstore) - Time series database for storing and managing large amounts of blob data.
+- [Supabase Vector](https://supabase.com/vector) - Open source vector toolkit for Postgres.
+- [Yotta Store](https://github.com/yottaStore/yottaStore) - Next generation storage system aiming to scale out to the yotta byte range and scale up to millions of concurrent read and writes per record. ([Rust bindings](https://github.com/yottaStore/rust))
+
+## Tools
+
+- [TablePlus](https://tableplus.com/) - Modern, native, and friendly GUI tool for relational databases. ([HN](https://news.ycombinator.com/item?id=22908224)) ([Issues](https://github.com/TablePlus/TablePlus))
+- [SQLiteStudio](https://github.com/pawelsalawa/sqlitestudio) - Free, open source, multi-platform SQLite database manager.
+- [litecli](https://github.com/dbcli/litecli) - Command-line client for SQLite databases that has auto-completion and syntax highlighting.
+- [Beekeeper Studio](https://www.beekeeperstudio.io/) - Query and manage your relational databases. ([Code](https://github.com/beekeeper-studio/beekeeper-studio))
+- [Diwata](https://github.com/ivanceras/diwata) - User-friendly database interface.
+- [Sequel Ace](https://github.com/Sequel-Ace/Sequel-Ace) - MySQL/MariaDB database management for macOS. ([Web](https://sequel-ace.com/))
+- [ExtendsClass](https://extendsclass.com/mysql-online.html) - Online MySQL playground for testing.
+- [Dropbase](https://www.dropbase.io/) - Turn offline files into live databases instantly. ([HN](https://news.ycombinator.com/item?id=24189582))
+- [Synth](https://getsynth.com/) - Create synthetic data environments in seconds. ([HN](https://news.ycombinator.com/item?id=24198114))
+- [Baserow](https://gitlab.com/bramw/baserow) - Open source online database tool and Airtable alternative.
+- [SHMIG](https://github.com/mbucc/shmig) - Database migration tool written in BASH.
+- [goose](https://github.com/pressly/goose) - Database migration tool. Manage your database schema by creating incremental SQL changes or Go functions.
+- [migrate](https://github.com/golang-migrate/migrate) - Database migrations written in Go. Use as CLI or import as library.
+- [Flyway](https://flywaydb.org/) - Database Migrations Made Easy. ([Tweet](https://twitter.com/felixge/status/1333478995678130177)) ([Code](https://github.com/flyway/flyway))
+- [Liquibase](https://www.liquibase.org/) - Open Source Version Control for Your Database.
+- [gh-ost](https://github.com/github/gh-ost) - GitHub's Online Schema Migrations for MySQL.
+- [Dbmate](https://github.com/amacneil/dbmate) - Lightweight, framework-agnostic database migration tool.
+- [ShardingSphere](https://github.com/apache/shardingsphere) - Distributed Database Middleware Ecosphere. ([Web](https://shardingsphere.apache.org/))
+- [ln2sql](https://github.com/FerreroJeremy/ln2sql) - NLP tool to query a database in natural language.
+- [Hue](https://gethue.com/) - Open source SQL Assistant for Data Warehouses. ([Code](https://github.com/cloudera/hue))
+- [ley](https://github.com/lukeed/ley) - Driver-agnostic database migrations.
+- [DBeaver](https://dbeaver.io/) - Free Universal Database Tool. ([Code](https://github.com/dbeaver/dbeaver))
+- [Skeema](https://github.com/skeema/skeema) - Schema management CLI for MySQL.
+- [noisepage-test](https://github.com/cmu-db/noisepage-stats) - DBMS Performance & Correctness Testing Framework.
+- [erd](https://github.com/BurntSushi/erd) - Translates a plain text description of a relational database schema to a graphical entity-relationship diagram.
+- [CloudBeaver](https://cloudbeaver.io/) - Database Management from Browser. ([Code](https://github.com/dbeaver/cloudbeaver))
+- [DbGate](https://dbgate.org/) - Database manager for MySQL, PostgreSQL, SQL Server and MongoDB. ([Code](https://github.com/dbgate/dbgate))
+- [Condenser](https://github.com/TonicAI/condenser) - Database subsetting tool.
+- [NocoDB](https://www.nocodb.com/) - Turns your SQL database into a Nocode platform. Free & Open Source. ([Code](https://github.com/nocodb/nocodb)) ([HN](https://news.ycombinator.com/item?id=27303783)) ([HN](https://news.ycombinator.com/item?id=33078798))
+- [Owoof](https://github.com/sqwishy/owoof) - Program for querying and modifying information in a datalog-like format backed by SQLite.
+- [Autogenerate a CRUD app from a CSV file](https://retool.com/utilities/generate-app-from-csv) ([HN](https://news.ycombinator.com/item?id=27754034))
+- [Gobang](https://github.com/TaKO8Ki/gobang) – Cross-platform TUI database management tool written in Rust. ([HN](https://news.ycombinator.com/item?id=28489165))
+- [Jailer](https://github.com/Wisser/Jailer) - Truly relational database client. ([HN](https://news.ycombinator.com/item?id=27808653))
+- [dbcritic](https://github.com/channable/dbcritic) - Finds problems in a database schema.
+- [IceCream](https://github.com/caiyue1993/IceCream) - Sync Realm Database with CloudKit.
+- [Kinto](https://github.com/Kinto/kinto) - Minimalist JSON storage service with synchronisation and sharing abilities. ([Docs](https://docs.kinto-storage.org/en/stable/))
+- [SchemaCrawler](https://github.com/schemacrawler/SchemaCrawler) - Free database schema discovery and comprehension tool. ([Web](https://www.schemacrawler.com/))
+- [dbmigrate](https://github.com/Keats/dbmigrate) - PostgreSQL/SQLite/MySQL migration tool in rust.
+- [Qsh](https://github.com/muhmud/qsh) - Improved database querying from your terminal. ([HN](https://news.ycombinator.com/item?id=28550874))
+- [trona](https://github.com/igorkamyshev/trona) - Write DB migrations with SQL and run them with a CLI.
+- [Azimutt](https://azimutt.app/) - Entity Relationship diagram (ERD) visualization tool, with various filters and inputs to help understand your SQL schema. ([Code](https://github.com/azimuttapp/azimutt))
+- [Models](https://github.com/tvallotton/models) - Tool for automated migrations for PostgreSQL, SQLite and MySQL.
+- [Atlas](https://atlasgo.io/) - Set of tools designed to help companies better work with their data. It includes several components that can be used individually but are designed to work very well together. ([Code](https://github.com/ariga/atlas)) ([HN](https://news.ycombinator.com/item?id=30256256))
+- [replikativ](https://github.com/replikativ/replikativ) - Open, scalable and distributive infrastructure for a data-driven community of applications. ([Web](https://replikativ.io/)) ([Unified storage IO](https://whilo.github.io/articles/16/unified-storage-io))
+- [Bytebase](https://github.com/bytebase/bytebase) - Web-based, zero-config, dependency-free database schema change and version control management tool for developers and DBAs. ([Web](https://bytebase.com/))
+- [Sequelize-Auto](https://github.com/sequelize/sequelize-auto) - Automatically generate models for SequelizeJS via the command line.
+- [DrawSQL](https://drawsql.app/) - Database schema diagrams.
+- [SQLize](https://github.com/sunary/sqlize) - Generate MySQL/PostgreSQL Migration from Go struct and existing SQL.
+- [OmniDB](https://omnidb.org/) - Web tool for database management. ([Code](https://github.com/OmniDB/OmniDB))
+- [Maxwell's Daemon](http://maxwells-daemon.io/) - Application that reads MySQL binlogs and writes row updates as JSON to Kafka, Kinesis, or other streaming platforms. ([Code](https://github.com/zendesk/maxwell))
+- [MaxScale](https://github.com/mariadb-corporation/MaxScale) - Intelligent database proxy. ([Docs](https://github.com/mariadb-corporation/MaxScale/wiki))
+- [Couchbase](https://www.couchbase.com/) - Modern Database for Enterprise Applications.
+- [Couchbase Mobile](https://www.couchbase.com/products/mobile) - SQLite Alternative. ([C++ Client](https://github.com/couchbase/couchbase-lite-core))
+- [Morph](https://github.com/mattermost/morph) - Database migration tool that helps you to apply your migrations. Written with Go.
+- [loadgen](https://github.com/crazycs520/loadgen) - Generate database load.
+- [Sqitch](https://github.com/sqitchers/sqitch) - Database change management application.
+- [Antares SQL](https://antares-sql.app/) - Modern, fast and productivity driven SQL client with a focus in UX. ([Code](https://github.com/antares-sql/antares))
+- [Jugglr](https://github.com/oslabs-beta/Jugglr) - Test data management tool that enables reliable testing with a Docker containerized database.
+- [data-diff](https://github.com/datafold/data-diff) - Efficiently diff rows across two different databases.
+- [Malewicz](https://github.com/mgramin/malewicz) - Hackable GUI SQL-manager written in SQL itself.
+- [Go Database Code Generator](https://github.com/telkomdev/go-dbcodegen) - Tool is to help you generate schema migrations and CRUD code in Go from an entity definition in form of JSON.
+- [FeatureBase](https://github.com/FeatureBaseDB/featurebase) - Real-time analytical database built on bitmaps. ([HN](https://news.ycombinator.com/item?id=32835900))
+
+## Notes
+
+- [Database queries are especially fast if you copy the database into RAM.](https://twitter.com/raymondh/status/1380240448606756865)
+- [More than likely images/videos are stored in something like AWS S3 and the database would just have links to them. It is possible to store an image straight up in a database though but it would be as a blob/buffer data that is then turned back into an image on the client. The blob/base64 string way can be slower/probably not recommended. For fast load/performance they'd use caching/cdn.](https://www.reddit.com/r/AskProgramming/comments/moj0rb/how_do_websites_store_videos_and_images_can_this/)
+- [It's good to start any app design with database schema and mock the UI to connect them.](https://lobste.rs/s/dgb7xh/i_always_design_database_schema_first)
+
+## Links
+
+- [Stanford DB course](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)
+- [Algebraic Query Language](http://categoricaldata.net/aql.html) - Schemas as categories, DB instances as functors, provable data migration as functor composition.
+- [David Nolen: Out of the Tarpit, Revisited (2017)](https://www.youtube.com/watch?v=7y1phdZkLw4)
+- [syncing-thesis](https://github.com/mirkokiefer/syncing-thesis) - Syncing strategies for mobile apps.
+- [Storage Performance Development Kit](https://spdk.io/) - Provides a set of tools and libraries for writing high performance, scalable, user-mode storage applications.
+- [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/) - Writing a sqlite clone from scratch in C. ([Code](https://github.com/cstack/db_tutorial)) ([In Rust](https://github.com/guimingyue/db_tutorial_rust))
+- [Readings in Databases](https://github.com/rxin/db-readings) - List of papers essential to understanding databases and building new data systems.
+- [Turning the database inside-out with Apache Samza (2015)](https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/)
+- [Designing Data Intensive Applications Book](https://dataintensive.net/) - Deep dives into different types of data storage solutions, their history, and how they actually work. ([Review](https://henrikwarne.com/2019/07/27/book-review-designing-data-intensive-applications/)) ([Notes](https://twitter.com/GergelyOrosz/status/1328011263172087809)) ([Literature References](https://github.com/ept/ddia-references)) ([Review](https://tech.marksblogg.com/designing-data-intensive-applications-review.html)) ([Notes](https://github.com/ResidentMario/designing-data-intensive-applications-notes))
+- [Scalable SQL and NoSQL Data Stores](http://www.cattell.net/datastores/Datastores.pdf) - Good paper that helps differentiate similar but different datastores. Really helpful when you're trying to pick a modern data solution.
+- ["Transactions: myths, surprises and opportunities" by Martin Kleppmann (2015)](https://www.youtube.com/watch?v=5ZjhNTM8XU8)
+- [Using Apache Arrow, Calcite and Parquet to build a Relational Cache (2017)](https://www.youtube.com/watch?v=KMl9Py8o3pk)
+- [Apache Arrow](https://github.com/apache/arrow) - Development platform for in-memory analytics. It contains a set of technologies that enable big data systems to process and move data fast. ([Web](https://arrow.apache.org/)) ([HN](https://news.ycombinator.com/item?id=23965209)) ([Awesome](https://github.com/thisisnic/awesome-arrow-r))
+- [Blazer](https://github.com/ankane/blazer) - Explore your data with SQL. Easily create charts and dashboards, and share them with your team.
+- [Moving on from RocksDB to something FASTER - Matthew Brookes (2019)](https://www.youtube.com/watch?v=xWNbbkQMtfI)
+- [List of software that turns your database into a REST/GraphQL API](https://github.com/dbohdan/automatic-api)
+- [What Are Databases? (2019)](https://www.prisma.io/blog/introduction-to-databases-jmt9jwidtc2a)
+- [Advanced Database Systems (2019)](https://www.youtube.com/playlist?list=PLSE8ODhjZXja7K1hjZ01UTVDnGQdx5v5U) ([Other courses](https://www.youtube.com/channel/UCHnBsf2rH-K7pn09rb3qvkA/playlists)) ([Web](https://15445.courses.cs.cmu.edu/fall2019/)) ([Code](https://github.com/cmu-db/bustub))
+- [Facebook Scuba, MongoDB, CockroachDB (CMU Databases Systems lecture) (2019)](https://www.youtube.com/watch?v=XB53N2eIAig)
+- [DB](https://github.com/infostreams/db) - Version control for databases: save, restore, and archive snapshots of your database from the command line. ([HN](https://news.ycombinator.com/item?id=21742222))
+- [Why databases use ordered indexes but programming uses hash tables (2019)](https://www.evanjones.ca/ordered-vs-unordered-indexes.html)
+- [Samuel Madden professor research page](http://db.csail.mit.edu/madden/)
+- [Curated list of resources for graph databases and graph computing tools](https://github.com/jbmusso/awesome-graph)
+- [Graph Databases book](https://pdfs.semanticscholar.org/f511/7084ca43e888fb3e17ab0f0e684cced0f8fd.pdf)
+- [Big News In Databases — Fall 2019](https://winand.at/newsletter/2019-12/partiql-microsoft-licenses-volcano-model)
+- [Ask HN: What are some examples of good database schema designs? (2020)](https://news.ycombinator.com/item?id=22324691)
+- [Data flows and security architecture in CockroachDB (2020)](https://dr-knz.net/data-flows-and-security-architecture-in-cockroachdb.html)
+- [Awesome Database Learning](https://github.com/pingcap/awesome-database-learning) - List of learning materials to understand databases internals.
+- [Sharing an SQLite database across containers is surprisingly brilliant (2020)](https://medium.com/@rbranson/sharing-sqlite-databases-across-containers-is-surprisingly-brilliant-bacb8d753054)
+- [Your Database as an API (2020)](http://kevinmahoney.co.uk/articles/your-database-as-an-api/) ([Lobsters](https://lobste.rs/s/nbyzgm/your_database_as_api))
+- [Elle](https://github.com/jepsen-io/elle) - Black-box transactional safety checker based on cycle detection.
+- [Millions of Tiny Databases (2020)](https://www.youtube.com/watch?v=ZO9AxJTlgsU) ([Article](http://brooker.co.za/blog/2020/02/17/physalia.html))
+- [The Next 50 Years of Databases (2015)](http://www.cs.cmu.edu/~pavlo/blog/2015/09/the-next-50-years-of-databases.html) ([HN](https://news.ycombinator.com/item?id=21508210))
+- [Interview with Noria’s creator: a promising dataflow research database implemented in Rust (2019)](https://notamonadtutorial.com/interview-with-norias-creator-a-promising-dataflow-database-implemented-in-rust-352e2c3d9d95)
+- [The High Cost of Splitting Related Data (2020)](http://kevinmahoney.co.uk/articles/the-high-cost-of-splitting-related-data/)
+- [Awesome Database Tools](https://github.com/mgramin/awesome-db-tools)
+- [Storage: Complete Overview for Developers (2020)](https://developer.sh/posts/storage-technologies-for-developers)
+- [Event-Reduce](https://github.com/pubkey/event-reduce) - Algorithm to optimize database queries that run multiple times. ([HN](https://news.ycombinator.com/item?id=22888239))
+- [Apache Druid vs. Time-Series Databases (2019)](https://imply.io/post/apache-druid-vs-time-series-databases) ([HN](https://news.ycombinator.com/item?id=22868286))
+- [Lopez: Breaking boundaries between programming languages and databases (2019)](https://tel.archives-ouvertes.fr/tel-02309327/document)
+- [Declarative Frameworks and Optimization Techniques for Developing Scalable Advanced Analytics over Databases and Data Streams (2019)](https://escholarship.org/content/qt9qb0c0zx/qt9qb0c0zx.pdf)
+- [Things I Wished More Developers Knew About Databases (2020)](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78) ([HN](https://news.ycombinator.com/item?id=22942278))
+- [toyDB](https://github.com/erikgrinaker/toydb) - Distributed SQL database in Rust, written as a learning project.
+- [Gallery of 200 database schema diagrams of open-source packages](https://drawsql.app/templates) ([HN](https://news.ycombinator.com/item?id=23006159))
+- [MySQL sharding at Quora](https://www.quora.com/q/quoraengineering/MySQL-sharding-at-Quora?share=1) ([HN](https://news.ycombinator.com/item?id=22987242))
+- [Database Internals book](https://www.databass.dev/) - Deep Dive Into How Distributed Data Systems Work.
+- [Fast and maintainable patterns for fetching from a database (2020)](https://sophiebits.com/2020/01/01/fast-maintainable-db-patterns.html)
+- [DbCleaner](https://github.com/khaiql/dbcleaner) - Clean database for testing, inspired by database_cleaner for Ruby.
+- [polluter](https://github.com/romanyx/polluter) - Easiest solution to seed database with Go.
+- [In Search of a Local-First Database (2020)](https://jaredforsyth.com/posts/in-search-of-a-local-first-database/)
+- [Local-first database: remoteStorage.js (2020)](https://jaredforsyth.com/posts/local-first-database-remotestorage/)
+- [Jon Gjengset's PhD thesis](https://github.com/jonhoo/thesis)
+- [Succinct Data Structures and Delta Encoding for Modern Databases (2020)](https://terminusdb.com/t/papers/terminusdb-git.pdf)
+- [About Pool Sizing](https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing)
+- [I want to own the database that my apps use (2020)](https://orndorffgrant.com/own-your-data-idea/) ([Lobsters](https://lobste.rs/s/dyeuqm/i_want_own_database_my_apps_use))
+- [Hermitage: Testing transaction isolation levels](https://github.com/ept/hermitage)
+- [Amazon's Dynamo (2007)](https://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
+- [The Curious Case of Small Files (2020)](https://developer.sh/posts/curious-case-of-small-files) ([Lobsters](https://lobste.rs/s/b3mmo4/curious_case_small_files))
+- [MiniCouchDB in Rust (2020)](https://www.garrensmith.com/blogs/mini-couch-hack-week) ([HN](https://news.ycombinator.com/item?id=23446852)) ([Lobsters](https://lobste.rs/s/waj4zf/minicouchdb_rust))
+- [Accessing SQLite, PostgreSQL and MySQL through ODBC](https://relational-pipes.globalcode.info/v_0/examples-tr-sql-odbc.xhtml)
+- [17 Things Developers Need to Know About Databases - Peter Zaitsev (2020)](https://www.youtube.com/watch?v=HOho4HyKqTE)
+- [Readings in Database Systems](http://www.redbook.io/) ([HN](https://news.ycombinator.com/item?id=23514686))
+- [Stanford Future Data Systems Research Group](http://futuredata.stanford.edu/)
+- [Stanford Data Management and Data Systems (2017)](https://cs145-fa19.github.io/)
+- [Concept-oriented model: Modeling and processing data using functions (2019)](https://www.researchgate.net/publication/337336089_Concept-oriented_model_Modeling_and_processing_data_using_functions) ([Summary](https://news.ycombinator.com/item?id=23516526))
+- [DBCore](https://www.dbcore.org/) - Generate applications powered by your database. ([Lobsters](https://lobste.rs/s/qqhiiq/generate_go_rest_api_from_postgresql)) ([Code](https://github.com/eatonphil/dbcore)) ([Article](https://notes.eatonphil.com/generating-a-full-stack-application-from-a-database.html)) ([HN](https://news.ycombinator.com/item?id=29154461))
+- [Recent database technology that should be on your radar (2020)](https://lucperkins.dev/blog/new-db-tech-1/) ([HN](https://news.ycombinator.com/item?id=23531825))
+- [DB Weekly](https://dbweekly.com/) - Weekly round-up of database technology news and articles covering new developments, SQL, NoSQL, document databases, graph databases, and more.
+- [Making Databases Work: The Pragmatic Wisdom of Michael Stonebraker (2018)](https://dl.acm.org/doi/book/10.1145/3226595) ([HN](https://news.ycombinator.com/item?id=23531649))
+- [SOSD: A Benchmark for Learned Indexes](https://learned.systems/papers/sosd.pdf) ([Code](https://github.com/learnedsystems/SOSD))
+- [RMI](https://github.com/learnedsystems/RMI) - Recursive model index, a learned index structure. ([Go implementation](https://github.com/BenJoyenConseil/rmi))
+- [SchemaHero](https://github.com/schemahero/schemahero) - Kubernetes operator for declarative database schema management. ([Web](https://schemahero.io/))
+- [TablaM](https://github.com/Tablam/TablaM) - Practical general language but tailored for data-manipulation and database (in the broad sense of the word) coding. ([Comment](https://news.ycombinator.com/item?id=23741945))
+- [What are databases? (2020)](https://dataguide.prisma.io/intro/what-are-databases)
+- [The myth of “joins don't scale” (2020)](https://blog.dbi-services.com/the-myth-of-nosql-vs-rdbms-joins-dont-scale/) ([HN](https://news.ycombinator.com/item?id=23773889))
+- [Your database is a distributed system (2015)](https://www.futurelearn.com/info/blog/your-database-is-a-distributed-system)
+- [Sieuferd](http://people.csail.mit.edu/ebakke/sieuferd/) - General-purpose user interface for relational databases.
+- [Unofficial Guide to Datomic Internals (2014)](https://tonsky.me/blog/unofficial-guide-to-datomic-internals/) ([HN](https://news.ycombinator.com/item?id=23926497))
+- [Lobsters: Does anyone use advanced database access control anymore?](https://lobste.rs/s/x4luho/does_anyone_use_advanced_database_access)
+- [Introduction to database schemas](https://dataguide.prisma.io/intro/intro-to-schemas)
+- [BaseDash](https://www.basedash.io/) - Build internal tools for your database. ([HN](https://news.ycombinator.com/item?id=23999124))
+- [Databases, Types, and the Relational Model: The Third Manifesto](http://thethirdmanifesto.com/) - Rigorously define a type-safe (and NULL-safe) data model and query language based on the relational algebra. ([PDF](https://www.dcs.warwick.ac.uk/~hugh/TTM/DTATRM.pdf)) ([HN](https://news.ycombinator.com/item?id=28745033))
+- [When are full database backups faster than incremental backups? (2020)](https://tech.davis-hansson.com/p/incremental-backup/)
+- [Testing Database Engines via Pivoted Query Synthesis (2020)](https://arxiv.org/abs/2001.04174) ([Tweet](https://twitter.com/electron0zero/status/1295446187084877824))
+- [Splitgraph](https://www.splitgraph.com/) - Integrated data catalog and database proxy. ([Code](https://github.com/splitgraph/splitgraph)) ([Splitgraph Data Delivery Network](https://www.splitgraph.com/blog/data-delivery-network-launch)) ([HN](https://news.ycombinator.com/item?id=24233948))
+  )
+- [Database backup strategies (2019)](https://blog.kalbhor.xyz/post/database-backup-strategies/)
+- [Monarch: Google’s Planet-Scale In-Memory Time Series Database](http://www.vldb.org/pvldb/vol13/p3181-adams.pdf) ([HN](https://news.ycombinator.com/item?id=24303422)) ([Notes](https://twitter.com/copyconstruct/status/1299949569057333249))
+- [The database I wish I had (2020)](https://euandre.org/2020/08/31/the-database-i-wish-i-had.html) ([HN](https://news.ycombinator.com/item?id=24337244)) ([Lobsters](https://lobste.rs/s/m9vkg4/database_i_wish_i_had))
+- [Advanced Database Systems course by Andy Pavlo (2020)](https://15721.courses.cs.cmu.edu/spring2020/schedule.html) ([Talks](https://www.youtube.com/playlist?list=PLSE8ODhjZXjasmrEd2_Yi1deeE360zv5O))
+- [sled simulation guide](https://sled.rs/simulation) - Contains basic information about deterministic testing of distributed, message-based, event-driven, or actor systems.
+- [Database of Databases](https://dbdb.io/) - Discover and learn about database management systems. ([Code](https://github.com/cmu-db/dbdb.io))
+- [DB-Engines](https://db-engines.com/en/) - Knowledge Base of Relational and NoSQL Database Management Systems.
+- [Old, Good Database Design (2020)](https://relinx.io/2020/09/14/old-good-database-design/)
+- [Berkeley: Introduction to Database Systems Course](https://cs186berkeley.net/) ([Tweet](https://twitter.com/andy_pavlo/status/1456630080977969153))
+- [The Datacenter as a Computer](http://bnrg.eecs.berkeley.edu/~randy/Courses/CS294.F09/wharehousesizedcomputers.pdf) - Introduction to the Design of Warehouse-Scale Machines.
+- [Database migrations lessons learned (2020)](https://octopus.com/blog/database-migrations-lessons-learned)
+- [Delos: Simple, flexible control plane storage (2019)](https://engineering.fb.com/data-center-engineering/delos/)
+- [Time for a WTF MySQL Moment (2020)](https://gbl08ma.com/time-for-a-wtf-mysql-moment/) ([HN](https://news.ycombinator.com/item?id=24698660)) ([Lobsters](https://lobste.rs/s/ktg3dd/time_for_wtf_mysql_moment))
+- [The Database is on Fire (2020)](http://acko.net/blog/the-database-is-on-fire/) ([Lobsters](https://lobste.rs/s/mpprag/database_is_on_fire))
+- [Alphora-Style Database Diagramming (2020)](http://blog.mckaysalisbury.com/2020/03/alphora-style-database-diagramming.html) ([Lobsters](https://lobste.rs/s/mjxien/alphora_style_database_diagramming))
+- [Things every developer needs to know about database indexing - Kai Sassnowski (2020)](https://www.youtube.com/watch?v=HubezKbFL7E)
+- [Fizz](https://github.com/gobuffalo/fizz) - Common DSL for Migrating Databases.
+- [SQL vs NoSQL | MySQL vs MongoDB | Relational Databases vs DynamoDB, CosmosDB | When to use each (2020)](https://www.youtube.com/watch?v=hlkLL1R4KCI)
+- [Neural Databases (2020)](https://arxiv.org/abs/2010.06973) ([HN](https://news.ycombinator.com/item?id=24805898))
+- [Movine](https://github.com/byronwasti/movine) - Migration manager written in Rust that attempts to be smart yet minimal.
+- [We deleted the production database by accident (2020)](https://keepthescore.co/blog/posts/deleting_the_production_database/) ([HN](https://news.ycombinator.com/item?id=24813795)) ([Lobsters](https://lobste.rs/s/awtxlo/we_deleted_production_database_by))
+- [Cuckoo Index](https://github.com/google/cuckoo-index) - Lightweight Secondary Index Structure.
+- [DBML](https://www.dbml.org/home/) - Database Markup Language. ([Code](https://github.com/holistics/dbml))
+- [MindsDB](https://www.mindsdb.com/) - Open-Source Predictive AI layer for existing databases. ([Docs](https://docs.mindsdb.com/)) ([Docs code](https://github.com/mindsdb/mindsdb-docs)) ([Code](https://github.com/mindsdb/mindsdb)) ([Using QuestDB as a datasource for MindsDB](https://github.com/questdb/mindsdb-tutorial))
+- [Migrating Data When You Never Erase History (2020)](https://jorin.me/migrating-data-when-you-never-erase-history/)
+- [Thesis: Partial State in Dataflow-Based Materialized Views (2020)](https://www.youtube.com/watch?v=GctxvSPIfr8)
+- [Universal Relation Data Modelling Considered Harmful (2020)](https://www.enterprisedb.com/blog/universal-relation-data-modelling-considered-harmful) ([Lobsters](https://lobste.rs/s/xaozez/thesis_partial_state_dataflow_based))
+- [Helios: Hyperscale Indexing for the Cloud and Edge (2020)](http://www.vldb.org/pvldb/vol13/p3231-potharaju.pdf)
+- [The World’s Best In-Memory Database (2020)](https://matt.sh/best-database-ever)
+- [Anonymized Cache Request Traces from Twitter Production](https://github.com/twitter/cache-trace) - Describes the traces from Twitter's in-memory caching (Twemcache/Pelikan) clusters.
+- [Advanced Join Patterns for the Actor Model Based on CEP Techniques (2020)](https://programming-journal.org/2021/5/10/) ([HN](https://news.ycombinator.com/item?id=25014513))
+- [Testing Database Engines via Pivoted Query Synthesis (2020)](https://www.usenix.org/system/files/osdi20-rigger.pdf) ([HN](https://news.ycombinator.com/item?id=25092203))
+- [If All You Have Is a Database, Everything Looks Like a Nail (2020)](https://pathelland.substack.com/p/if-all-you-have-is-a-database-everything) ([HN](https://news.ycombinator.com/item?id=25330223))
+- [In-Database Machine Learning (2020)](https://btw.informatik.uni-rostock.de/download/tagungsband/B6-1.pdf) ([HN](https://news.ycombinator.com/item?id=25285983))
+- [Feature Casualties of Large Databases (2020)](https://brandur.org/large-database-casualties) ([Lobsters](https://lobste.rs/s/regno1/feature_casualties_large_databases))
+- [Seeing is Believing: A Client-Centric Specification of Database Isolation](http://www.cs.cornell.edu/lorenzo/papers/Crooks17Seeing.pdf)
+- [Scaling Datastores at Slack with Vitess (2020)](https://slack.engineering/scaling-datastores-at-slack-with-vitess/)
+- [dbdocs](https://dbdocs.io/) - Database Documentation and Catalog Tool.
+- [Fast database UPDATE/DELETE operations (2020)](https://www.spinellis.gr/blog/20201210/)
+- [Building an Event Storage](https://cqrs.wordpress.com/documents/building-event-storage/)
+- [Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics (2020)](http://cidrdb.org/cidr2021/papers/cidr2021_paper17.pdf)
+- [clepsydra](https://github.com/graydon/clepsydra) - Implementation of a core protocol for a minimalist distributed database.
+- [A shared database is still an anti-pattern, no matter what the justification (2013)](https://www.ben-morris.com/a-shared-database-is-still-an-anti-pattern-no-matter-what-the-justification/) ([Tweet](https://twitter.com/ColinLeMahieu/status/1344293170159505408))
+- [Your legacy database is outgrowing itself (2021)](https://ikonicscale.com/your-legacy-database-is-outgrowing-itself) ([HN](https://news.ycombinator.com/item?id=25730778))
+- [An unlikely database migration (2021)](https://tailscale.com/blog/an-unlikely-database-migration/) ([HN](https://news.ycombinator.com/item?id=25767128))
+- [Kalavar](https://kalavar.cf/) - Project attempting to bring a fast, efficient, secure, and asynchronous query model to the modern database system. ([GitHub](https://github.com/KalavarDB))
+- [But how, exactly, databases use mmap? (2021)](https://brunocalza.me/but-how-exactly-databases-use-mmap/) ([Lobsters](https://lobste.rs/s/9ukket/how_exactly_databases_use_mmap))
+- [Building a personal data warehouse in Snowflake for fun and no profit (2021)](https://www.thomasdziedzic0.com/blog/building-a-personal-data-warehouse-in-snowflake-for-fun-and-no-profit) ([HN](https://news.ycombinator.com/item?id=25978000))
+- [ProxySQL](https://github.com/sysown/proxysql) - High performance, high availability, protocol aware proxy for MySQL and forks (like Percona Server and MariaDB).
+- [Implementing Data Replication in MemgraphDB (2021)](https://memgraph.com/blog/implementing-data-replication)
+- [How Buffer Pool Works: An Implementation In Go (2021)](https://brunocalza.me/how-buffer-pool-works-an-implementation-in-go/) - Exploring how buffer pool management works in databases by building one.
+- [Database as a Queue (2021)](https://blog.koehntopp.info/2021/01/20/database-as-a-queue.html) ([Lobsters](https://lobste.rs/s/ukhpmn/database_as_queue))
+- [The Database Inside Your Codebase (2021)](https://feifan.blog/posts/the-database-inside-your-codebase) ([Lobsters](https://lobste.rs/s/5isuqt/database_inside_your_codebase)) ([HN](https://news.ycombinator.com/item?id=26160186))
+- [DBCLI](https://www.dbcli.com/) - Commandline Database Clients with Autocompletion and Syntax Highlighting. ([HN](https://news.ycombinator.com/item?id=26182902))
+- [Evolving Schemaless into a Distributed SQL Database (2021)](https://eng.uber.com/schemaless-sql-database/)
+- [Turning the database inside out with Apache Samza by Martin Kleppmann (2014)](https://www.youtube.com/watch?v=fU9hR3kiOK0)
+- [Database Reliability Engineering Book (2017)](https://www.oreilly.com/library/view/database-reliability-engineering/9781491925935/)
+- [Are graph databases worth using in 2020?](https://www.reddit.com/r/Database/comments/jlfugt/are_graph_databases_worth_using_in_2020/)
+- [Grouparoo](https://www.grouparoo.com/) - Open Source Data Synchronization Framework. ([Code](https://github.com/grouparoo/grouparoo)) ([HN](https://news.ycombinator.com/item?id=26276917))
+- [How to Efficiently Choose the Right Database for Your Applications (2021)](https://pingcap.com/blog/how-to-efficiently-choose-the-right-database-for-your-applications) ([HN](https://news.ycombinator.com/item?id=26290252))
+- [MySQL from Below (2021)](https://blog.koehntopp.info/2021/02/25/mysql-from-below.html)
+- [Database Normalization in plain language for the working dev (with examples) (2021)](https://www.gatlin.io/guides/database-normalization)
+- [Array Databases: Concepts, Standards, Implementations](https://rd-alliance.org/system/files/Array-Databases_final-report.pdf) ([HN](https://news.ycombinator.com/item?id=26462602))
+- [Ask HN: Best low-/no-code solution for simple web-based database front ends (2021)](https://news.ycombinator.com/item?id=26657803)
+- [We ditched MySQL and made our dashboard really fast. Here is how we did it. (2021)](https://usefathom.com/blog/worlds-fastest-analytics) ([Tweet](https://twitter.com/JackEllis/status/1418319849487536130))
+- [Databunker](https://databunker.org/) - Secure storage for personal records built to comply with GDPR. ([Code](https://github.com/securitybunker/databunker)) ([HN](https://news.ycombinator.com/item?id=26690279))
+- [Database options (2021)](https://twitter.com/ryanflorence/status/1379285868611915780)
+- [Database Deep Dives with Andy Pavlo (2021)](https://www.ibm.com/cloud/blog/database-deep-dives-with-andy-pavlo)
+- [Graphs with Spidey DB (2021)](https://kubej.com/graphs-with-spidey-db/) ([HN](https://news.ycombinator.com/item?id=26753830))
+- [dbdiagram.io](https://dbdiagram.io/home) - Database Relationship Diagrams Design Tool.
+- [Foundations of Databases (1995)](http://webdam.inria.fr/Alice/) - Book published by Addison Wesley. ([HN](https://news.ycombinator.com/item?id=26809253))
+- [Segcache: a memory-efficient, scalable cache for small objects with TTL (2021)](https://twitter.github.io/pelikan/2021/segcache.html)
+- [Ask HN: How would you store 10PB of data for your startup today? (2021)](https://news.ycombinator.com/item?id=26912321)
+- [Query Engines: Push vs. Pull (2021)](http://justinjaffray.com/query-engines-push-vs.-pull/)
+- [How Litestream Eliminated My Database Server for $0.03/month (2021)](https://mtlynch.io/litestream/) ([HN](https://news.ycombinator.com/item?id=27006476))
+- [“What Goes Around Comes Around”: A Brief History of Databases (2017)](https://15721.courses.cs.cmu.edu/spring2020/papers/01-intro/whatgoesaround-stonebraker.pdf) ([Summary](https://blog.grakn.ai/what-goes-around-comes-around-52d38ee1ea9e))
+- [How Discord Stores Billions of Messages (2017)](https://blog.discord.com/how-discord-stores-billions-of-messages-7fa6ec7ee4c7)
+- [Experience with using NoSQL for a startup (2021)](https://twitter.com/alexbdebrie/status/1394966974443266048)
+- [Common data model mistakes made by startups](https://www.metabase.com/learn/data-diet/analytics/data-model-mistakes.html) ([HN](https://news.ycombinator.com/item?id=27248093))
+- [Easily Build Advanced Similarity Search With The Pinecone Vector Database (2021)](https://www.dataengineeringpodcast.com/pinecone-vector-database-similarity-search-episode-189/)
+- [Minimal Modeling Blog](https://minimalmodeling.substack.com/) - Dedicated to in-depth discussion of all kinds of topics related to the database modeling.
+- [Getting Started with IndexedDB for Big Data Storage (2021)](https://blog.openreplay.com/getting-started-with-indexeddb-for-big-data-storage)
+- [The pedantic checklist for changing your data model in a web application (2021)](https://rtpg.co/2021/06/07/changes-checklist.html) ([Lobsters](https://lobste.rs/s/jcy2ap/pedantic_checklist_for_changing_your)) ([HN](https://news.ycombinator.com/item?id=27431494))
+- [Introduction to Graph Databases](https://github.com/threatgrid/asami/wiki/Introduction)
+- [Khadas](https://www.khadas.com/) - Shenzhen based hardware manufacturer.
+- [7 Database Paradigms (2020)](https://www.youtube.com/watch?v=W2Z7fbCLSTw)
+- [Ask HN: Do you self-host your database? (2021)](https://news.ycombinator.com/item?id=27671376)
+- [How databases handle 10 million devices in high-cardinality benchmarks (2021)](https://questdb.io/blog/2021/06/16/high-cardinality-time-series-data-performance/)
+- [BullFrog: Online Schema Migration, On Demand (2021)](http://www.pl-enthusiast.net/2021/06/30/bullfrog-online-schema-migration-on-demand/) ([Paper](https://www.cs.umd.edu/~mwh/papers/bullfrog-sigmod.pdf))
+- [PathQuery, Google's Graph Query Language (2021)](https://arxiv.org/abs/2106.09799) ([HN](https://news.ycombinator.com/item?id=27697191))
+- [Write a time-series database engine from scratch (2021)](https://nakabonne.dev/posts/write-tsdb-from-scratch/) ([HN](https://news.ycombinator.com/item?id=27730854))
+- [Purdue CS590: Cloud-Native Database Systems (2021)](https://www.cs.purdue.edu/homes/csjgwang/cloudb/)
+- [Scylla's Approach to Improve Performance for CPU-bound workloads (2017)](https://www.scylladb.com/2017/07/06/scyllas-approach-improve-performance-cpu-bound-workloads/)
+- [Our Airtable sync process, layer by layer (2021)](https://blog.syncinc.so/airtable-sync-process)
+- [Why are graph databases not more popular? (2021)](https://lobste.rs/s/pp5blh/why_are_graph_databases_not_more_popular)
+- [The Database Ruins All Good Ideas (2021)](http://squarism.com/2021/07/08/databases-ruin-all-good-ideas/) ([Lobsters](https://lobste.rs/s/nsrhor/database_ruins_all_good_ideas)) ([HN](https://news.ycombinator.com/item?id=27863822))
+- [Old pattern powering modern tech (2021)](https://softwarebits.substack.com/p/old-pattern-powering-modern-tech) - Or why modern storage is just a faster tape.
+- [Migrating Facebook to MySQL 8.0 (2021)](https://engineering.fb.com/2021/07/22/data-infrastructure/mysql/) ([HN](https://news.ycombinator.com/item?id=27922097))
+- [Pufferfish, please scale the site! (2021)](https://blog.noredink.com/post/657392972659310592/pufferfish-please-scale-the-site)
+- [Your connection deserves a name (2021)](https://andygrunwald.com/blog/your-connection-deserves-a-name/) - Assign a name to your RabbitMQ, redis, and PostgreSQL connection. ([Code](https://github.com/andygrunwald/your-connection-deserves-a-name))
+- [What time-weighted averages are and why you should care](https://blog.timescale.com/blog/what-time-weighted-averages-are-and-why-you-should-care/?) ([HN](https://news.ycombinator.com/item?id=27958175))
+- [Your database connection deserves a name (2021)](https://andygrunwald.com/blog/your-database-connection-deserves-a-name/) ([Lobsters](https://lobste.rs/s/cegere/your_database_connection_deserves_name))
+- [ZippyDB: Facebook's key value store (2021)](https://engineering.fb.com/2021/08/06/core-data/zippydb/)
+- [Time to Retire the CSV? (2021)](https://www.bitsondisk.com/writing/2021/retire-the-csv/) ([Lobsters](https://lobste.rs/s/t4z2w5/it_s_time_retire_csv)) ([HN](https://news.ycombinator.com/item?id=28221654))
+- [How database indexing actually works internally (2021)](https://blog.pankajtanwar.in/how-database-indexing-actually-works-internally) ([HN](https://news.ycombinator.com/item?id=28230641))
+- [Building PlanetScale with PlanetScale (2021)](https://planetscale.com/blog/building-planetscale-with-planetscale) ([HN](https://news.ycombinator.com/item?id=28223606))
+- [Database internals are becoming less important than developer experience (2021)](https://planetscale.com/blog/nonesql-all-the-devex) ([HN](https://news.ycombinator.com/item?id=28330297))
+- [Fastest table sort in the West – Redesigning DuckDB's sort (2021)](https://duckdb.org/2021/08/27/external-sorting.html) ([HN](https://news.ycombinator.com/item?id=28328657))
+- [Apache Iceberg](https://iceberg.apache.org/) - Table format for storing large, slow-moving tabular data. ([Code](https://github.com/apache/iceberg))
+- [TiDB Development Guide](https://pingcap.github.io/tidb-dev-guide/) ([Code](https://github.com/pingcap/tidb-dev-guide))
+- [Catabase: a database of categories](https://nforum.ncatlab.org/discussion/13419/catabase-a-database-of-categories/)
+- [Ask HN: What could a modern database do that PostgreSQL and MySQL can't (2021)](https://news.ycombinator.com/item?id=28425379)
+- [unstorage](https://github.com/unjs/unstorage) - Universal Storage Layer.
+- [Procella: Unifying serving and analytical data at YouTube (2019)](https://research.google/pubs/pub48388/) ([Summary](https://tech.marksblogg.com/youtube-database-procella.html))
+- [Choosing a database model for a hierarchical content (2021)](https://www.aleksandra.codes/comments-db-model)
+- [Real world database latency (2021)](https://fauna.com/blog/real-world-database-latency) ([HN](https://news.ycombinator.com/item?id=28594664))
+- [Best JS/TS library to use for subscribing to DB changes (2021)](https://twitter.com/flybayer/status/1440331756729634824)
+- [Notes on Database Normalization](https://www.davebernhard.com/blog/database-normalization-notes)
+- [Partitioning GitHub’s relational databases to handle scale (2021)](https://github.blog/2021-09-27-partitioning-githubs-relational-databases-scale/) ([HN](https://news.ycombinator.com/item?id=28678647))
+- [Cloudflare R2 Storage: Rapid and Reliable Object Storage, minus the egress fees (2021)](https://blog.cloudflare.com/introducing-r2-object-storage/) ([HN](https://news.ycombinator.com/item?id=28682237)) ([Pricing Analysis](https://twitter.com/QuinnyPig/status/1443028078196711426)) ([Tweet](https://twitter.com/threepointone/status/1443123297319899141)) ([HN](https://news.ycombinator.com/item?id=28702997))
+- [Will Cloudflare R2 Win Customers from Amazon S3? (2021)](https://www.taloflow.ai/blog/will-cloudflare-r2-win-customers-from-amazon-s3) ([HN](https://news.ycombinator.com/item?id=28774782))
+- [The Reactive Monolith – How to Move from CRUD to Event Sourcing (2021)](https://www.wix.engineering/post/the-reactive-monolith-how-to-move-from-crud-to-event-sourcing) ([HN](https://news.ycombinator.com/item?id=28691728))
+- [Ask HN: Why are relational DBs are the standard instead of graph-based DBs? (2021)](https://news.ycombinator.com/item?id=28736405)
+- [Cheapest / fastest way to load Stripe data into a SQL database (2021)](https://twitter.com/Suhail/status/1441897490312138759)
+- [Pelikan](https://github.com/twitter/pelikan) - Twitter's unified cache backend. ([HN](https://news.ycombinator.com/item?id=33050004))
+- [Relational Databases Aren’t Dinosaurs, They’re Sharks (2021)](https://www.simplethread.com/relational-databases-arent-dinosaurs-theyre-sharks/)
+- [The One Crucial Difference Between Spanner and CockroachDB (2021)](https://authzed.com/blog/prevent-newenemy-cockroachdb/)
+- [TAO: Facebook’s Distributed Data Store for the Social Graph (2021)](https://www.micahlerner.com/2021/10/13/tao-facebooks-distributed-data-store-for-the-social-graph.html) ([HN](https://news.ycombinator.com/item?id=29045443))
+- [Can you explain how a database index works in an interview? (2017)](https://news.ycombinator.com/item?id=14498892)
+- [How Time Series Databases Work—and Where They Don't (2021)](https://www.honeycomb.io/blog/time-series-database/) ([HN](https://news.ycombinator.com/item?id=28901063))
+- [Awesome Database Development](https://github.com/huachaohuang/awesome-dbdev)
+- [Offline-First Database Comparison](https://github.com/pubkey/client-side-databases) ([HN](https://news.ycombinator.com/item?id=28995268))
+- [How we built a serverless SQL database (2021)](https://www.cockroachlabs.com/blog/how-we-built-cockroachdb-serverless/) ([HN](https://news.ycombinator.com/item?id=29001285))
+- [A Return to the General Purpose Database (2021)](https://redmonk.com/sogrady/2021/10/26/general-purpose-database/) ([HN](https://news.ycombinator.com/item?id=29014055))
+- [Are Stored Procedures and Triggers Anti-Patterns in the Cloud Native World? (2021)](https://blog.yugabyte.com/are-stored-procedures-and-triggers-anti-patterns-in-the-cloud-native-world/)
+- [TimescaleDB vs ClickHouse (2021)](https://pradeepchhetri.xyz/clickhousevstimescaledb/) ([HN](https://news.ycombinator.com/item?id=29096541))
+- [OLAP Databases (2020)](https://pradeepchhetri.xyz/olap/)
+- [Spending $5k to learn how database indexes work (2021)](https://briananglin.me/posts/spending-5k-to-learn-how-database-indexes-work/) ([HN](https://news.ycombinator.com/item?id=29132572))
+- [A terrible schema from a clueless programmer (2021)](http://rachelbythebay.com/w/2021/11/06/sql/) ([HN](https://news.ycombinator.com/item?id=29139902)) ([Lobsters](https://lobste.rs/s/wld7fb/terrible_schema_from_clueless))
+- [How do/would you approach storing "likes"? (2021)](https://twitter.com/techgirl1908/status/1459281360498089988)
+- [The Story behind The Truth: Designing a Data Model (2018)](https://ourmachinery.com/post/the-story-behind-the-truth-designing-a-data-model/)
+- [I hate databases (2021)](https://b.amy.gg/i-hate-databases)
+- [Flags v. gates (2021)](https://brandur.org/fragments/flags-v-gates)
+- [The history of Berkeley DB (2021)](https://queue.acm.org/detail.cfm?id=3501713)
+- [Papers for database systems powered by artificial intelligence (machine learning for database)](https://github.com/LumingSun/ML4DB-paper-list)
+- [Things I learned from building a production database (2021)](https://maheshba.bitbucket.io/blog/2021/10/19/42Things.html) ([HN](https://news.ycombinator.com/item?id=29322515))
+- [LSM-Tree Key-Value Store based on RocksDB](https://github.com/adambcomer/database-engine)
+- [Build a Simple Database Tutorial](https://adambcomer.com/blog/simple-database/)
+- [Database Development Reddit](https://www.reddit.com/r/databasedevelopment/)
+- [Upgrading MySQL at Shopify (2021)](https://shopify.engineering/upgrading-mysql-shopify)
+- [DuckDB quacks Arrow: A zero-copy data integration between Apache Arrow and DuckDB (2021)](https://arrow.apache.org/blog/2021/12/03/arrow-duckdb/)
+- [Some indexing best practices (2021)](https://www.pgmustard.com/blog/indexing-best-practices-postgresql)
+- [Slashbase](https://slashbase.com/) - Open-source collaborative IDE for your databases. ([Code](https://github.com/slashbaseide/slashbase)) ([HN](https://news.ycombinator.com/item?id=33516533))
+- [Индексируем базу: как делать хорошо и не делать плохо](https://github.com/Envek/saintprubyconf-db-indexes-talk)
+- [Ask HN: How do you manage direct updates to databases in a production system (2021)](https://news.ycombinator.com/item?id=29563226)
+- [Databases in 2021: A Year in Review](https://ottertune.com/blog/2021-databases-retrospective/) ([HN](https://news.ycombinator.com/item?id=29731885))
+- [TinyKV Course](https://github.com/talent-plan/tinykv) - Course to build distributed key-value service based on TiKV model.
+- [Database Systems Resources](https://github.com/paulosman/database-systems)
+- [2021 in Database Startups: Gold Rush](https://unum.cloud/post/2021-12-31-dbms-startups/) ([HN](https://news.ycombinator.com/item?id=29749541))
+- [Databass, Part 1: Queries (2021)](https://blog.josephmorag.com/posts/databass1/)
+- [The Third Manifesto: Documents and Books on Database Design](https://www.dcs.warwick.ac.uk/~hugh/TTM/documents_and_books.html)
+- [Database System Readings](https://github.com/Sunt-ing/database-system-readings)
+- [UUIDs Are Popular, but Bad for Performance (2019)](https://www.percona.com/blog/2019/11/22/uuids-are-popular-but-bad-for-performance-lets-discuss/) ([HN](https://news.ycombinator.com/item?id=29849791))
+- [Acra](https://github.com/cossacklabs/acra) - Database security suite for sensitive and personal data protection.
+- [Are You Sure You Want to Use MMAP in Your Database Management System? (CIDR 2022)](https://db.cs.cmu.edu/mmap-cidr2022/) ([Lobsters](https://lobste.rs/s/nxymu2/are_you_sure_you_want_use_mmap_your)) ([HN](https://news.ycombinator.com/item?id=29936104))
+- [Electric Tables – an experiment in personal databases (2022)](https://tomcritchlow.com/2022/01/26/electric-tables/) ([HN](https://news.ycombinator.com/item?id=30089895))
+- [The Strength of the Record](https://docs.xtdb.com/concepts/strength-of-the-record/)
+- [Wikipedia and irregular data: how much can you fetch in one expression? (2022)](https://zverok.substack.com/p/wikipedia-and-irregular-data-how)
+- [HTSQL](https://www.htsql.org/) - Database Query Language. ([Lobsters](https://lobste.rs/s/45reoa/database_query_language_htsql))
+- [Organizational scalability and flexible database schemas (2022)](https://minimalmodeling.substack.com/p/organizational-scalability-and-flexible)
+- [What to use for caching DB requests? Redis? (2022)](https://twitter.com/JasonEtco/status/1490377350055346180)
+- [wait4it](https://github.com/ph4r5h4d/wait4it) - Simple go application to test whether a port is ready to accept a connection or check MySQL, PostgreSQL, MongoDB or Redis server is ready or not.
+- [A decade of major cache incidents at Twitter](https://danluu.com/cache-incidents/) ([HN](https://news.ycombinator.com/item?id=30295542))
+- [How to store subscriptions? A practical guide and analysis of 3 selected databases (2022)](https://medium.com/schibsted-engineering/how-to-store-subscriptions-a-practical-guide-and-analysis-of-3-selected-databases-dcfd06b747a4) ([Reddit](https://www.reddit.com/r/programming/comments/spytkb/how_to_store_subscriptions_a_practical_guide_and/))
+- [Migrate To Graph](https://github.com/microsoft/MigrateToGraph) - Tool to migrate an existing database to a graph database.
+- [Vector (approximate nearest neighbor) databases are fairly underground still](https://twitter.com/bernhardsson/status/1492656898310606849)
+- [Securely delegating trust with digital signatures and secret storage systems (2022)](https://monzo.com/blog/2022/02/15/securely-delegating-trust-with-digital-signatures-and-secret-storage-systems)
+- [StaticBackend](https://staticbackend.com/) - No vendor-lock-in backend as a service. ([Code](https://github.com/staticbackendhq/core))
+- [How much logic should I keep at the database vs. application layer? (2022)](https://lobste.rs/s/4zmaos/how_much_logic_should_i_keep_at_database_vs)
+- [Database System Concepts Book](https://www.db-book.com/)
+- [How can we do migrations better?](https://twitter.com/GergelyOrosz/status/1494600170520158214)
+- [How Query Engines Work by Andy Grove (2022)](https://leanpub.com/how-query-engines-work) - Introduction to the high-level concepts behind query engines and walks through all aspects of building a fully working SQL query engine in Kotlin. ([Code](https://github.com/andygrove/how-query-engines-work)) ([In Go](https://github.com/Fedomn/how-query-engine-work))
+- [Database as Code Manifesto](https://github.com/mgramin/database-as-code)
+- [mtail](https://github.com/google/mtail) - Extract internal monitoring data from application logs for collection in a time series database.
+- [Yao](https://yaoapps.com/en-US) - Go language-driven low-code application engine that writes JSON by Description can quickly create API interface,Data management system ,Command Line Toolsand other applications. ([Code](https://github.com/YaoApp/yao))
+- [A Gentle Introduction to Vector Databases (2021)](https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases)
+- [Exploring a database with Datasette](https://datasette.io/tutorials/explore)
+- [Have you tried rubbing a database on it?](https://www.hytradboi.com/)
+- [Building data-centric apps with a reactive relational database (2022)](https://riffle.systems/essays/prelude/) ([Tweet](https://twitter.com/nschiefer/status/1499075134715531266)) ([Tweet](https://twitter.com/geoffreylitt/status/1499083601387864069)) ([Tweet](https://twitter.com/devongovett/status/1526225850739347458))
+- [How does database indexing work?](https://stackoverflow.com/questions/1108/how-does-database-indexing-work) ([HN](https://news.ycombinator.com/item?id=30594233))
+- [Database Naming Convention](https://github.com/RootSoft/Database-Naming-Convention)
+- [RepliByte](https://github.com/Qovery/replibyte) - Tool to seed your dev database with real data. ([HN](https://news.ycombinator.com/item?id=31165538)) ([HN](https://news.ycombinator.com/item?id=32047535))
+- [Amazon Aurora: Design Considerations + On Avoiding Distributed Consensus for I/Os, Commits, and Membership Changes (2022)](https://muratbuffalo.blogspot.com/2022/03/amazon-aurora-design-considerations-and.html?m=1)
+- [SQL/NoSQL DB Guide](https://github.com/mikeroyal/SQL-NoSQL-Guide)
+- [IMDBench](https://github.com/edgedb/imdbench) - Benchmarking ORMs with realistic queries.
+- [Migrations Done Well: Typical Migration Approaches](https://blog.pragmaticengineer.com/typical-migration-approaches/)
+- [Database Meetup by SPLVM](https://github.com/Microsoft-Distributed-System-Meetup/database-meetup)
+- [Writing a document database from scratch in Go: Lucene-like filters and indexes (2022)](https://notes.eatonphil.com/documentdb.html) ([Lobsters](https://lobste.rs/s/9hwnup/writing_document_database_from_scratch)) ([HN](https://news.ycombinator.com/item?id=30835444)) ([Code](https://github.com/eatonphil/docdb))
+- [Architecture of a Database System (2007)](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf)
+- [Kerchunk](https://github.com/fsspec/kerchunk) - Cloud-friendly access to archival data.
+- [Klepto](https://github.com/hellofresh/klepto) - Tool for copying and anonymising data.
+- [Databases to keep an eye on (2022)](https://pradeepchhetri.xyz/databasestokeepaneyeon/)
+- [QuestDB: Fast Open Source Time Series Database (Vlad Ilyushchenko) (2022)](https://www.youtube.com/watch?v=AxxutZ0v3HE)
+- [Vectorization in OLAP Databases (2022)](https://aneesh.mataroa.blog/blog/vectorization-in-olap-databases/)
+- [Nice cheap hosted databases (2022)](https://twitter.com/mattgperry/status/1519609372288110593)
+- [Trustfall](https://github.com/obi1kenobi/trustfall) - Query engine, which can be used to query any data source or combination of data sources: databases, APIs, raw files (JSON, CSV, etc.), git version control, etc. ([HN](https://news.ycombinator.com/item?id=34705246))
+- [DatabaseConsistency](https://github.com/djezzzl/database_consistency) - Tool to find inconsistency between models schema and database constraints.
+- [There's always an events table (2022)](https://brandur.org/fragments/events)
+- [Rohmu](https://github.com/aiven/rohmu) - Python library for building backup tools for databases providing functionality for compression, encryption and transferring data between the database and an object storage.
+- [A Decent Database Service (2022)](https://steve.dignam.xyz/2022/03/19/decent-database-service/)
+- [Datascript and Datomic tutorial book](https://github.com/kristianmandrup/datascript-tutorial)
+- [Zero downtime migrations (2022)](https://kiranrao.ca/2022/05/04/zero-downtime-migrations.html) ([HN](https://news.ycombinator.com/item?id=31269515))
+- [CaskDB](https://github.com/avinassh/py-caskdb) - Project to teach you building a key value store. ([HN](https://news.ycombinator.com/item?id=31304897))
+- [Database access optimization | Django Docs](https://docs.djangoproject.com/en/4.0/topics/db/optimization/)
+- [Getting started with database development (2022)](https://www.reddit.com/r/databasedevelopment/comments/unj8d1/getting_started_with_database_development/)
+- [Ask HN: Free and open source distributed database written in C++ or C (2022)](https://news.ycombinator.com/item?id=31386533)
+- [Creating Distributed KV Database by Implementing Raft Consensus Using Go (2020)](https://yusufs.medium.com/creating-distributed-kv-database-by-implementing-raft-consensus-using-golang-d0884eef2e28)
+- [Super-Structured Data: Rethinking the Schema](https://www.brimdata.io/blog/super-structured-data/) ([HN](https://news.ycombinator.com/item?id=31411067))
+- [Husky, Datadog's Third-Generation Event Store (2022)](https://www.datadoghq.com/blog/engineering/introducing-husky/) ([HN](https://news.ycombinator.com/item?id=31416843))
+- [Persistence Programming (2022)](https://queue.acm.org/detail.cfm?id=3526210&doi=10.1145/3526210)
+- [Docker DB Backup](https://github.com/tiredofit/docker-db-backup) - Backup multiple databases types on a scheduled basis with many customizable options.
+- [Databases = Frameworks for Distributed Systems (2022)](https://laplab.me/posts/databases-are-frameworks-for-distributed-systems/) ([HN](https://news.ycombinator.com/item?id=31459745))
+- [Ditto](https://www.ditto.live/) - Sync without Internet. ([Twitter](https://twitter.com/dittolive)) ([HN](https://news.ycombinator.com/item?id=32934849)) ([Docs](https://docs.ditto.live/)) ([Docs Code](https://github.com/getditto/docs))
+- [DBngin](https://dbngin.com/) - All-in-One Database Version Management Tool. ([Code](https://github.com/TablePlus/DBngin))
+- [Building a Cloud Database from Scratch: Why We Moved from C++ to Rust (2022)](https://singularity-data.com/blog/building-a-cloud-database-from-scratch-why-we-moved-from-cpp-to-rust/) ([HN](https://news.ycombinator.com/item?id=31535158))
+- [LSI: A Learned Secondary Index Structure (2022)](https://arxiv.org/abs/2205.05769)
+- [Warp: Lightweight Multi-Key Transactions for Key-Value Stores (2015)](https://arxiv.org/abs/1509.07815) ([Review](http://muratbuffalo.blogspot.com/2022/05/warp-lightweight-multi-key-transactions.html))
+- [MiniSQL](https://github.com/BMS-2021/MiniSQL) - Designed to be a distributed relational database system. Final project of ZJU Database System Concept course.
+- [Ask HN: What are interesting new developments in databases related fields? (2022)](https://news.ycombinator.com/item?id=31633015)
+- [TiFlow](https://github.com/pingcap/tiflow) - Unified data replication platform around TiDB.
+- [Ideas on better database design](https://github.com/alextanhongpin/database-design)
+- [Data-Parallel Actors: A Programming Model for Scalable Query Serving Systems (2022)](https://www.micahlerner.com/2022/06/04/data-parallel-actors-a-programming-model-for-scalable-query-serving-systems.html)
+- [Cache made consistent: Meta’s cache invalidation solution](https://engineering.fb.com/2022/06/08/core-data/cache-invalidation/) ([HN](https://news.ycombinator.com/item?id=31671252))
+- [JOIN: The Ultimate Projection (2022)](https://justinjaffray.com/join-the-ultimate-projection/) ([Lobsters](https://lobste.rs/s/upp2o1/join_ultimate_projection))
+- [Seeing is Believing: A Client-Centric Specification of Database Isolation (2022)](http://muratbuffalo.blogspot.com/2022/06/seeing-is-believing-client-centric.html)
+- [Common DB schema change mistakes (2022)](https://postgres.ai/blog/20220525-common-db-schema-change-mistakes)
+- [Let's Remix Distributed Database Design! (2022)](https://www.youtube.com/watch?v=rNmZZLant9o)
+- [SchemaSpy](https://schemaspy.org/) - Database Documentation Built Easy. ([Code](https://github.com/schemaspy/schemaspy))
+- [Percona Community](http://percona.community/) - Community hub for installing, running, optimizing, and learning everything around databases and software architectures. ([Code](https://github.com/percona/community))
+- [Things to know about databases (2022)](https://architecturenotes.co/things-you-should-know-about-databases/) ([HN](https://news.ycombinator.com/item?id=31895623))
+- [GeoPub: A Multi-Model Database (2022)](https://inqlab.net/2022-07-01-geopub-a-multi-model-database.html)
+- [DBPack](https://github.com/CECTC/dbpack) - DB proxy for distributed transaction, read write splitting and sharding! Support any language! It can be deployed as a sidecar in a pod.
+- [Arana](https://github.com/arana-db/arana) - Cloud Native Database Proxy. It can also be deployed as a Database mesh sidecar.
+- [GitLab is splitting database into Main and CI (2022)](https://about.gitlab.com/blog/2022/06/02/splitting-database-into-main-and-ci/) ([HN](https://news.ycombinator.com/item?id=31956871))
+- [Starting from Zero: Build an LSM Database with 500 Lines of Code (2021)](https://www.alibabacloud.com/blog/starting-from-zero-build-an-lsm-database-with-500-lines-of-code_598114)
+- [Closing the B-tree vs. LSM-tree Write Amplification Gap on Modern Storage Hardware with Built-in Transparent Compression (2021)](https://arxiv.org/abs/2107.13987)
+- [Log Structured Merge Trees (2015)](http://www.benstopford.com/2015/02/14/log-structured-merge-trees/)
+- [Code in database vs. code in application (2022)](https://brandur.org/fragments/code-database-vs-app) ([Lobsters](https://lobste.rs/s/mr71g6/code_database_vs_code_application))
+- [Dimensional Modeling Techniques - Kimball Group](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/)
+- [ClickBench — Benchmark For Analytical DBMS (Snowflake, Druid, Redshift)](https://benchmark.clickhouse.com/) ([HN](https://news.ycombinator.com/item?id=32084571))
+- [Comparing Popular Time Series Databases (2022)](https://blog.last9.io/time-series-database-comparison/)
+- [Offline data access: a dream come true? (2022)](https://blog.chiselstrike.com/offline-data-access-a-dream-come-true-64362de1a981)
+- [Soft Deletion Probably Isn't Worth It (2022)](https://brandur.org/soft-deletion) ([HN](https://news.ycombinator.com/item?id=32156009)) ([Lobsters](https://lobste.rs/s/xryce5/soft_deletion_probably_isn_t_worth_it))
+- [Overview of Consistency Levels in Database Systems (2019)](http://dbmsmusings.blogspot.com/2019/07/overview-of-consistency-levels-in.html) ([HN](https://news.ycombinator.com/item?id=32271648))
+- [Join Doe](https://github.com/gistia/joindoe) - Tool for replicating database contents between environments while deidentifying sensitive data.
+- [GoBackup](https://github.com/huacnlee/gobackup) - Simple tool for backup your databases, files to FTP / SCP / S3 storages.
+- [ClickBench](https://github.com/ClickHouse/ClickBench) - Benchmark For Analytical Databases.
+- [The Slotted Counter Pattern (2022)](https://planetscale.com/blog/the-slotted-counter-pattern)
+- [Convex](https://www.convex.dev/) - Global state management platform for web developers. ([GitHub](https://github.com/get-convex))
+- [Assembling a Query Engine From Spare Parts (2022)](https://www.firebolt.io/content/firebolt-vldb-cdms-2022)
+- [Reddit’s database has two tables (2012)](https://kevin.burke.dev/kevin/reddits-database-has-two-tables/) ([HN](https://news.ycombinator.com/item?id=32407873))
+- [Ideas for DataScript 2](https://tonsky.me/blog/datascript-2/) ([HN](https://news.ycombinator.com/item?id=32447636))
+- [Rise of the Anti-Join (2022)](https://www.crunchydata.com/blog/rise-of-the-anti-join) ([Lobsters](https://lobste.rs/s/rhll92/rise_anti_join))
+- [ArrayQL Integration into Code-Generating Database Systems (2022)](https://openproceedings.org/2022/conf/edbt/sample-edbt2022.pdf)
+- [How discord stores billions of messages (2017)](https://discord.com/blog/how-discord-stores-billions-of-messages) ([HN](https://news.ycombinator.com/item?id=32606553))
+- [Seaborn Data](https://github.com/mwaskom/seaborn-data) - Data repository for seaborn examples.
+- [Ask HN: Do you use foreign keys in relational databases? (2022)](https://news.ycombinator.com/item?id=32731916)
+- [kvdbd](https://github.com/jgarzik/kvdbd) - Daemon that enables reading/writing of flat-file key/value databases available via HTTP API, using REST/JSON or Protobufs.
+- [Doozer](https://github.com/ha/doozerd) - Highly-available, completely consistent store for small amounts of extremely important data.
+- [dblab](https://github.com/danvergara/dblab) - Interactive client for PostgreSQL, MySQL and SQLite3.
+- [Cachegrand](https://github.com/danielealbano/cachegrand) - Modern OSS Key-Value store built for today's hardware. ([HN](https://news.ycombinator.com/item?id=32823436))
+- [Differential dataflow is the next level of query optimization (2022)](https://tably.com/blog/high-performance-analytics)
+- [echodb](https://github.com/surrealdb/echodb) - Embedded, in-memory, immutable, copy-on-write, key-value database engine.
+- [Retrospection and Learnings from Dgraph Labs (2022)](https://manishrjain.com/dgraph-labs-learnings) ([HN](https://news.ycombinator.com/item?id=32867613))
+- [Database concepts you wish you understood better (2022)](https://twitter.com/aarondfrancis/status/1570895651067822082)
+- [A minimal distributed key-value database with Hashicorp's Raft library (2022)](https://notes.eatonphil.com/minimal-key-value-store-with-hashicorp-raft.html)
+- [Bustle](https://github.com/jonhoo/bustle) - Benchmarking harness for concurrent key-value collections.
+- [Prequel](https://www.prequel.co/) - Data push & data warehouse integration. ([HN](https://news.ycombinator.com/item?id=32984103))
+- [Chimp: Efficient Lossless Floating Point Compression for Time Series Databases (2022)](https://www.vldb.org/pvldb/vol15/p3058-liakos.pdf)
+- [The next generation of Materialize (2022)](https://materialize.com/blog/next-generation/) ([HN](https://news.ycombinator.com/item?id=33067345))
+- [A Streaming Database (2021)](https://github.com/frankmcsherry/blog/blob/master/posts/2021-06-28.md)
+- [Don’t make databases available on the public internet. Use pgproxy (2022)](https://tailscale.com/blog/introducing-pgproxy/)
+- [Hera](https://github.com/paypal/hera) - High Efficiency Reliable Access to data stores.
+- [Low-Latency Distributed Data Strategies at P99 CONF: SQL, NoSQL & Event Streaming (2022)](https://www.scylladb.com/2022/10/07/low-latency-distributed-data-strategies-at-p99-conf-sql-nosql-event-streaming/)
+- [A Database Without Dynamic Memory Allocation (2022)](https://tigerbeetle.com/blog/a-database-without-dynamic-memory/) ([HN](https://news.ycombinator.com/item?id=33192288))
+- [Real-World Engineering Challenges: Migrations (2022)](https://newsletter.pragmaticengineer.com/p/real-world-engineering-challenges) ([HN](https://news.ycombinator.com/item?id=33232580))
+- [The B-Tree, LSM-Tree, and the Bw-Tree in Between (2022)](https://photondb.io/2022/08/15/bw-tree.html)
+- [Big Data Storage (2022)](https://berthub.eu/articles/posts/big-data-storage/)
+- [Rewriting a high performance vector database in Rust | Pinecone (2022)](https://www.pinecone.io/learn/rust-rewrite/)
+- [Ephemeral DB, a sacrificial database line for high-throughput data (2022)](https://brandur.org/fragments/ephemeral-db)
+- [fake2db](https://github.com/emirozer/fake2db) - Generate fake but valid data filled databases for test purposes using most popular patterns.
+- [Serverless ETL runtime for cloud databases](https://github.com/second-state/MEGA)
+- [Database Review 2021](https://www.bytebase.com/blog/database-review-2021) ([HN](https://news.ycombinator.com/item?id=33558509))
+- [Ask HN: What do you use for a personal database? (2022)](https://news.ycombinator.com/item?id=33627988)
+- ["The Evolution of a Planetary-scale Distributed Database" by Kevin Scaldeferri (2022)](https://www.youtube.com/watch?v=dmCr5Al_ptM)
+- [Database optimization, analytics and burnout (2022)](https://blog.zm.is/database-optimisation-analytics-burnout/)
+- [Index Merges vs Composite Indexes in Postgres and MySQL (2022)](https://sirupsen.com/index-merges) ([Lobsters](https://lobste.rs/s/n0nfeu/index_merges_vs_composite_indexes))
+- [Modern data modeling: Start with the end? (2022)](https://www.adventofdata.com/modern-data-modeling-start-with-the-end/) ([HN](https://news.ycombinator.com/item?id=33846087))
+- [Get Rid of Your Old Database Migrations (2022)](https://andrealeopardi.com/posts/get-rid-of-your-old-database-migrations/)
+- [Ariga](https://ariga.io/) - New way to manage database schemas.
+- [EDMA](https://github.com/nomadiz/edma) - Interactive embedded database management system.
+- [Building a database in the 2020s](https://me.0xffff.me/build-database-in-2020s.html) ([HN](https://news.ycombinator.com/item?id=35491682))
+- [Database Drivers: Naughty or Nice? (2022)](https://www.prequel.co/blog/database-drivers-naughty-or-nice) ([HN](https://news.ycombinator.com/item?id=33955983))
+- [How to visualize the database using Minimal Modeling (2022)](https://minimalmodeling.substack.com/p/how-to-visualize-your-database-using)
+- [QPML](https://github.com/andygrove/qpml) - Query Plan Markup Language.
+- [LSM in a Week](https://github.com/skyzh/mini-lsm) - Tutorial of building an LSM-Tree storage engine in a week.
+- [Closing The Gap Between Your Users And Their Data (2022)](https://tripleodeon.com/2022/11/closing-the-gap-between-your-users-and-their-data)
+- [Awesome Data Temporality](https://github.com/daefresh/awesome-data-temporality) - Curated list to help you manage temporal data across many modalities.
+- [Offline-First databases/tools](https://github.com/arn4v/offline-first)
+- [Make your database tables smaller (2022)](https://jezenthomas.com/make-your-database-tables-smaller/) ([HN](https://news.ycombinator.com/item?id=34167839))
+- [ULIDs and Primary Keys (2022)](https://blog.daveallie.com/ulid-primary-keys) ([HN](https://news.ycombinator.com/item?id=34175639))
+- [Databases in 2022: A Year in Review](https://ottertune.com/blog/2022-databases-retrospective/) ([HN](https://news.ycombinator.com/item?id=34220524))
+- [Understanding N + 1 queries problem (2023)](https://ananthakumaran.in/2023/01/01/solving_n_plus_1_queries_on_rails.html) ([HN](https://news.ycombinator.com/item?id=34207974))
+- [Personal blog about my PostgreSQL daily learnings](https://mydbanotebook.org/post/)
+- [Percona Monitoring and Management](https://github.com/percona/pmm) - View and monitor the performance of your MySQL, MongoDB, PostgreSQL, and MariaDB databases.
+- [Awesome Identifiers](https://adileo.github.io/awesome-identifiers/) - Pick the best database primary key. ([Code](https://github.com/adileo/awesome-identifiers))
+- [How Query Engines Work](https://howqueryengineswork.com/)
+- [ULID Identifiers and ULID Tools Website (2023)](https://pgrs.net/2023/01/10/ulid-identifiers-and-ulid-tools-website/) ([Lobsters](https://lobste.rs/s/qk1xrx/ulid_identifiers_ulid_tools_website))
+- [Bullshit graph database performance benchmarks (2023)](https://maxdemarzi.com/2023/01/11/bullshit-graph-database-performance-benchmarks/) ([HN](https://news.ycombinator.com/item?id=34342371))
+- [Modern storage is plenty fast. It is the APIs that are bad (2020)](https://itnext.io/modern-storage-is-plenty-fast-it-is-the-apis-that-are-bad-6a68319fbc1a)
+- [Time Series Benchmark Suite](https://github.com/timescale/tsbs) - Tool for comparing and evaluating databases for time series data.
+- [CaskDB](https://github.com/avinassh/go-caskdb) - Build your own disk based KV store in Go.
+- [Query Graphs](https://tableau.github.io/query-graphs/) - Visualizer for queries - Hyper, Postgres, Tableau. ([Code](https://github.com/tableau/query-graphs))
+- [Building a Simple DB in Rust (2023)](https://johns.codes/blog/build-a-db/part01) ([Part 2](https://johns.codes/blog/build-a-db/part02))
+- [cder](https://github.com/estie-inc/cder) - Lightweight, simple database seeding tool for Rust.
+- [The Magic of Small Databases (2023)](https://tomcritchlow.com/2023/01/27/small-databases/) ([HN](https://news.ycombinator.com/item?id=34558054))
+- [Client-side reactive databases (2023)](https://twitter.com/maccaw/status/1619714277715378178)
+- [2023 State of Databases for Serverless & Edge](https://leerob.io/blog/backend)
+- [How to protect your database (from yourself) (2023)](https://www.youtube.com/watch?v=Rm-OuNnq6Xo)
+- [15 futuristic databases you’ve never heard of (2023)](https://www.youtube.com/watch?v=jb2AvF8XzII)
+- [TypeORM Seeding](https://github.com/jorgebodega/typeorm-seeding) - Delightful way to seed test data into your database.
+- [Efficient and Compact Spreadsheet Formula Graphs (2023)](https://arxiv.org/abs/2302.05482)
+- [Our Mad Journey of Building a Vector Database in Go (2023)](https://www.youtube.com/watch?v=K1R7oK2piUM)
+- [cpc](https://github.com/tailscale/cpc) - Copy tool for incremental copies of large files, such as databases.
+- [Are You Sure You Want to Use MMAP in Your Database Management System? (2022)](https://db.cs.cmu.edu/papers/2022/cidr2022-p13-crotty.pdf)
+- [Five Methods For Database Obfuscation (2023)](https://clickhouse.com/blog/five-methods-of-database-obfuscation)
+- [Techniques for Scaling Applications with a Database (2023)](https://thenewstack.io/techniques-for-scaling-applications-with-a-database/)
+- [Speedy Transactions in Multicore In-Memory Databases (2023)](https://muratbuffalo.blogspot.com/2023/02/speedy-transactions-in-multicore-in.html) ([HN](https://news.ycombinator.com/item?id=34931735))
+- [Dumping databases for faster furigana (2023)](https://geeklaunch.io/blog/dumping-databases-for-faster-furigana/)
+- [Why (Graph) DBMSs Need New Join Algorithms: The Story of Worst-case Optimal Join Algorithms (2023)](https://kuzudb.com/blog/wcoj.html) ([HN](https://news.ycombinator.com/item?id=34959895))
+- [A Relational Spreadsheet (2023)](https://kevinlynagh.com/relational-spreadsheet/) ([HN](https://news.ycombinator.com/item?id=34946189))
+- [Database Cryptography Fur the Rest of Us (2023)](https://soatok.blog/2023/03/01/database-cryptography-fur-the-rest-of-us/) ([Lobsters](https://lobste.rs/s/px3ovv/database_cryptography_fur_rest_us))
+- [How to model one-to-one relationships - Tigris Data Modeling Series (2023)](https://www.tigrisdata.com/blog/modelling-one-to-one-relations/)
+- [How Binary JSON Works in YDB (2022)](https://laplab.me/posts/how-binary-json-works-in-ydb/)
+- [How Did I Become Database Engineer at 23 (2022)](https://laplab.me/posts/how-did-i-become-database-engineer-at-23/)
+- [Things DBs Don't Do - But Should (2023)](https://www.thenile.dev/blog/things-dbs-dont-do)
+- [A developer-driven approach to building secondary indexes presentation (2023)](https://www.tigrisdata.com/blog/foundationdb-meetup-indexes-talk/)
+- [Neuledge](https://github.com/neuledge/engine-js) - Universal language to model, share, and interact with databases.
+- [MVCC for Rust](https://github.com/penberg/mvcc-rs) - Rust implementation of the Hekaton optimistic multiversion concurrency control algorithm.
+- [High-Performance Concurrency Control Mechanisms for Main-Memory Databases (2012)](https://vldb.org/pvldb/vol5/p298_per-akelarson_vldb2012.pdf)
+- [Relational Operators in Apache Calcite (2021)](https://www.querifylabs.com/blog/relational-operators-in-apache-calcite) ([HN](https://news.ycombinator.com/item?id=35520059))
+- [Do you need a vector database? (2023)](https://www.ethanrosenthal.com/2023/04/10/nn-vs-ann/) ([HN](https://news.ycombinator.com/item?id=35550567))
+- [LanceDB](https://github.com/lancedb/lancedb) - Serverless, low-latency vector database for AI applications. ([HN](https://news.ycombinator.com/item?id=36144450))
+- [Production grade databases in Rust (2023)](https://www.reddit.com/r/rust/comments/12uevu0/production_grade_databases_in_rust/)
+- [Scaling Databases at Activision (2023)](https://static.sched.com/hosted_files/kccnceu2023/3d/KubeCon-2023-Scaling-Databases-Activision.pdf) ([HN](https://news.ycombinator.com/item?id=35655910))
+- [Build Your Own Database From Scratch](https://build-your-own.org/database/) ([HN](https://news.ycombinator.com/item?id=35666598))
+- [Database branching: three-way merge for schema changes (2023)](https://planetscale.com/blog/database-branching-three-way-merge-schema-changes) ([HN](https://news.ycombinator.com/item?id=35716824))
+- [OtterTune](https://ottertune.com/) - AI Powered Automatic PostgreSQL & MySQL Tuning.
+- [Datomic is Free (2023)](https://news.ycombinator.com/item?id=35727967)
+- [HyperDB](https://github.com/jdagdelen/hyperDB) - Hyper-fast local vector database for use with LLM Agents.
+- [What is a Vector Database? (2023)](https://www.pinecone.io/learn/vector-database/) ([HN](https://news.ycombinator.com/item?id=35826929))
+- [ReefDB](https://github.com/sachaarbonel/reefdb) - Minimalistic, in-memory and on-disk database management system written in Rust, implementing basic SQL query capabilities and full-text search. ([Reddit](https://www.reddit.com/r/rust/comments/139p5ig/toydb_a_rust_learning_adventure_fun_opensource/))
+- [Merklizing the key/value store for fun and profit (2023)](https://joelgustafson.com/posts/2023-05-04/merklizing-the-key-value-store-for-fun-and-profit) ([HN](https://news.ycombinator.com/item?id=36265429))
+- [Ask HN: It's 2023, how do you choose between MySQL and Postgres? (2023)](https://news.ycombinator.com/item?id=35906604)
+- [Product Quantization for Vector Search (2023)](https://zilliz.com/blog/scalar-quantization-and-product-quantization) ([HN](https://news.ycombinator.com/item?id=36004401))
+- [pgvecto.rs](https://github.com/tensorchord/pgvecto.rs) - Vector database plugin for Postgres, written in Rust, specifically designed for LLM.
+- [Kayvee](https://github.com/asim/kayvee) - Distributed in-memory key-value store built using hashicorp/memberlist with HTTP API.
+- [Data wrangling with Data Wrangler (2023)](https://austinhenley.com/blog/datawrangler.html)
+- [Simplest Vector DB Implementation? (2023)](https://www.reddit.com/r/MachineLearning/comments/13nkp10/d_simplest_vector_db_implementation/)
+- [Vemcache](https://github.com/FaizChishtie/vemcache) - In-memory vector database.
+- [Pinecone Python Client](https://github.com/pinecone-io/pinecone-client)
+- [High-Performance Graph Databases That Are Portable, Programmable, and Scale to Hundreds of Thousands of Cores (2023)](https://arxiv.org/abs/2305.11162) ([HN](https://news.ycombinator.com/item?id=36022042))
+- [Ask HN: Suggestions to host 10TB data with a monthly +100TB bandwidth (2023)](https://news.ycombinator.com/item?id=36095289)
+- [Qdrant under the hood: Product Quantization (2023)](https://qdrant.tech/articles/product-quantization/)
+- [Sketch of a Post-ORM (2023)](https://borretti.me/article/sketch-post-orm) ([HN](https://news.ycombinator.com/item?id=36164584))
+- [The growing pains of database architecture (2023)](https://www.figma.com/blog/how-figma-scaled-to-multiple-databases/) ([HN](https://news.ycombinator.com/item?id=36208420))
+- [mutable](https://github.com/mutable-org/mutable) - Database System for Research and Fast Prototyping.
+- [Openline customerOS](https://github.com/openline-ai/openline-customer-os) - Platform that enables you to bring your customer back to the center of your work.
+- [Bulker](https://github.com/jitsucom/bulker) - HTTP server that simplifies streaming large amounts of data into databases. It is designed to be used as a part of ETL pipelines.
+- [Mosaic](https://github.com/uwdata/mosaic) - Extensible framework for linking databases and interactive views.
+- [Undb](https://www.undb.xyz/) - Private first, unified, self-hosted no code database. ([Code](https://github.com/undb-xyz/undb))
+- [Is ORM still an anti-pattern?](https://github.com/getlago/lago/wiki/Is-ORM-still-an-%27anti-pattern%27%3F) ([HN](https://news.ycombinator.com/item?id=36497613))
+- [Scaling Linear's Sync Engine (2023)](https://linear.app/blog/scaling-the-linear-sync-engine) ([HN](https://news.ycombinator.com/item?id=36519448)) ([Tweet](https://twitter.com/maccaw/status/1674439981648019459))
+- [tinyvector](https://github.com/0hq/tinyvector) - Tiny nearest-neighbor embedding database built with SQLite and PyTorch.
+- [vlite](https://github.com/sdan/vlite) - Fast, lightweight, and simple vector database written in less than 200 lines of code.
+- [tinyvector](https://github.com/m1guelpf/tinyvector) - Tiny embedding database in pure Rust.
+- [Migrating a 2TB database in 7.5 minutes (2023)](https://usefathom.com/blog/migrating-our-database)

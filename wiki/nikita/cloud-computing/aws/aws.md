@@ -1,0 +1,466 @@
+---
+title: AWS
+---
+
+# [AWS](https://aws.amazon.com/)
+
+AWS has a [nice free tier](https://aws.amazon.com/free/). [AWS CDK](https://github.com/aws/aws-cdk), [Digger](https://digger.dev/) & [ts2asl](https://github.com/Stedi/ts2asl) are nice. [SLIC Starter](https://github.com/fourTheorem/slic-starter) seems great as AWS serverless starter.
+
+Haven't used AWS much but did use [GCP](../gcp/gcp.md) which is similar. One thing I learned is that settting up billing alerts is a must have so as to not overpay for compute. Also ideally you use services you truly need from these cloud providers, because the pricing does get a bit crazy at times.
+
+[SST](https://github.com/serverless-stack/sst) seems like useful framework. [Pulumi AWS](https://github.com/pulumi/pulumi-awsx) is nice too.
+
+## Interesting
+
+- [AWS Aurora](https://aws.amazon.com/rds/aurora/) - MySQL and PostgreSQL-compatible relational database built for the cloud.
+- [Amazon Lex](https://aws.amazon.com/lex/) - Conversational interfaces for your applications powered by the same deep learning technologies as Alexa.
+- [AWS Lambda Layers](https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html)
+- [AWS AppSync](https://aws.amazon.com/appsync/) - Power your applications with the right data, from one or more data sources, at global scale.
+- [AWS Amplify](https://aws-amplify.github.io/) - Build on a flexible, scalable, and reliable serverless backend.
+- [Amazon Neptune](https://aws.amazon.com/neptune/) - Fast, reliable graph database built for the cloud.
+- [RDS Proxy](https://aws.amazon.com/rds/proxy/) - Fully managed, highly available database proxy for Amazon Relational Database Service (RDS).
+- [AWS Honeycode](https://www.honeycode.aws/) - Build Web & Mobile Apps Without Writing Code. ([Announcement](https://aws.amazon.com/blogs/aws/introducing-amazon-honeycode-build-web-mobile-apps-without-writing-code/)) ([HN](https://news.ycombinator.com/item?id=23633110))
+- [AWS App Runner](https://aws.amazon.com/apprunner/) - Fully managed container application service.
+
+## Notes
+
+- [If you have an S3 bucket with zero files in it, it doesn’t incur storage charges. You can put a lifecycle rule on an S3 bucket that will automatically expire files after say 30 days.](https://lobste.rs/s/w36hds/packing_encrypting_uploading)
+- [Can store everything in SSM & not use environment variables.](https://twitter.com/thdxr/status/1455944479626743809)
+
+## Links
+
+- [AWS in plain English](https://www.expeditedssl.com/aws-in-plain-english) - Great reference.
+- [AWS practical guide](https://github.com/open-guides/og-aws)
+- [AWS CDK (Cloud Development Kit)](https://github.com/aws/aws-cdk) - Framework for defining cloud infrastructure in code. ([Web](https://aws.amazon.com/cdk/)) ([AWS CDK Examples](https://github.com/aws-samples/aws-cdk-examples))
+- [Serverless Stack Toolkit (SST)](https://github.com/serverless-stack/serverless-stack) - Extension of AWS CDK that allows you to build serverless apps. ([HN](https://news.ycombinator.com/item?id=26315585)) ([Web](https://serverless-stack.com/)) ([Ideal Stack Preview](https://github.com/serverless-stack/ideal-stack-preview))
+- [AWS Fargate Action](https://github.com/jessfraz/aws-fargate-action) - GitHub action to deploy to AWS Fargate on push to the master branch.
+- [AWS Serverless Application Model](https://github.com/awslabs/serverless-application-model) - Contains the SAM specification, the code that translates SAM templates into AWS CloudFormation stacks, general information about the model, and examples of common applications.
+- [Kubernetes on AWS with Terraform](https://github.com/xuwang/kube-aws-terraform) - Kubernetes implementation using CoreOS on AWS platform.
+- [Cloud Reports](https://github.com/tensult/cloud-reports) - Scans your AWS cloud resources and generates reports.
+- [CloudMapper](https://github.com/duo-labs/cloudmapper) - Helps you analyze your Amazon Web Services (AWS) environments.
+- [AWS costs every programmer should know (2019)](https://david-codes.hatanian.com/2019/06/09/aws-costs-every-programmer-should-now.html) ([HN](https://news.ycombinator.com/item?id=20138409))
+- [awless](https://github.com/wallix/awless) - Mighty CLI for AWS.
+- [Easy Amazon EC2 Instance Comparison](https://ec2instances.info/) ([Code](https://github.com/vantage-sh/ec2instances.info))
+- [Buildkite Elastic CI Stack](https://github.com/buildkite/elastic-ci-stack-for-aws) - Gives you a private, autoscaling Buildkite Agent cluster.
+- [sqs-consumer](https://github.com/bbc/sqs-consumer) - Build Amazon Simple Queue Service (SQS) based applications without the boilerplate.
+- [The \$10m engineering problem (2019)](https://segment.com/blog/the-10m-engineering-problem/)
+- [AWSume](https://github.com/trek10inc/awsume) - Utility for easily assuming AWS IAM roles from the command line.
+- [Modern applications at AWS (2019)](https://www.allthingsdistributed.com/2019/08/modern-applications-at-aws.html)
+- [cw](https://github.com/lucagrulla/cw) - Best way to tail AWS CloudWatch Logs from your terminal.
+- [The Good Parts of AWS book (2019)](https://gumroad.com/l/aws-good-parts)
+- [Last Week in AWS](https://www.lastweekinaws.com/) - News and newsletter about latest offerings of AWS.
+- [The Amazon Premium (2019)](http://calpaterson.com/amazon-premium.html) ([HN](https://news.ycombinator.com/item?id=21835366))
+- [AWS Security Toolbox (AST) (2019)](https://zoph.me/posts/2019-12-16-aws-security-toolbox/)
+- [AWS Glossary](https://github.com/sw-yx/aws-glossary)
+- [AWS Cost Optimization 101 (2020)](https://cloudonaut.io/aws-cost-optimization-101)
+- [Building a Serverless Podcast Search Engine on AWS (2019)](https://medium.com/@budilov/building-a-serverless-podcast-search-engine-on-aws-part-1-f6e58fbc3c06)
+- [Architecting for the Cloud - AWS Best Practices (2019)](https://tlakomy.com/architecting-for-the-cloud-aws-best-practices-part-1/)
+- [Bash-my-AWS](https://bash-my-aws.org/) - Simple but extremely powerful set of CLI commands for managing resources on Amazon Web Services. ([Code](https://github.com/bash-my-aws/bash-my-aws))
+- [AWS Docs](https://docs.aws.amazon.com/)
+- [Better Way to SSH in AWS (With RDS tunneling and security automation) (2020)](https://nullsweep.com/a-better-way-to-ssh-in-aws/)
+- [Serverless Microservice Patterns for AWS (2019)](https://www.jeremydaly.com/serverless-microservice-patterns-for-aws/)
+- [SSM Helpers](https://github.com/disneystreaming/ssm-helpers) - Help manage AWS systems manager with helpers.
+- [The good parts of AWS - A visual summary (2020)](https://hassenchaieb.com/aws-good-parts/) ([HN](https://news.ycombinator.com/item?id=22608106))
+- [Amazon EKS workshop](https://github.com/pahud/amazon-eks-workshop)
+- [Amazon SSM Agent](https://github.com/aws/amazon-ssm-agent) - Agent to enable remote management of your Amazon EC2 instance configuration.
+- [Amazon CodeGuru](https://aws.amazon.com/codeguru/) - Automate code reviews. Identify your most expensive lines of code. ([HN](https://news.ycombinator.com/item?id=21695330))
+- [LocalStack](https://github.com/localstack/localstack) - Fully functional local AWS cloud stack. ([Web](https://localstack.cloud/)) ([1.0](https://localstack.cloud/blog/2022-07-13-announcing-localstack-v1-general-availability/)) ([HN](https://news.ycombinator.com/item?id=32193132))
+- [Punchcard](https://github.com/punchcard/punchcard) - Type-safe AWS infrastructure.
+- [Infrastructure as Code on AWS in a familiar language — the right way with InGraph (2020)](https://read.acloud.guru/infrastructure-as-code-on-aws-in-a-familiar-language-the-right-way-ingraph-63a8fb4cfff)
+- [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) - Pandas on AWS.
+- [AWS Well-Architected Framework](https://wa.aws.amazon.com/index.en.html)
+- [aws-api-tools](https://github.com/jaypipes/aws-api-tools) - Tools to explore and transform AWS service APIs.
+- [Kubernetes Daemonset to gracefully handle EC2 instance shutdown](https://github.com/aws/aws-node-termination-handler)
+- [AWS CDK RFCs](https://github.com/aws/aws-cdk-rfcs)
+- [AWS AppSync GraphQL Photo Sample](https://github.com/aws-samples/aws-amplify-graphql)
+- [AWS Icons for PlantUML](https://github.com/awslabs/aws-icons-for-plantuml)
+- [Simple storage pricing calculator for AWS](https://www.duckbillgroup.com/aws-super-simple-storage-calculator/) ([HN](https://news.ycombinator.com/item?id=22971656))
+- [S3Proxy](https://github.com/gaul/s3proxy) - Access other storage backends via the S3 API.
+- [saws](https://github.com/donnemartin/saws) - Supercharged AWS command line interface.
+- [AWS Go SDK](https://github.com/aws/aws-sdk-go-v2) ([version 1](https://github.com/aws/aws-sdk-go))
+- [AWS Python SDK](https://github.com/boto/boto3) ([botocore - low-level, core functionality of boto 3](https://github.com/boto/botocore))
+- [AWS JS SDK](https://github.com/aws/aws-sdk-js-v3)
+- [AWS Haskell SDK](https://github.com/brendanhay/amazonka/)
+- [Amazon EKS User Guide](https://github.com/awsdocs/amazon-eks-user-guide)
+- [HN: AWS EC2 General Price Cut (2020)](https://news.ycombinator.com/item?id=23129730)
+- [AWS Services You Should Avoid (2020)](https://medium.com/teamzerolabs/5-aws-services-you-should-avoid-f45111cc10cd) ([HN](https://news.ycombinator.com/item?id=23131449))
+- [Getting started with serverless on AWS (2020)](https://emshea.com/post/serverless-getting-started)
+- [AWS Networking 101 (2020)](https://blog.ipspace.net/2020/05/aws-networking-101.html)
+- [VPC Studio](https://houqp.github.io/vpcstudio/) - VPC CIDR calculator with codegen. ([Code](https://github.com/houqp/vpcstudio))
+- [AWS services explained in one line each (2020)](https://adayinthelifeof.nl/2020/05/20/aws.html) ([HN](https://news.ycombinator.com/item?id=23309269))
+- [Awesome Amazon EKS](https://github.com/realvz/awesome-eks)
+- [cloud-nuke](https://github.com/gruntwork-io/cloud-nuke) - Tool for cleaning up your cloud accounts by nuking (deleting) all resources within it.
+- [Odin](https://github.com/coinbase/odin) - Deploy your 12-factor-applications to AWS easily and securely.
+- [Map Of Computing Architectures for AWS (2020)](https://moca.computingarchitectures.com/en/~hello-world/) ([HN](https://news.ycombinator.com/item?id=23497325))
+- [AWS notes](https://www.notion.so/AWS-a5192e36ddc74aecb1e8c1ea9221a1e0)
+- [AWS Activate for Startups](https://aws.amazon.com/activate/) - Offers startups free tools, resources, and more to quickly get started on AWS.
+- [Policy Sentry](https://github.com/salesforce/policy_sentry) - IAM Least Privilege Policy Generator and analysis database.
+- [Build an App with the AWS Cloud Development Kit (2020)](https://egghead.io/courses/build-an-app-with-the-aws-cloud-development-kit)
+- [Amazon ECS Container Agent](https://github.com/aws/amazon-ecs-agent)
+- [AWS Solutions Constructs](https://aws.amazon.com/blogs/aws/aws-solutions-constructs-a-library-of-architecture-patterns-for-the-aws-cdk/) - Library of Architecture Patterns for the AWS CDK.
+- [How we got our AWS bill to around 2% of revenue (2020)](https://www.sankalpjonna.com/posts/our-aws-bill-is-2-of-revenue-heres-how-we-did-it) ([HN](https://news.ycombinator.com/item?id=23666999))
+- [Looking to reduce AWS EC2 spend? Save up to \$750k with these guidelines! (2020)](https://medium.com/@kavehkhorram/looking-to-reduce-your-aws-costs-save-up-to-750k-with-these-guidelines-e2e6666be912)
+- [S3 Bucket Monitoring](https://cronitor.io/s3-monitoring) - Ensure private buckets stay private and public buckets are correct.
+- [The Extended AWS Security Ramp-Up Guide (2020)](https://research.nccgroup.com/2020/04/24/the-extended-aws-security-ramp-up-guide/)
+- [Usage](https://www.usage.ai/) - Reduce your AWS spend. With no risk. 44% average savings. ([HN](https://news.ycombinator.com/item?id=23776894))
+- [Top 5 Things to Learn First with AWS and How to Get Started with Amazon Web Services (2020)](https://www.colbyfayock.com/2020/07/top-5-things-to-learn-first-with-aws-and-how-to-get-started-with-amazon-web-services)
+- [Ask HN: How can I quickly trim my AWS bill? (2020)](https://news.ycombinator.com/item?id=23798347)
+- [Designing a scalable API on AWS spot instances (2020)](https://blog.adapty.io/designing-scalable-api-on-aws-stop-instance/) ([HN](https://news.ycombinator.com/item?id=23925783))
+- [AWS Tagging Best Practices](https://www.cloudforecast.io/blog/aws-tagging-best-practices/) ([HN](https://news.ycombinator.com/item?id=24132528))
+- [Using ProxyCannon-NG to Create Unlimited Rotating Proxies (2020)](https://iamstoxe.com/posts/using-proxycannon-ng-to-create-unlimited-rotating-proxies/)
+- [AWS Stash](https://awsstash.com/) - Collection of AWS related videos, podcasts, code repositories, whitepapers, and feature releases, all in a single, easy to search interface.
+- [AWS Boilerplate](https://github.com/apptension/aws-boilerplate) - Opinionated full stack web app's boilerplate, ready to be deployed to AWS platform.
+- [AWS CDK Intro Workshop](https://cdkworkshop.com/) ([Code](https://github.com/aws-samples/aws-cdk-intro-workshop))
+- [Tips and Gotchas for managing your AWS Costs (2020)](https://www.taggun.io/tips-and-gotchas-for-managing-your-aws-cloud-costs)
+- [AWS Video Catalog](https://awsvideocatalog.com/)
+- [AWS Perspective](https://aws.amazon.com/solutions/implementations/aws-perspective/) - Quickly visualizes AWS Cloud workloads as architecture diagrams. ([HN](https://news.ycombinator.com/item?id=24552779)) ([Code](https://github.com/awslabs/aws-perspective))
+- [Open AWS Catalogue](https://aws.dendron.so/) - Reference of all things AWS. ([Code](https://github.com/dendronhq/catalogue-open-aws))
+- [AWS for the rest of us (2020)](https://technically.dev/posts/aws-for-the-rest-of-us)
+- [Bucket Stream](https://github.com/eth0izzle/bucket-stream) - Find interesting Amazon S3 Buckets by watching certificate transparency logs.
+- [Granularity levels in AWS IAM policies (2020)](https://advancedweb.hu/granularity-levels-in-aws-iam-policies/)
+- [AWS Toolkit for Visual Studio Code](https://github.com/aws/aws-toolkit-vscode) - Extension for working with AWS services such as AWS Lambda.
+- [AWS Copilot CLI](https://github.com/aws/copilot-cli) - Tool for developers to build, release and operate production ready containerized applications on Amazon ECS and AWS Fargate.
+- [Top 5 AWS EC2 Performance Problems (2020)](https://www.datadoghq.com/pdf/top_5_aws_ec2_performance_problems_ebook.pdf) - How to detect them, why they occur and how to resolve them.
+- [Awesome CDK](https://github.com/kolomied/awesome-cdk)
+- [Where to Start with AWS as a Developer (2020)](https://www.samjulien.com/where-to-start-with-aws-as-a-developer)
+- [AWS Cost Comparison Tool](https://github.com/rocketmiles/aws-cct)
+- [My AWS toolbox - tools, plugins and applications (2020)](https://betterdev.blog/my-aws-toolbox/)
+- [Amazon ECR Docker Credential Helper](https://github.com/awslabs/amazon-ecr-credential-helper)
+- [Amazon EKS Helm charts](https://github.com/aws/eks-charts)
+- [AWS Community Builders](https://aws.amazon.com/developer/community/community-builders/) - Program offers technical resources, mentorship, and networking opportunities.
+- [AWS Secure Environment Accelerator](https://github.com/aws-samples/aws-secure-environment-accelerator) - Tool designed to help deploy and operate secure multi-account AWS environments on an ongoing basis.
+- [AWS Serverless Workshops](https://github.com/aws-samples/aws-serverless-workshops)
+- [Cachenator](https://github.com/adrianchifor/cachenator) - Distributed, sharded in-memory cache and proxy for S3.
+- [Digger](https://digger.dev/) - Build on AWS without having to learn it, no-code DevOps. ([Beta](https://alpha.digger.dev/Digger-Beta-Quick-Start-7f299819b6f2415fbe67b87a0e7ca97c))
+- [Grafana dashboards for AWS CloudWatch](https://github.com/monitoringartist/grafana-aws-cloudwatch-dashboards)
+- [7777](https://port7777.com/) - Your remote AWS database on your local port 7777. ([Docs](https://github.com/whilenull/7777-support))
+- [Learn AWS Blog](https://www.learnaws.org/)
+- [CloudNews](https://www.cloudnews.dev/) - Never miss important AWS news. Newsletter.
+- [AWS List All](https://github.com/JohannesEbke/aws_list_all) - List all your AWS resources, all regions, all services.
+- [AWS Perspective](https://github.com/awslabs/aws-perspective) - Tool that quickly visualizes AWS Cloud workloads as architecture diagrams. ([Web](https://aws.amazon.com/solutions/implementations/aws-perspective/))
+- [AWS Proton sample templates](https://github.com/aws-samples/aws-proton-sample-templates)
+- [ConsoleMe](https://github.com/Netflix/consoleme) - Consolidates the management of multiple AWS accounts into a single interface.
+- [CDK Patterns](https://github.com/cdk-patterns/serverless) - AWS Serverless architecture patterns built with CDK for developers to use. ([Web](https://cdkpatterns.com/))
+- [AWS Deployment Framework](https://github.com/awslabs/aws-deployment-framework) - Extensive and flexible framework to manage and deploy resources across multiple AWS accounts and regions within an AWS Organization.
+- [aws-cli](https://github.com/aws/aws-cli) - Universal Command Line Interface for Amazon Web Services.
+- [AWS CLI Cheat Sheet](https://github.com/eon01/AWS-CheatSheet)
+- [Vantage](https://www.vantage.sh/) - Alternative AWS console, focused on user experience and cost transparency. ([HN](https://news.ycombinator.com/item?id=25750807)) ([GitHub](https://github.com/vantage-sh))
+- [Pacu](https://github.com/RhinoSecurityLabs/pacu) - AWS exploitation framework, designed for testing the security of Amazon Web Services environments.
+- [aws-nuke](https://github.com/rebuy-de/aws-nuke) - Remove all resources from an AWS account. ([HN](https://news.ycombinator.com/item?id=31962014))
+- [superwerker](https://github.com/superwerker/superwerker) - Automates the setup of an AWS Cloud environment with prescriptive best practices.
+- [AWS as a Framework (2021)](https://medium.com/galvanize/aws-as-a-framework-9abd2b1f6dc1)
+- [Moto](https://github.com/spulec/moto) - Mock AWS Services.
+- [Amazon EC2 Metadata Mock](https://github.com/aws/namazon-ec2-metadata-mock) - Tool to simulate Amazon EC2 instance metadata.
+- [Remote Debugging in AWS (2021)](https://thenewstack.io/remote-debugging-in-aws-the-missing-link-in-your-debugging-toolset/)
+- [AWS Workshops](https://workshops.aws/)
+- [AWS Compute Blog](https://aws.amazon.com/blogs/compute/)
+- [AWS CloudFormation Sample Templates](https://github.com/awslabs/aws-cloudformation-templates)
+- [GitHub Action to Deploys AWS CloudFormation Stacks](https://github.com/aws-actions/aws-cloudformation-github-deploy)
+- [VS Code CloudFormation Linter](https://github.com/aws-cloudformation/aws-cfn-lint-visual-studio-code) - Uses cfn-lint to lint your CloudFormation templates.
+- [Awesome CloudFormation](https://github.com/aws-cloudformation/awesome-cloudformation)
+- [SenseDeep](https://www.sensedeep.com/) - Serverless Monitoring and Troubleshooting. ([GitHub](https://github.com/sensedeep))
+- [Amazon EC2 Instance Selector](https://github.com/aws/amazon-ec2-instance-selector) - CLI tool and go library which recommends instance types based on resource criteria like vcpus and memory.
+- [AWS Pricing Calculator](https://calculator.aws/#/) - Estimate the cost for your architecture solution.
+- [AWS Certified Cloud Practitioner Essentials - E-Learning Notes](https://github.com/kennethleungty/AWS-Certified-Cloud-Practitioner-Notes)
+- [Alternatives to AWS](https://www.curabase.com/org/curabase/alternatives-to-aws)
+- [AWS Cheat Sheets](https://tutorialsdojo.com/aws-cheat-sheets/)
+- [saml2aws](https://github.com/Versent/saml2aws) - CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP.
+- [AWS Quick Starts](https://aws-quickstart.github.io/) - Quick Start Contributor's Guide. ([Code](https://github.com/aws-quickstart/quickstart-superwerker))
+- [How they AWS](https://github.com/upgundecha/howtheyaws)
+- [What’s New at AWS](https://aws.amazon.com/new/)
+- [Awesome AWS Chalice](https://github.com/magnataurconsulting/awesome-chalice)
+- [Exploratory Analysis and ETL with Presto and AWS Glue (2020)](https://blog.bigdataboutique.com/2020/10/exploratory-analysis-and-etl-with-presto-and-aws-glue-iwtkxs)
+- [Platform that uses my AWS account, but provides me an incredible DX. This way I can start extremely easy, but also have the full, raw power of AWS at my fingertips. (2021)](https://twitter.com/flybayer/status/1369363714873438210)
+- [Repokid](https://github.com/Netflix/repokid) - AWS Least Privilege for Distributed, High-Velocity Deployment.
+- [Amazon S3 Object Lambda (2021)](https://aws.amazon.com/blogs/aws/introducing-amazon-s3-object-lambda-use-your-code-to-process-data-as-it-is-being-retrieved-from-s3/) ([HN](https://news.ycombinator.com/item?id=26520021))
+- [Collection of higher-level reusable cdk constructs](https://github.com/cloudcomponents/cdk-constructs)
+- [ecsk](https://github.com/yukiarrr/ecsk) - CLI tool that you can interactively call Amazon ECS APIs (run-task, execute-command, stop-task), copy files between ECS and local, and view logs.
+- [Diving Deep on S3 Consistency (2021)](https://www.allthingsdistributed.com/2021/04/s3-strong-consistency.html) ([HN](https://news.ycombinator.com/item?id=26968627))
+- [[MAMIP] Monitor AWS Managed IAM Policies](https://github.com/z0ph/MAMIP)
+- [AWS X-Ray SDK for Python](https://github.com/aws/aws-xray-sdk-python)
+- [AutoSpotting](https://github.com/AutoSpotting/AutoSpotting) - Saves up to 90% of AWS EC2 costs by automating the use of spot instances on existing AutoScaling groups.
+- [Run an Action on all VMs in an AWS Auto Scaling Group (2021)](https://blog.stefan-koch.name/2021/04/14/clusterssh-aws-auto-scaling-group)
+- [Amazon SageMaker Safe Deployment Pipeline](https://github.com/aws-samples/amazon-sagemaker-safe-deployment-pipeline)
+- [AWS SDK for Rust](https://github.com/awslabs/aws-sdk-rust) ([Article](https://aws.amazon.com/blogs/developer/a-new-aws-sdk-for-rust-alpha-launch/)) ([HN](https://news.ycombinator.com/item?id=27080859))
+- [Learn AWS with Rust](https://github.com/richardhboyd/learn-rust-on-aws)
+- [Hello App Runner](https://github.com/aws-containers/hello-app-runner) - Example application for AWS App Runner.
+- [Ness](https://ness.sh/) - Deploy web sites to your AWS account effortlessly.
+- [Flashcards to learn AWS skills](https://cloudbite.attejuvonen.fi/) ([HN](https://news.ycombinator.com/item?id=27264500))
+- [AWS FAQs](https://aws.amazon.com/faqs/)
+- [PMapper](https://github.com/nccgroup/PMapper) - Tool for quickly evaluating IAM permissions in AWS.
+- [Kubernetes Cluster API Provider AWS](https://github.com/kubernetes-sigs/cluster-api-provider-aws)
+- [Nomad AWS Module](https://github.com/hashicorp/terraform-aws-nomad) - Terraform Module for how to run Nomad on AWS using Terraform and Packer.
+- [Advice on using AWS for startups (2021)](https://twitter.com/aeduhm/status/1400110976179965954)
+- [Mind map of container platforms and tools on AWS](https://github.com/rakyll/aws-containers)
+- [Everything AWS](https://app.polymersearch.com/discover/aws) - Search and discover 40K+ quality AWS repositories.
+- [AWS Elastic Container Service (ECS) Terraform module](https://github.com/terraform-aws-modules/terraform-aws-ecs)
+- [330+ Open source security controls for AWS](https://hub.steampipe.io/mods/turbot/aws_compliance/controls)
+- [Using AWS CDK with Go to launch an app with App Runner (2021)](https://adrianhesketh.com/2021/06/14/go-cdk-app-runner/)
+- [awsrm](https://github.com/jckuester/awsrm) - Remove command for AWS resources.
+- [AWSweeper](https://github.com/jckuester/awsweeper) - Tool for cleaning your AWS account.
+- [awsls](https://github.com/jckuester/awsls) - List command for AWS resources.
+- [Running Scheduled Jobs in AWS Using Terraform (2021)](https://hyperscience.com/tech-blog/running-scheduled-jobs-in-aws/)
+- [SQS Message Mover](https://github.com/mercury2269/sqsmover) - Tool for moving AWS SQS messages from one queue to another.
+- [LocalStack AWS CLI](https://github.com/localstack/awscli-local)
+- [Former2](https://github.com/iann0036/former2) - Generate CloudFormation / Terraform / Troposphere templates from your existing AWS resources. ([Web](https://former2.com/))
+- [iamlive](https://github.com/iann0036/iamlive) - Generate an IAM policy from AWS calls using client-side monitoring (CSM) or embedded proxy.
+- [GoFakeS3](https://github.com/johannesboyne/gofakes3) - Fake AWS S3 object storage (used for local test-runs against AWS S3 APIs).
+- [Declarative provisioning of AWS resources with Spinnaker and Crossplane (2021)](https://aws.amazon.com/blogs/opensource/declarative-provisioning-of-aws-resources-with-spinnaker-and-crossplane/)
+- [AWS Cost Saving Recommendations](https://www.vantage.sh/blog/vantage-launches-aws-cost-saving-recommendations) ([HN](https://news.ycombinator.com/item?id=27823824))
+- [Amazon Web Services In Plain English (2019)](https://www.web3us.com/how-guides/amazon-web-services-plain-english) ([HN](https://news.ycombinator.com/item?id=27948209))
+- [AWS’s Egregious Egress (2021)](https://blog.cloudflare.com/aws-egregious-egress/) ([HN](https://news.ycombinator.com/item?id=27930151))
+- [TinyStacks](https://www.tinystacks.com/) - Fastest way to deploy your Docker app on AWS.
+- [EKS on speed (2021)](https://blog.3sky.dev/article/eks-with-speed/)
+- [honeyaws](https://github.com/honeycombio/honeyaws) - Observability for your AWS load balancers, CloudFront, and more.
+- [Prowler](https://github.com/toniblyx/prowler) - AWS Security Tool.
+- [awslogs](https://github.com/jorgebastida/awslogs) - AWS CloudWatch logs for Humans.
+- [Saw](https://github.com/TylerBrock/saw) - Fast, multi-purpose tool for AWS CloudWatch Logs.
+- [JetKit/CDK](https://github.com/jetbridge/jetkit-cdk) - Cloud-native TypeScript API development kit for AWS CDK. ([Web](https://www.jetkit.dev/))
+- [AWS EventBridge Canon](https://github.com/boyney123/eventbridge-canon) - Simple UI to Publish, Save and Share AWS EventBridge Events. ([Web](https://eventbridge-canon.netlify.app/))
+- [Amazon Elastic Kubernetes Service (Amazon EKS) Best Practices](https://aws.github.io/aws-eks-best-practices/) ([Code](https://github.com/aws/aws-eks-best-practices))
+- [Amazon EKS using AWS CDK with Typescript](https://github.com/aws-samples/amazon-eks-using-cdk-typescript) - Sample project that deploys an EKS Cluster.
+- [Helm S3](https://github.com/hypnoglow/helm-s3) - Helm plugin that allows to set up a chart repository in AWS S3.
+- [List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc](https://github.com/toniblyx/my-arsenal-of-aws-security-tools)
+- [aacli](https://github.com/iamarkadyt/aacli) - AWS authentication CLI with built-in MFA support.
+- [CDK Fargate Docker starter kit with AWS CDK v2.0](https://github.com/markusl/cdk-fargate-docker-starter) - Example of how to deploy a simple docker image to a Fargate cluster using AWS CDK.
+- [Amazon EKS Anywhere](https://github.com/aws/eks-anywhere) - Run Amazon EKS on your own infrastructure. ([Web](https://anywhere.eks.amazonaws.com/)) ([HN](https://news.ycombinator.com/item?id=28465858))
+- [Mistakes I've Made in AWS](https://laravel-news.com/aws-mistakes) ([HN](https://news.ycombinator.com/item?id=28490278))
+- [AWS IAM Tracker](https://github.com/glassechidna/trackiam) - Collects IAM actions, AWS APIs and managed policies from various public sources. ([Web](http://aktion.io/))
+- [AWS Cloudformation User Guide](https://github.com/awsdocs/aws-cloudformation-user-guide)
+- [Building a Serverless Compute Platform with AWS and TypeScript - Tomasz Lakomy (2021)](https://www.youtube.com/watch?v=6EgfpBzL3_0)
+- [s5cmd](https://github.com/peak/s5cmd) - Parallel S3 and local filesystem execution tool.
+- [AWS Samples GitHub](https://github.com/aws-samples)
+- [AWS Cloud Control API, a Uniform API to Access AWS and Third-Party Services (2021)](https://aws.amazon.com/blogs/aws/announcing-aws-cloud-control-api/) ([HN](https://news.ycombinator.com/item?id=28710179))
+- [3 sad billing facts about AWS (2021)](https://twitter.com/QuinnyPig/status/1443987573844611072)
+- [AWS Greengrass Core Rust SDK](https://github.com/Nike-Inc/aws-greengrass-core-sdk-rust)
+- [AWS Step Functions Supports 200 AWS Services To Enable Easier Workflow Automation (2021)](https://aws.amazon.com/blogs/aws/now-aws-step-functions-supports-200-aws-services-to-enable-easier-workflow-automation/)
+- [Comparing AWS's RDS and PlanetScale (2021)](https://planetscale.com/blog/planetscale-vs-aws-rds)
+- [Terraform vs. AWS CloudFormation (2021)](https://gswallow.medium.com/do-not-use-aws-cloudformation-7cf61f58bd5f) ([HN](https://news.ycombinator.com/item?id=28777997))
+- [AWS JWT Verify](https://github.com/awslabs/aws-jwt-verify) - NodeJS library for verifying JWTs signed by Amazon Cognito, and any OIDC-compatible IDP that signs JWTs with RS256.
+- [Free Templates for AWS CloudFormation](https://github.com/widdix/aws-cf-templates) ([Docs](https://templates.cloudonaut.io/en/stable/))
+- [cfsec](https://github.com/aquasecurity/cfsec) - Static analysis for CloudFormation templates to identify common misconfigurations.
+- [AWS Cloudformation Publisher](https://github.com/aws-samples/aws-cloudformation-publisher) - Packages your CloudFormation templates into an S3 bucket in every AWS region and creates "launch stack" links.
+- [Profiling 25,000 S3 Buckets: The Billion Dollar Opportunity for Cloudflare R2 (2021)](https://www.vantage.sh/blog/the-opportunity-for-cloudflare-r2) ([Tweet](https://twitter.com/benadam11/status/1450901767688843270))
+- [AWS Recon](https://github.com/darkbitio/aws-recon) - Multi-threaded AWS inventory collection tool with a focus on security-relevant resources and metadata.
+- [Get AWS costs posted directly to Slack](https://www.vantage.sh/blog/vantage-slack-notifications) ([HN](https://news.ycombinator.com/item?id=29004934))
+- [Tools to Build on AWS](https://aws.amazon.com/tools/) ([Code](https://github.com/aws/aws-sdk))
+- [s3-credentials](https://github.com/simonw/s3-credentials) - Tool for creating credentials for accessing S3 buckets.
+- [aws-auth](https://github.com/iamarkadyt/aws-auth) - AWS credentials management CLI tool. ([HN](https://news.ycombinator.com/item?id=29090858))
+- [AWS Exposable Resources](https://github.com/SummitRoute/aws_exposable_resources) - Resource types that can be publicly exposed on AWS.
+- [CDK-Dia](https://github.com/pistazie/cdk-dia) - Automated diagrams for CDK infrastructure.
+- [ECS Best Practices](https://gist.github.com/ejlp12/94dd91596680fe5a0efa8153927e1922)
+- [Amazon EKS Workshop](https://www.eksworkshop.com/) ([Code](https://github.com/aws-samples/eks-workshop))
+- [The CDK Book](https://thecdkbook.com/) - Comprehensive Guide to the AWS Cloud Development Kit.
+- [Querying AWS at scale across APIs, regions, and accounts (2021)](https://aws.amazon.com/blogs/opensource/querying-aws-at-scale-across-apis-regions-and-accounts/) ([HN](https://news.ycombinator.com/item?id=29191428))
+- [go-aws-sso](https://github.com/theurichde/go-aws-sso) - Makes dealing with AWS SSO Logins an ease.
+- [Amazon Web Services (AWS) Pulumi resource package](https://github.com/pulumi/pulumi-aws) - Providing multi-language access to AWS.
+- [AWS Events and Webinars](https://aws.amazon.com/events/) ([AWS Conferences One-Pagers](https://github.com/zoph-io/awscon-onepager))
+- [Answering some misconceptions about AWS Cloud Development Kit (2020)](https://nathanpeck.com/some-misconceptions-about-aws-cloud-development-kit/)
+- [Flowchart: How should I run containers on AWS? (2021)](https://www.vladionescu.me/posts/flowchart-how-should-i-run-containers-on-aws-2021/)
+- [AWS Load Balancer Controller](https://github.com/kubernetes-sigs/aws-load-balancer-controller) - Controller to help manage Elastic Load Balancers for a Kubernetes cluster.
+- [Serverless Data Streaming on AWS | Anahit Pogosova (2021)](https://www.youtube.com/watch?v=BmdJHAVEsdY&list=PLvL2NEhYV4Zu0Jrp0l90aU83_AfuFcN_q&index=20)
+- [IPv6-only subnets and EC2 instances (2021)](https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-ipv6-only-subnets-and-ec2-instances/) ([HN](https://news.ycombinator.com/item?id=29327190))
+- [Enumerate IAM permissions](https://github.com/andresriancho/enumerate-iam) - Enumerate the permissions associated with AWS credential set.
+- [AWS Marketplace - Serverless integration for SaaS products (Example)](https://github.com/aws-samples/aws-marketplace-serverless-saas-integration)
+- [Getting Started with Amazon Web Services](https://aws.amazon.com/getting-started/)
+- [AWS Samples GitHub](https://github.com/aws-samples)
+- [AWS SDK for iOS](https://github.com/aws-amplify/aws-sdk-ios)
+- [s3sync](https://github.com/seqsense/s3sync) - Go utility for syncing between s3 and local.
+- [AWS SDK for Swift](https://github.com/awslabs/aws-sdk-swift)
+- [Release of AWS CDKv2 and Construct Hub (2021)](https://aws.amazon.com/blogs/aws/announcing-general-availability-of-construct-hub-and-aws-cloud-development-kit-version-2/) ([HN](https://news.ycombinator.com/item?id=29419874))
+- [New EC2 Instance Types of re:Invent 2021](https://aws-native.com/new-ec2-instance-types-of-reinvent-2021) ([HN](https://news.ycombinator.com/item?id=29448494))
+- [AWS Native Blog](https://aws-native.com/)
+- [cwl-mount](https://github.com/asimihsan/cwl-mount) - Mount AWS CloudWatch logs as a file system.
+- [Vacuum](https://github.com/kevholditch/vacuum) - Clean up unused AWS resources.
+- [s3-server](https://github.com/datenlord/s3-server) - Generic S3 server implementation.
+- [What should AWS focus on (2021)](https://twitter.com/jeremy_daly/status/1474110290874753030)
+- [s3gof3r](https://github.com/github/s3gof3r) - Fast, concurrent, streaming access to Amazon S3, including gof3r, a CLI.
+- [AWS Well-Architected Labs](https://github.com/awslabs/aws-well-architected-labs) - Hands on labs and code to help you learn, measure, and build using architectural best practices. ([Web](https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc))
+- [aws-security-viz](https://github.com/anaynayak/aws-security-viz) - Visualize your aws security groups.
+- [onaws](https://github.com/amalmurali47/onaws) - Tool to check if an IP/hostname belongs to the AWS IP space or not.
+- [S3 Manager](https://github.com/cloudlena/s3manager) - Web GUI written in Go to manage S3 buckets from any provider.
+- [AWSQS::Kubernetes::Helm](https://github.com/aws-quickstart/quickstart-helm-resource-provider) - AWS CloudFormation resource provider for the management of helm 3 resources in EKS and self-managed Kubernetes clusters.
+- [AWS Community Builders - DEV Community](https://dev.to/aws-builders)
+- [Amazon ECS CLI](https://github.com/aws/amazon-ecs-cli) - Enables users to run their applications on ECS/Fargate using the Docker Compose file format.
+- [AWS Serverless SaaS Workshop](https://github.com/aws-samples/aws-serverless-saas-workshop)
+- [Publications - Amazon Science](https://www.amazon.science/publications/)
+- [Amazon Science](https://www.amazon.science/)
+- [AWS SSO CLI](https://github.com/synfinatic/aws-sso-cli) - Powerful tool for using AWS SSO for the CLI and web console.
+- [Awesome EventBridge](https://github.com/boyney123/awesome-eventbridge)
+- [AWS is Not a Dumb Pipe (2022)](https://matt-rickard.com/aws-is-not-a-dumb-pipe/) ([Lobsters](https://lobste.rs/s/yprzex/aws_is_not_dumb_pipe))
+- [Amazon EKS AMI Build Specification](https://github.com/awslabs/amazon-eks-ami) - Packer configuration for building a custom EKS AMI.
+- [Rust On AWS (Really FAST Lambdas) (2022)](https://www.youtube.com/watch?v=EqV5wKD233c)
+- [Hologram](https://github.com/AdRoll/hologram) - Easy, painless AWS credentials on developer laptops.
+- [Stack-Assembly](https://github.com/molecule-man/stack-assembly) - Command line tool to configure and deploy AWS Cloudformation stacks in a safe way.
+- [AWSTagHelper](https://github.com/mpostument/awstaghelper) - AWS bulk tagging tool.
+- [cloudstructs](https://github.com/jogold/cloudstructs) - High-level constructs for AWS CDK.
+- [Crossplane AWS Provider](https://github.com/crossplane/provider-aws)
+- [awsping](https://github.com/ekalinin/awsping) - Console tool to check the latency to each Amazon EC2 region.
+- [Amazon Elastic File System Update – Sub-Millisecond Read Latency (2022)](https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-update-sub-millisecond-read-latency/) ([HN](https://news.ycombinator.com/item?id=30345921))
+- [aws-okta-processor](https://github.com/godaddy/aws-okta-processor) - Okta credential processor for AWS CLI.
+- [Saving on AWS Lambda Amazon CloudWatch Logs costs (2022)](https://dev.to/aws-builders/saving-on-aws-lambda-amazon-cloudwatch-logs-costs-51od)
+- [Amazon EKS with AWS Cloudformation and AWS CDK](https://github.com/aws-samples/amazon-eks-refarch-cloudformation)
+- [CDK TypeScript Demo Project](https://github.com/MargaretKrutikova/event-store-aws-cdk)
+- [Set up Event Store on AWS with CDK (2022)](https://dev.to/margaretkrutikova/set-up-event-store-on-aws-with-cdk-42bi)
+- [S3RS](https://github.com/yanganto/s3rs) - S3 CLI client with multi configs with diffent provider.
+- [How did you learn AWS? (2022)](https://lobste.rs/s/lzxl0w/how_did_you_learn_aws)
+- [AWS Security Reference Architecture Examples](https://github.com/aws-samples/aws-security-reference-architecture-examples) - Example solutions demonstrating how to implement patterns within the AWS Security Reference Architecture guide using CloudFormation and Customizations for AWS Control Tower.
+- [Minimal AWS SSO setup for personal AWS development (2022)](https://dev.to/aws-builders/minimal-aws-sso-setup-for-personal-aws-development-220k)
+- [Setting up Kubernetes on AWS (2022)](https://blog.cyborch.com/setting-up-kubernetes-on-aws/)
+- [CSI driver for Amazon EBS](https://github.com/kubernetes-sigs/aws-ebs-csi-driver)
+- [IAM Credentials Rotator](https://github.com/willdady/cdk-iam-credentials-rotator) - AWS CDK construct for rotating IAM user credentials and sending to a third party.
+- [Amazon ECS "Deploy Task Definition" Action for GitHub Actions](https://github.com/aws-actions/amazon-ecs-deploy-task-definition)
+- [SageMaker Python SDK](https://github.com/aws/sagemaker-python-sdk) - Open source library for training and deploying machine learning models on Amazon SageMaker.
+- [Async AWS SDK for Python](https://github.com/terrycain/aioboto3)
+- [AWS Bootstrap Kit Examples Overview](https://github.com/aws-samples/aws-bootstrap-kit-examples)
+- [s4cmd](https://github.com/bloomreach/s4cmd) - Super S3 command line tool.
+- [Alohomora](https://github.com/gagoar/alohomora) - CLI that makes using AWS Parameter Store... as simple as the flick of a wand.
+- [A magical AWS serverless developer experience (2022)](https://journal.plain.com/posts/2022-02-08-a-magical-aws-serverless-developer-experience/) ([HN](https://news.ycombinator.com/item?id=30827038))
+- [AWS.jl](https://github.com/JuliaCloud/AWS.jl) - Julia interface to AWS.
+- [AWS SDK for Java](https://github.com/aws/aws-sdk-java)
+- [AWS Cloud Development Kit (CDK) for LocalStack](https://github.com/localstack/aws-cdk-local)
+- [Baby's First AWS Deployment (2022)](https://blog.verygoodsoftwarenotvirus.ru/posts/babys-first-aws/)
+- [Awesome ECS](https://github.com/nathanpeck/awesome-ecs)
+- [Soto S3 Transfer](https://github.com/soto-project/soto-s3-file-transfer) - Make uploading and downloading of files to AWS S3 easy.
+- [Stacktape](https://stacktape.com/) - DevOps-free application development. ([Code](https://github.com/stacktape/stacktape)) ([HN](https://news.ycombinator.com/item?id=31014247))
+- [ElectricEye](https://github.com/jonrau1/ElectricEye) - Continuously monitor your AWS services for configurations that can lead to degradation of confidentiality, integrity or availability.
+- [AWS Encryption SDK for JavaScript](https://github.com/aws/aws-encryption-sdk-javascript)
+- [Typescript 2 ASL Transpiler](https://github.com/OlafConijn/ts2asl)
+- [Cloud Governance with CDK using Aspects (2022)](https://www.nearform.com/blog/cloud-governance-with-cdk-using-aspects/)
+- [10 CloudWatch Logs Insights examples for serverless applications (2022)](https://dev.to/aws-heroes/10-cloudwatch-logs-insights-examples-for-serverless-applications-4293)
+- [Biggest mistakes you see startups making in AWS](https://twitter.com/jrhunt/status/1511174998894931971)
+- [aws-auth](https://github.com/keikoproj/aws-auth) - Makes the management of the aws-auth config map for EKS Kubernetes clusters easier.
+- [Amazon CloudWatch Agent](https://github.com/aws/amazon-cloudwatch-agent)
+- [S3 Account Search](https://github.com/WeAreCloudar/s3-account-search) - Tool lets you find the account id an S3 bucket belongs too.
+- [aws-sso-util](https://github.com/benkehoe/aws-sso-util) - Making life with AWS SSO a little easier.
+- [Cloudy](https://github.com/skyrpex/cloudy) - Set of constructs for the AWS Cloud Development Kit that aim to improve the DX by providing a faster and type-safe code environment.
+- [Altimeter](https://github.com/tableau/altimeter) - Graph AWS resources in Neptune.
+- [python_fasts3](https://github.com/joshuarobinson/python_fasts3) - Fast S3 in Python using Rust.
+- [AWS RDS Terraform module](https://github.com/terraform-aws-modules/terraform-aws-rds) - Terraform module which creates RDS resources on AWS.
+- [goproxy-s3](https://github.com/rakyll/goproxy-s3) - Go proxy that serves from S3.
+- [Scaling containers on AWS in 2022](https://www.vladionescu.me/posts/scaling-containers-on-aws-in-2022/)
+- [FP Complete AWS Foundation](https://github.com/fpco/terraform-aws-foundation) - Establish a solid Foundation on AWS with these modules for Terraform.
+- [Cross-account / cross-domain EventBridge example](https://github.com/fourTheorem/cross-account-eventbridge) - Demonstration of using EventBridge across accounts to publish cross-domain application events.
+- [SLIC Starter](https://github.com/fourTheorem/slic-starter) - Complete starter project for production-grade serverless applications on AWS.
+- [SLIC Watch](https://github.com/fourTheorem/slic-watch) - Easy alarms and dashboards for Lambda, DynamoDB, API Gateway, Kinesis, Step Functions and more.
+- [AI as a Service: Serverless machine learning with AWS (2020)](https://www.manning.com/books/ai-as-a-service) ([Code](https://github.com/fourTheorem/ai-as-a-service))
+- [aws-account-shredder](https://github.com/openshift/aws-account-shredder) - Repository to audit, service, and clean up leftover AWS resources.
+- [AWS EKS ASG Rolling Update Handler](https://github.com/TwiN/aws-eks-asg-rolling-update-handler) - Handles rolling upgrades for AWS ASGs for EKS.
+- [Amazon Aurora Serverless v2 is Generally Available: Instant Scaling for Demanding Workloads (2022)](https://aws.amazon.com/blogs/aws/amazon-aurora-serverless-v2-is-generally-available-instant-scaling-for-demanding-workloads/)
+- [Session Manager Plugin](https://github.com/aws/session-manager-plugin) - Plugin to help you use the AWS Command Line Interface (AWS CLI) to start and end sessions to your managed instances.
+- [AWSSSMChaosRunner](https://github.com/amzn/awsssmchaosrunner) - Amazon's light-weight library for chaos engineering on AWS. It can be used for EC2 and ECS (with EC2 launch type).
+- [Terraform AWS Backup](https://github.com/cloudposse/terraform-aws-backup)
+- [Terraform AWS CI/CD](https://github.com/cloudposse/terraform-aws-cicd) - Terraform Module for CI/CD with AWS Code Pipeline and Code Build.
+- [Code generator for AWS Controllers for Kubernetes](https://github.com/aws-controllers-k8s/code-generator)
+- [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform)
+- [Sceptre](https://github.com/Sceptre/sceptre) - Tool to drive AWS CloudFormation.
+- [AWS Should Be Easy](https://github.com/nathants/libaws) - Simpler infrastructure as code specification. ([HN](https://news.ycombinator.com/item?id=31478189))
+- [Amazon Redshift re-invented (2022)](https://www.amazon.science/publications/amazon-redshift-re-invented) ([HN](https://news.ycombinator.com/item?id=31448846))
+- [Poro](https://github.com/9rnt/poro) - Scan publicly accessible assets on your AWS cloud environment.
+- [AWSS Bootstrap](https://awsbootstrap.io/) - Full stack on AWS in one click.
+- [OpenApiX](https://github.com/alma-cdk/openapix) - Combine the power of AWS CDK & OpenAPI YAML Schema Definitions.
+- [Amazon EKS Blueprints for CDK](https://github.com/aws-quickstart/cdk-eks-blueprints)
+- [Graviton 3: First Impressions (2022)](https://chipsandcheese.com/2022/05/29/graviton-3-first-impressions/) ([HN](https://news.ycombinator.com/item?id=31548989))
+- [AWS Datadog Forwarders Terraform module](https://github.com/terraform-aws-modules/terraform-aws-datadog-forwarders) - Terraform module which creates resources to forward logs and metrics to Datadog on AWS.
+- [Learn Amazon SageMaker Book (2021)](https://www.packtpub.com/product/learn-amazon-sagemaker-second-edition/9781801817950) ([Code](https://github.com/PacktPublishing/Learn-Amazon-SageMaker-second-edition))
+- [dns53](https://github.com/purpleclay/dns53) - Dynamic DNS within Amazon Route53. Expose your EC2 quickly, easily and privately.
+- [Getting started with AWS Graviton](https://github.com/aws/aws-graviton-getting-started)
+- [YACE](https://github.com/nerdswords/yet-another-cloudwatch-exporter) - AWS CloudWatch to Prometheus exporter.
+- [SSO Sync](https://github.com/awslabs/ssosync) - Populate AWS SSO directly with your G Suite users and groups using either a CLI or AWS Lambda.
+- [openrolesanywhere](https://github.com/aidansteele/openrolesanywhere) - Open-source proof-of-concept client for AWS IAM Roles Anywhere.
+- [AWS Cloud Provider for Kubernetes](https://github.com/kubernetes/cloud-provider-aws)
+- [ecspresso](https://github.com/kayac/ecspresso) - Deployment tool for Amazon ECS.
+- [Microservice Observability with Amazon OpenSearch Service Workshop](https://github.com/aws-samples/observability-with-amazon-opensearch)
+- [Complete AWS IAM Reference](https://iam.cloudonaut.io/) ([Code](https://github.com/widdix/complete-aws-iam-reference))
+- [AWS AppSync Real Time Client iOS](https://github.com/aws-amplify/aws-appsync-realtime-client-ios)
+- [CDK Bill Bot](https://github.com/cremich/cdk-bill-bot) - Serverless cost optimization bot.
+- [Hugging Face Transformers and Habana Gaudi AWS DL1 Instances (2022)](https://www.philschmid.de/habana-distributed-training)
+- [Cfplot](https://github.com/jaredtrog/cfplot) - Generate waterfall graphs of CloudFormation. ([HN](https://news.ycombinator.com/item?id=32280162))
+- [S3 Datastore Implementation](https://github.com/ipfs/go-ds-s3)
+- [Matano](https://github.com/matanolabs/matano) - Open-source serverless security lake powered by Rust + Apache Iceberg.
+- [Serverless Snippets Collection](https://serverlessland.com/snippets) ([Code](https://github.com/aws-samples/serverless-snippets))
+- [AWS Neuron](https://github.com/aws/aws-neuron-sdk) - Enabling high-performance deep learning inference using AWS Inferentia custom designed machine learning chips.
+- [MinIO Rust](https://github.com/minio/minio-rs) - SDK for Amazon S3 Compatible Cloud Storage.
+- [CDK-nag](https://github.com/cdklabs/cdk-nag) - Check CDK applications for best practices using a combination of available rule packs.
+- [CDK-watchful](https://github.com/cdklabs/cdk-watchful) - AWS CDK construct library that makes it easy to monitor CDK apps.
+- [aws-delivlib](https://github.com/cdklabs/aws-delivlib) - Library for defining continuous pipelines for building, testing and publishing code libraries through AWS CodeBuild and AWS CodePipeline.
+- [CDK Monitoring Constructs](https://github.com/cdklabs/cdk-monitoring-constructs) - Easy-to-use CDK constructs for monitoring your AWS infrastructure.
+- [CDK Pipelines for GitHub Workflows](https://github.com/cdklabs/cdk-pipelines-github)
+- [Construct Hub](https://github.com/cdklabs/construct-hub) - Maintains a AWS Cloud Development Kit construct library that can be used to deploy instances of the Construct Hub in any AWS Account.
+- [Cloudformation 2 Terraform](https://github.com/DontShaveTheYak/cf2tf) - Convert Cloudformation templates to Terraform.
+- [AWS Open Sources Event Ruler (2022)](https://www.infoq.com/news/2022/09/aws-event-ruler/)
+- [AWS Tech Conference](https://www.aws-user-group.com.ua/)
+- [Granted](https://granted.dev/) - View multiple AWS regions and accounts at the same time. ([Code](https://github.com/common-fate/granted))
+- [We reduced our annual server costs by 80% by moving away from AWS (2022)](https://levelup.gitconnected.com/how-we-reduced-our-annual-server-costs-by-80-from-1m-to-200k-by-moving-away-from-aws-2b98cbd21b46) ([HN](https://news.ycombinator.com/item?id=33007873))
+- [Amazon SageMaker Developer Guide](https://github.com/awsdocs/amazon-sagemaker-developer-guide/blob/master/doc_source/index.md)
+- [Have lots of AWS accounts (2022)](https://src-bin.com/you-should-have-lots-of-aws-accounts/) ([HN](https://news.ycombinator.com/item?id=33069547))
+- [CloudFox](https://github.com/BishopFox/cloudfox) - Automating situational awareness for cloud penetration tests.
+- [AWS Security Survival Kit](https://github.com/zoph-io/aws-security-survival-kit)
+- [ecschedule](https://github.com/Songmu/ecschedule) - Tool to manage ECS Scheduled Tasks.
+- [FireSquid](https://github.com/sousandrei/firesquid) - Simple AWS Firecracker MicroVM Orchestrator.
+- [troposphere](https://github.com/cloudtools/troposphere) - Python library to create AWS CloudFormation descriptions.
+- [Managing resource permissions with AWS SAM connectors](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/managing-permissions-connectors.html) ([Tweet](https://twitter.com/alexwwood/status/1578436134522474496))
+- [AWS MWAA Local Runner](https://github.com/aws/aws-mwaa-local-runner) - Replicates an Amazon Managed Workflows for Apache Airflow (MWAA) environment locally.
+- [The State of AWS Security](https://www.datadoghq.com/state-of-aws-security/) ([HN](https://news.ycombinator.com/item?id=33174046))
+- [aws4fetch](https://github.com/mhart/aws4fetch) - Compact AWS client for modern JS environments.
+- [Does anyone else finds AWS and other Amazon services overly complicated? (2022)](https://news.ycombinator.com/item?id=33490314)
+- [AWS EC2 Instance Terraform module](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance)
+- [Terraform AWS Components](https://github.com/cloudposse/terraform-aws-components) - Opinionated, self-contained Terraform root modules that each solve one, specific problem.
+- [Data Engineering with AWS (2021)](https://www.packtpub.com/product/data-engineering-with-aws/9781800560413) ([Code](https://github.com/PacktPublishing/Data-Engineering-with-AWS))
+- [alterNAT](https://github.com/1debit/alternat) - High availability implementation of AWS NAT instances.
+- [AWS IAM Roles, a tale of unnecessary complexity (2022)](https://infosec.rodeo/posts/thoughts-on-aws-iam/) ([HN](https://news.ycombinator.com/item?id=33566419))
+- [Empire](https://github.com/remind101/empire) - PaaS built on top of Amazon EC2 Container Service (ECS).
+- [Now Go Build with Werner Vogels | AWS - YouTube](https://www.youtube.com/playlist?list=PLhr1KZpdzukdIpgzSSCkNsnRAwDz6Xx5B)
+- [AWS Policy Simulator](https://github.com/tonygoold/awspolicy) - Offline tool for parsing and evaluating AWS IAM policies.
+- [RioFS](https://github.com/skoobe/riofs) - Userspace filesystem for Amazon S3 buckets for servers that run on Linux and macOS.
+- [Amazon S3 User Guide](https://github.com/awsdocs/amazon-s3-userguide)
+- [AWS Security Workshops](https://github.com/aws-samples/aws-security-workshops) ([Web](https://awssecworkshops.com/))
+- [Awesome AWS Security](https://github.com/jassics/awesome-aws-security)
+- [coldsnap](https://github.com/awslabs/coldsnap) - Command line interface for Amazon EBS snapshots.
+- [AWS Step Functions examples](https://github.com/aws-samples/aws-stepfunctions-examples)
+- [eks-node-viewer](https://github.com/awslabs/eks-node-viewer) - Tool for visualizing dynamic node usage within a cluster.
+- [IAM Legend](https://github.com/TastefulElk/iam-legend) - AWS IAM actions autocomplete, documentation and wildcard resolution for Visual Studio Code.
+- [AWS-C-IO](https://github.com/awslabs/aws-c-io) - Module for the AWS SDK for C. It handles all IO and TLS work for application protocols.
+- [Lambda, Rust, and CDK](https://github.com/danilop/lambda-rust-and-cdk)
+- [List of open geospatial datasets on AWS](https://github.com/giswqs/aws-open-data-geo)
+- [AWS re:Invent 2022 - A day in the life of a billion requests](https://www.youtube.com/watch?v=tPr1AgGkvc4)
+- [IAM Floyd](https://github.com/udondan/iam-floyd) - AWS IAM policy statement generator with fluent interface.
+- [AWS Events Playlists - YouTube](https://www.youtube.com/@AWSEventsChannel/playlists)
+- [AWS re:Invent 2022 - Practical experience with a serverless-first strategy at Capital One](https://www.youtube.com/watch?v=NZVNAEK6shc)
+- [AWS re:Invent 2022 - Designing event-driven integrations using Amazon EventBridge](https://www.youtube.com/watch?v=W3Rh70jG-LM)
+- [SST](https://github.com/serverless-stack/sst) - Makes it easy to build full-stack serverless applications on AWS.
+- [s3d](https://github.com/s3d-rs/s3d) - Daemon for data access using S3 API.
+- [AWS CDK bindings for Go](https://github.com/aws/aws-cdk-go)
+- [eksdemo](https://github.com/aaroniscode/eksdemo) - kubectl-like CLI for Amazon EKS.
+- [aioaws](https://github.com/samuelcolvin/aioaws) - Asyncio compatible SDK for aws services.
+- [Basti](https://github.com/BohdanPetryshyn/basti) - Connect to AWS DBs with no idle cost. No SSH keys. IAM-driven.
+- [s3s](https://github.com/Nugine/s3s) - S3 Service Adapter.
+- [itty-aws](https://github.com/sam-goodwin/itty-aws) - Tiny AWS SDK for TypeScript.
+- [Hardeneks](https://github.com/aws-samples/hardeneks) - Runs checks to see if an EKS cluster follows EKS Best Practices.
+- [Understanding AWS Services for Modern Cloud Architectures (2023)](https://bas.codes/posts/aws-architecture-overengineering)
+- [AWS Cost CLI](https://github.com/kamranahmedse/aws-cost-cli) - CLI tool to perform cost analysis on your AWS account with Slack integration.
+- [Pulumi AWS Infrastructure Components](https://github.com/pulumi/pulumi-awsx)
+- [Convox Rack](https://github.com/convox/rack) - Private PaaS that runs in your AWS account.
+- [aws-whoami](https://github.com/benkehoe/aws-whoami) - Show what AWS account and identity you're using.
+- [Taming AWS Costs (2023)](https://www.maxcountryman.com/articles/taming-aws-costs)
+- [AWS Creates New Policy-Based Access Control Language Cedar (2023)](https://www.infoq.com/news/2023/02/aws-policy-language-cedar/) ([HN](https://news.ycombinator.com/item?id=34865768))
+- [aws-whoami](https://github.com/benkehoe/aws-whoami-golang) - Find what AWS account and identity you're using.
+- [Usage AI](https://www.usage.ai/) - Cut AWS Spend in 5 Minutes. ([HN](https://news.ycombinator.com/item?id=34988505))
+- [Все что ты хотел знать о AWS Spot Instances, но боялся спросить (2023)](https://habr.com/en/post/719052/)
+- [Cloudlens](https://github.com/one2nc/cloudlens) - AWS Console in your terminal.
+- [Pull Request Preview Environments with AWS CDK and GitHub Actions](https://github.com/nikovirtala/cdk-preview-environments)
+- [AWS Serverless AI Stories](https://github.com/aws-samples/aws-serverless-ai-stories) - Using Lambda, EventBridge, DynamoDB, App Runner, ChatGPT and DALL-E.
+- [Mountpoint](https://github.com/awslabs/mountpoint-s3) - File client for S3 written in Rust, from AWS. ([HN](https://news.ycombinator.com/item?id=35155944))
+- [AWS icons](https://aws-icons.com/) - As SVG and PNG.
+- [AWS SDK v3 Client mock](https://github.com/m-radzikowski/aws-sdk-client-mock)
+- [Amazon EKS User Guide](https://github.com/awsdocs/amazon-eks-user-guide)
+- [deCDK](https://github.com/cdklabs/decdk) - Define AWS CDK applications declaratively.
+- [Farewell to the Era of Cheap EC2 Spot Instances (2023)](https://pauley.me/post/2023/spot-price-trends/) ([Lobsters](https://lobste.rs/s/4ctd8v/farewell_era_cheap_ec2_spot_instances)) ([HN](https://news.ycombinator.com/item?id=35802157))
+- [tracing-cloudwatch](https://github.com/ymgyt/tracing-cloudwatch) - Custom tracing-subscriber layer that sends your application's tracing events(logs) to AWS CloudWatch Logs.
+- [eksdemo](https://github.com/awslabs/eksdemo) - kubectl-like CLI for Amazon EKS.
+- [Amazon Ion Rust](https://github.com/amazon-ion/ion-rust) - Rust implementation of the Amazon Ion data format.
+- [How to make public S3 bucket](https://stackoverflow.com/questions/71080354/getting-the-bucket-does-not-allow-acls-error#:~:text=You%20should%20be%20able%20to,the%20option%20%22ACLs%20enabled%22.)
+- [How Canva saves Amazon S3 costs](https://www.canva.dev/blog/engineering/optimising-s3-savings/) ([HN](https://news.ycombinator.com/item?id=36388178))
+- [AWS Docs GPT](https://www.awsdocsgpt.com/)
+- [Breeze](https://github.com/swift-sprinter/Breeze) - Serverless API using AWS APIGateway, Lambda, DynamoDB in Swift.
+- [AWS GoFormation](https://github.com/awslabs/goformation) - Go library for working with CloudFormation templates.

@@ -1,0 +1,233 @@
+# Data Visualization
+
+[Vega](https://vega.github.io/) is great. [Hands-On Data Visualization Book](https://handsondataviz.org/) & [Common Plots](https://aeturrell.github.io/coding-for-economists/vis-common-plots.html) are nice intros.
+
+[Observable Plot](https://github.com/observablehq/plot) & [Rath](https://github.com/Kanaries/Rath) are great.
+
+## Nice examples
+
+- [America’s Highest Earners And Their Taxes Revealed](https://projects.propublica.org/americas-highest-incomes-and-taxes-revealed/)
+
+## Notes
+
+- [Next time you want to lie with data, use areas. Next time you see a chart with areas, know you’re being lied to.](https://twitter.com/swombat/status/1541029081264832513)
+
+## Links
+
+- [Vega](http://vega.github.io/) - Declarative format for creating, saving, and sharing visualization designs. ([Code](https://github.com/vega/vega))
+- [Vega-Lite](https://vega.github.io/vega-lite/) - High-level grammar of interactive graphics. Provides a concise JSON syntax for rapidly generating visualizations to support analysis. ([Code](https://github.com/vega/vega-lite)) ([HN](https://news.ycombinator.com/item?id=24937954))
+- [Vega-Lite API](https://github.com/vega/vega-lite-api) - JavaScript API for Vega-Lite.
+- [Vega Editor](https://vega.github.io/editor/#/)
+- [VegaGraphs](https://github.com/JuliaGraphs/VegaGraphs.jl) - Implements graph visualization with Vega-Lite.
+- [vega-bundler](https://github.com/vega/vega-bundler) - Compile optimized Vega and Vega-Lite bundles.
+- [react-vega](https://github.com/vega/react-vega) - Convert Vega spec into React class conveniently.
+- [altair_recipes](https://github.com/piccolbo/altair_recipes) - Collection of ready-made statistical graphics for vega.
+- [XVega](https://github.com/QuantStack/xvega) - C++ API to Vega-Lite.
+- [Fundamentals of Data Visualization book (2019)](https://serialmentor.com/dataviz/)
+- [Most cited scientific papers within data visualization (2019)](https://www.reddit.com/r/dataisbeautiful/comments/am2xk4/most_cited_scientific_papers_within_data/)
+- [Visualization of related subreddits](https://github.com/anvaka/sayit)
+- [Draco](https://github.com/uwdata/draco) - Formal framework for representing design knowledge about effective visualization design as a collection of constraints.
+- [Observable](https://observablehq.com/) - Magic notebook for visualization. ([Product](https://observablehq.com/product))
+- [Bl.ocks](https://bl.ocks.org/) - Simple viewer for sharing code examples hosted on GitHub Gist.
+- [react-vis](https://github.com/uber/react-vis) - Data Visualization Components.
+- [deck.gl](https://deck.gl/#/) - WebGL-powered framework for visual exploratory data analysis of large datasets.
+- [Flourish](https://flourish.studio/) - Quickly turn your spreadsheets into stunning online charts, maps and interactive stories. ([Twitter](https://twitter.com/f_l_o_u_r_i_s_h))
+- [Dash App Gallery](https://dash-gallery.plotly.host/Portal/)
+- [Scientific Visualization: Python + Matplotlib Book (2021)](https://github.com/rougier/scientific-visualization-book)
+- [Awesome Interactive Journalism](https://github.com/wbkd/awesome-interactive-journalism)
+- [SandDance](https://github.com/microsoft/SandDance) - Visually explore, understand, and present your data.
+- [Bokeh](https://github.com/bokeh/bokeh) - Interactive Data Visualization in the browser, from Python.
+- [In praise of scatter plots (2019)](https://johnwickerson.wordpress.com/2019/10/22/scatter-plots/)
+- [Perspective](https://github.com/finos/perspective/) - Streaming pivot visualization via WebAssembly. ([Web](https://perspective.finos.org/))
+- [Bar Chart Race, Explained (2019)](https://observablehq.com/@d3/bar-chart-race-explained)
+- [owid-grapher](https://github.com/owid/owid-grapher) - Interactive data visualizations done quickly.
+- [HoloViz](http://holoviz.org/) - High-level tools to simplify visualization in Python.
+- [Datashader](https://datashader.org/) - Graphics pipeline system for creating meaningful representations of large datasets quickly and flexibly.
+- [Perception in Visualization](https://www.csc2.ncsu.edu/faculty/healey/PP/index.html)
+- [Prize winning JS solution for the Telegram April 2019 coding contest](https://github.com/Finesse/telegram-chart)
+- [New technique for making responsive, JavaScript-free charts (2020)](https://dev.to/richharris/a-new-technique-for-making-responsive-javascript-free-charts-gmp)
+- [HiPlot](https://github.com/facebookresearch/hiplot) - Lightweight interactive visualization tool to help AI researchers discover correlations and patterns in high-dimensional data. ([Article](https://ai.facebook.com/blog/hiplot-high-dimensional-interactive-plots-made-easy/)) ([HN](https://news.ycombinator.com/item?id=22270727))
+- [Explorabl.es](https://explorabl.es/) - Hub for learning through play. ([HN](https://news.ycombinator.com/item?id=22368323)) ([Code](https://github.com/explorableexplanations/explorableexplanations.github.io))
+- [Interactive Data Visualization course (2020)](http://vis.csail.mit.edu/classes/6.894/)
+- [Vega-Embed](https://github.com/vega/vega-embed) - Makes it easy to embed interactive Vega and Vega-Lite views into web pages.
+- [Facette](https://github.com/facette/facette) - Time series data visualization software.
+- [Experimental 3D axis for matplotlib](https://github.com/rougier/matplotlib-3d)
+- [Our World in Data](https://ourworldindata.org/) - Research and data to make progress against the world’s largest problems. ([GitHub](https://github.com/owid))
+- [PlotJuggler](https://github.com/facontidavide/PlotJuggler) - QT5 based application to display time series in plots, using an intuitive "drag and drop" interface. ([Web](https://plotjuggler.io/)) ([HN](https://news.ycombinator.com/item?id=25357714))
+- [Lightweight Charts](https://github.com/tradingview/lightweight-charts) - Financial lightweight charts built with HTML5 canvas.
+- [Glue](https://github.com/glue-viz/glue) - Python project to link visualizations of scientific datasets across many files. ([Web](http://glueviz.org/index.html)) ([Multi Dimensional Linked Data Exploration with Glue](https://www.youtube.com/watch?v=TkMZ9gZ8xtk))
+- [Learning Observable](https://www.youtube.com/playlist?list=PLOHIJAFwtkEfEsafMd9BY3KWsRrz7FV5e)
+- [BizCharts](https://github.com/alibaba/BizCharts) - Powerful data visualization library based on G2 and React.
+- [Bar Chart Race](https://github.com/dexplo/bar_chart_race/) - Make animated bar chart races in Python with matplotlib. ([Docs](https://www.dexplo.org/bar_chart_race/)) ([Article](https://www.dunderdata.com/blog/official-release-of-bar_chart_race-a-python-package-for-creating-animated-bar-chart-races))
+- [Gallery of Concept Visualization](http://conceptviz.github.io/#/e30=) - Features projects which use pictures to communicate complex and difficult ideas.
+- [Vida](https://vida.io/) - Software tool that reads JSON files and turns them into compelling dashboards. ([Code](https://github.com/vidalab/vida))
+- [Best of the visualization web (2020)](https://www.visualisingdata.com/2020/07/best-of-the-visualisation-web-april-2020/)
+- [Data Visualisation Catalogue](https://datavizcatalogue.com/index.html) ([HN](https://news.ycombinator.com/item?id=23915694))
+- [Muze](https://muzejs.org/) - Free data visualization library to create Tableau-like charts in browser.
+- [Beautiful News](https://informationisbeautiful.net/beautifulnews/) - Unseen trends, uplifting stats - daily.
+- [Data-Visualization Books Everyone Should Read](https://informationisbeautiful.net/visualizations/dataviz-books/)
+- [Information is Beautiful](https://informationisbeautiful.net/)
+- [e-sum](https://anvaka.github.io/e-sum/) - Visualization of exponential sums. ([Code](https://github.com/anvaka/e-sum))
+- [Matplot++](https://github.com/alandefreitas/matplotplusplus) - C++ Graphics Library for Data Visualization.
+- [How to pick more beautiful colors for your data visualizations (2020)](https://blog.datawrapper.de/beautifulcolors/) ([HN](https://news.ycombinator.com/item?id=24391049))
+- [Kyrix](https://github.com/tracyhenry/Kyrix) - Interactive details-on-demand data visualizations at scale.
+- [Dash Deck](https://github.com/plotly/dash-deck) - Library for building 3D interactive maps and graphical visualizations directly in Dash.
+- [Apache ECharts](https://github.com/apache/incubator-echarts) - Powerful, interactive charting and data visualization library for browser. ([Web](https://echarts.apache.org/en/index.html))
+- [ECHARTS-GL](https://github.com/ecomfe/echarts-gl) - Extension pack of Apache ECharts, which providing 3D plots, globe visualization and WebGL acceleration.
+- [plotly.py](https://github.com/plotly/plotly.py) - Interactive graphing library for Python (includes Plotly Express).
+- [Gnuplot 5 book](https://alogus.com/g5script/gnuplot5/)
+- [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling) - Create HTML profiling reports from pandas DataFrame objects.
+- [ImPlot](https://github.com/epezent/implot) - Immediate mode, GPU accelerated plotting library for Dear ImGui.
+- [Edward Tufte: Seeing with Fresh book (2020)](https://www.edwardtufte.com/tufte/seeing-with-fresh-eyes)
+- [Why We're Building Observable (2020)](https://observablehq.com/@observablehq/why-were-building-observable) ([HN](https://news.ycombinator.com/item?id=25161409))
+- [Global population density graphic (2020)](https://twitter.com/undertheraedar/status/1332733136715780096)
+- [Lux](https://github.com/lux-org/lux) - Python API for Intelligent Visual Data Discovery.
+- [ETE (Environment for Tree Exploration)](https://github.com/etetoolkit/ete) - Python programming toolkit that assists in the automated manipulation, analysis and visualization of phylogenetic trees. ([Web](http://etetoolkit.org/))
+- [From data to Viz](https://www.data-to-viz.com/) - Find the graphic you need. ([Code](https://github.com/holtzy/data_to_viz))
+- [hvPlot](https://github.com/holoviz/hvplot) - High-level plotting API for pandas, dask, xarray, and networkx built on HoloViews. ([Docs](https://hvplot.holoviz.org/))
+- [HoloViz](https://holoviz.org/) - High-level tools to simplify visualization in Python. ([GitHub](https://github.com/holoviz))
+- [tikzplotlib](https://github.com/nschloe/tikzplotlib) - Convert matplotlib figures to TikZ/PGFplots for smooth integration into LaTeX.
+- [Chartify](https://github.com/spotify/chartify) - Python library that makes it easy for data scientists to create charts.
+- [G6](https://github.com/antvis/G6) - Graph Visualization Framework in TypeScript.
+- [Ask HN: What low-code “dashboarding“ SaaS would you recommend in 2021?](https://news.ycombinator.com/item?id=25579379)
+- [Datashader](https://github.com/holoviz/datashader) - Quickly and accurately render even the largest data. ([Docs](https://datashader.org/))
+- [VisPy](https://github.com/vispy/vispy) - Interactive scientific visualization in Python. ([Web](http://vispy.org/))
+- [ChartSeer](https://github.com/jeffjianzhao/ChartSeer) - Visualization tool that helps analysts steer their exploratory visual analysis (EVA) through dynamic visualization and recommendation of charts.
+- [dygraphs](https://github.com/danvk/dygraphs) - Interactive visualizations of time series using JavaScript and the HTML canvas tag. ([Web](https://dygraphs.com/))
+- [Raincloud Plots](https://github.com/RainCloudPlots/RainCloudPlots) - Code and tutorials to visualise your data that is both beautiful _and_ statistically valid.
+- [Data Visualization and the Modern Imagination](https://exhibits.stanford.edu/dataviz/) ([HN](https://news.ycombinator.com/item?id=25916646))
+- [Awesome visualization research](https://github.com/mathisonian/awesome-visualization-research)
+- [RAWGraphs](https://rawgraphs.io/) - Open web tool to create custom vector-based visualizations on top of the amazing d3.js library. ([Code](https://github.com/rawgraphs/rawgraphs-app))
+- [Zeu.js](https://github.com/shzlw/zeu) - JavaScript library for real-time visualization. ([Docs](https://shzlw.github.io/zeu/docs/introduction.html))
+- [Which color scale to use when visualizing data (2021)](https://blog.datawrapper.de/which-color-scale-to-use-in-data-vis/)
+- [go-tsne](https://github.com/danaugrs/go-tsne) - Go implementation of t-Distributed Stochastic Neighbor Embedding (t-SNE), a prize-winning technique for dimensionality reduction particularly well suited for visualizing high-dimensional datasets.
+- [Expose your private Grafana dashboards with TLS (2021)](https://blog.alexellis.io/expose-grafana-dashboards/)
+- [Dataviz Accessibility Resources](https://github.com/dataviza11y/resources)
+- [Online text to diagram tools](https://xosh.org/text-to-diagram/)
+- [Serial Studio](https://github.com/Serial-Studio/Serial-Studio) - Multi-purpose serial data visualization & processing program. ([Web](https://www.alex-spataru.com/serial-studio.html))
+- [Chartability](https://chartability.fizz.studio/) - Methodology for ensuring that data visualizations, systems, and interfaces are accessible.
+- [Battle of the Python Dashboarding Giants: Streamlit vs. Dash vs. Voilà vs. Panel (2021)](https://medium.datadriveninvestor.com/streamlit-vs-dash-vs-voil%C3%A0-vs-panel-battle-of-the-python-dashboarding-giants-177c40b9ea57) ([HN](https://news.ycombinator.com/item?id=26842510))
+- [Semiotic](https://github.com/nteract/semiotic) - Data visualization framework combining React & D3. ([Web](https://semiotic.nteract.io/))
+- [Grafar](https://github.com/thoughtspile/grafar) - JavaScript library for reactive, 3D mathematical visualization. ([Web](https://thoughtspile.github.io/grafar/#/))
+- [Observable Plot](https://github.com/observablehq/plot) - JavaScript library for exploratory data visualization. ([Web](https://observablehq.com/@observablehq/plot)) ([HN](https://news.ycombinator.com/item?id=27036768)) ([Tweet](https://twitter.com/FrankElavsky/status/1389961152545890308)) ([Tweet](https://twitter.com/simonw/status/1389615048880914437)) ([HN](https://news.ycombinator.com/item?id=33966057)) ([HN](https://news.ycombinator.com/item?id=35720940)) ([Web](https://observablehq.com/plot/))
+- [Dataflow](https://github.com/asg017/dataflow) - Self-hosted Observable notebook editor, with support for FileAttachments, Secrets, custom standard libraries, and more. ([Web](https://alexgarcia.xyz/dataflow/)) ([Demo](https://observablehq.com/@asg017/introducing-dataflow)) ([HN](https://news.ycombinator.com/item?id=27145515))
+- [VisualDL](https://github.com/PaddlePaddle/VisualDL) - Deep Learning Visualization Toolkit.
+- [Creating Data: Deep scatterplots](http://creatingdata.us/techne/deep_scatterplots/#)
+- [Awesome dataviz tools by Cube.js](https://awesome.cube.dev/) ([Reddit](https://www.reddit.com/r/programming/comments/o7poas/opensource_list_of_data_visualization_tools/))
+- [Framework for visualizing data encoded as JSON](https://github.com/hediet/visualization)
+- [Railroad-diagram Generator](https://github.com/tabatkins/railroad-diagrams) - Small JS+SVG library for drawing railroad syntax diagrams, like on JSON.org.
+- [ProPlot](https://github.com/lukelbd/proplot) - Lightweight matplotlib wrapper for making beautiful, publication-quality graphics. ([Docs](https://proplot.readthedocs.io/en/latest/))
+- [Seaborn](https://github.com/mwaskom/seaborn) - Statistical data visualization in Python. ([Web](https://seaborn.pydata.org/))
+- [dtreeviz](https://github.com/parrt/dtreeviz) - Python library for decision tree visualization and model interpretation.
+- [In defense of simple charts (2021)](https://blog.datawrapper.de/in-defense-of-simple-charts/) - Simple visualization types don’t need to be boring.
+- [Visualizing a codebase (2021)](https://octo.github.com/projects/repo-visualization) ([Tweet](https://twitter.com/Wattenberger/status/1423259472919674882)) ([Lobsters](https://lobste.rs/s/ipghop/visualizing_codebase))
+- [Data Visualization with D3, JavaScript, React - Full Course (2021)](https://www.youtube.com/watch?v=2LhoCfjm8R4)
+- [clip](https://github.com/asmuth/clip) - Create charts from the command line. ([Web](https://clip-lang.org/))
+- [Kroki](https://kroki.io/) - Creates diagrams from textual descriptions. ([Code](https://github.com/yuzutech/kroki)) ([CLI](https://github.com/yuzutech/kroki-cli))
+- [Awesome Charting](https://github.com/zingchart/awesome-charting)
+- [Vizzu](https://github.com/vizzuhq/vizzu-lib) - Library for animated data visualizations and data stories.
+- [Yagr](https://github.com/yandex-cloud/yagr) - High performance HTML5 canvas chart renderer based on uPlot. It provides high-level features for uPlot charts.
+- [Pandas_Alive](https://github.com/JackMcKew/pandas_alive) - Animated plotting extension for Pandas with Matplotlib.
+- [Literate Visualization](https://github.com/gicentre/litvis) - Light-touch approach to designing, building and describing visualization. ([Web](https://www.gicentre.net/litvis))
+- [Irydium](https://github.com/irydium/irydium) - Interactive documents and data visualizations in markdown. ([Web](https://irydium.dev/))
+- [Data Visualization: attribute types and their graphical elements (2021)](https://robertodip.com/blog/data-visualization-marks-and-channels/)
+- [Mermaid Live Editor](https://mermaid.live/) - Online FlowChart & Diagrams Editor. ([Code](https://github.com/mermaid-js/mermaid-live-editor))
+- [Percival](https://github.com/ekzhang/percival) - Declarative data query and visualization language. ([Web](https://percival.ink/))
+- [Ask HN: What is the best book on data visualization in 2021?](https://news.ycombinator.com/item?id=29457470)
+- [Plotly.js](https://github.com/plotly/plotly.js) - Open-source JavaScript charting library behind Plotly and Dash. ([Docs](https://plotly.com/javascript/))
+- [Data Commons](https://datacommons.org/) - Aggregates data from a wide range of sources into a unified database to make it more accessible and useful.
+- [The Gamma](https://thegamma.net/) - Tools for open data-driven storytelling. ([GitHub](https://github.com/the-gamma))
+- [CapsNet-Visualization](https://github.com/bourdakos1/CapsNet-Visualization) - Visualization of the CapsNet layers to better understand how it works.
+- [Gender Equality Creative Platform — Story](https://www.pentagram.com/work/gender-equality-creative-platform/story) - Branded data visualization system helps tell human stories about gender equality. ([Tweet](https://twitter.com/giorgialupi/status/1470444914840326146))
+- [Awesome Dataviz](https://github.com/javierluraschi/awesome-dataviz)
+- [Awesome Web visualization frameworks](https://github.com/DrasticData/awesome-web-visualization-frameworks)
+- [The Science of Visual Data Communication: What Works (2021)](https://journals.sagepub.com/stoken/default+domain/10.1177%2F15291006211051956-FREE/full#.YbpbbYlu2Xw.twitter) ([HN](https://news.ycombinator.com/item?id=29621782)) ([HN](https://news.ycombinator.com/item?id=29742125))
+- [Dash-by-Plotly](https://github.com/Coding-with-Adam/Dash-by-Plotly) - Dedicated to teaching Dash and Plotly.
+- [Data visualization: A view of every Points of View column (2013)](http://blogs.nature.com/methagora/2013/07/data-visualization-points-of-view.html)
+- [chartpy](https://github.com/cuemacro/chartpy) - Easy to use Python API wrapper to plot charts with matplotlib, plotly, bokeh and more.
+- [Constellation](https://github.com/constellation-app/constellation) - Graph-focused data visualisation and interactive analysis application. ([Web](https://www.constellation-app.com/))
+- [Handbook of Graph Drawing and Visualization (2013)](https://cs.brown.edu/people/rtamassi/gdhandbook/) ([HN](https://news.ycombinator.com/item?id=29734063))
+- [Data Visualization Curriculum](https://uwdata.github.io/visualization-curriculum/intro.html) - Data visualization curriculum of interactive notebooks, using Vega-Lite and Altair. ([Code](https://github.com/uwdata/visualization-curriculum))
+- [Lumen](https://github.com/holoviz/lumen) - Framework for visual analytics, which allows users to build data-driven dashboards from a simple yaml specification.
+- [Datawrapper](https://www.datawrapper.de/) - Create charts, maps, and tables. ([HN](https://news.ycombinator.com/item?id=30218793))
+- [VizHub](https://vizhub.com/) - Platform for interactive graphics. ([Code](https://github.com/vizhub-core/vizhub))
+- [Hal9](https://hal9.com/) - Bring Your Data to Life. ([Code](https://github.com/hal9ai/hal9ai))
+- [Bloxs](https://github.com/mljar/bloxs) - Display your data in an attractive way in your notebook.
+- [Dash Cytoscape](https://github.com/plotly/dash-cytoscape) - Dash component library for creating interactive and customizable networks in Python, wrapped around Cytoscape.js.
+- [Tools for visualizing a codebase](https://lmy.medium.com/7-tools-for-visualizing-a-codebase-41b7cddb1a14) ([HN](https://news.ycombinator.com/item?id=30891230)) ([Code](https://github.com/johntellsall/shotglass))
+- [Explained Visually](https://setosa.io/ev/) - Making hard ideas intuitive inspired the work of Bret Victor's Explorable Explanations. ([Code](https://github.com/vicapow/explained-visually))
+- [VegaFusion](https://github.com/vegafusion/vegafusion) - Serverside acceleration for the Vega visualization grammar.
+- [datasette-dashboards](https://github.com/rclement/datasette-dashboards) - Datasette plugin providing data dashboards from metadata.
+- [Webviz](https://webviz.io/) - Visualizing robotics data in the browser. ([Code](https://github.com/cruise-automation/webviz))
+- [Atlas](https://github.com/IQTLabs/atlas) - Visualization tool for creating customizable, interactive graphs in a browser using Python and Dash Cytoscape.
+- [Scalable Vega](https://github.com/vega/scalable-vega) - Demo of scaling Vega to millions of records.
+- [gridviz](https://github.com/eurostat/gridviz) - JavaScript library for visualizing large amounts of gridded data client-side, through the power of WebGL.
+- [tmap](https://github.com/reymond-group/tmap) - Very fast visualization library for large, high-dimensional data sets.
+- [Mermaid](https://github.com/mermaid-js/mermaid) - Generation of diagram and flowchart from text in a similar manner as markdown. ([Docs](https://mermaid-js.github.io/mermaid/#/)) ([HN](https://news.ycombinator.com/item?id=31273777)) ([CLI](https://github.com/mermaid-js/mermaid-cli))
+- [Hands-On Data Visualization: Interactive Storytelling from Spreadsheets to Code Book](https://handsondataviz.org/) ([Code](https://github.com/handsondataviz/book))
+- [datatile](https://github.com/polyaxon/datatile) - Library for managing, validating, summarizing, and visualizing data.
+- [loaders.gl](https://github.com/visgl/loaders.gl) - Loaders for big data visualization.
+- [Troika JS](https://github.com/protectwise/troika) - JavaScript framework for interactive 3D and 2D visualizations.
+- [bfc](https://github.com/kessler/catchart) - Industrial-grade brainfuck compiler.
+- [catchart](https://github.com/kessler/catchart) - Pipe something from command line to a chart in the browser.
+- [A Tiny Grammar of Graphics](https://observablehq.com/@joshpoll/vvt-gog) ([HN](https://news.ycombinator.com/item?id=31733365))
+- [H2O Wave](https://github.com/h2oai/wave) - Real time Web Apps and Dashboards for Python and R. ([Web](https://wave.h2o.ai/))
+- [MPL Plotter](https://github.com/alopezrivera/mpl_plotter) - Publication-quality data representation library based on Matplotlib.
+- [LovelyPlots](https://github.com/killiansheriff/LovelyPlots) - Style sheets to nicely format figures for scientific papers, thesis and presentations while keeping them fully editable in Adobe Illustrator.
+- [Friends Don't Let Friends Make Bad Graphs](https://github.com/cxli233/FriendsDontLetFriends)
+- [Visualize Value Archive](https://archivve.visualizevalue.com/)
+- [Firefly: A browser-based interactive 3D data visualization tool for large data (2022)](https://arxiv.org/abs/2207.13706) ([HN](https://news.ycombinator.com/item?id=32295964))
+- [TUEplots](https://github.com/pnkraemer/tueplots) - Extend matplotlib for scientific publications.
+- [DeepScatter](https://github.com/CreatingData/deepscatter) - Deep Scatterplots for the Web.
+- [Streamlit Elements](https://github.com/okld/streamlit-elements) - Create a draggable and resizable dashboard in Streamlit, featuring Material UI widgets, Monaco editor (Visual Studio Code), Nivo charts, and more.
+- [Streamlit Component Templates](https://github.com/streamlit/component-template) - Templates and example code for creating Streamlit Components.
+- [Streamlit Plotly Events](https://github.com/null-jones/streamlit-plotly-events) - Streamlit component that allows Plotly events to bubble back up to streamlit. Makes Plotly charts interactive.
+- [Awesome ggplot2](https://github.com/erikgahner/awesome-ggplot2)
+- [Textnets](https://github.com/jboynyc/textnets) - Text analysis with networks.
+- [HoloViews](https://github.com/holoviz/holoviews) - Open-source Python library designed to make data analysis and visualization seamless and simple.
+- [Histogram vs eCDF (2022)](https://brooker.co.za/blog/2022/09/02/ecdf.html)
+- [Pylustrator](https://github.com/rgerum/pylustrator) - Software to prepare your figures for publication in a reproducible way.
+- [Text Visualization Browser](https://textvis.lnu.se/)
+- [Charts - Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/components/content/charts)
+- [What to consider when using text in data visualizations (2022)](https://blog.datawrapper.de/text-in-data-visualizations/)
+- [Mini-Budget. Major Catastrophe.](https://kamikwasi.tax/)
+- [Scrollama](https://github.com/russellgoldenberg/scrollama) - Scrollytelling with IntersectionObserver.
+- [Common Plots](https://aeturrell.github.io/coding-for-economists/vis-common-plots.html)
+- [Chartist](https://github.com/chartist-js/chartist) -Simple Responsive Charts in SVG. ([HN](https://news.ycombinator.com/item?id=33393285)) ([Web](https://gionkunz.github.io/chartist-js/))
+- [G2.js for R](https://github.com/devOpifex/g2r)
+- [datavzrd](https://github.com/koesterlab/datavzrd) - Tool to create visual HTML reports from collections of CSV/TSV tables.
+- [treevis.net](https://treevis.net/) - Visual Bibliography of Tree Visualization. ([HN](https://news.ycombinator.com/item?id=33561377))
+- [webkid](https://webkid.io/) - Create data visualizations, customized tools and interactive maps that make your data easier to understand. ([GitHub](https://github.com/wbkd)) ([Twitter](https://twitter.com/webk1d))
+- [ChartFx](https://github.com/fair-acc/chart-fx) - Scientific charting library focused on performance optimized real-time data visualization at 25 Hz update rates for data sets with a few 10 thousand up to 5 million data points.
+- [Visvis](https://github.com/almarklein/visvis) - Python library for visualization of 1D to 4D data in an object oriented way.
+- [Unovis](https://github.com/f5/unovis) - Modular data visualization framework. ([Web](https://unovis.dev/)) ([HN](https://news.ycombinator.com/item?id=33959591))
+- [decksh](https://github.com/ajstarks/decksh) - Language for presentations, visualizations, and information displays.
+- [Charticulator](https://github.com/microsoft/charticulator) - Interactive Layout-Aware Construction of Bespoke Charts.
+- [Guide To Getting Data Visualization Right (2023)](https://www.smashingmagazine.com/2023/01/guide-getting-data-visualization-right/)
+- [Rath](https://github.com/Kanaries/Rath) - Automated data exploratory analysis and visualization tools.
+- [Inviwo](https://github.com/inviwo/inviwo) - Interactive Visualization Workshop.
+- [Population Pyramids of the World](https://www.populationpyramid.net/)
+- [plotly_resampler](https://github.com/predict-idlab/plotly-resampler) - Visualize large sequential data by adding resampling functionality to Plotly figures.
+- [Lyra](https://github.com/vega/lyra) - Interactive, graphical Visualization Design Environment.
+- [Olli](https://github.com/mitvis/olli) - Screen Reader Accessibility for Data Visualization.
+- [Graphy](https://graphy.new/) - Slick, interactive charts that make your work stand out. ([Twitter](https://twitter.com/GraphyHQ))
+- [Matching Many Classes to Fewer Colors (2023)](https://nik.bo/colormatch) ([Lobsters](https://lobste.rs/s/pbpfei/matching_many_classes_fewer_colors))
+- [Vega-Lite](https://github.com/shadfrigui/vega-lite) - Graphics created using the Vega-Lite language.
+- [pyCirclize](https://github.com/moshi4/pyCirclize) - Circular visualization in Python. ([HN](https://news.ycombinator.com/item?id=34759665))
+- [Kanaries](https://kanaries.net/) - AI enhanced data exploration.
+- [PyGWalker](https://github.com/Kanaries/pygwalker) - Turn your pandas dataframe into a Tableau-style User Interface for visual analysis. ([HN](https://news.ycombinator.com/item?id=34869244))
+- [Aquarel](https://github.com/lgienapp/aquarel) - Styling matplotlib made easy.
+- [What chart libraries are ‘modern’? (2023)](https://www.reddit.com/r/reactjs/comments/11dald6/what_chart_libraries_are_modern/)
+- [1 dataset. 100 visualizations.](https://100.datavizproject.com/)
+- [Plotteus](https://github.com/bprusinowski/plotteus) - JavaScript data visualization library designed to help you tell better stories.
+- [Plotly Panel](https://github.com/ae3e/ae3e-plotly-panel) - Render any kind of charts from any data source with Plotly.
+- [How Bad Is Your Colormap? (2014)](https://jakevdp.github.io/blog/2014/10/16/how-bad-is-your-colormap/)
+- [A Eulogy for Dark Sky, a Data Visualization Masterpiece (2023)](https://nightingaledvs.com/dark-sky-weather-data-viz/)
+- [SentenTree](https://github.com/twitter/SentenTree) - Novel text visualization technique.
+- [ChartGPT](https://chart-gpt-blush.vercel.app/) - Tool to build charts based on text input. ([Code](https://github.com/whoiskatrin/chart-gpt))
+- [Cube](https://github.com/cube-js/cube) - Semantic Layer for Building Data Applications. ([Web](https://cube.dev/))
+- [Tidy Tree Visualization](https://github.com/zxch3n/tidy)
+- [DataDash](https://github.com/keithknott26/datadash) - Visualize and graph data in the terminal.
+- [HoloViz](https://github.com/holoviz/holoviz) - High-level tools to simplify visualization in Python.
+- [Anna’s Archive](https://annas-archive.org/) - Open-source data library. ([HN](https://news.ycombinator.com/item?id=36530662))
+- [VlConvert](https://github.com/vega/vl-convert) - Utilities for converting Vega-Lite specs from the command line and Python.

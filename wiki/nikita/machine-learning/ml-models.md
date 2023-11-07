@@ -1,0 +1,194 @@
+# ML Models
+
+[Tangram](https://www.tangram.dev/), [PostgresML](https://github.com/postgresml/postgresml), [ZenML](https://zenml.io/home) & [Merlin](https://github.com/gojek/merlin) seem neat. Looking into using [Cog](https://github.com/replicate/cog) to package ML models.
+
+Currently use [Modal](https://modal.com/) or [Banana](https://www.banana.dev/) to serve ML models (mostly [generative](generative-machine-learning.md)) with their [HTTP template](https://github.com/bananaml/serverless-template). [Replicate](https://replicate.com/) is great too. [Mosec](https://github.com/mosecorg/mosec) is great tool.
+
+[XManager](https://github.com/deepmind/xmanager) is nice for managing ML model experiments.
+
+[Web AI](https://github.com/visheratin/web-ai) or [Transformers.js](https://github.com/xenova/transformers.js) are great for [running models in browser](https://twitter.com/visheratin/status/1632632366727417859).
+
+## Links
+
+- [Lip Reading - Cross Audio-Visual Recognition using 3D Architectures](https://github.com/astorfi/lip-reading-deeplearning)
+- [Cortex](https://github.com/cortexlabs/cortex) - API platform for machine learning engineers. ([Web](https://www.cortex.dev/))
+- [BentoML](https://github.com/bentoml/BentoML) - Model Serving Made Easy. ([Docs](https://docs.bentoml.org/en/latest/))
+- [Lobe](https://lobe.ai/) - Helps you train machine learning models with a free, easy to use tool. ([Tweet](https://twitter.com/RamonGilabert/status/1320723711343923202)) ([HN](https://news.ycombinator.com/item?id=24944814))
+- [Algorithmia](https://algorithmia.com/) - Deploy Autoscaling ML Models using Serverless Microservices. ([GitHub](https://github.com/algorithmiaio))
+- [How to Deploy ML models with AWS Lambda (2020)](https://blog.verta.ai/blog/how-to-deploy-ml-models-with-aws-lambda)
+- [Verta](https://www.verta.ai/) - MLOps software supports model development, deployment, operations, monitoring.
+- [Guild AI](https://guild.ai/) - Experiment tracking, ML developer tools. ([Code](https://github.com/guildai/guildai))
+- [Neuralet](https://neuralet.com/) - Open-source platform for edge deep learning models on GPU, TPU, and more. ([Code](https://github.com/neuralet/neuralet))
+- [InterpretML](https://github.com/interpretml/interpret) - Fit interpretable models. Explain blackbox machine learning.
+- [What-If Tool](https://pair-code.github.io/what-if-tool/) - Visually probe the behavior of trained machine learning models, with minimal coding. ([Code](https://github.com/PAIR-code/what-if-tool))
+- [LightAutoML](https://github.com/sberbank-ai-lab/LightAutoML) - Automatic model creation framework.
+- [Evidently](https://github.com/evidentlyai/evidently) - Interactive reports to analyze machine learning models during validation or production monitoring. ([Web](https://evidentlyai.com/))
+- [MLCube](https://github.com/mlcommons/mlcube) - Project that reduces friction for machine learning by ensuring that models are easily portable and reproducible. ([Docs](https://mlcommons.github.io/mlcube/))
+- [Service Streamer](https://github.com/ShannonAI/service-streamer) - Boosting your Web Services of Deep Learning Applications.
+- [Shapash](https://github.com/MAIF/shapash) - Makes Machine Learning models transparent and understandable by everyone. ([Web](https://maif.github.io/shapash/)) ([HN](https://news.ycombinator.com/item?id=31710900))
+- [BudgetML: Deploy ML models on a budget](https://github.com/ebhy/budgetml) ([HN](https://news.ycombinator.com/item?id=25986346))
+- [Introducing Model Search: An Open Source Platform for Finding Optimal ML Models (2021)](https://ai.googleblog.com/2021/02/introducing-model-search-open-source.html)
+- [Model Search](https://github.com/google/model_search) - Framework that implements AutoML algorithms for model architecture search at scale.
+- [Embedding stores (2021)](https://nlathia.github.io/2021/03/Embeddings.html)
+- [Running ML models in a game (and in Wasm!) (2020)](https://vleue.com/2020/12/bevmnist/)
+- [Deep learning model compression (2021)](https://rachitsingh.com/deep-learning-model-compression/)
+- [ModelDB](https://github.com/VertaAI/modeldb) - Open Source ML Model Versioning, Metadata, and Experiment Management.
+- [Gradio](https://www.gradio.app/) - Generate an easy-to-use UI for your ML model, function, or API with only a few lines of code. ([Code](https://github.com/gradio-app/gradio))
+- [Awesome Model Quantization](https://github.com/htqin/awesome-model-quantization)
+- [Tracking the Performance of Your Machine Learning Models With MLflow (2021)](https://muttdata.ai/blog/2021/02/12/ml-flow.html)
+- [Counterfit](https://github.com/Azure/counterfit) - CLI that provides a generic automation layer for assessing the security of ML models.
+- [Convect](https://www.convect.ml/) - Instant Serverless Deployment of ML Models. ([HN](https://news.ycombinator.com/item?id=27303690))
+- [Using Argo to Train Predictive Models (2021)](https://flightaware.engineering/using-argo-to-train-predictive-models/) ([HN](https://news.ycombinator.com/item?id=27464445))
+- [Yellowbrick](https://github.com/DistrictDataLabs/yellowbrick) - Visual analysis and diagnostic tools to facilitate machine learning model selection. ([Docs](https://www.scikit-yb.org/en/latest/))
+- [Deep Learning Model Convertors](https://github.com/ysh329/deep-learning-model-convertor)
+- [Tuning Model Performance (2021)](https://eng.uber.com/tuning-model-performance/)
+- [SHAP](https://github.com/slundberg/shap) - Game theoretic approach to explain the output of any machine learning model.
+- [Lazy Predict](https://github.com/shankarpandala/lazypredict) - Helps build a lot of basic models without much code and helps understand which models works better without any parameter tuning.
+- [How to Monitor Models (2020)](http://bugra.github.io/posts/2020/11/24/how-to-monitor-models/)
+- [How to Serve Models (2020)](http://bugra.github.io/posts/2020/5/25/how-to-serve-model/)
+- [StudioML](https://studio.ml/) - Python model management framework. ([Code](https://github.com/studioml/studio))
+- [MLapp](https://github.com/gurvindersingh/mlapp) - ML model serving app based on APIs.
+- [Machine Learning Hyperparameter Optimization with Argo (2021)](https://canvatechblog.com/machine-learning-hyperparameter-optimization-with-argo-a60d70b1fc8c)
+- [Snakepit](https://github.com/coqui-ai/snakepit) - Coqui's machine learning job scheduler.
+- [MLServer](https://github.com/SeldonIO/MLServer) - Inference server for your machine learning models, including support for multiple frameworks, multi-model serving and more. ([Docs](https://mlserver.readthedocs.io/en/latest/))
+- [SpotML](https://www.spotml.io/) - Managed ML Training on Cheap AWS/GCP Spot Instances. ([HN](https://news.ycombinator.com/item?id=28738141))
+- [Mosaic ML](https://www.mosaicml.com/) - Making ML Training Efficient. ([Tweet](https://twitter.com/mattocko/status/1448492976045363200)) ([Intro](https://www.mosaicml.com/blog/introducing-mosaicml-cloud))
+- [RecoEdge](https://github.com/NimbleEdge/RecoEdge) - Deploy recommendation engines with Edge Computing.
+- [MLRun](https://github.com/mlrun/mlrun) - Open-Source MLOps Orchestration Framework.
+- [PrimeHub](https://github.com/InfuseAI/primehub) - Toil-free multi-tenancy machine learning platform in your Kubernetes cluster. ([Docs](https://docs.primehub.io/))
+- [MLeap](https://github.com/combust/mleap) - Deploy ML Pipelines to Production. ([Docs](https://combust.github.io/mleap-docs/))
+- [ServingMLFastCelery](https://github.com/jonathanreadshaw/ServingMLFastCelery) - Working example for serving a ML model using FastAPI and Celery.
+- [Cog](https://github.com/replicate/cog) - Containers for machine learning. ([HN](https://news.ycombinator.com/item?id=31105507)) ([Tweet](https://twitter.com/replicatehq/status/1516807943550873608))
+- [Explaining Machine Learning Models: A Non-Technical Guide to Interpreting SHAP Analyses (2021)](https://www.aidancooper.co.uk/a-non-technical-guide-to-interpreting-shap-analyses/)
+- [Improving a Machine Learning System Is Hard (2021)](https://danshiebler.com/2021-11-06-ml-systems-1/)
+- [Removal-based explanations](https://github.com/iancovert/removal-explanations) - Lightweight implementation of removal-based explanations for ML models.
+- [Gordo](https://github.com/equinor/gordo) - Building thousands of models with timeseries data to monitor systems.
+- [Mosec](https://github.com/mosecorg/mosec) - Model Serving made Efficient in the Cloud.
+- [MLNotify](https://github.com/aporia-ai/mlnotify) - Add just 1 import line and MLNotify will let you know the second it's done.
+- [Build models like we build open-source software (2021)](https://colinraffel.com/blog/a-call-to-build-models-like-we-build-open-source-software.html) ([HN](https://news.ycombinator.com/item?id=29487212))
+- [Deepchecks](https://github.com/deepchecks/deepchecks) - Python package for comprehensively validating your machine learning models and data with minimal effort.
+- [Auptimizer](https://github.com/LGE-ARC-AdvancedAI/auptimizer) - Automatic ML model optimization tool.
+- [runx](https://github.com/NVIDIA/runx) - Deep Learning Experiment Management.
+- [ML Console](https://mlconsole.com/) - Web app to train ML models, for free and client-side. ([HN](https://news.ycombinator.com/item?id=29716738))
+- [MMDeploy](https://github.com/open-mmlab/mmdeploy) - OpenMMLab Model Deployment Framework. ([Docs](https://mmdeploy.readthedocs.io/en/latest/))
+- [Wonnx](https://github.com/haixuanTao/wonnx) - Aimed at being an ONNX Provider for every GPU on all platforms written in 100% Rust.
+- [How to Build a Machine Learning Demo in 2022](https://nicjac.dev/posts/how-to-build-machine-learning-demo-in-2022/)
+- [Zetane Viewer](https://github.com/zetane/viewer) - ML models and internal tensors 3D visualizer.
+- [ONNX Model Zoo](https://github.com/onnx/models) - Collection of pre-trained, state-of-the-art models in the ONNX format.
+- [Model Zoo for MindSpore](https://github.com/mindspore-ai/models)
+- [Seldon](https://www.seldon.io/) - Machine Learning Deployment for Kubernetes. ([GitHub](https://github.com/SeldonIO))
+- [ORMB](https://github.com/kleveross/ormb) - Docker for Your ML/DL Models Based on OCI Artifacts.
+- [Spaces - Hugging Face](https://huggingface.co/spaces) ([Tweet](https://twitter.com/abidlabs/status/1505987504851197956))
+- [Nanit’s AI Development Process (2022)](https://engineering.nanit.com/nanits-ai-development-process-improve-your-model-quality-time-to-market-and-culture-b824cefcd75a)
+- [ailia SDK ML Models](https://github.com/axinc-ai/ailia-models)
+- [BentoML](https://www.bentoml.com/) - Simplify Model Deployment. ([GitHub](https://github.com/bentoml/))
+- [bentoctl](https://github.com/bentoml/bentoctl) - Fast model deployment with BentoML on cloud platforms.
+- [ModelCenter](https://github.com/OpenBMB/ModelCenter) - Efficient, Low-Resource, Distributed transformer implementation based on BMTrain.
+- [PostgresML](https://github.com/postgresml/postgresml) - End-to-end machine learning system. It enables you to train models and make online predictions using only SQL, without your data ever leaving your favorite database. ([Web](https://postgresml.org/)) ([HN](https://news.ycombinator.com/item?id=31238396))
+- [UniLM AI](https://github.com/facebookresearch/data2vec_vision) - Pre-trained models across tasks (understanding, generation and translation), languages, and modalities.
+- [Domino](https://github.com/HazyResearch/domino) - Discover slices of data on which your models underperform.
+- [Merlin](https://github.com/gojek/merlin) - Kubernetes-friendly ML model management, deployment, and serving.
+- [Baseten](https://www.baseten.co/) - Build ML-powered applications. ([HN](https://news.ycombinator.com/item?id=31169193))
+- [Triton Inference Server](https://github.com/triton-inference-server/server) - Provides a cloud and edge inferencing solution optimized for both CPUs and GPUs.
+- [Feature Store](https://databricks.com/product/feature-store) - Feature store co-designed with a data platform and MLOps framework. ([Announcement](https://databricks.com/blog/2022/04/29/announcing-general-availability-of-databricks-feature-store.html))
+- [Auto-ViML](https://github.com/AutoViML/Auto_ViML) - Automatically Build Variant Interpretable ML models fast.
+- [Angel](https://github.com/Angel-ML/angel) - Flexible and Powerful Parameter Server for large-scale machine learning.
+- [Trainer](https://github.com/coqui-ai/Trainer) - General purpose model trainer, as flexible as it gets.
+- [onnxcustom](https://github.com/sdpython/onnxcustom) - Tutorial on how to convert machine learned models into ONNX.
+- [Vetiver](https://github.com/tidymodels/vetiver-python) - Version, share, deploy, and monitor models.
+- [Cloud TPU VMs are generally available (2022)](https://cloud.google.com/blog/products/compute/cloud-tpu-vms-are-generally-available) ([HN](https://news.ycombinator.com/item?id=31322379))
+- [NannyML](https://github.com/NannyML/nannyml) - Detecting silent model failure.
+- [Pydra - Pydantic and Hydra for configuration management of model training experiments (2022)](https://suneeta-mall.github.io/2022/03/15/hydra-pydantic-config-management-for-training-application.html)
+- [BlindAI](https://github.com/mithril-security/blindai) - Confidential AI inference server.
+- [Vertigo](https://vertigo.ai/) - AI for IoT & The Edge.
+- [Compair](https://github.com/rasbt/compair) - Model evaluation utilities.
+- [LightAutoML](https://github.com/sb-ai-lab/LightAutoML) - Fast and customizable framework for automatic ML model creation (AutoML).
+- [MLEM](https://github.com/iterative/mlem) - Version and deploy your ML models following GitOps principles. ([Web](https://mlem.ai/))
+- [Serving ML at the Speed of Rust (2022)](http://shvbsle.in/serving-ml-at-the-speed-of-rust/) ([HN](https://news.ycombinator.com/item?id=31853269))
+- [Sematic](https://github.com/sematic-ai/sematic) - Open-source framework to build ML pipelines faster. ([Web](https://www.sematic.dev/)) ([HN](https://news.ycombinator.com/item?id=32413070))
+- [ML Platform Workshop](https://github.com/aporia-ai/mlplatform-workshop) - Example code for a basic ML Platform based on Pulumi, FastAPI, DVC, MLFlow and more.
+- [Mlflow Deployment Controller](https://github.com/wianai/mlflow-deployment-controller) - Listens MLFlow model registry changes and deploy models based on configurations.
+- [Truss](https://github.com/basetenlabs/truss) - Serve any model without boilerplate code. ([HN](https://news.ycombinator.com/item?id=32277894)) ([Docs](https://truss.baseten.co/))
+- [Remote Runner](https://github.com/philschmid/deep-learning-remote-runner) - Easy pythonic way to migrate your python training scripts from a local environment to a powerful cloud-backed instance.
+- [BMList](https://github.com/OpenBMB/BMList) - List of big pre-trained models (GPT-3, DALL-E2...).
+- [ModelBox](https://github.com/diptanu/modelbox) - Extensible machine learning model store and model transformation and distribution service.
+- [Run Stable Diffusion on Your M1 Mac’s GPU (2022)](https://replicate.com/blog/run-stable-diffusion-on-m1-mac) ([HN](https://news.ycombinator.com/item?id=32678664))
+- [Stable Diffusion Dream Script](https://github.com/lstein/stable-diffusion) - Fork of CompVis/stable-diffusion, the wonderful open source text-to-image generator.
+- [Exporters](https://github.com/huggingface/exporters) - Export Hugging Face models to Core ML and TensorFlow Lite.
+- [SD-explorer](https://github.com/nicoptere/SD-explorer) - Toy project to explore Stable Diffusion locally through a nodeJS server.
+- [MultiNeRF: A Code Release for Mip-NeRF 360, Ref-NeRF, and RawNeRF](https://github.com/google-research/multinerf)
+- [Prog Rock Stable](https://github.com/lowfuel/progrock-stable) - Stable Diffusion with some Proggy Enhancements.
+- [Diffusers-Interpret](https://github.com/JoaoLages/diffusers-interpret) - Model explainability tool built on top of Diffusers.
+- [Using GitHub as Artifactory for Machine Learning Model Artifacts (2022)](https://omkar.xyz/gaama/)
+- [Replicate](https://replicate.com/) - Run open-source machine learning models with a cloud API. ([Go Replicate](https://github.com/sausheong/goreplicate)) ([GitHub](https://github.com/replicate))
+- [dfserver](https://github.com/huo-ju/dfserver) - Distributed backend AI pipeline server.
+- [dstack](https://github.com/dstackai/dstack) - Command-line utility to provision infrastructure for ML workflows. ([Docs](https://docs.dstack.ai/))
+- [Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) - Open-source library to audit data privacy in statistical and machine learning algorithms.
+- [fastDeploy](https://github.com/notAI-tech/fastDeploy) - Deploy DL/ ML inference pipelines with minimal extra code.
+- [Modelverse](https://modelverse.cs.cmu.edu/) - Content-Based Search for Deep Generative Models. ([Code](https://github.com/generative-intelligence-lab/modelverse))
+- [FlagAI](https://github.com/FlagAI-Open/FlagAI) - Fast, easy-to-use and extensible toolkit for large-scale model.
+- [Stochastic](https://www.stochastic.ai/) - AI Acceleration Platform. ([GitHub](https://github.com/stochasticai))
+- [voltaML](https://github.com/VoltaML/voltaML) - Lightweight library to convert and run your ML/DL deep learning models in high performance inference runtimes like TensorRT, TorchScript, ONNX and TVM.
+- [AWS Deep Learning Containers](https://github.com/aws/deep-learning-containers) - Docker images for training and serving models in TensorFlow, TensorFlow 2, PyTorch, and MXNet.
+- [Spotty](https://github.com/spotty-cloud/spotty) - Training deep learning models on AWS and GCP instances.
+- [FastDeploy](https://github.com/PaddlePaddle/FastDeploy) - Accessible and efficient deployment Development Toolkit.
+- [explainerdashboard](https://github.com/oegedijk/explainerdashboard) - Quickly build Explainable AI dashboards that show the inner workings of so-called "blackbox" machine learning models.
+- [MatxScript](https://github.com/bytedance/matxscript) - Model pre- and post-processing framework.
+- [Zoltar](https://github.com/spotify/zoltar) - Common library for serving TensorFlow, XGBoost and scikit-learn models in production.
+- [Robust Intelligence](https://www.robustintelligence.com/) - Machine learning models fail. Prevent bad outcomes with the only end-to-end solution.
+- [Banana Serverless](https://github.com/bananaml/serverless-template) - Framework to serve ML models in production using simple HTTP servers.
+- [SkyPilot](https://github.com/skypilot-org/skypilot) - Framework for easily running machine learning workloads on any cloud through a unified interface.
+- [m2cgen (Model 2 Code Generator)](https://github.com/BayesWitnesses/m2cgen) - Lightweight library which provides an easy way to transpile trained statistical models into a native code.
+- [Models - Hugging Face](https://huggingface.co/models)
+- [Training One Million Machine Learning Models in Record Time with Ray (2022)](https://www.anyscale.com/blog/training-one-million-machine-learning-models-in-record-time-with-ray) ([Tweet](https://twitter.com/robertnishihara/status/1604282355396460544))
+- [Do Simpler Machine Learning Models Exist and How Can We Find Them? (2022)](https://statmodeling.stat.columbia.edu/2022/12/22/do-simpler-machine-learning-models-exist-and-how-can-we-find-them/) ([HN](https://news.ycombinator.com/item?id=34096988))
+- [Train and deploy a DreamBooth model on Replicate (2022)](https://replicate.com/blog/dreambooth-api) ([Code](https://github.com/replicate/dreambooth-action))
+- [Reference models and tools for Cloud TPUs](https://github.com/tensorflow/tpu)
+- [Energon AI](https://github.com/hpcaitech/EnergonAI) - Large-scale model inference.
+- [Web AI](https://github.com/visheratin/web-ai) - Run modern deep learning models in the browser.
+- [Web Transformers](https://github.com/praeclarum/web-transformers) - Transformer neural networks in the browser.
+- [How to Get 1.5 TFlops of FP32 Performance on a Single M1 CPU Core](https://jott.live/markdown/1.5tflop_m1) ([HN](https://news.ycombinator.com/item?id=34259213))
+- [ClearML](https://github.com/allegroai/clearml-serving) - Model-Serving Orchestration and Repository Solution. ([Web](https://clear.ml/))
+- [Cloud Pipelines Editor](https://github.com/Cloud-Pipelines/pipeline-editor) - Web app that allows the users to build and run Machine Learning pipelines without having to set up development environment.
+- [Slapo](https://github.com/awslabs/slapo) - Schedule language for progressive optimization of large deep learning model training.
+- [How DoorDash Upgraded a Heuristic with ML to Save Thousands of Canceled Orders (2023)](https://doordash.engineering/2023/01/10/how-doordash-upgraded-a-heuristic-with-ml-to-save-thousands-of-canceled-orders/)
+- [featureimpact](https://github.com/bloomen/featureimpact) - Python package for estimating the impact of features on ML models.
+- [Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook) - Playbook for systematically maximizing the performance of deep learning models.
+- [UpTrain](https://github.com/uptrain-ai/uptrain) - Open-source ML observability and refinement tool. ([HN](https://news.ycombinator.com/item?id=34519052))
+- [FastQL Inference Server](https://github.com/happy-machine/FastQL) - Spin up a blazing fast Rust GraphQL API to serve your ML model in one line of Python code.
+- [Zeno](https://github.com/zeno-ml/zeno) - Interactive framework for machine learning evaluation.
+- [Coadaptive Harness for Effective Evaluation, Steering, & Enhancement](https://github.com/CarperAI/cheese)
+- [How to train large models on many GPUs? (2021)](https://lilianweng.github.io/posts/2021-09-25-train-large/) ([HN](https://news.ycombinator.com/item?id=34752489))
+- [ML Model parallelism 101](https://github.com/hundredblocks/large-model-parallelism) - Functional local implementations of main model parallelism approaches.
+- [Minimal ML Template](https://github.com/AntreasAntoniou/minimal-ml-template) - Minimal ml project template that uses HF transformers and wandb to train a simple NN and evaluate it, in a stateless manner compatible with Spot instances Kubernetes workflows.
+- [BMTrain](https://github.com/OpenBMB/BMTrain) - Efficient Training (including pre-training and fine-tuning) for Big Models.
+- [CIFAR10 hyperlightspeedbench](https://github.com/tysam-code/hlb-CIFAR10) - Train to 94% on CIFAR-10 in less than 7 seconds on a single A100, the current world record.
+- [Transformers.js](https://github.com/xenova/transformers.js) - Run Transformers in your browser. ([HN](https://news.ycombinator.com/item?id=35189794))
+- [ailia SDK](https://github.com/axinc-ai/ailia-sdk) - Cross-platform high speed inference SDK.
+- [Large Audio Models](https://github.com/liusongxiang/Large-Audio-Models) - Keep track of big models in audio domain, including speech, singing, music etc.
+- [BlindAI](https://github.com/mithril-security/blindai-preview) - Fast, easy-to-use, and confidential inference server, allowing you to easily and quickly deploy your AI models.
+- [Cformers](https://github.com/NolanoOrg/cformers) - SoTA Transformers with C-backend for fast inference on your CPU.
+- [Triton Tutorials](https://github.com/triton-inference-server/tutorials) - Tutorials and examples for Triton Inference Server.
+- [Effortlessly Build Machine Learning Apps with Hugging Face’s Docker Spaces (2023)](https://www.docker.com/blog/build-machine-learning-apps-with-hugging-faces-docker-spaces/)
+- [Navi](https://github.com/twitter/the-algorithm/tree/main/navi/navi) - High-Performance Machine Learning Serving Server in Rust. ([Reddit](https://www.reddit.com/r/rust/comments/127xwu1/twitter_open_sources_navi_highperformance_machine/))
+- [Dreamlook.ai](https://dreamlook.ai/) - Train models in minutes. Scale up to 1000s of runs per day.
+- [Flow Coder](https://waveworks.dk/flow-coder/) - Compile ML models into dependency-free source code for easy deployment.
+- [Window](https://github.com/alexanderatallah/window.ai) - Use your own AI models on the web.
+- [Motion](https://github.com/dm4ml/motion) - Framework for building ML pipelines in Python.
+- [CI/CD for Machine Learning Models](https://github.com/khuyentran1401/cicd-mlops-demo)
+- [ONNX Simplifier](https://github.com/daquexian/onnx-simplifier) - Simplify your onnx model.
+- [Temporal quality degradation in AI models (2023)](https://www.nannyml.com/blog/91-of-ml-perfomance-degrade-in-time) ([HN](https://news.ycombinator.com/item?id=35566145))
+- [AzureML and Azure OpenAI](https://github.com/danielsc/openai) - Sample project that demonstrates how to use Azure Machine Learning to fine-tune and deploy a model using Azure OpenAI.
+- [Banana Node/TypeScript SDK](https://github.com/bananaml/banana-node-sdk)
+- [Meerkat](https://github.com/HazyResearch/meerkat) - Interactive data structures for evaluating foundation models.
+- [AutoGluon-Cloud](https://github.com/autogluon/autogluon-cloud) - User tools to train, fine-tune and deploy AutoGluon backed models on the cloud.
+- [Hidet: A Deep Learning Compiler for Efficient Model Serving (2023)](https://pytorch.org/blog/introducing-hidet/) ([HN](https://news.ycombinator.com/item?id=35737284))
+- [MLC LLM](https://github.com/mlc-ai/mlc-llm) - Universal solution that allows any language models to be deployed natively on a diverse set of hardware backends and native applications. ([HN](https://news.ycombinator.com/item?id=35763483))
+- [Ask HN: What do you use for ML Hosting? (2023)](https://news.ycombinator.com/item?id=35792481)
+- [SageMaker Inference Toolkit](https://github.com/aws/sagemaker-inference-toolkit) - Serve machine learning models within a Docker container using Amazon SageMaker.
+- [MTIA v1: Meta's first-generation AI inference accelerator (2023)](https://ai.facebook.com/blog/meta-training-inference-accelerator-AI-MTIA/)
+- [C Transformers](https://github.com/marella/ctransformers) - Python bindings for the Transformer models implemented in C/C++ using GGML library.
+- [Full example of GPTQ 4-bit inference on Modal](https://github.com/cannstandard/gptq-modal)
+- [Olive](https://github.com/microsoft/Olive) - Easy-to-use hardware-aware model optimization tool that composes industry-leading techniques across model compression, optimization, and compilation.
+- [It’s infuriatingly hard to understand how closed models train on their input (2023)](https://simonwillison.net/2023/Jun/4/closed-model-training/) ([HN](https://news.ycombinator.com/item?id=36187994))
+- [Autodistill](https://github.com/autodistill/autodistill) - Images to inference with no labeling (use foundation models to train supervised models).

@@ -1,0 +1,185 @@
+# Data Processing
+
+[Ibis](https://github.com/ibis-project/ibis), [Orchest](https://github.com/orchest/orchest) & [Mage](https://github.com/mage-ai/mage-ai) are nice. [Greptime](https://www.greptime.com/) is interesting OSS DB for time series data processing.
+
+[Polars](https://github.com/pola-rs/polars) is nice DataFrames library implementation.
+
+[Nuclio](https://github.com/nuclio/nuclio) & [CloudQuery](https://github.com/cloudquery/cloudquery) are interesting too.
+
+## Notes
+
+- [A simple use of array of JSON to store tabular data seems nice. [{row1}, {row2}, {row3}].](https://news.ycombinator.com/item?id=31220841)
+
+## Links
+
+- [Bigslice](https://bigslice.io/) - System for fast, large-scale, serverless data processing using Go.
+- [Reflow](https://github.com/grailbio/reflow) - Language and runtime for distributed, incremental data processing in the cloud.
+- [Self-managing serverless computing with Bigmachine (2019)](https://medium.com/grail-eng/self-managing-serverless-computing-with-bigmachine-e75bd412ef5a)
+- [Bigslice: a cluster computing system for Go (2019)](https://medium.com/grail-eng/bigslice-a-cluster-computing-system-for-go-7e03acd2419b)
+- [When your data doesn’t fit in memory: the basic techniques (2019)](https://pythonspeed.com/articles/data-doesnt-fit-in-memory/) ([HN](https://news.ycombinator.com/item?id=21508542))
+- [Differential Dataflow](https://github.com/TimelyDataflow/differential-dataflow) - Implementation of differential dataflow using timely dataflow on Rust. ([Book](https://timelydataflow.github.io/differential-dataflow/introduction.html)) ([HN](https://news.ycombinator.com/item?id=24837031))
+- [The Log: What every software engineer should know about real-time data's unifying abstraction (2013)](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
+- [Luna](https://luna-lang.org/index.html#Overview) - Data processing and visualization environment built on a principle that people need an immediate connection to what they are building.
+- [Guide To The Data Lake — Modern Batch Data Warehousing (2020)](https://towardsdatascience.com/a-guide-to-modern-batch-data-warehousing-extraction-f63bfa6ef878)
+- [Plumbing At Scale (2020)](https://engineering.grab.com/plumbing-at-scale) - Event Sourcing and Stream Processing Pipelines at Grab.
+- [Differential Dataflow! But at what COST? (2017)](https://github.com/frankmcsherry/blog/blob/master/posts/2017-10-23.md) ([HN](https://news.ycombinator.com/item?id=22094512))
+- [Timely Dataflow and Total Order (2020)](http://justinjaffray.com/timely-dataflow-and-total-order/)
+- [Nuclio](https://github.com/nuclio/nuclio) - High-Performance Serverless event and data processing platform.
+- [Apache Spark](https://github.com/apache/spark) - Unified analytics engine for large-scale data processing. ([PySpark](https://github.com/apache/spark/tree/master/python/pyspark)) ([PySpark Style Guide](https://github.com/palantir/pyspark-style-guide)) ([Article](https://medium.com/palantir/a-pyspark-style-guide-for-real-world-data-scientists-1727fda397e9)) ([Web](https://spark.apache.org/)) ([Spark Learning Guide](https://github.com/ankurchavda/SparkLearning))
+- [Spark: The Definitive Guide Book (2018)](https://www.oreilly.com/library/view/spark-the-definitive/9781491912201/) ([Code](https://github.com/databricks/Spark-The-Definitive-Guide))
+- [Batch](https://batch.sh/) - Event replay platform. Version control for data passing through your messaging systems. ([HN](https://news.ycombinator.com/item?id=24188214))
+- [A log/event processing pipeline you can't have (2019)](https://apenwarr.ca/log/20190216) ([HN](https://news.ycombinator.com/item?id=24275683))
+- [mm-ADT](http://www.mm-adt.org/) - Multi-Model Abstract Data Type. Distributed virtual machine capable of integrating a diverse collection of data processing technologies. ([Code](https://github.com/mm-adt/vm))
+- [Data Preprocessing in Machine Learning (2020)](https://serokell.io/blog/data-preprocessing)
+- [lakeFS](https://github.com/treeverse/lakeFS) - Open source layer that delivers resilience and manageability to object-storage based data lakes. ([Web](https://lakefs.io/))
+- [Baker](https://github.com/AdRoll/baker) - High performance, composable and extendable data-processing pipeline for the big data era.
+- [Cylon](https://github.com/cylondata/cylon) - Fast, scalable distributed memory data parallel library for processing structured data. ([Web](https://cylondata.org/))
+- [cuGraph](https://github.com/rapidsai/cugraph) - GPU Graph Analytics.
+- [Opaque](https://github.com/mc2-project/opaque) - Secure Apache Spark SQL.
+- [Apache Beam](https://github.com/apache/beam) - Unified programming model for Batch and Streaming. ([Web](https://beam.apache.org/))
+- [Stitch](https://www.stitchdata.com/) - Simple, extensible ETL built for data teams.
+- [Databricks](https://databricks.com/) - Unified Data Analytics. ([GitHub](https://github.com/databricks)) ([CLI](https://github.com/databricks/databricks-cli)) ([Reflecting on Four Years at Databricks (2021)](https://www.lihaoyi.com/post/ReflectingonFourYearsatDatabricks.html))
+- [AugMix](https://github.com/google-research/augmix) - Simple Data Processing Method to Improve Robustness and Uncertainty.
+- [Snapflow](https://github.com/kvh/snapflow) - Framework for building end-to-end functional data pipelines from modular components.
+- [Workflow Description Language (WDL)](https://github.com/openwdl/wdl) - Way to specify data processing workflows with a human-readable and writeable syntax.
+- [Cloudfuse](https://www.cloudfuse.io/) - Open source serverless data solutions. Future of data pipelines. ([GitHub](https://github.com/cloudfuse-io))
+- [Create your own data stream for Kafka with Python and Faker (2021)](https://aiven.io/blog/create-your-own-data-stream-for-kafka-with-python-and-faker)
+- [Hindsight](https://github.com/mozilla-services/hindsight) - C based data processing infrastructure based on the lua sandbox project.
+- [Reverse ETL — A Primer (2021)](https://medium.com/memory-leak/reverse-etl-a-primer-4e6694dcc7fb)
+- [I wrote one of the fastest DataFrame libraries (2021)](https://www.ritchievink.com/blog/2021/02/28/i-wrote-one-of-the-fastest-dataframe-libraries/)
+- [Build your own “data lake” for reporting purposes in a multi-services environment (2021)](https://tech.fretlink.com/build-your-own-data-lake-for-reporting-purposes/)
+- [Feature Stores: The Data Side of ML Pipelines (2021)](https://medium.com/riselab/feature-stores-the-data-side-of-ml-pipelines-7083d69bff1c)
+- [Flowgger](https://github.com/awslabs/flowgger) - Fast, simple and lightweight data collector written in Rust.
+- [Popsink](https://app.popsink.dev/) - Real-time data platform you don't have to build.
+- [Flyte](https://github.com/flyteorg/flyte) - Structured programming and distributed processing platform that enables highly concurrent, scalable and maintainable workflows for Machine Learning and Data Processing. ([Web](https://flyte.org/)) ([GitHub](https://github.com/flyteorg)) ([Python SDK](https://github.com/flyteorg/flytekit)) ([CLI](https://github.com/flyteorg/flytectl))
+- [Winterfell](https://github.com/novifinancial/winterfell) - Distributed STARK prover.
+- [Python to Distributed Python to Airflow task in ~5 lines of code](https://www.astronomer.io/blog/airflow-ray-data-science-story)
+- [DataFusion](https://github.com/apache/arrow-datafusion) - Extensible query execution framework, written in Rust, that uses Apache Arrow as its in-memory format.
+- [Delta Lake](https://delta.io/) - Reliable Data Lakes at Scale. ([GitHub](https://github.com/delta-io))
+- [Delta Sharing](https://delta.io/sharing/) - Open Protocol for Secure Data Sharing. ([Article](https://databricks.com/blog/2021/05/26/introducing-delta-sharing-an-open-protocol-for-secure-data-sharing.html)) ([Tweet](https://twitter.com/matei_zaharia/status/1397585545849540612))
+- [Dataform](https://dataform.co/) - Manage data pipelines in BigQuery.
+- [Legate Pandas](https://github.com/nv-legate/legate.pandas) - Aspiring Drop-In Replacement for Pandas at Scale.
+- [datablocks](https://datablocks.pro/) - Flow based data processing editor. ([HN](https://news.ycombinator.com/item?id=27459664))
+- [Reproducible data processing pipelines (2021)](https://guix.gnu.org/blog/2021/reproducible-data-processing-pipelines/)
+- [datasketch](https://github.com/ekzhu/datasketch) - Probabilistic data structures that can process and search very large amount of data super fast, with little loss of accuracy.
+- [Tuplex](https://github.com/tuplex/tuplex) - Parallel big data processing framework that runs data science pipelines written in Python at the speed of compiled code. ([Web](https://tuplex.cs.brown.edu/))
+- [file.d](https://github.com/ozonru/file.d) - Blazing fast tool for building data pipelines: read, process and output events.
+- [Datafuse](https://datafuse.rs/) - Modern Real-Time Data Processing in Rust. ([Code](https://github.com/datafuselabs/datafuse/)) ([HN](https://news.ycombinator.com/item?id=28069895))
+- [MapReduce is making a comeback (2021)](https://www.estuary.dev/blog/why-mapreduce-is-making-a-comeback) ([HN](https://news.ycombinator.com/item?id=28128360))
+- [SciPipe](https://github.com/scipipe/scipipe) - Robust, flexible and resource-efficient pipelines using Go and the command line. ([Docs](https://scipipe.org/))
+- [The Future Is Big Graphs: A Community View on Graph Processing Systems (2021)](https://cacm.acm.org/magazines/2021/9/255040-the-future-is-big-graphs/fulltext) ([HN](https://news.ycombinator.com/item?id=28499999))
+- [What Is the Data Lakehouse Pattern?](https://timeflow.systems/what-is-the-data-lakehouse-pattern/) ([HN](https://news.ycombinator.com/item?id=28531009))
+- [Apache Hadoop](https://hadoop.apache.org/) - Open-source software for reliable, scalable, distributed computing. ([Is Hadoop Dead?](https://tech.marksblogg.com/is-hadoop-dead.html)) ([Code](https://github.com/apache/hadoop))
+- [go-stash](https://github.com/tal-tech/go-stash) - High performance, free and open source server-side data processing pipeline that ingests data from Kafka, processes it, and then sends it to ElasticSearch.
+- [pypely](https://github.com/stoney95/pypely) - Make your data processing easy - build pipelines in a functional manner.
+- [An opinionated map of incremental and streaming systems (2021)](https://scattered-thoughts.net/writing/an-opinionated-map-of-incremental-and-streaming-systems/)
+- [Crossjoin](https://github.com/crossjoin-io/crossjoin) - Joins together your data from anywhere.
+- [Ceramic Network](https://ceramic.network/) - Decentralized, open source platform for creating, hosting, and sharing streams of data. ([TS Code](https://github.com/ceramicnetwork/js-ceramic)) ([GitHub](https://github.com/ceramicnetwork)) ([Doc](https://github.com/ceramicnetwork/ceramic))
+- [Graphite-Web](https://github.com/graphite-project/graphite-web) - Highly scalable real-time graphing system. ([Docs](https://graphite.readthedocs.io/en/stable/))
+- [vega](https://github.com/rajasekarv/vega) - Faster implementation of Apache Spark from scratch in Rust.
+- [Memgraph](https://github.com/memgraph/memgraph) - Build modern, graph-based applications on top of your streaming data in minutes. ([Web](https://memgraph.com/))
+- [Apache Parquetv](https://parquet.apache.org/) - Columnar storage format that supports nested data. ([Code](https://github.com/apache/parquet-format))
+- [Data Pipelines Pocket Reference Book (2021)](https://www.oreilly.com/library/view/data-pipelines-pocket/9781492087823/) ([Code](https://github.com/jamesdensmore/datapipelinesbook))
+- [miniwdl](https://github.com/chanzuckerberg/miniwdl) - Workflow Description Language developer tools & local runner.
+- [Rain](https://github.com/substantic/rain) - Framework for large distributed pipelines.
+- [Apache SeaTunnel](https://seatunnel.apache.org/) - Distributed, high-performance data integration platform for the synchronization and transformation of massive data (offline & real-time). ([Code](https://github.com/apache/incubator-seatunnel))
+- [Databend](https://github.com/datafuselabs/databend) - Open Source Serverless Data Warehouse for Everyone. ([Web](https://www.databend.com/)) ([GitHub](https://github.com/datafuselabs)) ([CLI](https://github.com/databendcloud/bendsql))
+- [Pydra](https://github.com/nipype/pydra) - Simple dataflow engine with scalable semantics.
+- [Bytewax](https://github.com/bytewax/bytewax) - Open source Python framework for building highly scalable dataflows.
+- [Atomic Data](https://docs.atomicdata.dev/) - Modular specification for sharing, modifying and modeling graph data. ([Code](https://github.com/ontola/atomic-data-docs)) ([Rust Code](https://github.com/joepio/atomic-data-rust))
+- [Apache Arrow Flight SQL: Accelerating Database Access (2022)](https://arrow.apache.org/blog/2022/02/16/introducing-arrow-flight-sql/) ([HN](https://news.ycombinator.com/item?id=30360726))
+- [Grist](https://github.com/gristlabs/grist-core) - Modern relational spreadsheet. Open core alternative to Airtable and Google Sheets. ([HN](https://news.ycombinator.com/item?id=30392227))
+- [Data Engineering Practice Problems](https://github.com/danielbeach/data-engineering-practice)
+- [Dagster: Rebundling the Data Platform (2022)](https://dagster.io/blog/rebundling-the-data-platform)
+- [cq](https://github.com/markus-wa/cq) - Clojure Command-line Data Processor for JSON, YAML, EDN, XML and more.
+- [utt](https://github.com/queer/utt) - Universal text transformer.
+- [Loggie](https://github.com/loggie-io/loggie) - Lightweight, high-performance, cloud-native agent and aggregator based on Go.
+- [ter](https://github.com/schulke-214/ter) - CLI to run text expressions and perform basic text operations such as filtering, ignoring and replacing on the command line.
+- [csv-diff](https://github.com/simonw/csv-diff) - Python CLI tool and library for diffing CSV and JSON files.
+- [pqrs](https://github.com/manojkarthick/pqrs) - Command line tool for inspecting Parquet files.
+- [Kestra](https://kestra.io/) - Infinitely scalable open source orchestration & scheduling platform. ([Code](https://github.com/kestra-io/kestra)) ([HN](https://news.ycombinator.com/item?id=30790047))
+- [TiFlash](https://github.com/pingcap/tiflash) - Analytical engine for TiDB.
+- [Streamify](https://github.com/ankurchavda/streamify) - Data pipeline with Kafka, Spark Streaming, dbt, Docker, Airflow, Terraform, GCP and much more.
+- [DTL](https://getdtl.org/) - Language and JavaScript lib to transform and manipulate data. ([HN](https://news.ycombinator.com/item?id=31098205))
+- [Hawk](https://github.com/gelisam/hawk) - Haskell text processor for the command-line.
+- [Alternatives to pandas library](https://twitter.com/lalleal/status/1511400363622121482)
+- [Zed](https://github.com/brimdata/zed) - Tooling for super-structured data: a new and easier way to manipulate data. ([Web](https://zed.brimdata.io/))
+- [Fast Analysis with DuckDB + PyArrow (2022)](https://tech.gerardbentley.com/python/data/intermediate/2022/04/26/holy-duck.html) - Trying out some new speedy tools for data analysis.
+- [Why isn’t there a decent file format for tabular data? (2022)](https://successfulsoftware.net/2022/04/30/why-isnt-there-a-decent-file-format-for-tabular-data/) ([HN](https://news.ycombinator.com/item?id=31220841))
+- [Data Engineering Wiki](https://dataengineering.wiki/Index) ([Code](https://github.com/JPHaus/data-engineering-wiki))
+- [csv-clean](https://github.com/TimothyJones/csv-clean) - Command line tool to clean up malformed CSV files.
+- [rq](https://github.com/dflemstr/rq) - Tool for doing record analysis and transformation.
+- [Data Integration Guide: Techniques, Technologies, and Tools (2022)](https://airbyte.com/blog/data-integration)
+- [Mito](https://www.trymito.io/) - Edit a spreadsheet, generate Python. ([HN](https://news.ycombinator.com/item?id=31446236)) ([HN](https://news.ycombinator.com/item?id=32723766)) ([Code](https://github.com/mito-ds/monorepo))
+- [Tornado](https://github.com/WuerthPhoenix/tornado) - Complex Event Processor that receives reports of events from data sources such as monitoring, email, and telegram, matches them against pre-configured rules.
+- [Meet Dash-AB — The Statistics Engine of Experimentation at DoorDash (2022)](https://doordash.engineering/2022/05/24/meet-dash-ab-the-statistics-engine-of-experimentation-at-doordash/)
+- [dataPipe](https://github.com/FalconSoft/dataPipe) - Data processing and data analytics library for JavaScript.
+- [gosquito](https://github.com/livelace/gosquito) - Pluggable tool for data gathering, data processing and data transmitting to various destinations.
+- [DLT](https://github.com/scale-vector/dlt) - Enables simple python-native data pipelining for data professionals.
+- [PipeRider](https://github.com/InfuseAI/piperider) - Toolkit for detecting data issues across pipelines that works with CI systems for continuous data quality assessment.
+- [airflint](https://github.com/feluelle/airflint) - Enforce Best Practices for all your Airflow DAGs.
+- [Scaling our Spreadsheet Engine from Thousands to Billions of Cells (2022)](https://www.causal.app/blog/scaling) ([HN](https://news.ycombinator.com/item?id=32000400)) ([Lobsters](https://lobste.rs/s/pcmrfr/scaling_our_spreadsheet_engine_from))
+- [qv](https://github.com/timvw/qv) - Simple CLI to quickly view your data. Powered by DataFusion.
+- [Airflow's Problem (2022)](https://stkbailey.substack.com/p/airflows-problem) ([HN](https://news.ycombinator.com/item?id=32317558))
+- [Quokka](https://github.com/marsupialtail/quokka) - Fast data processing engine whose core consists of ~1000 lines of Python code.
+- [Modal](https://modal.com/) - On-demand compute that just works. ([Twitter](https://twitter.com/modal_labs))
+- [Building open source downscaling pipelines for the cloud (2022)](https://carbonplan.org/blog/cloud-downscaling-pipelines)
+- [Dabbling with Dagster vs. Airflow (2022)](https://davidsj.substack.com/p/dabbling-with-dagster-part-1) ([HN](https://news.ycombinator.com/item?id=32839147))
+- [Mage](https://www.mage.ai/) - Data pipelines for data scientists. ([Code](https://github.com/mage-ai/mage-ai))
+- [Merriam-Webster and Unstructured Data Processing (2022)](https://www.georgeho.org/webster-unstructured-data/)
+- [Best tools to analyze CSV with 100,000 rows in it (2022)](https://twitter.com/simonw/status/1572285367382061057)
+- [Akvorado](https://github.com/akvorado/akvorado) - Flow collector, hydrater and visualizer.
+- [Columnq](https://github.com/roapi/roapi/blob/main/columnq-cli/README.md) - Run SQL on CSV, Parquet, JSON, Arrow, Unix Pipes and Google Sheet. ([HN](https://news.ycombinator.com/item?id=32963900))
+- [Grai](https://github.com/grai-io/grai-core) - Data lineage made simple. Grai makes it easy to understand how your data relates together across databases, warehouses, APIs and dashboards. ([Web](https://www.grai.io/))
+- [Kuma-san's toolbox for data analysis](https://github.com/analokmaus/kuma_utils)
+- [Byzer](https://github.com/byzer-org/byzer-lang) - Low-code, open-sourced and distributed programming language for data pipeline, analytics and AI in cloud native way. ([Web](https://www.byzer.org/home))
+- [Data Analysis at the Command Line (2022)](https://lucytalksdata.com/data-analysis-at-the-command-line/)
+- [Data Pipeline in Rust](https://github.com/DataPsycho/data-pipelines-in-rust) - Data pipeline example written in Rust with Polars and DataFusion DataFrame package.
+- [Memphis](https://github.com/memphisdev/memphis-broker) - Real-Time Data Processing Platform. ([Web](https://memphis.dev/))
+- [dedup](https://github.com/deepinthebuild/dedup) - Command-line tool for deduplicating entries in a file or stream.
+- [parquet-tools](https://github.com/ktrueda/parquet-tools) - Easy install parquet-tools.
+- [BitSail](https://github.com/bytedance/bitsail) - ByteDance's open source data integration engine which is based on distributed architecture and provides high performance.
+- [thisthat](https://github.com/timClicks/thisthat) - Data format conversion utility.
+- [Boring Data Tool (bdt)](https://github.com/andygrove/bdt) - Command-line tool for viewing, querying, and converting between various file formats. Powered by DataFusion.
+- [Dabbling with Dagster (2022)](https://davidsj.substack.com/p/dabbling-with-dagster-part-1)
+- [Report: Databricks vs Snowflake (2022)](https://research.contrary.com/reports/databrick-vs-snowflake)
+- [DataFusion-tui](https://github.com/datafusion-contrib/datafusion-tui) - Terminal based, extensible, interactive data analysis tool using SQL.
+- [Querying Parquet with Millisecond Latency (2022)](https://www.influxdata.com/blog/querying-parquet-millisecond-latency/)
+- [Using Commandline To Process CSV files (2022)](https://muhammadraza.me/2022/data-oneliners/)
+- [Apache Arrow Cookbooks](https://github.com/apache/arrow-cookbook)
+- [parquet2json](https://github.com/jupiter/parquet2json) - Command-line tool for streaming Parquet as line-delimited JSON.
+- [What I Want from DataFusion in 2023](https://andygrove.io/2023/01/what-i-want-from-datafusion-2023/)
+- [xvc](https://github.com/iesahin/xvc) - Fast and robust MLOps tool for managing data and pipelines.
+- [Recap](https://github.com/recap-cloud/recap) - Dead simple data catalog for engineers.
+- [Modern Polars: a comparison of the Polars and Pandas dataframe libraries](https://kevinheavey.github.io/modern-polars/) ([HN](https://news.ycombinator.com/item?id=34275818)) ([Code](https://github.com/kevinheavey/modern-polars))
+- [Text Processing in Linux: Understanding Grep, sed, and AWK (2023)](https://www.linode.com/docs/guides/differences-between-grep-sed-awk/)
+- [Demystifying Apache Arrow (2020)](https://www.robinlinacre.com/demystifying_arrow/) ([HN](https://news.ycombinator.com/item?id=34311468))
+- [Awk: Power and Promise of a 40 yr old language (2021)](https://www.fosslife.org/awk-power-and-promise-40-year-old-language) ([HN](https://news.ycombinator.com/item?id=34393085))
+- [Replacing Pandas with Polars (2023)](https://www.confessionsofadataguy.com/replacing-pandas-with-polars-a-practical-guide/) ([HN](https://news.ycombinator.com/item?id=34452526))
+- [dbt-prql](https://github.com/PRQL/dbt-prql) - Allows writing PRQL in dbt models.
+- [Using Rust to write a Data Pipeline (2023)](https://www.confessionsofadataguy.com/using-rust-to-write-a-data-pipeline-thoughts-musings/) ([Code](https://github.com/danielbeach/RustForDataPipelines))
+- [Pandas Illustrated: Visual Guide to Pandas (2023)](https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43) ([HN](https://news.ycombinator.com/item?id=34550735))
+- [Arrow CLI Tools](https://github.com/domoritz/arrow-tools) - Collection of handy CLI tools to convert CSV and JSON to Apache Arrow and Parquet.
+- [unstructured](https://github.com/Unstructured-IO/unstructured) - Open-Source Pre-Processing Tools for Unstructured Data.
+- [pipelime](https://github.com/eyecan-ai/pipelime-python) - Swiss army knife for data processing.
+- [Explore Data with Data Painter](https://docs.kanaries.net/rath/tutorials/data-painter/) ([HN](https://news.ycombinator.com/item?id=34789698))
+- [Pandas 2.0 and the Arrow revolution (2023)](https://datapythonista.me/blog/pandas-20-and-the-arrow-revolution-part-i) ([HN](https://news.ycombinator.com/item?id=34968769))
+- [Demystifying the Parquet File Format (2022)](https://towardsdatascience.com/demystifying-the-parquet-file-format-13adb0206705)
+- [How to Get Started with Dbt (2023)](https://www.blef.fr/get-started-dbt/) ([HN](https://news.ycombinator.com/item?id=35080707))
+- [Miller](https://github.com/johnkerl/miller) - Like Awk, sed, cut, join, and sort for CSV, TSV, and tabular JSON. ([HN](https://news.ycombinator.com/item?id=35179799))
+- [Fascination of AWK](https://maximullaris.com/awk.html) ([HN](https://news.ycombinator.com/item?id=35273273))
+- [Kaskada](https://github.com/kaskada-ai/kaskada) - Modern, open-source event-processing.
+- [Sidekick](https://github.com/ai-sidekick/sidekick) - Open-source ETL framework to sync data from SaaS tools to vector stores. ([HN](https://news.ycombinator.com/item?id=35375540))
+- [Parquet: more than just "Turbo CSV" (2023)](https://csvbase.com/blog/3)
+- [Pandas 2.0](https://github.com/pandas-dev/pandas/releases/tag/v2.0.0) ([HN](https://news.ycombinator.com/item?id=35423569))
+- [Polars for initial data analysis, Polars for production (2023)](https://pythonspeed.com/articles/polars-exploratory-data-analysis-vs-production/)
+- [dbt-osmosis](https://github.com/z3z1ma/dbt-osmosis) - Provides automated YAML management, a dbt server, streamlit workbench, and git-integrated dbt model output diff tools.
+- [Database Stream Processor (DBSP)](https://github.com/feldera/dbsp) - Framework for computing over data streams that aims to be more expressive and performant than existing streaming engines.
+- [Malloy An Experimental Language for Data (2023)](https://www.youtube.com/watch?v=zmmJgwc3oPI)
+- [I decided not to commercialize nbdev (2023)](https://hamel.dev/blog/posts/nbdev/) ([HN](https://news.ycombinator.com/item?id=36142763))
+- [stlite](https://github.com/whitphx/stlite) - Serverless Streamlit.
+- [Daft: A High-Performance Distributed Dataframe Library for Multimodal Data](https://blog.getdaft.io/p/introducing-daft-a-high-performance) ([HN](https://news.ycombinator.com/item?id=36225694))
+- [Use pygwalker to build visual analysis app in streamlit](https://docs.kanaries.net/pygwalker/use-pygwalker-with-streamlit.en) ([HN](https://news.ycombinator.com/item?id=36515986))
+- [Datadex](https://github.com/davidgasquez/datadex) - Collaborate on Open Data using Open Source Tools.
+- [Data analysis with SQLite and Python (2023)](https://datasette.io/tutorials/data-analysis)
+- [VulcanSQL](https://github.com/Canner/vulcan-sql) - Create and share Data APIs fast! Data API framework for DuckDB, Snowflake, BigQuery, PostgreSQL. ([Web](https://vulcansql.com/)) ([HN](https://news.ycombinator.com/item?id=36601838))

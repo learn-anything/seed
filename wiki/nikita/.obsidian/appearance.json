@@ -1,0 +1,9 @@
+{
+  "baseFontSize": 22,
+  "theme": "system",
+  "enabledCssSnippets": [
+    "improve"
+  ],
+  "cssTheme": "Minimal",
+  "accentColor": ""
+}

@@ -1,0 +1,71 @@
+# Gleam
+
+## Links
+
+- [Gleam](https://github.com/gleam-lang/gleam) - Statically typed language for the Erlang VM. ([HN](https://news.ycombinator.com/item?id=22902462)) ([Lobsters](https://lobste.rs/s/pb008i/v0_9_gleam_statically_typed_language_for)) ([Intro video](https://www.youtube.com/watch?v=ceynSTa1dV4)) ([Web](https://gleam.run/))
+- [Gleam Docs](https://gleam.run/documentation/) ([Code](https://github.com/gleam-lang/website))
+- [An interview with the creator of Gleam: an ML like language for the Erlang VM with a compiler written in Rust (2019)](https://notamonadtutorial.com/an-interview-with-the-creator-of-gleam-an-ml-like-language-for-the-erlang-vm-with-a-compiler-e94775f60dc7)
+- [Gleam's standard library](https://github.com/gleam-lang/stdlib)
+- [Awesome Gleam](https://github.com/gleam-lang/awesome-gleam)
+- [Midas](https://github.com/midas-framework/midas) - Web framework for Gleam.
+- [Introducing Lean Server for Midas (2020)](http://crowdhailer.me/2020-06-23/introducing-lean-server-for-midas/)
+- [Gleam Talk - Shayne Tremblay (2020)](https://www.youtube.com/watch?v=qC9RhcWzKdE)
+- [GleamCompile](https://github.com/praveenperera/gleam_compile) - Tiny hex package to make the development experience of using gleam in elixir (and especially phoenix projects) just a bit better.
+- [Gleam Discord](https://discord.com/invite/Fm8Pwmy)
+- [Gleam HTTP](https://github.com/gleam-lang/http) - Types and functions for HTTP clients and servers.
+- [Gleam and Static Types with Louis Pilfold (2020)](https://thinkingelixir.com/podcast-episodes/023-gleam-and-static-types-with-louis-pilfold/)
+- [Shine](https://github.com/jeffkreeftmeijer/shine) - Test runner for Gleam and Erlang.
+- [Gleam 0.14 (2021)](https://gleam.run/news/gleam-v0.14-released/) ([HN](https://news.ycombinator.com/item?id=26185690))
+- [VS Code Gleam](https://github.com/gleam-lang/vscode-gleam) - Gleam support for VS Code.
+- [Phantom Types in Gleam (2021)](https://blog.pd-andy.dev/phantom-types-in-gleam)
+- [Gleam Playground](https://nicklas.xyz/apps/gleam-playground/) - Playground for running snippets of Gleam code in the browser. ([Code](https://github.com/NicklasXYZ/gleam_playground))
+- [Getting more from data](https://github.com/midas-framework/project_wisdom)
+- [workers-gleam-template](https://github.com/lpil/gleam-cloudflare-worker) - Batteries included template for kick starting a Gleam Cloudflare worker project.
+- [A Portrait of the Language Designer as a Young Man (2021)](https://www.youtube.com/watch?v=1jubJ_YDI0k)
+- [Gleam Playground](https://johndoneth.github.io/gleam-playground/) - Browser based playground for Gleam language. ([Code](https://github.com/JohnDoneth/gleam-playground))
+- [gleam_json](https://github.com/gleam-lang/json) - Gleam library for encoding decoding JSON.
+- [MixGleam](https://github.com/gleam-lang/mix_gleam) - Build Gleam code with mix.
+- [gleam_pb](https://github.com/bwireman/gleam_pb) - Protobuf support for Gleam.
+- [argamak](https://github.com/tynanbe/argamak) - Gleam library for tensor maths.
+- [A Portrait of the Language Designer as a Young Man: Interview with Louis Pilfold (2021)](https://serokell.io/blog/interview-with-louis-pilfold)
+- [tree-sitter-gleam](https://github.com/gleam-lang/tree-sitter-gleam)
+- [gleam_cowboy_websockets](https://github.com/vstreame/gleam_cowboy_websockets)
+- [httpc](https://github.com/gleam-lang/httpc) - Make requests to HTTP servers with httpc.
+- [Elli](https://github.com/gleam-lang/elli) - Gleam HTTP service adapter for the Elli web server.
+- [ids](https://github.com/rvcas/ids) - Unique IDs for Gleam.
+- [mist](https://github.com/rawhat/mist) - Nice, basic gleam web server.
+- [Introducing the Gleam language server (2022)](https://gleam.run/news/v0.21-introducing-the-gleam-language-server/)
+- [bliss](https://github.com/sporto/bliss) - Experiment on making a micro web framework for Gleam.
+- [Hackney](https://github.com/gleam-lang/hackney) - Make requests to HTTP servers with Hackney.
+- [yak](https://github.com/hayleigh-dot-dev/gleam-yak) - Small embeddable scripting language for Gleam.
+- [The future of friendly functional programming, Talking about Gleam language (2022)](https://open.spotify.com/episode/5kQbDiLY65Ujn1ymnugsX4)
+- [howdy](https://github.com/mikeyjones/howdy) - Simple API on top of the Mist web server.
+- [nibble](https://github.com/hayleigh-dot-dev/gleam-nibble) - String parsing library heavily inspired by elm/parser.
+- [emel](https://github.com/mrdimosthenis/emel) - Simple and functional machine learning library for the Erlang ecosystem.
+- [Gleam v0.25 - Introducing use expressions (2022)](https://gleam.run/news/v0.25-introducing-use-expressions/)
+- [Rad](https://github.com/tynanbe/rad) - Flexible task runner companion for the Gleam build manager.
+- [shellout](https://github.com/tynanbe/shellout) - Gleam library for cross-platform shell operations.
+- [Gleam Cowboy](https://github.com/gleam-lang/cowboy) - Gleam HTTP service adapter for the Cowboy web server.
+- [sqlight](https://github.com/lpil/sqlight) - Use SQLite from Gleam.
+- [Incremental compilation, and hello Deno (2023)](https://gleam.run/news/v0.26-incremental-compilation-and-deno/)
+- [outil](https://github.com/fabjan/outil) - Library for writing command line tools.
+- [Nakai](https://github.com/nakaibuild/nakai) - Just-in-time functional rendering framework for building web apps with Gleam.
+- [showtime](https://github.com/JohnBjrk/showtime) - Gleam Testing Framework.
+- [glimt](https://github.com/JohnBjrk/glimt) - Gleam library for logging.
+- [Interview and AMA with Louis Pilfold - Creator of Gleam (2023)](https://www.youtube.com/watch?v=IlPOUuIZnec)
+- [codec](https://github.com/gleam-community/codec) - Keeping your JSON encoders and decoders in sync.
+- [esgleam](https://github.com/bwireman/esgleam) - esbuild plugin for gleam.
+- [maths](https://github.com/gleam-community/maths) - Basic mathematics library containing fundamental functions and utilities.
+- [ansi](https://github.com/gleam-community/ansi) - ANSI colors, formatting, and control codes.
+- [Gleam Erlang](https://github.com/gleam-lang/erlang) - Library for making use of Erlang specific code.
+- [Gleam v0.27 - Hello panic, goodbye try (2023)](https://gleam.run/news/v0.27-hello-panic-goodbye-try/)
+- [Gleam OTP](https://github.com/gleam-lang/otp) - Fault tolerant multicore programs with actors.
+- [Monorepos, fast maps, and more – Gleam (2023)](https://gleam.run/news/v0.28-monorepos-fast-maps-and-more/)
+- [Introducing the Gleam package index (2023)](https://gleam.run/news/introducing-the-gleam-package-index/)
+- [gleam_qs](https://github.com/sporto/gleam_qs) - Query string parser for Gleam.
+- [Gleam Packages](https://packages.gleam.run/) - Search for Gleam packages. ([Code](https://github.com/gleam-lang/packages))
+- [Gleam gets autocompletion (2023)](https://gleam.run/news/v0.29-gleam-gets-autocompletion/)
+- [gleamy_structures](https://github.com/schurhammer/gleamy_structures)
+- [glx](https://github.com/maxdeviant/glx) - Extensions to the Gleam standard library.
+- [glenvy](https://github.com/maxdeviant/glenvy) - Pleasant way to interact with your environment.
+- [glecosystem](https://github.com/maxdeviant/glecosystem) - Analyzing the Gleam ecosystem.

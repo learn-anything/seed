@@ -1,0 +1,42 @@
+/* make cursor stop blinking in VIM mode  */
+.CodeMirror-cursor,
+div.CodeMirror-cursor,
+.cm-fat-cursor,
+.cm-animate-fat-cursor,
+.cm-fat-cursor-mark,
+.cm-cursor{
+ visibility: visible !important;
+}
+
+/* remove all visual noise (buttons, sidebar) */
+.side-dock-ribbon.mod-left.is-collapsed {
+  display: none;
+}
+.view-actions {
+  display: none;
+}
+.titlebar-button {
+  display: none;
+}
+.workspace-ribbon {
+  display: none;
+}
+.status-bar {
+  display: none;
+}
+.view-header-title {
+  display: none;
+}
+.inline-title {
+  display: none;
+}
+.clickable-icon {
+  display: none;
+}
+.workspace-tab-header-inner-close-button {
+  display: none;
+}
+
+.workspace-tab-header-container {
+  display: none;
+}

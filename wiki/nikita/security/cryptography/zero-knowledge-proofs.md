@@ -1,0 +1,173 @@
+---
+title: Zero knowledge proofs
+---
+
+# [Zero knowledge proofs](https://en.wikipedia.org/wiki/Zero-knowledge_proof)
+
+[RISC Zero](https://github.com/risc0/risc0) looks neat. [Zero Knowledge on Ramp](https://github.com/SupremeSingh/Awesome-ZK) & [Proofs, Arguments, and Zero-Knowledge](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf) are nice intros.
+
+[Noir](https://github.com/noir-lang/noir) is nice DSL. [Fusion zkRollup](https://github.com/leonardoalt/fusion) is interesting.
+
+## Notes
+
+- [ZK proofs in a blockchain context are the most significant step forward since smart contracts](https://twitter.com/pseudotheos/status/1525776827574362112)
+
+## Links
+
+- [ZKP in WebAssembly](https://zkwasm.kobi.one/)
+- [Bulletproofs](https://crypto.stanford.edu/bulletproofs/) - Short Proofs for Confidential Transactions and More.
+- [Pure-Rust implementation of Bulletproofs using Ristretto](https://github.com/dalek-cryptography/bulletproofs)
+- [Awesome zero knowledge proofs](https://github.com/matter-labs/awesome-zero-knowledge-proofs)
+- [Arithmetic Circuits](https://github.com/adjoint-io/arithmetic-circuits) - Low-level representation of a program that consists of gates computing arithmetic operations of addition and multiplication, with wires connecting the gates.
+- [Visualizing Efficient Merkle Trees for Zero-Knowledge Proofs (2020)](https://kndrck.co/posts/efficient-merkletrees-zk-proofs/)
+- [ZKP](https://github.com/adjoint-io/zkp) - Practical zero knowledge proof system that provides small and computationally efficient zero-knowledge proofs of arbitrary computations.
+- [Zero-knowledge attestation (2019)](https://www.imperialviolet.org/2019/01/01/zkattestation.html)
+- [genSTARK](https://github.com/GuildOfWeavers/genSTARK) - Library for generating zk-STARKs.
+- [Zero-Knowledge: a tutorial by Oded Goldreich](http://www.wisdom.weizmann.ac.il/~oded/zk-tut02.html)
+- [Zinc framework](https://github.com/matter-labs/zinc) - Goal of Zinc is to make writing safe zero-knowledge programs and ZKP-based smart contracts easy.
+- [A Field Guide to zkSNARKs (2020)](https://write.as/knowledgeprover/zero-knowledge-proof-systems-a-primer)
+- [Circom](https://github.com/iden3/circom) - Language designed to write arithmetic circuits that can be used in zero knowledge proofs.
+- [Zero-Knowledge Proofs for Engineers: Introduction (2020)](https://blog.zkga.me/intro-to-zksnarks)
+- [Why and How zk-Snark Works (2019)](https://arxiv.org/abs/1906.07221) ([HN](https://news.ycombinator.com/item?id=24815649))
+- [SCIPR Lab](http://www.scipr-lab.org/) - Succinct Computational Integrity and Privacy Research. ([GitHub](https://github.com/scipr-lab))
+- [gnark](https://github.com/ConsenSys/gnark) - Fast, open-source library for zero-knowledge proof protocols written in Go.
+- [Reverie: An optimized zero-knowledge proof system (2020)](https://blog.trailofbits.com/2020/12/14/reverie-an-optimized-zero-knowledge-proof-system/)
+- [Tau Prolog](http://tau-prolog.org/) - Prolog interpreter in JavaScript. ([Code](https://github.com/tau-prolog/tau-prolog))
+- [Zero Knowledge Paillier](https://github.com/ZenGo-X/zk-paillier) - Collection of Paillier cryptosystem zero knowledge proofs written in Rust.
+- [rapidsnark](https://github.com/iden3/rapidsnark) - zkSnark proof generation.
+- [An approximate introduction to how zk-SNARKs are possible (2021)](https://vitalik.ca/general/2021/01/26/snarks.html)
+- [OpenZKP](https://github.com/0xProject/OpenZKP) - Pure Rust implementations of Zero-Knowledge Proof systems.
+- [zkp](https://github.com/dalek-cryptography/zkp) - Experimental zero-knowledge proof compiler in Rust macros. ([Fork](https://github.com/zkcrypto/zkp))
+- [Zero Knowledge Proof - Numberphile (2021)](https://www.youtube.com/watch?v=5ovdoxnfFVc)
+- [Serving up zero-knowledge proofs (2021)](https://blog.trailofbits.com/2021/02/19/serving-up-zero-knowledge-proofs/)
+- [Leo](https://github.com/AleoHQ/leo) - Functional, statically-typed programming language built for writing private applications.
+- [Aleo](https://aleo.org/) - Where Applications Become Zero-Knowledge. ([GitHub](https://github.com/AleoHQ)) ([Twitter](https://twitter.com/AleoHQ))
+- [Noir](https://github.com/noir-lang/noir) - Domain specific language for zero knowledge proofs. ([Docs](https://docs.aztec.network/developers/noir)) ([Tweet](https://twitter.com/aztecnetwork/status/1578082456212643840)) ([Awesome](https://github.com/noir-lang/awesome-noir)) ([Book](https://noir-lang.github.io/book/)) ([Book Code](https://github.com/noir-lang/book))
+- [snarkOS](https://github.com/AleoHQ/snarkOS) - Decentralized Operating System for Zero-Knowledge Applications.
+- [snarkVM](https://github.com/AleoHQ/snarkVM) - Virtual Machine for Zero-Knowledge Executions.
+- [Aleo SDK](https://github.com/AleoHQ/aleo) - Software Development Kit (SDK) for Zero-Knowledge Transactions.
+- [wasmsnark](https://github.com/iden3/wasmsnark) - Fast zkSnark proof generator written in native Web Assembly.
+- [Zero-Knowledge Proofs](https://zkp.science/) ([HN](https://news.ycombinator.com/item?id=27573910))
+- [Zk-SNARKs, FreeTON and OCamlPro](https://medium.com/ocamlpro/zk-snarks-freeton-and-ocamlpro-eaaa1849ffd1)
+- [Zero-Knowledge Middleboxes (2021)](https://eprint.iacr.org/2021/1022.pdf) ([Code](https://github.com/pag-crypto/zkmbs)) ([HN](https://news.ycombinator.com/item?id=31061628))
+- [How do modern zero-knowledge proofs, and PLONK specifically, work? (videos) (2021)](https://www.cryptologie.net/article/529/how-does-the-general-purpose-zero-knowledge-proof-system-plonk-work/)
+- [Zero-Knowledge Proofs for Private Web Attestation with Multi-Vendor Hardware (2021)](https://blog.cloudflare.com/introducing-zero-knowledge-proofs-for-private-web-attestation-with-cross-multi-vendor-hardware/) ([HN](https://news.ycombinator.com/item?id=28745951))
+- [snarkyJS](https://github.com/o1-labs/snarkyjs) - TypeScript/JavaScript framework for writing zk-SNARKs and snapps.
+- [circom](https://github.com/iden3/circom) - zkSnark circuit compiler.
+- [zkSNARKs Library](https://github.com/kevinz917/zksnarks-library) - Library of zkSNARKS circuits written in the Circom language.
+- [arkworks::std](https://github.com/arkworks-rs/std) - Standard library wrapper for use in the `arkworks` ecosystem.
+- [Proof Systems](https://github.com/o1-labs/proof-systems) - Contains various zk-SNARK protocol implementations for recursive SNARK composition.
+- [Polygon Miden](https://github.com/maticnetwork/miden) - Zero-knowledge virtual machine written in Rust.
+- [Plonky](https://github.com/mir-protocol/plonky) - Recursive SNARKs based on Plonk and Halo.
+- [Plonky2](https://github.com/mir-protocol/plonky2) - SNARK implementation based on techniques from PLONK and FRI.
+- [Mir Protocol](https://mirprotocol.org/) - Open-source platform that allows anyone to run private and scalable decentralized applications / ZKP-powered. ([Twitter](https://twitter.com/mirprotocol))
+- [snarkjs](https://github.com/iden3/snarkjs) - ZkSNARK implementation in JavaScript & WASM.
+- [Learning zero knowledge proof technologies in public](https://github.com/JofArnold/zkp-learning-in-public)
+- [PLONK](https://github.com/rust-zkp/ark-plonk) - Pure Rust PLONK implementation using arkworks as a backend.
+- [Understanding Zero-knowledge proofs through illustrated examples (2019)](https://blog.goodaudience.com/understanding-zero-knowledge-proofs-through-simple-examples-df673f796d99) ([HN](https://news.ycombinator.com/item?id=29419206))
+- [libsnark](https://github.com/scipr-lab/libsnark) - C++ library for zkSNARK proofs.
+- [arkworks-gadgets](https://github.com/webb-tools/arkworks-gadgets) - Zero-knowledge gadgets for blockchain applications.
+- [CirC](https://github.com/circify/circ) - Compiling high-level languages for SMT, zero-knowledge proofs, and more.
+- [Gemini](https://github.com/mmaker/gemini) - Elastic proof system based on arkworks.
+- [Zero knowledge proofs using the Bulletproofs implementation from dalek-cryptography](https://github.com/lovesh/bulletproofs-r1cs-gadgets)
+- [ZKDocs](https://www.zkdocs.com/) - Comprehensive, detailed, and interactive documentation on zero-knowledge proof systems and related primitives. ([Code](https://github.com/trailofbits/zkdocs))
+- [zkUtil](https://github.com/poma/zkutil) - Tool to work with zkSNARK circuits generated by Circom compiler.
+- [Interactive zero knowledge 3-colorability demonstration](http://web.mit.edu/~ezyang/Public/graph/svg.html) ([HN](https://news.ycombinator.com/item?id=29701837))
+- [WordLines](https://github.com/nalinbhardwaj/wordlines) - Zero-knowledge proof-based blockchain puzzle game. ([HN](https://news.ycombinator.com/item?id=29805557))
+- [AirScript](https://github.com/GuildOfWeavers/AirScript) - Scripting language for defining zk-STARKs.
+- [zkInterface](https://github.com/QED-it/zkinterface) - Protocol for the interoperability of zero-knowledge frameworks.
+- [Short-lived zero-knowledge proofs and signatures (2022)](https://eprint.iacr.org/2022/190.pdf) ([Tweet](https://twitter.com/dystopiabreaker/status/1496011412996788227))
+- [Introduction to Zero Knowledge Proofs](https://github.com/enricobottazzi/ZKverse)
+- [Curve ecGFp5](https://github.com/pornin/ecgfp5) - Elliptic curve defined over a field.
+- [RISC Zero](https://github.com/risc0/risc0) - Zero-knowledge verifiable general computing platform based on zk-STARKs and the RISC-V microarchitecture.
+- [Awesome Zero Knowledge](https://github.com/ventali/awesome-zk)
+- [Arbibot RPS](https://github.com/botdad/arbirps) - On chain rock paper scissors game using zero knowledge proofs for hiding plays.
+- [zkSNARKS tutorial: practical beginner's guide to creating, proving, and verifying zkSNARKs in your contracts](https://github.com/jstoxrocky/zksnarks_example)
+- [Jellyfish cryptographic library](https://github.com/EspressoSystems/jellyfish) - Rust Implementation of the PLONK ZKP System and Extensions.
+- [Security of ZKP projects: same but different](https://youtu.be/SCIuwh9ya8U?t=22619) ([Slides](https://www.aumasson.jp/data/talks/zksec_zk7.pdf))
+- [Zero Knowledge Summit Amsterdam 2022](https://www.youtube.com/watch?v=SCIuwh9ya8U)
+- [Curated list of ZK resources and links](https://github.com/ingonyama-zk/ingopedia)
+- [Zk app boilerplate](https://github.com/wanseob/zkp-app-boilerplate) - Build your zkp app with typescript, hardhat, circom, and snarkjs.
+- [Zero Knowledge Proof using Hamiltonian Cycles (2016)](https://daniel.schemmel.net/post/2016/zero-knowledge-proofs-using-hamiltonian-cycles/)
+- [Zero Knowledge Proofs of Knowledge (2016)](https://daniel.schemmel.net/post/2016/zero-knowledge-proofs-of-knowledge/)
+- [zkPairing](https://github.com/yi-sun/circom-pairing) - Proof-of-concept implementations of elliptic curve pairings (in particular, the optimal Ate pairing and Tate pairing) for the BLS12-381 curve in circom.
+- [What are Zero Knowledge Proofs (ZKPs), and how are they changing blockchain forever?](https://twitter.com/BarryFried1/status/1511742345053900800)
+- [boo-hoo](https://github.com/cronokirby/boo-hoo) - Library for Non-Interactive Zero-Knowledge Proofs of Knowledge (NIZKPoKs) for boolean circuits.
+- [zkGames](https://github.com/vplasencia/zkGames) - Platform that allows users to play zk (zero knowledge) games and mint an NFT as proof that they have won.
+- [Exploring Zero Knowledge: StarkWare (2022)](https://pseudotheos.mirror.xyz/Q9154CY9CFaPzy6AgSlek8-ZBA_kSF_93MTKk-opHRw)
+- [Implementing Zero Knowledge Lottery’s Circom circuits (2022)](https://killari.medium.com/implementing-zero-knowledge-lotterys-circom-circuits-part-1-2-16910b3732a2)
+- [Zero Knowledge Lottery (2022)](https://killari.medium.com/zero-knowledge-lottery-437e456dc3f2)
+- [zk-Crush](https://www.zkcrush.xyz/) - Tell your crush you like them with zero-knowledge. ([Code](https://github.com/amirgamil/zk-crush))
+- [nuid.zk](https://github.com/NuID/zk) - Cross-platform zero knowledge proofs.
+- [Setup Ceremony for Universal SNARKs](https://github.com/anoma/trusted-setup-ceremony)
+- [ZK Basics Cheat sheet](https://github.com/baro77/ZKbasicsCS)
+- [sppark](https://github.com/supranational/sppark) - Zero-knowledge template library.
+- [Zerokit](https://github.com/vacp2p/zerokit) - Set of Zero Knowledge modules, written in Rust and designed to be used in other system programming environments.
+- [Cairo Bulletproofs](https://github.com/Lev-Stambler/bulletproof-cairo) - Zero knowledge proof system which allow for short inner product, range, shuffle, and arithmetic circuit proofs.
+- [RISC Zero Rust Starter](https://github.com/risc0/risc0-rust-starter) - Minimal starting project for zero-knowledge software development.
+- [Vamp-IR](https://github.com/anoma/vamp-ir) - Proof-system-agnostic language for writing arithmetic circuits.
+- [zkMove Lite](https://github.com/young-rocks/zkmove-lite) - Lightweight zero-knowledge proof friendly Move language virtual machine.
+- [zkEVM Prover in C++](https://github.com/0xPolygonHermez/zkevm-prover)
+- [VERI-ZEXE](https://github.com/EspressoSystems/veri-zexe) - Decentralized Private Computation with Universal Setup.
+- [Ecne](https://github.com/franklynwang/EcneProject) - Engine for verifying the soundness of R1CS constraints.
+- [zkREPL](https://zkrepl.dev/) - Online playground for zero knowledge circuits. ([Code](https://github.com/0xPARC/zkrepl))
+- [cloud-ZK](https://github.com/ingonyama-zk/cloud-ZK) - Toolkit for developing ZKP acceleration in the cloud.
+- [Triton VM](https://github.com/TritonVM/triton-vm) - Virtual machine that comes with Algebraic Execution Tables (AET) and Arithmetic Intermediate Representations (AIR) for use in combination with a STARK proof system.
+- [Circomspect](https://github.com/trailofbits/circomspect) - Static analyzer and linter for the Circom zero-knowledge DSL.
+- [Merlin](https://merlin.cool/) - STROBE-based transcript construction for zero-knowledge proofs.
+- [Magikitten](https://github.com/cronokirby/magikitten) - System for making public-coin protocols non-interactive, using Meow.
+- [ZK Bug Tracker](https://github.com/0xPARC/zk-bug-tracker) - Community-maintained collection of bugs, vulnerabilities, and exploits in apps using ZK crypto.
+- [Zilch](https://github.com/TrustworthyComputing/Zilch) - Framework for Developing Zero-Knowledge Proofs for Any Application.
+- [Using ZK Proofs to Fight Disinformation (2022)](https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f)
+- [Zero-Knowledge starter](https://github.com/backmeupplz/zk-starter)
+- [The hunting of the (zk-) SNARK (2022)](https://www.entropy1729.com/the-hunting-of-the-zk-snark/)
+- [zkWasm](https://github.com/DelphinusLab/zkWasm)
+- [ZK-kit](https://github.com/privacy-scaling-explorations/zk-kit) - Monorepo of reusable JS libraries for zero-knowledge technologies.
+- [ZKP (circuit) compiler shootout](https://github.com/anoma/zkp-compiler-shootout) - Evaluating & benchmarking ZKP compilation strategies.
+- [zkcreds-rs](https://github.com/rozbb/zkcreds-rs) - Cryptographic library for designing anonymous credential systems in a flexible, issuer-agnostic, and efficient manner using general-purpose zero-knowledge proofs.
+- [zkAuth](https://github.com/danieljcss/zkAuth) - 2FA with Zero-Knowledge proofs.
+- [How to prove you know a secret without giving it away (2022)](https://www.quantamagazine.org/how-to-prove-you-know-a-secret-without-giving-it-away-20221011/) ([HN](https://news.ycombinator.com/item?id=33171214))
+- [OpenZL](https://github.com/openzklib/openzl) - Zero-Knowledge Cryptography Infrastructure Stack.
+- [What's the deal with zkapps? (2022)](https://www.cryptologie.net/article/575/whats-the-deal-with-zkapps/)
+- [Linear A](https://zk-ml.xyz/) - Makes it possible to run neural networks in zero-knowledge settings. ([GitHub](https://github.com/zk-ml))
+- [Noname](https://github.com/mimoo/noname) - Programming language to write zkapps.
+- [Intro to Zero-knowledge & Building zkApps w/Mina Protocol (2022)](https://eda.hashnode.dev/zero-knowledge-building-zkapps-mina-protocol)
+- [miniSTARK](https://github.com/andrewmilson/ministark) - GPU accelerated STARK prover and verifier.
+- [RISC Zero](https://www.risczero.com/) - General-Purpose Verifiable Computing.
+- [Zero Knowledge on Ramp](https://github.com/SupremeSingh/Awesome-ZK)
+- [Cairo](https://github.com/starkware-libs/cairo) - Fast compiler for Cairo, written in Rust.
+- [xJsnark](https://github.com/akosba/xjsnark) - High-level framework for developing efficient zk-SNARK circuits.
+- [Sandstorm](https://github.com/andrewmilson/sandstorm) - Cairo prover powered by miniSTARK.
+- [eigen-zkvm](https://github.com/0xEigenLabs/eigen-zkvm) - zkVM on hybrid proof system, allowing the developers to write Zero-knowledge applications.
+- [ZK Hunt](https://github.com/FlynnSC/zk-hunt) - Onchain game which explores different ZK game mechanics and information asymmetry.
+- [zkOS](https://github.com/starkoracles/zkos) - Cross-proof-system execution layer.
+- [VMtropy](https://github.com/lambdaclass/VMtropy) - ZK snark-based VM running Aleo Instructions.
+- [Proofs, Arguments, and Zero-Knowledge (2022)](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
+- [zk-starter](https://github.com/cawfree/zk-starter) - Zero knowledge for those with zero knowledge.
+- [Verifiable AES: encryption using zero-knowledge proofs (2023)](https://www.notamonadtutorial.com/verifiable-encryption-using-zero-knowledge-proofs/) ([Lobsters](https://lobste.rs/s/mcvrlm/verifiable_aes_encryption_using_zero))
+- [Decentralized private computation: ZEXE and VERI-ZEXE (2023)](https://www.notamonadtutorial.com/decentralized-private-computations-zexe-and-veri-zexe/)
+- [Arithmetization schemes for ZK-SNARKs (2023)](https://www.notamonadtutorial.com/arithmetization-schemes-for-zk-snarks/)
+- [Nova Scotia](https://github.com/nalinbhardwaj/Nova-Scotia) - Middleware to compile Circom circuits to Nova prover.
+- [poseidon](https://github.com/privacy-scaling-explorations/poseidon) - Built to be used in SNARK and non native recursion friendly transcript for appliedzkp/halo2.
+- [zkLLVM Circuit Compiler](https://github.com/NilFoundation/zkllvm) - Zero-Knowledge Proof Systems Circuit Compiler.
+- [Hyperplonk](https://github.com/EspressoSystems/hyperplonk) - Linear-time FFT-free SNARK proof system.
+- [Zator](https://github.com/lyronctk/zator) - Proving the execution of arbitrarily deep neural networks with recursive SNARKs.
+- [Snarky Sudoku](https://github.com/nalinbhardwaj/snarky-sudoku) - Zero-knowledge Sudoku using zk-SNARKs.
+- [Tornado Cats](https://github.com/minaminao/tornado-cats) - Book for learning zero-knowledge applications and decentralized mixing through the creation of a simple mixer protocol based on Tornado Cash.
+- [Zero Knowledge Message Board](https://github.com/nulven/zk-polling)
+- [Spartan-ecdsa](https://github.com/personaelabs/spartan-ecdsa) - Fastest open-source method to verify ECDSA (secp256k1) signatures in zero-knowledge.
+- [LambdaWorks](https://github.com/lambdaclass/lambdaworks) - Library for kids who want to learn how to do SNARKs and learn other cryptographic stuff too.
+- [Kakarot](https://github.com/sayajin-labs/kakarot-ssj) - Kakarot ZK-EVM in Cairo 1.0.
+- [ark-groth16](https://github.com/arkworks-rs/groth16) - Rust implementation of the Groth16 zkSNARK.
+- [Introduction to zero-knowledge machine learning (ZKML) (2023)](https://worldcoin.org/blog/engineering/intro-to-zkml)
+- [Awesome ZKML](https://github.com/worldcoin/awesome-zkml)
+- [Fusion zkRollup](https://github.com/leonardoalt/fusion) - Progressive and fast zkRollup written in Rust, focused on performance, modularity, and applying cutting-edge Verifiable Computation proof systems.
+- [Awesome PLONK](https://github.com/fluidex/awesome-plonk)
+- [Sovereign SDK](https://github.com/Sovereign-Labs/sovereign) - Toolkit for building zk-rollups.
+- [Halo2 Scaffolding](https://github.com/axiom-crypto/halo2-scaffold) - Basic scaffolding for setting up and writing a Halo2 ZK circuit.
+- [Valida](https://github.com/delendum-xyz/valida) - zkVM with an LLVM frontend.
+- [OmniZK](https://github.com/greenhat/omnizk) - Compiler Framework for Zero-Knowledge VMs.
+- [zkml](https://github.com/ddkang/zkml) - Framework for constructing proofs of ML model execution in ZK-SNARKs.
+- [Awesome Folding](https://github.com/lurk-lab/awesome-folding) - Curated list of zero-knowledge folding schemes.
+- [Lambdaworks Cairo Prover](https://github.com/lambdaclass/lambdaworks_cairo_prover)
+- [powdr](https://github.com/powdr-org/powdr) - Modular stack for zkVMs, with a focus on productivity, security and performance.

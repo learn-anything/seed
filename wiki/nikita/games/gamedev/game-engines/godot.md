@@ -1,0 +1,132 @@
+---
+title: Godot
+---
+
+# [Godot](https://godotengine.org/)
+
+[This Week in Godot](https://thisweekingodot.com/) is nice newsletter.
+
+## Nice Godot OSS apps
+
+- [Knakk](https://github.com/raffomania/knakk) - Casual flip-and-write game in Godot 4.
+- [Lorien](https://github.com/mbrlabs/Lorien) - Infinite canvas drawing/note-taking app that is focused on performance, small savefiles and simplicity. ([HN](https://news.ycombinator.com/item?id=31717007))
+- [LiBlast](https://codeberg.org/unfa/Liblast) - Libre Multiplayer FPS Game Built with Godot 4 and Blender.
+- [Shotcaller](https://github.com/spicylobstergames/shotcaller-godot) - Minimalistic 1v1 MOBA/RTS in top-down pixel style.
+- [Mightiest Steel](https://github.com/AaronWizard/LegendsOfMajesticSteel) - Power metal strategy RPG.
+- [Star Engine](https://github.com/mr-pedro-braga/star-engine-core) - Multi-level API for developing RPG-like games in Godot.
+- [ROTA](https://github.com/HarmonyHoney/ROTA) - Made with Godot 3.5 / Gravity Bending Puzzle Platformer.
+- [Builder 2D game](https://github.com/GDQuest/godot-2d-builder) - Simulation game demo made in Godot and inspired by Factorio.
+- [GDTLancer](https://github.com/roalyr/GDTLancer) - Performance-friendly 3D space game inspired by Freelancer, Orbiter and EVE.
+- [Tabletop Club](https://github.com/drwhut/tabletop-club) - Open-source platform for playing tabletop games in a physics-based 3D environment.
+- [Godot 2D Rhythm Game](https://github.com/GDQuest/godot-2d-rhythm)
+- [Mandrake](https://github.com/Akademya/mandrake) - Simple open-source turn-base RPG.
+- [Abandoned Spaceship Godot Demo](https://github.com/perfoon/Abandoned-Spaceship-Godot-Demo) - Godot 4 demo scene of abandoned spaceship in overgrown hangar.
+
+## Links
+
+- [This Week in Godot](https://thisweekingodot.com/) - Weekly newsletter to stay tuned with news, tutorials, game and demo releases and more. ([Code](https://github.com/albizures/ThisWeekInGodot))
+- [Here comes Godot 3.2, with quality as priority (2020)](https://godotengine.org/article/here-comes-godot-3-2) ([HN](https://news.ycombinator.com/item?id=22179572))
+- [Create a First-Person Shooter In Godot](https://godottutorials.pro/fps-godot-tutorial/) ([HN](https://news.ycombinator.com/item?id=22373006))
+- [Make an Action RPG in Godot (2020)](https://www.youtube.com/watch?v=mAbG8Oi-SvQ&list=PL9FzW-m48fn2SlrW0KoLT4n5egNdX-W9a)
+- [Voxel Tools for Godot](https://github.com/Zylann/godot_voxel) - C++ module for creating volumetric worlds in Godot Engine.
+- [godot-rust](https://github.com/godot-rust/godot-rust) - Rust library that implements native bindings for the Godot game engine. ([Reddit](https://www.reddit.com/r/rust/comments/thv703/godotrust_010_released/)) ([Docs](https://godot-rust.github.io/))
+- [Godot code](https://github.com/godotengine/godot)
+- [Godot 4.0 will get a new lightmapper (2020)](https://godotengine.org/article/godot-40-will-get-new-modernized-lightmapper) ([HN](https://news.ycombinator.com/item?id=23128518))
+- [Godot Rust (2020)](https://hagsteel.com/posts/godot-rust/)
+- [Godot Editor running in a web browser (2020)](https://godotengine.org/article/godot-editor-running-web-browser) ([HN](https://news.ycombinator.com/item?id=23354286))
+- [ballparq](https://ballparq.games/) - Make your next Godot game a home run. ([HN](https://news.ycombinator.com/item?id=23382786))
+- [godot-nim](https://github.com/pragmagic/godot-nim) - Nim bindings for Godot Engine.
+- [Enu](https://github.com/dsrw/enu) - Logo-like DSL for Godot, implemented in Nim. ([Introducing Enu, 3D live-coding in Nim](https://www.youtube.com/watch?v=3l6tsKM1cY8))
+- [Godot 4.0 gets SDF based real-time global illumination (2020)](https://godotengine.org/article/godot-40-gets-sdf-based-real-time-global-illumination) ([HN](https://news.ycombinator.com/item?id=23668918))
+- [Making Advanced GUI Applications with Godot (2020)](https://medium.com/swlh/what-makes-godot-engine-great-for-advance-gui-applications-b1cfb941df3b) ([HN](https://news.ycombinator.com/item?id=24043427))
+- [Godot Python](https://github.com/touilleMan/godot-python) - Python language support as a scripting module for the Godot game engine.
+- [Godot Docs](https://docs.godotengine.org/en/stable/) ([Code](https://github.com/godotengine/godot-docs))
+- [Godot demo projects](https://github.com/godotengine/godot-demo-projects)
+- [godot-go](https://github.com/godot-go/godot-go) - Go bindings for Godot's GDNative and NativeScript APIs.
+- [Godot Improvement Proposals](https://github.com/godotengine/godot-proposals)
+- [Godot Shaders](https://godotshaders.com/) - View and Share Shaders for Godot. ([HN](https://news.ycombinator.com/item?id=26025742))
+- [Goost](https://github.com/goostengine/goost) - General-purpose, extensible and customizable C++ extension for Godot Engine.
+- [Why isn't Godot an ECS-based game engine? (2021)](https://godotengine.org/article/why-isnt-godot-ecs-based-game-engine) ([Lobsters](https://lobste.rs/s/hzqlgc/why_isn_t_godot_ecs_based_game_engine)) ([HN](https://news.ycombinator.com/item?id=26284158))
+- [Making an online multiplayer game with Godot and Nakama (2021)](https://heroiclabs.com/blog/announcements/godot-fishgame/) ([Lobsters](https://lobste.rs/s/rikico/making_online_multiplayer_game_with))
+- [Godot Engine Web Editor](https://editor.godotengine.org/releases/latest/) ([HN](https://news.ycombinator.com/item?id=26528835))
+- [Bitmapflow](https://github.com/Bauxitedev/bitmapflow) - Tool to generate inbetweens for animated sprites, written in godot-rust.
+- [Godot 3.3 (2021)](https://godotengine.org/article/godot-3-3-has-arrived) ([HN](https://news.ycombinator.com/item?id=26896340))
+- [Godot dictionary tutorial with examples (2020)](https://generalistprogrammer.com/godot/godot-dictionary-tutorial-with-examples/)
+- [Dialogic](https://github.com/coppolaemilio/dialogic) - Create dialogs, characters and scenes to display conversations in your Godot games.
+- [Material Maker](https://github.com/RodZill4/material-maker) - Tool based on Godot Engine that can be used to create textures procedurally and paint 3D models.
+- [Stop Waiting for Godot (2021)](https://itch.io/jam/stop-waiting-for-godot) ([HN](https://news.ycombinator.com/item?id=28352397))
+- [Godot Export](https://github.com/firebelley/godot-export) - Workflow action to automatically export your Godot games.
+- [Godot Lua PluginScript](https://github.com/gilzoide/godot-lua-pluginscript) - Adds support for Lua as a scripting language in Godot.
+- [Godot FSM (Finite State Machine)](https://github.com/godot-addons/godot-finite-state-machine)
+- [Improvements to shaders and visual shaders in Godot 4.0 (2021)](https://godotengine.org/article/improvements-shaders-visual-shaders-godot-4)
+- [Multiplayer in Godot 4.0: Scene Replication (Part 1) (2021)](https://godotengine.org/article/multiplayer-changes-godot-4-0-report-4) ([HN](https://news.ycombinator.com/item?id=29362912))
+- [Godot Engine's native Blender exporter add-on](https://github.com/godotengine/godot-blender-exporter)
+- [Godot tips and tricks](https://github.com/me2beats/godot-tips-and-tricks)
+- [Fox](https://github.com/uralys/fox) - Tools to help develop with Godot engine. ([HN](https://news.ycombinator.com/item?id=29714408))
+- [Learn GDScript From Zero](https://github.com/GDQuest/learn-gdscript) ([Web](https://gdquest.github.io/learn-gdscript/))
+- [Godot Shaders](https://github.com/GDQuest/godot-shaders) - Large library of free and open-source shaders for the Godot game engine. Here, you'll get 2D and 3D shaders with playable demos.
+- [SVG2Godot](https://github.com/pixelriot/SVG2Godot) - Import SVG files into Godot game engine.
+- [Swift for Godot](https://github.com/kelvin13/godot-swift)
+- [Escoria Demo Game](https://github.com/godot-escoria/escoria-demo-game) - Game example for the point'n'click adventure framework Escoria.
+- [Godot C++](https://github.com/godotengine/godot-cpp) - C++ bindings for the Godot script API.
+- [HN: Godot (2022)](https://news.ycombinator.com/item?id=30622830)
+- [Godot Kotlin JVM](https://github.com/utopia-rise/godot-kotlin-jvm) - Kotlin/JVM binding for the Godot Game Engine.
+- [Exporting Blender models for Godot (2020)](https://tam7t.com/blender-godot-export/)
+- [Godot Manager](https://github.com/eumario/godot-manager) - Project, Version and Addons/Plugins manager for Godot Game Engine. ([Reddit](https://www.reddit.com/r/godot/comments/tj62bj/godot_manager_v010_release/))
+- [Godot Console](https://github.com/quentincaffeino/godot-console) - In-game console for Godot 3.
+- [DecalCo](https://github.com/Master-J/DecalCo) - Shader based decal solution for the Godot game engine.
+- [Godot Visual Effects](https://github.com/GDQuest/godot-visual-effects) - Open-source visual effects designed in Godot, from our VFX Secrets course.
+- [ArcadiaGodot](https://github.com/arcadia-unity/ArcadiaGodot) - Integration of the Clojure Programming Language with the Godot game engine.
+- [Qarminer](https://github.com/qarmin/Qarminer) - Fuzzer which finds crashes, memory leaks and undefined behaviors in Godot Engine.
+- [SmartShape2D](https://github.com/SirRamEsq/SmartShape2D) - 2D Terrain Tool for Godot.
+- [GDScript and Godot client for real-time Phoenix Framework Channels](https://github.com/alfredbaudisch/GodotPhoenixChannels)
+- [Godex](https://github.com/GodotECS/godex) - Godot Engine ECS library.
+- [Making Advanced GUI Applications with Godot (2020)](https://medium.com/swlh/what-makes-godot-engine-great-for-advance-gui-applications-b1cfb941df3b) ([Lobsters](https://lobste.rs/s/uka8eq/making_advanced_gui_applications_with))
+- [It’s time to make that indie C# game in Godot (2022)](https://jolexxa.medium.com/its-time-to-make-that-indie-c-game-in-godot-cea383151470) ([HN](https://news.ycombinator.com/item?id=32096575))
+- [Mesh Painter](https://github.com/StrayEddy/GodotPlugin-MeshPainter) - Mesh painter plugin for Godot.
+- [Godot 3.5 (2022)](https://godotengine.org/article/godot-3-5-cant-stop-wont-stop) ([HN](https://news.ycombinator.com/item?id=32357248))
+- [Learn to Code From Zero With Godot](https://gdquest.mavenseed.com/courses/learn-to-code-from-zero-with-godot)
+- [Godot Node Essentials](https://gdquest.mavenseed.com/courses/godot-node-essentials)
+- [Godot-Logger](https://github.com/jdno/godot-logger) - Logger for godot-rust projects.
+- [Godot 4.0 will discontinue visual scripting (2022)](https://godotengine.org/article/godot-4-will-discontinue-visual-scripting) ([HN](https://news.ycombinator.com/item?id=32571893))
+- [What do you dislike about Godot? (2022)](https://twitter.com/godotengine/status/1565948428126937089)
+- [Godot 4.0 Bindings for Go](https://github.com/readykit/gd)
+- [Godot Puzzle Dependencies](https://github.com/nathanhoad/godot_puzzle_dependencies) - Tool for making puzzle dependency charts in Godot.
+- [Godot 4 Beta 1 (2022)](https://godotengine.org/article/dev-snapshot-godot-4-0-beta-1) ([HN](https://news.ycombinator.com/item?id=32856034))
+- [Godot Egui](https://github.com/setzer22/godot-egui) - Egui backend for godot-rust.
+- [Emulating double precision on the GPU to render large worlds (2022)](https://godotengine.org/article/emulating-double-precision-gpu-render-large-worlds) ([HN](https://news.ycombinator.com/item?id=33237338))
+- [Godot Card Game Framework](https://github.com/db0/godot-card-game-framework)
+- [Rust bindings for GDExtension](https://github.com/godot-rust/gdextension)
+- [Godot Aseprite Wizard](https://github.com/viniciusgerevini/godot-aseprite-wizard) - Godot plugin to help import Aseprite animations to AnimationPlayers, AnimatedSprites and SpriteFrames.
+- [Rust Comes to Godot 4 (2022)](https://www.youtube.com/watch?v=d-hZv5ztr34)
+- [Movie Maker mode in Godot 4.0 (2022)](https://godotengine.org/article/movie-maker-mode-arrives-in-godot-4) ([HN](https://news.ycombinator.com/item?id=33598256))
+- [V-Sekai](https://github.com/V-Sekai/v-sekai-game) - Open source project aiming to bring social VR/VRSNS/metaverse components to the Godot Engine.
+- [Replicating quake movement in Godot](https://github.com/axel37/godot-quake-movement)
+- [GdUnit4](https://github.com/MikeSchulze/gdUnit4) - Godot Unit Test Framework.
+- [Godot Engine Release Management: 4.0 and beyond (2022)](https://godotengine.org/article/release-management-4-0-and-beyond) ([HN](https://news.ycombinator.com/item?id=33793281)) ([Reddit](https://www.reddit.com/r/godot/comments/z801lr/release_management_40_and_beyond/))
+- [Procedural Planet Godot](https://github.com/athillion/ProceduralPlanetGodot)
+- [Godot 4.0 beta 9 Released (2022)](https://godotengine.org/article/dev-snapshot-godot-4-0-beta-9) ([HN](https://news.ycombinator.com/item?id=34052510))
+- [GodotSteam](https://github.com/Gramps/GodotSteam) - Open-source and fully functional Steamworks SDK / API module and plug-in for the Godot Game Engine.
+- [Godot Engine - 2022: A Retrospective](https://godotengine.org/article/2022-retrospective) ([HN](https://news.ycombinator.com/item?id=34197098))
+- [Godot for AA/AAA game development – What's missing? (2023)](https://godotengine.org/article/whats-missing-in-godot-for-aaa/) ([HN](https://news.ycombinator.com/item?id=34401530)) ([Reddit](https://www.reddit.com/r/godot/comments/10dn40y/godot_for_aaaaa_game_development_whats_missing/))
+- [Godot Haskell](https://github.com/SimulaVR/godot-haskell)
+- [A Week of Progress on my Godot 4 RPG (2022)](https://www.youtube.com/watch?v=sYcJP5GyRa4)
+- [Godot Jolt](https://github.com/godot-jolt/godot-jolt) - Godot extension that integrates the Jolt physics engine.
+- [Scatter](https://github.com/HungryProton/scatter) - Godot engine addon to randomly fill an area with props or other scenes.
+- [GDShell](https://github.com/Kubulambula/Godot-GDShell) - Feature-packed linux-like in-game console for development, debugging, cheats and/or any other interaction with your game.
+- [gd-YAFSM](https://github.com/imjp94/gd-YAFSM) - Finite State Machine for Godot.
+- [Godot Goal Oriented Action Planning Example](https://github.com/viniciusgerevini/godot-goap)
+- [Godot 4.0 Released (2023)](https://godotengine.org/article/godot-4-0-sets-sail/) ([HN](https://news.ycombinator.com/item?id=34984494)) ([HN](https://news.ycombinator.com/item?id=34982889))
+- [Godot 4 3D Pixelart Shader Demo](https://github.com/leopeltola/Godot-3d-pixelart-demo)
+- [Beehave](https://github.com/bitbrain/beehave) - Behavior tree AI for Godot Engine.
+- [SwiftGodot](https://github.com/migueldeicaza/SwiftGodot) - Godot bindings for Swift.
+- [BurstParticles2D](https://github.com/uzkbwza/BurstParticles2D) - Cool one-shot particle system for Godot.
+- [godot-ply](https://github.com/jarneson/godot-ply) - Godot plugin for in-editor box modelling for gray boxing or prototyping 3d levels.
+- [Godot-Dodo](https://github.com/minosvasilias/godot-dodo) - Finetuning large language models for GDScript generation. ([HN](https://news.ycombinator.com/item?id=35681357))
+- [Godot 4 Artificial Intelligence (AI) NPC example project](https://github.com/teddybear082/godot-gordon-freeman)
+- [Expresso Character Controller](https://github.com/expressobits/character-controller) - Modular Character Controller for Godot 4.
+- [Desert Light - Godot 4 demo](https://github.com/RPicster/godot4-demo-desert-light)
+- [Godot Discord](https://discord.com/invite/zH7NUgz)
+- [Upload a Godot HTML5 Game to Itch.io with GitHub Actions](https://simondalvai.com/blog/godot-itchio-upload/) ([HN](https://news.ycombinator.com/item?id=36466698))
+- [Skelerealms](https://github.com/SlashScreen/skelerealms) - Open world RPG framework for Godot 4.
+- [Godot 4.1 Is Released (2023)](https://godotengine.org/article/godot-4-1-is-here/) ([HN](https://news.ycombinator.com/item?id=36614114))

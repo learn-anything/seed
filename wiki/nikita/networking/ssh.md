@@ -1,0 +1,159 @@
+# SSH
+
+[Tailscale](https://tailscale.com/) replaces SSH well I think. Liked [this visual guide to SSH](https://iximiuz.com/en/posts/ssh-tunnels/).
+
+## Links
+
+- [SSH logins using keys (2005)](http://alblue.bandlem.com/2005/08/howto-ssh-logins-using-keys.html)
+- [Endlessh](https://github.com/skeeto/endlessh) - SSH tarpit that very slowly sends an endless, random SSH banner. ([HN](https://news.ycombinator.com/item?id=24491453))
+- [SeKey](https://github.com/sekey/sekey) - Use Touch ID / Secure Enclave for SSH Authentication.
+- [BLESS](https://github.com/Netflix/bless) - SSH Certificate Authority that runs as an AWS Lambda function and is used to sign SSH public keys.
+- [sslh](https://github.com/yrutschle/sslh) - Applicative Protocol Multiplexer (e.g. share SSH and HTTPS on the same port).
+- [Guide to using YubiKey for GPG and SSH](https://github.com/drduh/YubiKey-Guide)
+- [Eternal Terminal](https://github.com/MisterTea/EternalTerminal) - Re-Connectable secure remote shell. ([Web](https://eternalterminal.dev/)) ([HN](https://news.ycombinator.com/item?id=21640200))
+- [ssh in https](https://flak.tedunangst.com/post/ssh-in-https) ([Lobsters](https://lobste.rs/s/xzztac/ssh_https))
+- [WebSSH](https://github.com/huashengdun/webssh) - Web based ssh client.
+- [Building interactive SSH applications (2019)](https://drewdevault.com/2019/09/02/Interactive-SSH-programs.html) ([HN](https://news.ycombinator.com/item?id=20857362))
+- [Top 20 OpenSSH Server Best Security Practices (2020)](https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html)
+- [Pwning your (web)server and network the easy way - or why exposing ~/.ssh/ is a bad idea](https://0day.work/pwning-your-web-server-and-network-the-easy-way-or-why-exposing-ssh-is-a-bad-idea/) ([HN](https://news.ycombinator.com/item?id=22068070))
+- [jass](https://github.com/jschauma/jass) - Tool to facilitate sharing of secrets using SSH keys.
+- [rtop-bot](https://github.com/rapidloop/rtop-bot) - Bot for Remote Server Monitoring over SSH.
+- [Awesome SSH](https://github.com/moul/awesome-ssh)
+- [ssh-vault](https://github.com/ssh-vault/ssh-vault) - Encrypt/decrypt using ssh keys.
+- [Secretive](https://github.com/maxgoedjen/secretive) - Store SSH keys in the Secure Enclave. ([HN](https://news.ycombinator.com/item?id=23664129))
+- [sshcommand](https://github.com/dokku/sshcommand) - Turn SSH into a thin client specifically for your app.
+- [How to SSH Properly (2020)](https://gravitational.com/blog/how-to-ssh-properly/) ([HN](https://news.ycombinator.com/item?id=22750850))
+- [Mosh](https://mosh.org/) - Tool used to connect from a client computer to a server over the Internet, to run a remote terminal. ([HN](https://news.ycombinator.com/item?id=22810589)) ([Article](https://www.jefftk.com/p/mosh)) ([HN](https://news.ycombinator.com/item?id=28150287))
+- [DIY Single Sign-On for SSH (2020)](https://smallstep.com/blog/diy-single-sign-on-for-ssh/) ([Lobsters](https://lobste.rs/s/jrynqk/diy_single_sign_on_for_ssh))
+- [ssh-p2p](https://github.com/nobonobo/ssh-p2p) - SSH p2p tunneling server and client.
+- [SSH Tips & Tricks (2020)](https://smallstep.com/blog/ssh-tricks-and-tips/) ([HN](https://news.ycombinator.com/item?id=23025756))
+- [xxh](https://github.com/xxh/xxh) - Bring your favorite shell wherever you go through the ssh. ([HN](https://news.ycombinator.com/item?id=29557113))
+- [SSH Agent Explained (2020)](https://smallstep.com/blog/ssh-agent-explained/) ([HN](https://news.ycombinator.com/item?id=23241934))
+- [SSH Emergency Access (2020)](https://smallstep.com/blog/ssh-emergency-access/) ([HN](https://news.ycombinator.com/item?id=23731351))
+- [Smallstep](https://smallstep.com/) - Single Sign-on SSH & Production Identity. Say Goodbye to SSH Key Management.
+- [Step CLI](https://github.com/smallstep/cli) - Toolkit for working with your public key infrastructure (PKI).
+- [Lockbox](https://github.com/half-cambodian-hacker-man/ssh-lockbox) - Personal centralised SSH key deployment to multiple boxes. ([Lobsters](https://lobste.rs/s/d9ziys/ssh_lockbox_personal_centralised_ssh_key))
+- [Ask HN: What do you use for SSH key management of teams? (2020)](https://news.ycombinator.com/item?id=24157180)
+- [How to properly manage ssh keys for server access (2020)](https://www.paepper.com/blog/posts/how-to-properly-manage-ssh-keys-for-server-access/) ([HN](https://news.ycombinator.com/item?id=24599837))
+- [SSH tutorial](https://github.com/RabeaMue/SSH_tutorial/blob/master/SSH_tutorial.org) - Small guide how to use SSH.
+- [TRASA](https://github.com/seknox/trasa) - Zero Trust Service Access. ([Web](https://www.trasa.io/))
+- [PSSH](https://github.com/lilydjwg/pssh) - Provides parallel versions of OpenSSH and related tools, including pssh, pscp, prsync, pnuke and pslurp.
+- [SSHDog](https://github.com/Matir/sshdog) - Small portable SSH server in Go.
+- [SSH Through Websocket (2020)](https://rumpelsepp.org/blog/ssh-through-websocket/)
+- [assh](https://github.com/moul/assh) - Transparent wrapper that adds support for regex, aliases, gateways, dynamic hostnames, graphviz, json output, yaml configuration, and more to SSH.
+- [Roll your own Ngrok with Nginx, Letsencrypt, and SSH reverse tunnelling (2019)](https://jerrington.me/posts/2019-01-29-self-hosted-ngrok.html)
+- [SSH Tunnelling Basics](https://www.polarsparc.com/xhtml/SSH-Tunnel.html)
+- [LazySSH](https://github.com/stephank/lazyssh) - SSH server that acts as a jump host only, and dynamically starts temporary virtual machines. ([HN](https://news.ycombinator.com/item?id=25081472))
+- [Passive SSH](https://github.com/D4-project/passive-ssh) - Open source framework composed of a scanner and server to store and lookup the SSH keys and fingerprints per host (IPv4/IPv6/onion). ([Presentation](https://github.com/D4-project/passive-ssh/blob/main/doc/slides/passive-ssh-presentation.pdf))
+- [Paramiko](https://github.com/paramiko/paramiko) - Leading native Python SSHv2 protocol library.
+- [boxssh](https://github.com/prologic/sshbox) - Server that boxes you into a container.
+- [boringproxy](https://github.com/boringproxy/boringproxy) - No-frills HTTPS/SSH tunneling solution with as much automation as possible. Designed for self-hosters. ([Web](https://boringproxy.io/))
+- [kr](https://github.com/kryptco/kr) - Dev tool for SSH auth + Git commit/tag signing using a key stored in Krypton.
+- [SSH Access for Supercomputers (2021)](https://goteleport.com/blog/secure-access-supercomputers/)
+- [sshh](https://github.com/daniellockyer/sshh) - Quickly SSH into hosts.
+- [A visual guide to SSH tunnels](https://robotmoon.com/ssh-tunnels/) ([HN](https://news.ycombinator.com/item?id=26053323))
+- [SSH Certificates Security Hardening (2021)](https://goteleport.com/blog/ssh-certificates)
+- [MultiSSH](https://multissh.dev/) - Connect to multiple SSH hosts simultaneously.
+- [How often should I rotate my ssh keys? (2021)](https://tailscale.com/blog/rotate-ssh-keys/)
+- [remote pbcopy for use over ssh](https://github.com/bottlerocketlabs/remote-pbcopy)
+- [tosh](https://github.com/mikroskeem/tosh) - Imagine your SSH server only listens on an IPv6 address, and where the last 6 digits are changing every 30 seconds as a TOTP code.
+- [consrv](https://github.com/mdlayher/consrv) - SSH to serial console bridge server.
+- [ssh-audit](https://github.com/jtesta/ssh-audit) - SSH server & client auditing (banner, key exchange, encryption, mac, compression, compatibility, security, etc).
+- [SSH quoting (2021)](https://www.chiark.greenend.org.uk/~cjwatson/blog/ssh-quoting.html) ([HN](https://news.ycombinator.com/item?id=27483077))
+- [ssh_config](https://github.com/kevinburke/ssh_config) - Go parser for ssh_config files.
+- [SSH2-Promise](https://github.com/sanketbajoria/ssh2-promise) - Powerful promise wrapper around ssh2 client.
+- [ReverseSSH](https://github.com/Fahrj/reverse-ssh) - Lightweight SSH server behaving like a reverse shell.
+- [sish](https://github.com/antoniomika/sish) - HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH. Open source serveo/ngrok alternative.
+- [Rospo](https://github.com/ferama/rospo) - Simple and reliable ssh tunnels with embedded ssh server in Go.
+- [vSSH](https://github.com/yahoo/vssh) - Go Library to Execute Commands Over SSH at Scale.
+- [sshportal](https://github.com/moul/sshportal) - Jump host/Jump server without the jump, a.k.a Transparent SSH bastion.
+- [Two cable SSH: the fastest Raspberry Pi setup (2020)](https://blog.cyrusroshan.com/post/two-cable-ssh)
+- [Keygen](https://github.com/charmbracelet/keygen) - SSH key pair generator.
+- [The pitfalls of using SSH-agent, or how to use an agent safely](https://rabexc.org/posts/pitfalls-of-ssh-agents) ([HN](https://news.ycombinator.com/item?id=28576617))
+- [ssh-key-confirmer](https://github.com/benjojo/ssh-key-confirmer) - Test ssh login key acceptance without having the private key.
+- [Hardening SSH with 2fa](https://gist.github.com/lizthegrey/9c21673f33186a9cc775464afbdce820)
+- [SSH Tunneling Explained](https://goteleport.com/blog/ssh-tunneling-explained/) ([HN](https://news.ycombinator.com/item?id=28802493))
+- [SCP for GitHub Actions](https://github.com/appleboy/scp-action) - GitHub Action that copy files and artifacts via SSH.
+- [Massh](https://github.com/DiscoRiver/massh) - Go package for running Linux distributed shell commands via SSH.
+- [SSH alternatives for mobile, low-latency or unreliable connections (2021)](https://console.dev/articles/ssh-alternatives-for-mobile-low-latency-unreliable-connections/) ([HN](https://news.ycombinator.com/item?id=29081008))
+- [signmykey](https://github.com/signmykeyio/signmykey) - Automated SSH Certificate Authority.
+- [ssh2-rs](https://github.com/alexcrichton/ssh2-rs) - Rust bindings to libssh2, an ssh client library.
+- [Simple SSH Security (2021)](https://disknotifier.com/blog/simple-ssh-security/) ([HN](https://news.ycombinator.com/item?id=29153223))
+- [OpenSSH Guide](https://infosec.mozilla.org/guidelines/openssh)
+- [It's Now Possible To Sign Arbitrary Data With Your SSH Keys (2021)](https://www.agwa.name/blog/post/ssh_signatures) ([HN](https://news.ycombinator.com/item?id=29208518)) ([Lobsters](https://lobste.rs/s/a0byrl/it_s_now_possible_sign_arbitrary_data_with))
+- [Portable OpenSSH](https://github.com/openssh/openssh-portable) - Complete implementation of the SSH protocol for secure remote login, command execution and file transfer.
+- [SSH-MITM](https://github.com/ssh-mitm/ssh-mitm) - SSH audits made simple. ([HN](https://news.ycombinator.com/item?id=29256572))
+- [SSH2](https://github.com/mscdex/ssh2) - SSH2 client and server modules written in pure JavaScript for NodeJS.
+- [Wish](https://github.com/charmbracelet/wish) - Make SSH apps, just like that.
+- [promwish](https://github.com/charmbracelet/promwish) - Provides a simple wish middleware exposing some Prometheus metrics.
+- [age-plugin-remote](https://github.com/str4d/age-plugin-remote) - Expose local age identities to remote machines via SSH.
+- [go-ssh-client](https://github.com/metrue/go-ssh-client) - Go package that helps you run command on remote host via SSH.
+- [sshw](https://github.com/yinheli/sshw) - ssh client wrapper for automatic login.
+- [Restricting SSH agent keys (2022)](https://lwn.net/SubscriberLink/880458/5c4147ec8a7ca8df/) ([HN](https://news.ycombinator.com/item?id=29816508))
+- [Best Practices for Securing SSH (2022)](https://goteleport.com/blog/5-ssh-best-practices/) ([HN](https://news.ycombinator.com/item?id=29812819))
+- [Wishlist](https://github.com/charmbracelet/wishlist) - SSH directory.
+- [sshs](https://github.com/quantumsheep/sshs) - Terminal user interface for SSH.
+- [clidle](https://github.com/ajeetdsouza/clidle) - Play Wordle over SSH.
+- [Devzat](https://github.com/quackduck/devzat) - Chat over SSH. Like Discord but in the terminal, over SSH. ([HN](https://news.ycombinator.com/item?id=30688691))
+- [SSH into your private machines from anywhere, for free, using Cloudflare Tunnel (2022)](https://orth.uk/ssh-over-cloudflare/) ([HN](https://news.ycombinator.com/item?id=30283987))
+- [Rayon](https://github.com/Lakr233/Rayon) - Server monitor tool for Linux based machines using remote proc file system with script execution. Available for macOS.
+- [SSH-tools](https://github.com/vaporup/ssh-tools) - Making SSH more convenient. ([HN](https://news.ycombinator.com/item?id=30338289))
+- [lssh](https://github.com/blacknon/lssh) - TUI list select ssh/scp/sftp client tools.
+- [Melt](https://github.com/charmbracelet/melt) - Backup and restore SSH private keys using memorizable seed phrases.
+- [ssh-key-algo](https://github.com/github/ssh-key-algo) - Script to check if the SSH key algorithm is up to date.
+- [Unix System Monitoring Over SSH](https://github.com/zix99/sshsysmon)
+- [If You're Not Using SSH Certificates You're Doing SSH Wrong (2019)](https://smallstep.com/blog/use-ssh-certificates/) ([HN](https://news.ycombinator.com/item?id=30788544))
+- [Reverse SSH](https://github.com/NHAS/reverse_ssh) - SSH based reverse shell.
+- [sshtunnel](https://github.com/pahaz/sshtunnel) - SSH tunnels to remote server.
+- [sshtun](https://github.com/rgzr/sshtun) - Go package that provides a SSH tunnel with port forwarding.
+- [FastSSH](https://github.com/Julien-R44/fast-ssh) - TUI that allows you to quickly connect to your services by navigating through your SSH config.
+- [wssh](https://github.com/aluzzardi/wssh) - SSH to WebSockets Bridge that lets you invoke a remote shell using nothing but HTTP.
+- [SSH tunnelling for fun and profit: Autossh (2016)](https://www.everythingcli.org/ssh-tunnelling-for-fun-and-profit-autossh/)
+- [openssh-keys](https://github.com/coreos/openssh-keys) - Rust library to handle OpenSSH public keys.
+- [ShellHub](https://www.shellhub.io/) - Get seamless remote access to any Linux device. Centralized SSH for the edge and cloud computing. ([Code](https://github.com/shellhub-io/shellhub))
+- [SSH Slides](https://github.com/ivantsepp/ssh-slides) - Terminal-based Presentations Over SSH.
+- [Tunnel-SSH](https://github.com/agebrock/tunnel-ssh) - Easy SSH tunneling.
+- [Warpgate](https://github.com/Eugeny/warpgate) - Smart SSH bastion host for Linux that can be used with any SSH client.
+- [ssh-cert-authority](https://github.com/cloudtools/ssh-cert-authority) - Democratic SSH certificate authority.
+- [Trove's SSH Bastion](https://github.com/notion/bastion)
+- [sshconf](https://github.com/sorend/sshconf) - SSH configuration reading and modification library in Python.
+- [Working Remotely? Pair SSH with Teleport (2022)](https://haydenjames.io/working-remotely-pair-ssh-with-teleport/) ([HN](https://news.ycombinator.com/item?id=31061905))
+- [SSH SOCKS proxy but it's Tailscale (2022)](https://blog.shalman.org/ssh-socks-proxy-but-its-tailscale/)
+- [Scriptable SSH through OpenSSH](https://github.com/openssh-rust/openssh)
+- [SSHConsole](https://github.com/jimstudt/SSHConsole) - Provides an SSH listener to your server which allows you to ssh commands to your server and receive the response back to your terminal.
+- [How to Store an SSH Key on a Yubikey (2022)](https://xeiaso.net/blog/yubikey-ssh-key-storage) ([HN](https://news.ycombinator.com/item?id=31556130))
+- [Russh](https://github.com/warp-tech/russh) - Rust SSH client & server library.
+- [Tailscale SSH (2022)](https://tailscale.com/blog/tailscale-ssh/) ([HN](https://news.ycombinator.com/item?id=31837115)) ([Lobsters](https://lobste.rs/s/y9ewni/introducing_tailscale_ssh))af
+- [drgn.js](https://github.com/drgnjs/drgn) - Modern SSH client built with web technologies.
+- [A toy remote login server (2022)](https://jvns.ca/blog/2022/07/28/toy-remote-login-server/)
+- [ssh srv.us](https://github.com/pcarrier/srv.us) - Expose local HTTP services online.
+- [SSH Tips and Tricks](https://carlosbecker.com/posts/ssh-tips-and-tricks/) ([Lobsters](https://lobste.rs/s/jle167/ssh_tips_tricks))
+- [Ed25519 Deep Dive Addendum (2022)](https://cendyne.dev/posts/2022-09-11-ed25519-deep-dive-addendum.html)
+- [ssh-key-sync](https://github.com/shoenig/ssh-key-sync) - Tool for managing ssh authorized_key files on servers.
+- [RustCrypto: SSH](https://github.com/RustCrypto/SSH) - Pure Rust implementation of components of the Secure Shell (SSH) protocol.
+- [Making an SSH client the hard way (2022)](https://tailscale.com/blog/ssh-console/) ([Tweet](https://twitter.com/NathanMcNulty/status/1585693326854221824)) ([HN](https://news.ycombinator.com/item?id=33360776))
+- [SSH port forwarding with Go (2022)](https://eli.thegreenplace.net/2022/ssh-port-forwarding-with-go/)
+- [Parallel-SSH](https://github.com/ParallelSSH/parallel-ssh) - Asynchronous parallel SSH Python client library.
+- [Citadel](https://github.com/orlandos-nl/Citadel) - SSH Client & Server in Swift.
+- [SSH server hardening (2022)](https://ittavern.com/ssh-server-hardening/) ([Lobsters](https://lobste.rs/s/eslfxr/ssh_server_hardening))
+- [AsyncSSH](https://github.com/ronf/asyncssh) - Asynchronous SSH for Python.
+- [Sharing your SSH keys with GitHub](https://davidgasquez.bearblog.dev/sharing-ssh-keys/)
+- [pbproxy](https://github.com/nikvdp/pbproxy) - Send your clipboard anywhere you can ssh to.
+- [A Visual Guide to SSH Tunnels: Local and Remote Port Forwarding (2022)](https://iximiuz.com/en/posts/ssh-tunnels/) ([HN](https://news.ycombinator.com/item?id=34349929))
+- [Hardware-based SSH/GPG/age agent](https://github.com/romanz/trezor-agent)
+- [ssh whoami.filippo.io (2023)](https://words.filippo.io/dispatches/whoami-updated/) ([HN](https://news.ycombinator.com/item?id=34301768))
+- [whoarethey: Determine Who Can Log In to an SSH Server (2023)](https://www.agwa.name/blog/post/whoarethey) ([Lobsters](https://lobste.rs/s/sngjwc/whoarethey_determine_who_can_log_ssh)) ([HN](https://news.ycombinator.com/item?id=34332245)) ([Code](https://github.com/AGWA/whoarethey))
+- [I don't understand terminals, shells and SSH (2023)](https://j11g.com/2023/01/14/i-dont-understand-terminals-shells-and-ssh/) ([HN](https://news.ycombinator.com/item?id=34382976))
+- [napi-rs/ssh](https://github.com/Brooooooklyn/ssh)
+- [Dropbear SSH](https://matt.ucc.asn.au/dropbear/dropbear.html) - Self-contained client/server for embedded systems.
+- [What is the Randomart Image for? (2023)](https://bytes.zone/posts/what-is-the-randomart-image-for/) ([HN](https://news.ycombinator.com/item?id=34878431))
+- [libssh2](https://github.com/libssh2/libssh2) - SSH2 library.
+- [PAM-RSSH](https://github.com/z4yx/pam_rssh) - Remote sudo authenticated via ssh-agent.
+- [We need better support for SSH host certificates (2023)](https://mjg59.dreamwidth.org/65874.html) ([Lobsters](https://lobste.rs/s/4fkxpq/we_need_better_support_for_ssh_host))
+- [Forwarding ssh-agent through WebSockets](https://tristancacqueray.github.io/blog/forwarding-ssh-agent-through-websockets)
+- [SSH authorization keys experiments (2023)](https://notes.volution.ro/v1/2023/04/remarks/eb5109f6/)
+- [Closing a stale SSH connection (2023)](https://davidisaksson.dev/posts/closing-stale-ssh-connections/)
+- [xdg-open-svc](https://github.com/caarlos0/xdg-open-svc) - Service that you can run in your host, forward the socket over SSH, and use it to open URLs and etc from your target host.
+- [SSH over QUIC](https://github.com/moul/quicssh) ([HN](https://news.ycombinator.com/item?id=35729260))
+- [sshtunnel](https://github.com/elliotchance/sshtunnel) - Ultra simple SSH tunnelling for Go programs.
+- [snips.sh](https://github.com/robherley/snips.sh) - Passwordless, anonymous SSH-powered pastebin with a human-friendly TUI and web UI.

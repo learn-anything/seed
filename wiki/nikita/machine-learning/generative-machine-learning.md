@@ -1,0 +1,410 @@
+# Generative Machine Learning
+
+[Illustrated Stable Diffusion](https://jalammar.github.io/illustrated-stable-diffusion/) & [How diffusion models work](https://twitter.com/iScienceLuvr/status/1592860019057250304) are [great reads](https://news.ycombinator.com/item?id=33084205).
+
+Progress in models like [Midjourney](https://www.midjourney.com/) is getting [insanely good](https://www.reddit.com/r/midjourney/comments/yyom8a/london_1910/). Can even generate [nice header images](https://twitter.com/euboid/status/1593174650262986754) or [logos](https://twitter.com/sindresorhus/status/1590640203781533696).
+
+Using [Gauss](https://github.com/justjake/Gauss) ([Mochi Diffusion](https://github.com/godly-devotion/mochi-diffusion) is nice too) (built on [Core ML Stable Diffusion](https://github.com/apple/ml-stable-diffusion)) to generate prompts. [ImaginAIry](https://github.com/brycedrennan/imaginAIry) is useful too.
+
+Trying to use more of these technologies in my day to life. Specifically [ChatGPT](chatgpt.md) seems [incredible](https://news.ycombinator.com/item?id=33940303). [Generates nice code](https://twitter.com/onybose/status/1598534390833098753) too. Need to [be wary](https://twitter.com/johnolilly/status/1598517624031555584) though as they don't do [much novelty yet](https://twitter.com/Noahpinion/status/1598499746263732224).
+
+[Fast Stable Diffusion Colab Notebooks](https://github.com/TheLastBen/fast-stable-diffusion) is great.
+
+[ChatGPT Resources](https://gist.github.com/veekaybee/6f8885e9906aa9c5408ebe5c7e870698) & [Why does ChatGPT work so well](https://twitter.com/DrJimFan/status/1600884299435167745) are nice reads to understand how ChatGPT works.
+
+Want to understand [DeepFloyd IF](https://github.com/deep-floyd/IF) model.
+
+## Notes
+
+- [The net effect of the last 18 mo has been to slightly lubricate human imagination, making it easier for individuals to visualize possible worlds/scenes/moods. It’s only a medium-big deal—unless this is a foretaste of similar acceleration in music, code, and text.](https://twitter.com/Ted_Underwood/status/1566787680872157185)
+- [Greatest impact of "generative ML" will not be on art/creation, but by bringing technology leverage to billions of hours of boring data entry/manipulation jobs.](https://twitter.com/WillManidis/status/1584900092615528448)
+- [Diffusion is just an easy-to-optimize way to give neural networks adaptive computation time. Makes sense then that diffusion models beat GANs, which only get one forward pass to generate an image. Have to wonder what other ways there are to integrate for loops into NNs.](https://twitter.com/jxmnop/status/1586000934248792065)
+- [The fact that LLMs seem to give you more accurate results if you prompt them with "think step by step" is absolutely fascinating. An analogy might be intuitive vs logical thinking.](https://twitter.com/maccaw/status/1599507362142121984)
+
+## Links
+
+- [DALL·E: Introducing Outpainting (2022)](https://openai.com/blog/dall-e-introducing-outpainting/) ([HN](https://news.ycombinator.com/item?id=32664507))
+- [Ask HN: Am I the only one tired of seeing DALL·E /Stable Diffusion posts? (2022)](https://news.ycombinator.com/item?id=32665587)
+- [Stable Diffusion is a big deal (2022)](https://simonwillison.net/2022/Aug/29/stable-diffusion/) ([HN](https://news.ycombinator.com/item?id=32634074))
+- [Stable Diffusion Textual Inversion](https://github.com/hlky/sd-enable-textual-inversion) ([HN](https://news.ycombinator.com/item?id=32643564))
+- [Stable Diffusion Public Release (2022)](https://stability.ai/blog/stable-diffusion-public-release) ([HN](https://news.ycombinator.com/item?id=32555028))
+- [Peacasso](https://github.com/victordibia/peacasso) - Web UI for Stable Diffusion Models. ([Reddit](https://www.reddit.com/r/MachineLearning/comments/x5w9py/p_peacasso_a_web_ui_for_stable_diffusion_models/))
+- [Optimized Stable Diffusion](https://github.com/basujindal/stable-diffusion) - Modified version of the Stable Diffusion repo, optimized to use less VRAM than the original by sacrificing inference speed.
+- [EvoGen](https://github.com/MagnusPetersen/EvoGen-Prompt-Evolution) - Evolutionary algorithm that optimizes prompts for text-to-image models for aesthetics.
+- [All about the fundamentals and working of Diffusion Models](https://github.com/AakashKumarNain/diffusion_models)
+- [Experiments with Stable Diffusion](https://github.com/justinpinkney/stable-diffusion) ([Tweet](https://twitter.com/Buntworthy/status/1566744186153484288))
+- [DreamStudio](https://beta.dreamstudio.ai/dream) - Front end and API to use the recently released stable diffusion image generation model.
+- [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) ([HN](https://news.ycombinator.com/item?id=32784181))
+- [koi](https://github.com/nousr/koi) - Open source plug-in for Krita that allows you to use AI to accelerate your art workflow.
+- [Awesome Stable-Diffusion](https://github.com/awesome-stable-diffusion/awesome-stable-diffusion)
+- [Simple Stable Diffusion](https://github.com/hackclub/simple-stable-diffusion) - Get stable diffusion running in <10 minutes in colab.
+- [Stable Diffusion Playground](https://github.com/gordicaleksa/stable_diffusion_playground)
+- [Create videos with Stable Diffusion](https://github.com/nateraw/stable-diffusion-videos) - By exploring the latent space and morphing between text prompts.
+- [Long Stable Diffusion: Long-form text to images](https://github.com/sharonzhou/long_stable_diffusion)
+- [Infinite Stable Diffusion Videos](https://orbdog.com/) ([HN](https://news.ycombinator.com/item?id=32720924))
+- [Why 'weird patterns' arise in the latent space of an image generation models](https://twitter.com/mattskala/status/1567300206969982979) ([Tweet](https://twitter.com/ai_curio/status/1567253704872427520))
+- [Textual Inversion fine-tuning example](https://github.com/huggingface/diffusers/tree/main/examples/textual_inversion) ([Tweet](https://twitter.com/psuraj28/status/1567212122970685442))
+- [Progressive Distillation for Fast Sampling of Diffusion Models (2022)](https://arxiv.org/abs/2202.00512)
+- [Stable Diffusion prompting cheat sheet](https://moritz.pm/posts/parameters)
+- [The Man behind Stable Diffusion (2022)](https://www.youtube.com/watch?v=YQ2QtKcK2dA)
+- [Inpainting](https://inpainter.vercel.app/) - Web GUI for inpainting with Stable Diffusion using the Replicate API. ([Code](https://github.com/zeke/inpainter))
+- [Dreambooth on Stable Diffusion](https://github.com/XavierXiao/Dreambooth-Stable-Diffusion) ([Optimized Fork](https://github.com/gammagec/Dreambooth-SD-optimized))
+- [Japanese Stable Diffusion](https://github.com/rinnakk/japanese-stable-diffusion)
+- [Stable Diffusion web UI](https://github.com/sd-webui/stable-diffusion-webui)
+- [Stable DreamBooth](https://github.com/Victarry/stable-dreambooth) - Implementation of DreamBooth based on Stable Diffusion.
+- [George Hotz | stable diffusion, in tinygrad (2022)](https://www.youtube.com/watch?v=4V9VHt_YwFQ)
+- [CLIP-Mesh: Generating textured meshes from text using pretrained image-text models (2022)](https://www.nasir.lol/clipmesh) ([Code](https://github.com/NasirKhalid24/CLIP-Mesh))
+- [Prompt-to-Prompt Image Editing with Cross Attention Control (2022)](https://arxiv.org/abs/2208.01626) ([Code](https://github.com/bloc97/CrossAttentionControl))
+- [Stable Diffusion REST API](https://github.com/yuanqing/stable-diffusion-rest-api)
+- [Visual Taste Approximator](https://github.com/SelfishGene/visual_taste_approximator) - Simple tool that helps anyone create an automatic replica of themselves that can approximate their own personal visual taste.
+- [Stable Diffusion concepts library](https://huggingface.co/sd-concepts-library) ([Tweet](https://twitter.com/karpathy/status/1568644275247923206))
+- [Stable Diffusion for Apple Silicon](https://github.com/FahimF/sd-gui)
+- [Learn time series with a story illustrated by Stable Diffusion (2022)](https://tigyog.app/d/L-8D8R2yeXLY/r/an-everyday-look-at-time-series) ([HN](https://news.ycombinator.com/item?id=32768005))
+- [Daemon which watches a queue and runs stable diffusion](https://github.com/w4ffl35/stablediffusiond)
+- [Text-to-image for my inbox (2022)](https://www.kmjn.org/notes/txt2img_email_visualization.html)
+- [sdutils](https://github.com/newsbubbles/sdutils) - Stable Diffusion Utility Wrapper.
+- [Diffusion Bee](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui) - Stable Diffusion GUI App for M1 Mac. ([HN](https://news.ycombinator.com/item?id=32804695))
+- [Art Hub AI](https://arthub.ai/) - Discover, upload and share AI generated art pieces..
+- [AI Content Generation, Part 1: Machine Learning Basics](https://www.jonstokes.com/p/ai-content-generation-part-1-machine) ([Tweet](https://twitter.com/jonst0kes/status/1569400246714908672))
+- [Inpainting with Stable Diffusion & Replicate](https://inpainter.vercel.app/)
+- [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)
+- [stability-clients](https://github.com/Stability-AI/stability-sdk) - Client implementations that interact with the Stability Generator API.
+- [Storyweaving with AI](https://webaverse.ghost.io/storyweaving-with-ai/) ([Code](https://github.com/webaverse/lore-engine))
+- [dreamlike.art](https://dreamlike.art/) - AI Art Generator.
+- [Stable Diffusion Photoshop Plugin](https://christiancantrell.com/#ai-ml)
+- [Outpainting with Stable Diffusion on an infinite canvas](https://github.com/lkwq007/stablediffusion-infinity)
+- [Stable Diffusion: With Composition](https://github.com/Slickytail/stable-diffusion-compositional)
+- [Swift Diffusion](https://github.com/liuliu/swift-diffusion) - Single-file re-implementation of Stable Diffusion model.
+- [From Deep Learning Foundations to Stable Diffusion (2022)](https://www.fast.ai/posts/part2-2022.html) ([HN](https://news.ycombinator.com/item?id=32864783))
+- [Production software using OpenAI GPT-3 APIs](https://twitter.com/simonw/status/1570820425877434368)
+- [CHARL-E](https://github.com/cbh123/charl-e) - Run Stable Diffusion on your M1 Mac. ([HN](https://news.ycombinator.com/item?id=32878626))
+- [Stable Diffusion in Tensorflow / Keras](https://github.com/divamgupta/stable-diffusion-tensorflow) ([Colab](https://colab.research.google.com/drive/1fBlfPsL5DEscub0O_3oJNnJbON4w3EKq?usp=sharing))
+- [Osmosis.Studio](http://osmosis.studio/) - Product Ad Creative and Optimization with Generative AI.
+- [Upscale to huge sizes and add detail with SD Upscale, it's easy!](https://www.reddit.com/r/StableDiffusion/comments/xkjjf9/upscale_to_huge_sizes_and_add_detail_with_sd/)
+- [Open Prompts](https://github.com/krea-ai/open-prompts) - Dataset of 10M Stable Diffusion generations. ([HN](https://news.ycombinator.com/item?id=32943224))
+- [KREA](https://www.krea.ai/) - Create better prompts.
+- [GLID-3-XL-stable](https://github.com/Jack000/glid-3-xl-stable) - Stable diffusion back-ported to the OpenAI guided diffusion codebase, for easier development and training.
+- [ImaginAIry](https://github.com/brycedrennan/imaginAIry) - AI imagined images. Pythonic generation of stable diffusion images. ([HN](https://news.ycombinator.com/item?id=34474270))
+- [UnstableFusion](https://github.com/ahrm/UnstableFusion) - Stable Diffusion desktop frontend with inpainting, img2img and more.
+- [Dreamfields-3D](https://github.com/shengyu-meng/dreamfields-3D) - Colab friendly toolkit to generate 3D mesh model / video / nerf instance / multiview images of colourful 3D objects by text and image prompts input, based on dreamfields.
+- [Fast Stable Diffusion Colab Notebooks](https://github.com/TheLastBen/fast-stable-diffusion) - 25% speed increase + memory efficient. ([Colab](https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb))
+- [High-performance image generation using Stable Diffusion in KerasCV](https://keras.io/guides/keras_cv/generate_images_with_stable_diffusion/) ([HN](https://news.ycombinator.com/item?id=33005585))
+- [Video Killed The Radio Star](https://github.com/dmarx/video-killed-the-radio-star) - Notebook and tools for end-to-end automation of music video production with generative AI.
+- [Custom scripts for the stable diffusion web UI](https://github.com/Pfaeff/sd-web-ui-scripts)
+- [Phenaki](https://phenaki.video/) - Model for generating minutes-long, changing-prompt videos from text. ([HN](https://news.ycombinator.com/item?id=33025189))
+- [GhostlyStock](https://www.ghostlystock.com/) - Stock Photos Using Stable Diffusion. ([HN](https://news.ycombinator.com/item?id=33038117))
+- [Prompt engineering is hard (2022)](https://xeiaso.net/blog/prompt-engineering)
+- [Notes and plans for Fast Diffusion course](https://github.com/fastai/fastdiffusion)
+- [Stable Diffusion CPU only](https://github.com/darkhemic/stable-diffusion-cpuonly)
+- [TabDDPM: Modelling Tabular Data with Diffusion Models (2022)](https://arxiv.org/abs/2209.15421) ([Code](https://github.com/rotot0/tab-ddpm))
+- [Animation Script](https://github.com/Animator-Anon/Animator) - Animator script for SD Web UI.
+- [Latent space walking: minimal Keras Colab](https://colab.research.google.com/drive/1C2UhtHvHYzkdidFd_CfZTimuwJ0oH3SA?usp=sharing) ([Tweet](https://twitter.com/fchollet/status/1577069074802421760))
+- [The Illustrated Stable Diffusion (2022)](https://jalammar.github.io/illustrated-stable-diffusion/) ([HN](https://news.ycombinator.com/item?id=33084205))
+- [DALL·E Node](https://github.com/ezzcodeezzlife/dalle-node) - Use DALL·E 2 with NodeJS.
+- [Novel View Synthesis with Diffusion Models (2022)](https://3d-diffusion.github.io/) ([HN](https://news.ycombinator.com/item?id=33085837))
+- [Imagen Video](https://imagen.research.google/video/) - High definition video generation with diffusion models. ([HN](https://news.ycombinator.com/item?id=33098704))
+- [Is the AI spell-casting metaphor harmful or helpful? (2022)](https://simonwillison.net/2022/Oct/5/spell-casting/)
+- [Ask HN: What am I supposed to do after I’m “disrupted”? Work in video and CG (2022)](https://news.ycombinator.com/item?id=33099182)
+- [Stable-Dreamfusion](https://github.com/ashawkey/stable-dreamfusion) - PyTorch implementation of the text-to-3D model Dreamfusion, powered by the Stable Diffusion text-to-2D model. ([HN](https://news.ycombinator.com/item?id=33109243))
+- [Text2All](https://github.com/AvrahamRaviv/Text2All) - Comprehensive list of resources about text-guided generative models.
+- [HuggingFace Space and model of VToonify (2022)](https://colab.research.google.com/github/williamyang1991/VToonify/blob/master/notebooks/inference_playground.ipynb) ([Tweet](https://twitter.com/ShuaiYang1991/status/1576937439528042499))
+- [How AI Image Generators Work (Stable Diffusion / Dall-E) (2022)](https://www.youtube.com/watch?v=1CIpzeNxIhU)
+- [Manifest](https://github.com/HazyResearch/manifest) - How to make prompt programming with Foundation Models a little easier.
+- [Implementation of Dreambooth by way of Textual Inversion](https://github.com/JoePenna/Dreambooth-Stable-Diffusion)
+- [InvokeAI](https://github.com/invoke-ai/InvokeAI) - Open source Stable Diffusion toolkit and WebUI. ([HN](https://news.ycombinator.com/item?id=33155074))
+- [Astraea](https://www.strmr.com/) - Tailor-made AI image generation.
+- [Getting started with diffusion](https://github.com/fastai/diffusion-nbs)
+- [14 awesome Stable Diffusion notebooks](https://twitter.com/StableDiffusion/status/1580840619114582016)
+- [Understanding Diffusion Models: A Unified Perspective (2022)](https://arxiv.org/abs/2208.11970) ([Annotated](https://github.com/AakashKumarNain/annotated_research_papers/blob/master/diffusion_models/understanding_diffusion_models.pdf))
+- [Maple Diffusion](https://github.com/madebyollin/maple-diffusion) - Runs Stable Diffusion models locally on macOS / iOS devices, in Swift, using the MPSGraph framework.
+- [Asymmetric Tiling for stable-diffusion-webui](https://github.com/tjm35/asymmetric-tiling-sd-webui)
+- [Prompt-to-Prompt: Latent Diffusion and Stable Diffusion implementation (2022)](https://github.com/google/prompt-to-prompt)
+- [Real-time inference for Stable Diffusion](https://github.com/stochasticai/x-stable-diffusion)
+- [latentspace.dev](https://www.latentspace.dev/) - Exploring stable diffusion latent space. ([Tweet](https://twitter.com/QasimMunye/status/1581784155528232960))
+- [Photoshop for Text (2022)](https://stephanango.com/photoshop-for-text) ([HN](https://news.ycombinator.com/item?id=33253606))
+- [Artists: AI Image Generators Can Make Copycat Images in Seconds (2022)](https://www.businessinsider.com/ai-image-generators-artists-copying-style-thousands-images-2022-10)
+- [Stability.AI Easy Diffusion](https://github.com/WASasquatch/easydiffusion) - Google Colab Notebook designed to be a relatively easy to use all-in-one suite for stable diffusion.
+- [Why we chose not to release Stable Diffusion 1.5 as quickly (2022)](https://danieljeffries.substack.com/p/why-the-future-of-open-source-ai) ([HN](https://news.ycombinator.com/item?id=33283712))
+- [A Survey on Generative Diffusion Model (2022)](https://arxiv.org/abs/2209.02646) ([Code](https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model))
+- [Making a Video from Prompts with Stable Diffusion](https://github.com/johnrobinsn/diffusion_experiments)
+- [Maple Diffusion](https://github.com/mortenjust/maple-diffusion) - Stable Diffusion inference on iOS / macOS using MPSGraph.
+- [VectorArt.ai](https://vectorart.ai/) - Vector Graphics with Stable Diffusion. ([HN](https://news.ycombinator.com/item?id=33308248))
+- [Generative Image workflow in Runway](https://twitter.com/notiansans/status/1583528842898984961)
+- [How does stable diffusion work](https://twitter.com/danqing_liu/status/1584611896682246145)
+- [DiffusionDB](https://github.com/poloclub/diffusiondb) - Large-scale text-to-image prompt gallery dataset based on Stable Diffusion.
+- [Implementation of a server for the Stability AI Stable Diffusion API](https://github.com/hafriedlander/stable-diffusion-grpcserver)
+- [Compositional Visual Generation with Composable Diffusion Models (2022)](https://arxiv.org/abs/2206.01714) ([Code](https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch))
+- [Avatar AI](https://avatarai.me/) - Create your own AI-generated avatars.
+- [CLIP Interrogator](https://huggingface.co/spaces/pharma/CLIP-Interrogator)
+- [Animation focused workflow frontend for Stable Diffusion](https://github.com/amotile/stable-diffusion-studio)
+- [Backend for my Stable diffusion projects](https://github.com/amotile/stable-diffusion-backend)
+- [Carefree Creator](https://github.com/carefree0910/carefree-creator) - AI-powered creator for everyone.
+- [Categorical SDEs with Simplex Diffusion (2022)](https://arxiv.org/abs/2210.14784) ([Tweet](https://twitter.com/TheOneKloud/status/1586719623482834945))
+- [Reaction-diffusion](https://github.com/jasonwebb/reaction-diffusion-playground) - Mathematical model describing how two chemicals might react to each other as they diffuse through a medium together.
+- [Banana Serverless](https://github.com/bananaml/serverless-template-stable-diffusion) - Basic framework for serving Stable Diffusion in production using simple HTTP servers.
+- [Sketch Diffusion – Live Painting with Stable Diffusion on Meta Quest Pro](https://www.t-da.io/labs)
+- [List of Stable Diffusion resources](https://rentry.co/sdupdates) ([HN](https://news.ycombinator.com/item?id=33416632))
+- [Invasive Diffusion: one unwilling illustrator found her turned into an AI model (2022)](https://waxy.org/2022/11/invasive-diffusion-how-one-unwilling-illustrator-found-herself-turned-into-an-ai-model/) ([HN](https://news.ycombinator.com/item?id=33422990))
+- [AI Horde](https://github.com/db0/AI-Horde) - Crowdsourced distributed cluster for AI art and text generation.
+- [Distributed Diffusion](https://github.com/chavinlo/distributed-diffusion) - Train a Stable Diffusion model over the internet with Hivemind.
+- [Unprompted for Stable Diffusion](https://github.com/ThereforeGames/unprompted) - Text generator written for Stable Diffusion workflows.
+- [Rise of generative AI will be comparable to the rise of CGI in the early 90s (2022)](https://sarharibhakti.substack.com/p/rise-of-generative-ai-will-be-comparable) ([HN](https://news.ycombinator.com/item?id=33429608))
+- [DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps (2022)](https://arxiv.org/abs/2206.00927) ([Code](https://github.com/LuChengTHU/dpm-solver))
+- [Ask CLI](https://github.com/sw-yx/ask-cli) - Deno CLI for pinging GPT-3 and iterating with chain of thought prompting.
+- [Hugging Face Diffusion Models Course](https://github.com/huggingface/diffusion-models-class)
+- [Ask HN: How to get into AI generation (images,text) (2022)](https://news.ycombinator.com/item?id=33479367)
+- [Stable Diffusion and AI generated art is absolutely wild in every way (2022)](https://a.wholelottanothing.org/2022/11/02/stable-diffusion-and-ai-generated-art-is-absolutely-wild-in-every-way/)
+- [diffusers-rs](https://github.com/LaurentMazare/diffusers-rs) - Diffusers API in Rust/Torch.
+- [AI Art Tools and Resources in One Place](https://www.aiartapps.com/) ([HN](https://news.ycombinator.com/item?id=33501670))
+- [Stretch iPhone to its limit: 2GiB Stable Diffusion model runs locally on device (2022)](https://liuliu.me/eyes/stretch-iphone-to-its-limit-a-2gib-model-that-can-draw-everything-in-your-pocket/) ([HN](https://news.ycombinator.com/item?id=33539192))
+- [Generative AI: A Creative New World (2022)](https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/)
+- [Stable Diffusion with Colossal-AI](https://github.com/hpcaitech/ColossalAI/tree/main/examples/images/diffusion)
+- [DiffuSeq: Sequence to Sequence Text Generation with Diffusion Models (2022)](https://arxiv.org/abs/2210.08933) ([Code](https://github.com/Shark-NLP/DiffuSeq))
+- [Stable-Diffusion + Fused CUDA kernels](https://github.com/tfernd/sd-fused)
+- [Dall-E 2 AI Image Generator](https://dalle-2.vercel.app/) - Using Upstash for message queue + Redis. ([Code](https://github.com/domeccleston/dalle-2))
+- [Versatile Diffusion: Text, Images and Variations All in One Diffusion Model (2022)](https://arxiv.org/abs/2211.08332) ([Code](https://github.com/SHI-Labs/Versatile-Diffusion))
+- [How diffusion models work](https://twitter.com/iScienceLuvr/status/1592860019057250304)
+- [Implementation of Paint-with-words with Stable Diffusion](https://github.com/cloneofsimo/paint-with-words-sd)
+- [Seeing Beyond the Brain: Conditional Diffusion Model with Sparse Masked Modeling for Vision Decoding (2022)](https://mind-vis.github.io/) ([Code](https://github.com/zjc062/mind-vis)) ([HN](https://news.ycombinator.com/item?id=33632337))
+- [PALBERT: Teaching ALBERT to Ponder (2022)](https://arxiv.org/abs/2204.03276) ([Code](https://github.com/tinkoff-ai/palbert))
+- [DiffusionDet: Diffusion Model for Object Detection (2022)](https://arxiv.org/abs/2211.09788) ([Code](https://github.com/ShoufaChen/DiffusionDet))
+- [Some notes on the Stable Diffusion safety filter (2022)](https://vickiboykis.com/2022/11/18/some-notes-on-the-stable-diffusion-safety-filter/) ([HN](https://news.ycombinator.com/item?id=33656785))
+- [Lightning Diffusion](https://github.com/Lightning-AI/lightning-diffusion) - Provides components to finetune and serve diffusion model on lightning.ai.
+- [Deforum Stable Diffusion](https://github.com/deforum-art/deforum-stable-diffusion)
+- [Deforum](https://deforum.github.io/) - Community of AI image synthesis developers, enthusiasts, and artists. ([GitHub](https://github.com/deforum-art))
+- [Shift-Attention](https://github.com/yownas/shift-attention) - In stable diffusion, generate a sequence of images shifting attention in the prompt.
+- [London, 1910 by Midjourney](https://www.reddit.com/r/midjourney/comments/yyom8a/london_1910/)
+- [GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation (2022)](https://arxiv.org/abs/2203.02923) ([Code](https://github.com/MinkaiXu/GeoDiff))
+- [Magic3D: High-Resolution Text-to-3D Content Creation (2022)](https://deepimagination.cc/Magic3D/) ([HN](https://news.ycombinator.com/item?id=33689096))
+- [Stable Diffusion with Nix](https://github.com/collinarnett/stable-diffusion-nix) - Quickly get up and running using Stable Diffusion with Nix flakes.
+- [Minimal text diffusion](https://github.com/madaan/minimal-text-diffusion) - Minimal implementation of diffusion models for text generation.
+- [VectorFusion: Text-to-SVG by Abstracting Pixel-Based Diffusion Models (2022)](https://ajayj.com/vectorfusion)
+- [RAD-NeRF: Real-time Neural Talking Portrait Synthesis](https://github.com/ashawkey/RAD-NeRF)
+- [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - Examples and guides for using the OpenAI API.
+- [Dispict](https://github.com/ekzhang/dispict) - Design a growing artistic exhibit of your own making, with semantic search powered by OpenAI CLIP.
+- [Stable Diffusion 2.0 (2022)](https://stability.ai/blog/stable-diffusion-v2-release) ([HN](https://news.ycombinator.com/item?id=33726816)) ([Reddit](https://www.reddit.com/r/StableDiffusion/comments/z36mm2/stable_diffusion_20_announcement/)) ([Code](https://github.com/Stability-AI/stablediffusion))
+- [Generate photo-realistic images from text using Stable Diffusion](https://getimg.ai/text-to-image)
+- [Upscayl](https://upscayl.github.io/) - AI Image Upscaler.
+- [Kandinsky 2.0](https://github.com/ai-forever/Kandinsky-2.0) - Multilingual text2image latent diffusion model.
+- [Dreambooth Extension for Stable-Diffusion-WebUI](https://github.com/d8ahazard/sd_dreambooth_extension)
+- [Dream Bench](https://github.com/nousr/dream-bench) - Tool for benchmarking image generation models.
+- [Math of diffusion (2022)](https://wasimlorgat.com/posts/math-of-diffusion.html)
+- [AI Art Panic (2022)](https://opguides.info/posts/aiartpanic/)
+- [Some notes on the Stable Diffusion safety filter (2022)](https://vickiboykis.com/2022/11/18/some-notes-on-the-stable-diffusion-safety-filter/)
+- [Stable Diffusion 2.0 and the Importance of Negative Prompts for Good Results (2022)](https://minimaxir.com/2022/11/stable-diffusion-negative-prompt/) ([HN](https://news.ycombinator.com/item?id=33780543))
+- [Ten Years of Image Synthesis (2022)](https://zentralwerkstatt.org/blog/ten-years-of-image-synthesis) ([HN](https://news.ycombinator.com/item?id=33784361))
+- [Diffusion Models Live Event (2022)](https://www.youtube.com/watch?v=5gPS_Tn9rlg)
+- [Core ML Stable Diffusion](https://github.com/apple/ml-stable-diffusion) - Run Stable Diffusion on Apple Silicon with Core ML. ([Stable Diffusion with Core ML on Apple Silicon](https://machinelearning.apple.com/research/stable-diffusion-coreml-apple-silicon)) ([HN](https://news.ycombinator.com/item?id=33822157))
+- [Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation (2022)](https://arxiv.org/abs/2212.00774) ([Code](https://github.com/pals-ttic/sjc))
+- [Generative AI: autocomplete for everything (2022)](https://noahpinion.substack.com/p/generative-ai-autocomplete-for-everything) ([Tweet](https://twitter.com/Noahpinion/status/1598346194559778822))
+- [Basic Dreambooth Guide](https://github.com/nitrosocke/dreambooth-training-guide) - Short guide on the process of collecting a dataset and basic dreambooth settings.
+- [People tricking ChatGPT “like watching an Asimov novel come to life”](https://twitter.com/carnage4life/status/1598332648723976193) ([HN](https://news.ycombinator.com/item?id=33832358))
+- [ChatGPT Assistant](https://github.com/pdparchitect/ChatGPT-Assistant) - Extension that enhances your browsing experience on the ChatGPT website, with features like page fetching and more.
+- [ChatGPT for VSCode](https://github.com/mpociot/chatgpt-vscode) - VSCode extension that allows you to use ChatGPT.
+- [Placing #1 in Advent of Code with GPT-3](https://github.com/max-sixty/aoc-gpt) ([HN](https://news.ycombinator.com/item?id=33850999))
+- [ChatGPT API](https://github.com/transitive-bullshit/chatgpt-api) - Node.js wrapper around ChatGPT. Uses headless Chrome until the official API is released.
+- [ChatGPT for Google](https://github.com/wong2/chat-gpt-google-extension) - Chrome extension to show ChatGPT response in Google search results. ([HN](https://news.ycombinator.com/item?id=33853773))
+- [A new AI game: Give me ideas for crimes to do (2022)](https://simonwillison.net/2022/Dec/4/give-me-ideas-for-crimes-to-do/)
+- [Ask HN: How would you build a ChatGPT detector? (2022)](https://news.ycombinator.com/item?id=33857356)
+- [GPT Index](https://github.com/jerryjliu/gpt_index) - Index created by GPT to organize external information and answer queries. ([Use Cases](https://gpt-index.readthedocs.io/en/latest/guides/use_cases.html)) ([Docs](https://gpt-index.readthedocs.io/en/latest/index.html))
+- [ChatGPT export to PNG / PDF / HTML](https://github.com/liady/ChatGPT-pdf) - Chrome extension for downloading your ChatGPT history to PNG, PDF or creating a sharable link.
+- [Stable Diffusion v 2.0 web UI](https://github.com/qunash/stable-diffusion-2-gui)
+- [GPT-3 Prompter](https://github.com/qunash/gpt-3_chrome_extension) - Use OpenAI's GPT-3 API prompter on any website.
+- [iOS app that generates images using Stable Diffusion v2](https://github.com/ynagatomo/ImgGenSD2)
+- [ChatGPT passes the 2022 AP Computer Science A free response section](https://gist.github.com/Gaelan/cf5ae4a1e9d8d64cb0b732cf3a38e04a) ([HN](https://news.ycombinator.com/item?id=33858844))
+- [ChatGPT can reply like a specific Reddit or HN user, including you](https://news.ycombinator.com/item?id=33860562)
+- [Using ChatGPT as a Co-Founder (2022)](https://www.atomic14.com/2022/12/05/using-chatgpt-as-a-co-founder.html) ([HN](https://news.ycombinator.com/item?id=33863563))
+- [Discuss HN: Software Careers Post ChatGPT+ (2022)](https://news.ycombinator.com/item?id=33863749)
+- [ChatGPT vs. a Cryptic Crossword (2022)](https://jameswillia.ms/posts/chatgpt-cryptics.html) ([HN](https://news.ycombinator.com/item?id=33873502))
+- [ShareGPT](https://sharegpt.com/) - Share your wildest ChatGPT conversations with one click. ([Tweet](https://twitter.com/steventey/status/1599816553490366464))
+- [Awesome ChatGPT](https://github.com/humanloop/awesome-chatgpt)
+- [I Taught ChatGPT to Invent a Language (2022)](https://maximumeffort.substack.com/p/i-taught-chatgpt-to-invent-a-language) ([HN](https://news.ycombinator.com/item?id=33885153))
+- [Ask HN: What's in for ChatGPT, Stable Diffusion, etc. after dust settles? (2022)](https://news.ycombinator.com/item?id=33892028)
+- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
+- [The Human's Guide to Competing with GPT (2022)](https://philipkiely.com/essays/compete_with_gpt.html)
+- [Talk = GPT-2 and Whisper and WASM](https://github.com/ggerganov/whisper.cpp/discussions/167) ([HN](https://news.ycombinator.com/item?id=33892087))
+- [Ask HN: How do you cope with existential threat regarding career? (2022)](https://news.ycombinator.com/item?id=33884202)
+- [ChatGPT Raycast extension](https://github.com/abielzulio/chatgpt-raycast)
+- [Prompts for games and world building in ChatGPT (2022)](https://www.carolynzhang.com/chatgpt)
+- [showGPT](https://showgpt.co/) - Guide to unlocking the power of AI and chatGPT.
+- [How to use ChatGPT as founder](https://twitter.com/JamesIvings/status/1600389697418956800)
+- [PyChatGPT](https://github.com/rawandahmad698/PyChatGPT) - Python client for the unofficial ChatGPT API with auto token regeneration, conversation tracking, proxy support and more.
+- [Pair Programming with AI: Writing a Distributed, Fault-Tolerant Redis Client using ChatGPT (2022)](https://medium.com/@saileshmukil/pair-programming-with-ai-writing-a-distributed-fault-tolerant-redis-client-using-chatgpt-239dc0a90550)
+- [Bumblebee](https://github.com/elixir-nx/bumblebee) - GPT2, Stable Diffusion, and More in Elixir. ([HN](https://news.ycombinator.com/item?id=33913161)) ([Article](https://news.livebook.dev/announcing-bumblebee-gpt2-stable-diffusion-and-more-in-elixir-3Op73O))
+- [ChatGPT, Rot13, and Daniel Kahneman (2022)](https://jameswillia.ms/posts/chatgpt-rot13.html) ([HN](https://news.ycombinator.com/item?id=33913845))
+- [Why does ChatGPT work so well?](https://twitter.com/DrJimFan/status/1600884299435167745)
+- [Ask HN: Can ChatGPT generate fully functional code? (2022)](https://news.ycombinator.com/item?id=33919451)
+- [Stable Diffusion 2.0 Negative Prompting](https://github.com/minimaxir/stable-diffusion-negative-prompt)
+- [GPT-2 Output Detector](https://huggingface.co/openai-detector)
+- [ChatGPT Advanced](https://github.com/qunash/chatgpt-advanced) - Browser extension that augments your ChatGPT prompts with web results.
+- [Diffusion Chat](https://github.com/KAJdev/diffusion-chat) - Chat-like interface for Stable Diffusion.
+- [StackExplain](https://github.com/shobrook/stackexplain) - Explain your error message in plain English using ChatGPT.
+- [I am frustrated with Stable Diffusion (2022)](https://novalis.org/blog/2022-12-05-i-am-frustrated-with-stable-diffusion.html) ([HN](https://news.ycombinator.com/item?id=33902248))
+- [Make ChatGPT yourself](https://twitter.com/sjwhitmore/status/1601254826947784705)
+- [ChatGPT Mac Menu Bar](https://github.com/KittenYang/ChatGPT-Mac-MenuBar) - Chat with OpenAI's ChatGPT in mac menu bar.
+- [Stableboost](https://stableboost.ai/) - Create personalized images with AI.
+- [ChatGPT can create cool images using TikZ (2022)](https://linus.space/posts/2022-12-10-chatgpt-tikz.html)
+- [Stable Diffusion in Docker](https://github.com/fboulnois/stable-diffusion-docker)
+- [OpenAI (ChatGPT) API Client for Go](https://github.com/otiai10/openaigo)
+- [Summarize](https://github.com/clmnin/summarize.site) - Summarize web pages using OpenAI ChatGPT.
+- [Ask HN: How does ChatGPT work? (2022)](https://news.ycombinator.com/item?id=33939805)
+- [Disputing a Parking Fine with ChatGPT (2022)](https://notesbylex.com/disputing-a-parking-fine-with-chatgpt.html) ([HN](https://news.ycombinator.com/item?id=33937753))
+- [GPT3 Writer in code](https://github.com/buildspace/buildspace-projects/tree/main/GPT3_Writer/en)
+- [ChatGPT Extension](https://github.com/kazuki-sf/ChatGPT_Extension) - Access OpenAI's ChatGPT from anywhere on the web.
+- [Ask HN: Is the weaponisation of ChatGPT now inevitable? (2022)](https://news.ycombinator.com/item?id=33952087)
+- [ChatGPT Resources](https://gist.github.com/veekaybee/6f8885e9906aa9c5408ebe5c7e870698)
+- [Photoshot](https://photoshot.app/) - AI Avatar generator. ([Code](https://github.com/shinework/photoshot))
+- [Lexica Aperture](https://z.lexica.art/aperture) - Generate realistic looking photographs. ([Tweet](https://twitter.com/sharifshameem/status/1602416016360759296))
+- [Ask HN: Self-hosted/open-source ChatGPT alternative? Like Stable Diffusion (2022)](https://news.ycombinator.com/item?id=33955125)
+- [GPT-3 Visual Studio Code Extension](https://github.com/Arrendy/gpt3-vscode-extension) - Use GPT-3 to generate documentation and get help debugging your code.
+- [Swift app demonstrating Core ML Stable Diffusion](https://github.com/huggingface/swift-coreml-diffusers)
+- [StructuredDiffusion: Training-Free Structured Diffusion Guidance for Compositional Text-to-Image Synthesis (2022)](https://weixi-feng.github.io/structure-diffusion-guidance/) ([Code](https://github.com/weixi-feng/Structured-Diffusion-Guidance))
+- [All the ways to get around ChatGPT's safeguards](https://twitter.com/davisblalock/status/1602600453555961856) ([HN](https://news.ycombinator.com/item?id=33982683))
+- [How does GPT obtain its ability? Tracing emergent abilities of language models (2022)](https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1) ([HN](https://news.ycombinator.com/item?id=33990567))
+- [How Might Generative AI Change Programming? (2022)](https://tratt.net/laurie/blog/2022/how_might_generative_ai_change_programming.html)
+- [Stable Tuner](https://github.com/devilismyfriend/StableTuner) - Finetuning SD in style.
+- [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) ([HN](https://news.ycombinator.com/item?id=34883486))
+- [Custom Diffusion: Multi-Concept Customization of Text-to-Image Diffusion](https://github.com/adobe-research/custom-diffusion) ([Web](https://www.cs.cmu.edu/~custom-diffusion/))
+- [Learn Prompting](https://learnprompting.org/docs/intro) ([Code](https://github.com/trigaten/Learn_Prompting))
+- [GPT‑3/LLM prompts are assembly code, not a human interface](https://twitter.com/goodside/status/1604769046641213441)
+- [Mochi Diffusion](https://github.com/godly-devotion/mochi-diffusion) - Run Stable Diffusion on Apple Silicon Macs natively.
+- [Scalable Diffusion Models with Transformers (2022)](https://arxiv.org/abs/2212.09748) ([Code](https://github.com/facebookresearch/DiT))
+- [Stable Diffusion 2 Depth Guided model: architecture photos from dollhouse (2022)](https://twitter.com/justlv/status/1605276764598665217) ([HN](https://news.ycombinator.com/item?id=34076077))
+- [Stable Diffusion on AMD RDNA3 (2022)](https://nod.ai/sd-on-rdna3/) ([HN](https://news.ycombinator.com/item?id=34078222))
+- [ChatGPT CLI](https://github.com/mattn/chatgpt)
+- [Point-E: A System for Generating 3D Point Clouds from Complex Prompts (2022)](https://arxiv.org/abs/2212.08751) ([Code](https://github.com/openai/point-e))
+- [Go GPT3](https://github.com/PullRequestInc/go-gpt3) - OpenAI GPT-3 API client enabling Go programs to interact with the GPT3 APIs.
+- [DreamBooth](https://github.com/replicate/dreambooth) - Cog model that takes training images as input and generates custom Stable Diffusion model weights as output.
+- [Gauss](https://github.com/justjake/Gauss) - Stable Diffusion macOS native app. ([HN](https://news.ycombinator.com/item?id=34157363))
+- [AI Art Generator](https://github.com/rbbrdckybk/ai-art-generator) - For automating the creation of large batches of AI-generated artwork locally.
+- [Run Stable Diffusion natively on your Mac](https://sindresorhus.com/amazing-ai) ([HN](https://news.ycombinator.com/item?id=34156140))
+- [Various ways of serving Stable Diffusion using Keras](https://github.com/deep-diver/keras-sd-serving)
+- [Fine-tuning Stable Diffusion using Keras](https://github.com/sayakpaul/stable-diffusion-keras-ft)
+- [Stable Diffusion v2 Cog model](https://github.com/replicate/cog-stable-diffusion)
+- [Karlo](https://github.com/kakaobrain/karlo) - Text-conditional image generation model based on OpenAI's unCLIP architecture.
+- [High Resolution Depth Maps for Stable Diffusion WebUI](https://github.com/thygate/stable-diffusion-webui-depthmap-script)
+- [Prompt Extend](https://github.com/daspartho/prompt-extend) - Text generation model for generating suitable style cues given the main idea for a prompt.
+- [How diffusion models work](https://twitter.com/iScienceLuvr/status/1592860019057250304)
+- [My Midjourney AI Art](https://chenglou.me/) ([Code](https://github.com/chenglou/chenglou.github.io))
+- [Flake for running SD on NixOS](https://github.com/gbtb/nix-stable-diffusion)
+- [Diffusion Models in Vision: A Survey (2022)](https://arxiv.org/abs/2209.04747v1) ([Code](https://github.com/CroitoruAlin/Diffusion-Models-in-Vision-A-Survey))
+- [Denoising Diffusion Implicit Models (DDIM)](https://github.com/ermongroup/ddim)
+- [Uncovering the Disentanglement Capability in Text-to-Image Diffusion Models (2022)](https://wuqiuche.github.io/DiffusionDisentanglement-project-page/) ([Code](https://github.com/UCSB-NLP-Chang/DiffusionDisentanglement))
+- [PromptToImage](https://github.com/TheMurusTeam/PromptToImage) - Stable Diffusion app for macOS based on CoreML models.
+- [Stable Diffusion Deploy](https://github.com/Lightning-AI/stable-diffusion-deploy) - Learn to serve Stable Diffusion models on cloud infrastructure at scale.
+- [Muse: Text-To-Image Generation via Masked Generative Transformers (2023)](https://arxiv.org/abs/2301.00704) ([Web](https://muse-model.github.io/)) ([Tweet](https://twitter.com/AlphaSignalAI/status/1610404589966180360)) ([Code](https://github.com/lucidrains/muse-pytorch))
+- [How the physics of diffusion inspired modern AI art (2023)](https://www.quantamagazine.org/the-physics-principle-that-inspired-modern-ai-art-20230105/)
+- [Denoising Diffusion models from first principle in Julia (2022)](https://liorsinai.github.io/coding/2022/12/03/denoising-diffusion-1-spiral.html) ([HN](https://news.ycombinator.com/item?id=34273610))
+- [Guided denoising diffusion (2023)](https://liorsinai.github.io/coding/2023/01/04/denoising-diffusion-3-guidance.html)
+- [Personalizing Text-to-Image Generation via Aesthetic Gradients (2022)](https://arxiv.org/abs/2209.12330) ([Code](https://github.com/vicgalle/stable-diffusion-aesthetic-gradients))
+- [Simple tools for using open source text-to-image models](https://github.com/hardmaru/image-notebook)
+- [Prompt Tool](https://github.com/claudfuen/prompt-tool) - Open-source tool that makes it easy for people to explore styles, and complex MidJourney prompts, visually. ([Web](https://prompt-tool.vercel.app/))
+- [Awesome Generative AI](https://github.com/steven2358/awesome-generative-ai)
+- [Latent blending](https://github.com/lunarring/latentblending) - Video transitions with incredible smoothness between prompts, computed within seconds.
+- [SD LEAP Booster](https://github.com/peterwilli/sd-leap-booster) - Fast fine tuning using a booster model that puts the initial state to a local minimum.
+- [Stable Karlo](https://github.com/kpthedev/stable-karlo) - Upscaling Karlo text-to-image generation using Stable Diffusion v2.
+- [StoryTeller](https://github.com/jaketae/storyteller) - Multimodal AI Story Teller, built with Stable Diffusion, GPT, and neural text-to-speech.
+- [Diffusion for beginners](https://github.com/ozanciga/diffusion-for-beginners)
+- [Neural Frames](https://www.neuralframes.com/) - Create your own video clips with Stable Diffusion.
+- [Collection of generative AI applications](https://github.com/ai-collection/ai-collection)
+- [Sketch](https://github.com/approximatelabs/sketch) - AI code-writing assistant that understands data content.
+- [Prompt Templates for Stable Diffusion](https://github.com/Dalabad/stable-diffusion-prompt-templates)
+- [Stable Diffusion in Code (AI Image Generation) - Computerphile (2022)](https://www.youtube.com/watch?v=-lz30by8-sU)
+- [Imitating Human Behaviour with Diffusion Models (2023)](https://arxiv.org/abs/2301.10677)
+- [Mann-E](https://opencognitives.com/mann-e/) - OpenJourney: Midjourney, but Open Source. ([HN](https://news.ycombinator.com/item?id=34522311))
+- [Docker Diffusers API](https://github.com/kiri-art/docker-diffusers-api) - Diffusers / Stable Diffusion in docker with a REST API, supporting various models, pipelines & schedulers.
+- [Stable Diffusion Accelerated](https://github.com/chavinlo/sda-node)
+- [Paint by Text](https://paintbytext.chat/) - Edit your photos using written instructions, with the help of an AI. ([Code](https://github.com/replicate/paint-by-text))
+- [Stable Target Field for Reduced Variance Score Estimation (2023)](https://openreview.net/forum?id=WmIwYTd0YTF) ([Code](https://github.com/Newbeeer/stf))
+- [Lsmith](https://github.com/ddPn08/Lsmith) - StableDiffusionWebUI accelerated using TensorRT.
+- [Diffusion Models already have a Semantic Latent Space (2023)](https://arxiv.org/abs/2210.10960) ([Code](https://github.com/kwonminki/Asyrp_official))
+- [Stable Attribution](https://www.stableattribution.com/) ([HN](https://news.ycombinator.com/item?id=34670136))
+- [Gen-1 by Runway](https://research.runwayml.com/gen1) ([HN](https://news.ycombinator.com/item?id=34680593))
+- [Dino Diffusion: Bare-bones diffusion model code](https://github.com/madebyollin/dino-diffusion)
+- [Mixture of diffusers for location-aware image generation](https://github.com/albarji/mixture-of-diffusers)
+- [Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation (2022)](https://arxiv.org/abs/2211.12572) ([Code](https://github.com/MichalGeyer/plug-and-play))
+- [ControlNet](https://github.com/lllyasviel/ControlNet) - Let us control diffusion models.
+- [CLIP Guided Diffusion](https://github.com/afiaka87/clip-guided-diffusion) - CLI tool/python module for generating images from text using guided diffusion and CLIP from OpenAI.
+- [TileMaker](https://tilemaker.app/) - Create seamless tiled images with material diffusion. ([HN](https://news.ycombinator.com/item?id=34764998)) ([Code](https://github.com/replicate/tilemaker))
+- [Illusion Diffusion](https://github.com/tancik/Illusion-Diffusion) - Optical illusions using stable diffusion. ([HN](https://news.ycombinator.com/item?id=34769970))
+- [Attend-and-Excite: Attention-Based Semantic Guidance for Text-to-Image Diffusion Models](https://attendandexcite.github.io/Attend-and-Excite/) ([Code](https://github.com/AttendAndExcite/Attend-and-Excite))
+- [MultiDiffusion: Fusing Diffusion Paths for Controlled Image Generation (2023)](https://multidiffusion.github.io/) ([Code](https://github.com/omerbt/MultiDiffusion))
+- [Diffusion WebUI Colab](https://github.com/acheong08/Diffusion-ColabUI) - Choose your diffusion models and spin up a WebUI on Colab in one click.
+- [Universal Guidance for Diffusion Models (2023)](https://arxiv.org/abs/2302.07121) ([Code](https://github.com/arpitbansal297/Universal-Guided-Diffusion))
+- [Scribble Diffusion](https://scribblediffusion.com/) - Turn your sketch into a refined image using AI. ([Code](https://github.com/replicate/scribble-diffusion)) ([HN](https://news.ycombinator.com/item?id=34971579))
+- [tldream](https://github.com/Sanster/tldream) - Tiny little diffusion drawing app.
+- [Civitai](https://civitai.com/) - Stable Diffusion models, embeddings, hypernetworks and more. ([Code](https://github.com/civitai/civitai))
+- [Easy Lora Handbook](https://github.com/haofanwang/Easy-Lora-Handbook) - Most easy-to-understand tutorial for using Lora within diffusers framework for AI Generation Researchers.
+- [On the Mathematics of Diffusion Models (2023)](https://arxiv.org/abs/2301.11108)
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - Powerful and modular stable diffusion GUI.
+- [WebUI extension for ControlNet](https://github.com/Mikubill/sd-webui-controlnet)
+- [Stable Diffusion WebUI Colabs With ControlNet](https://github.com/camenduru/controlnet-colab)
+- [ControlLoRA: A Light Neural Network To Control Stable Diffusion Spatial Information (2023)](https://github.com/HighCWu/ControlLoRA)
+- [generate potter](https://github.com/aleemrehmtulla/generatepotter) - Boilerplate repo to deploy a custom stable diffusion model.
+- [ControlNet in Diffusers (2023)](https://huggingface.co/blog/controlnet)
+- [Consistent Diffusion Models: Mitigating Sampling Drift by Learning to be Consistent (2023)](https://arxiv.org/abs/2302.09057) ([Code](https://github.com/giannisdaras/cdm))
+- [One Transformer Fits All Distributions in Multi-Modal Diffusion (2022)](https://ml.cs.tsinghua.edu.cn/diffusion/unidiffuser.pdf) ([Code](https://github.com/thu-ml/unidiffuser))
+- [Breadboard](https://github.com/cocktailpeanut/breadboard) - Stable Diffusion Browser.
+- [Stable Diffusion WebUI 3D Model Loader](https://github.com/jtydhr88/sd-3dmodel-loader)
+- [Erasing Concepts from Diffusion Models (2023)](https://arxiv.org/abs/2303.07345) ([Code](https://github.com/rohitgandikota/erasing))
+- [Editing Implicit Assumptions in Text-to-Image Diffusion Models (2023)](https://arxiv.org/abs/2303.08084) ([Code](https://github.com/bahjat-kawar/time-diffusion))
+- [Web Stable Diffusion](https://github.com/mlc-ai/web-stable-diffusion) - Bringing stable diffusion models to web browsers. Everything runs inside the browser with no server support.
+- [Encoder-based Domain Tuning for Fast Personalization of Text-to-Image Models (2023)](https://arxiv.org/abs/2302.12228) ([Code](https://github.com/mkshing/e4t-diffusion))
+- [P+: Extended Textual Conditioning in Text-to-Image Generation (2023)](https://prompt-plus.github.io/) ([Code](https://github.com/mkshing/prompt-plus-pytorch))
+- [ArtBot for Stable Diffusion](https://github.com/daveschumaker/artbot-for-stable-diffusion) - Front end GUI for interacting with the Stable Horde / Stable Diffusion distributed cluster.
+- [Adobe Firefly](https://firefly.adobe.com/) - AI Art Generator. ([Explained](https://www.adobe.com/sensei/generative-ai/firefly.html)) ([HN](https://news.ycombinator.com/item?id=35246139))
+- [Localizing Object-level Shape Variations with Text-to-Image Diffusion Models](https://github.com/orpatashnik/local-prompt-mixing)
+- [ReVersion: Diffusion-Based Relation Inversion from Images (2023)](https://arxiv.org/abs/2303.13495) ([Code](https://github.com/ziqihuangg/ReVersion))
+- [Make-It-3D: High-Fidelity 3D Creation from A Single Image with Diffusion Prior (2023)](https://arxiv.org/abs/2303.14184) ([Code](https://github.com/junshutang/Make-It-3D))
+- [Stable diffusion webui colab](https://github.com/camenduru/stable-diffusion-webui-colab)
+- [Token Merging for Stable Diffusion](https://github.com/dbolya/tomesd) - Using nothing but pure python and pytorch, ToMe for SD speeds up diffusion by merging redundant tokens.
+- [DiffusionFastForward](https://github.com/mikonvergence/DiffusionFastForward) - Course on diffusion generative models in a fast forward mode.
+- [Deep Learning Foundations to Stable Diffusion (2023)](https://course.fast.ai/Lessons/part2.html) ([HN](https://news.ycombinator.com/item?id=35449831))
+- [Grounding DINO](https://github.com/IDEA-Research/GroundingDINO) - Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.
+- [Harry Potter By Balenciaga | Step by Step Tutorial](https://www.youtube.com/watch?v=TGD8zKvRxc4)
+- [HCP-Diffusion](https://github.com/7eu7d7/HCP-Diffusion) - Universal Stable-Diffusion toolbox.
+- [Open-MUSE](https://github.com/huggingface/open-muse) - Open reproduction of MUSE for fast text2image generation.
+- [TemporalKit](https://github.com/CiaraStrawberry/TemporalKit) - Extension for Automatic1111 to add temporal consistency to your renders.
+- [How I Used Stable Diffusion and Dreambooth to Create A Painted Portrait of My Dog (2023)](https://www.shruggingface.com/blog/how-i-used-stable-diffusion-and-dreambooth-to-create-a-painted-portrait-of-my-dog)
+- [Stable Diffusion - Automatic](https://github.com/vladmandic/automatic) - Opinionated fork/implementation of Stable Diffusion.
+- [Stable Diffusion RPC](https://github.com/GayPizzaSpecifications/stable-diffusion-rpc) - gRPC server for a Stable Diffusion worker on Apple Platforms.
+- [ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation (2023)](https://arxiv.org/abs/2304.05977) ([Code](https://github.com/THUDM/ImageReward))
+- [Text-to-Audio Generation using Instruction Tuned LLM and Latent Diffusion Model](https://github.com/declare-lab/tango)
+- [What I learned about fine-tuning stable diffusion](https://github.com/harrywang/finetune-sd)
+- [bulkai](https://github.com/igolaizola/bulkai) - Tool to generate AI images in bulk.
+- [Jupyter AI](https://github.com/jupyterlab/jupyter-ai) - Generative AI extension for JupyterLab.
+- [DeepFloyd IF by DeepFloyd, StabilityAI](https://github.com/deep-floyd/IF) ([HN](https://news.ycombinator.com/item?id=35717871))
+- [Scaling up GANs for Text-to-Image Synthesis (2023)](https://arxiv.org/abs/2303.05511) ([Code](https://github.com/lucidrains/gigagan-pytorch))
+- [FaceLit: Neural 3D Relightable Faces (2023)](https://machinelearning.apple.com/research/neural-3d-relightable) ([Code](https://github.com/apple/ml-facelit))
+- [Training Stable Diffusion from Scratch for <$50k with MosaicML (2023)](https://www.mosaicml.com/blog/training-stable-diffusion-from-scratch-part-2)
+- [Reflected Diffusion Models (2023)](https://aaronlou.com/blog/2023/reflected-diffusion/) ([HN](https://news.ycombinator.com/item?id=35863309))
+- [StableSR](https://github.com/IceClear/StableSR) - Exploiting Diffusion Prior for Real-World Image Super-Resolution.
+- [StableStudio by Stability AI](https://github.com/Stability-AI/StableStudio) ([HN](https://news.ycombinator.com/item?id=35975578))
+- [Quivr](https://github.com/StanGirard/quivr) - Dump all your files and thoughts into your GenerativeAI Second Brain and chat with it.
+- [Stable Diffusion Training with MosaicML](https://github.com/mosaicml/diffusion)
+- [Google Generative AI Python Client](https://github.com/google/generative-ai-python)
+- [Diff-Pruning: Structural Pruning for Diffusion Models](https://github.com/VainF/Diff-Pruning)
+- [StableSR for Stable Diffusion WebUI](https://github.com/pkuliyi2015/sd-webui-stablesr)
+- [Adaptation of Text-Conditioned Diffusion Models for Audio-to-Image Generation (2023)](https://pages.cs.huji.ac.il/adiyoss-lab/AudioToken/) ([Code](https://github.com/guyyariv/AudioToken))
+- [After Detailer](https://github.com/Bing-su/adetailer) - Auto detecting, masking and inpainting with detection model.
+- [One-click deepfake (face swap)](https://github.com/s0md3v/roop)
+- [Examples using Photoshop’s new “Generative Fill” feature](https://twitter.com/_Borriss_/status/1663568770408013831) ([HN](https://news.ycombinator.com/item?id=36135525))
+- [Protein Design with Guided Discrete Diffusion](https://github.com/ngruver/NOS)
+- [StyleDrop: Text-to-Image Generation in Any Style (2023)](https://styledrop.github.io/) ([HN](https://news.ycombinator.com/item?id=36176302)) ([Paper](https://arxiv.org/abs/2305.19012)) ([Code](https://github.com/icoz69/StyleAvatar3D))
+- [Segment Anything in High Quality (2023)](https://arxiv.org/abs/2306.01567) ([Code](https://github.com/SysCV/sam-hq))
+- [Fictiverse](https://github.com/Fictiverse/Redream) - Real time Diffusion, Using Automatic1111 Stable Diffusion API. ([HN](https://news.ycombinator.com/item?id=36189027))
+- [Generative AI learning path](https://www.cloudskillsboost.google/paths/118) ([HN](https://news.ycombinator.com/item?id=36192195))
+- [C++ Implementation of StableDiffusion](https://github.com/axodox/axodox-machinelearning) ([HN](https://news.ycombinator.com/item?id=36235338))
+- [Working anime QR codes using Stable Diffusion](https://arstechnica.com/information-technology/2023/06/redditor-creates-working-anime-qr-codes-using-stable-diffusion/)
+- [Stable Diffusion Cheat-Sheet](https://github.com/SupaGruen/StableDiffusion-CheatSheet) - List of StableDiffusion styles and some notes for offline use.
+- [How to make a QR code with Stable Diffusion](https://stable-diffusion-art.com/qr-code/)
+- [Video to video with Stable Diffusion (2023)](https://stable-diffusion-art.com/video-to-video/) ([HN](https://news.ycombinator.com/item?id=36288294))
+- [Emergent Correspondence from Image Diffusion (2023)](https://diffusionfeatures.github.io/) ([Code](https://github.com/Tsingularity/dift))
+- [Stable Diffusion powered level editor for a 2D game](https://generalrobots.substack.com/p/dimension-hopper-part-1) ([HN](https://news.ycombinator.com/item?id=36295227))
+- [SnapFusion: Text-to-Image Diffusion Model on Mobile Devices within Two Seconds](https://snap-research.github.io/SnapFusion/) ([HN](https://news.ycombinator.com/item?id=36304716))
+- [Ealain for macOS](https://github.com/amiantos/ealain) - Screensaver that generates abstract art using Stable Diffusion.
+- [Re-imagine the Negative Prompt Algorithm: Transform 2D Diffusion into 3D, alleviate Janus problem and Beyond](https://perp-neg.github.io/) ([Code](https://github.com/Perp-Neg/Perp-Neg-stablediffusion))
+- [Comparing Adobe Firefly, Dalle-2, and OpenJourney (2023)](https://blog.usmanity.com/comparing-adobe-firefly-dalle-2-and-openjourney/) ([HN](https://news.ycombinator.com/item?id=36407272))
+- [Kitchen Theme for Stable Diffusion WebUI](https://github.com/canisminor1990/sd-webui-kitchen-theme)
+- [Sample code and notebooks for Generative AI on Google Cloud](https://github.com/GoogleCloudPlatform/generative-ai)
+- [Generative Models by Stability AI](https://github.com/Stability-AI/generative-models)
